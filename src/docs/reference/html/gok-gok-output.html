@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-output</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-modifier.html" title="gok-modifier">
+<link rel="next" href="gok-gok-scanner.html" title="gok-scanner">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-modifier.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-scanner.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-output.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-output.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-output">
+<a name="gok-gok-output"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-output.top_of_page"></a>gok-output</span></h2>
+<p>gok-output</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-output.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+void                <a class="link" href="gok-gok-output.html#gok-output-delete-all" title="gok_output_delete_all ()">gok_output_delete_all</a>               (GokOutput *pOutput);
+GokOutput*          <a class="link" href="gok-gok-output.html#gok-output-new" title="gok_output_new ()">gok_output_new</a>                      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Type,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         <a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Registry-queries.html#AccessibleKeySynthType"
+>AccessibleKeySynthType</a> Flag);
+GokOutput*          <a class="link" href="gok-gok-output.html#gok-output-new-from-xml" title="gok_output_new_from_xml ()">gok_output_new_from_xml</a>             (xmlNode *pNode);
+void                <a class="link" href="gok-gok-output.html#gok-output-send-to-system" title="gok_output_send_to_system ()">gok_output_send_to_system</a>           (GokOutput *pOutput,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bNoWordCompletion);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-output.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-output.details"></a><h2>Details</h2>
+<div class="refsect2" title="gok_output_delete_all ()">
+<a name="gok-output-delete-all"></a><h3>gok_output_delete_all ()</h3>
+<pre class="programlisting">void                gok_output_delete_all               (GokOutput *pOutput);</pre>
+<p>
+Deletes the given GokOutput and other GokOutputs that are in its list.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pOutput</code></em> :</span></p></td>
+<td> Pointer to the GokOutput that you want deleted.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_output_new ()">
+<a name="gok-output-new"></a><h3>gok_output_new ()</h3>
+<pre class="programlisting">GokOutput*          gok_output_new                      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Type,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         <a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Registry-queries.html#AccessibleKeySynthType"
+>AccessibleKeySynthType</a> Flag);</pre>
+<p>
+Creates a new GokOutput and initializes it to the given values.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Type</code></em> :</span></p></td>
+<td> Type of output (e.g. keysym or keycode).
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Name</code></em> :</span></p></td>
+<td> Keycode, Keysym, or UTF-8 string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Flag</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new GokOutput, NULL if not created. 
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_output_new_from_xml ()">
+<a name="gok-output-new-from-xml"></a><h3>gok_output_new_from_xml ()</h3>
+<pre class="programlisting">GokOutput*          gok_output_new_from_xml             (xmlNode *pNode);</pre>
+<p>
+Creates a new GokOutput and initializes it from the given XML node.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pNode</code></em> :</span></p></td>
+<td> Pointer to the XML node.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new GokOutput, NULL if not created. 
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_output_send_to_system ()">
+<a name="gok-output-send-to-system"></a><h3>gok_output_send_to_system ()</h3>
+<pre class="programlisting">void                gok_output_send_to_system           (GokOutput *pOutput,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bNoWordCompletion);</pre>
+<p>
+Sends the given GokOutput to the system. All other GokOutputs that are
+linked to this output are also sent.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pOutput</code></em> :</span></p></td>
+<td> Pointer to a GokOutput that will be sent to the system.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bNoWordCompletion</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

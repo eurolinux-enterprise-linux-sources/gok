@@ -1,0 +1,64 @@
+<refentry id="gok-gok-sound">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-gok-sound.top_of_page">gok-sound</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gok-sound</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-gok-sound.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+<link linkend="void">void</link>                <link linkend="gok-sound-initialize">gok_sound_initialize</link>                (void);
+<link linkend="gint">gint</link>                <link linkend="gok-sound-play">gok_sound_play</link>                      (const <link linkend="gchar">gchar</link> *soundfile);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-gok-sound.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-gok-sound.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="gok-sound-initialize" role="function">
+<title>gok_sound_initialize ()</title>
+<indexterm zone="gok-sound-initialize"><primary sortas="gok_sound_initialize">gok_sound_initialize</primary></indexterm><programlisting><link linkend="void">void</link>                gok_sound_initialize                (void);</programlisting>
+<para>
+Initialises gok-sound.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-sound-play" role="function">
+<title>gok_sound_play ()</title>
+<indexterm zone="gok-sound-play"><primary sortas="gok_sound_play">gok_sound_play</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_sound_play                      (const <link linkend="gchar">gchar</link> *soundfile);</programlisting>
+<para>
+Plays <parameter>soundfile</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>soundfile</parameter>&#160;:</term>
+<listitem><simpara> The sound file to play.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> 0 on success, negative value otherwise.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

@@ -1,0 +1,2269 @@
+# translation of as.po to Assamese
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Amitakhya Phukan <amitakhya@svn.gnome.org>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: as\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=gok&component=general\n"
+"POT-Creation-Date: 2009-08-10 20:07+0000\n"
+"PO-Revision-Date: 2009-09-18 16:32+0530\n"
+"Last-Translator: \n"
+"Language-Team: Assamese <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "সক্ৰিয় কৰা হ'ব"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "সক্ৰিয় কৰা হ'ব:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "সক্ৰিয়কৰণ:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "স্বয়ংক্ৰিয় স্কেনিং ব্যৱস্থা"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "তলৰ/ওপৰ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "বন্ধ হোৱা পূৰ্বে পুনৰাবৃত্তি:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:66
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "ফিড-বেক"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "ফিড-বেক ব্যৱস্থা সক্ৰিয়কৰণ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "ফিড-বেক গতিবিধি"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "প্ৰাথমিক বিলম্ব:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "বাওঁফালে/সোঁফালে"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "লৰচৰ কৰা:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "কাৰ্য্য"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "বিকল্প"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+"স্কেনিং আৰম্ভ কৰোঁতে এটা চুইচ টিপক ।  বিকল্প নিৰ্ব্বাচনৰ বাবে এটা চুইচ বা অন্য এটা "
+"টিপক ।"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "সোঁফালে/বাওঁফালে"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "স্কেনত বিলম্ব:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "স্কেনৰ গতি:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "স্কেন কৰাৰ দিশা:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "স্কেনিং কৰ্ম আৰম্ভ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "স্কেনিং আৰম্ভ কৰা হ'ব:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "ওপৰ/তলৰ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "শাৰী/স্তম্ভ বিভাজন"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "feedbackmovement"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "feedbackselection"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "সৰাসৰি নিৰ্ব্বাচন"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "ফিডবেক সক্ৰিয়কৰণ:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "ফিডবেক লৰচৰ কৰা:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr "কোনো কি উজ্জ্বল কৰোঁতে মাউজ পয়েন্টাৰ নাড়ান ।  নিৰ্ব্বাচন কৰোঁতে এটা চুইচ টিপক ।"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "নিৰ্ব্বাচন:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "Dwell নিৰ্ব্বাচন"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "কি উজ্জ্বল কৰাৰ বাবে মাউছ পয়েন্টাৰ নাড়ান ।  কি নিৰ্ব্বাচনৰ বাবে Dwell কৰক ।"
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "বিষয়ে"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "সহায়তা"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "পছন্দ"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "GOKৰ পৰা প্ৰস্থান"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "উইন্ডো"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2467
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "পূৰ্ববৰ্তী"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:349
+msgid "A multiplier to be applied to input device valuator events before processing"
+msgstr "নিবেশ যন্ত্ৰ ভ্যালুয়েটৰ ইভেন্টেৰ প্ৰক্ৰিয়াকৰণেৰ পূৰ্বে গুণক প্ৰয়োগ কৰা হ'ব"
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"অতিৰিক্ত শব্দ-সম্পূৰ্ণ অভিধানসমূহেৰ সম্পূৰ্ণ পাথেৰ এটা সেমিকোলন দ্বাৰা সীমাঙ্কিত বিবৰণী "
+"তালিকা"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "পছন্দেৰ তালিকা কি সীমাবদ্ধ কৰা হ'ব?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "ৰচনা কৰ্মে ব্যৱহৃত ডিফল্ট কি-বোৰ্ডেৰ ধৰন নিৰ্ধাৰণ কৰোঁতে ব্যৱহৃত"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr ""
+"GOK দ্বাৰা X সাৰ্ভাৰৰৰ পৰা প্ৰাপ্ত তথ্য সহযোগে ৰচনা কৰ্মে ব্যৱহাৰযোগ্য কি-বোৰ্ড "
+"পৰিবৰ্তনশীলৰূপে গঠন কৰা হ'ব কি?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid "Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr ""
+"প্ৰত্যেক GOK ব্যৱহাৰকাৰীৰ বাবে শব্দ অনুমানৰ অভিধানৰ ব্যক্তিগত প্ৰতিলিপি উপস্থিত "
+"ৰয়েছে কি?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "GOK উইন্ডো সম্পূৰ্ণ পৰ্দা জুড়ে প্ৰদৰ্শনৰ ক্ষেত্ৰত প্ৰসাৰণ কৰা সম্ভব কি?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "প্ৰধান পয়েন্টাৰ কি GOK কি-বোৰ্ড পয়েন্টাৰকে অনুসৰণ কৰবে?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "চিহ্নিত কি দ্বাৰা গড় মান প্ৰয়োগ কৰা হ'ব কি"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "চিহ্নিত ফিড-বেকেৰ ক্ষেত্ৰত ফ্ল্যাশ কৰা হ'ব কি"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "চিহ্নিত ফিড-বেক দ্বাৰা শব্দ বাজানো হ'ব কি"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "চিহ্নিত ফিড-বেক দ্বাৰা GOK-কি লেবেল উচ্চাৰণ কৰা হ'ব কি"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "Dwell"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr "GOK প্ৰধান উইন্ডোৰ এঙ্কৰৰ অবস্থা (যদি সংযুক্ত কৰা হয়), অন্যথা ফাঁকা পংক্তি"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr ""
+"ব্যৱহাৰযোগ্য বস্তুৰ বাবে GUI ট্ৰিৰ প্ৰতিটি নোডেৰ যে সংখ্যক চাইল্ড নোড অনুসন্ধান কৰা হ'ব"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "ব্যৱহাৰযোগ্য বস্তুৰ বাবে GUI ট্ৰিৰ নিম্নস্থিত যে সংখ্যক স্তৰ অনুসন্ধান কৰা হ'ব"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "এই কৰ্মটি চিৰস্থায়ী কি"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "চিহ্নিত ফিড-বেক স্থায়ী কি"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "শব্দ-সম্পৰ্ণকৰণ ব্যৱস্থা সক্ৰিয় আছে কি"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "কি'ৰ ঝলকানি"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "মাউছৰ বাওঁফালেৰ বাটন"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "মাউছৰ মাঝখানৰ বাটন"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "মাউছ বাটন ৪"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "মাউছ বাটন ৫"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "মাউছ পয়েন্টাৰ"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "শূণ্য"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "মাউছৰ সোঁফালেৰ বাটন"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"উল্লিখিত এটা মান হোৱা উচিত: \"xkb\", \"default\", \"alpha\", \"alpha-freq\", "
+"\"custom\"; \"custom\" নিৰ্বাচিত হ'লে \"custom_compose_keyboard\" উল্লেখ কৰা "
+"আৱশ্যক ।"
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "শব্দ এক"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "শব্দ দুই"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "স্পিচ"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "চুইচ ১"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "চুইচ ২"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "চুইচ ৩"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "চুইচ ৪"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "চুইচ ৫"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "চিহ্নিত ব্যৱহাৰ-পদ্ধতি প্ৰয়োগ কৰা হ'ব"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "ব্যৱহাৰ-পদ্ধতি সংক্ৰান্ত নথিপত্ৰ চিহ্নিত ডিৰেক্টৰিৰ পৰা লোড কৰা হ'ব ।"
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "অভিধান নথিপত্ৰ চিহ্নিত ডিৰেক্টৰিৰ পৰা লোড কৰা হ'ব ।"
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "Gok ৰিসোৰ্স নথিপত্ৰ চিহ্নিত ডিৰেক্টৰিৰ পৰা লোড কৰা হ'ব ।"
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr ""
+"ব্যৱহাৰকাৰীৰ সুনিৰ্দিষ্ট বা পছন্দসই কি-বোৰ্ড নথিপত্ৰ চিহ্নিত ডিৰেক্টৰিৰ পৰা লোড কৰা হ'ব "
+"।"
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr ""
+"ৰচনা কৰ্মে ব্যৱহাৰৰ উদ্দেশ্যে ব্যৱহাৰকাৰীৰ স্বনিৰ্বাচিত GOK কি-বোৰ্ডেৰ বিবৰণ "
+"ধাৰণকাৰী নথিপত্ৰেৰ সম্পূৰ্ণ পাথ"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "কি-ৰ উচ্চতা"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "কি-ৰ প্ৰস্থ"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "কি-বোৰ্ডেৰ X স্থানাঙ্ক"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "কি-বোৰ্ডেৰ Y স্থানাঙ্ক"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "চিহ্নিত ফিড-বেক দ্বাৰা বাজানোৰ উদ্দেশ্যে শব্দ নথিপত্ৰেৰ নাম"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "ব্যৱহাযোগ্য xinput যন্ত্ৰৰ নাম"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "ব্যৱহাৰকাৰীৰ দ্বাৰা কৰ্ম সনাক্ত কৰোঁতে ব্যৱহৃত নাম"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "ব্যৱহাৰকাৰীৰ দ্বাৰা ফিড-বেক সনাক্ত কৰোঁতে ব্যৱহৃত নাম"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "প্ৰযোজ্য হ'লে ব্যৱহৃত সংখ্যা"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "শব্দ-সম্পূৰ্ণেৰ ক্ষেত্ৰত ব্যৱহৃত অনুমানৰ সংখ্যা"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "ফিড-বেক যে সংখ্যক বাৰ ঝলকাবে"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"কি-বোৰ্ড নথিপত্ৰ লোড কৰাৰ উদ্দেশ্যে ব্যৱহৃত প্ৰধান ডিৰেক্টৰি । ডিফল্টৰূপে প্ৰণালী "
+"ডিৰেক্টৰি ব্যৱহৃত হ'ব ।"
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "কৰ্মেৰ হাৰ"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "দুটি কি-ত ফাঁকা স্থান"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "চিহ্নিত কৰ্ম সক্ৰিয়কৰণেৰ অবস্থা"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "এই কৰ্মেৰ ধৰন"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr ""
+"GOK শব্দ-সম্পূৰ্ণকৰণেৰ বাবে উপযুক্ত শব্দ অনুসন্ধানৰ বাবে অতিৰিক্ত শব্দ তালিকা ব্যৱহাৰ "
+"কৰা হ'ব"
+
+#: ../gok.desktop.in.h:1
+#| msgid "Type and navigate applications using alternative input devices"
+msgid "Navigate applications and type using alternative input devices"
+msgstr "বিকল্প নিবেশ যন্ত্ৰৰ সহায়ত টাইপ কৰক আৰু এপ্লিকেশনত চলাচল কৰক"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "স্ক্ৰিনৰ ওপৰ অবস্থিত কি-বোৰ্ড"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "৩ অবস্থা"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>উপস্থিতি</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>আচৰণ</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>শাখা</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>আদেশ অনুমান</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>ৰচনা কৰ্মেৰ কি-বোৰ্ড</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>স্বনিৰ্বাচিত কি-বোৰ্ড</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>কৰ্ম নিৰ্ধাৰণ</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>ফিডবেক নিৰ্ধাৰণ</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>প্ৰাক-সক্ৰিয়কৰণ বিলম্ব</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>বিবৰণ</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>অনুভূমিক দিশা সংযুক্ত আৰু প্ৰসাৰণ কৰা হ'ব</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>ইভেন্টেৰ উৎস</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>ফন্ট</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>কি ঝলকানো</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>কি'ৰ মাপ আৰু অন্তৰ্বৰ্তী স্থান নিয়ন্ত্ৰণ</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>কি</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>কি-বোৰ্ড</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>পৰিবৰ্তক</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>আউটপুট</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>অবস্থান</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>পূৰ্বপ্ৰদৰ্শন</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>স্পৰ্শকাতৰতা</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>শব্দ/ধ্বনি</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>স্পিচ</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>চুইচ বা বাটনৰ সংখ্যা</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>থিম</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>টাইমাৰ আৰু বিলম্ব</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>ধৰন</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>ভ্যালুয়েটৰৰ ধৰন</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>শব্দ-সম্পূৰ্ণকৰণ</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>উল্লেখ্য:</b> পৰবৰ্তীবাৰ GOK না চালানো হ'লে চিহ্নিত বৈশিষ্ট্য প্ৰভাবিত "
+"হ'ব না ।</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr "এক্সটেন্ডেড ভ্যালুয়েটৰ ইভেন্ট প্ৰক্ৰিয়াকৰণেৰ পূৰ্বে ব্যৱহৃত গুণক"
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "ব্যৱহাৰ পদ্ধতি"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "কৰ্মেৰ নামেৰ তালিকা"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "কৰ্মেৰ ধৰন:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "ActionTypeNotebook"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "কৰ্ম"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "Dwell'এ সক্ৰিয় কৰা হ'ব (_e)"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "Enter'এ সক্ৰিয় কৰা হ'ব (_E)"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "নড়াচড়ায় সক্ৰিয় কৰা হ'ব (_M)"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "টেপা হ'লে সক্ৰিয় কৰা হ'ব (_p)"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "মুক্ত কৰাৰ হ'লে সক্ৰিয় কৰা হ'ব (_r)"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "যোগ কৰক"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "নতুন কি যোগ কৰক"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "GOK কি-বোৰ্ড অনুসন্ধানৰ বাবে ব্যৱহৃত অতিৰিক্ত ডিৰেক্টৰি"
+
+#: ../gok.glade2.h:47
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "অক্ষৰ ব্যৱহাৰৰ হাৰ অনুযায়ী সাজানো আলফানিউমেৰিক কি-বোৰ্ড"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "অক্ষৰ ক্ৰমান্বয়ে সাজানো আলফানিউমেৰিক কি-বোৰ্ড"
+
+#: ../gok.glade2.h:49
+msgid "Appearance"
+msgstr "চেহাৰা"
+
+#: ../gok.glade2.h:50
+msgid "Bottom:"
+msgstr "তলদেশ:"
+
+#: ../gok.glade2.h:51
+msgid "Browse"
+msgstr "চৰক"
+
+#: ../gok.glade2.h:52
+msgid "C_ore pointer"
+msgstr "প্ৰধান পয়েন্টাৰ (_r)"
+
+#: ../gok.glade2.h:53
+msgid "Command Prediction"
+msgstr "আদেশ অনুমান"
+
+#: ../gok.glade2.h:54
+msgid "Delay"
+msgstr "বিলম্ব"
+
+#: ../gok.glade2.h:55
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr ""
+"কোনো ইভেন্ট ঘটাৰ পিছত আৰু তৎসংযুক্ত প্ৰক্ৰিয়াৰ সক্ৰিয়কৰণেত সেকেন্ডেৰ শতাংশ "
+"অনুসাৰে বিলম্বেৰ মাত্ৰা ।"
+
+#: ../gok.glade2.h:56
+msgid "Delete"
+msgstr "মুছে ফেলুন"
+
+#: ../gok.glade2.h:57
+msgid "Delete Key"
+msgstr "কি মুছে ফেলুন"
+
+#: ../gok.glade2.h:58
+msgid "Dock"
+msgstr "সংযুক্ত কৰক"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:59 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "তলৰ সংযুক্ত কৰক"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "ওপৰ সংযুক্ত কৰক"
+
+#: ../gok.glade2.h:61
+msgid "Duplicate"
+msgstr "প্ৰতিলিপি"
+
+#: ../gok.glade2.h:62
+msgid "Enable _key flashing"
+msgstr "কি ঝলকানো হ'ব (_k)"
+
+#: ../gok.glade2.h:63
+msgid "Enable _sound"
+msgstr "শব্দ সহকাৰে (_s)"
+
+#: ../gok.glade2.h:64
+msgid "Enable _word completion"
+msgstr "শব্দ-সম্পূৰ্ণ সক্ৰিয় কৰা হ'ব (_w)"
+
+#: ../gok.glade2.h:65
+msgid "Enable co_mmand prediction"
+msgstr "আদেশ অনুমান সক্ৰিয় কৰা হ'ব (_m)"
+
+#: ../gok.glade2.h:67
+msgid "Fill Width"
+msgstr "ভৰাট কৰাৰ প্ৰস্থ"
+
+#: ../gok.glade2.h:68
+msgid "Font Group:"
+msgstr "ফন্ট সংকলন:"
+
+#: ../gok.glade2.h:69 ../gok/gok-editor.c:36
+msgid "GOK Keyboard Editor"
+msgstr "GOK কি-বোৰ্ড সম্পাদন ব্যৱস্থা"
+
+#: ../gok.glade2.h:70
+msgid "GOK Preferences"
+msgstr "GOK পছন্দ"
+
+#: ../gok.glade2.h:71
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:72
+msgid "Key Height"
+msgstr "কি-ৰ উচ্চতা"
+
+#: ../gok.glade2.h:73
+msgid "Key Spacing"
+msgstr "কি-ৰ অন্তৰ্বৰ্তী স্থান"
+
+#: ../gok.glade2.h:74
+msgid "Key Width"
+msgstr "কি-ৰ প্ৰস্থ"
+
+#: ../gok.glade2.h:75
+msgid "Key _width:"
+msgstr "কি-ৰ প্ৰস্থ: (_w)"
+
+#: ../gok.glade2.h:76
+msgid "Key h_eight:"
+msgstr "কি-ৰ উচ্চতা: (_e)"
+
+#: ../gok.glade2.h:77
+msgid "Keyboards"
+msgstr "কি-বোৰ্ড"
+
+#: ../gok.glade2.h:78
+msgid "Keycode:"
+msgstr "কি-কোড:"
+
+#: ../gok.glade2.h:79
+msgid "Keysym:"
+msgstr "Keysym:"
+
+#: ../gok.glade2.h:80
+msgid "Label:"
+msgstr "লেবেল:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:81 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "বাঁদিক:"
+
+#: ../gok.glade2.h:82
+msgid "Match physical keyboard as reported by X Server"
+msgstr "X সাৰ্ভাৰ দ্বাৰা সূচিত প্ৰকৃত কি-বোৰ্ডেৰ সাথে মেলানো হ'ব"
+
+#: ../gok.glade2.h:83
+msgid "Modifier Post"
+msgstr "পৰিবৰ্তক পৰবৰ্তী"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Pre"
+msgstr "পৰিবৰ্তক পূৰ্ববৰ্তী"
+
+#: ../gok.glade2.h:85
+msgid "Modifier:"
+msgstr "পৰিবৰ্তক:"
+
+#: ../gok.glade2.h:86
+msgid "Move Down"
+msgstr "তললৈ নিয়ক"
+
+#: ../gok.glade2.h:87
+msgid "Move Up"
+msgstr "উপৰলৈ"
+
+#: ../gok.glade2.h:88
+msgid "Name:"
+msgstr "নাম:"
+
+#: ../gok.glade2.h:89
+msgid "New"
+msgstr "নতুন"
+
+#: ../gok.glade2.h:90
+msgid "Next Key"
+msgstr "পৰবৰ্তী কি"
+
+#: ../gok.glade2.h:91
+msgid "Normal"
+msgstr "স্বাভাবিক"
+
+#: ../gok.glade2.h:92
+msgid "Number of _flashes:"
+msgstr "ঝলকানিৰ সংখ্যা: (_f)"
+
+#: ../gok.glade2.h:93
+msgid "Number of _predictions:"
+msgstr "অনুমানৰ সংখ্যা: (_p)"
+
+#: ../gok.glade2.h:94
+msgid "Number of command predictions:"
+msgstr "আদেশ অনুমানৰ সংখ্যা:"
+
+#: ../gok.glade2.h:95
+msgid "Number of word predictions:"
+msgstr "শব্দ অনুমানৰ সংখ্যা:"
+
+#: ../gok.glade2.h:96
+msgid "Other _input device:"
+msgstr "অন্য নিবেশ যন্ত্ৰ: (_i)"
+
+#: ../gok.glade2.h:97
+msgid "Prediction"
+msgstr "অনুমান"
+
+#: ../gok.glade2.h:98
+msgid "Press"
+msgstr "টিপক"
+
+#: ../gok.glade2.h:99
+msgid "Previous Key"
+msgstr "পূৰ্ববৰ্তী কি"
+
+#: ../gok.glade2.h:100
+msgid "Read keyboard from file:"
+msgstr "চিহ্নিত নথিপত্ৰৰ পৰা কি-বোৰ্ড পড়া হ'ব:"
+
+#: ../gok.glade2.h:101
+msgid "Release"
+msgstr "মুক্ত কৰক"
+
+#. User interface for the access method
+#: ../gok.glade2.h:102 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "ডানদিক:"
+
+#: ../gok.glade2.h:103
+msgid "S_witch"
+msgstr "চুইচ (_w)"
+
+#: ../gok.glade2.h:104
+msgid "Show Only This Font Group"
+msgstr "শুধুমাত্ৰ চিহ্নিত ফন্ট সংকলন প্ৰদৰ্শন কৰা হ'ব"
+
+#: ../gok.glade2.h:105
+msgid "So_und:"
+msgstr "শব্দ: (_u)"
+
+#: ../gok.glade2.h:106
+msgid "Speak key _label"
+msgstr "কি'ৰ লেবেল উচ্চাৰণ কৰা হ'ব (_l)"
+
+#: ../gok.glade2.h:107
+msgid "Style:"
+msgstr "বৰ্গ:"
+
+#: ../gok.glade2.h:108
+msgid "Switch _1"
+msgstr "চুইচ ১ (_1)"
+
+#: ../gok.glade2.h:109
+msgid "Switch _2"
+msgstr "চুইচ ২ (_2)"
+
+#: ../gok.glade2.h:110
+msgid "Switch _3"
+msgstr "চুইচ ৩ (_3)"
+
+#: ../gok.glade2.h:111
+msgid "Switch _4"
+msgstr "চুইচ ৪ (_4)"
+
+#: ../gok.glade2.h:112
+msgid "Switch _5"
+msgstr "চুইচ ৫ (_5)"
+
+#: ../gok.glade2.h:113
+msgid "Target:"
+msgstr "লক্ষ্য:"
+
+#: ../gok.glade2.h:114
+msgid "To Back"
+msgstr "পেছনে"
+
+#: ../gok.glade2.h:115
+msgid "To Front"
+msgstr "সামনে"
+
+#: ../gok.glade2.h:116
+msgid "Toggle"
+msgstr "অদলবদল"
+
+#: ../gok.glade2.h:117
+msgid "Top:"
+msgstr "উপৰ:"
+
+#: ../gok.glade2.h:118
+msgid "Use _extra word list file(s)"
+msgstr "অতিৰিক্ত শব্দতালিকা নথিপত্ৰ ব্যৱহাৰ কৰা হ'ব (_e)"
+
+#: ../gok.glade2.h:119
+msgid "Use _key averaging"
+msgstr "কি'ৰ গড় মান ব্যৱহাৰ কৰা হ'ব (_k)"
+
+#: ../gok.glade2.h:120
+msgid "Valuator Sensitivity"
+msgstr "ভেলুয়েটৰ সেনসিটিভিটি"
+
+#: ../gok.glade2.h:121
+msgid "Word Completion"
+msgstr "শব্দ-সম্পূৰ্ণকৰণ"
+
+#: ../gok.glade2.h:122
+msgid "_100ths of a second"
+msgstr "সেকেন্ডেৰ শতাংশেৰ এক ভাগ (_1)"
+
+#: ../gok.glade2.h:123
+msgid "_Add"
+msgstr "যোগ কৰক (_A)"
+
+#: ../gok.glade2.h:124
+msgid "_Browse..."
+msgstr "ব্ৰাউজ কৰক...(_B)"
+
+#: ../gok.glade2.h:125
+msgid "_Delete"
+msgstr "মুছে ফেলুন (_D)"
+
+#: ../gok.glade2.h:126
+msgid "_Joystick"
+msgstr "জয়স্টিক (_J)"
+
+#: ../gok.glade2.h:127
+msgid "_Method:"
+msgstr "পদ্ধতি: (_M)"
+
+#: ../gok.glade2.h:128
+msgid "_Name:"
+msgstr "নাম :(_N)"
+
+#: ../gok.glade2.h:129
+msgid "_New"
+msgstr "নতুন (_N)"
+
+#: ../gok.glade2.h:130
+msgid "_Number of predictions:"
+msgstr "অনুমানৰ সংখ্যা: (_N)"
+
+#: ../gok.glade2.h:131
+msgid "_Rename"
+msgstr "নাম পৰিবৰ্তন কৰক (_R)"
+
+#: ../gok.glade2.h:132
+msgid "_Single axis:"
+msgstr "একক অক্ষ: (_S)"
+
+#: ../gok.glade2.h:133
+msgid "_Spacing:"
+msgstr "অন্তৰ্বৰ্তী স্থান: (_S)"
+
+#: ../gok.glade2.h:134
+msgid "_Use Desktop Theme Preferences"
+msgstr "ডেস্কটপ থিমেৰ পছন্দ ব্যৱহাৰ কৰা হ'ব (_U)"
+
+#: ../gok.glade2.h:135
+msgid "_Valuator"
+msgstr "ভ্যালুয়েটৰ (_V)"
+
+#: ../gok.glade2.h:136
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "X-Y ভ্যালুয়েটৰ (০ আৰু ১ অক্ষ) (_X)"
+
+#: ../gok.glade2.h:137
+msgid "access method name"
+msgstr "ব্যৱহাৰ-পদ্ধতিৰ নাম"
+
+#: ../gok.glade2.h:138
+msgid "cancel"
+msgstr "বাতিল"
+
+#: ../gok.glade2.h:139
+msgid "display user help"
+msgstr "সহায়িকা প্ৰদৰ্শন"
+
+#: ../gok.glade2.h:140
+msgid "high"
+msgstr "উচ্চ"
+
+#: ../gok.glade2.h:141
+msgid "low"
+msgstr "নিম্ন"
+
+#: ../gok.glade2.h:142
+msgid "pixels"
+msgstr "পিক্সেল"
+
+#: ../gok.glade2.h:143
+msgid "revert to original settings"
+msgstr "বৈশিষ্ট্যেৰ প্ৰাৰম্ভিক মান পুনৰায় ব্যৱহাৰ কৰা হ'ব"
+
+#: ../gok.glade2.h:144
+msgid "try these settings"
+msgstr "চিহ্নিত বৈশিষ্ট্য সহযোগে প্ৰচেষ্টা কৰা হ'ব"
+
+#: ../gok.glade2.h:145
+msgid "use these settings"
+msgstr "চিহ্নিত বৈশিষ্ট্য প্ৰয়োগ কৰা হ'ব"
+
+#: ../gok/callbacks.c:373
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "দুঃখিত, ব্যৱহাৰ-পদ্ধতি উইজাৰ্ড বৰ্তমানে স্থাপিত নেই ।"
+
+#: ../gok/callbacks.c:375
+msgid "GOK Access Method Wizard"
+msgstr "GOK Access Method Wizard"
+
+#: ../gok/gok-control.c:248
+msgid "GOK Browse for sound file"
+msgstr "শব্দ নথিপত্ৰ ব্ৰাউজ কৰাৰ বাবে GOK'ৰ ব্ৰাউজ ব্যৱস্থা"
+
+#: ../gok/gok-control.c:249
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "দুঃখিত, শব্দেৰ নথিপত্ৰেৰ বাবে বৰ্তমানে কোনো ব্যৱস্থা উপস্থিত নেই ।"
+
+#: ../gok/gok-control.c:254
+msgid "GOK Inverse Scanning Advanced"
+msgstr "GOK Inverse Scanning Advanced"
+
+#: ../gok/gok-control.c:255
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "দুঃখিত, উন্নত বৈশিষ্ট্য বৰ্তমানে উপস্থিত নেই ।"
+
+#: ../gok/gok-editor.c:147 ../gok/gok-editor.c:181 ../gok/gok-editor.c:262
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"আপনি বৰ্তমান নথিপত্ৰে পৰিবৰ্তন কৰিছেন ।\n"
+"এই পৰিবৰ্তনগুলি কি আপনি বাতিল কৰোঁতে চান?"
+
+#: ../gok/gok-editor.c:149 ../gok/gok-editor.c:183 ../gok/gok-editor.c:264
+#: ../gok/gok-editor.c:1056
+msgid "Keyboard Filename Invalid"
+msgstr "কি-বোৰ্ড নথিপত্ৰেৰ নাম বৈধ নহয়"
+
+#: ../gok/gok-editor.c:212
+msgid "new"
+msgstr "নতুন"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:274
+msgid "Select keyboard file for editing"
+msgstr "সম্পাদনাৰ বাবে কি-বোৰ্ড নথিপত্ৰ নিৰ্ব্বাচন কৰক"
+
+#: ../gok/gok-editor.c:284 ../gok/gok-editor.c:976
+msgid ".kbd files"
+msgstr ".kbd নথিপত্ৰ"
+
+#: ../gok/gok-editor.c:539
+msgid "label"
+msgstr "লেবেল"
+
+#: ../gok/gok-editor.c:713
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "নথিপত্ৰ সংৰক্ষণে ব্যৰ্থ: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:966
+msgid "Save keyboard file as"
+msgstr "নতুন ৰূপে কি-বোৰ্ড নথিপত্ৰ সংৰক্ষণ"
+
+#: ../gok/gok-editor.c:1047
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"এইটো কি-বোৰ্ড নথিপত্ৰেৰ বৈধ নাম নহয়:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1079
+msgid "(new)"
+msgstr "(নতুন)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"GOK '%s' নামক এটা নতুন হাৰ্ডওয়্যাৰ যন্ত্ৰৰ গতিবিধি সনাক্ত কৰিছে । আপনি কি '%s' "
+"যন্ত্ৰটিৰ পৰিবৰ্তে নতুন যন্ত্ৰটি ব্যৱহাৰ কৰোঁতে ইচ্ছুক?"
+
+#: ../gok/gok-key.c:118
+msgid "Mute"
+msgstr "নিঃশব্দ"
+
+#: ../gok/gok-key.c:121
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"মাউছ\n"
+"কি"
+
+#: ../gok/gok-key.c:124
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"বাওঁফালে\n"
+"ট্যাব"
+
+#: ../gok/gok-key.c:231
+msgid "<nil>"
+msgstr "<nil>"
+
+#: ../gok/gok-key.c:235
+msgid "Divide"
+msgstr "ভাগ"
+
+#: ../gok/gok-key.c:238
+msgid "Multiply"
+msgstr "গুণ"
+
+#: ../gok/gok-key.c:241
+msgid "Subtract"
+msgstr "বিয়োগ"
+
+#: ../gok/gok-key.c:244
+msgid "Addition"
+msgstr "যোগ"
+
+#: ../gok/gok-key.c:247
+msgid "Prior"
+msgstr "পূৰ্ববৰ্তী"
+
+#: ../gok/gok-key.c:250
+msgid "Next"
+msgstr "পৰবৰ্তী"
+
+#: ../gok/gok-key.c:253 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "গৃহ"
+
+#: ../gok/gok-key.c:256 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "সমাপ্তি"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:259 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "ওপৰ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:262 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "তলৰ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:265 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "বাওঁফালে"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:268 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "সোঁফালে"
+
+#: ../gok/gok-key.c:271
+msgid "Begin"
+msgstr "আৰম্ভ"
+
+#: ../gok/gok-key.c:274
+msgid "Decimal"
+msgstr "দশমিক"
+
+#: ../gok/gok-key.c:277
+msgid "Meta"
+msgstr "মিটা"
+
+#: ../gok/gok-key.c:280
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"একাধিক\n"
+"কি"
+
+#: ../gok/gok-key.c:283
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Eisu\n"
+"অদলবদল"
+
+#: ../gok/gok-key.c:286
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"হেনকান\n"
+"মোড"
+
+#: ../gok/gok-key.c:289
+msgid "Muhenkan"
+msgstr "মুহেনকান"
+
+#: ../gok/gok-key.c:292
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"মোড\n"
+"পৰিবৰ্তন"
+
+#: ../gok/gok-key.c:295
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"হিৰাগানা\n"
+"কাটাকানা"
+
+#: ../gok/gok-keyboard.c:156
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Xkb এক্সটেনশন সচল কৰা নাযায়! (ত্ৰুটিৰ সংখ্যা %x)"
+
+#: ../gok/gok-keyboard.c:162 ../gok/gok-keyboard.c:203
+msgid "keyboard description not available!"
+msgstr "কি-বোৰ্ডেৰ বৰ্ণনা অনুপস্থিত!"
+
+#: ../gok/gok-keyboard.c:168 ../gok/gok-keyboard.c:209
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "আপনাৰ ব্যৱহৃত X সাৰ্ভাৰৰ পৰা কি-বোৰ্ডেৰ জ্যামিতি সংক্ৰান্ত তথ্য পড়তে ব্যৰ্থ ।"
+
+#: ../gok/gok-keyboard.c:434
+msgid "Back"
+msgstr "পিছলৈ"
+
+#: ../gok/gok-keyboard.c:451 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "পৰবৰ্তীটি পুনৰাবৃত্তি কৰা হ'ব"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "সম্পাদন"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"সংখ্যা \n"
+"প্যাড"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "আড়াল কৰা হ'ব"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:680
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:693
+msgid "Level 2"
+msgstr "Level 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:706
+msgid "Level 3"
+msgstr "Level 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:719
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"বেক\n"
+"স্পেস"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:730 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "ট্যাব"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:741
+msgid "space"
+msgstr "স্পেসবাৰ"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:752 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "এন্টাৰ"
+
+#: ../gok/gok-keyboard.c:790 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "মেনু"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:846
+#| msgid "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:850
+#| msgid "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:862
+#| msgid "level 2|"
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:871
+#| msgid "level 3|"
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:918
+#| msgid "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:919
+#| msgid "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:927
+#| msgid "level 2|"
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:933
+#| msgid "level 3|"
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1916
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2790
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2795 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "টেবিল"
+
+#: ../gok/gok-keyboard.c:2800 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "টুলবাৰ"
+
+#: ../gok/gok-keyboard.c:2804
+msgid "Applications"
+msgstr "অনুপ্ৰয়োগ"
+
+#: ../gok/gok-keyboard.c:2814
+msgid "Menu"
+msgstr "মেনু"
+
+#. please!
+#: ../gok/gok-keyboard.c:3626 ../gok/gok-sound.c:49 ../gok/main.c:1941
+#: ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3630
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "GNOME ডেস্কটপে ব্যৱহাৰযোগ্য পৰিবৰ্তনশীল ভাৰ্চুয়াল কি-বোৰ্ড"
+
+#: ../gok/gok-keyboard.c:3632
+msgid "translator-credits"
+msgstr "অমিতাক্ষ ফুকন (aphukan@fedoraproject.org)"
+
+#: ../gok/gok-keyboard.c:3634
+msgid "Full Credits"
+msgstr "সম্পূৰ্ণ স্বীকৃতি"
+
+#: ../gok/gok-keyboard.c:3636
+#| msgid "About"
+msgid "About GOK"
+msgstr "GOK ৰ বিষয়ে"
+
+#: ../gok/gok-libusb.c:162
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "libusb বেক তন্ড আৰম্ভ কৰোঁতে ব্যৰ্থ - %s"
+
+#: ../gok/gok-libusb.c:190
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: VID:PID জুটি মান %x সহ যন্ত্ৰ সনাক্ত কৰা হৈছে:%x"
+
+#: ../gok/gok-libusb.c:201
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "VID:PID জুটি মান %x সহ যন্ত্ৰ পাওয়া নাযায়:%x ।"
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:213
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "%s-ৰ অনুমতি সঠিক নহয়"
+
+#: ../gok/gok-libusb.c:301
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "যন্ত্ৰ %x ত প্ৰযোজ্য USB সমাপ্তিস্থান (endpoints) পাওয়া নাযায়:%x"
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "বৰ্ণনা পড়তে সমস্যা"
+
+#: ../gok/gok-sound.c:52
+#| msgid "Feedback"
+msgid "Key Feedback"
+msgstr "কি ফিড-বেক"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1701
+msgid "V Scrollbar"
+msgstr "উলম্ব স্ক্ৰোল-বাৰ"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1706
+msgid "H Scrollbar"
+msgstr "অনু স্ক্ৰোলবাৰ"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:375 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "GOK কৰ্মেৰ নাম"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:381
+msgid "Change the action name:"
+msgstr "কৰ্মেৰ নাম পৰিবৰ্তন কৰক:"
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"কৰ্মেৰ নাম থকা আৱশ্যক ।\n"
+"এটা নতুন কৰ্মেৰ নাম লিখুন ।"
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"দুঃখিত, এই নামটি বৰ্তমানে ব্যৱহৃত হচ্ছে ।\n"
+"অনুগ্ৰহ কৰি অন্য এটা নতুন নাম বেছে নিন"
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+msgid "New Action %d"
+msgstr "নতুন কৰ্ম %d"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "আপনি কি চিহ্নিত কৰ্ম মুছে ফেলতে ইচ্ছুক (%s)?"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "GOK কৰ্ম বাতিল"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:413 ../gok/gok-page-feedbacks.c:453
+#: ../gok/gok-page-feedbacks.c:473
+msgid "GOK Feedback Name"
+msgstr "GOK ফিড-বেকেৰ নাম"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:419
+msgid "Change the feedback name:"
+msgstr "ফিডবেকেৰ নাম পৰিবৰ্তন কৰক:"
+
+#: ../gok/gok-page-feedbacks.c:451
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"ফিড-বেকেৰ নাম থকা আৱশ্যক ।\n"
+"অনুগ্ৰহ কৰি ফিড-বেকেৰ নাম লিখুন ।"
+
+#: ../gok/gok-page-feedbacks.c:471
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"দুঃখিত, এই নামটি বৰ্তমানে ব্যৱহৃত হচ্ছে ।\n"
+"অনুগ্ৰহ কৰি এই ফিডবেকেৰ বাবে এটা নতুন নাম নিৰ্ব্বাচন কৰক"
+
+#: ../gok/gok-page-feedbacks.c:523
+#, c-format
+msgid "New Feedback %d"
+msgstr "নতুন ফিড-বেক %d"
+
+#: ../gok/gok-page-feedbacks.c:639
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "আপনি কি চিহ্নিত ফিড-বেক মুছে ফেলতে ইচ্ছুক (%s)?"
+
+#: ../gok/gok-page-feedbacks.c:648
+msgid "GOK Delete Feedback"
+msgstr "GOK ফিড-বেক অপসাৰণ"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:871
+msgid "Select sound file"
+msgstr "শব্দেৰ নথিপত্ৰ নিৰ্ব্বাচন কৰক"
+
+#: ../gok/gok-page-keyboard.c:215
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "অতিৰিক্ত GOK কি-বোৰ্ড নথিপত্ৰ অনুসন্ধানৰ বাবে ডিৰেক্টৰিৰ নাম লিখুন ।"
+
+#: ../gok/gok-page-keyboard.c:249
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "ৰচনাকৰ্মেৰ বাবে প্ৰাৰম্ভিক কি-বোৰ্ড গঠন কৰোঁতে ব্যৱহৃত XML নথিপত্ৰ ।"
+
+#: ../gok/gok-page-keysizespace.c:82
+msgid "Button"
+msgstr "বাটন"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "উইন্ডো তালিকা"
+
+#: ../gok/gok-utf8-word-complete.c:121
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "অভিধান নথিপত্ৰ '%s'-ৰ বিষয়বস্তু পড়তে ব্যৰ্থ ।\n"
+
+#: ../gok/main.c:209
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"নিৰ্দিষ্ট ব্যৱহাৰ প্ৰণালী প্ৰয়োগ কৰা হ'ব । NAME পংক্তিটি ব্যৱহাৰ পদ্ধতি সংক্ৰান্ত "
+"বিভিন্ন নথিপত্ৰেৰ (.xam) মধ্যে <gok:accessmethod> ট্যাগেৰ \"name\" বৈশিষ্ট্যেৰ সাথে "
+"যুক্ত । উল্লেখ্য,   এইটো সৰ্বদা .xam নথিপত্ৰেৰ নাম নহয় । (--list-accessmethods দেখুন)"
+
+#: ../gok/main.c:210
+msgid "NAME"
+msgstr "নাম"
+
+#: ../gok/main.c:218
+msgid "Start the GOK keyboard editor"
+msgstr "GOK কি-বোৰ্ড সম্পাদন ব্যৱস্থা আৰম্ভ কৰা হ'ব"
+
+#: ../gok/main.c:226
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "সম্ভবত অসম্পূৰ্ণ কিন্তু gok'ৰ বিশেষ সামগ্ৰী ব্যৱহাৰ কৰা হ'ব"
+
+#: ../gok/main.c:234
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"--geometry ব্যৱহাৰ না কৰা হ'লে gok দ্বাৰা প্ৰতিবাৰ আৰম্ভকালে নিজৰ অবস্থান মনে "
+"ৰাখা হয় আৰু সৰ্বশেষ অবস্থানে পুনৰায় স্থাপিত হয় ।  --geometry ব্যৱহাৰ কৰা হ'লে X11 "
+"geometry মান অনুসাৰে পৰ্দাৰ সুনিৰ্দিষ্ট চতুষ্কোণ অংশে gok স্থাপিত হয় ।  --geometry "
+"ব্যৱহাৰকালে gok দ্বাৰা সৰ্বশেষ অবস্থান মনে ৰাখা হ'ব না ।   --remembergeometry "
+"ফ্ল্যাগ প্ৰয়োগ কৰি gok-কে বাধ্যতামূলকভাবে সৰ্বশেষ অবস্থান মনে ৰাখাৰ নিৰ্দেশ দেওয়া "
+"সম্ভব । --geometry সহযোগে gok আৰম্ভ কৰা হ'লেও এই ফ্ল্যাগটি ব্যৱহাৰ কৰা যাবে ।"
+
+#: ../gok/main.c:235
+msgid "GEOMETRY"
+msgstr "GEOMETRY"
+
+#: ../gok/main.c:243
+msgid "Use the specified input device"
+msgstr "নিৰ্বাচিত নিবেশ যন্ত্ৰ ব্যৱহাৰ কৰা হ'ব"
+
+#: ../gok/main.c:244
+msgid "DEVICENAME"
+msgstr "DEVICENAME"
+
+#: ../gok/main.c:252
+msgid "Start GOK with the specified keyboard."
+msgstr "নিৰ্দিষ্ট কি-বোৰ্ড সহযোগে GOK আৰম্ভ কৰা হ'ব ।"
+
+#: ../gok/main.c:253
+msgid "KEYBOARDNAME"
+msgstr "KEYBOARDNAME"
+
+#: ../gok/main.c:261
+msgid "List the access methods that can be used as options to other arguments."
+msgstr ""
+"অন্যান্য আৰ্গুমেন্টেৰ সাথে বিকল্প হিসাবে ব্যৱহাৰযোগ্য ব্যৱহাৰ প্ৰণালীৰ তালিকা নিৰ্মাণ "
+"কৰা হ'ব ।"
+
+#: ../gok/main.c:270
+msgid "List the actions that can be used as options to other arguments."
+msgstr "অন্যান্য আৰ্গুমেন্টেৰ সাথে বিকল্প হিসাবে ব্যৱহাৰযোগ্য কৰ্মেৰ তালিকা নিৰ্মাণ কৰা হ'ব ।"
+
+#: ../gok/main.c:279
+msgid "GOK will be used to login"
+msgstr "প্ৰৱেশ কৰোঁতে GOK ব্যৱহাৰ কৰা হ'ব"
+
+#: ../gok/main.c:289
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "নামবিহীন GUI'ৰ বাবে GOK দ্বাৰা কি প্ৰদৰ্শন কৰা হ'ব । ডিবাগ কৰোঁতে সহয়াক ।"
+
+#: ../gok/main.c:299
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+" --geometry'ৰ সাথে ব্যৱহাৰ কৰা যাবে ।  gok-কে বাধ্যতামূলকভাবে সৰ্বশেষ অবস্থান মনে "
+"ৰাখাৰ নিৰ্দেশ দেওয়া সম্ভব । --geometry সহযোগে gok আৰম্ভ কৰা হ'লেও এই ফ্ল্যাগটি "
+"ব্যৱহাৰ কৰা যাবে ।  অতিৰিক্ত জানতে --geometry ফ্ল্যাত সংক্ৰান্ত বিবৰণ পড়ুন ।"
+
+#: ../gok/main.c:310
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr "GOK আৰম্ভ কৰি স্কেন প্ৰণালীৰ বাবে এই কৰ্মটি চিহ্নিত হ'ব ।  (See --list-actions)"
+
+#: ../gok/main.c:320
+msgid "Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr "GOK আৰম্ভ কৰি কৰ্ম নিৰ্ব্বাচনৰ বাবে এই কৰ্মটি চিহ্নিত হ'ব ।  (See --list-actions)"
+
+#: ../gok/main.c:329
+msgid "Open the settings dialog box when GOK starts"
+msgstr "GOK আৰম্ভ হ'লে বৈশিষ্ট্যেৰ ডায়লগ বক্সটি খোলা হ'ব"
+
+#: ../gok/main.c:339
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"নিবেশ ইভেন্টেৰ বাবে libusb ব্যৱহাৰ কৰা হ'ব আৰু সুনিৰ্দিষ্ট USB বিক্ৰেতাৰ ID (VID) আৰু "
+"উৎপাদন ID (PID) সহ যন্ত্ৰ ব্যৱহাৰ কৰা হ'ব ।"
+
+#: ../gok/main.c:358
+msgid "Attempt to use GOK without the system mouse"
+msgstr "প্ৰণালী মাউছ নোহোৱাকে GOK ব্যৱহাৰৰ চেষ্টা কৰা হৈছে"
+
+#: ../gok/main.c:367
+msgid "Disable automatic keyboard branching"
+msgstr "স্বয়ংক্ৰিয় কি-বোৰ্ড শ্ৰেণী নিৰ্মাণ ব্যৱস্থা নিষ্ক্ৰিয় কৰা হ'ব"
+
+#: ../gok/main.c:668
+msgid "The GNOME On-screen Keyboard"
+msgstr "GNOME স্ক্ৰিনৰ উপৰ অবস্থিত কি-বোৰ্ড"
+
+#: ../gok/main.c:766
+#| msgid "gok: Unsupported geometry specification"
+msgid "Unsupported geometry specification"
+msgstr "অসমৰ্থিত জ্যামিতিক মান"
+
+#: ../gok/main.c:767
+#| msgid ""
+#| "Currently GOK requires that the x, y, width and height all be given.  "
+#| "Sorry, your geometry specification will not be used."
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given. Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"বৰ্তমানে GOK-ৰ ক্ষেত্ৰত x, y, প্ৰস্থ আৰু উচ্চতাৰ মান উল্লেখ কৰা আৱশ্যক ।  দুঃখিত, "
+"উল্লিখিত জ্যামিতিক মান ব্যৱহাৰ কৰা নাযাব।"
+
+#: ../gok/main.c:863
+msgid "XKB extension is required."
+msgstr "XKB এক্সটেশনৰ উপস্থিতি আৱশ্যক ।"
+
+#: ../gok/main.c:873
+msgid "Can't initialize actions."
+msgstr "প্ৰক্ৰিয়া সক্ৰিয় কৰোঁতে ব্যৰ্থ ।"
+
+#: ../gok/main.c:883
+msgid "Can't initialize feedbacks."
+msgstr "ফিড-বেক সক্ৰিয় কৰোঁতে ব্যৰ্থ ।"
+
+#: ../gok/main.c:928 ../gok/main.c:937
+#| msgid "can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgid "Can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr "libusb বেক তন্ড আৰম্ভ কৰিবলৈ ব্যৰ্থ - USB VID:PID জুটি বিশ্লেষণ কৰা নাযায়"
+
+#: ../gok/main.c:953
+msgid "Can't create the main GOK window!"
+msgstr "GOK'ৰ প্ৰধান উইন্ডো নিৰ্মাণ কৰোঁতে ব্যৰ্থ!"
+
+#: ../gok/main.c:972
+msgid "Can't create the settings dialog window!"
+msgstr "বৈশিষ্ট্যেৰ মান নিৰ্ধাৰণকাৰী উইন্ডো নিৰ্মাণ কৰোঁতে ব্যৰ্থ!"
+
+#: ../gok/main.c:1033
+msgid "No keyboards to display!"
+msgstr "প্ৰদৰ্শনযোগ্য কি-বোৰ্ড অনুপস্থিত!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1170 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "UI Grab"
+
+#: ../gok/main.c:1187
+msgid "popup menu"
+msgstr "পপ-আপ মেনু"
+
+#: ../gok/main.c:2113
+msgid "Can't create a compose keyboard!"
+msgstr "ৰচনা কৰ্মেৰ কি-বোৰ্ড নিৰ্মাণ কৰোঁতে ব্যৰ্থ!"
+
+#: ../gok/main.c:2155
+msgid "Can't read any keyboards!"
+msgstr "কোনো কি-বোৰ্ড পড়তে ব্যৰ্থ!"
+
+#: ../gok/main.c:2266
+#| msgid "could not access method directory key from GConf!"
+msgid "Could not get access method directory key from GConf."
+msgstr "GConfৰ পৰা পদ্ধতিৰ ডিৰেক্টৰিৰ-কি ব্যৱহাৰ কৰিবলৈ ব্যৰ্থ।"
+
+#: ../gok/main.c:2273
+#| msgid "possibly unknown access method!"
+msgid "Possibly unknown access method."
+msgstr "সম্ভবত অজ্ঞাত ব্যৱহাৰ-পদ্ধতি।"
+
+#: ../gok/main.c:2829
+#| msgid ""
+#| "Sorry, GOK can't run because:\n"
+#| "%s"
+msgid "Sorry, GOK can't run"
+msgstr "দুঃখিত, GOK চলাবলৈ ব্যৰ্থ"
+
+#: ../gok/main.c:2840
+msgid "GOK Fatal Error"
+msgstr "GOK'ৰ গুৰুতৰ সমস্যা"
+
+#: ../gok/main.c:2876
+#| msgid "GOK Fatal Error"
+msgid "GOK Error"
+msgstr "GOK-ৰ সমস্যা"
+
+#: ../gok/main.c:2896
+#| msgid ""
+#| "GOK uses GConf 2 to store its settings and requires certain settings to "
+#| "be in GConf to run.  GOK is currently unable to retrieve those settings.  "
+#| "If this is the first time that you have run gok after installing it you "
+#| "may need to restart gconfd, you can use this command: 'gconftool-2 --"
+#| "shutdown' or log out and back in."
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run. GOK is currently unable to retrieve those settings. If this "
+"is the first time that you have run gok after installing it you may need to "
+"restart gconfd, you can use this command: 'gconftool-2 --shutdown' or log "
+"out and back in."
+msgstr ""
+"GOK, GConf 2-ৰ সহায়ত নিজৰ বৈশিষ্ট্য সংৰক্ষণ কৰি আৰু সঠিক কৰ্মসঞ্চালনৰ বাবে "
+"কিছু বৈশিষ্ট্য GConf ত উপস্থিত থকা আৱশ্যক। GOK দ্বাৰা বৰ্তমানে এই সমস্ত বৈশিষ্ট্য "
+"প্ৰাপ্ত কৰা সম্ভব নহয়।  gok ইনস্টল কৰাৰ পিছত এইটো প্ৰথমবাৰ সঞ্চালিত হ'লে উল্লিখিত আদেশ "
+"সহযোগে gconfd পুনৰাৰম্ভ কৰাৰ প্ৰয়োজন হ'ব পাৰে: 'gconftool-2 --shutdown'। "
+"বা প্ৰস্থান কৰি পুনৰায় প্ৰৱেশ কৰক।"
+
+#: ../gok/main.c:3135
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr "ডেস্কটপেৰ 'স্টিকি-কি' বৈশিষ্ট্য সক্ৰিয় না কৰাৰ ফলে GOK সম্ভবত সঠিকৰূপে চলবে না ।"
+
+#: ../gok/main.c:3142
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK দ্বাৰা আৱশ্যক স্টিকি-কি বৈশিষ্ট্য সক্ৰিয় কৰা হৈছে ।\n"
+
+#. post an error dialog
+#: ../gok/main.c:3160
+#| msgid "GOK cannot run because XKB display extension is missing.\n"
+msgid "XKB display extension is missing."
+msgstr "XKB প্ৰদৰ্শন এক্সটেনছন উপস্থিত নহয়।"
+
+#: ../gok/main.c:3284
+msgid "Unable to open help file"
+msgstr "সহায়িকাৰ নথিপত্ৰ খুলিবলৈ ব্যৰ্থ"
+
+#: ../gok/main.c:3310
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"আপনি GOK পৰিচালনাৰ বাবে যে যন্ত্ৰটি ব্যৱহাৰ কৰছেন তা আপনাৰ প্ৰণালী পয়েন্টাৰকেও "
+"(বা 'মাউছ পয়েন্টাৰ') নিয়ন্ত্ৰণ কৰছে । এপ্লিকেশনৰ পয়েন্টাৰ ব্যৱহাৰৰ সংঘাত "
+"আপনাৰ  GOK বা অন্য কোন এপ্লিকেশন ব্যৱহাৰে সৃষ্টি কৰোঁতে পাৰে ।\n"
+" \n"
+"আপনাৰ নিবেশ যন্ত্ৰটি 'এক্সটেন্ডেড' নিবেশ যন্ত্ৰ ৰূপে নিৰ্ধাৰণ কৰা বাঞ্ছনীয়, অতিৰিক্ত "
+"জানতে GOK'ৰ সহায়িকা পড়ুন ।"
+
+#: ../gok/main.c:3316
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"আপনি GOK পৰিচালনাৰ বাবে যে যন্ত্ৰটি ব্যৱহাৰ কৰছেন তা আপনাৰ প্ৰণালী পয়েন্টাৰকেও "
+"(বা 'মাউছ পয়েন্টাৰ') নিয়ন্ত্ৰণ কৰছে । \n"
+"\n"
+"GOK সেশানৰ সময় এপ্লিকেশনৰ পয়েন্টাৰৰ সাথে সংঘাত এড়ানোৰ বাবে সেশানৰ সমাপ্তি "
+"অবধি GOK দ্বাৰা প্ৰণালী যন্ত্ৰৰ পয়েন্টাৰ বিচ্ছিন্ন কৰা হ'ব ।\n"
+"\n"
+"বিকল্প ৰূপে GOK'ৰ বাবে এটা পৃথক নিবেশ যন্ত্ৰ ব্যৱহাৰ কৰক, অতিৰিক্ত জানতে সহায়িকা "
+"পড়ুন ।"
+
+#. no longer used!
+#: ../gok/main.c:3323 ../gok/main.c:3326
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "সম্ভবত আপনি GOK-কে 'কোৰ পয়েন্টাৰ' মোডে ব্যৱহাৰ কৰাৰ উদ্দেশ্যে চিহ্নিত কৰিছেন ।"
+
+#: ../gok/main.c:3420
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"সহায়ক প্ৰযুক্তিৰ সমৰ্থন সক্ৰিয় নেই ।\n"
+"\n"
+"চাইলে আপনি সহায়ক প্ৰযুক্তিৰ সমৰ্থন নিস্ক্ৰিয় ৰেখেও GOK চলাবলৈ পাৰেন । এৰ ফলে "
+"এপ্লিকেশনৰ বেশ কিছু বৈশিষ্ট্য সক্ৰিয় না হ'ব পাৰে ।\n"
+"\n"
+"সহায়ক প্ৰযুক্তিৰ সমৰ্থন সক্ৰিয় কৰোঁতে আৰু সহায়ক প্ৰযুক্তিৰ সমৰ্থন সহকাৰে নতুন সেশনে "
+"লগিন কৰোঁতে হ'লে 'সক্ৰিয় কৰি প্ৰস্থান কৰক' ক্লিক কৰক ।\n"
+"\n"
+"GOK চালিয়ে যাওয়াৰ বাবে অগ্ৰসৰ ক্লিক কৰক ।\n"
+"\n"
+"GOKৰ পৰা প্ৰস্থান কৰোঁতে বন্ধ কৰক ক্লিক কৰক ।\n"
+"\n"
+
+#: ../gok/main.c:3439
+msgid "Enable and Log Out"
+msgstr "সক্ৰিয় কৰি প্ৰস্থান কৰক"
+
+#: ../gok/main.c:3451
+msgid "Continue"
+msgstr "অগ্ৰসৰ হও"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(সেকেন্ডেৰ শতাংশেৰ এক ভাগ)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "বিপৰীত স্কেনিং"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "স্কেন কৰাৰ বাবে এটা চুইচ টিপে ৰাখুন । নিৰ্ব্বাচনৰ বাবে এটা পৃথক চুইচ ক্লিক কৰক ।"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "স্কেন:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "এটা কি দ্বাৰা স্বয়ংক্ৰিয় স্কেনিং"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "স্কেন কৰ্ম আৰম্ভ কৰক:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+#| msgid "Wrap Rows/Columns"
+msgid "Wrap Row/Columns"
+msgstr "শাৰী/স্তম্ভ বিভাজন"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "এটা কি দ্বাৰা বিপৰীত দিশায় স্কেনিং"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "৫ চুইচ দ্বাৰা চিহ্নিত"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "তলৰ:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "৪ দিশত হাইলাইটাৰ নিয়া হ'ব। চাবি নিৰ্বাচন কৰক।"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "ওপৰ:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "প্ৰদৰ্শন"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "সহায়ক তথ্য প্ৰদৰ্শনকাৰী ব্ৰাউজাৰ"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "টাৰ্মিনাল"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "টেক্সট এডিটাৰ"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "ৱেব চৰক"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "কম্পোজ"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "লঞ্চাৰ"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "মাউছ"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "বাটন ১"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "বাটন ২"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "বাটন ৩"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "দুইবাৰ ক্লিক"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "সংযুক্ত"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "পয়েন্টাৰ"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "পুনৰাবৃত্তি"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "ভৰাট"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "ভাসমান"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "অধিক সৰু"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "পৰবৰ্তী কি-টি পুনৰাবৃত্তি কৰা হ'ব"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "অধিক ছোট"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "অধিক লম্বা"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "অধিক চওড়া"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "সুনিশ্চিত প্ৰস্থান!"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "AccessMethodName"
+#~ msgstr "AccessMethodName"
+
+#~ msgid "Additional directory to search for GOK keyboard files"
+#~ msgstr "GOK কি-বোৰ্ড ফাইল অনুসন্ধানেৰ বাবে ব্যৱহৃত অতিৰিক্ত ডিৰেক্টৰি"
+
+#~ msgid "gok: Unsupported geometry specification\n"
+#~ msgstr "gok: অসমৰ্থিত জ্যামিতিক মান\n"
+
+#~ msgid ""
+#~ "gok: Currently GOK requires that the x, y, width and height all be given\n"
+#~ msgstr "gok: বৰ্তমানে GOK'ৰ ক্ষেত্ৰে x, y, প্ৰস্থ ও উচ্চতাৰ মান উল্লেখ কৰা আবশ্যক\n"
+
+#~ msgid "Wrap"
+#~ msgstr "বিভাজন"
+

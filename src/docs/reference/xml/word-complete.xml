@@ -1,0 +1,70 @@
+<refentry id="gok-word-complete">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-word-complete.top_of_page">word-complete</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>word-complete</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-word-complete.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="MAXPREDICTIONS--CAPS">MAXPREDICTIONS</link>
+#define             <link linkend="STATE-TEMPORARY--CAPS">STATE_TEMPORARY</link>
+#define             <link linkend="STATE-PERMANENT--CAPS">STATE_PERMANENT</link>
+#define             <link linkend="PRIORITY-NEWWORD--CAPS">PRIORITY_NEWWORD</link>
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-word-complete.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-word-complete.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="MAXPREDICTIONS--CAPS" role="macro">
+<title>MAXPREDICTIONS</title>
+<indexterm zone="MAXPREDICTIONS--CAPS"><primary sortas="MAXPREDICTIONS">MAXPREDICTIONS</primary></indexterm><programlisting>#define MAXPREDICTIONS 10
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="STATE-TEMPORARY--CAPS" role="macro">
+<title>STATE_TEMPORARY</title>
+<indexterm zone="STATE-TEMPORARY--CAPS"><primary sortas="STATE_TEMPORARY">STATE_TEMPORARY</primary></indexterm><programlisting>#define STATE_TEMPORARY 1
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="STATE-PERMANENT--CAPS" role="macro">
+<title>STATE_PERMANENT</title>
+<indexterm zone="STATE-PERMANENT--CAPS"><primary sortas="STATE_PERMANENT">STATE_PERMANENT</primary></indexterm><programlisting>#define STATE_PERMANENT 2
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="PRIORITY-NEWWORD--CAPS" role="macro">
+<title>PRIORITY_NEWWORD</title>
+<indexterm zone="PRIORITY-NEWWORD--CAPS"><primary sortas="PRIORITY_NEWWORD">PRIORITY_NEWWORD</primary></indexterm><programlisting>#define PRIORITY_NEWWORD 100
+</programlisting>
+<para>
+</para></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

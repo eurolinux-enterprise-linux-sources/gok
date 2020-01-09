@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omf>
+  <resource>
+    <creator>
+      gdocteam@sun.com (Sun Java Desktop System Documentation Team)
+    </creator>
+    <maintainer>
+      gdocteam@sun.com (Sun Java Desktop System Documentation Team)
+    </maintainer>
+    <title>
+		GOK Manual
+    </title>
+    <date>
+      2005-03-07
+    </date>
+    <version identifier="2.4" date="2005-03-07" description="Updated to support program version 0.12.4"/>
+    <subject category="GNOME|Accessibility"/>
+    <description>
+      User manual for GOK. 
+    </description>
+    <type>
+      user's guide
+    </type>
+    <format mime="text/xml" dtd="-//OASIS//DTD DocBook XML V4.1.2//EN"/>
+    <identifier url="gok.xml"/>
+    <language code="C"/>
+    <relation seriesid="d6ed21d2-d0d0-11d6-994a-eb03e80c0571"/>
+    <rights type="GNU FDL" license.version="1.1" holder="Sun Microsystems"/>
+  </resource>        
+</omf>

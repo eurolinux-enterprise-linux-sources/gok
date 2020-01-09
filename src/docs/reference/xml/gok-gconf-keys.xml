@@ -1,0 +1,280 @@
+<refentry id="gok-gok-gconf-keys">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-gok-gconf-keys.top_of_page">gok-gconf-keys</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gok-gconf-keys</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-gok-gconf-keys.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="GOK-GCONF-ROOT--CAPS">GOK_GCONF_ROOT</link>
+#define             <link linkend="GOK-GCONF-LAYOUT--CAPS">GOK_GCONF_LAYOUT</link>
+#define             <link linkend="GOK-GCONF-KEY-SPACING--CAPS">GOK_GCONF_KEY_SPACING</link>
+#define             <link linkend="GOK-GCONF-KEY-WIDTH--CAPS">GOK_GCONF_KEY_WIDTH</link>
+#define             <link linkend="GOK-GCONF-KEY-HEIGHT--CAPS">GOK_GCONF_KEY_HEIGHT</link>
+#define             <link linkend="GOK-GCONF-KEYBOARD-X--CAPS">GOK_GCONF_KEYBOARD_X</link>
+#define             <link linkend="GOK-GCONF-KEYBOARD-Y--CAPS">GOK_GCONF_KEYBOARD_Y</link>
+#define             <link linkend="GOK-GCONF-ACCESS-METHOD--CAPS">GOK_GCONF_ACCESS_METHOD</link>
+#define             <link linkend="GOK-GCONF-WORD-COMPLETE--CAPS">GOK_GCONF_WORD_COMPLETE</link>
+#define             <link linkend="GOK-GCONF-NUMBER-PREDICTIONS--CAPS">GOK_GCONF_NUMBER_PREDICTIONS</link>
+#define             <link linkend="GOK-GCONF-USE-GTKPLUS-THEME--CAPS">GOK_GCONF_USE_GTKPLUS_THEME</link>
+#define             <link linkend="GOK-GCONF-KEYBOARD-DIRECTORY--CAPS">GOK_GCONF_KEYBOARD_DIRECTORY</link>
+#define             <link linkend="GOK-GCONF-ACCESS-METHOD-DIRECTORY--CAPS">GOK_GCONF_ACCESS_METHOD_DIRECTORY</link>
+#define             <link linkend="GOK-GCONF-DICTIONARY-DIRECTORY--CAPS">GOK_GCONF_DICTIONARY_DIRECTORY</link>
+#define             <link linkend="GOK-GCONF-RESOURCE-DIRECTORY--CAPS">GOK_GCONF_RESOURCE_DIRECTORY</link>
+#define             <link linkend="GOK-GCONF-ACCESS-METHOD-SETTINGS--CAPS">GOK_GCONF_ACCESS_METHOD_SETTINGS</link>
+#define             <link linkend="GOK-GCONF-ACTIONS--CAPS">GOK_GCONF_ACTIONS</link>
+#define             <link linkend="GOK-GCONF-ACTIONS-WORKAROUND--CAPS">GOK_GCONF_ACTIONS_WORKAROUND</link>
+#define             <link linkend="GOK-GCONF-ACTION-DISPLAYNAME--CAPS">GOK_GCONF_ACTION_DISPLAYNAME</link>
+#define             <link linkend="GOK-GCONF-ACTION-TYPE--CAPS">GOK_GCONF_ACTION_TYPE</link>
+#define             <link linkend="GOK-GCONF-ACTION-STATE--CAPS">GOK_GCONF_ACTION_STATE</link>
+#define             <link linkend="GOK-GCONF-ACTION-NUMBER--CAPS">GOK_GCONF_ACTION_NUMBER</link>
+#define             <link linkend="GOK-GCONF-ACTION-RATE--CAPS">GOK_GCONF_ACTION_RATE</link>
+#define             <link linkend="GOK-GCONF-ACTION-PERMANENT--CAPS">GOK_GCONF_ACTION_PERMANENT</link>
+#define             <link linkend="GOK-GCONF-ACTION-KEY-AVERAGING--CAPS">GOK_GCONF_ACTION_KEY_AVERAGING</link>
+#define             <link linkend="GOK-GCONF-ACTION-TYPE-SWITCH--CAPS">GOK_GCONF_ACTION_TYPE_SWITCH</link>
+#define             <link linkend="GOK-GCONF-ACTION-TYPE-MOUSEBUTTON--CAPS">GOK_GCONF_ACTION_TYPE_MOUSEBUTTON</link>
+#define             <link linkend="GOK-GCONF-ACTION-TYPE-MOUSEPOINTER--CAPS">GOK_GCONF_ACTION_TYPE_MOUSEPOINTER</link>
+#define             <link linkend="GOK-GCONF-ACTION-TYPE-DWELL--CAPS">GOK_GCONF_ACTION_TYPE_DWELL</link>
+#define             <link linkend="GOK-GCONF-ACTION-STATE-UNDEFINED--CAPS">GOK_GCONF_ACTION_STATE_UNDEFINED</link>
+#define             <link linkend="GOK-GCONF-ACTION-STATE-PRESS--CAPS">GOK_GCONF_ACTION_STATE_PRESS</link>
+#define             <link linkend="GOK-GCONF-ACTION-STATE-RELEASE--CAPS">GOK_GCONF_ACTION_STATE_RELEASE</link>
+#define             <link linkend="GOK-GCONF-ACTION-STATE-CLICK--CAPS">GOK_GCONF_ACTION_STATE_CLICK</link>
+#define             <link linkend="GOK-GCONF-ACTION-STATE-DOUBLECLICK--CAPS">GOK_GCONF_ACTION_STATE_DOUBLECLICK</link>
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-gok-gconf-keys.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-gok-gconf-keys.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GOK-GCONF-ROOT--CAPS" role="macro">
+<title>GOK_GCONF_ROOT</title>
+<indexterm zone="GOK-GCONF-ROOT--CAPS"><primary sortas="GOK_GCONF_ROOT">GOK_GCONF_ROOT</primary></indexterm><programlisting>#define GOK_GCONF_ROOT                     "/apps/gok"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-LAYOUT--CAPS" role="macro">
+<title>GOK_GCONF_LAYOUT</title>
+<indexterm zone="GOK-GCONF-LAYOUT--CAPS"><primary sortas="GOK_GCONF_LAYOUT">GOK_GCONF_LAYOUT</primary></indexterm><programlisting>#define GOK_GCONF_LAYOUT                   "/apps/gok/layout"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-KEY-SPACING--CAPS" role="macro">
+<title>GOK_GCONF_KEY_SPACING</title>
+<indexterm zone="GOK-GCONF-KEY-SPACING--CAPS"><primary sortas="GOK_GCONF_KEY_SPACING">GOK_GCONF_KEY_SPACING</primary></indexterm><programlisting>#define GOK_GCONF_KEY_SPACING              "/apps/gok/layout/key_spacing"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-KEY-WIDTH--CAPS" role="macro">
+<title>GOK_GCONF_KEY_WIDTH</title>
+<indexterm zone="GOK-GCONF-KEY-WIDTH--CAPS"><primary sortas="GOK_GCONF_KEY_WIDTH">GOK_GCONF_KEY_WIDTH</primary></indexterm><programlisting>#define GOK_GCONF_KEY_WIDTH                "/apps/gok/layout/key_width"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-KEY-HEIGHT--CAPS" role="macro">
+<title>GOK_GCONF_KEY_HEIGHT</title>
+<indexterm zone="GOK-GCONF-KEY-HEIGHT--CAPS"><primary sortas="GOK_GCONF_KEY_HEIGHT">GOK_GCONF_KEY_HEIGHT</primary></indexterm><programlisting>#define GOK_GCONF_KEY_HEIGHT               "/apps/gok/layout/key_height"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-KEYBOARD-X--CAPS" role="macro">
+<title>GOK_GCONF_KEYBOARD_X</title>
+<indexterm zone="GOK-GCONF-KEYBOARD-X--CAPS"><primary sortas="GOK_GCONF_KEYBOARD_X">GOK_GCONF_KEYBOARD_X</primary></indexterm><programlisting>#define GOK_GCONF_KEYBOARD_X               "/apps/gok/layout/keyboard_x"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-KEYBOARD-Y--CAPS" role="macro">
+<title>GOK_GCONF_KEYBOARD_Y</title>
+<indexterm zone="GOK-GCONF-KEYBOARD-Y--CAPS"><primary sortas="GOK_GCONF_KEYBOARD_Y">GOK_GCONF_KEYBOARD_Y</primary></indexterm><programlisting>#define GOK_GCONF_KEYBOARD_Y               "/apps/gok/layout/keyboard_y"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACCESS-METHOD--CAPS" role="macro">
+<title>GOK_GCONF_ACCESS_METHOD</title>
+<indexterm zone="GOK-GCONF-ACCESS-METHOD--CAPS"><primary sortas="GOK_GCONF_ACCESS_METHOD">GOK_GCONF_ACCESS_METHOD</primary></indexterm><programlisting>#define GOK_GCONF_ACCESS_METHOD            "/apps/gok/access_method"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-WORD-COMPLETE--CAPS" role="macro">
+<title>GOK_GCONF_WORD_COMPLETE</title>
+<indexterm zone="GOK-GCONF-WORD-COMPLETE--CAPS"><primary sortas="GOK_GCONF_WORD_COMPLETE">GOK_GCONF_WORD_COMPLETE</primary></indexterm><programlisting>#define GOK_GCONF_WORD_COMPLETE            "/apps/gok/word_complete"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-NUMBER-PREDICTIONS--CAPS" role="macro">
+<title>GOK_GCONF_NUMBER_PREDICTIONS</title>
+<indexterm zone="GOK-GCONF-NUMBER-PREDICTIONS--CAPS"><primary sortas="GOK_GCONF_NUMBER_PREDICTIONS">GOK_GCONF_NUMBER_PREDICTIONS</primary></indexterm><programlisting>#define GOK_GCONF_NUMBER_PREDICTIONS       "/apps/gok/number_predictions"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-USE-GTKPLUS-THEME--CAPS" role="macro">
+<title>GOK_GCONF_USE_GTKPLUS_THEME</title>
+<indexterm zone="GOK-GCONF-USE-GTKPLUS-THEME--CAPS"><primary sortas="GOK_GCONF_USE_GTKPLUS_THEME">GOK_GCONF_USE_GTKPLUS_THEME</primary></indexterm><programlisting>#define GOK_GCONF_USE_GTKPLUS_THEME        "/apps/gok/use_gtkplus_theme"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-KEYBOARD-DIRECTORY--CAPS" role="macro">
+<title>GOK_GCONF_KEYBOARD_DIRECTORY</title>
+<indexterm zone="GOK-GCONF-KEYBOARD-DIRECTORY--CAPS"><primary sortas="GOK_GCONF_KEYBOARD_DIRECTORY">GOK_GCONF_KEYBOARD_DIRECTORY</primary></indexterm><programlisting>#define GOK_GCONF_KEYBOARD_DIRECTORY       "/apps/gok/keyboard_directory"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACCESS-METHOD-DIRECTORY--CAPS" role="macro">
+<title>GOK_GCONF_ACCESS_METHOD_DIRECTORY</title>
+<indexterm zone="GOK-GCONF-ACCESS-METHOD-DIRECTORY--CAPS"><primary sortas="GOK_GCONF_ACCESS_METHOD_DIRECTORY">GOK_GCONF_ACCESS_METHOD_DIRECTORY</primary></indexterm><programlisting>#define GOK_GCONF_ACCESS_METHOD_DIRECTORY  "/apps/gok/access_method_directory"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-DICTIONARY-DIRECTORY--CAPS" role="macro">
+<title>GOK_GCONF_DICTIONARY_DIRECTORY</title>
+<indexterm zone="GOK-GCONF-DICTIONARY-DIRECTORY--CAPS"><primary sortas="GOK_GCONF_DICTIONARY_DIRECTORY">GOK_GCONF_DICTIONARY_DIRECTORY</primary></indexterm><programlisting>#define GOK_GCONF_DICTIONARY_DIRECTORY     "/apps/gok/dictionary_directory"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-RESOURCE-DIRECTORY--CAPS" role="macro">
+<title>GOK_GCONF_RESOURCE_DIRECTORY</title>
+<indexterm zone="GOK-GCONF-RESOURCE-DIRECTORY--CAPS"><primary sortas="GOK_GCONF_RESOURCE_DIRECTORY">GOK_GCONF_RESOURCE_DIRECTORY</primary></indexterm><programlisting>#define GOK_GCONF_RESOURCE_DIRECTORY       "/apps/gok/resource_directory"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACCESS-METHOD-SETTINGS--CAPS" role="macro">
+<title>GOK_GCONF_ACCESS_METHOD_SETTINGS</title>
+<indexterm zone="GOK-GCONF-ACCESS-METHOD-SETTINGS--CAPS"><primary sortas="GOK_GCONF_ACCESS_METHOD_SETTINGS">GOK_GCONF_ACCESS_METHOD_SETTINGS</primary></indexterm><programlisting>#define GOK_GCONF_ACCESS_METHOD_SETTINGS   "/apps/gok/access_method_settings"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTIONS--CAPS" role="macro">
+<title>GOK_GCONF_ACTIONS</title>
+<indexterm zone="GOK-GCONF-ACTIONS--CAPS"><primary sortas="GOK_GCONF_ACTIONS">GOK_GCONF_ACTIONS</primary></indexterm><programlisting>#define GOK_GCONF_ACTIONS                  "/apps/gok/actions"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTIONS-WORKAROUND--CAPS" role="macro">
+<title>GOK_GCONF_ACTIONS_WORKAROUND</title>
+<indexterm zone="GOK-GCONF-ACTIONS-WORKAROUND--CAPS"><primary sortas="GOK_GCONF_ACTIONS_WORKAROUND">GOK_GCONF_ACTIONS_WORKAROUND</primary></indexterm><programlisting>#define GOK_GCONF_ACTIONS_WORKAROUND       "/apps/gok/actions/workaround"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-DISPLAYNAME--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_DISPLAYNAME</title>
+<indexterm zone="GOK-GCONF-ACTION-DISPLAYNAME--CAPS"><primary sortas="GOK_GCONF_ACTION_DISPLAYNAME">GOK_GCONF_ACTION_DISPLAYNAME</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_DISPLAYNAME       "displayname"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-TYPE--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_TYPE</title>
+<indexterm zone="GOK-GCONF-ACTION-TYPE--CAPS"><primary sortas="GOK_GCONF_ACTION_TYPE">GOK_GCONF_ACTION_TYPE</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_TYPE              "type"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-STATE--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_STATE</title>
+<indexterm zone="GOK-GCONF-ACTION-STATE--CAPS"><primary sortas="GOK_GCONF_ACTION_STATE">GOK_GCONF_ACTION_STATE</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_STATE             "state"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-NUMBER--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_NUMBER</title>
+<indexterm zone="GOK-GCONF-ACTION-NUMBER--CAPS"><primary sortas="GOK_GCONF_ACTION_NUMBER">GOK_GCONF_ACTION_NUMBER</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_NUMBER            "number"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-RATE--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_RATE</title>
+<indexterm zone="GOK-GCONF-ACTION-RATE--CAPS"><primary sortas="GOK_GCONF_ACTION_RATE">GOK_GCONF_ACTION_RATE</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_RATE              "rate"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-PERMANENT--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_PERMANENT</title>
+<indexterm zone="GOK-GCONF-ACTION-PERMANENT--CAPS"><primary sortas="GOK_GCONF_ACTION_PERMANENT">GOK_GCONF_ACTION_PERMANENT</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_PERMANENT         "permanent"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-KEY-AVERAGING--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_KEY_AVERAGING</title>
+<indexterm zone="GOK-GCONF-ACTION-KEY-AVERAGING--CAPS"><primary sortas="GOK_GCONF_ACTION_KEY_AVERAGING">GOK_GCONF_ACTION_KEY_AVERAGING</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_KEY_AVERAGING     "key_averaging"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-TYPE-SWITCH--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_TYPE_SWITCH</title>
+<indexterm zone="GOK-GCONF-ACTION-TYPE-SWITCH--CAPS"><primary sortas="GOK_GCONF_ACTION_TYPE_SWITCH">GOK_GCONF_ACTION_TYPE_SWITCH</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_TYPE_SWITCH       "switch"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-TYPE-MOUSEBUTTON--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_TYPE_MOUSEBUTTON</title>
+<indexterm zone="GOK-GCONF-ACTION-TYPE-MOUSEBUTTON--CAPS"><primary sortas="GOK_GCONF_ACTION_TYPE_MOUSEBUTTON">GOK_GCONF_ACTION_TYPE_MOUSEBUTTON</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_TYPE_MOUSEBUTTON  "mousebutton"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-TYPE-MOUSEPOINTER--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_TYPE_MOUSEPOINTER</title>
+<indexterm zone="GOK-GCONF-ACTION-TYPE-MOUSEPOINTER--CAPS"><primary sortas="GOK_GCONF_ACTION_TYPE_MOUSEPOINTER">GOK_GCONF_ACTION_TYPE_MOUSEPOINTER</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_TYPE_MOUSEPOINTER "mousepointer"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-TYPE-DWELL--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_TYPE_DWELL</title>
+<indexterm zone="GOK-GCONF-ACTION-TYPE-DWELL--CAPS"><primary sortas="GOK_GCONF_ACTION_TYPE_DWELL">GOK_GCONF_ACTION_TYPE_DWELL</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_TYPE_DWELL        "dwell"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-STATE-UNDEFINED--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_STATE_UNDEFINED</title>
+<indexterm zone="GOK-GCONF-ACTION-STATE-UNDEFINED--CAPS"><primary sortas="GOK_GCONF_ACTION_STATE_UNDEFINED">GOK_GCONF_ACTION_STATE_UNDEFINED</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_STATE_UNDEFINED   "undefined"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-STATE-PRESS--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_STATE_PRESS</title>
+<indexterm zone="GOK-GCONF-ACTION-STATE-PRESS--CAPS"><primary sortas="GOK_GCONF_ACTION_STATE_PRESS">GOK_GCONF_ACTION_STATE_PRESS</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_STATE_PRESS       "press"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-STATE-RELEASE--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_STATE_RELEASE</title>
+<indexterm zone="GOK-GCONF-ACTION-STATE-RELEASE--CAPS"><primary sortas="GOK_GCONF_ACTION_STATE_RELEASE">GOK_GCONF_ACTION_STATE_RELEASE</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_STATE_RELEASE     "release"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-STATE-CLICK--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_STATE_CLICK</title>
+<indexterm zone="GOK-GCONF-ACTION-STATE-CLICK--CAPS"><primary sortas="GOK_GCONF_ACTION_STATE_CLICK">GOK_GCONF_ACTION_STATE_CLICK</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_STATE_CLICK       "click"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-GCONF-ACTION-STATE-DOUBLECLICK--CAPS" role="macro">
+<title>GOK_GCONF_ACTION_STATE_DOUBLECLICK</title>
+<indexterm zone="GOK-GCONF-ACTION-STATE-DOUBLECLICK--CAPS"><primary sortas="GOK_GCONF_ACTION_STATE_DOUBLECLICK">GOK_GCONF_ACTION_STATE_DOUBLECLICK</primary></indexterm><programlisting>#define GOK_GCONF_ACTION_STATE_DOUBLECLICK "doubleclick"
+</programlisting>
+<para>
+</para></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

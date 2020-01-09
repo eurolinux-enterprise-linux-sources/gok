@@ -1,0 +1,2290 @@
+# translation of gok to Turkish
+# Burçin Dönmez <bdonmez@unh.edu>, 2004.
+# Baris Cicek <baris@teamforce.name.tr>, 2004, 2005.
+# Baris Cicek <baris@teamforce.name.tr>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gok\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-10 00:40+0300\n"
+"PO-Revision-Date: 2009-09-10 00:43+0300\n"
+"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=1; plural=0;\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "Etkinleştir"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "Etkinleştir:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "Etkinleştirme:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "Otomatik Tarama"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "Alt/Üst"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "Durmadan Önce Çevir:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:66
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "Geribildirim"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "Geribildirim Etkinleştirme"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "Geribildirim Hareketi"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "İlk Gecikme:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "Sol/Sağ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "Hareket:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "İşlem"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "Seçenekler"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+"Taramayı başlatmak için bir tuşa basınız. Seçmek için aynı tuşa veya başka "
+"tuşa basınız."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "Sağ/Sol"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "Tarama Gecikmesi:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "Tarama Hızı:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "Tarama Yönü:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "Taramayı Başlat"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "Taramayı başlat:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "Üst/Alt"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "Satırları/Sütunları Kaydır"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "geribildirim hareketi"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "geribildirim seçimi"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "Düzgün Seçme"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "Geribildirim Etkinleştirme:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "Geribildirim Hareketi:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr ""
+"Farenin imlecini bir tuşu vurgulamak için taşıyınız. Seçim için bir anahtara "
+"basınız."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "Seç:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "Tarama Seçimi"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr ""
+"Bir tuşu vurgulamak için fare imlecini hareket ettirin. Seçmek için tuş "
+"üzerinde bırakın."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "Hakkında"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "Yardım"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "GOK'dan Çıkış"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "Pencere"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2467
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "geri"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:349
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr "İşlemeden önce girdi aygıtı değer olaylarına uygulanacak çarpan"
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"Ek sözcük tamamlama sözlüklerinin noktalı virgül ayraçlı listelerinin tam "
+"yolu"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "Tercihler sınırlı mı olacak?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "Öntanımlı düzenleme klavyesi için kullanılacak klavye türünü belirler"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr ""
+"GOK oluşturduğu klavyesini X sunucusundan gelen dinamik tabanlı bilgiye göre "
+"mi oluştursun?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "Tüm GOK kullanıcıları özel kelime tahmin sözlüğü kopyasına sahip mi?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "GOK penceresi tüm ekran genişliğini doldurmak için büyütülsün mü?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "Ana imleç GOK klavye imlecini takip etsin mi?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "Bu eylem tuş ortalanması kullanıyor mu"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "Bu geribildirim flaşlanıyor mu"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "Bu geribildirim ses çalıyor mu"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "Bu geribildirim GOK anahtarının etiketinden bahsediyor mu"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "Dwell"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr "GOK ana penceresi bağlama yeri (eğer çıpa ise), değilse sözdizgisi"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "GUI ağacında ulaşılabilir nesneleri arama için düğüm altı sayısı"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "GUI ağacında ulaşılabilir nesneleri arama için düzey altı sayısı"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "Bu eylem sürekli mi"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "Bu geribildirim sürekli mi"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "Sözcük tamamlanması açık mı"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "Tuş Flaşlama"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "Sol Fare Düğmesi"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "Orta Fare Düğmesi"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "Fare Düğmesi 4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "Fare Düğmesi 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "Fare İmleci"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "Hiçbiri"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "Sağ Fare Düğmesi"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"Bunlardan biri olmalıdır: xkb, default, alpha, alpha-freq, custom; eğer özel "
+"ise custom_compose_keyboard tanımlanmalıdır."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "Ses bir"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "Ses iki"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "Konuşma"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "Anahtar 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "Anahtar 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "Anahtar 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "Anahtar 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "Anahtar 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "Kullanılacak erişim metodu"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "Giriş metodu dosyalarının yükleneceği dosya dizini."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "Sözlük dosyalarının yükleneceği dosya dizini."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "GOK kaynak dosyasının yükleneceği dosya dizini."
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr ""
+"Kullanıcı tarafından belirtilen ya da özel klavye dosyalarının yükleneceği "
+"dizin."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "Özel GOK düzenleme klavyesini tanımlayan dosyanın tam yolu"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "Tuş yüksekliği"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "Tuş genişliği"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "Klavye X koordinatı"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "Klavye Y koordinatı"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "Bu geribildirimi oynatacak ses dosyasının ismi"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "Kullanılacak xinput aygıt ismi"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "Bu eylem için kullanıcıya gösterilecek isim"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "Bu geribildirim için kullanıcıya gösterilecek isim"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "Uygunsa sayı giriniz"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "Sözcük tamamlanması için gerekli tahmin sayısı"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "Bu geribildirim kaç defa flaşlanacağı"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"Klavye dosyalarının yükleneceği birincil dizin. Öntanımlı olan sistem dizini."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "Bu hareket için gerekli sıklık"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "Tuşlar arasındaki boşluk"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "Bu eylemin etkinleştireleceği durum"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "Bu eylemin şekli"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "GOK sözcük tamamlanması adayları aranırken ek sözcük listesi kullanımı"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr "Uygulamaları dolaş ve alternatif girdi aygıtları ile yaz"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "Ekran Klavyesi"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "3 Durum"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>Görünüm</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>Davranış</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>Kısım</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>Komut Tahmini</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>Düzenleme Klavyesi</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>Özel Klavyeler</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>Hareketleri Tanımla</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>Geribildirimi Tanımla</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>Uygulamadan Önce Geciktir</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>Tanım</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>Yerleş ve Enine Genişle</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>Eylem Kaynağı</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>Yazıtipi</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>Tuş Flaşlama</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>Tuş Büyüklüğü ve Boşluk Kontrolü</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>Tuş</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>Klavye</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>Ayarlayıcı</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>Çıktı</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>Pozisyon</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>Öngörünüm</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>Hassasiyet</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>Ses</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>Konuşma</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>Anahtar veya Düğme Numarası</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>Tema</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>Zamanlayıcılar ve Geciktiriciler</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>Çeşit</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>Değerlendirici Çeşidi</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>Sözcük Tamamlama</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>Not:</b>Yaptığınız değişiklikler GOK'u tekrar çalıştırana kadar "
+"geçerli olmayacak</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+"İşlemeden önce genişletilmiş girdi aygıtları değerlerine uygulanacak çarpan."
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "Giriş Metodları"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "Eylem İsim Listesi"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "Eylem Çeşidi:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "Eylem ÇeşidiDefter"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "Eylemler"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "_Taramada Etkinleştir"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "_Girişte Etkinleştir"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "_Harekette Etkinleştir"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "_Basıldığında Etkinleştir"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "_Bırakıldığında etkinleştir"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "Ekle"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "Yeni Tuş Ekle"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "GOK Klavyelerinin aranacağı ek dizin"
+
+#: ../gok.glade2.h:47
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "Harf sıklığı ile düzenlenmiş alfanümerik klavye"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "Alfabetik olarak düzenlenmiş alfanümerik klavye"
+
+#: ../gok.glade2.h:49
+msgid "Appearance"
+msgstr "Görünüm"
+
+#: ../gok.glade2.h:50
+msgid "Bottom:"
+msgstr "Alt:"
+
+#: ../gok.glade2.h:51
+msgid "Browse"
+msgstr "Ara"
+
+#: ../gok.glade2.h:52
+msgid "C_ore pointer"
+msgstr "_Ana imleç"
+
+#: ../gok.glade2.h:53
+msgid "Command Prediction"
+msgstr "Komut Tahmini"
+
+#: ../gok.glade2.h:54
+msgid "Delay"
+msgstr "Gecikme"
+
+#: ../gok.glade2.h:55
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr ""
+"Tetikleme işleminden sonra, etkinleştirmeden önce yapılacak olan geciktirme "
+"(saniyenin 1/100'ü oranında)."
+
+#: ../gok.glade2.h:56
+msgid "Delete"
+msgstr "Sil"
+
+#: ../gok.glade2.h:57
+msgid "Delete Key"
+msgstr "Tuşu Sil"
+
+#: ../gok.glade2.h:58
+msgid "Dock"
+msgstr "Havuz"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:59 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "Aşağı Havuz"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "Yukarı Havuz"
+
+#: ../gok.glade2.h:61
+msgid "Duplicate"
+msgstr "Kopyala"
+
+#: ../gok.glade2.h:62
+msgid "Enable _key flashing"
+msgstr "_Tuş flaşlamasını yapılandır"
+
+#: ../gok.glade2.h:63
+msgid "Enable _sound"
+msgstr "_Sesi yapılandır"
+
+#: ../gok.glade2.h:64
+msgid "Enable _word completion"
+msgstr "_Sözcük tamamlanmasını yapılandır"
+
+#: ../gok.glade2.h:65
+msgid "Enable co_mmand prediction"
+msgstr "K_omut tahminini yapılandır"
+
+#: ../gok.glade2.h:67
+msgid "Fill Width"
+msgstr "Genişliği Doldur"
+
+#: ../gok.glade2.h:68
+msgid "Font Group:"
+msgstr "Yazıtipi Grubu:"
+
+#: ../gok.glade2.h:69 ../gok/gok-editor.c:36
+msgid "GOK Keyboard Editor"
+msgstr "GOK Klavye Editörü"
+
+#: ../gok.glade2.h:70
+msgid "GOK Preferences"
+msgstr "GOK Tercihleri"
+
+#: ../gok.glade2.h:71
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:72
+msgid "Key Height"
+msgstr "Tuş Yüksekliği"
+
+#: ../gok.glade2.h:73
+msgid "Key Spacing"
+msgstr "Tuş boşluğu"
+
+#: ../gok.glade2.h:74
+msgid "Key Width"
+msgstr "Tuş Genişliği"
+
+#: ../gok.glade2.h:75
+msgid "Key _width:"
+msgstr "Tuş _genişliği:"
+
+#: ../gok.glade2.h:76
+msgid "Key h_eight:"
+msgstr "Tuş _yüksekliği:"
+
+#: ../gok.glade2.h:77
+msgid "Keyboards"
+msgstr "Klavyeler"
+
+#: ../gok.glade2.h:78
+msgid "Keycode:"
+msgstr "Tuşkodu:"
+
+#: ../gok.glade2.h:79
+msgid "Keysym:"
+msgstr "Keysym:"
+
+#: ../gok.glade2.h:80
+msgid "Label:"
+msgstr "Etiket:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:81 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "Sol:"
+
+#: ../gok.glade2.h:82
+msgid "Match physical keyboard as reported by X Server"
+msgstr "X Sunucu tarafından belirtilen fiziksel klavye ile eşle"
+
+#: ../gok.glade2.h:83
+msgid "Modifier Post"
+msgstr "Sonraki Değiştirici"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Pre"
+msgstr "Önceki değiştirici"
+
+#: ../gok.glade2.h:85
+msgid "Modifier:"
+msgstr "Değiştirici:"
+
+#: ../gok.glade2.h:86
+msgid "Move Down"
+msgstr "Aşağı hareket"
+
+#: ../gok.glade2.h:87
+msgid "Move Up"
+msgstr "Yukarı hareket"
+
+#: ../gok.glade2.h:88
+msgid "Name:"
+msgstr "İsim:"
+
+#: ../gok.glade2.h:89
+msgid "New"
+msgstr "Yeni"
+
+#: ../gok.glade2.h:90
+msgid "Next Key"
+msgstr "Sonraki Tuş"
+
+#: ../gok.glade2.h:91
+msgid "Normal"
+msgstr "Normal"
+
+#: ../gok.glade2.h:92
+msgid "Number of _flashes:"
+msgstr "_Flaşlama sayısı:"
+
+#: ../gok.glade2.h:93
+msgid "Number of _predictions:"
+msgstr "_Tahmin sayısı:"
+
+#: ../gok.glade2.h:94
+msgid "Number of command predictions:"
+msgstr "Komut tahmini sayısı:"
+
+#: ../gok.glade2.h:95
+msgid "Number of word predictions:"
+msgstr "Sözcük tahmini sayısı:"
+
+#: ../gok.glade2.h:96
+msgid "Other _input device:"
+msgstr "Diğer g_iriş aygıtı:"
+
+#: ../gok.glade2.h:97
+msgid "Prediction"
+msgstr "Tahmin"
+
+#: ../gok.glade2.h:98
+msgid "Press"
+msgstr "Bas"
+
+#: ../gok.glade2.h:99
+msgid "Previous Key"
+msgstr "Önceki Tuş"
+
+#: ../gok.glade2.h:100
+msgid "Read keyboard from file:"
+msgstr "Klavyeyi dosyadan oku:"
+
+#: ../gok.glade2.h:101
+msgid "Release"
+msgstr "Bırak"
+
+#. User interface for the access method
+#: ../gok.glade2.h:102 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "Sağ:"
+
+#: ../gok.glade2.h:103
+msgid "S_witch"
+msgstr "A_nahtar"
+
+#: ../gok.glade2.h:104
+msgid "Show Only This Font Group"
+msgstr "Sadece Bu Yazıtipi Grubunu Göster"
+
+#: ../gok.glade2.h:105
+msgid "So_und:"
+msgstr "S_es:"
+
+#: ../gok.glade2.h:106
+msgid "Speak key _label"
+msgstr "_Etiket anahtarını oku"
+
+#: ../gok.glade2.h:107
+msgid "Style:"
+msgstr "Biçim:"
+
+#: ../gok.glade2.h:108
+msgid "Switch _1"
+msgstr "Anahtar _1"
+
+#: ../gok.glade2.h:109
+msgid "Switch _2"
+msgstr "Anahtar _2"
+
+#: ../gok.glade2.h:110
+msgid "Switch _3"
+msgstr "Anahtar _3"
+
+#: ../gok.glade2.h:111
+msgid "Switch _4"
+msgstr "Anahtar _4"
+
+#: ../gok.glade2.h:112
+msgid "Switch _5"
+msgstr "Anahtar _5"
+
+#: ../gok.glade2.h:113
+msgid "Target:"
+msgstr "Hedef:"
+
+#: ../gok.glade2.h:114
+msgid "To Back"
+msgstr "Geriye doğru"
+
+#: ../gok.glade2.h:115
+msgid "To Front"
+msgstr "İleriye Doğru"
+
+#: ../gok.glade2.h:116
+msgid "Toggle"
+msgstr "Geçiş"
+
+#: ../gok.glade2.h:117
+msgid "Top:"
+msgstr "Yukarı:"
+
+#: ../gok.glade2.h:118
+msgid "Use _extra word list file(s)"
+msgstr "_Ek sözcük listesi dosyasını kullan"
+
+#: ../gok.glade2.h:119
+msgid "Use _key averaging"
+msgstr "_Tuş ortalanmasını kullan"
+
+#: ../gok.glade2.h:120
+msgid "Valuator Sensitivity"
+msgstr "Değer Hassaslığı"
+
+#: ../gok.glade2.h:121
+msgid "Word Completion"
+msgstr "Sözcük Tamamlama"
+
+#: ../gok.glade2.h:122
+msgid "_100ths of a second"
+msgstr "Saniyenin _100'de biri kadar"
+
+#: ../gok.glade2.h:123
+msgid "_Add"
+msgstr "_Ekle"
+
+#: ../gok.glade2.h:124
+msgid "_Browse..."
+msgstr "_Ara..."
+
+#: ../gok.glade2.h:125
+msgid "_Delete"
+msgstr "_Sil"
+
+#: ../gok.glade2.h:126
+msgid "_Joystick"
+msgstr "_Oyun Çubuğu"
+
+#: ../gok.glade2.h:127
+msgid "_Method:"
+msgstr "_Metod:"
+
+#: ../gok.glade2.h:128
+msgid "_Name:"
+msgstr "_İsim:"
+
+#: ../gok.glade2.h:129
+msgid "_New"
+msgstr "_Yeni"
+
+#: ../gok.glade2.h:130
+msgid "_Number of predictions:"
+msgstr "_Tahmin sayısı:"
+
+#: ../gok.glade2.h:131
+msgid "_Rename"
+msgstr "_Yeniden Adlandır"
+
+#: ../gok.glade2.h:132
+msgid "_Single axis:"
+msgstr "_Tek eksen:"
+
+#: ../gok.glade2.h:133
+msgid "_Spacing:"
+msgstr "_Boşluk:"
+
+#: ../gok.glade2.h:134
+msgid "_Use Desktop Theme Preferences"
+msgstr "_Masaüstü Tema Ayarlarını Kullan"
+
+#: ../gok.glade2.h:135
+msgid "_Valuator"
+msgstr "_Değerlendirici"
+
+#: ../gok.glade2.h:136
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "_X-Y değerlendiricisi (eksen 0 ve 1)"
+
+#: ../gok.glade2.h:137
+msgid "access method name"
+msgstr "giriş metodu ismi"
+
+#: ../gok.glade2.h:138
+msgid "cancel"
+msgstr "iptal et"
+
+#: ../gok.glade2.h:139
+msgid "display user help"
+msgstr "kullanıcı yardımını görüntüle"
+
+#: ../gok.glade2.h:140
+msgid "high"
+msgstr "yüksek"
+
+#: ../gok.glade2.h:141
+msgid "low"
+msgstr "alçak"
+
+#: ../gok.glade2.h:142
+msgid "pixels"
+msgstr "pikseller"
+
+#: ../gok.glade2.h:143
+msgid "revert to original settings"
+msgstr "ilk ayarlara döndür"
+
+#: ../gok.glade2.h:144
+msgid "try these settings"
+msgstr "bu ayarları deneyiniz"
+
+#: ../gok.glade2.h:145
+msgid "use these settings"
+msgstr "bu ayarları kullan"
+
+#: ../gok/callbacks.c:373
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "Üzgünüm, Erişim Metodu Sihirbazı henüz gerçekleştirilmedi."
+
+#: ../gok/callbacks.c:375
+msgid "GOK Access Method Wizard"
+msgstr "Erişim Metodu Sihirbazı"
+
+#: ../gok/gok-control.c:248
+msgid "GOK Browse for sound file"
+msgstr "GOK ses dosyası göz atması"
+
+#: ../gok/gok-control.c:249
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "Üzgünüm, ses dosyası göz atması henüz gerçekleştirilmedi."
+
+#: ../gok/gok-control.c:254
+msgid "GOK Inverse Scanning Advanced"
+msgstr "GOK İleri Ters Tarama"
+
+#: ../gok/gok-control.c:255
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "Üzgünüm, gelişmiş ayarlar henüz etkinleştirilmedi."
+
+#: ../gok/gok-editor.c:147 ../gok/gok-editor.c:181 ../gok/gok-editor.c:262
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"Şu anki dosyayı değiştirdiniz.\n"
+"Değişiklikleri iptal etmek ister misiniz?"
+
+#: ../gok/gok-editor.c:149 ../gok/gok-editor.c:183 ../gok/gok-editor.c:264
+#: ../gok/gok-editor.c:1056
+msgid "Keyboard Filename Invalid"
+msgstr "Geçersiz Klavye Dosyaadı"
+
+#: ../gok/gok-editor.c:212
+msgid "new"
+msgstr "yeni"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:274
+msgid "Select keyboard file for editing"
+msgstr "Ekleme için klavye dosyası seçiniz"
+
+#: ../gok/gok-editor.c:284 ../gok/gok-editor.c:976
+msgid ".kbd files"
+msgstr ".kbd dosyaları"
+
+#: ../gok/gok-editor.c:539
+msgid "label"
+msgstr "etiket"
+
+#: ../gok/gok-editor.c:713
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "Dosya saklanamıyor: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:966
+msgid "Save keyboard file as"
+msgstr "Yeni klavye adı ile sakla"
+
+#: ../gok/gok-editor.c:1047
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"Bu geçerli bir klavye dosya adı değil:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1079
+msgid "(new)"
+msgstr "(yeni)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"GOK '%s' adındaki yeni donanım aygıtında aktivite tepit etti.  '%s' aygıtı "
+"yerine bu aygıtı kullanmak ister misiniz?"
+
+#: ../gok/gok-key.c:118
+msgid "Mute"
+msgstr "Sessiz"
+
+#: ../gok/gok-key.c:121
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"Fare\n"
+"Tuşları"
+
+#: ../gok/gok-key.c:124
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"Sol\n"
+"Sekme"
+
+#: ../gok/gok-key.c:231
+msgid "<nil>"
+msgstr "<nil>"
+
+#: ../gok/gok-key.c:235
+msgid "Divide"
+msgstr "Böl"
+
+#: ../gok/gok-key.c:238
+msgid "Multiply"
+msgstr "Çarp"
+
+#: ../gok/gok-key.c:241
+msgid "Subtract"
+msgstr "Çıkart"
+
+#: ../gok/gok-key.c:244
+msgid "Addition"
+msgstr "Ekle"
+
+#: ../gok/gok-key.c:247
+msgid "Prior"
+msgstr "Öncelikli"
+
+#: ../gok/gok-key.c:250
+msgid "Next"
+msgstr "Sonraki"
+
+#: ../gok/gok-key.c:253 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Home"
+
+#: ../gok/gok-key.c:256 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "End"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:259 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "Yukarı"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:262 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "Aşağı"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:265 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "Sol"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:268 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "Sağ"
+
+#: ../gok/gok-key.c:271
+msgid "Begin"
+msgstr "Başla"
+
+#: ../gok/gok-key.c:274
+msgid "Decimal"
+msgstr "Onluk"
+
+#: ../gok/gok-key.c:277
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:280
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"Çoklu\n"
+"tuş"
+
+#: ../gok/gok-key.c:283
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Eisu\n"
+"değişimi"
+
+#: ../gok/gok-key.c:286
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"Henkan\n"
+"Kipi"
+
+#: ../gok/gok-key.c:289
+msgid "Muhenkan"
+msgstr "Muhenkan"
+
+#: ../gok/gok-key.c:292
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"Kip\n"
+"geçişi"
+
+#: ../gok/gok-key.c:295
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"Hiragana\n"
+"Katakana"
+
+#: ../gok/gok-keyboard.c:156
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Xkb uzantısı başlatılamadı! (hata kodu %x)"
+
+#: ../gok/gok-keyboard.c:162 ../gok/gok-keyboard.c:203
+msgid "keyboard description not available!"
+msgstr "klavye tanımlaması elde yok!"
+
+#: ../gok/gok-keyboard.c:168 ../gok/gok-keyboard.c:209
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "Klavye Geometrisi X Sunucunuzdan okunamıyor."
+
+#: ../gok/gok-keyboard.c:434
+msgid "Back"
+msgstr "Geri"
+
+#: ../gok/gok-keyboard.c:451 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "Sonrakini Tekrarla"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "Düzenle"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"Num\n"
+"Pad"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "Gizle"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:680
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:693
+msgid "Level 2"
+msgstr "Düzey 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:706
+msgid "Level 3"
+msgstr "Düzey 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:719
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Geri\n"
+"Tuşu"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:730 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Sekme"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:741
+msgid "space"
+msgstr "boşluk"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:752 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Giriş"
+
+#: ../gok/gok-keyboard.c:790 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "Menüler"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:846
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "abcçdefgğhıijklmnoöprsştuüvyz1234567890-=[];'#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:850
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ!\"3$%^&*()_+{}:@~<>?"
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:862
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:871
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:918
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:919
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:927
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:933
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1916
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2790
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2795 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "Tablo"
+
+#: ../gok/gok-keyboard.c:2800 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "Araç çubukları"
+
+#: ../gok/gok-keyboard.c:2804
+msgid "Applications"
+msgstr "Uygulamalar"
+
+#: ../gok/gok-keyboard.c:2814
+msgid "Menu"
+msgstr "Menü"
+
+#. please!
+#: ../gok/gok-keyboard.c:3626 ../gok/gok-sound.c:49 ../gok/main.c:1941
+#: ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3630
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "GNOME masaüstü için dinamik sanal klavye"
+
+#: ../gok/gok-keyboard.c:3632
+msgid "translator-credits"
+msgstr ""
+"Burçin Dönmez <bdonmez@cisunix.unh.edu>\n"
+"Barış Çiçek <baris@teamforce.name.tr>"
+
+#: ../gok/gok-keyboard.c:3634
+msgid "Full Credits"
+msgstr "Yazanların Tümü"
+
+#: ../gok/gok-keyboard.c:3636
+msgid "About GOK"
+msgstr "GOK Hakkında"
+
+#: ../gok/gok-libusb.c:162
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "libusb arkaucu başlatılamadı - %s"
+
+#: ../gok/gok-libusb.c:190
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: %x:%x VID:PAIR eşi ile aygıt bulundu"
+
+#: ../gok/gok-libusb.c:201
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "%x:%x VID:PID çifti ile aygıt bulunamıyor."
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:213
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "%s üzerinde yanlış izinler var"
+
+#: ../gok/gok-libusb.c:301
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "aygıt %x:%x içinde hiçbir uygun USB bitiş noktası yok"
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "tanımlana okunurken oku"
+
+#.
+#. * i18n: "Key Feedback" is a sound event description. The string
+#. * doesn't appear in the user interface, it is part of the metadata
+#. * attached to sounds coming from GOK. Sounds are played whenever
+#. * a key on the virtual keyboard is pressed.
+#.
+#: ../gok/gok-sound.c:58
+msgid "Key Feedback"
+msgstr "Tuş Geribildirimi"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1701
+msgid "V Scrollbar"
+msgstr "Dikey Kaydırma Çubuğu"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1706
+msgid "H Scrollbar"
+msgstr "Yatay Kaydırma Çubuğu"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:375 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "GOK Eylem İsmi"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:381
+msgid "Change the action name:"
+msgstr "Eylem ismini değiştir:"
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"Eylem ismi boş bırakılamaz\n"
+"Lütfen yeni eylem ismi giriniz."
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"Bu eylem ismi zaten kullanılıyor.\n"
+"Lütfen yeni eylem ismi giriniz"
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+msgid "New Action %d"
+msgstr "Yeni Eylem %d"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "Bu eylemi silmek istiyor musunuz (%s)?"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "GOK Eylem Sil"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:413 ../gok/gok-page-feedbacks.c:453
+#: ../gok/gok-page-feedbacks.c:473
+msgid "GOK Feedback Name"
+msgstr "GOK Geribildirim İsmi"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:419
+msgid "Change the feedback name:"
+msgstr "Geribildirim ismini değiştir:"
+
+#: ../gok/gok-page-feedbacks.c:451
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"Geribildirim ismi boş bırakılamaz \n"
+"Lütfen yeni bir geribildirim ismi giriniz."
+
+#: ../gok/gok-page-feedbacks.c:471
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"Üzgünüm, bu geribildirim ismi zaten bulunuyor.\n"
+"Lütfen yeni bir geri bildirim ismi giriniz"
+
+#: ../gok/gok-page-feedbacks.c:523
+#, c-format
+msgid "New Feedback %d"
+msgstr "Yeni Geribildirim %d"
+
+#: ../gok/gok-page-feedbacks.c:639
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "Bu geribildirimi silmek istiyor musunuz (%s)?"
+
+#: ../gok/gok-page-feedbacks.c:648
+msgid "GOK Delete Feedback"
+msgstr "GOK Geribildirim Sil"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:871
+msgid "Select sound file"
+msgstr "Ses dosyası seçiniz"
+
+#: ../gok/gok-page-keyboard.c:215
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "Ek GOK klavye dosyalarını aramak için dizin girin."
+
+#: ../gok/gok-page-keyboard.c:249
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "Başlangıç düzenleme klavyenizi tanımlayan XML dosyasını seçin"
+
+#: ../gok/gok-page-keysizespace.c:82
+msgid "Button"
+msgstr "Düğme"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "Pencere Listesi"
+
+#: ../gok/gok-utf8-word-complete.c:121
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "Sözlük dosyası '%s' içeriği okunamadı\n"
+
+#: ../gok/main.c:209
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"Belirli erişim metodu kullan. İSİM bir dizgedir ve çeşitli erişim metodu "
+"dosyalarında (.xam) <gok:accessmethod> yönlendirme iminde \"isim\" özelliği "
+"olarak ilişkilendirilmiştir. Not bu .xam dosya adı ile aynı olmak zorunda "
+"değildir. (--list-accessmoethods'a bakın)"
+
+#: ../gok/main.c:210
+msgid "NAME"
+msgstr "İSİM"
+
+#: ../gok/main.c:218
+msgid "Start the GOK keyboard editor"
+msgstr "GOK klavye editörünü başlat"
+
+#: ../gok/main.c:226
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "Özel, büyük bir ihtimalle kararsız, gok araçlarını kullan"
+
+#: ../gok/main.c:234
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"--geometry kullanılmadığında gok pozisyonunu hatırlar ve her açılışta bir "
+"önceki kapanışdaki pozisyonunda başlar.  --geometry kullanıldığında gok X11 "
+"geometrisinin tanımladığı dikdörtgen alana kendisini yerleştirir..--geometry "
+"kullanıldığında gok ptogramdan çıkışında konumunu hatırlamaz.  Bu davranış --"
+"remembergeometry bayrağı ile değiştirilebilir, bu gok'un --geometry "
+"kullanıldığında bile pozisyonunu hatırlamasına zorlar."
+
+#: ../gok/main.c:235
+msgid "GEOMETRY"
+msgstr "GEOMETRİ"
+
+#: ../gok/main.c:243
+msgid "Use the specified input device"
+msgstr "Verilen giriş aygıtını kullan"
+
+#: ../gok/main.c:244
+msgid "DEVICENAME"
+msgstr "AYGITİSMİ"
+
+#: ../gok/main.c:252
+msgid "Start GOK with the specified keyboard."
+msgstr "Belirtilen klavye ile GOK'a başla."
+
+#: ../gok/main.c:253
+msgid "KEYBOARDNAME"
+msgstr "KLAVYEİSMİ"
+
+#: ../gok/main.c:261
+msgid "List the access methods that can be used as options to other arguments."
+msgstr ""
+"Diğer parametrelere seçenek olarak kullanılacak erişim metodlarının listesi."
+
+#: ../gok/main.c:270
+msgid "List the actions that can be used as options to other arguments."
+msgstr ""
+"Diğer parametrelere seçenek olarak kullanılacak erişim eylemlerinin listesi."
+
+#: ../gok/main.c:279
+msgid "GOK will be used to login"
+msgstr "GOK giriş için kullanılacak"
+
+#: ../gok/main.c:289
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr ""
+"İsimsiz kullanıcı arayüzü için GOK tuşları gösterecek. Hata ayıklama için "
+"faydalı."
+
+#: ../gok/main.c:299
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"--geometri ile kullanılabilir.  --geometri komutu ile başlatılsa bile "
+"programdan çıkıldığında GOK'un pozisyonunu hatırlamaya zorlar. Lütfen bilgi "
+"için --geometri iminin altındaki yorumlara bakınız."
+
+#: ../gok/main.c:310
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+"GOK'u başlat ve bu eylemi tarama işlemlerine bağla. (--list-actions'a bakın)"
+
+#: ../gok/main.c:320
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+"GOK'u başlat ve bu eylemi seçme işlemlerine bağla. (--list-actions'a bakın)"
+
+#: ../gok/main.c:329
+msgid "Open the settings dialog box when GOK starts"
+msgstr "GOK başladığında iletişim kutusu ayarlarını aç"
+
+#: ../gok/main.c:339
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"Libusb'yi girdi olayları için kullan ve belirtilen USB Üretici ID'e (VID) ve "
+"Ürün ID'e (PID) sahip aygıtı kullan."
+
+#: ../gok/main.c:358
+msgid "Attempt to use GOK without the system mouse"
+msgstr "GOK'un sistem faresi olmadan kullanılmaya çalışılması"
+
+#: ../gok/main.c:367
+msgid "Disable automatic keyboard branching"
+msgstr "Kendiliğinden klavye dallanması kapatıldı"
+
+#: ../gok/main.c:668
+msgid "The GNOME On-screen Keyboard"
+msgstr "GNOME Ekran Klavyesi"
+
+#: ../gok/main.c:766
+msgid "Unsupported geometry specification"
+msgstr "Desteklenmeyen geometri belirtimi"
+
+#: ../gok/main.c:767
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given. Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"GOK şu an için x, y, genişlik ve yükseklik verilmesi gerektiriyor. Üzgünüm, "
+"sizin verdiğiniz geometri belirtimi kullanılmayacak."
+
+#: ../gok/main.c:863
+msgid "XKB extension is required."
+msgstr "XKB uzantısı gerekiyor."
+
+#: ../gok/main.c:873
+msgid "Can't initialize actions."
+msgstr "Eylemler başlatılamıyor."
+
+#: ../gok/main.c:883
+msgid "Can't initialize feedbacks."
+msgstr "Geribildirimler başlatılamıyor."
+
+#: ../gok/main.c:928 ../gok/main.c:937
+msgid "Can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr "libusb arkaucu başlatılamıyor - USB VID:PID eşi ayrıştırılamıyor"
+
+#: ../gok/main.c:953
+msgid "Can't create the main GOK window!"
+msgstr "GOK ana penceresi oluşturulamıyor!"
+
+#: ../gok/main.c:972
+msgid "Can't create the settings dialog window!"
+msgstr "Ayarlar iletişim penceresi yaratılamyor!"
+
+#: ../gok/main.c:1033
+msgid "No keyboards to display!"
+msgstr "Gösterilecek klavye yok!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1170 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "UI Kavraması"
+
+#: ../gok/main.c:1187
+msgid "popup menu"
+msgstr "açılır menü"
+
+#: ../gok/main.c:2113
+msgid "Can't create a compose keyboard!"
+msgstr "Düzenleme klavyesi oluşturulamıyor!"
+
+#: ../gok/main.c:2155
+msgid "Can't read any keyboards!"
+msgstr "Hiçbir klavye okunamıyor!"
+
+#: ../gok/main.c:2266
+msgid "Could not get access method directory key from GConf."
+msgstr "Metod dizin anahtarına GConf'dan erişilemiyor!"
+
+#: ../gok/main.c:2273
+msgid "Possibly unknown access method."
+msgstr "Muhtemelen bilinmeyen erişim metodu."
+
+#: ../gok/main.c:2829
+msgid "Sorry, GOK can't run"
+msgstr "Üzgünüm, GOK çalışamıyor çünkü"
+
+#: ../gok/main.c:2840
+msgid "GOK Fatal Error"
+msgstr "Önemli GOK Hatası"
+
+#: ../gok/main.c:2876
+msgid "GOK Error"
+msgstr "GOK Hatası"
+
+#: ../gok/main.c:2896
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run. GOK is currently unable to retrieve those settings. If this "
+"is the first time that you have run gok after installing it you may need to "
+"restart gconfd, you can use this command: 'gconftool-2 --shutdown' or log "
+"out and back in."
+msgstr ""
+"GOK ayarlarını saklamak için GConf 2'yi kullanır ve çalışmak için GConf "
+"içindeki bazı ayraların bulunması gerekir. GOK şu an da bu ayarlara "
+"ulaşamıyor. Eğer bu gok kurulumundan sonraki ilk çalıştırmanız ise gconfd'yi "
+"yeniden başlatmanız gerekebilir, bunun için 'gconftool-2 --shutdown' "
+"komutunu kullanın veya sistemden çıkıp tekrar girin."
+
+#: ../gok/main.c:3135
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"GOK tam olarak çalışmayabilir, çünkü masaüstünüzün 'yapışkan tuşlar' "
+"özelliğini etkinleştiremedi."
+
+#: ../gok/main.c:3142
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK gerektirdiği Yapışkan Tuşlar'ı etkinleştirdi.\n"
+
+#. post an error dialog
+#: ../gok/main.c:3160
+msgid "XKB display extension is missing."
+msgstr "XKB görüntü eklentisi eksik."
+
+#: ../gok/main.c:3284
+msgid "Unable to open help file"
+msgstr "Yardım dosyası açılamıyor"
+
+#: ../gok/main.c:3310
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"Bu GOK'u işletmek için kullandığınız aygıtın aynı zamanda sistemişaretçisini "
+"(ya da 'fare işaretçisini') kontrol ettiğini gösterir. Buuygulamaların "
+"işaretçiyi kullanmaları ile olan çakışmalar uygulamalarıya da GOK'u "
+"kullanmanızı etkileyebilir.\n"
+"\n"
+"Giriş aygıtınızı 'Extended' girdi aygıtı olarak yapılandırmanızı "
+"önemletavsiye ediyoruz; daha fazla bilgi için GOK Yardım'ına bakın."
+
+#: ../gok/main.c:3316
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"GOK'u işletmek için kullandığınız aygıt aynı zamanda sistem\n"
+"işaretçisini de kontrol ediyor.\n"
+"\n"
+"Uygulamaların kullandığı işaretçiyle karışıklığı ortadan kaldırmak içinGOK "
+"uygulama süresince kullandığınız sistem işaretçisini iptal edecek.\n"
+"\n"
+"Diğer bir seçenek olarak, başka bir işaretçi kullanabilmek için "
+"GOK'uyapılandırabilirsiniz, detaylar için Yardım'a göz atınız."
+
+#. no longer used!
+#: ../gok/main.c:3323 ../gok/main.c:3326
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "GOK'u 'ana işaretleyici' kipinde kullanmak için ayarlıyorsunuz."
+
+#: ../gok/main.c:3420
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"Yardımcı Teknoloji Desteği çalışır kılınmamış.\n"
+"\n"
+"GOK'u yardımcı teknolojileri çalışır kılmadan başlatabilirsiniz.Ama, "
+"uygulamanın bazı özelliklerini kullanamayabilirsiniz.\n"
+"\n"
+"Yardımcı teknoloji desteğini kullanmak ve değişiklikler uygulanmış olarak "
+"yeni bir oturum için Uygula ve Çıkışa tıklayınız.\n"
+"\n"
+"GOK'u kullanmaya devam etmek için Devam Et'e tıklayınız.\n"
+"\n"
+"GOK'dan çıkmak için Kapat'a tıklayınız.\n"
+"\n"
+
+#: ../gok/main.c:3439
+msgid "Enable and Log Out"
+msgstr "Seçilir Kıl ve Çık"
+
+#: ../gok/main.c:3451
+msgid "Continue"
+msgstr "Devam et"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(saniyenin 100'de biri kadar)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "Ters Tarama"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "Tarama için düğmeye basılı tutun. Seçmek için başka bir düğmeye basın."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "Tara:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "Tek Tuş Otomatik Tarama"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "Taramayı Başlat:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap Row/Columns"
+msgstr "Satırları/Sütunları Böl"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "Tek Tuş Ters Tarama"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "5 Çevirim Yönlendirildi"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "Aşağı:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "Parlatıcıyı 4 yönde taşı.  Tuş seç."
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "Yukarı:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "Göster"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "Yardım Tarayıcı"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "Konsol"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "Metin Düzenleyicisi"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "Web Tarayıcı"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "Yaz"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "Program Başlatıcı"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "Fare"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "Düğme 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "Düğme 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "Düğme 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "Çift Tıkla"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "Mandal"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "Ana imleç"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "Tekrarla"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "Doldur"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Gerçel"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "Daha Dar"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "Sonraki Tuşu Tekrarla"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "Daha Kısa"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "Daha Uzun"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "Daha Geniş"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "Gerçekten Çıksın mı!"
+
+#~ msgid "Additional directory to search for GOK keyboard files"
+#~ msgstr "GOK Klavye dosyalarının aranacağı ek dizin"
+
+#~ msgid "gok: Unsupported geometry specification\n"
+#~ msgstr "gok: Desteklenmeyen geometri belirtimi\n"
+
+#~ msgid ""
+#~ "gok: Currently GOK requires that the x, y, width and height all be given\n"
+#~ msgstr ""
+#~ "gok: Şu anda GOK x,y eksenlerini istiyor, yükseklik ve genişlik "
+#~ "verilmeli\n"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "AccessMethodName"
+#~ msgstr "Giriş Metodları İsmi"
+
+#~ msgid "Wrap"
+#~ msgstr "Kaydır"
+
+#~ msgid "Auto Repeat On"
+#~ msgstr "Otomatik Tekrarlama Açık"
+
+#~ msgid "Auto Repeat Rate:"
+#~ msgstr "Otomatik Tekrarlama Sıklığı:"
+
+#~ msgid "Autostart (starts automatically)"
+#~ msgstr "Otomatik başla (özdevimli başlatılır)"
+
+#~ msgid "Continuous Cycle On"
+#~ msgstr "Sürekli Çevirme Açık"
+
+#~ msgid "Press switch to start"
+#~ msgstr "Başlamak için düğmeye basınız"
+
+#~ msgid "_Options"
+#~ msgstr "_Seçenekler"
+
+#~ msgid ""
+#~ "The device you are using to operate GOK is also controlling the system "
+#~ "pointer (or 'mouse pointer'). Conflicts with applications' use of the "
+#~ "pointer may interfere with your ability to use applications or GOK.\n"
+#~ "\n"
+#~ "We strongly recommend configuring your input device as an 'Extended' "
+#~ "input device instead; see GOK Help for more information."
+#~ msgstr ""
+#~ "Bu GOK'u işletmek için kullandığınız aygıtın aynı zamanda "
+#~ "sistemişaretçisini (ya da 'fare işaretçisini') kontrol ettiğini gösterir. "
+#~ "Buuygulamaların işaretçiyi kullanmaları ile olan çakışmalar "
+#~ "uygulamalarıya da GOK'u kullanmanızı etkileyebilir.\n"
+#~ "\n"
+#~ "Giriş aygıtınızı 'Extended' girdi aygıtı olarak yapılandırmanızı "
+#~ "önemletavsiye ediyoruz; daha fazla bilgi için GOK Yardım'ına bakın."
+
+#~ msgid "You are using GOK in 'core pointer' mode."
+#~ msgstr "GOK'u 'ana işaretçiler' kipinde kullanıyorsunuz."

@@ -1,0 +1,210 @@
+<refentry id="gok-arraylist">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-arraylist.top_of_page">arraylist</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>arraylist</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-arraylist.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="Boolean">Boolean</link>
+#define             <link linkend="Object">Object</link>
+<link linkend="void">void</link>                <link linkend="arraylist-free">arraylist_free</link>                      (const <link linkend="Arraylist">Arraylist</link> list);
+<link linkend="Arraylist">Arraylist</link>           <link linkend="arraylist-create">arraylist_create</link>                    (const <link linkend="Boolean">Boolean</link> (equalsconst Object object_1, const Object object_2) ());
+<link linkend="Boolean">Boolean</link>             <link linkend="arraylist-add">arraylist_add</link>                       (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         <link linkend="Object">Object</link> object);
+<link linkend="Boolean">Boolean</link>             <link linkend="arraylist-remove">arraylist_remove</link>                    (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="Object">Object</link> object);
+<link linkend="Boolean">Boolean</link>             <link linkend="arraylist-contains">arraylist_contains</link>                  (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="Object">Object</link> object);
+<link linkend="int">int</link>                 <link linkend="arraylist-index-of">arraylist_index_of</link>                  (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="Object">Object</link> object);
+<link linkend="Boolean">Boolean</link>             <link linkend="arraylist-is-empty">arraylist_is_empty</link>                  (const <link linkend="Arraylist">Arraylist</link> list);
+<link linkend="int">int</link>                 <link linkend="arraylist-size">arraylist_size</link>                      (const <link linkend="Arraylist">Arraylist</link> list);
+<link linkend="Object">Object</link>              <link linkend="arraylist-get">arraylist_get</link>                       (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="int">int</link> index);
+<link linkend="void">void</link>                <link linkend="arraylist-clear">arraylist_clear</link>                     (const <link linkend="Arraylist">Arraylist</link> list);
+<link linkend="void">void</link>                <link linkend="arraylist-sort">arraylist_sort</link>                      (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="int">int</link> (compareconst Object object_1, const Object object_2) ());
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-arraylist.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-arraylist.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="Boolean" role="macro">
+<title>Boolean</title>
+<indexterm zone="Boolean"><primary sortas="Boolean">Boolean</primary></indexterm><programlisting>#define             Boolean</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="Object" role="macro">
+<title>Object</title>
+<indexterm zone="Object"><primary sortas="Object">Object</primary></indexterm><programlisting>#define             Object</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="arraylist-free" role="function">
+<title>arraylist_free ()</title>
+<indexterm zone="arraylist-free"><primary sortas="arraylist_free">arraylist_free</primary></indexterm><programlisting><link linkend="void">void</link>                arraylist_free                      (const <link linkend="Arraylist">Arraylist</link> list);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-create" role="function">
+<title>arraylist_create ()</title>
+<indexterm zone="arraylist-create"><primary sortas="arraylist_create">arraylist_create</primary></indexterm><programlisting><link linkend="Arraylist">Arraylist</link>           arraylist_create                    (const <link linkend="Boolean">Boolean</link> (equalsconst Object object_1, const Object object_2) ());</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>equals</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-add" role="function">
+<title>arraylist_add ()</title>
+<indexterm zone="arraylist-add"><primary sortas="arraylist_add">arraylist_add</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             arraylist_add                       (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         <link linkend="Object">Object</link> object);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>object</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-remove" role="function">
+<title>arraylist_remove ()</title>
+<indexterm zone="arraylist-remove"><primary sortas="arraylist_remove">arraylist_remove</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             arraylist_remove                    (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="Object">Object</link> object);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>object</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-contains" role="function">
+<title>arraylist_contains ()</title>
+<indexterm zone="arraylist-contains"><primary sortas="arraylist_contains">arraylist_contains</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             arraylist_contains                  (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="Object">Object</link> object);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>object</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-index-of" role="function">
+<title>arraylist_index_of ()</title>
+<indexterm zone="arraylist-index-of"><primary sortas="arraylist_index_of">arraylist_index_of</primary></indexterm><programlisting><link linkend="int">int</link>                 arraylist_index_of                  (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="Object">Object</link> object);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>object</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-is-empty" role="function">
+<title>arraylist_is_empty ()</title>
+<indexterm zone="arraylist-is-empty"><primary sortas="arraylist_is_empty">arraylist_is_empty</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             arraylist_is_empty                  (const <link linkend="Arraylist">Arraylist</link> list);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-size" role="function">
+<title>arraylist_size ()</title>
+<indexterm zone="arraylist-size"><primary sortas="arraylist_size">arraylist_size</primary></indexterm><programlisting><link linkend="int">int</link>                 arraylist_size                      (const <link linkend="Arraylist">Arraylist</link> list);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-get" role="function">
+<title>arraylist_get ()</title>
+<indexterm zone="arraylist-get"><primary sortas="arraylist_get">arraylist_get</primary></indexterm><programlisting><link linkend="Object">Object</link>              arraylist_get                       (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="int">int</link> index);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>index</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-clear" role="function">
+<title>arraylist_clear ()</title>
+<indexterm zone="arraylist-clear"><primary sortas="arraylist_clear">arraylist_clear</primary></indexterm><programlisting><link linkend="void">void</link>                arraylist_clear                     (const <link linkend="Arraylist">Arraylist</link> list);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="arraylist-sort" role="function">
+<title>arraylist_sort ()</title>
+<indexterm zone="arraylist-sort"><primary sortas="arraylist_sort">arraylist_sort</primary></indexterm><programlisting><link linkend="void">void</link>                arraylist_sort                      (const <link linkend="Arraylist">Arraylist</link> list,
+                                                         const <link linkend="int">int</link> (compareconst Object object_1, const Object object_2) ());</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>list</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>compare</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

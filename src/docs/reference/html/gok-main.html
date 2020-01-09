@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>main</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-interface.html" title="interface">
+<link rel="next" href="gok-support.html" title="support">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-interface.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-support.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-main.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-main.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="main">
+<a name="gok-main"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-main.top_of_page"></a>main</span></h2>
+<p>main</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-main.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="gok-main.html#gok-main-create-window" title="gok_main_create_window ()">gok_main_create_window</a>              (struct gok_window_realize_data *window_realize_data);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-main.html#gok-main-display-scan" title="gok_main_display_scan ()">gok_main_display_scan</a>               (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *nameKeyboard,
+                                                         <a class="link" href="gok-gok-keyboard.html#KeyboardTypes" title="enum KeyboardTypes">KeyboardTypes</a> typeKeyboard,
+                                                         <a class="link" href="gok-gok-keyboard.html#KeyboardLayouts" title="enum KeyboardLayouts">KeyboardLayouts</a> layout,
+                                                         KeyboardShape shape);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-main.html#gok-main-display-scan-previous" title="gok_main_display_scan_previous ()">gok_main_display_scan_previous</a>      (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-main.html#gok-main-display-scan-previous-premade" title="gok_main_display_scan_previous_premade ()">gok_main_display_scan_previous_premade</a>
+                                                        (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-main.html#gok-main-display-scan-reset" title="gok_main_display_scan_reset ()">gok_main_display_scan_reset</a>         (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-main.html#gok-main-ds" title="gok_main_ds ()">gok_main_ds</a>                         (GokKeyboard *pKeyboard);
+GokKeyboard*        <a class="link" href="gok-main.html#gok-main-get-first-keyboard" title="gok_main_get_first_keyboard ()">gok_main_get_first_keyboard</a>         (void);
+void                <a class="link" href="gok-main.html#gok-main-set-first-keyboard" title="gok_main_set_first_keyboard ()">gok_main_set_first_keyboard</a>         (GokKeyboard *pKeyboard);
+GokKeyboard*        <a class="link" href="gok-main.html#gok-main-get-current-keyboard" title="gok_main_get_current_keyboard ()">gok_main_get_current_keyboard</a>       (void);
+<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="gok-main.html#gok-main-get-main-window" title="gok_main_get_main_window ()">gok_main_get_main_window</a>            (void);
+<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a>*         <a class="link" href="gok-main.html#gok-main-get-foreground-accessible" title="gok_main_get_foreground_accessible ()">gok_main_get_foreground_accessible</a>  (void);
+void                <a class="link" href="gok-main.html#gok-main-resize-window" title="gok_main_resize_window ()">gok_main_resize_window</a>              (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWindow,
+                                                         GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Width,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Height);
+void                <a class="link" href="gok-main.html#gok-main-store-window-center" title="gok_main_store_window_center ()">gok_main_store_window_center</a>        (void);
+<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a>*         <a class="link" href="gok-main.html#gok-main-get-foreground-window-accessible" title="gok_main_get_foreground_window_accessible ()">gok_main_get_foreground_window_accessible</a>
+                                                        (void);
+void                <a class="link" href="gok-main.html#gok-main-read-keyboards" title="gok_main_read_keyboards ()">gok_main_read_keyboards</a>             (void);
+GokKeyboard*        <a class="link" href="gok-main.html#gok-main-read-keyboards-from-dir" title="gok_main_read_keyboards_from_dir ()">gok_main_read_keyboards_from_dir</a>    (const char *directory,
+                                                         GokKeyboard *first);
+void                <a class="link" href="gok-main.html#gok-main-on-window-position-change" title="gok_main_on_window_position_change ()">gok_main_on_window_position_change</a>  (void);
+void                <a class="link" href="gok-main.html#gok-main-get-our-window-size" title="gok_main_get_our_window_size ()">gok_main_get_our_window_size</a>        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pWidth,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pHeight);
+void                <a class="link" href="gok-main.html#gok-main-close" title="gok_main_close ()">gok_main_close</a>                      (void);
+void                <a class="link" href="gok-main.html#gok-main-display-error" title="gok_main_display_error ()">gok_main_display_error</a>              (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *error,
+                                                         const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *detail);
+void                <a class="link" href="gok-main.html#gok-main-display-gconf-error" title="gok_main_display_gconf_error ()">gok_main_display_gconf_error</a>        (void);
+void                <a class="link" href="gok-main.html#gok-main-app-change-listener" title="gok_main_app_change_listener ()">gok_main_app_change_listener</a>        (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessible);
+void                <a class="link" href="gok-main.html#gok-main-window-change-listener" title="gok_main_window_change_listener ()">gok_main_window_change_listener</a>     (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessible);
+void                <a class="link" href="gok-main.html#gok-main-mouse-button-listener" title="gok_main_mouse_button_listener ()">gok_main_mouse_button_listener</a>      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> state,
+                                                         long mods ,
+                                                         long timestamp );
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-main.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-main.details"></a><h2>Details</h2>
+<div class="refsect2" title="gok_main_create_window ()">
+<a name="gok-main-create-window"></a><h3>gok_main_create_window ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          gok_main_create_window              (struct gok_window_realize_data *window_realize_data);</pre>
+<p>
+Creates the window that holds the keyboards.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>window_realize_data</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the window, NULL if it couldn't be created.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_display_scan ()">
+<a name="gok-main-display-scan"></a><h3>gok_main_display_scan ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_main_display_scan               (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *nameKeyboard,
+                                                         <a class="link" href="gok-gok-keyboard.html#KeyboardTypes" title="enum KeyboardTypes">KeyboardTypes</a> typeKeyboard,
+                                                         <a class="link" href="gok-gok-keyboard.html#KeyboardLayouts" title="enum KeyboardLayouts">KeyboardLayouts</a> layout,
+                                                         KeyboardShape shape);</pre>
+<p>
+Display a keyboard and allow the user to make selections from it.
+The keyboard must have already been created and in the list of keyboards.
+The keyboard is specified by name and keyboard type. A name of NULL means 
+the first keyboard in the list. 
+The previous keyboard is stored on the "branch back stack".</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> If this is supplied it takes precedence over the name parameter (useful for dynamic keyboards with the same name)
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>nameKeyboard</code></em> :</span></p></td>
+<td> Name of the keyboard you want displayed (must be in the list of keyboards.)
+# <em class="parameter"><code>typeKeyboard</code></em>: Can be used to describe a runtime keyboard type (e.g. a Menus keyboard)
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>typeKeyboard</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>layout</code></em> :</span></p></td>
+<td> Can be used to specify a particular type of keyboard (Example: center-weighted or upper-left-weighted).
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>shape</code></em> :</span></p></td>
+<td> Can be used to specify a particular shape of keyboard (Example: square).
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if keyboard is displayed, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_display_scan_previous ()">
+<a name="gok-main-display-scan-previous"></a><h3>gok_main_display_scan_previous ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_main_display_scan_previous      (void);</pre>
+<p>
+Display and scan the previous keyboard (pulled from the branch-back-stack).
+Don't push the current keyboard on the branch-back-stack.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the previous keyboard was displayed, FALSE if not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_display_scan_previous_premade ()">
+<a name="gok-main-display-scan-previous-premade"></a><h3>gok_main_display_scan_previous_premade ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_main_display_scan_previous_premade
+                                                        (void);</pre>
+<p>
+Display and scan the first keyboard pulled from the branch-back-stack
+that is premade. Delete any dynamic keyboards that are on the stack 'along
+the way'. Don't push the current keyboard on the branch-back-stack.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the previous keyboard was displayed, FALSE if not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_display_scan_reset ()">
+<a name="gok-main-display-scan-reset"></a><h3>gok_main_display_scan_reset ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_main_display_scan_reset         (void);</pre>
+<p>
+Display and scan the current keyboard. This should be called after the user settings 
+have been changed.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was displayed, FALSE if not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_ds ()">
+<a name="gok-main-ds"></a><h3>gok_main_ds ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_main_ds                         (GokKeyboard *pKeyboard);</pre>
+<p>
+Does the actual work of displaying and scanning the keyboard.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be displayed and scanned.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was displayed, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_get_first_keyboard ()">
+<a name="gok-main-get-first-keyboard"></a><h3>gok_main_get_first_keyboard ()</h3>
+<pre class="programlisting">GokKeyboard*        gok_main_get_first_keyboard         (void);</pre>
+<p>
+Accessor function.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the first keyboard in the list of keyboards.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_set_first_keyboard ()">
+<a name="gok-main-set-first-keyboard"></a><h3>gok_main_set_first_keyboard ()</h3>
+<pre class="programlisting">void                gok_main_set_first_keyboard         (GokKeyboard *pKeyboard);</pre>
+<p>
+Sets the first keyboard in the list of keyboards.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be set as the first keyboard.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_get_current_keyboard ()">
+<a name="gok-main-get-current-keyboard"></a><h3>gok_main_get_current_keyboard ()</h3>
+<pre class="programlisting">GokKeyboard*        gok_main_get_current_keyboard       (void);</pre>
+<p>
+Accessor function.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the keyboard that is currently displayed.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_get_main_window ()">
+<a name="gok-main-get-main-window"></a><h3>gok_main_get_main_window ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          gok_main_get_main_window            (void);</pre>
+<p>
+Accessor function.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to main GOK window.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_get_foreground_accessible ()">
+<a name="gok-main-get-foreground-accessible"></a><h3>gok_main_get_foreground_accessible ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a>*         gok_main_get_foreground_accessible  (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_resize_window ()">
+<a name="gok-main-resize-window"></a><h3>gok_main_resize_window ()</h3>
+<pre class="programlisting">void                gok_main_resize_window              (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWindow,
+                                                         GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Width,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Height);</pre>
+<p>
+Resizes the main window to the given width and height.
+The main window is centered over the the center location in gok_data
+The new window will not be resized so it appears off screen.
+When the new window is resized it generates 2 calls (configure events)to 
+gok_main_store_window_center. If the new window is not centered over the old 
+window then m_countIgnoreConfigure will be set to 2 so that the window 
+center is not changed.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pWindow</code></em> :</span></p></td>
+<td> Pointer to the main window.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the relevant (pending) keyboard (may be NULL).
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Width</code></em> :</span></p></td>
+<td> Width of the new window.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Height</code></em> :</span></p></td>
+<td> Height of the new window.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_store_window_center ()">
+<a name="gok-main-store-window-center"></a><h3>gok_main_store_window_center ()</h3>
+<pre class="programlisting">void                gok_main_store_window_center        (void);</pre>
+<p>
+Stores in gok_data the center location of the current keyboard.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_get_foreground_window_accessible ()">
+<a name="gok-main-get-foreground-window-accessible"></a><h3>gok_main_get_foreground_window_accessible ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a>*         gok_main_get_foreground_window_accessible
+                                                        (void);</pre>
+<p>
+Accessor function.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to foreground window's accessible interface.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_read_keyboards ()">
+<a name="gok-main-read-keyboards"></a><h3>gok_main_read_keyboards ()</h3>
+<pre class="programlisting">void                gok_main_read_keyboards             (void);</pre>
+<p>
+Retrieves the name of the directory containing keyboards from GConf.
+Then loads the keyboards in that directory using
+gok_main_read_keyboards_from_dir.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_read_keyboards_from_dir ()">
+<a name="gok-main-read-keyboards-from-dir"></a><h3>gok_main_read_keyboards_from_dir ()</h3>
+<pre class="programlisting">GokKeyboard*        gok_main_read_keyboards_from_dir    (const char *directory,
+                                                         GokKeyboard *first);</pre>
+<p>
+Reads all the keyboard files from the given directory or a subdirectory that
+is a closer match based on user's language if it exists.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>directory</code></em> :</span></p></td>
+<td> The name of the keyboard root directory location.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the first keyboard, NULL if no keyboards could be read.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_on_window_position_change ()">
+<a name="gok-main-on-window-position-change"></a><h3>gok_main_on_window_position_change ()</h3>
+<pre class="programlisting">void                gok_main_on_window_position_change  (void);</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_get_our_window_size ()">
+<a name="gok-main-get-our-window-size"></a><h3>gok_main_get_our_window_size ()</h3>
+<pre class="programlisting">void                gok_main_get_our_window_size        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pWidth,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pHeight);</pre>
+<p>
+Retreives the width and height that we last resized the window to.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pWidth</code></em> :</span></p></td>
+<td> Pointer to a variable that will hold the window width.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pHeight</code></em> :</span></p></td>
+<td> Pointer to a variable that will hold the window height.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_close ()">
+<a name="gok-main-close"></a><h3>gok_main_close ()</h3>
+<pre class="programlisting">void                gok_main_close                      (void);</pre>
+<p>
+Delete any keyboards that were created.
+This must be called at the end of the program.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_display_error ()">
+<a name="gok-main-display-error"></a><h3>gok_main_display_error ()</h3>
+<pre class="programlisting">void                gok_main_display_error              (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *error,
+                                                         const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *detail);</pre>
+<p>
+Displays an error dialog.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>detail</code></em> :</span></p></td>
+<td> Error details
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_display_gconf_error ()">
+<a name="gok-main-display-gconf-error"></a><h3>gok_main_display_gconf_error ()</h3>
+<pre class="programlisting">void                gok_main_display_gconf_error        (void);</pre>
+<p>
+Displays a gconf error message.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_app_change_listener ()">
+<a name="gok-main-app-change-listener"></a><h3>gok_main_app_change_listener ()</h3>
+<pre class="programlisting">void                gok_main_app_change_listener        (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessible);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pAccessible</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_window_change_listener ()">
+<a name="gok-main-window-change-listener"></a><h3>gok_main_window_change_listener ()</h3>
+<pre class="programlisting">void                gok_main_window_change_listener     (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessible);</pre>
+<p>
+This function is called each time the foreground window changes.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pAccessible</code></em> :</span></p></td>
+<td> Pointer to the foreground window's accessible interface.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_main_mouse_button_listener ()">
+<a name="gok-main-mouse-button-listener"></a><h3>gok_main_mouse_button_listener ()</h3>
+<pre class="programlisting">void                gok_main_mouse_button_listener      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> state,
+                                                         long mods ,
+                                                         long timestamp );</pre>
+<p>
+This handler is called each time there is a mouse button event.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>button</code></em> :</span></p></td>
+<td> Mouse button number that has changed state.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>state</code></em> :</span></p></td>
+<td> State of the button.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Param3</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Param4</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

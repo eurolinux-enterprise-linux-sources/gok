@@ -1,0 +1,2333 @@
+# Romanian translation.
+# Copyright (C) 2004 The GNOME Foundation.
+# This file is distributed under the same license as the gok package.
+# Paul-Dan Oprisa-Stanescu <dan_oprisa@hotmail.com>
+# Rușeț Zeno <ruset.zeno@gmail.com>, 2005.
+# Adi Roiban https://launchpad.net/~adiroiban, 2009
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: gok\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gok&component=general\n"
+"POT-Creation-Date: 2009-09-08 15:08+0000\n"
+"PO-Revision-Date: 2009-09-08 18:36+0300\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
+"== 0) && (n != 0))) ? 2: 1));\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "Activează"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "Activează:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "Activare:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "Scanare automată"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "Sus/Jos"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "Cicluri înainte de oprire:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:66
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "Feedback"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "Feedback activare"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "Feedback mișcare"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "Întârziere inițială:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "Stânga/Dreapta"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "Mișcare:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "Operație"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "Opțiuni"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+"Apăsați un buton pentru a începe scanarea.  Apăsați alt buton sau din nou "
+"același buton pentru a selecta."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "Dreapta/Stânga"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "Întârzierea scanare:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "Viteză scanare:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "Direcție scanare:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "Început scanare"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "Pornire scanare:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "Sus/Jos"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "Pe rânduri/coloane"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "mișcarefeedback"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "selecțiefeedback"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "Selecție directă"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "Feedback activare:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "Feedback mișcare:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr ""
+"Deplasați cursorul mausului pentru a evidenția o tastă. Apăsați un buton "
+"pentru a o selecta."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "Selectare:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "Selecție staționară"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "Evidențiați tasta cu mausul. Selectați tasta prin oprirea pe ea."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "Despre"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "Ajutor"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "Ieșire GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "Fereastră"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2467
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "înapoi"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:349
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+"Multiplicatorul de aplicat înainte de procesare echipamentului de intrare "
+"care evaluează evenimentele"
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"Lista cu căile spre dicționarele de completare adiționale,  separate prin "
+"punct și virgulă"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "Preferințele vor fi restricționate?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "Determinarea tipului tastaturii folosite ca tastatură implicită"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr ""
+"GOK Să genereze dinamic tastatura sa pe baza informațiilor serverului X?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr ""
+"Fiecare utilizator GOK să aibă propria sa copie a dicționarului de prezicere "
+"a cuvintelor?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "Fereastra GOK să se extindă pe toată lățimea ecranului?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "Cursorul principal să urmărească cursorul tastaturii GOK?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "Această acțiune să se facă cu medierea tastelor"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "Acest feedback să facă să clipească tastele"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "Acest feedback să scoată un sunet"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "Acest feedback să rostească eticheta tastei GOK"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "Dwell"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr ""
+"Punctul de ancorare al ferestrei principale GOK (dacă este andocată), sau un "
+"șir gol dacă nu"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr ""
+"Între câți fii din fiecare nod din arborele GUI să fie căutate obiecte "
+"accesibile"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr ""
+"În câte nivele inferioare din arborele GUI să fie căutate obiecte accesibile"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "Această acțiune este permanentă"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "Acest feedback este permanent"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "Completarea cuvintelor este activă"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "Clipire taste"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "Buton maus stânga"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "Buton maus mijloc"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "Buton maus 4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "Buton maus 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "Cursor maus"
+
+# e asociat cu 'feedback x', x = [ displayname, flash, ... ]
+# pt. detalii vezi sursele
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "nici unul"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "Buton maus dreapta"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"Trebuie definită una dintre următoarele: \"xkb\", \"default\", \"alpha\", "
+"\"alpha-freq\", \"custom\"; dacă este \"custom\" trebuie definită și "
+"\"custom_compose_keyboard\"."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "Sunet unu"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "Sunet doi"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "Vorbire"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "Comutator 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "Comutator 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "Comutator 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "Comutator 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "Comutator 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "Metoda de acces de folosit"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "Directorul din care se încarcă fișierele cu modul de acces."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "Directorul din care se încarcă dicționarele."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "Directorul din care se încarcă fișierele cu resursele GOK."
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "Directorul din care se încarcă fișierele cu tastaturile personalizate."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "Calea spre fișierul care definește tastatura personalizată GOK."
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "Înălțimea tastei"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "Lățimea tastei"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "Coordonata X a tastaturii"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "Coordonata Y a tastaturii"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "Numele sunetului pe care îl va scoate acest feedback"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "Numele dispozitivului xinput de folosit"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "Numele de afișat pentru această acțiune"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "Numele de afișat pentru acest feedback"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "Numărul, dacă se poate"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "Numărul de predicții pentru completarea cuvintelor"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "Numărul de repetări ale clipirilor la acest feedback"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"Directorul primar sau sistem din care se vor încărca fișierele tastaturii. "
+"Implicit este un director de sistem."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "Cadența acestei acțiuni"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "Spațiul dintre taste"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "Starea în care această acțiune este activată"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "Tipul acestei acțiuni"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr ""
+"Dacă se vor folosi liste adiționale de cuvinte la căutarea candidatelor de "
+"completare"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr ""
+"Navigare aplicații și tastare folosind dispozitive alternative de intrare"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "Tastatură pe ecran"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "A 3-a stare"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>Aspect</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>Comportament</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>Ramură</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>Prezicere comandă</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>Compunere tastatură</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>Tastatură personalizată</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>Definire acțiuni</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>Definire feedback</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>Întârziere înainte de activare</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>Descriere</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>Andocare și extindere orizontală</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>Origine eveniment</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>Font</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>Clipire taste</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>Mărime și spațiere taste</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>Tastă</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>Tastatură</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>Modificator</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>Ieșire</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>Poziție</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>Previzualizare</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>Senzitivitate</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>Sunet</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>Rostire</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>Număr buton</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>Temă</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>Temporizări</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>Tip</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>Tip evaluator</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>Completare cuvânt</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>Note:</b> Această schimbare a opțiunii va avea efect doar la "
+"următoarea relansare a GOK.</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+"Un multiplicator aplicat dispozitivului extins de intrare ce evaluează "
+"evenimente înainte de prelucrare"
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "Metode de acces"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "Lista numelor acțiunilor"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "Tip acțiune:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "ActiuneTipAgendă"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "Acțiuni"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "Activare la oprir_e"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "Activare la _Enter"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "Activare la _Mișcare"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "Activare la a_păsare"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "Activare la elibe_rare"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "Adaugă"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "Adaugă o tastă nouă"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "Directorul adițional cu tastaturile GOK"
+
+#: ../gok.glade2.h:47
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "Tastatură alfanumerică aranjată după frecvența literelor"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "Tastatură alfanumerică sortată alfabetic"
+
+#: ../gok.glade2.h:49
+msgid "Appearance"
+msgstr "Aspect"
+
+#: ../gok.glade2.h:50
+msgid "Bottom:"
+msgstr "Jos:"
+
+#: ../gok.glade2.h:51
+msgid "Browse"
+msgstr "Navigare"
+
+#: ../gok.glade2.h:52
+msgid "C_ore pointer"
+msgstr "Curs_or principal"
+
+#: ../gok.glade2.h:53
+msgid "Command Prediction"
+msgstr "Predicție comandă"
+
+#: ../gok.glade2.h:54
+msgid "Delay"
+msgstr "Întârziere"
+
+#: ../gok.glade2.h:55
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr ""
+"Întărzierea, în sutimi de secundă, după ce apare evenimentul de comutare, "
+"înainte ca activarea să aibă loc."
+
+#: ../gok.glade2.h:56
+msgid "Delete"
+msgstr "Ștergere"
+
+#: ../gok.glade2.h:57
+msgid "Delete Key"
+msgstr "Șterge tasta"
+
+#: ../gok.glade2.h:58
+msgid "Dock"
+msgstr "Andocare"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:59 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "Andochează jos"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "Andochează sus"
+
+#: ../gok.glade2.h:61
+msgid "Duplicate"
+msgstr "Duplicare"
+
+#: ../gok.glade2.h:62
+msgid "Enable _key flashing"
+msgstr "Activea_ză clipirea tastelor"
+
+#: ../gok.glade2.h:63
+msgid "Enable _sound"
+msgstr "Cu _sunet"
+
+#: ../gok.glade2.h:64
+msgid "Enable _word completion"
+msgstr "_w Cu completarea cuvintelor"
+
+#: ../gok.glade2.h:65
+msgid "Enable co_mmand prediction"
+msgstr "Cu predicția co_menzilor"
+
+#: ../gok.glade2.h:67
+msgid "Fill Width"
+msgstr "Pe toată lățimea"
+
+#: ../gok.glade2.h:68
+msgid "Font Group:"
+msgstr "Grup fonturi:"
+
+#: ../gok.glade2.h:69 ../gok/gok-editor.c:36
+msgid "GOK Keyboard Editor"
+msgstr "Editorul de tastatură GOK"
+
+#: ../gok.glade2.h:70
+msgid "GOK Preferences"
+msgstr "Preferințe GOK"
+
+#: ../gok.glade2.h:71
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:72
+msgid "Key Height"
+msgstr "Înălțimea tastei"
+
+#: ../gok.glade2.h:73
+msgid "Key Spacing"
+msgstr "Spațiul dintre taste"
+
+#: ../gok.glade2.h:74
+msgid "Key Width"
+msgstr "Lățime tastă"
+
+#: ../gok.glade2.h:75
+msgid "Key _width:"
+msgstr "_w Lățimea tastei:"
+
+#: ../gok.glade2.h:76
+msgid "Key h_eight:"
+msgstr "Înălțim_ea tastei:"
+
+#: ../gok.glade2.h:77
+msgid "Keyboards"
+msgstr "Tastaturi"
+
+#: ../gok.glade2.h:78
+msgid "Keycode:"
+msgstr "Codul tastei:"
+
+#: ../gok.glade2.h:79
+msgid "Keysym:"
+msgstr "Simbolul tastei:"
+
+#: ../gok.glade2.h:80
+msgid "Label:"
+msgstr "Eticheta:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:81 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "Stânga:"
+
+#: ../gok.glade2.h:82
+msgid "Match physical keyboard as reported by X Server"
+msgstr "Ia tastatura fizică, așa cum este dată de serverul X"
+
+#: ../gok.glade2.h:83
+msgid "Modifier Post"
+msgstr "Modificator Post"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Pre"
+msgstr "Modificator Pre"
+
+#: ../gok.glade2.h:85
+msgid "Modifier:"
+msgstr "Modificator:"
+
+#: ../gok.glade2.h:86
+msgid "Move Down"
+msgstr "Coboară"
+
+#: ../gok.glade2.h:87
+msgid "Move Up"
+msgstr "Urcă"
+
+#: ../gok.glade2.h:88
+msgid "Name:"
+msgstr "Nume:"
+
+#: ../gok.glade2.h:89
+msgid "New"
+msgstr "Nou"
+
+#: ../gok.glade2.h:90
+msgid "Next Key"
+msgstr "Următoarea tastă"
+
+#: ../gok.glade2.h:91
+msgid "Normal"
+msgstr "Normal"
+
+#: ../gok.glade2.h:92
+msgid "Number of _flashes:"
+msgstr "_f Numărul clipirilor:"
+
+#: ../gok.glade2.h:93
+msgid "Number of _predictions:"
+msgstr "Numărul _predicțiilor:"
+
+#: ../gok.glade2.h:94
+msgid "Number of command predictions:"
+msgstr "Numărul predicțiilor comenzii:"
+
+#: ../gok.glade2.h:95
+msgid "Number of word predictions:"
+msgstr "Numărul predicțiilor cuvântului:"
+
+#: ../gok.glade2.h:96
+msgid "Other _input device:"
+msgstr "Alte dispozitive de _intrare:"
+
+#: ../gok.glade2.h:97
+msgid "Prediction"
+msgstr "Predicție"
+
+#: ../gok.glade2.h:98
+msgid "Press"
+msgstr "Apasă"
+
+#: ../gok.glade2.h:99
+msgid "Previous Key"
+msgstr "Tasta precedentă"
+
+#: ../gok.glade2.h:100
+msgid "Read keyboard from file:"
+msgstr "Citește tastatura din fișier:"
+
+#: ../gok.glade2.h:101
+msgid "Release"
+msgstr "Eliberează"
+
+#. User interface for the access method
+#: ../gok.glade2.h:102 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "Dreapta:"
+
+#: ../gok.glade2.h:103
+msgid "S_witch"
+msgstr "_w Buton"
+
+#: ../gok.glade2.h:104
+msgid "Show Only This Font Group"
+msgstr "Arată doar acest grup de fonturi"
+
+#: ../gok.glade2.h:105
+msgid "So_und:"
+msgstr "S_unet:"
+
+#: ../gok.glade2.h:106
+msgid "Speak key _label"
+msgstr "_l Eticheta tastei de rostire"
+
+#: ../gok.glade2.h:107
+msgid "Style:"
+msgstr "Stil:"
+
+#: ../gok.glade2.h:108
+msgid "Switch _1"
+msgstr "Buton _1"
+
+#: ../gok.glade2.h:109
+msgid "Switch _2"
+msgstr "Buton _2"
+
+#: ../gok.glade2.h:110
+msgid "Switch _3"
+msgstr "Buton _3"
+
+#: ../gok.glade2.h:111
+msgid "Switch _4"
+msgstr "Buton _4"
+
+#: ../gok.glade2.h:112
+msgid "Switch _5"
+msgstr "Buton _5"
+
+#: ../gok.glade2.h:113
+msgid "Target:"
+msgstr "Destinație:"
+
+#: ../gok.glade2.h:114
+msgid "To Back"
+msgstr "Dedesubt"
+
+#: ../gok.glade2.h:115
+msgid "To Front"
+msgstr "Deasupra"
+
+#: ../gok.glade2.h:116
+msgid "Toggle"
+msgstr "Comută"
+
+#: ../gok.glade2.h:117
+msgid "Top:"
+msgstr "Sus:"
+
+#: ../gok.glade2.h:118
+msgid "Use _extra word list file(s)"
+msgstr "Cu fișier(e) suplim_entar(e) de cuvinte"
+
+#: ../gok.glade2.h:119
+msgid "Use _key averaging"
+msgstr "_k Cu medierea tastelor"
+
+#: ../gok.glade2.h:120
+msgid "Valuator Sensitivity"
+msgstr "Sensibilitatea evaluatorului"
+
+#: ../gok.glade2.h:121
+msgid "Word Completion"
+msgstr "Completare cuvânt"
+
+#: ../gok.glade2.h:122
+msgid "_100ths of a second"
+msgstr "_1 sutimi de secundă"
+
+#: ../gok.glade2.h:123
+msgid "_Add"
+msgstr "_Adaugă"
+
+#: ../gok.glade2.h:124
+msgid "_Browse..."
+msgstr "_Navigare..."
+
+#: ../gok.glade2.h:125
+msgid "_Delete"
+msgstr "Ș_terge"
+
+#: ../gok.glade2.h:126
+msgid "_Joystick"
+msgstr "_Joystick"
+
+#: ../gok.glade2.h:127
+msgid "_Method:"
+msgstr "_Metodă:"
+
+#: ../gok.glade2.h:128
+msgid "_Name:"
+msgstr "_Nume:"
+
+#: ../gok.glade2.h:129
+msgid "_New"
+msgstr "_Nou"
+
+#: ../gok.glade2.h:130
+msgid "_Number of predictions:"
+msgstr "_Numărul predicțiilor:"
+
+#: ../gok.glade2.h:131
+msgid "_Rename"
+msgstr "_Redenumește"
+
+#: ../gok.glade2.h:132
+msgid "_Single axis:"
+msgstr "O _singură axă:"
+
+#: ../gok.glade2.h:133
+msgid "_Spacing:"
+msgstr "_Spațiere:"
+
+#: ../gok.glade2.h:134
+msgid "_Use Desktop Theme Preferences"
+msgstr "C_u opțiunile din tema de desktop"
+
+#: ../gok.glade2.h:135
+msgid "_Valuator"
+msgstr "E_valuator"
+
+#: ../gok.glade2.h:136
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "Evaluator _X-Y (axele 0 și 1)"
+
+#: ../gok.glade2.h:137
+msgid "access method name"
+msgstr "numele methodei de acces"
+
+#: ../gok.glade2.h:138
+msgid "cancel"
+msgstr "renunță"
+
+#: ../gok.glade2.h:139
+msgid "display user help"
+msgstr "afișează ajutorul"
+
+#: ../gok.glade2.h:140
+msgid "high"
+msgstr "ridicat"
+
+#: ../gok.glade2.h:141
+msgid "low"
+msgstr "scăzut"
+
+#: ../gok.glade2.h:142
+msgid "pixels"
+msgstr "pixeli"
+
+#: ../gok.glade2.h:143
+msgid "revert to original settings"
+msgstr "revenire la configurarea originală"
+
+#: ../gok.glade2.h:144
+msgid "try these settings"
+msgstr "încearcă această configurare"
+
+#: ../gok.glade2.h:145
+msgid "use these settings"
+msgstr "Cu această configurare"
+
+#: ../gok/callbacks.c:373
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "Expertul cu metodele de acces încă n-a fost implementat."
+
+#: ../gok/callbacks.c:375
+msgid "GOK Access Method Wizard"
+msgstr "Expertul cu metodele de acces GOK"
+
+#: ../gok/gok-control.c:248
+msgid "GOK Browse for sound file"
+msgstr "Navigarea după fișiere de sunet GOK"
+
+#: ../gok/gok-control.c:249
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "Navigarea după fișiere de sunet încă n-a fost implementată."
+
+#: ../gok/gok-control.c:254
+msgid "GOK Inverse Scanning Advanced"
+msgstr "Scanare inversă avansată GOK"
+
+#: ../gok/gok-control.c:255
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "Configurarea avansată încă n-a fost implementată."
+
+#: ../gok/gok-editor.c:147 ../gok/gok-editor.c:181 ../gok/gok-editor.c:262
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"Ați modificat fișierul curent.\n"
+"Vreți să renunțați la modificări?"
+
+#: ../gok/gok-editor.c:149 ../gok/gok-editor.c:183 ../gok/gok-editor.c:264
+#: ../gok/gok-editor.c:1056
+msgid "Keyboard Filename Invalid"
+msgstr "Nume de fișier de tastatură invalid"
+
+# tastatură
+#: ../gok/gok-editor.c:212
+msgid "new"
+msgstr "nouă"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:274
+msgid "Select keyboard file for editing"
+msgstr "Alege fișierul de tastatură de editat"
+
+#: ../gok/gok-editor.c:284 ../gok/gok-editor.c:976
+msgid ".kbd files"
+msgstr "fișiere .kbd"
+
+#: ../gok/gok-editor.c:539
+msgid "label"
+msgstr "etichetă"
+
+#: ../gok/gok-editor.c:713
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "Nu s-a putut salva fișierul: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:966
+msgid "Save keyboard file as"
+msgstr "Salvare fișier de tastatură sub alt nume"
+
+#: ../gok/gok-editor.c:1047
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"Acesta nu este un nume de tastatură valid:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1079
+msgid "(new)"
+msgstr "(nou)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"GOK a detectat activitatea unui nou dispozitiv numit „%s”. Doriți să-l "
+"folosiți în locul dispozitivului „%s”?"
+
+#: ../gok/gok-key.c:118
+msgid "Mute"
+msgstr "Mut"
+
+#: ../gok/gok-key.c:121
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"Maus\n"
+"Taste"
+
+#: ../gok/gok-key.c:124
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"Stânga\n"
+"Tab"
+
+#: ../gok/gok-key.c:231
+msgid "<nil>"
+msgstr "<nil>"
+
+#: ../gok/gok-key.c:235
+msgid "Divide"
+msgstr "Împarte"
+
+#: ../gok/gok-key.c:238
+msgid "Multiply"
+msgstr "Înmulțește"
+
+#: ../gok/gok-key.c:241
+msgid "Subtract"
+msgstr "Scade"
+
+#: ../gok/gok-key.c:244
+msgid "Addition"
+msgstr "Adună"
+
+#: ../gok/gok-key.c:247
+msgid "Prior"
+msgstr "Precedent"
+
+#: ../gok/gok-key.c:250
+msgid "Next"
+msgstr "Următorul"
+
+# tasta Home, intraductibil
+#: ../gok/gok-key.c:253 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Home"
+
+# tasta End, intraductibil
+#: ../gok/gok-key.c:256 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "End"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:259 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "Sus"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:262 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "Jos"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:265 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "Stânga"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:268 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "Dreapta"
+
+#: ../gok/gok-key.c:271
+msgid "Begin"
+msgstr "Început"
+
+#: ../gok/gok-key.c:274
+msgid "Decimal"
+msgstr "Zecimal"
+
+#: ../gok/gok-key.c:277
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:280
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"Multi\n"
+"tastă"
+
+#: ../gok/gok-key.c:283
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Comută\n"
+"Eiso"
+
+#: ../gok/gok-key.c:286
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"Mod\n"
+"Henkan"
+
+#: ../gok/gok-key.c:289
+msgid "Muhenkan"
+msgstr "Muhenkan"
+
+#: ../gok/gok-key.c:292
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"Schimbă\n"
+"modul"
+
+#: ../gok/gok-key.c:295
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"Hiragana\n"
+"Katakana"
+
+#: ../gok/gok-keyboard.c:156
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Extensia Xkb nu poate fi inițializată! (cod de eroare %x)"
+
+#: ../gok/gok-keyboard.c:162 ../gok/gok-keyboard.c:203
+msgid "keyboard description not available!"
+msgstr "descriere necorespunzătoare a tastaturii!"
+
+#: ../gok/gok-keyboard.c:168 ../gok/gok-keyboard.c:209
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "Geometria tastaturii nu poate fi citită de serverul X."
+
+#: ../gok/gok-keyboard.c:434
+msgid "Back"
+msgstr "Înapoi"
+
+#: ../gok/gok-keyboard.c:451 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "Repetă următorul"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "Editare"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"Nume-\n"
+"ric"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "Ascunde"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:680
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:693
+msgid "Level 2"
+msgstr "Nivel 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:706
+msgid "Level 3"
+msgstr "Nivel 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:719
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Back\n"
+"Space"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:730 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tab"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:741
+msgid "space"
+msgstr "spațiu"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:752 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Enter"
+
+#: ../gok/gok-keyboard.c:790 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "Meniuri"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:846
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "aăbcdefghiîjklmnopqrsștțuvwxyz1234567890-=[];'„#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:850
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "AĂBCDEFGHIÎJKLMNOPQRSȘTȚUVWXYZ!\"£$%^&*()_+{}:@”~<>?"
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:862
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:871
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:918
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:919
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:927
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:933
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1916
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2790
+msgid "GUI"
+msgstr "Interfață grafică utilizator"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2795 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "Tabel"
+
+#: ../gok/gok-keyboard.c:2800 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "Bare de unelte"
+
+#: ../gok/gok-keyboard.c:2804
+msgid "Applications"
+msgstr "Aplicații"
+
+#: ../gok/gok-keyboard.c:2814
+msgid "Menu"
+msgstr "Meniu"
+
+#. please!
+#: ../gok/gok-keyboard.c:3626 ../gok/gok-sound.c:49 ../gok/main.c:1941
+#: ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3630
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "Tastatura dinamică virtuală pentru interfața GNOME"
+
+#: ../gok/gok-keyboard.c:3632
+msgid "translator-credits"
+msgstr ""
+"Paul-Dan Oprișa-Stănescu <dan_oprisa@hotmail.com>\n"
+"Rușeț Zeno <rzeno@cwazy.co.uk>\n"
+"Adi Roiban\n"
+"Lucian Adrian Grijincu"
+
+#: ../gok/gok-keyboard.c:3634
+msgid "Full Credits"
+msgstr "Panoul de onoare"
+
+#: ../gok/gok-keyboard.c:3636
+msgid "About GOK"
+msgstr "Despre GOK"
+
+#: ../gok/gok-libusb.c:162
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "u s-a putut inițializa suportul libusb - %s"
+
+#: ../gok/gok-libusb.c:190
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: s-a găsit dispozitiv cu VID:PID pereche %x:%x"
+
+#: ../gok/gok-libusb.c:201
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "nu s-a putut găsi un dispozitiv cu VID:PID pereche %x:%x."
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:213
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "permisiunile nu sunt corecte pentru %s"
+
+#: ../gok/gok-libusb.c:301
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "nu s-a găsit nici un terminal USB valid în acest dispozitiv %x:%x"
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "descrierea erorii de citire"
+
+#.
+#. * i18n: "Key Feedback" is a sound event description. The string
+#. * doesn't appear in the user interface, it is part of the metadata
+#. * attached to sounds coming from GOK. Sounds are played whenever
+#. * a key on the virtual keyboard is pressed.
+#.
+#: ../gok/gok-sound.c:58
+msgid "Key Feedback"
+msgstr "Feedback tastă"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1701
+msgid "V Scrollbar"
+msgstr "Bara de derulare verticală"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1706
+msgid "H Scrollbar"
+msgstr "Bara de derulare orizontală"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:375 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "Nume acțiune GOK"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:381
+msgid "Change the action name:"
+msgstr "Schimbă numele acțiunii:"
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"Numele acțiunii nu poate fi vid.\n"
+"Introduceți un alt nume al acțiunii."
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"Acest nume de acțiune deja există.\n"
+"Introduceți un alt nume al acțiunii."
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+msgid "New Action %d"
+msgstr "Acțiune nouă %d"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "Doriți să ștergeți această acțiune (%s)?"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "Ștergere acțiune GOK"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:413 ../gok/gok-page-feedbacks.c:453
+#: ../gok/gok-page-feedbacks.c:473
+msgid "GOK Feedback Name"
+msgstr "Nume feedback GOK"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:419
+msgid "Change the feedback name:"
+msgstr "Schimbă numele feedbackului:"
+
+#: ../gok/gok-page-feedbacks.c:451
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"Numele feedback-ului nu poate fi vid.\n"
+"Introduceți un alt nume al feedback-ului."
+
+#: ../gok/gok-page-feedbacks.c:471
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"Acest nume de feedback deja există.\n"
+"Introduceți un alt nume al feedback-ului."
+
+#: ../gok/gok-page-feedbacks.c:523
+#, c-format
+msgid "New Feedback %d"
+msgstr "Feedback nou %d"
+
+#: ../gok/gok-page-feedbacks.c:639
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "Doriți să ștergeți acest feedback (%s)?"
+
+#: ../gok/gok-page-feedbacks.c:648
+msgid "GOK Delete Feedback"
+msgstr "Ștergere feedback GOK"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:871
+msgid "Select sound file"
+msgstr "Alegere fișier de sunet"
+
+#: ../gok/gok-page-keyboard.c:215
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "Introduceți directorul cu fișierele adiționale de tastaturi GOK."
+
+#: ../gok/gok-page-keyboard.c:249
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "Selectați fișierul XML cu tastatura de la care începe compunerea"
+
+#: ../gok/gok-page-keysizespace.c:82
+msgid "Button"
+msgstr "Buton"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "Listă ferestre"
+
+#: ../gok/gok-utf8-word-complete.c:121
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "Nu s-a putut citi conținutul fișierului de dicționar „%s”\n"
+
+#: ../gok/main.c:209
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"Cu metoda de acces specificată. NAME este un șir ce poate fi găsit în "
+"diverse fișiere cu metode de acces (.xam) asociate proprietății \"name\" a "
+"tagului <gok:accessmethod>. NB. Acesta nu trebuie să corespundă cu numele "
+"fișierului xam. (Vezi --list-accessmethods)"
+
+#: ../gok/main.c:210
+msgid "NAME"
+msgstr "NUME"
+
+#: ../gok/main.c:218
+msgid "Start the GOK keyboard editor"
+msgstr "Pornește editorul de tastaturi GOK"
+
+#: ../gok/main.c:226
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "Admite componente speciale GOK, care însă pot fi instabile"
+
+#: ../gok/main.c:234
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"Când opțiunea --geometry nu este folosită, la oprire GOK reține poziția, iar "
+"la următoarea lansare pornește din poziția în care a rămas la oprire. Când "
+"opțiunea --geometry este folosită, la oprire GOK nu reține poziția, iar la "
+"următoarea lansare pornește în zona dreptunghiulară de pe ecran descrisă de "
+"X11. Și în acest caz, pornirea din poziția avută în momentul opririi poate "
+"fi forțată cu parametrul -remembergeometry."
+
+#: ../gok/main.c:235
+msgid "GEOMETRY"
+msgstr "GEOMETRIE"
+
+#: ../gok/main.c:243
+msgid "Use the specified input device"
+msgstr "Cu perifericul de intrare specificat"
+
+#: ../gok/main.c:244
+msgid "DEVICENAME"
+msgstr "NUMEDISPOZITIV"
+
+#: ../gok/main.c:252
+msgid "Start GOK with the specified keyboard."
+msgstr "Pornire GOK cu tastatura specificată."
+
+#: ../gok/main.c:253
+msgid "KEYBOARDNAME"
+msgstr "NUMETASTATURĂ"
+
+#: ../gok/main.c:261
+msgid "List the access methods that can be used as options to other arguments."
+msgstr ""
+"Listează metodele de acces care pot fi folosite ca opțiuni ale altor "
+"argumente."
+
+#: ../gok/main.c:270
+msgid "List the actions that can be used as options to other arguments."
+msgstr ""
+"Listează acțiunile care pot fi folosite ca opțiuni ale altor argumente."
+
+#: ../gok/main.c:279
+msgid "GOK will be used to login"
+msgstr "La login se va folosi GOK"
+
+#: ../gok/main.c:289
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "GOK va afișa taste pentru GUI fără nume. Folosit pentru depanare."
+
+#: ../gok/main.c:299
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"Poate fi folosit cu --geometry.  Forțează GOK să rețină poziția la oprire "
+"chiar dacă a fost pornit cu --geometry.  Pentru mai multe informații vezi "
+"indicatorul --geometry."
+
+#: ../gok/main.c:310
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+"Pornește GOK și leagă această acțiune de operațiile de scanare. (v. --list-"
+"actions)"
+
+#: ../gok/main.c:320
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+"Pornește GOK și leagă această acțiune de operațiile de selectare. (v. --list-"
+"actions)"
+
+#: ../gok/main.c:329
+msgid "Open the settings dialog box when GOK starts"
+msgstr "Deschide fereastra de configurare la pornirea GOK"
+
+#: ../gok/main.c:339
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"Folosește libusb pentru evenimente de intrare și folosește dispozitivul cu "
+"ID producător (VID) și ID produs USB specific."
+
+#: ../gok/main.c:358
+msgid "Attempt to use GOK without the system mouse"
+msgstr "Încercare folosire GOK fără mausul sistemului"
+
+#: ../gok/main.c:367
+msgid "Disable automatic keyboard branching"
+msgstr "Dezactivare ramificare automată tastatură"
+
+#: ../gok/main.c:668
+msgid "The GNOME On-screen Keyboard"
+msgstr "Tastatura pe ecran GNOME"
+
+#: ../gok/main.c:766
+msgid "Unsupported geometry specification"
+msgstr "Geometrie necorespunzătoare"
+
+#: ../gok/main.c:767
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given. Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"GOK cere ca valorile x, y, lățimea și înălțimea să fie date. Geometria "
+"indicată nu va fi folosită."
+
+#: ../gok/main.c:863
+msgid "XKB extension is required."
+msgstr "Fișierul necesită extensia XKB."
+
+#: ../gok/main.c:873
+msgid "Can't initialize actions."
+msgstr "Nu s-au putut inițializa acțiunile."
+
+#: ../gok/main.c:883
+msgid "Can't initialize feedbacks."
+msgstr "Nu s-au putut inițializa feedbackurile."
+
+#: ../gok/main.c:928 ../gok/main.c:937
+msgid "Can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr ""
+"Nu s-a putut inițializa suportul libusb - nu se poate analiza perechea USB "
+"VID:PID"
+
+#: ../gok/main.c:953
+msgid "Can't create the main GOK window!"
+msgstr "Nu s-a putut crea fereastra principală GOK!"
+
+#: ../gok/main.c:972
+msgid "Can't create the settings dialog window!"
+msgstr "Nu s-a putut crea fereastra de configurare!"
+
+#: ../gok/main.c:1033
+msgid "No keyboards to display!"
+msgstr "Nu este nici o tastatură de afișat!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1170 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "Obține IU"
+
+#: ../gok/main.c:1187
+msgid "popup menu"
+msgstr "meniu contextual"
+
+#: ../gok/main.c:2113
+msgid "Can't create a compose keyboard!"
+msgstr "Nu s-a putut crea tastatura compusă!"
+
+#: ../gok/main.c:2155
+msgid "Can't read any keyboards!"
+msgstr "Nu găsesc nici un fișier de tastatură!"
+
+#: ../gok/main.c:2266
+msgid "Could not get access method directory key from GConf."
+msgstr "Nu s-a putut accesa din GConf cheia dosarului de metode."
+
+#: ../gok/main.c:2273
+msgid "Possibly unknown access method."
+msgstr "Posibil metodă de acces necunoscută."
+
+#: ../gok/main.c:2829
+msgid "Sorry, GOK can't run"
+msgstr "GOK nu poate fi pornit"
+
+#: ../gok/main.c:2840
+msgid "GOK Fatal Error"
+msgstr "Eroare fatală GOK"
+
+#: ../gok/main.c:2876
+msgid "GOK Error"
+msgstr "Eroare GOK"
+
+#: ../gok/main.c:2896
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run. GOK is currently unable to retrieve those settings. If this "
+"is the first time that you have run gok after installing it you may need to "
+"restart gconfd, you can use this command: 'gconftool-2 --shutdown' or log "
+"out and back in."
+msgstr ""
+"GOK folosește GConf 2 pentru memorarea configurărilor, iar pentru a "
+"funcționa are nevoie ca aceste configurări să fie în GConf.  GOK nu a reușit "
+"să obțină aceste configurări.  Dacă este prima dată  când executați gok după "
+"instalare s-ar putea să trebuiască repornit gconfd cu comanda: „gconftool-2 "
+"--shutdown” sau să ieșiți și să reintrați în sesiune."
+
+#: ../gok/main.c:3135
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"GOK poate să nu lucreze corect deoarece nu poate activa „tastele adezive” de "
+"pe ecran."
+
+#: ../gok/main.c:3142
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK a activat „tastele adezive”, care sunt necesare.\n"
+
+#. post an error dialog
+#: ../gok/main.c:3160
+msgid "XKB display extension is missing."
+msgstr "Lipsește extensia de afișare XKB."
+
+#: ../gok/main.c:3284
+msgid "Unable to open help file"
+msgstr "Nu s-a putut deschide fișierul de ajutor"
+
+#: ../gok/main.c:3310
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"Dispozitivul pe care îl folosiți cu GOK controlează de asemnea și cursorul "
+"sistemului (sau „cursorul mausului”). Conflictele cu aplicațile care "
+"folosesc cursorul pot interfera cu abilitatea de folosire a lor sau a GOK.\n"
+"\n"
+"Vă recomandăm insistent să vă configurați dispozitivul de intrare ca "
+"dispozitiv de intrare „Extinsă”(Extended); vezi documentația GOK pentru mai "
+"multe informații."
+
+#: ../gok/main.c:3316
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"Dispozitivul pe care îl folosiți cu GOK controlează de asemenea și cursorul "
+"sistemului.\n"
+"\n"
+"Pentru evitarea conflictelor cu aplicațile care folosesc cursorul, GOK va "
+"deconecta dispozitivul pe care îl folosiți de la cursorul sistemului pe "
+"durata sesiunii GOK.\n"
+"\n"
+"Alternativ, puteți configura GOK să folosească alt dispozitiv de intrare în "
+"loc; vezi documentația pentru detalii."
+
+#. no longer used!
+#: ../gok/main.c:3323 ../gok/main.c:3326
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "Se pare că GOK este configurat în modul „cursor principal”."
+
+#: ../gok/main.c:3420
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"Tehnologia de asistare nu este activată.\n"
+"\n"
+"Puteți porni GOK fără a activa tehnologia de asistare. În acest caz unele "
+"funcții ale aplicației pot să nu fie accesibile.\n"
+"\n"
+"Pentru a activa tehnologia de asistare și a porni o nouă sesiune cu ea "
+"activată, apăsați pe „Activează și ieși”.\n"
+"\n"
+"Pentru a continua utilizarea GOK apăsați pe „Continuă”.\n"
+"\n"
+"Pentru a ieși din GOK apăsați pe „Închide”.\n"
+"\n"
+
+#: ../gok/main.c:3439
+msgid "Enable and Log Out"
+msgstr "Activează și ieși"
+
+#: ../gok/main.c:3451
+msgid "Continue"
+msgstr "Continuă"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(sutimi de secundă)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "Scanare inversă"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr ""
+"Țineți apăsat un buton pentru a scana. Apăsați alt buton pentru a selecta."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "Scanare:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "Scanare automată cu o singură tastă"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "Pornire scanare:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap Row/Columns"
+msgstr "Pe rânduri/coloane"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "Scanare inversă cu o singură tastă"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "Butonul 5, direcția"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "Jos:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "Mută evidențiatorul în 4 direcții. Alegere tastă."
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "Sus:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "Afișează"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "Documentație"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "Editor text"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "Navigator web"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "Compune"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "Lansator aplicații"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "Maus"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "Buton 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "Buton 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "Buton 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "Dublu clic"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "Piedică"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "Cursor"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "Repetă"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "Umple"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Flotant"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "Mai îngustă"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "Repetă tasta următoare"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "Mai scundă"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "Mai înaltă"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "Mai lată"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "Dorți să ieșiți!"
+
+#~ msgid "Additional directory to search for GOK keyboard files"
+#~ msgstr "Directorul adițional cu fișierele cu tastaturi GOK"
+
+#~ msgid "gok: Unsupported geometry specification\n"
+#~ msgstr "gok: Specificație geometrie nesuportată\n"
+
+#~ msgid ""
+#~ "gok: Currently GOK requires that the x, y, width and height all be given\n"
+#~ msgstr "gok: Cele patru mărimi: x, y, lățimea și înălțimea trebuie date\n"
+
+#~ msgid "Auto Repeat On"
+#~ msgstr "Cu repetiție automată"
+
+#~ msgid "Auto Repeat Rate:"
+#~ msgstr "Rata repetiției:"
+
+#~ msgid "Autostart (starts automatically)"
+#~ msgstr "Autostart (pornește automat)"
+
+#~ msgid "Continuous Cycle On"
+#~ msgstr "Cu ciclare continuă"
+
+#~ msgid "Press switch to start"
+#~ msgstr "Apăsați un buton pentru a începe"
+
+#~ msgid "_Options"
+#~ msgstr "_Opțiuni"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "AccessMethodName"
+#~ msgstr "NumeMetodaAcces"
+
+#~ msgid "Wrap"
+#~ msgstr "Reluare"
+
+#~ msgid "Highlight:"
+#~ msgstr "Evidențiere:"
+
+#~ msgid "Selection:"
+#~ msgstr "Selecție:"
+
+#~ msgid "You appear to be using GOK in 'core pointer' mode."
+#~ msgstr "Se pare că folosiți GOK în modul 'cursor principal'."
+
+#~ msgid "You are using GOK in 'core pointer' mode."
+#~ msgstr "Sunteți în modul „cursor principal”."
+
+#~ msgid "E"
+#~ msgstr "E"
+
+#~ msgid "N"
+#~ msgstr "N"
+
+#~ msgid "NE"
+#~ msgstr "NE"
+
+#~ msgid "NW"
+#~ msgstr "NV"
+
+#~ msgid "S"
+#~ msgstr "S"
+
+#~ msgid "SE"
+#~ msgstr "SE"
+
+#~ msgid "SW"
+#~ msgstr "SV"
+
+#~ msgid "W"
+#~ msgstr "V"

@@ -1,0 +1,392 @@
+<refentry id="gok-main">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-main.top_of_page">main</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>main</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-main.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="gok-main-create-window">gok_main_create_window</link>              (<link linkend="struct-gok-window-realize-data">struct gok_window_realize_data</link> *window_realize_data);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-main-display-scan">gok_main_display_scan</link>               (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="gchar">gchar</link> *nameKeyboard,
+                                                         <link linkend="KeyboardTypes">KeyboardTypes</link> typeKeyboard,
+                                                         <link linkend="KeyboardLayouts">KeyboardLayouts</link> layout,
+                                                         <link linkend="KeyboardShape">KeyboardShape</link> shape);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-main-display-scan-previous">gok_main_display_scan_previous</link>      (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-main-display-scan-previous-premade">gok_main_display_scan_previous_premade</link>
+                                                        (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-main-display-scan-reset">gok_main_display_scan_reset</link>         (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-main-ds">gok_main_ds</link>                         (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);
+<link linkend="GokKeyboard">GokKeyboard</link>*        <link linkend="gok-main-get-first-keyboard">gok_main_get_first_keyboard</link>         (void);
+<link linkend="void">void</link>                <link linkend="gok-main-set-first-keyboard">gok_main_set_first_keyboard</link>         (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);
+<link linkend="GokKeyboard">GokKeyboard</link>*        <link linkend="gok-main-get-current-keyboard">gok_main_get_current_keyboard</link>       (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="gok-main-get-main-window">gok_main_get_main_window</link>            (void);
+<link linkend="Accessible">Accessible</link>*         <link linkend="gok-main-get-foreground-accessible">gok_main_get_foreground_accessible</link>  (void);
+<link linkend="void">void</link>                <link linkend="gok-main-resize-window">gok_main_resize_window</link>              (<link linkend="GtkWidget">GtkWidget</link> *pWindow,
+                                                         <link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="gint">gint</link> Width,
+                                                         <link linkend="gint">gint</link> Height);
+<link linkend="void">void</link>                <link linkend="gok-main-store-window-center">gok_main_store_window_center</link>        (void);
+<link linkend="Accessible">Accessible</link>*         <link linkend="gok-main-get-foreground-window-accessible">gok_main_get_foreground_window_accessible</link>
+                                                        (void);
+<link linkend="void">void</link>                <link linkend="gok-main-read-keyboards">gok_main_read_keyboards</link>             (void);
+<link linkend="GokKeyboard">GokKeyboard</link>*        <link linkend="gok-main-read-keyboards-from-dir">gok_main_read_keyboards_from_dir</link>    (const <link linkend="char">char</link> *directory,
+                                                         <link linkend="GokKeyboard">GokKeyboard</link> *first);
+<link linkend="void">void</link>                <link linkend="gok-main-on-window-position-change">gok_main_on_window_position_change</link>  (void);
+<link linkend="void">void</link>                <link linkend="gok-main-get-our-window-size">gok_main_get_our_window_size</link>        (<link linkend="gint">gint</link> *pWidth,
+                                                         <link linkend="gint">gint</link> *pHeight);
+<link linkend="void">void</link>                <link linkend="gok-main-close">gok_main_close</link>                      (void);
+<link linkend="void">void</link>                <link linkend="gok-main-display-error">gok_main_display_error</link>              (const <link linkend="gchar">gchar</link> *error,
+                                                         const <link linkend="gchar">gchar</link> *detail);
+<link linkend="void">void</link>                <link linkend="gok-main-display-gconf-error">gok_main_display_gconf_error</link>        (void);
+<link linkend="void">void</link>                <link linkend="gok-main-app-change-listener">gok_main_app_change_listener</link>        (<link linkend="Accessible">Accessible</link> *pAccessible);
+<link linkend="void">void</link>                <link linkend="gok-main-window-change-listener">gok_main_window_change_listener</link>     (<link linkend="Accessible">Accessible</link> *pAccessible);
+<link linkend="void">void</link>                <link linkend="gok-main-mouse-button-listener">gok_main_mouse_button_listener</link>      (<link linkend="gint">gint</link> button,
+                                                         <link linkend="gint">gint</link> state,
+                                                         long <link linkend="mods">mods</link> ,
+                                                         long <link linkend="timestamp">timestamp</link> );
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-main.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-main.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="gok-main-create-window" role="function">
+<title>gok_main_create_window ()</title>
+<indexterm zone="gok-main-create-window"><primary sortas="gok_main_create_window">gok_main_create_window</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          gok_main_create_window              (<link linkend="struct-gok-window-realize-data">struct gok_window_realize_data</link> *window_realize_data);</programlisting>
+<para>
+Creates the window that holds the keyboards.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>window_realize_data</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the window, NULL if it couldn't be created.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-display-scan" role="function">
+<title>gok_main_display_scan ()</title>
+<indexterm zone="gok-main-display-scan"><primary sortas="gok_main_display_scan">gok_main_display_scan</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_main_display_scan               (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="gchar">gchar</link> *nameKeyboard,
+                                                         <link linkend="KeyboardTypes">KeyboardTypes</link> typeKeyboard,
+                                                         <link linkend="KeyboardLayouts">KeyboardLayouts</link> layout,
+                                                         <link linkend="KeyboardShape">KeyboardShape</link> shape);</programlisting>
+<para>
+Display a keyboard and allow the user to make selections from it.
+The keyboard must have already been created and in the list of keyboards.
+The keyboard is specified by name and keyboard type. A name of NULL means 
+the first keyboard in the list. 
+The previous keyboard is stored on the "branch back stack".</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara> If this is supplied it takes precedence over the name parameter (useful for dynamic keyboards with the same name)
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>nameKeyboard</parameter>&#160;:</term>
+<listitem><simpara> Name of the keyboard you want displayed (must be in the list of keyboards.)
+# <parameter>typeKeyboard</parameter>: Can be used to describe a runtime keyboard type (e.g. a Menus keyboard)
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>typeKeyboard</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>layout</parameter>&#160;:</term>
+<listitem><simpara> Can be used to specify a particular type of keyboard (Example: center-weighted or upper-left-weighted).
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>shape</parameter>&#160;:</term>
+<listitem><simpara> Can be used to specify a particular shape of keyboard (Example: square).
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if keyboard is displayed, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-display-scan-previous" role="function">
+<title>gok_main_display_scan_previous ()</title>
+<indexterm zone="gok-main-display-scan-previous"><primary sortas="gok_main_display_scan_previous">gok_main_display_scan_previous</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_main_display_scan_previous      (void);</programlisting>
+<para>
+Display and scan the previous keyboard (pulled from the branch-back-stack).
+Don't push the current keyboard on the branch-back-stack.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the previous keyboard was displayed, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-display-scan-previous-premade" role="function">
+<title>gok_main_display_scan_previous_premade ()</title>
+<indexterm zone="gok-main-display-scan-previous-premade"><primary sortas="gok_main_display_scan_previous_premade">gok_main_display_scan_previous_premade</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_main_display_scan_previous_premade
+                                                        (void);</programlisting>
+<para>
+Display and scan the first keyboard pulled from the branch-back-stack
+that is premade. Delete any dynamic keyboards that are on the stack 'along
+the way'. Don't push the current keyboard on the branch-back-stack.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the previous keyboard was displayed, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-display-scan-reset" role="function">
+<title>gok_main_display_scan_reset ()</title>
+<indexterm zone="gok-main-display-scan-reset"><primary sortas="gok_main_display_scan_reset">gok_main_display_scan_reset</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_main_display_scan_reset         (void);</programlisting>
+<para>
+Display and scan the current keyboard. This should be called after the user settings 
+have been changed.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the keyboard was displayed, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-ds" role="function">
+<title>gok_main_ds ()</title>
+<indexterm zone="gok-main-ds"><primary sortas="gok_main_ds">gok_main_ds</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_main_ds                         (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);</programlisting>
+<para>
+Does the actual work of displaying and scanning the keyboard.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the keyboard that will be displayed and scanned.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the keyboard was displayed, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-get-first-keyboard" role="function">
+<title>gok_main_get_first_keyboard ()</title>
+<indexterm zone="gok-main-get-first-keyboard"><primary sortas="gok_main_get_first_keyboard">gok_main_get_first_keyboard</primary></indexterm><programlisting><link linkend="GokKeyboard">GokKeyboard</link>*        gok_main_get_first_keyboard         (void);</programlisting>
+<para>
+Accessor function.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the first keyboard in the list of keyboards.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-set-first-keyboard" role="function">
+<title>gok_main_set_first_keyboard ()</title>
+<indexterm zone="gok-main-set-first-keyboard"><primary sortas="gok_main_set_first_keyboard">gok_main_set_first_keyboard</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_set_first_keyboard         (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);</programlisting>
+<para>
+Sets the first keyboard in the list of keyboards.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the keyboard that will be set as the first keyboard.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-get-current-keyboard" role="function">
+<title>gok_main_get_current_keyboard ()</title>
+<indexterm zone="gok-main-get-current-keyboard"><primary sortas="gok_main_get_current_keyboard">gok_main_get_current_keyboard</primary></indexterm><programlisting><link linkend="GokKeyboard">GokKeyboard</link>*        gok_main_get_current_keyboard       (void);</programlisting>
+<para>
+Accessor function.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the keyboard that is currently displayed.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-get-main-window" role="function">
+<title>gok_main_get_main_window ()</title>
+<indexterm zone="gok-main-get-main-window"><primary sortas="gok_main_get_main_window">gok_main_get_main_window</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          gok_main_get_main_window            (void);</programlisting>
+<para>
+Accessor function.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to main GOK window.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-get-foreground-accessible" role="function">
+<title>gok_main_get_foreground_accessible ()</title>
+<indexterm zone="gok-main-get-foreground-accessible"><primary sortas="gok_main_get_foreground_accessible">gok_main_get_foreground_accessible</primary></indexterm><programlisting><link linkend="Accessible">Accessible</link>*         gok_main_get_foreground_accessible  (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-resize-window" role="function">
+<title>gok_main_resize_window ()</title>
+<indexterm zone="gok-main-resize-window"><primary sortas="gok_main_resize_window">gok_main_resize_window</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_resize_window              (<link linkend="GtkWidget">GtkWidget</link> *pWindow,
+                                                         <link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="gint">gint</link> Width,
+                                                         <link linkend="gint">gint</link> Height);</programlisting>
+<para>
+Resizes the main window to the given width and height.
+The main window is centered over the the center location in gok_data
+The new window will not be resized so it appears off screen.
+When the new window is resized it generates 2 calls (configure events)to 
+gok_main_store_window_center. If the new window is not centered over the old 
+window then m_countIgnoreConfigure will be set to 2 so that the window 
+center is not changed.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pWindow</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the main window.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the relevant (pending) keyboard (may be NULL).
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Width</parameter>&#160;:</term>
+<listitem><simpara> Width of the new window.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Height</parameter>&#160;:</term>
+<listitem><simpara> Height of the new window.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-store-window-center" role="function">
+<title>gok_main_store_window_center ()</title>
+<indexterm zone="gok-main-store-window-center"><primary sortas="gok_main_store_window_center">gok_main_store_window_center</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_store_window_center        (void);</programlisting>
+<para>
+Stores in gok_data the center location of the current keyboard.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-main-get-foreground-window-accessible" role="function">
+<title>gok_main_get_foreground_window_accessible ()</title>
+<indexterm zone="gok-main-get-foreground-window-accessible"><primary sortas="gok_main_get_foreground_window_accessible">gok_main_get_foreground_window_accessible</primary></indexterm><programlisting><link linkend="Accessible">Accessible</link>*         gok_main_get_foreground_window_accessible
+                                                        (void);</programlisting>
+<para>
+Accessor function.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to foreground window's accessible interface.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-read-keyboards" role="function">
+<title>gok_main_read_keyboards ()</title>
+<indexterm zone="gok-main-read-keyboards"><primary sortas="gok_main_read_keyboards">gok_main_read_keyboards</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_read_keyboards             (void);</programlisting>
+<para>
+Retrieves the name of the directory containing keyboards from GConf.
+Then loads the keyboards in that directory using
+gok_main_read_keyboards_from_dir.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-main-read-keyboards-from-dir" role="function">
+<title>gok_main_read_keyboards_from_dir ()</title>
+<indexterm zone="gok-main-read-keyboards-from-dir"><primary sortas="gok_main_read_keyboards_from_dir">gok_main_read_keyboards_from_dir</primary></indexterm><programlisting><link linkend="GokKeyboard">GokKeyboard</link>*        gok_main_read_keyboards_from_dir    (const <link linkend="char">char</link> *directory,
+                                                         <link linkend="GokKeyboard">GokKeyboard</link> *first);</programlisting>
+<para>
+Reads all the keyboard files from the given directory or a subdirectory that
+is a closer match based on user's language if it exists.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>directory</parameter>&#160;:</term>
+<listitem><simpara> The name of the keyboard root directory location.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>first</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the first keyboard, NULL if no keyboards could be read.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-on-window-position-change" role="function">
+<title>gok_main_on_window_position_change ()</title>
+<indexterm zone="gok-main-on-window-position-change"><primary sortas="gok_main_on_window_position_change">gok_main_on_window_position_change</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_on_window_position_change  (void);</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gok-main-get-our-window-size" role="function">
+<title>gok_main_get_our_window_size ()</title>
+<indexterm zone="gok-main-get-our-window-size"><primary sortas="gok_main_get_our_window_size">gok_main_get_our_window_size</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_get_our_window_size        (<link linkend="gint">gint</link> *pWidth,
+                                                         <link linkend="gint">gint</link> *pHeight);</programlisting>
+<para>
+Retreives the width and height that we last resized the window to.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pWidth</parameter>&#160;:</term>
+<listitem><simpara> Pointer to a variable that will hold the window width.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>pHeight</parameter>&#160;:</term>
+<listitem><simpara> Pointer to a variable that will hold the window height.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-close" role="function">
+<title>gok_main_close ()</title>
+<indexterm zone="gok-main-close"><primary sortas="gok_main_close">gok_main_close</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_close                      (void);</programlisting>
+<para>
+Delete any keyboards that were created.
+This must be called at the end of the program.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-main-display-error" role="function">
+<title>gok_main_display_error ()</title>
+<indexterm zone="gok-main-display-error"><primary sortas="gok_main_display_error">gok_main_display_error</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_display_error              (const <link linkend="gchar">gchar</link> *error,
+                                                         const <link linkend="gchar">gchar</link> *detail);</programlisting>
+<para>
+Displays an error dialog.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>error</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>detail</parameter>&#160;:</term>
+<listitem><simpara> Error details
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-display-gconf-error" role="function">
+<title>gok_main_display_gconf_error ()</title>
+<indexterm zone="gok-main-display-gconf-error"><primary sortas="gok_main_display_gconf_error">gok_main_display_gconf_error</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_display_gconf_error        (void);</programlisting>
+<para>
+Displays a gconf error message.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-main-app-change-listener" role="function">
+<title>gok_main_app_change_listener ()</title>
+<indexterm zone="gok-main-app-change-listener"><primary sortas="gok_main_app_change_listener">gok_main_app_change_listener</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_app_change_listener        (<link linkend="Accessible">Accessible</link> *pAccessible);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pAccessible</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-window-change-listener" role="function">
+<title>gok_main_window_change_listener ()</title>
+<indexterm zone="gok-main-window-change-listener"><primary sortas="gok_main_window_change_listener">gok_main_window_change_listener</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_window_change_listener     (<link linkend="Accessible">Accessible</link> *pAccessible);</programlisting>
+<para>
+This function is called each time the foreground window changes.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pAccessible</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the foreground window's accessible interface.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-main-mouse-button-listener" role="function">
+<title>gok_main_mouse_button_listener ()</title>
+<indexterm zone="gok-main-mouse-button-listener"><primary sortas="gok_main_mouse_button_listener">gok_main_mouse_button_listener</primary></indexterm><programlisting><link linkend="void">void</link>                gok_main_mouse_button_listener      (<link linkend="gint">gint</link> button,
+                                                         <link linkend="gint">gint</link> state,
+                                                         long <link linkend="mods">mods</link> ,
+                                                         long <link linkend="timestamp">timestamp</link> );</programlisting>
+<para>
+This handler is called each time there is a mouse button event.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>button</parameter>&#160;:</term>
+<listitem><simpara> Mouse button number that has changed state.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>state</parameter>&#160;:</term>
+<listitem><simpara> State of the button.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Param3</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Param4</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

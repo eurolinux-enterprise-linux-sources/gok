@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-control</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-chunker.html" title="gok-chunker">
+<link rel="next" href="gok-gok-data.html" title="gok-data">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-chunker.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-data.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-control.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-control.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-control">
+<a name="gok-gok-control"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-control.top_of_page"></a>gok-control</span></h2>
+<p>gok-control</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-control.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+enum                <a class="link" href="gok-gok-control.html#ControlTypes" title="enum ControlTypes">ControlTypes</a>;
+enum                <a class="link" href="gok-gok-control.html#ControlFillwiths" title="enum ControlFillwiths">ControlFillwiths</a>;
+enum                <a class="link" href="gok-gok-control.html#ControlHandlers" title="enum ControlHandlers">ControlHandlers</a>;
+GokControl*         <a class="link" href="gok-gok-control.html#gok-control-new" title="gok_control_new ()">gok_control_new</a>                     (void);
+void                <a class="link" href="gok-gok-control.html#gok-control-delete-all" title="gok_control_delete_all ()">gok_control_delete_all</a>              (GokControl *pControl);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-control.html#gok-control-get-control-type" title="gok_control_get_control_type ()">gok_control_get_control_type</a>        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameControlType);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-control.html#gok-control-get-handler-type" title="gok_control_get_handler_type ()">gok_control_get_handler_type</a>        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameControlType);
+void                <a class="link" href="gok-gok-control.html#gok-control-button-handler" title="gok_control_button_handler ()">gok_control_button_handler</a>          (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+void                <a class="link" href="gok-gok-control.html#gok-control-add-handler" title="gok_control_add_handler ()">gok_control_add_handler</a>             (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWidget,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> HandlerType);
+void                <a class="link" href="gok-gok-control.html#gok-control-button-callback-open" title="gok_control_button_callback_open ()">gok_control_button_callback_open</a>    (void);
+void                <a class="link" href="gok-gok-control.html#gok-control-button-callback-close" title="gok_control_button_callback_close ()">gok_control_button_callback_close</a>   (void);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-control.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-control.details"></a><h2>Details</h2>
+<div class="refsect2" title="enum ControlTypes">
+<a name="ControlTypes"></a><h3>enum ControlTypes</h3>
+<pre class="programlisting">typedef enum {
+CONTROL_TYPE_LABEL,
+CONTROL_TYPE_HBOX,
+CONTROL_TYPE_VBOX,
+CONTROL_TYPE_COMBOBOX,
+CONTROL_TYPE_SEPERATOR,
+CONTROL_TYPE_FRAME,
+CONTROL_TYPE_BUTTON,
+CONTROL_TYPE_CHECKBUTTON,
+CONTROL_TYPE_RADIOBUTTON,
+CONTROL_TYPE_SPINBUTTON,
+MAX_CONTROL_TYPES /* keep this as the last entry in the enum */
+} ControlTypes;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum ControlFillwiths">
+<a name="ControlFillwiths"></a><h3>enum ControlFillwiths</h3>
+<pre class="programlisting">typedef enum {
+CONTROL_FILLWITH_ACTIONS,
+CONTROL_FILLWITH_FEEDBACKS,
+CONTROL_FILLWITH_SOUNDS,
+CONTROL_FILLWITH_OPTIONS
+} ControlFillwiths;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum ControlHandlers">
+<a name="ControlHandlers"></a><h3>enum ControlHandlers</h3>
+<pre class="programlisting">typedef enum {
+CONTROL_HANDLER_BROWSESOUND,
+CONTROL_HANDLER_ADVANCED,
+MAX_CONTROL_HANDLERS /* keep this as the last entry in the enum */
+} ControlHandlers;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_new ()">
+<a name="gok-control-new"></a><h3>gok_control_new ()</h3>
+<pre class="programlisting">GokControl*         gok_control_new                     (void);</pre>
+<p>
+Creates a new gok_control. It's the caller's responsibility to delete this.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new control.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_delete_all ()">
+<a name="gok-control-delete-all"></a><h3>gok_control_delete_all ()</h3>
+<pre class="programlisting">void                gok_control_delete_all              (GokControl *pControl);</pre>
+<p>
+Deletes the given control and all other controls linked to it.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pControl</code></em> :</span></p></td>
+<td> Pointer to the control that will be deleted.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_get_control_type ()">
+<a name="gok-control-get-control-type"></a><h3>gok_control_get_control_type ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_control_get_control_type        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameControlType);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameControlType</code></em> :</span></p></td>
+<td> Name of the control type.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The ID number of the control type name. Returns -1 if the
+control type name can't be found.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_get_handler_type ()">
+<a name="gok-control-get-handler-type"></a><h3>gok_control_get_handler_type ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_control_get_handler_type        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameControlType);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameControlType</code></em> :</span></p></td>
+<td> Name of the control handler.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The ID number of the control handler name. Returns -1 if the
+control handler name can't be found.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_button_handler ()">
+<a name="gok-control-button-handler"></a><h3>gok_control_button_handler ()</h3>
+<pre class="programlisting">void                gok_control_button_handler          (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+<em class="parameter"><code>pButton</code></em>: Pointer to the button that was just pressed.
+<em class="parameter"><code>user_data</code></em>: User data that is associated with the button.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>button</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_add_handler ()">
+<a name="gok-control-add-handler"></a><h3>gok_control_add_handler ()</h3>
+<pre class="programlisting">void                gok_control_add_handler             (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWidget,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> HandlerType);</pre>
+<p>
+<em class="parameter"><code>pWidget</code></em>: Pointer to the button gets added to the handler list.
+<em class="parameter"><code>HandlerType</code></em>: Type of handler the button requires.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pWidget</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>HandlerType</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_button_callback_open ()">
+<a name="gok-control-button-callback-open"></a><h3>gok_control_button_callback_open ()</h3>
+<pre class="programlisting">void                gok_control_button_callback_open    (void);</pre>
+<p>
+Initializes the GOK control callback handlers. This must be called
+at the beginning of the program.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_control_button_callback_close ()">
+<a name="gok-control-button-callback-close"></a><h3>gok_control_button_callback_close ()</h3>
+<pre class="programlisting">void                gok_control_button_callback_close   (void);</pre>
+<p>
+Frees any memory used by the control callbacks. This must be called
+at the end of the program.</p>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

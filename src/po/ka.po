@@ -1,0 +1,2210 @@
+# translation of gok.po to Georgian
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Vladimer Sichinava <alinux@siena.linux.it>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gok\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-03-18 23:11+0100\n"
+"PO-Revision-Date: 2006-03-19 04:42+0100\n"
+"Last-Translator: Vladimer Sichinava <alinux@siena.linux.it>\n"
+"Language-Team: Georgian <gnome@inet.ge>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "აქტივირება"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "აქტივირება:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "ავტომატური სკანირება"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "ქვემოთ/ზემოთ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+#, fuzzy
+msgid "Cycles Before Stopping:"
+msgstr "ვიდრე გაჩერება:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:69
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "საწყისი დაყოვნება:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "მარცხნივ/მარჯვნივ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:18
+msgid "Movement:"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:20
+msgid "Operation"
+msgstr "ოპერაცია"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:22
+msgid "Options"
+msgstr "ოფციები"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+#, fuzzy
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr "a -სკენ ან -სკენ."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "მარჯვნივ/მარცხნივ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:26
+msgid "Scan Delay:"
+msgstr "სკანირების დაყოვნება:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:28
+msgid "Scan Speed:"
+msgstr "სკანირების სიჩქარე:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+#, fuzzy
+msgid "Scanning Direction:"
+msgstr "სკანირება მიმართულება:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "სკანირების გაშვება"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "სკანირების გაშვება:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "ზემოთ/ქვემოთ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:34
+#, fuzzy
+msgid "Wrap Rows/Columns"
+msgstr "გადატანა მწკრივები სვეტები"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+#, fuzzy
+msgid "Direct Selection"
+msgstr "არჩეული"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+#, fuzzy
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr "გადატანა -სკენ a გასაღები a -სკენ."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:30
+msgid "Select:"
+msgstr "ამორჩევა:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+#, fuzzy
+msgid "Dwell Selection"
+msgstr "არჩეული"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+#, fuzzy
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "გადატანა -სკენ a გასაღები ჩართულია გასაღები -სკენ."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "პროგრამის შესახებ"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "დახმარება"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "პარამეტრები"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "GOK-იდან გამოსვლა"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "ფანჯარა"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2489
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:309
+#, fuzzy
+msgid "A multiplier to be applied to input device valuator events before processing"
+msgstr "A -სკენ -სკენ"
+
+#: ../gok-with-references.schemas.in.h:2
+#, fuzzy
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr "A სია - -სკენ"
+
+#: ../gok-with-references.schemas.in.h:3
+#, fuzzy
+msgid "Are the preferences to be restricted?"
+msgstr "პარამეტრები -სკენ?"
+
+#: ../gok-with-references.schemas.in.h:4
+#, fuzzy
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "ნაგულისხმები"
+
+#: ../gok-with-references.schemas.in.h:5
+#, fuzzy
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr "ჩართულია X სერვერი?"
+
+#: ../gok-with-references.schemas.in.h:6
+#, fuzzy
+msgid "Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "a პირადი კოპირება -?"
+
+#: ../gok-with-references.schemas.in.h:7
+#, fuzzy
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "ფანჯარა -სკენ სიგანე?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:9
+#, fuzzy
+msgid "Does this action use key averaging"
+msgstr "მოქმედება გასაღები"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:11
+#, fuzzy
+msgid "Does this feedback play a sound"
+msgstr "a"
+
+#: ../gok-with-references.schemas.in.h:12
+#, fuzzy
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "წარწერა - a გასაღები"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:14
+#, fuzzy
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr "ფანჯარა ღუზა a ან სტრიქონი არა"
+
+#: ../gok-with-references.schemas.in.h:15
+#, fuzzy
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "- - GUI ხე -სკენ ძიება"
+
+#: ../gok-with-references.schemas.in.h:16
+#, fuzzy
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "ქვემოთ GUI ხე -სკენ ძიება"
+
+#: ../gok-with-references.schemas.in.h:17
+#, fuzzy
+msgid "Is this action permanent"
+msgstr "მოქმედება"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:19
+#, fuzzy
+msgid "Is word completion on"
+msgstr "ჩართულია"
+
+#: ../gok-with-references.schemas.in.h:20
+#, fuzzy
+msgid "Key flashing"
+msgstr "გასაღები"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "თაგვის მარცხენა ღილაკი"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "თაგვის შუა ღილაკი"
+
+#: ../gok-with-references.schemas.in.h:23
+#, fuzzy
+msgid "Mouse Button 4"
+msgstr "თაგვი ღილაკი 4"
+
+#: ../gok-with-references.schemas.in.h:24
+#, fuzzy
+msgid "Mouse Button 5"
+msgstr "თაგვი ღილაკი 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "თაგვი მიმთითებელი"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "არა"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "თაგვის მარჯვენა ღილაკი"
+
+#: ../gok-with-references.schemas.in.h:28
+#, fuzzy
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr "- ნაგულისხმები ალფა ალფა."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "ხმა პირველი"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "ხმა მეორე"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "გადასვლა 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "გადასვლა 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "გადასვლა 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "გადასვლა 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "გადასვლა 5"
+
+#: ../gok-with-references.schemas.in.h:37
+#, fuzzy
+msgid "The access method to use"
+msgstr "-სკენ"
+
+#: ../gok-with-references.schemas.in.h:38
+#, fuzzy
+msgid "The directory to load access method files from."
+msgstr "-სკენ ფაილი."
+
+#: ../gok-with-references.schemas.in.h:39
+#, fuzzy
+msgid "The directory to load dictionary files from."
+msgstr "-სკენ ფაილი."
+
+#: ../gok-with-references.schemas.in.h:40
+#, fuzzy
+msgid "The directory to load the gok resource file from."
+msgstr "-სკენ რესურსი ფაილი."
+
+#: ../gok-with-references.schemas.in.h:41
+#, fuzzy
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "-სკენ ან ფაილი."
+
+#: ../gok-with-references.schemas.in.h:42
+#, fuzzy
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "-სკენ a ფაილი a"
+
+#: ../gok-with-references.schemas.in.h:43
+#, fuzzy
+msgid "The key height"
+msgstr "გასაღები სიმაღლე"
+
+#: ../gok-with-references.schemas.in.h:44
+#, fuzzy
+msgid "The key width"
+msgstr "გასაღები სიგანე"
+
+#: ../gok-with-references.schemas.in.h:45
+#, fuzzy
+msgid "The keyboards X coordinate"
+msgstr "X"
+
+#: ../gok-with-references.schemas.in.h:46
+#, fuzzy
+msgid "The keyboards Y coordinate"
+msgstr "Y"
+
+#: ../gok-with-references.schemas.in.h:47
+#, fuzzy
+msgid "The name of the sound that this feedback will play"
+msgstr "სახელი -"
+
+#: ../gok-with-references.schemas.in.h:48
+#, fuzzy
+msgid "The name of the xinput device to use"
+msgstr "სახელი - -სკენ"
+
+#: ../gok-with-references.schemas.in.h:49
+#, fuzzy
+msgid "The name to display to the user for this action"
+msgstr "სახელი -სკენ -სკენ მოქმედება"
+
+#: ../gok-with-references.schemas.in.h:50
+#, fuzzy
+msgid "The name to display to the user for this feedback"
+msgstr "სახელი -სკენ -სკენ"
+
+#: ../gok-with-references.schemas.in.h:51
+#, fuzzy
+msgid "The number if applicable"
+msgstr "რიცხვი"
+
+#: ../gok-with-references.schemas.in.h:52
+#, fuzzy
+msgid "The number of predictions for word completion"
+msgstr "რიცხვი -"
+
+#: ../gok-with-references.schemas.in.h:53
+#, fuzzy
+msgid "The number of times this feedback will flash"
+msgstr "რიცხვი -"
+
+#: ../gok-with-references.schemas.in.h:54
+#, fuzzy
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr "-სკენ ფაილი ნაგულისხმევი a."
+
+#: ../gok-with-references.schemas.in.h:55
+#, fuzzy
+msgid "The rate for this action"
+msgstr "მოქმედება"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:57
+#, fuzzy
+msgid "The state in which this action is activated"
+msgstr "- მოქმედება"
+
+#: ../gok-with-references.schemas.in.h:58
+#, fuzzy
+msgid "The type of this action"
+msgstr "- მოქმედება"
+
+#: ../gok-with-references.schemas.in.h:59
+#, fuzzy
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "-სკენ"
+
+#: ../gok.desktop.in.h:1
+msgid "On-Screen Keyboard"
+msgstr "ეკრანის კლავიატურა"
+
+#: ../gok.desktop.in.h:2
+msgid "The GNOME On-screen Keyboard"
+msgstr "გნომის ეკრანული კლავიატურა"
+
+#: ../gok.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gok.glade2.h:2
+msgid "3 State"
+msgstr "მდგომარეობა 3"
+
+#: ../gok.glade2.h:3
+msgid "<b>Appearance</b>"
+msgstr "<b>იერსახე</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Behavior</b>"
+msgstr "<b>ქცევა</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Branch</b>"
+msgstr "<b>ტოტი</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Command Prediction</b>"
+msgstr "<b>ბრძანების გამოცნობა</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>კლავიატურის შექმნა</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>დამატებითi კლავიატურა</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Actions</b>"
+msgstr "<b>მოქმედებების დადგომა</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Define Feedback</b>"
+msgstr ""
+
+#: ../gok.glade2.h:11
+#, fuzzy
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b> დაყოვნება ვიდრე</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Description</b>"
+msgstr "<b>აღწერა</b>"
+
+#: ../gok.glade2.h:13
+#, fuzzy
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b> ფიქსირება და გაფართოება</b>"
+
+#: ../gok.glade2.h:14
+#, fuzzy
+msgid "<b>Event Source</b>"
+msgstr "<b> მოვლენა წყარო</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Font</b>"
+msgstr "<b> შრიფტი</b>"
+
+#: ../gok.glade2.h:16
+#, fuzzy
+msgid "<b>Key Flashing</b>"
+msgstr "<b> გასაღები</b>"
+
+#: ../gok.glade2.h:17
+#, fuzzy
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b> გასაღები ზომა და ინტერვალი</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Key</b>"
+msgstr "<b>გასაღები</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Keyboard</b>"
+msgstr "<b>კლავიატურა</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Modifier</b>"
+msgstr "<b>მოდიფიკატორი</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Output</b>"
+msgstr "<b>გამონატანი</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Position</b>"
+msgstr "<b>პოზიცია</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Preview</b>"
+msgstr "<b>წინასწარი ჩვენება</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sensitivity</b>"
+msgstr ""
+
+#: ../gok.glade2.h:25
+msgid "<b>Sound</b>"
+msgstr "<b>ხმა</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Speech</b>"
+msgstr ""
+
+#: ../gok.glade2.h:27
+#, fuzzy
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b> ან ღილაკი ნომერი</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Theme</b>"
+msgstr "<b>გაფორმება</b>"
+
+#: ../gok.glade2.h:29
+#, fuzzy
+msgid "<b>Timers and Delays</b>"
+msgstr "<b> და</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Type</b>"
+msgstr "<b>ტიპი</b>"
+
+#: ../gok.glade2.h:31
+#, fuzzy
+msgid "<b>Valuator Type</b>"
+msgstr "<b> ტიპი</b>"
+
+#: ../gok.glade2.h:32
+#, fuzzy
+msgid "<b>Word Completion</b>"
+msgstr "<b> დასრულება</b>"
+
+#: ../gok.glade2.h:33
+#, fuzzy
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr "<small><i><b> შენიშვნა</b> ცვლილებები -სკენ არა</i></small>"
+
+#: ../gok.glade2.h:34
+#, fuzzy
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr "A -სკენ."
+
+#: ../gok.glade2.h:35
+#, fuzzy
+msgid "Access Methods"
+msgstr "წვდომა"
+
+#: ../gok.glade2.h:36
+msgid "AccessMethodName"
+msgstr ""
+
+#: ../gok.glade2.h:37
+#, fuzzy
+msgid "Action Names List"
+msgstr "მოქმედება სახელები სია"
+
+#: ../gok.glade2.h:38
+#, fuzzy
+msgid "Action Type:"
+msgstr "მოქმედება ტიპი:"
+
+#: ../gok.glade2.h:39
+msgid "ActionTypeNotebook"
+msgstr ""
+
+#: ../gok.glade2.h:40
+msgid "Actions"
+msgstr "მოქმედებები"
+
+#: ../gok.glade2.h:41
+#, fuzzy
+msgid "Activate on Dw_ell"
+msgstr "აქტივირება ჩართულია"
+
+#: ../gok.glade2.h:42
+#, fuzzy
+msgid "Activate on _Enter"
+msgstr "აქტივირება ჩართულია შეყვანა"
+
+#: ../gok.glade2.h:43
+#, fuzzy
+msgid "Activate on _Move"
+msgstr "აქტივირება ჩართულია გადატანა"
+
+#: ../gok.glade2.h:44
+#, fuzzy
+msgid "Activate when _pressed"
+msgstr "აქტივირება"
+
+#: ../gok.glade2.h:45
+#, fuzzy
+msgid "Activate when _released"
+msgstr "აქტივირება"
+
+#: ../gok.glade2.h:46
+#, fuzzy
+msgid "Add"
+msgstr "დამატება"
+
+#: ../gok.glade2.h:47
+#, fuzzy
+msgid "Add New Key"
+msgstr "დამატება ახალი გასაღები"
+
+#: ../gok.glade2.h:48
+#, fuzzy
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "-სკენ ძიება"
+
+#: ../gok.glade2.h:49
+#, fuzzy
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "-სკენ ძიება ფაილი"
+
+#: ../gok.glade2.h:50
+#, fuzzy
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "ალფავიტურ-ციფრული"
+
+#: ../gok.glade2.h:51
+#, fuzzy
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "ალფავიტურ-ციფრული"
+
+#: ../gok.glade2.h:52
+msgid "Appearance"
+msgstr "იერსახე"
+
+#: ../gok.glade2.h:53
+msgid "Bottom:"
+msgstr "ქვემოთ:"
+
+#: ../gok.glade2.h:54
+msgid "Browse"
+msgstr "ნუსხა"
+
+#: ../gok.glade2.h:55
+#, fuzzy
+msgid "C_ore pointer"
+msgstr "C"
+
+#: ../gok.glade2.h:56
+#, fuzzy
+msgid "Command Prediction"
+msgstr "ბრძანება"
+
+#: ../gok.glade2.h:57
+msgid "Delay"
+msgstr "დაყოვნება"
+
+#: ../gok.glade2.h:58
+#, fuzzy
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr "დაყოვნება - - a წამი მოვლენა."
+
+#: ../gok.glade2.h:59
+msgid "Delete"
+msgstr "წაშლა"
+
+#: ../gok.glade2.h:60
+msgid "Delete Key"
+msgstr "წაშალე გასაღები"
+
+#: ../gok.glade2.h:61
+msgid "Dock"
+msgstr "ფიქსირება"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:62 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "ფიქსირება ქვემოთ"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:63 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "ფიქსირება ზემოთ"
+
+#: ../gok.glade2.h:64
+msgid "Duplicate"
+msgstr "დუბლირება"
+
+#: ../gok.glade2.h:65
+#, fuzzy
+msgid "Enable _key flashing"
+msgstr "ჩართვა გასაღები"
+
+#: ../gok.glade2.h:66
+msgid "Enable _sound"
+msgstr "ხმის ჩ_ართვა"
+
+#: ../gok.glade2.h:67
+#, fuzzy
+msgid "Enable _word completion"
+msgstr "ჩართვა"
+
+#: ../gok.glade2.h:68
+#, fuzzy
+msgid "Enable co_mmand prediction"
+msgstr "ჩართვა"
+
+#: ../gok.glade2.h:70
+msgid "Fill Width"
+msgstr "სიგანის შევსება"
+
+#: ../gok.glade2.h:71
+msgid "Font Group:"
+msgstr "შრიფტის ჯგუფი:"
+
+#: ../gok.glade2.h:72 ../gok/gok-editor.c:35
+#, fuzzy
+msgid "GOK Keyboard Editor"
+msgstr "კლავიატურა რედაქტორი"
+
+#: ../gok.glade2.h:73
+#, fuzzy
+msgid "GOK Preferences"
+msgstr "პარამეტრები"
+
+#: ../gok.glade2.h:74
+msgid "GOK:"
+msgstr ""
+
+#: ../gok.glade2.h:75
+msgid "Key Height"
+msgstr "გასაღების სიმაღლე"
+
+#: ../gok.glade2.h:76
+msgid "Key Spacing"
+msgstr "გასაღების ინტერვალი"
+
+#: ../gok.glade2.h:77
+msgid "Key Width"
+msgstr "გასაღები სიგანე"
+
+#: ../gok.glade2.h:78
+msgid "Key _width:"
+msgstr "გასაღები სი_განე:"
+
+#: ../gok.glade2.h:79
+msgid "Key h_eight:"
+msgstr "გასაღები ს_იმაღლე:"
+
+#: ../gok.glade2.h:80
+msgid "Keyboards"
+msgstr ""
+
+#: ../gok.glade2.h:81
+msgid "Keycode:"
+msgstr ""
+
+#: ../gok.glade2.h:82
+msgid "Keysym:"
+msgstr ""
+
+#: ../gok.glade2.h:83
+msgid "Label:"
+msgstr "სათაური:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:84 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "მარცნივ:"
+
+#: ../gok.glade2.h:85
+#, fuzzy
+msgid "Match physical keyboard as reported by X Server"
+msgstr "X სერვერი"
+
+#: ../gok.glade2.h:86
+#, fuzzy
+msgid "Modifier Post"
+msgstr "მოდიფიკატორი"
+
+#: ../gok.glade2.h:87
+#, fuzzy
+msgid "Modifier Pre"
+msgstr "მოდიფიკატორი Pre"
+
+#: ../gok.glade2.h:88
+msgid "Modifier:"
+msgstr "მოდიფიკატორი:"
+
+#: ../gok.glade2.h:89
+msgid "Move Down"
+msgstr "ქვევით"
+
+#: ../gok.glade2.h:90
+msgid "Move Up"
+msgstr "ზევით"
+
+#: ../gok.glade2.h:91
+msgid "Name:"
+msgstr "სახელი:"
+
+#: ../gok.glade2.h:92
+msgid "New"
+msgstr "ახალი"
+
+#: ../gok.glade2.h:93
+msgid "Next Key"
+msgstr "შემდეგი გასაღები"
+
+#: ../gok.glade2.h:94
+msgid "Normal"
+msgstr "ჩვეულებრივი"
+
+#: ../gok.glade2.h:95
+#, fuzzy
+msgid "Number of _flashes:"
+msgstr "ნომერი -:"
+
+#: ../gok.glade2.h:96
+#, fuzzy
+msgid "Number of _predictions:"
+msgstr "ნომერი -:"
+
+#: ../gok.glade2.h:97
+#, fuzzy
+msgid "Number of command predictions:"
+msgstr "ნომერი -:"
+
+#: ../gok.glade2.h:98
+#, fuzzy
+msgid "Number of word predictions:"
+msgstr "ნომერი -:"
+
+#: ../gok.glade2.h:99
+#, fuzzy
+msgid "Other _input device:"
+msgstr "სხვა:"
+
+#: ../gok.glade2.h:100
+msgid "Prediction"
+msgstr ""
+
+#: ../gok.glade2.h:101
+msgid "Press"
+msgstr ""
+
+#: ../gok.glade2.h:102
+msgid "Previous Key"
+msgstr "წინა გასაღები"
+
+#: ../gok.glade2.h:103
+#, fuzzy
+msgid "Read keyboard from file:"
+msgstr "წაკითხვა ფაილი:"
+
+#: ../gok.glade2.h:104
+msgid "Release"
+msgstr "გამოშვება"
+
+#. User interface for the access method
+#: ../gok.glade2.h:105 ../directed.xml.in.h:24
+msgid "Right:"
+msgstr "მარჯვნივ:"
+
+#: ../gok.glade2.h:106
+msgid "S_witch"
+msgstr "გა_დასვლა"
+
+#: ../gok.glade2.h:107
+#, fuzzy
+msgid "Show Only This Font Group"
+msgstr "ჩვენება მხოლოდ შრიფტი ჯგუფი"
+
+#: ../gok.glade2.h:108
+msgid "So_und:"
+msgstr "ხმ_ა:"
+
+#: ../gok.glade2.h:109
+#, fuzzy
+msgid "Speak key _label"
+msgstr "გასაღები წარწერა"
+
+#: ../gok.glade2.h:110
+msgid "Style:"
+msgstr "სტილი:"
+
+#: ../gok.glade2.h:111
+msgid "Switch _1"
+msgstr "გადართვა _1"
+
+#: ../gok.glade2.h:112
+msgid "Switch _2"
+msgstr "გადართვა _2"
+
+#: ../gok.glade2.h:113
+msgid "Switch _3"
+msgstr "გადართვა _3"
+
+#: ../gok.glade2.h:114
+msgid "Switch _4"
+msgstr "გადართვა _4"
+
+#: ../gok.glade2.h:115
+msgid "Switch _5"
+msgstr "გადართვა _5"
+
+#: ../gok.glade2.h:116
+msgid "Target:"
+msgstr "მიზანი:"
+
+#: ../gok.glade2.h:117
+msgid "To Back"
+msgstr "გადადი უკან"
+
+#: ../gok.glade2.h:118
+#, fuzzy
+msgid "To Front"
+msgstr "ვის წინა"
+
+#: ../gok.glade2.h:119
+msgid "Toggle"
+msgstr ""
+
+#: ../gok.glade2.h:120
+msgid "Top:"
+msgstr "ზემოთ:"
+
+#: ../gok.glade2.h:121
+#, fuzzy
+msgid "Use _extra word list file(s)"
+msgstr "გამოყენება სია ფაილი წმ"
+
+#: ../gok.glade2.h:122
+#, fuzzy
+msgid "Use _key averaging"
+msgstr "გამოყენება გასაღები"
+
+#: ../gok.glade2.h:123
+msgid "Valuator Sensitivity"
+msgstr ""
+
+#: ../gok.glade2.h:124
+#, fuzzy
+msgid "Word Completion"
+msgstr "სიტყების დამატება"
+
+#: ../gok.glade2.h:125
+#, fuzzy
+msgid "_100ths of a second"
+msgstr "- a წამი"
+
+#: ../gok.glade2.h:126
+msgid "_Add"
+msgstr "_დამატება"
+
+#: ../gok.glade2.h:127
+msgid "_Browse..."
+msgstr "_ნუსხა..."
+
+#: ../gok.glade2.h:128
+msgid "_Delete"
+msgstr "_წაშლა"
+
+#: ../gok.glade2.h:129
+msgid "_Joystick"
+msgstr ""
+
+#: ../gok.glade2.h:130
+msgid "_Method:"
+msgstr "_მეთოდი:"
+
+#: ../gok.glade2.h:131
+msgid "_Name:"
+msgstr "_სახელი:"
+
+#: ../gok.glade2.h:132
+msgid "_New"
+msgstr "_ახალი"
+
+#: ../gok.glade2.h:133
+#, fuzzy
+msgid "_Number of predictions:"
+msgstr "ნომერი -:"
+
+#: ../gok.glade2.h:134
+msgid "_Rename"
+msgstr "_გადარქმევა"
+
+#: ../gok.glade2.h:135
+#, fuzzy
+msgid "_Single axis:"
+msgstr "ცალი:"
+
+#: ../gok.glade2.h:136
+msgid "_Spacing:"
+msgstr "_ინტერვალი:"
+
+#: ../gok.glade2.h:137
+#, fuzzy
+msgid "_Use Desktop Theme Preferences"
+msgstr "გამოყენება სამუშაო მაგიდა გაფორმება პარამეტრები"
+
+#: ../gok.glade2.h:138
+msgid "_Valuator"
+msgstr ""
+
+#: ../gok.glade2.h:139
+#, fuzzy
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "X Y და"
+
+#: ../gok.glade2.h:140
+#, fuzzy
+msgid "access method name"
+msgstr "სახელი"
+
+#: ../gok.glade2.h:141
+msgid "cancel"
+msgstr "გაუქმება"
+
+#: ../gok.glade2.h:142
+msgid "display user help"
+msgstr "დახმარების ჩვენება"
+
+#: ../gok.glade2.h:143
+msgid "high"
+msgstr "მაღალი"
+
+#: ../gok.glade2.h:144
+msgid "low"
+msgstr "დაბალი"
+
+#: ../gok.glade2.h:145
+msgid "pixels"
+msgstr "პიქსელი"
+
+#: ../gok.glade2.h:146
+#, fuzzy
+msgid "revert to original settings"
+msgstr "-სკენ ორიგინალი"
+
+#: ../gok.glade2.h:147
+msgid "try these settings"
+msgstr ""
+
+#: ../gok.glade2.h:148
+msgid "use these settings"
+msgstr ""
+
+#: ../gok/callbacks.c:372
+#, fuzzy
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "უკაცრავად წვდომა მეთოდი ოსტატი არა."
+
+#: ../gok/callbacks.c:374
+#, fuzzy
+msgid "GOK Access Method Wizard"
+msgstr "წვდომა მეთოდი ოსტატი"
+
+#: ../gok/gok-control.c:227
+#, fuzzy
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "უკაცრავად ფაილი არა."
+
+#: ../gok/gok-control.c:229
+#, fuzzy
+msgid "GOK Browse for sound file"
+msgstr "ნუსხა ფაილი"
+
+#: ../gok/gok-control.c:253
+#, fuzzy
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "უკაცრავად არა."
+
+#: ../gok/gok-control.c:255
+#, fuzzy
+msgid "GOK Inverse Scanning Advanced"
+msgstr "სკანირება დეტალური"
+
+#: ../gok/gok-editor.c:154 ../gok/gok-editor.c:187 ../gok/gok-editor.c:267
+#, fuzzy
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr "თქვენ შეცვლილი ფაილი -სკენ?"
+
+#: ../gok/gok-editor.c:156 ../gok/gok-editor.c:189 ../gok/gok-editor.c:269
+#: ../gok/gok-editor.c:1060
+#, fuzzy
+msgid "Keyboard Filename Invalid"
+msgstr "კლავიატურა ფაილის სახელი არასწორი"
+
+#: ../gok/gok-editor.c:218
+msgid "new"
+msgstr "ახალი"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:279
+#, fuzzy
+msgid "Select keyboard file for editing"
+msgstr "ამორჩევა ფაილი"
+
+#: ../gok/gok-editor.c:289 ../gok/gok-editor.c:981
+msgid ".kbd files"
+msgstr ".kbd ფაილი"
+
+#: ../gok/gok-editor.c:544
+msgid "label"
+msgstr "წარწერა"
+
+#: ../gok/gok-editor.c:718
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "ვერ ვიმახსოვრებ ფაილს: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:971
+#, fuzzy
+msgid "Save keyboard file as"
+msgstr "შენახვა ფაილი"
+
+#: ../gok/gok-editor.c:1052
+#, c-format
+#, fuzzy
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr "არა a არა წმ"
+
+#: ../gok/gok-editor.c:1082
+msgid "(new)"
+msgstr "(ახალი)"
+
+#: ../gok/gok-input.c:515
+#, c-format
+#, fuzzy
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr "a ახალი წმ -სკენ - წმ?"
+
+#: ../gok/gok-key.c:117
+msgid "Mute"
+msgstr "უხმო"
+
+#: ../gok/gok-key.c:120
+#, fuzzy
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr "თაგვი"
+
+#: ../gok/gok-key.c:123
+#, fuzzy
+msgid ""
+"Left\n"
+"Tab"
+msgstr "მარცხნივ"
+
+#: ../gok/gok-key.c:234
+msgid "Divide"
+msgstr "გაყოფა"
+
+#: ../gok/gok-key.c:237
+msgid "Multiply"
+msgstr "გამრავლება"
+
+#: ../gok/gok-key.c:240
+msgid "Subtract"
+msgstr "გამოკლება"
+
+#: ../gok/gok-key.c:243
+msgid "Addition"
+msgstr "დამატებითი"
+
+#: ../gok/gok-key.c:246
+msgid "Prior"
+msgstr "წინა"
+
+#: ../gok/gok-key.c:249
+msgid "Next"
+msgstr "შემდეგი"
+
+#: ../gok/gok-key.c:252 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "სახლი"
+
+#: ../gok/gok-key.c:255 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "ბოლოში"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:258 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "ზემოთ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:261 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "ქვემოთ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:264 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "მარცხნივ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:267 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "მარჯვნივ"
+
+#: ../gok/gok-key.c:270
+msgid "Begin"
+msgstr ""
+
+#: ../gok/gok-key.c:273
+msgid "Decimal"
+msgstr "ათობითი"
+
+#: ../gok/gok-key.c:276
+msgid "Meta"
+msgstr "მეტა"
+
+#: ../gok/gok-key.c:279
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+
+#: ../gok/gok-key.c:282
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+
+#: ../gok/gok-key.c:285
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+
+#: ../gok/gok-key.c:288
+msgid "Muhenkan"
+msgstr ""
+
+#: ../gok/gok-key.c:291
+#, fuzzy
+msgid ""
+"Mode\n"
+"switch"
+msgstr "რეჟიმი"
+
+#: ../gok/gok-keyboard.c:155
+#, c-format
+#, fuzzy
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "გაფართოვება არა შეცდომა x"
+
+#: ../gok/gok-keyboard.c:161 ../gok/gok-keyboard.c:202
+#, fuzzy
+msgid "keyboard description not available!"
+msgstr "აღწერა არა!"
+
+#: ../gok/gok-keyboard.c:167 ../gok/gok-keyboard.c:208
+#: ../gok/gok-keyboard.c:506
+#, fuzzy
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "კლავიატურა გეომეტრია X სერვერი."
+
+#: ../gok/gok-keyboard.c:432
+msgid "Back"
+msgstr "უკან"
+
+#: ../gok/gok-keyboard.c:450 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "გამეორე შემდეგი"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "რედაქტირება"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "დამალვა"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:701
+msgid "shift"
+msgstr ""
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:713
+msgid "Level 2"
+msgstr "დონე 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:725
+msgid "Level 3"
+msgstr "დონე 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:737
+#, fuzzy
+msgid ""
+"Back\n"
+"Space"
+msgstr "უკან"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:748 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "ჩანართი"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:759
+msgid "space"
+msgstr ""
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:770 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "შეყვანა"
+
+#: ../gok/gok-keyboard.c:808 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "მენუ"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. * The prefix before the '|' character is just a context string and need not be
+#. * translated.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:867
+msgid "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr ""
+
+#. The substring "level 1|" should not be translated.
+#. * For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:872
+msgid "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr ""
+
+#. Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#.
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#.
+#: ../gok/gok-keyboard.c:879 ../gok/gok-keyboard.c:935
+msgid "level 2|"
+msgstr ""
+
+#. For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#: ../gok/gok-keyboard.c:882 ../gok/gok-keyboard.c:936
+msgid "level 3|"
+msgstr ""
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "level #|abcde..." strings
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:930
+msgid "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:931
+msgid "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr ""
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1924
+msgid "GOK - "
+msgstr ""
+
+#: ../gok/gok-keyboard.c:2828
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2833 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "ცხრილი"
+
+#: ../gok/gok-keyboard.c:2838 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "პულტები"
+
+#: ../gok/gok-keyboard.c:2842
+msgid "Applications"
+msgstr "პროგრამები"
+
+#: ../gok/gok-keyboard.c:2852
+msgid "Menu"
+msgstr "მენიუ"
+
+#: ../gok/gok-keyboard.c:3747
+msgid "translator-credits"
+msgstr "Vladimer Sichinava <vlsichinava@gmail.com>"
+
+#: ../gok/gok-keyboard.c:3770 ../main.kbd.in.h:4
+msgid "GOK"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:3772
+#, fuzzy
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "GNOME"
+
+#: ../gok/gok-keyboard.c:3781
+msgid "Full Credits"
+msgstr "პროექტში მონაწილეობდნენ"
+
+#: ../gok/gok-scanner.c:1007
+#, fuzzy
+msgid "error reading description"
+msgstr "შეცდომა აღწერა"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1702
+#, fuzzy
+msgid "V Scrollbar"
+msgstr "სასრიალო"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1707
+#, fuzzy
+msgid "H Scrollbar"
+msgstr "H სასრიალო"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:370 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:434
+#, fuzzy
+msgid "GOK Action Name"
+msgstr "მოქმედება სახელი"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:376
+#, fuzzy
+msgid "Change the action name:"
+msgstr "შეცვლა მოქმედება სახელი:"
+
+#: ../gok/gok-page-actions.c:413
+#, fuzzy
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr "მოქმედება სახელი a ახალი მოქმედება სახელი."
+
+#: ../gok/gok-page-actions.c:432
+#, fuzzy
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr "უკაცრავად მოქმედება სახელი a ახალი მოქმედება სახელი"
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+#, fuzzy
+msgid "New Action %d"
+msgstr "ახალი მოქმედება"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+#, fuzzy
+msgid "Do you wish to delete this action (%s)?"
+msgstr "-სკენ წაშლა მოქმედება წმ?"
+
+#: ../gok/gok-page-actions.c:558
+#, fuzzy
+msgid "GOK Delete Action"
+msgstr "წაშლა მოქმედება"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:411 ../gok/gok-page-feedbacks.c:456
+#: ../gok/gok-page-feedbacks.c:475
+#, fuzzy
+msgid "GOK Feedback Name"
+msgstr "სახელი"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:417
+#, fuzzy
+msgid "Change the feedback name:"
+msgstr "შეცვლა სახელი:"
+
+#: ../gok/gok-page-feedbacks.c:454
+#, fuzzy
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr "სახელი a ახალი სახელი."
+
+#: ../gok/gok-page-feedbacks.c:473
+#, fuzzy
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr "უკაცრავად სახელი a ახალი სახელი"
+
+#: ../gok/gok-page-feedbacks.c:526
+#, c-format
+#, fuzzy
+msgid "New Feedback %d"
+msgstr "ახალი"
+
+#: ../gok/gok-page-feedbacks.c:644
+#, c-format
+#, fuzzy
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "-სკენ წაშლა წმ?"
+
+#: ../gok/gok-page-feedbacks.c:652
+#, fuzzy
+msgid "GOK Delete Feedback"
+msgstr "წაშლა"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:875
+#, fuzzy
+msgid "Select sound file"
+msgstr "ამორჩევა ფაილი"
+
+#: ../gok/gok-page-keyboard.c:180
+#, fuzzy
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "შეყვანა -სკენ ძიება ფაილი."
+
+#: ../gok/gok-page-keyboard.c:194
+#, fuzzy
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "ამორჩევა ფაილი"
+
+#: ../gok/gok-page-keysizespace.c:83
+msgid "Button"
+msgstr "ღილაკი"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "ფანჯრების სია"
+
+#: ../gok/gok-utf8-word-complete.c:120
+#, c-format
+#, fuzzy
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "არა - ფაილი წმ არა"
+
+#: ../gok/main.c:180
+#, fuzzy
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr "გამოყენება NAME a სტრიქონი და - ფაილი -სკენ სახელი -<gok:accessmethod> შენიშვნა არა სახელი - ფაილი სია"
+
+#: ../gok/main.c:181
+#, fuzzy
+msgid "NAME"
+msgstr "NAME"
+
+#: ../gok/main.c:189
+#, fuzzy
+msgid "Start the GOK keyboard editor"
+msgstr "გაშვება"
+
+#: ../gok/main.c:197
+#, fuzzy
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "გამოყენება"
+
+#: ../gok/main.c:205
+#, fuzzy
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr "არა და - - არა ქვემოთ -სკენ."
+
+#: ../gok/main.c:206
+#, fuzzy
+msgid "GEOMETRY"
+msgstr "გეომეტრია"
+
+#: ../gok/main.c:214
+#, fuzzy
+msgid "Use the specified input device"
+msgstr "გამოყენება"
+
+#: ../gok/main.c:215
+msgid "DEVICENAME"
+msgstr ""
+
+#: ../gok/main.c:223
+#, fuzzy
+msgid "Start GOK with the specified keyboard."
+msgstr "გაშვება."
+
+#: ../gok/main.c:224
+msgid "KEYBOARDNAME"
+msgstr ""
+
+#: ../gok/main.c:232
+#, fuzzy
+msgid "List the access methods that can be used as options to other arguments."
+msgstr "სია -სკენ სხვა."
+
+#: ../gok/main.c:241
+#, fuzzy
+msgid "List the actions that can be used as options to other arguments."
+msgstr "სია -სკენ სხვა."
+
+#: ../gok/main.c:250
+#, fuzzy
+msgid "GOK will be used to login"
+msgstr "-სკენ"
+
+#: ../gok/main.c:260
+#, fuzzy
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "GUI."
+
+#: ../gok/main.c:270
+#, fuzzy
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr "-სკენ მეტი."
+
+#: ../gok/main.c:281
+#, fuzzy
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr "გაშვება და მოქმედება -სკენ სია"
+
+#: ../gok/main.c:291
+#, fuzzy
+msgid "Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr "გაშვება და მოქმედება -სკენ სია"
+
+#: ../gok/main.c:300
+#, fuzzy
+msgid "Open the settings dialog box when GOK starts"
+msgstr "გახსნა დიალოგი"
+
+#: ../gok/main.c:636
+#, c-format
+#, fuzzy
+msgid "gok: Unsupported geometry specification\n"
+msgstr "არა"
+
+#: ../gok/main.c:637
+#, c-format
+#, fuzzy
+msgid "gok: Currently GOK requires that the x, y, width and height all be given\n"
+msgstr "x y სიგანე და სიმაღლე ყველა არა"
+
+#: ../gok/main.c:733
+#, fuzzy
+msgid "XKB extension is required."
+msgstr "გაფართოვება."
+
+#: ../gok/main.c:743
+msgid "Can't initialize actions."
+msgstr ""
+
+#: ../gok/main.c:753
+msgid "Can't initialize feedbacks."
+msgstr ""
+
+#: ../gok/main.c:780
+#, fuzzy
+msgid "Can't create the main GOK window!"
+msgstr "ფანჯარა!"
+
+#: ../gok/main.c:799
+#, fuzzy
+msgid "Can't create the settings dialog window!"
+msgstr "დიალოგი ფანჯარა!"
+
+#: ../gok/main.c:861
+#, fuzzy
+msgid "No keyboards to display!"
+msgstr "არა -სკენ!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:995 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr ""
+
+#: ../gok/main.c:1011
+msgid "popup menu"
+msgstr "მოტივტივე მენიუ"
+
+#: ../gok/main.c:1918
+#, fuzzy
+msgid "Can't create a compose keyboard!"
+msgstr "a!"
+
+#: ../gok/main.c:1960
+#, fuzzy
+msgid "Can't read any keyboards!"
+msgstr "ნებისმიერი!"
+
+#: ../gok/main.c:2077
+#, fuzzy
+msgid "could not access method directory key from GConf!"
+msgstr "არა გასაღები!"
+
+#: ../gok/main.c:2085
+#, fuzzy
+msgid "possibly unknown access method!"
+msgstr "უცნობი!"
+
+#: ../gok/main.c:2632
+#, fuzzy
+msgid "Sorry, GOK can't run because:\n"
+msgstr "უკაცრავად არა"
+
+#: ../gok/main.c:2641
+#, fuzzy
+msgid "GOK Fatal Error"
+msgstr "ფატალური შეცდომა"
+
+#: ../gok/main.c:2653
+#, fuzzy
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run.  GOK is currently unable to retrieve those settings.  If "
+"this is the first time that you have run gok after installing it you may "
+"need to restart gconfd, you can use this command: 'gconftool-2 --shutdown' "
+"or log out and back in."
+msgstr "-სკენ და -სკენ - -სკენ -სკენ პირველი -სკენ ან და -."
+
+#: ../gok/main.c:2670
+#, fuzzy
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given.  Sorry, "
+"your geometry specification will not be used."
+msgstr "x y სიგანე და სიმაღლე ყველა უკაცრავად არა."
+
+#: ../gok/main.c:2672
+msgid "gok: Unsupported geometry specification"
+msgstr ""
+
+#: ../gok/main.c:2879
+#, fuzzy
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr "არა არა წმ."
+
+#: ../gok/main.c:2886
+#, fuzzy
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "ჩართული მიმაგრებული არა"
+
+#: ../gok/main.c:2908
+#, fuzzy
+msgid "GOK cannot run because XKB display extension is missing.\n"
+msgstr "გაფართოვება არა"
+
+#: ../gok/main.c:2981
+#, fuzzy
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr "-სკენ ან კონფლიქტობს - -სკენ ან არა გაფართოებული დახმარება მეტი."
+
+#: ../gok/main.c:2987
+#, fuzzy
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr "-სკენ არა - ახლა - არა -სკენ დახმარება."
+
+#. no longer used!
+#: ../gok/main.c:2994 ../gok/main.c:2997
+#, fuzzy
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "თქვენ -სკენ -სკენ რეჟიმი."
+
+#: ../gok/main.c:3095
+#, fuzzy
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr "შეერთების პარამეტრები ჩართულია არა სუპორტი მონაცემები - - პროგრამა არა არა სუპორტი და - -სკენ a ახალი ჩართული ჩართვა და ჟურნალი არა გაგრძელება არა დასრულება დახურვა არა არა"
+
+#: ../gok/main.c:3114
+#, fuzzy
+msgid "Enable and Log Out"
+msgstr "ჩართვა და ჟურნალი"
+
+#: ../gok/main.c:3126
+#, fuzzy
+msgid "Continue"
+msgstr "გაგრძელება"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+#, fuzzy
+msgid "(100s of a second)"
+msgstr "- a წამი"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "უკუ სკანირება"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+#, fuzzy
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "და a -სკენ -სკენ."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "სკანირება:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+#, fuzzy
+msgid "Single Key Automatic Scanning"
+msgstr "ცალი გასაღები ავტომატური სკანირება"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "სკანირების გაშვება:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap"
+msgstr "გადატანა"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+#, fuzzy
+msgid "Single Key Inverse Scanning"
+msgstr "ცალი გასაღები სკანირება"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr ""
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "ქვემოთ:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:32
+msgid "Up:"
+msgstr "ზემოთ:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "ჩვენება"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "დახმარების მნახველი"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "ტერმინალი"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "ტექსტის რედაქტორი"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "ვებ-ბროუზერი"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "შექმნა"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "გამშვები"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "თაგვი"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "ღილაკი 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "ღილაკი 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "ღილაკი 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr ""
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr ""
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "მიმთითებელი"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "გამეორება"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "შევსება"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "მცურავი"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr ""
+
+#: ../move-resize.kbd.in.h:13
+#, fuzzy
+msgid "Repeat Next Key"
+msgstr "გამეორება შემდეგი გასაღები"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr ""
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr ""
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr ""
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr ""
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr ""
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr ""
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr ""
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr ""
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "ჩანართი&lt;"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "გამოსვლა!"
+

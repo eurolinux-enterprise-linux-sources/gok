@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-modifier</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-log.html" title="gok-log">
+<link rel="next" href="gok-gok-output.html" title="gok-output">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-log.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-output.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-modifier.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-modifier.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-modifier">
+<a name="gok-gok-modifier"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-modifier.top_of_page"></a>gok-modifier</span></h2>
+<p>gok-modifier</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-modifier.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-gok-modifier.html#MODIFIER-NORMAL--CAPS" title="MODIFIER_NORMAL">MODIFIER_NORMAL</a>
+enum                <a class="link" href="gok-gok-modifier.html#ModifierStates" title="enum ModifierStates">ModifierStates</a>;
+enum                <a class="link" href="gok-gok-modifier.html#ModifierTypes" title="enum ModifierTypes">ModifierTypes</a>;
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-modifier.html#gok-modifier-add" title="gok_modifier_add ()">gok_modifier_add</a>                    (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-modifier.html#gok-modifier-set-pre" title="gok_modifier_set_pre ()">gok_modifier_set_pre</a>                (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         GokOutput *pOutput);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-modifier.html#gok-modifier-set-post" title="gok_modifier_set_post ()">gok_modifier_set_post</a>               (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         GokOutput *pOutput);
+void                <a class="link" href="gok-gok-modifier.html#gok-modifier-set-type" title="gok_modifier_set_type ()">gok_modifier_set_type</a>               (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Type);
+void                <a class="link" href="gok-gok-modifier.html#gok-modifier-output-pre" title="gok_modifier_output_pre ()">gok_modifier_output_pre</a>             (void);
+void                <a class="link" href="gok-gok-modifier.html#gok-modifier-output-post" title="gok_modifier_output_post ()">gok_modifier_output_post</a>            (void);
+void                <a class="link" href="gok-gok-modifier.html#gok-modifier-all-off" title="gok_modifier_all_off ()">gok_modifier_all_off</a>                (void);
+int                 <a class="link" href="gok-gok-modifier.html#gok-modifier-get-state" title="gok_modifier_get_state ()">gok_modifier_get_state</a>              (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pNameModifier);
+int                 <a class="link" href="gok-gok-modifier.html#gok-modifier-get-type" title="gok_modifier_get_type ()">gok_modifier_get_type</a>               (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pNameModifier);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-modifier.html#gok-modifier-get-normal" title="gok_modifier_get_normal ()">gok_modifier_get_normal</a>             (void);
+void                <a class="link" href="gok-gok-modifier.html#gok-modifier-update-modifier-keys" title="gok_modifier_update_modifier_keys ()">gok_modifier_update_modifier_keys</a>   (GokKeyboard *pKeyboard);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-modifier.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-modifier.details"></a><h2>Details</h2>
+<div class="refsect2" title="MODIFIER_NORMAL">
+<a name="MODIFIER-NORMAL--CAPS"></a><h3>MODIFIER_NORMAL</h3>
+<pre class="programlisting">#define MODIFIER_NORMAL ""
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum ModifierStates">
+<a name="ModifierStates"></a><h3>enum ModifierStates</h3>
+<pre class="programlisting">typedef enum {
+MODIFIER_STATE_OFF,
+MODIFIER_STATE_ON,
+MODIFIER_STATE_LOCKED
+} ModifierStates;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum ModifierTypes">
+<a name="ModifierTypes"></a><h3>enum ModifierTypes</h3>
+<pre class="programlisting">typedef enum {
+/* a normal modifier like shift or CTRL */
+MODIFIER_TYPE_NORMAL,
+/* a toggle type of modifier like Capslock */
+MODIFIER_TYPE_TOGGLE
+} ModifierTypes;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_add ()">
+<a name="gok-modifier-add"></a><h3>gok_modifier_add ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_modifier_add                    (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name);</pre>
+<p>
+Adds a modifier to the list of modifiers.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Name</code></em> :</span></p></td>
+<td> Name of the modifier.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the modifier was created, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_set_pre ()">
+<a name="gok-modifier-set-pre"></a><h3>gok_modifier_set_pre ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_modifier_set_pre                (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         GokOutput *pOutput);</pre>
+<p>
+Sets the wrapper 'pre' output for the given modifier.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Name</code></em> :</span></p></td>
+<td> Name of the modifier.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pOutput</code></em> :</span></p></td>
+<td> Pointer to the output that will be set as the modifier wrapper 'pre'.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the modifier 'pre' was set, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_set_post ()">
+<a name="gok-modifier-set-post"></a><h3>gok_modifier_set_post ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_modifier_set_post               (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         GokOutput *pOutput);</pre>
+<p>
+Sets the 'post' output for the given modifier.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Name</code></em> :</span></p></td>
+<td> Name of the modifier.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pOutput</code></em> :</span></p></td>
+<td> Pointer to the output that will be set as the modifier wrapper 'post'.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the modifier 'pre' was set, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_set_type ()">
+<a name="gok-modifier-set-type"></a><h3>gok_modifier_set_type ()</h3>
+<pre class="programlisting">void                gok_modifier_set_type               (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Type);</pre>
+<p>
+Sets the 'Type' attribute for the given modifier.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Name</code></em> :</span></p></td>
+<td> Name of the modifier.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Type</code></em> :</span></p></td>
+<td> The type of the modifier.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_output_pre ()">
+<a name="gok-modifier-output-pre"></a><h3>gok_modifier_output_pre ()</h3>
+<pre class="programlisting">void                gok_modifier_output_pre             (void);</pre>
+<p>
+Sends all the wrapper 'pre' outputs to the system.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_output_post ()">
+<a name="gok-modifier-output-post"></a><h3>gok_modifier_output_post ()</h3>
+<pre class="programlisting">void                gok_modifier_output_post            (void);</pre>
+<p>
+Sends all the wrapper 'post' outputs to the system.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_all_off ()">
+<a name="gok-modifier-all-off"></a><h3>gok_modifier_all_off ()</h3>
+<pre class="programlisting">void                gok_modifier_all_off                (void);</pre>
+<p>
+Changes the state of modifier keys to OFF, unless they are locked on.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_get_state ()">
+<a name="gok-modifier-get-state"></a><h3>gok_modifier_get_state ()</h3>
+<pre class="programlisting">int                 gok_modifier_get_state              (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pNameModifier);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pNameModifier</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The state of the modifier
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_get_type ()">
+<a name="gok-modifier-get-type"></a><h3>gok_modifier_get_type ()</h3>
+<pre class="programlisting">int                 gok_modifier_get_type               (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pNameModifier);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pNameModifier</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The type of the modifier
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_get_normal ()">
+<a name="gok-modifier-get-normal"></a><h3>gok_modifier_get_normal ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_modifier_get_normal             (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if there are no modifiers on (or locked on). Returns
+FALSE if one or more modifiers are on (or locked on).
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_modifier_update_modifier_keys ()">
+<a name="gok-modifier-update-modifier-keys"></a><h3>gok_modifier_update_modifier_keys ()</h3>
+<pre class="programlisting">void                gok_modifier_update_modifier_keys   (GokKeyboard *pKeyboard);</pre>
+<p>
+Updates the indicator on all the modifier keys for the current keyboard.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

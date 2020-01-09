@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-spy</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-spy-priv.html" title="gok-spy-priv">
+<link rel="next" href="gok-gok-word-complete.html" title="gok-word-complete">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-spy-priv.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-word-complete.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-spy.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-spy.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-spy">
+<a name="gok-gok-spy"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-spy.top_of_page"></a>gok-spy</span></h2>
+<p>gok-spy</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-spy.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+void                <a class="link" href="gok-gok-spy.html#gok-spy-open" title="gok_spy_open ()">gok_spy_open</a>                        (void);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-close" title="gok_spy_close ()">gok_spy_close</a>                       (void);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-register-appchangelistener" title="gok_spy_register_appchangelistener ()">gok_spy_register_appchangelistener</a>  (AccessibleChangeListener *callback);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-deregister-appchangelistener" title="gok_spy_deregister_appchangelistener ()">gok_spy_deregister_appchangelistener</a>
+                                                        (AccessibleChangeListener *callback);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-register-windowchangelistener" title="gok_spy_register_windowchangelistener ()">gok_spy_register_windowchangelistener</a>
+                                                        (AccessibleChangeListener *callback);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-deregister-windowchangelistener" title="gok_spy_deregister_windowchangelistener ()">gok_spy_deregister_windowchangelistener</a>
+                                                        (AccessibleChangeListener *callback);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-register-mousebuttonlistener" title="gok_spy_register_mousebuttonlistener ()">gok_spy_register_mousebuttonlistener</a>
+                                                        (<a class="link" href="gok-gok-spy-priv.html#MouseButtonListener" title="MouseButtonListener">MouseButtonListener</a> *callback);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-deregister-mousebuttonlistener" title="gok_spy_deregister_mousebuttonlistener ()">gok_spy_deregister_mousebuttonlistener</a>
+                                                        (<a class="link" href="gok-gok-spy-priv.html#MouseButtonListener" title="MouseButtonListener">MouseButtonListener</a> *callback);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             <a class="link" href="gok-gok-spy.html#gok-spy-get-list" title="gok_spy_get_list ()">gok_spy_get_list</a>                    (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *paccessible);
+AccessibleNode*     <a class="link" href="gok-gok-spy.html#gok-spy-refresh" title="gok_spy_refresh ()">gok_spy_refresh</a>                     (AccessibleNode *plist);
+void                <a class="link" href="gok-gok-spy.html#gok-spy-free" title="gok_spy_free ()">gok_spy_free</a>                        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a> *nodes);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-spy.html#gok-spy-has-child" title="gok_spy_has_child ()">gok_spy_has_child</a>                   (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *accessible,
+                                                         GokSpySearchType type,
+                                                         <a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#AccessibleRole"
+>AccessibleRole</a> role);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-spy.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-spy.details"></a><h2>Details</h2>
+<div class="refsect2" title="gok_spy_open ()">
+<a name="gok-spy-open"></a><h3>gok_spy_open ()</h3>
+<pre class="programlisting">void                gok_spy_open                        (void);</pre>
+<p>
+Intializes gok spy.
+Note: user must initialize the SPI prior to this call; call this only once.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_close ()">
+<a name="gok-spy-close"></a><h3>gok_spy_close ()</h3>
+<pre class="programlisting">void                gok_spy_close                       (void);</pre>
+<p>
+Frees any allocated memory.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_register_appchangelistener ()">
+<a name="gok-spy-register-appchangelistener"></a><h3>gok_spy_register_appchangelistener ()</h3>
+<pre class="programlisting">void                gok_spy_register_appchangelistener  (AccessibleChangeListener *callback);</pre>
+<p>
+<em class="parameter"><code>callback</code></em>: the listener to register</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_deregister_appchangelistener ()">
+<a name="gok-spy-deregister-appchangelistener"></a><h3>gok_spy_deregister_appchangelistener ()</h3>
+<pre class="programlisting">void                gok_spy_deregister_appchangelistener
+                                                        (AccessibleChangeListener *callback);</pre>
+<p>
+<em class="parameter"><code>callback</code></em>: the listener to deregister</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_register_windowchangelistener ()">
+<a name="gok-spy-register-windowchangelistener"></a><h3>gok_spy_register_windowchangelistener ()</h3>
+<pre class="programlisting">void                gok_spy_register_windowchangelistener
+                                                        (AccessibleChangeListener *callback);</pre>
+<p>
+<em class="parameter"><code>callback</code></em>: the listener to register</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_deregister_windowchangelistener ()">
+<a name="gok-spy-deregister-windowchangelistener"></a><h3>gok_spy_deregister_windowchangelistener ()</h3>
+<pre class="programlisting">void                gok_spy_deregister_windowchangelistener
+                                                        (AccessibleChangeListener *callback);</pre>
+<p>
+<em class="parameter"><code>callback</code></em>: the listener to deregister</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_register_mousebuttonlistener ()">
+<a name="gok-spy-register-mousebuttonlistener"></a><h3>gok_spy_register_mousebuttonlistener ()</h3>
+<pre class="programlisting">void                gok_spy_register_mousebuttonlistener
+                                                        (<a class="link" href="gok-gok-spy-priv.html#MouseButtonListener" title="MouseButtonListener">MouseButtonListener</a> *callback);</pre>
+<p>
+<em class="parameter"><code>callback</code></em>: the listener to register</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_deregister_mousebuttonlistener ()">
+<a name="gok-spy-deregister-mousebuttonlistener"></a><h3>gok_spy_deregister_mousebuttonlistener ()</h3>
+<pre class="programlisting">void                gok_spy_deregister_mousebuttonlistener
+                                                        (<a class="link" href="gok-gok-spy-priv.html#MouseButtonListener" title="MouseButtonListener">MouseButtonListener</a> *callback);</pre>
+<p>
+<em class="parameter"><code>callback</code></em>: the listener to deregister</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_get_list ()">
+<a name="gok-spy-get-list"></a><h3>gok_spy_get_list ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             gok_spy_get_list                    (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *paccessible);</pre>
+<p>
+<em class="parameter"><code>paccessible</code></em>: The parent accessible to the list
+</p>
+<p>
+User must call gok_spy_free when finished with this list.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>paccessible</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> pointer to the list or NULL
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_refresh ()">
+<a name="gok-spy-refresh"></a><h3>gok_spy_refresh ()</h3>
+<pre class="programlisting">AccessibleNode*     gok_spy_refresh                     (AccessibleNode *plist);</pre>
+<p>
+<em class="parameter"><code>plist</code></em>: Pointer to the list to refresh
+</p>
+<p>
+not implemented.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>plist</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> pointer to the refreshed list
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_free ()">
+<a name="gok-spy-free"></a><h3>gok_spy_free ()</h3>
+<pre class="programlisting">void                gok_spy_free                        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a> *nodes);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>nodes</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_spy_has_child ()">
+<a name="gok-spy-has-child"></a><h3>gok_spy_has_child ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_spy_has_child                   (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *accessible,
+                                                         GokSpySearchType type,
+                                                         <a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#AccessibleRole"
+>AccessibleRole</a> role);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>accessible</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>role</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

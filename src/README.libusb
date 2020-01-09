@@ -1,0 +1,31 @@
+Instructions For Using The Libusb Based Input System
+====================================================
+
+GOK now contains code to directly access USB input devices using libusb 
+instead of using the x-server's input system. 
+
+Use the '--enable-libusb-input' configure option to enable the libusb support
+when you are building GOK.
+
+To use the libusb support you have to give yourself permissions to access the
+device associated with the usbfs. On Fedora Core 6, run 'find /dev/bus/usb'
+before and after you plug in your device to determine the device path. Once 
+you know the device path you can give yourself appropriate permissions with
+chmod. Once this support matures a little, we should be able to automate 
+device permissions with the same method as libgphoto2.
+
+If these instructions don't work for your distro, this document should 
+sort you out:
+
+http://piklab.sourceforge.net/files/libusb_udev_hotplug.txt
+
+To run gok with the libusb support, use this command:
+
+gok --use-libusb-for-input=VID:PID --valuator-sensitivity=1.5
+
+where VID is the Vendor ID of your device and PID is the product ID of your
+device.
+
+If you have any questions, feel free to drop me a line.
+
+Ben Konrath <ben@bagu.org>

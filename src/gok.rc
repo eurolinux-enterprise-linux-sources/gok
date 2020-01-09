@@ -1,0 +1,178 @@
+style "gok"
+{
+	# Override to match hard-coded value in gok-button.c
+	GtkCheckButton::indicator-size = 13
+
+	# default highlight color
+	bg[PRELIGHT] = { 1.0, 0.7, 0.5 }
+
+	# disable gtk engines
+	engine "" { }
+}
+class "GokButton" style "gok"
+
+style "style_button_normal"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.0, 0.0, 1.0 }
+}
+widget "*StyleButtonNormal" style "style_button_normal"
+
+style "style_text_normal"
+{
+	fg[PRELIGHT] = { 0.2, 0.2, 0.2 }
+	fg[ACTIVE]   = { 0.0, 0.0, 0.0 }
+	fg[NORMAL]   = { 1.0, 1.0, 1.0 }
+}
+widget "*StyleTextNormal" style "style_text_normal"
+
+style "style_text_hyperlink"
+{
+	fg[PRELIGHT] = { 0.0, 0.0, 0.2 }
+	fg[ACTIVE]   = { 0.0, 0.0, 0.0 }
+	fg[NORMAL]   = { 0.2, 0.2, 1.0 }
+}
+widget "*StyleTextHyperlink" style "style_text_hyperlink"
+
+style "style_text_disabled"
+{
+	fg[PRELIGHT] = { 0.3, 0.3, 0.3 }
+	fg[ACTIVE]   = { 0.3, 0.3, 0.3 }
+	fg[NORMAL]   = { 0.3, 0.3, 0.3 }
+}
+widget "*StyleTextDisabled" style "style_text_disabled"
+
+style "style_button_disabled"
+{
+	GtkButton::child-displacement-x = 0
+	GtkButton::child-displacement-y = 0
+
+	bg[PRELIGHT] = { 0.2, 0.2, 0.2 }
+	bg[ACTIVE]   = { 0.2, 0.2, 0.2 }
+	bg[NORMAL]   = { 0.2, 0.2, 0.2 }
+}
+widget "*StyleButtonDisabled" style "style_button_disabled"
+
+style "style_button_branch"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.0, 0.6, 1.0 }
+}
+widget "*StyleButtonBranch" style "style_button_branch"
+
+style "style_button_branchback"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.0, 0.6, 1.0 }
+}
+widget "*StyleButtonBranchBack" style "style_button_branchback"
+
+style "style_button_generalDynamic"
+{
+	bg[PRELIGHT] = { 0.7, 1.0, 0.5 }
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.1, 0.2, 0.3 }
+}
+widget "*StyleButtonGeneralDynamic" style "style_button_generalDynamic"
+
+style "style_button_branchmenus"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.3, 0.1, 0.4 }
+}
+widget "*StyleButtonBranchMenus" style "style_button_branchmenus"
+
+style "style_button_branchmenuitems"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.4, 0.2, 0.5 }
+}
+widget "*StyleButtonBranchMenuItems" style "style_button_branchmenuitems"
+
+style "style_button_hyperlink"
+{
+	bg[ACTIVE]   = { 0.7, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.8, 0.8, 1.0 }
+}
+widget "*StyleButtonHyperlink" style "style_button_hyperlink"
+
+style "style_button_menuitem"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.5, 0.1, 0.6 }
+}
+widget "*StyleButtonMenuItem" style "style_button_menuitem"
+
+style "style_button_branchtoolbars"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.4, 0.1, 0.2 }
+}
+widget "*StyleButtonBranchToolbars" style "style_button_branchtoolbars"
+
+style "style_button_settings"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.8, 0.3, 0.1 }
+}
+widget "*StyleButtonSettings" style "style_button_settings"
+
+
+style "style_button_branchgui"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.2, 0.3, 0.1 }
+}
+widget "*StyleButtonBranchGUI" style "style_button_branchgui"
+
+style "style_button_branchguiactions"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.2, 0.4, 0.6 }
+}
+widget "*StyleButtonBranchGuiActions" style "style_button_branchguiactions"
+
+style "style_button_branchhtmlaction"
+{
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.2, 0.6, 0.7 }
+}
+widget "*StyleButtonHtmlAction" style "style_button_branchhtmlaction"
+
+style "style_button_branchpageselection"
+{
+	bg[PRELIGHT] = { 1.0, 0.9, 0.5 }
+	bg[ACTIVE]   = { 1.0, 1.0, 1.0 }
+	bg[NORMAL]   = { 0.2, 0.6, 0.55 }
+}
+widget "*StyleButtonBranchPageSelection" style "style_button_branchpageselection"
+
+style "style_button_select"
+{
+	bg[PRELIGHT] = { 0.85, 0.7, 0.5 }
+	bg[ACTIVE]   = { 0.7, 0.4, 0.5 }
+	bg[NORMAL]   = { 0.85, 0.7, 0.4 }
+}
+widget "*StyleButtonSelect" style "style_button_select"
+
+style "style_button_wordcomplete"
+{
+	bg[ACTIVE]   = { 0.7, 0.1, 0.8 }
+	bg[NORMAL]   = { 0.6, 0.6, 0.9 }
+}
+widget "*StyleButtonWordComplete" style "style_button_wordcomplete"
+
+style "style_button_help"
+{
+	bg[ACTIVE]   = { 0.9, 0.9, 0.9 }
+	bg[NORMAL]   = { 0.9, 0.9, 0.9 }
+}
+widget "*StyleButtonHelp" style "style_button_help"
+
+style "style_text_help"
+{
+	fg[PRELIGHT] = { 0.2, 0.2, 0.2 }
+	fg[ACTIVE]   = { 0.2, 0.2, 0.2 }
+	fg[NORMAL]   = { 0.2, 0.2, 0.2 }
+}
+widget "*StyleTextHelp" style "style_text_help"

@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-branchback-stack</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-action.html" title="gok-action">
+<link rel="next" href="gok-GokButton.html" title="GokButton">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-action.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-GokButton.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-branchback-stack.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-branchback-stack.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-branchback-stack">
+<a name="gok-gok-branchback-stack"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-branchback-stack.top_of_page"></a>gok-branchback-stack</span></h2>
+<p>gok-branchback-stack</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-branchback-stack.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-gok-branchback-stack.html#MAX-BRANCHBACKSTACK--CAPS" title="MAX_BRANCHBACKSTACK">MAX_BRANCHBACKSTACK</a>
+void                <a class="link" href="gok-gok-branchback-stack.html#gok-branchbackstack-initialize" title="gok_branchbackstack_initialize ()">gok_branchbackstack_initialize</a>      (void);
+void                <a class="link" href="gok-gok-branchback-stack.html#gok-branchbackstack-push" title="gok_branchbackstack_push ()">gok_branchbackstack_push</a>            (GokKeyboard *pKeyboard);
+GokKeyboard*        <a class="link" href="gok-gok-branchback-stack.html#gok-branchbackstack-pop" title="gok_branchbackstack_pop ()">gok_branchbackstack_pop</a>             (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-branchback-stack.html#gok-branchbackstack-is-empty" title="gok_branchbackstack_is_empty ()">gok_branchbackstack_is_empty</a>        (void);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-branchback-stack.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-branchback-stack.details"></a><h2>Details</h2>
+<div class="refsect2" title="MAX_BRANCHBACKSTACK">
+<a name="MAX-BRANCHBACKSTACK--CAPS"></a><h3>MAX_BRANCHBACKSTACK</h3>
+<pre class="programlisting">#define MAX_BRANCHBACKSTACK 50
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_branchbackstack_initialize ()">
+<a name="gok-branchbackstack-initialize"></a><h3>gok_branchbackstack_initialize ()</h3>
+<pre class="programlisting">void                gok_branchbackstack_initialize      (void);</pre>
+<p>
+This must be called prior to using the stack.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> void
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_branchbackstack_push ()">
+<a name="gok-branchbackstack-push"></a><h3>gok_branchbackstack_push ()</h3>
+<pre class="programlisting">void                gok_branchbackstack_push            (GokKeyboard *pKeyboard);</pre>
+<p>
+Stores a keyboard on the stack.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_branchbackstack_pop ()">
+<a name="gok-branchbackstack-pop"></a><h3>gok_branchbackstack_pop ()</h3>
+<pre class="programlisting">GokKeyboard*        gok_branchbackstack_pop             (void);</pre>
+<p>
+Remove the last keyboard in the stack and return it.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the keyboard popped off the stack, NULL if the stack is empty.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_branchbackstack_is_empty ()">
+<a name="gok-branchbackstack-is-empty"></a><h3>gok_branchbackstack_is_empty ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_branchbackstack_is_empty        (void);</pre>
+<p>
+Checks if the branch back stack is empty.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>  TRUE if the stack is empty (you can't branch back). FALSE if there is at least 
+one keyboard in the stack (you can branch back).
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

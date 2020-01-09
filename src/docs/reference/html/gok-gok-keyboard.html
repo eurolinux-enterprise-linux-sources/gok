@@ -1,0 +1,1663 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-keyboard</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-key.html" title="gok-key">
+<link rel="next" href="gok-gok-keyslotter.html" title="gok-keyslotter">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-key.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-keyslotter.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-keyboard.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-keyboard.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-keyboard">
+<a name="gok-gok-keyboard"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-keyboard.top_of_page"></a>gok-keyboard</span></h2>
+<p>gok-keyboard</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-keyboard.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+enum                <a class="link" href="gok-gok-keyboard.html#KeyboardLayouts" title="enum KeyboardLayouts">KeyboardLayouts</a>;
+enum                <a class="link" href="gok-gok-keyboard.html#KeyboardTypes" title="enum KeyboardTypes">KeyboardTypes</a>;
+GokKeyboard*        <a class="link" href="gok-gok-keyboard.html#gok-keyboard-new" title="gok_keyboard_new ()">gok_keyboard_new</a>                    (void);
+GokKeyboard*        <a class="link" href="gok-gok-keyboard.html#gok-keyboard-read" title="gok_keyboard_read ()">gok_keyboard_read</a>                   (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Filename);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-delete" title="gok_keyboard_delete ()">gok_keyboard_delete</a>                 (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bForce);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-delete-key" title="gok_keyboard_delete_key ()">gok_keyboard_delete_key</a>             (GokKey *pKey,
+                                                         GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-count-rows-columns" title="gok_keyboard_count_rows_columns ()">gok_keyboard_count_rows_columns</a>     (GokKeyboard *pKeyboard);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-number-rows" title="gok_keyboard_get_number_rows ()">gok_keyboard_get_number_rows</a>        (GokKeyboard *pKeyboard);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-number-columns" title="gok_keyboard_get_number_columns ()">gok_keyboard_get_number_columns</a>     (GokKeyboard *pKeyboard);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-add-keys" title="gok_keyboard_add_keys ()">gok_keyboard_add_keys</a>               (GokKeyboard *pKeyboard,
+                                                         xmlDoc *pDoc);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-name" title="gok_keyboard_get_name ()">gok_keyboard_get_name</a>               (GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-set-name" title="gok_keyboard_set_name ()">gok_keyboard_set_name</a>               (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-supports-wordcomplete" title="gok_keyboard_get_supports_wordcomplete ()">gok_keyboard_get_supports_wordcomplete</a>
+                                                        (GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-set-wordcomplete-keys-added" title="gok_keyboard_set_wordcomplete_keys_added ()">gok_keyboard_set_wordcomplete_keys_added</a>
+                                                        (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-wordcomplete-keys-added" title="gok_keyboard_get_wordcomplete_keys_added ()">gok_keyboard_get_wordcomplete_keys_added</a>
+                                                        (GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-set-commandpredict-keys-added" title="gok_keyboard_set_commandpredict_keys_added ()">gok_keyboard_set_commandpredict_keys_added</a>
+                                                        (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-commandpredict-keys-added" title="gok_keyboard_get_commandpredict_keys_added ()">gok_keyboard_get_commandpredict_keys_added</a>
+                                                        (GokKeyboard *pKeyboard);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-display" title="gok_keyboard_display ()">gok_keyboard_display</a>                (GokKeyboard *pKeyboard,
+                                                         GokKeyboard *pKeyboardCurrent,
+                                                         <a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWindowMain,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> CallbackScanner);
+xmlNode*            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-find-node" title="gok_keyboard_find_node ()">gok_keyboard_find_node</a>              (xmlNode *pNode,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameNode);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-position-keys" title="gok_keyboard_position_keys ()">gok_keyboard_position_keys</a>          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWindow);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-initialize" title="gok_keyboard_initialize ()">gok_keyboard_initialize</a>             (void);
+void                <a class="link" href="gok-gok-keyboard.html#gok-key-delete" title="gok_key_delete ()">gok_key_delete</a>                      (GokKey *pKey,
+                                                         GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bDeleteButton);
+GokKey*             <a class="link" href="gok-gok-keyboard.html#gok-key-new" title="gok_key_new ()">gok_key_new</a>                         (GokKey *pKeyPrevious,
+                                                         GokKey *pKeyNext,
+                                                         GokKeyboard *pKeyboard);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-layout" title="gok_keyboard_layout ()">gok_keyboard_layout</a>                 (GokKeyboard *pKeyboard,
+                                                         <a class="link" href="gok-gok-keyboard.html#KeyboardLayouts" title="enum KeyboardLayouts">KeyboardLayouts</a> layout,
+                                                         KeyboardShape shape,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> force);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-branch-gui" title="gok_keyboard_branch_gui ()">gok_keyboard_branch_gui</a>             (AccessibleNode *pNodeAccessible,
+                                                         GokSpySearchType type);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-branch-gui-actions" title="gok_keyboard_branch_gui_actions ()">gok_keyboard_branch_gui_actions</a>     (GokKeyboard *keyboard,
+                                                         AccessibleNode *pNodeAccessible,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> action_ndx);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-branch-edittext" title="gok_keyboard_branch_edittext ()">gok_keyboard_branch_edittext</a>        (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-chunker-chunk" title="gok_chunker_chunk ()">gok_chunker_chunk</a>                   (GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-chunker-initialize" title="gok_chunker_initialize ()">gok_chunker_initialize</a>              (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-chunker-chunk-rows-ttb" title="gok_chunker_chunk_rows_ttb ()">gok_chunker_chunk_rows_ttb</a>          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-chunker-chunk-rows-btt" title="gok_chunker_chunk_rows_btt ()">gok_chunker_chunk_rows_btt</a>          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-chunker-chunk-cols-ltr" title="gok_chunker_chunk_cols_ltr ()">gok_chunker_chunk_cols_ltr</a>          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-chunker-chunk-cols-rtl" title="gok_chunker_chunk_cols_rtl ()">gok_chunker_chunk_cols_rtl</a>          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-chunker-chunk-recursive" title="gok_chunker_chunk_recursive ()">gok_chunker_chunk_recursive</a>         (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Groups);
+GokKey*             <a class="link" href="gok-gok-keyboard.html#gok-chunker-find-center" title="gok_chunker_find_center ()">gok_chunker_find_center</a>             (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> centerRow,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> centerColumn,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pRowsDistant,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pColumnsDistant);
+GokKey*             <a class="link" href="gok-gok-keyboard.html#gok-keyboard-output-selectedkey" title="gok_keyboard_output_selectedkey ()">gok_keyboard_output_selectedkey</a>     (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-validate-dynamic-keys" title="gok_keyboard_validate_dynamic_keys ()">gok_keyboard_validate_dynamic_keys</a>  (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessibleForeground);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-fill-row" title="gok_keyboard_fill_row ()">gok_keyboard_fill_row</a>               (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> RowNumber);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-insert-array" title="gok_keyboard_insert_array ()">gok_keyboard_insert_array</a>           (GokKey *pKey);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-on-window-resize" title="gok_keyboard_on_window_resize ()">gok_keyboard_on_window_resize</a>       (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-keywidth-for-window" title="gok_keyboard_get_keywidth_for_window ()">gok_keyboard_get_keywidth_for_window</a>
+                                                        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> WidthWindow,
+                                                         GokKeyboard *pKeyboard);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-keyheight-for-window" title="gok_keyboard_get_keyheight_for_window ()">gok_keyboard_get_keyheight_for_window</a>
+                                                        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> HeightWindow,
+                                                         GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-set-ignore-resize" title="gok_keyboard_set_ignore_resize ()">gok_keyboard_set_ignore_resize</a>      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bFlag);
+<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a>*         <a class="link" href="gok-gok-keyboard.html#gok-keyboard-get-accessible" title="gok_keyboard_get_accessible ()">gok_keyboard_get_accessible</a>         (GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-set-accessible" title="gok_keyboard_set_accessible ()">gok_keyboard_set_accessible</a>         (GokKeyboard *pKeyboard,
+                                                         <a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessible);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-calculate-font-size" title="gok_keyboard_calculate_font_size ()">gok_keyboard_calculate_font_size</a>    (GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-calculate-font-size-group" title="gok_keyboard_calculate_font_size_group ()">gok_keyboard_calculate_font_size_group</a>
+                                                        (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> GroupNumber,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bOverride);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-keyboard.html#gok-keyboard-update-dynamic" title="gok_keyboard_update_dynamic ()">gok_keyboard_update_dynamic</a>         (GokKeyboard *pKeyboard);
+void                <a class="link" href="gok-gok-keyboard.html#gok-keyboard-update-labels" title="gok_keyboard_update_labels ()">gok_keyboard_update_labels</a>          (void);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-keyboard.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-keyboard.details"></a><h2>Details</h2>
+<div class="refsect2" title="enum KeyboardLayouts">
+<a name="KeyboardLayouts"></a><h3>enum KeyboardLayouts</h3>
+<pre class="programlisting">typedef enum {
+KEYBOARD_LAYOUT_NORMAL,
+KEYBOARD_LAYOUT_QWERTY,
+KEYBOARD_LAYOUT_CENTER,
+KEYBOARD_LAYOUT_UPPERL,
+KEYBOARD_LAYOUT_UNSPECIFIED
+} KeyboardLayouts;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum KeyboardTypes">
+<a name="KeyboardTypes"></a><h3>enum KeyboardTypes</h3>
+<pre class="programlisting">typedef enum {
+KEYBOARD_TYPE_PLAIN,
+KEYBOARD_TYPE_MAIN,
+KEYBOARD_TYPE_APPLICATIONS,
+KEYBOARD_TYPE_MENUS,
+KEYBOARD_TYPE_MENUITEMS,
+KEYBOARD_TYPE_ACTIONS,
+KEYBOARD_TYPE_ALLTOOLBARS,
+KEYBOARD_TYPE_TOOLBAR,
+KEYBOARD_TYPE_GUI,
+KEYBOARD_TYPE_EDITTEXT,
+KEYBOARD_TYPE_WINDOWS,
+KEYBOARD_TYPE_UNSPECIFIED,
+KEYBOARD_TYPE_MODAL
+} KeyboardTypes;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_new ()">
+<a name="gok-keyboard-new"></a><h3>gok_keyboard_new ()</h3>
+<pre class="programlisting">GokKeyboard*        gok_keyboard_new                    (void);</pre>
+<p>
+Allocates memory for a new keyboard and initializes the GokKeyboard structure.
+Call gok_keyboard_delete on this when done with it.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new keyboard, NULL if it can't be created.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_read ()">
+<a name="gok-keyboard-read"></a><h3>gok_keyboard_read ()</h3>
+<pre class="programlisting">GokKeyboard*        gok_keyboard_read                   (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Filename);</pre>
+<p>
+Reads in the given keyboard file. 
+Note: Call 'gok_keyboard_delete' on this keyboard when done with it.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Filename</code></em> :</span></p></td>
+<td> Name of the keyboard file.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new keyboard, NULL if not created.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_delete ()">
+<a name="gok-keyboard-delete"></a><h3>gok_keyboard_delete ()</h3>
+<pre class="programlisting">void                gok_keyboard_delete                 (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bForce);</pre>
+<p>
+Deletes the given keyboard. This must be called on every keyboard that has
+been created. Don't use the given keyboard after calling this.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that's getting deleted.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bForce</code></em> :</span></p></td>
+<td> TRUE if the keyboard should be deleted even if it is in the stack.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_delete_key ()">
+<a name="gok-keyboard-delete-key"></a><h3>gok_keyboard_delete_key ()</h3>
+<pre class="programlisting">void                gok_keyboard_delete_key             (GokKey *pKey,
+                                                         GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKey</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_count_rows_columns ()">
+<a name="gok-keyboard-count-rows-columns"></a><h3>gok_keyboard_count_rows_columns ()</h3>
+<pre class="programlisting">void                gok_keyboard_count_rows_columns     (GokKeyboard *pKeyboard);</pre>
+<p>
+Counts the number of rows and columns in the keyboard and updates members
+of the GokKeyboard structure.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that we want to get the rows and columns for.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_number_rows ()">
+<a name="gok-keyboard-get-number-rows"></a><h3>gok_keyboard_get_number_rows ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_keyboard_get_number_rows        (GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that you're concerned about.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The number of rows in the given keyboard.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_number_columns ()">
+<a name="gok-keyboard-get-number-columns"></a><h3>gok_keyboard_get_number_columns ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_keyboard_get_number_columns     (GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard you want to know about.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The number of columns in the given keyboard.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_add_keys ()">
+<a name="gok-keyboard-add-keys"></a><h3>gok_keyboard_add_keys ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_add_keys               (GokKeyboard *pKeyboard,
+                                                         xmlDoc *pDoc);</pre>
+<p>
+Adds the keys from the given DOM to this keyboard.
+The keys will all be deleted when gok_keyboard_delete is called.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will contain the keys.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pDoc</code></em> :</span></p></td>
+<td> Pointer to the XML document that describes the keys.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keys were added, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_name ()">
+<a name="gok-keyboard-get-name"></a><h3>gok_keyboard_get_name ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a>*              gok_keyboard_get_name               (GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard to get the name from.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> gchar* name of keyboard
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_set_name ()">
+<a name="gok-keyboard-set-name"></a><h3>gok_keyboard_set_name ()</h3>
+<pre class="programlisting">void                gok_keyboard_set_name               (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that's getting named.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Name</code></em> :</span></p></td>
+<td> Name for the keyboard.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_supports_wordcomplete ()">
+<a name="gok-keyboard-get-supports-wordcomplete"></a><h3>gok_keyboard_get_supports_wordcomplete ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_get_supports_wordcomplete
+                                                        (GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that we're testing.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the given keyboard supports word completion.
+Only alphabetic keyboards should support word completion.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_set_wordcomplete_keys_added ()">
+<a name="gok-keyboard-set-wordcomplete-keys-added"></a><h3>gok_keyboard_set_wordcomplete_keys_added ()</h3>
+<pre class="programlisting">void                gok_keyboard_set_wordcomplete_keys_added
+                                                        (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that is changed.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bTrueFalse</code></em> :</span></p></td>
+<td> TRUE if you want the predictor keys added, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_wordcomplete_keys_added ()">
+<a name="gok-keyboard-get-wordcomplete-keys-added"></a><h3>gok_keyboard_get_wordcomplete_keys_added ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_get_wordcomplete_keys_added
+                                                        (GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that we're testing.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the given keyboard has the word completion keys added, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_set_commandpredict_keys_added ()">
+<a name="gok-keyboard-set-commandpredict-keys-added"></a><h3>gok_keyboard_set_commandpredict_keys_added ()</h3>
+<pre class="programlisting">void                gok_keyboard_set_commandpredict_keys_added
+                                                        (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that is changed.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bTrueFalse</code></em> :</span></p></td>
+<td> TRUE if you want the prediction keys added, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_commandpredict_keys_added ()">
+<a name="gok-keyboard-get-commandpredict-keys-added"></a><h3>gok_keyboard_get_commandpredict_keys_added ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_get_commandpredict_keys_added
+                                                        (GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that we're testing.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the given keyboard has the word completion keys added, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_display ()">
+<a name="gok-keyboard-display"></a><h3>gok_keyboard_display ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_display                (GokKeyboard *pKeyboard,
+                                                         GokKeyboard *pKeyboardCurrent,
+                                                         <a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWindowMain,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> CallbackScanner);</pre>
+<p>
+Displays the given keyboard in the GOK window.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that gets displayed.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboardCurrent</code></em> :</span></p></td>
+<td> Pointer to the current keyboard.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pWindowMain</code></em> :</span></p></td>
+<td> Pointer to the main window that holds the keyboards.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>CallbackScanner</code></em> :</span></p></td>
+<td> If TRUE then the keyboard is used by the GOK. If FALSE
+then the keyboard is used by the editor.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was displayed, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_find_node ()">
+<a name="gok-keyboard-find-node"></a><h3>gok_keyboard_find_node ()</h3>
+<pre class="programlisting">xmlNode*            gok_keyboard_find_node              (xmlNode *pNode,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameNode);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pNode</code></em> :</span></p></td>
+<td> Pointer to the XML node that may contain the node you're looking for.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameNode</code></em> :</span></p></td>
+<td> Name of the node you're looking for.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the first node that has the given name, NULL if it can't be found.
+Note: This is recursive.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_position_keys ()">
+<a name="gok-keyboard-position-keys"></a><h3>gok_keyboard_position_keys ()</h3>
+<pre class="programlisting">void                gok_keyboard_position_keys          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *pWindow);</pre>
+<p>
+Positions the keys on the keyboard. The key cell coordinates are converted into
+window locations.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that contains the keys.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pWindow</code></em> :</span></p></td>
+<td> Pointer to the window that displays the keys.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_initialize ()">
+<a name="gok-keyboard-initialize"></a><h3>gok_keyboard_initialize ()</h3>
+<pre class="programlisting">void                gok_keyboard_initialize             (void);</pre>
+<p>
+Initializes global data for all keyboards.
+Call this once at the beginning of the program.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> void
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_key_delete ()">
+<a name="gok-key-delete"></a><h3>gok_key_delete ()</h3>
+<pre class="programlisting">void                gok_key_delete                      (GokKey *pKey,
+                                                         GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bDeleteButton);</pre>
+<p>
+Deletes the given key. This must be called on every key that has been created.
+Don't use the given key after calling this.
+This unhooks the key from the next/previous list of keys.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKey</code></em> :</span></p></td>
+<td> Pointer to the key that gets deleted.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that contains the key (can be NULL). If
+pKeyboard is not NULL then the key is unhooked from the keyboard.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bDeleteButton</code></em> :</span></p></td>
+<td> Flag that determines if the GTK button associated with
+the key should also be deleted. This should be set to TRUE if the key is
+deleted while the program is running. At the end of the program, when the
+GOK window is destroyed and the GTK buttons are destroyed, this should
+be set to FALSE.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_key_new ()">
+<a name="gok-key-new"></a><h3>gok_key_new ()</h3>
+<pre class="programlisting">GokKey*             gok_key_new                         (GokKey *pKeyPrevious,
+                                                         GokKey *pKeyNext,
+                                                         GokKeyboard *pKeyboard);</pre>
+<p>
+Allocates memory for a new key and initializes the GokKey structure.
+Returns a pointer to the new key, NULL if it can't be created.
+Call gok_key_delete on this when done with it.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyPrevious</code></em> :</span></p></td>
+<td> Pointer to the previous key in the list of keys.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyNext</code></em> :</span></p></td>
+<td> Pointer to the next key in the list
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new key, NULL if it wasn't created.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_layout ()">
+<a name="gok-keyboard-layout"></a><h3>gok_keyboard_layout ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_layout                 (GokKeyboard *pKeyboard,
+                                                         <a class="link" href="gok-gok-keyboard.html#KeyboardLayouts" title="enum KeyboardLayouts">KeyboardLayouts</a> layout,
+                                                         KeyboardShape shape,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> force);</pre>
+<p>
+Arranges the keys on the keyboard.
+Predefined keyboards are already laid out. Runtime keyboards require this.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that is getting laid out.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>layout</code></em> :</span></p></td>
+<td> Can be used to specify a layout for the keys
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>shape</code></em> :</span></p></td>
+<td> Can be used to specify a shape of the keyboard window
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>force</code></em> :</span></p></td>
+<td> If TRUE, perform a layout even if performed previously
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was laid out, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_branch_gui ()">
+<a name="gok-keyboard-branch-gui"></a><h3>gok_keyboard_branch_gui ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_branch_gui             (AccessibleNode *pNodeAccessible,
+                                                         GokSpySearchType type);</pre>
+<p>
+Displays the generic gui keyboard - currently used for widgets inside windowish things</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pNodeAccessible</code></em> :</span></p></td>
+<td> Pointer to the accessible node (parent object).
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td> Type of dynamic keyboard to branch to (the role of the children).
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was displayed, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_branch_gui_actions ()">
+<a name="gok-keyboard-branch-gui-actions"></a><h3>gok_keyboard_branch_gui_actions ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_branch_gui_actions     (GokKeyboard *keyboard,
+                                                         AccessibleNode *pNodeAccessible,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> action_ndx);</pre>
+<p>
+Widgets can have multiple actions - build a keyboard of them.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>keyboard</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pNodeAccessible</code></em> :</span></p></td>
+<td> the node which represents the gui widget
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>action_ndx</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was displayed, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_branch_edittext ()">
+<a name="gok-keyboard-branch-edittext"></a><h3>gok_keyboard_branch_edittext ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_branch_edittext        (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_chunk ()">
+<a name="gok-chunker-chunk"></a><h3>gok_chunker_chunk ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_chunker_chunk                   (GokKeyboard *pKeyboard);</pre>
+<p>
+Breaks the keyboard ginto chunks (rows, columns etc.). The list of chunks is stored
+on the keyboard</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be broken ginto chunks.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if keyboard could be broken into chunks, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_initialize ()">
+<a name="gok-chunker-initialize"></a><h3>gok_chunker_initialize ()</h3>
+<pre class="programlisting">void                gok_chunker_initialize              (void);</pre>
+<p>
+Initializes the chunker. This must be called before using the chunker.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_chunk_rows_ttb ()">
+<a name="gok-chunker-chunk-rows-ttb"></a><h3>gok_chunker_chunk_rows_ttb ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_chunker_chunk_rows_ttb          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);</pre>
+<p>
+Keys are placed in the row in which they appear - starting at the top row and working
+towards the bottom row. If a key spans more than one row it will be placed in the 
+topmost row it occupies.
+The given keyboard should not have any chunks (call gok_chunker_delete_chunks
+before calling this).</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be broken ginto chunks of rows.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ChunkOrder</code></em> :</span></p></td>
+<td> Defines the row order (left to right or right to left). See enum ChunkOrder.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was broken ginto rows, FALSE if not
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_chunk_rows_btt ()">
+<a name="gok-chunker-chunk-rows-btt"></a><h3>gok_chunker_chunk_rows_btt ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_chunker_chunk_rows_btt          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);</pre>
+<p>
+Keys are placed in the row in which they appear - starting at the bottom row and working
+towards the top row. If a key spans more than one row it will be placed in the 
+lowest row it occupies.
+The given keyboard should not have any chunks (call gok_chunker_delete_chunks
+before calling this).</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be broken ginto chunks of rows.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ChunkOrder</code></em> :</span></p></td>
+<td> Defines the row order (left to right or right to left). See enum ChunkOrder.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was broken ginto rows, FALSE if not
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_chunk_cols_ltr ()">
+<a name="gok-chunker-chunk-cols-ltr"></a><h3>gok_chunker_chunk_cols_ltr ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_chunker_chunk_cols_ltr          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);</pre>
+<p>
+Keys are placed in the column in which they appear - starting at the left column and working
+towards the right row. If a key spans more than one column it will be placed in the 
+leftmost columns it occupies.
+The given keyboard should not have any chunks (call gok_chunker_delete_chunks
+before calling this).</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be broken ginto chunks of rows.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ChunkOrder</code></em> :</span></p></td>
+<td> Defines the column order (top to bottom or bottom to top). See 
+enum ChunkOrder.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was broken ginto columns, FALSE if not
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_chunk_cols_rtl ()">
+<a name="gok-chunker-chunk-cols-rtl"></a><h3>gok_chunker_chunk_cols_rtl ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_chunker_chunk_cols_rtl          (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder);</pre>
+<p>
+Keys are placed in the column in which they appear - starting at the right row 
+and working towards the left column. If a key spans more than one row it will be 
+placed in the rightmost row it occupies.
+The given keyboard should not have any chunks (call gok_chunker_delete_chunks
+before calling this).</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be broken ginto chunks of columns.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ChunkOrder</code></em> :</span></p></td>
+<td> Defines the column order (top to bottom or bottom to top). See 
+enum ChunkOrder.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was broken ginto columns, FALSE if not
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_chunk_recursive ()">
+<a name="gok-chunker-chunk-recursive"></a><h3>gok_chunker_chunk_recursive ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_chunker_chunk_recursive         (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> ChunkOrder,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Groups);</pre>
+<p>
+Breaks the keyboard into recursive groups until a group consists of only one key.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be broken into chunks.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ChunkOrder</code></em> :</span></p></td>
+<td> Defines the column order (top to bottom or bottom to top). See 
+enum ChunkOrder.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Groups</code></em> :</span></p></td>
+<td> Number of groups the chunk should be broken into.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was broken ginto chunks, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_chunker_find_center ()">
+<a name="gok-chunker-find-center"></a><h3>gok_chunker_find_center ()</h3>
+<pre class="programlisting">GokKey*             gok_chunker_find_center             (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> centerRow,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> centerColumn,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pRowsDistant,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *pColumnsDistant);</pre>
+<p>
+Check pRowsDistant and pColumnsDistant to find out how close this key is to the 
+center. If both pRowsDistant and pColumnsDistant are 0 then the key returned is 
+directly at the center.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Keyboard that you want to find the center of.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>centerRow</code></em> :</span></p></td>
+<td> Center row of the keyboard.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>centerColumn</code></em> :</span></p></td>
+<td> Center column of the keyboard.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pRowsDistant</code></em> :</span></p></td>
+<td> (out) Key returned is this number of rows away from the center.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pColumnsDistant</code></em> :</span></p></td>
+<td> (out) Key returned is this number of columns away from the center.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> Pointer to the key that is closest to the center of the keyboard.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_output_selectedkey ()">
+<a name="gok-keyboard-output-selectedkey"></a><h3>gok_keyboard_output_selectedkey ()</h3>
+<pre class="programlisting">GokKey*             gok_keyboard_output_selectedkey     (void);</pre>
+<p>
+Performs the events associated with the currently selected key</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> Always 0.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_validate_dynamic_keys ()">
+<a name="gok-keyboard-validate-dynamic-keys"></a><h3>gok_keyboard_validate_dynamic_keys ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_validate_dynamic_keys  (<a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessibleForeground);</pre>
+<p>
+Enables or disables the keys that branch to the dynamic keyboards
+keyboards.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pAccessibleForeground</code></em> :</span></p></td>
+<td> Pointer to the foreground accessible pointer.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if any of the keys have changed their state (disable/active).
+Returns FALSE if none of the keys change state.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_fill_row ()">
+<a name="gok-keyboard-fill-row"></a><h3>gok_keyboard_fill_row ()</h3>
+<pre class="programlisting">void                gok_keyboard_fill_row               (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> RowNumber);</pre>
+<p>
+This function resizes the keys in the given row so they fill the entire row.
+This should be used only on keyboards that are synamically created (not predefined).</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that contains the row.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>RowNumber</code></em> :</span></p></td>
+<td> Number of the row you want filled.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_insert_array ()">
+<a name="gok-keyboard-insert-array"></a><h3>gok_keyboard_insert_array ()</h3>
+<pre class="programlisting">void                gok_keyboard_insert_array           (GokKey *pKey);</pre>
+<p>
+Adds the given key to our array in order of the rightmost key location.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pKey</code></em> :</span></p></td>
+<td> Pointer to the key you want added to the array.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_on_window_resize ()">
+<a name="gok-keyboard-on-window-resize"></a><h3>gok_keyboard_on_window_resize ()</h3>
+<pre class="programlisting">void                gok_keyboard_on_window_resize       (void);</pre>
+<p>
+This will be called when the window has been resized.
+Change the key size, update the gok_data and settings dialog with the
+new key size.
+If we resize the window (by branching) then the m_bIgnoreResizeEvent flag
+will be set so we ignore the resize. This flag is needed because we can't get
+a message from the system letting us know that it was the user that resized
+the window.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_keywidth_for_window ()">
+<a name="gok-keyboard-get-keywidth-for-window"></a><h3>gok_keyboard_get_keywidth_for_window ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_keyboard_get_keywidth_for_window
+                                                        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> WidthWindow,
+                                                         GokKeyboard *pKeyboard);</pre>
+<p>
+Calculates a key width for the current keyboard given the window width.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>WidthWindow</code></em> :</span></p></td>
+<td> Width of the target window.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be displayed.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The key width.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_keyheight_for_window ()">
+<a name="gok-keyboard-get-keyheight-for-window"></a><h3>gok_keyboard_get_keyheight_for_window ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_keyboard_get_keyheight_for_window
+                                                        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> HeightWindow,
+                                                         GokKeyboard *pKeyboard);</pre>
+<p>
+Calculates a key height for the current keyboard given the window height.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>HeightWindow</code></em> :</span></p></td>
+<td> Height of the target window.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that will be displayed.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The key height.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_set_ignore_resize ()">
+<a name="gok-keyboard-set-ignore-resize"></a><h3>gok_keyboard_set_ignore_resize ()</h3>
+<pre class="programlisting">void                gok_keyboard_set_ignore_resize      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bFlag);</pre>
+<p>
+Sets/clears a flag so that the next resize event will be ignored.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>bFlag</code></em> :</span></p></td>
+<td> State of the resize flag.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_get_accessible ()">
+<a name="gok-keyboard-get-accessible"></a><h3>gok_keyboard_get_accessible ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a>*         gok_keyboard_get_accessible         (GokKeyboard *pKeyboard);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that we're using
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> pointer to the accessible (probably shared by keys on this keyboard)
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_set_accessible ()">
+<a name="gok-keyboard-set-accessible"></a><h3>gok_keyboard_set_accessible ()</h3>
+<pre class="programlisting">void                gok_keyboard_set_accessible         (GokKeyboard *pKeyboard,
+                                                         <a
+href="/usr/share/gtk-doc/html/at-spi-cspi/at-spi-cspi-Accessible-Objects.html#Accessible"
+>Accessible</a> *pAccessible);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that is to be changed.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pAccessible</code></em> :</span></p></td>
+<td> Pointer to the new accessible interface.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_calculate_font_size ()">
+<a name="gok-keyboard-calculate-font-size"></a><h3>gok_keyboard_calculate_font_size ()</h3>
+<pre class="programlisting">void                gok_keyboard_calculate_font_size    (GokKeyboard *pKeyboard);</pre>
+<p>
+Sets the font size for each key on the given keyboard.
+Each key may be assigned to a a font size group (FSG). If the FSG is
+not specified then the key belongs to group FONT_SIZE_GROUP_UNDEFINED. 
+If the FSG is FONT_SIZE_GROUP_UNIQUE then the key does not belong to 
+any group and calculate a font size for that key.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that gets the new font size.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_calculate_font_size_group ()">
+<a name="gok-keyboard-calculate-font-size-group"></a><h3>gok_keyboard_calculate_font_size_group ()</h3>
+<pre class="programlisting">void                gok_keyboard_calculate_font_size_group
+                                                        (GokKeyboard *pKeyboard,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> GroupNumber,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bOverride);</pre>
+<p>
+Sets the font size for each key that belongs to the given group on the 
+given keyboard.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that gets the new font size.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>GroupNumber</code></em> :</span></p></td>
+<td> Number of the font size group.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bOverride</code></em> :</span></p></td>
+<td> If TRUE then the font size is set for the key even if it
+already has a font size set. If FALSE then the font size is not set for
+the key if it is already set.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_update_dynamic ()">
+<a name="gok-keyboard-update-dynamic"></a><h3>gok_keyboard_update_dynamic ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_keyboard_update_dynamic         (GokKeyboard *pKeyboard);</pre>
+<p>
+Creates all the keys for the given dynamic keyboard.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pKeyboard</code></em> :</span></p></td>
+<td> Pointer to the keyboard that gets updated.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard was updated, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_keyboard_update_labels ()">
+<a name="gok-keyboard-update-labels"></a><h3>gok_keyboard_update_labels ()</h3>
+<pre class="programlisting">void                gok_keyboard_update_labels          (void);</pre>
+<p>
+Redraws the labels on all the keys. This should be called whenever
+a modifier key changes state.</p>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

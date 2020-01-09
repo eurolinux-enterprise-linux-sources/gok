@@ -1,0 +1,2201 @@
+# Thai translation of gok.
+# Copyright (C) 2007-2009 Free Software Foundation, Inc.
+# This file is distributed under the same licence as the gok package.
+# Arthit Suriyawongkul <art@siit.net>, 2007
+# Theppitak Karoonboonyanan <thep@linux.thai.net>, 2007-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GOK VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-27 21:29+0700\n"
+"PO-Revision-Date: 2009-02-27 21:36+0700\n"
+"Last-Translator: Theppitak Karoonboonyanan <thep@linux.thai.net>\n"
+"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "การสแกนอัตโนมัติ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "ท้าย/หัว"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "จำนวนรอบก่อนหยุด:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:67
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "การโต้ตอบ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "ระยะหน่วงเริ่มแรก:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "ซ้าย/ขวา"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "ความเคลื่อนไหว:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "การดำเนินการ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "ตัวเลือก"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr "กดสวิตช์เพื่อเริ่มสแกน กดอีกปุ่มหนึ่งหรือปุ่มเดิมอีกครั้งเพื่อเลือก"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "ขวา/ซ้าย"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "หน่วงการสแกน:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "ความเร็วการสแกน:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "ทิศทางการสแกน:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "เริ่มสแกน"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "เริ่มสแกน:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "หัว/ท้าย"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "ปัดบรรทัด/สดมภ์"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "เลือกโดยตรง"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr "เลื่อนตัวชี้เมาส์มาเหนือปุ่ม ปุ่มจะสว่างขึ้น กดสวิตช์เพื่อเลือก"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "เลือก:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "เลือกแบบแช่"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "เลื่อนตัวชี้เมาส์มาเหนือปุ่ม ปุ่มจะสว่างขึ้น ค้างไว้สักพักเพื่อเลือก"
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "วิธีใช้"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "ปรับแต่ง"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "ออกจาก GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "หน้าต่าง"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2479
+#: ../gok/gok-windowlister.c:246 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "กลับ"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:340
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr "รายชื่อพาธเต็มของพจนานุกรมเพิ่มเติมสำหรับเติมเต็มคำอัตโนมัติ คั่นด้วยอัฒภาค (semicolon)"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "กำหนดชนิดแป้นพิมพ์ที่จะใช้เป็นแป้นพิมพ์ปริยายสำหรับเขียนข้อความ"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr "GOK สร้างแป้นพิมพ์สำหรับเขียนข้อความจากข้อมูลในเซิร์ฟเวอร์เอ็กซ์หรือไม่?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "ผู้ใช้ GOK แต่ละรายมีพจนานุกรมทำนายคำส่วนตัวหรือไม่?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "หน้าต่าง GOK ขยายจนเต็มความกว้างหน้าจอหรือไม่?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "ตัวชี้หลักของระบบเลื่อนตามตัวชี้ของแป้นพิมพ์ของ GOK หรือไม่"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "การโต้ตอบนี้กะพริบหรือไม่"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "การโต้ตอบนี้เล่นเสียงหรือไม่"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "การโต้ตอบนี้อ่านออกเสียงชื่อปุ่ม GOK หรือไม่"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "แช่"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr "ตำแหน่งสมอยึดของหน้าต่างหลัก GOK (ถ้าเป็น dock) หรือเป็นสตริงว่างถ้าไม่ใช่"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "จะค้นโหนดลูกในโตรงสร้างต้นไม้ GUI กี่โหนดเพื่อหาอ็อบเจกต์สิ่งอำนวยความสะดวก"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "จะค้นโตรงสร้างต้นไม้ GUI ลึกกี่ระดับเพื่อหาอ็อบเจกต์สิ่งอำนวยความสะดวก"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "การกระทำนี้อยู่ถาวรหรือไม่"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "การโต้ตอบนี้อยู่ถาวรหรือไม่"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "เปิดใช้การเติมเต็มคำหรือไม่"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "กะพริบปุ่ม"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "ปุ่มเมาส์ซ้าย"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "ปุ่มเมาส์กลาง"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "ปุ่มเมาส์ 4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "ปุ่มเมาส์ 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "ตัวชี้เมาส์"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "ไม่มี"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "ปุ่มเมาส์ขวา"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"ควรเป็นค่าใดค่าหนึ่งต่อไปนี้: \"xkb\", \"default\", \"alpha\", \"alpha-freq\", "
+"\"custom\"; ถ้าเป็น \"custom\" ก็ต้องกำหนด \"custom_compose_keyboard\" ด้วย"
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "เสียงหนึ่ง"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "เสียงสอง"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "เสียงพูด"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "สวิตช์ 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "สวิตช์ 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "สวิตช์ 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "สวิตช์ 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "สวิตช์ 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "วิธีการเข้าถึงที่จะใช้"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "ไดเรกทอรีที่จะใช้โหลดแฟ้มวิธีการเข้าถึง"
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "ไดเรกทอรีที่จะใช้โหลดแฟ้มพจนานุกรม"
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "ไดเรกทอรีที่จะใช้โหลดแฟ้มทรัพยากร gok"
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "ไดเรกทอรีที่จะใช้โหลดแฟ้มแป้นพิมพ์เฉพาะผู้ใช้ หรือแป้นพิมพ์กำหนดเอง"
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "ชื่อพาธเต็มของแฟ้มซึ่งกำหนดแป้นพิมพ์ที่กำหนดเองสำหรับเขียนข้อความ"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "ความสูงปุ่ม"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "ความกว้างปุ่ม"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "ตำแหน่งแนวนอน (แกน X) ของแป้นพิมพ์"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "ตำแหน่งแนวตั้ง (แกน Y) ของแป้นพิมพ์"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "ชื่อของเสียงที่การโต้ตอบนี้จะเล่น"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "ชื่อของอุปกรณ์ xinput ที่จะใช้"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "ชื่อที่จะแสดงต่อผู้ใช้ของการกระทำนี้"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "ชื่อที่จะแสดงต่อผู้ใช้ของการโต้ตอบนี้"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "จำนวนการทำนายของการเติมเต็มคำ"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "จำนวนครั้งที่การโต้ตอบนี้จะกะพริบ"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr "ไดเรกทอรีหลักที่จะโหลดแฟ้มแป้นพิมพ์ ค่าปริยายคือไดเรกทอรีระบบ"
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "ช่องว่างระหว่างปุ่ม"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "สถานะขณะเรียกการกระทำนี้"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "ชนิดของการกระทำนี้"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "กำหนดว่าจะใช้รายการคำเพิ่มเติมหรือไม่ เมื่อค้นหาคำที่จะใช้เติมเต็มคำใน GOK"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr "ท่องดูโปรแกรมต่างๆ และพิมพ์โดยใช้อุปกรณ์ป้อนข้อมูลอีกแบบหนึ่ง"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "แป้นพิมพ์บนจอ"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "3 สถานะ"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>รูปโฉม</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>พฤติกรรม</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>กิ่ง</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>การทำนายคำสั่ง</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>แป้นพิมพ์สำหรับเขียนข้อความ</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>แป้นพิมพ์กำหนดเอง</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>กำหนดการกระทำ</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>กำหนดการโต้ตอบ</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>การหน่วงเวลาก่อนทำงาน</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>คำบรรยาย</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>การ Dock และการขยายตามแนวนอน</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>แหล่งเหตุการณ์</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>แบบอักษร</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>การกะพริบปุ่ม</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>การควบคุมขนาดและช่องไฟปุ่ม</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>ปุ่ม</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>แป้นพิมพ์</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>ปุ่มเสริม</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>ผลลัพธ์</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>ตำแหน่ง</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>ดูตัวอย่าง</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>ความไว</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>เสียง</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>เสียงพูด</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>หมายเลขปุ่มหรือสวิตช์</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>ชุดตกแต่ง</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>การจับเวลาและการหน่วง</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>ชนิด</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr ""
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>การเติมเต็มคำ</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>หมายเหตุ:</b> การเปลี่ยนแปลงค่าตั้งนี้จะไม่มีผล จนกว่าคุณจะเรียก GOK "
+"ครั้งต่อไป</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "วิธีสั่งการ"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "รายชื่อการกระทำ"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "ชนิดของการกระทำ:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "ActionTypeNotebook"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "การกระทำ"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "ทำงานเมื่อแ_ช่"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "ทำงานเมื่อเ_ข้า"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "ทำงานเมื่อเคลื่อน_ย้าย"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "ทำงานเมื่อ_กด"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "ทำงานเมื่อ_ปล่อย"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "เพิ่ม"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "เพิ่มปุ่มใหม่"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "ไดเรกทอรีเพิ่มเติมที่จะค้นหาแป้นพิมพ์ GOK"
+
+#: ../gok.glade2.h:47
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "ไดเรกทอรีเพิ่มเติมที่จะค้นหาแฟ้มแป้นพิมพ์ GOK"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "แป้นพิมพ์อักษรและตัวเลขเรียงตามความถี่ตัวอักษร"
+
+#: ../gok.glade2.h:49
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "แป้นพิมพ์อักษรและตัวเลขเรียงตามลำดับอักษร"
+
+#: ../gok.glade2.h:50
+msgid "Appearance"
+msgstr "รูปโฉม"
+
+#: ../gok.glade2.h:51
+msgid "Bottom:"
+msgstr "ล่าง:"
+
+#: ../gok.glade2.h:52
+msgid "Browse"
+msgstr "เรียกดู"
+
+#: ../gok.glade2.h:53
+msgid "C_ore pointer"
+msgstr "ตัว_ชี้หลัก"
+
+#: ../gok.glade2.h:54
+msgid "Command Prediction"
+msgstr "การทำนายคำสั่ง"
+
+#: ../gok.glade2.h:55
+msgid "Delay"
+msgstr "หน่วง"
+
+#: ../gok.glade2.h:56
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr "การหน่วงเวลา ในหน่วย 1/100 วินาที หลังจากที่เกิดเหตุการณ์ที่สั่ง ก่อนที่จะทำงาน"
+
+#: ../gok.glade2.h:57
+msgid "Delete"
+msgstr "ลบ"
+
+#: ../gok.glade2.h:58
+msgid "Delete Key"
+msgstr "ลบปุ่ม"
+
+#: ../gok.glade2.h:59
+msgid "Dock"
+msgstr "Dock"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "Dock ด้านล่าง"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:61 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "Dock ด้านบน"
+
+#: ../gok.glade2.h:62
+msgid "Duplicate"
+msgstr "สร้างสำเนา"
+
+#: ../gok.glade2.h:63
+msgid "Enable _key flashing"
+msgstr "ใช้ปุ่ม_กะพริบ"
+
+#: ../gok.glade2.h:64
+msgid "Enable _sound"
+msgstr "ใช้เ_สียง"
+
+#: ../gok.glade2.h:65
+msgid "Enable _word completion"
+msgstr "เปิดใช้การเติมเต็ม_คำ"
+
+#: ../gok.glade2.h:66
+msgid "Enable co_mmand prediction"
+msgstr "เปิดใช้การทำนายคำ_สั่ง"
+
+#: ../gok.glade2.h:68
+msgid "Fill Width"
+msgstr "ขยายเต็มความกว้าง"
+
+#: ../gok.glade2.h:69
+msgid "Font Group:"
+msgstr "กลุ่มแบบอักษร:"
+
+#: ../gok.glade2.h:70 ../gok/gok-editor.c:35
+msgid "GOK Keyboard Editor"
+msgstr "เครื่องมือแก้ไขแป้นพิมพ์ GOK"
+
+#: ../gok.glade2.h:71
+msgid "GOK Preferences"
+msgstr "ปรับแต่ง GOK"
+
+#: ../gok.glade2.h:72
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:73
+msgid "Key Height"
+msgstr "ความสูงปุ่ม"
+
+#: ../gok.glade2.h:74
+msgid "Key Spacing"
+msgstr "ช่องว่างระหว่างปุ่ม"
+
+#: ../gok.glade2.h:75
+msgid "Key Width"
+msgstr "ความกว้างปุ่ม"
+
+#: ../gok.glade2.h:76
+msgid "Key _width:"
+msgstr "ความ_กว้างปุ่ม:"
+
+#: ../gok.glade2.h:77
+msgid "Key h_eight:"
+msgstr "ความสู_งปุ่ม:"
+
+#: ../gok.glade2.h:78
+msgid "Keyboards"
+msgstr "แป้นพิมพ์"
+
+#: ../gok.glade2.h:79
+msgid "Keycode:"
+msgstr "รหัสปุ่ม:"
+
+#: ../gok.glade2.h:80
+msgid "Keysym:"
+msgstr "Keysym:"
+
+#: ../gok.glade2.h:81
+msgid "Label:"
+msgstr "ป้าย:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:82 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "ซ้าย:"
+
+#: ../gok.glade2.h:83
+msgid "Match physical keyboard as reported by X Server"
+msgstr "เหมือนกับแป้นพิมพ์กายภาพที่ X ตรวจพบ"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Post"
+msgstr "ปุ่มเสริมทีหลัง"
+
+#: ../gok.glade2.h:85
+msgid "Modifier Pre"
+msgstr "ปุ่มเสริมก่อน"
+
+#: ../gok.glade2.h:86
+msgid "Modifier:"
+msgstr "ปุ่มเสริม:"
+
+#: ../gok.glade2.h:87
+msgid "Move Down"
+msgstr "ย้ายลง"
+
+#: ../gok.glade2.h:88
+msgid "Move Up"
+msgstr "ย้ายขึ้น"
+
+#: ../gok.glade2.h:89
+msgid "Name:"
+msgstr "ชื่อ:"
+
+#: ../gok.glade2.h:90
+msgid "New"
+msgstr "ใหม่"
+
+#: ../gok.glade2.h:91
+msgid "Next Key"
+msgstr "ปุ่มถัดไป"
+
+#: ../gok.glade2.h:92
+msgid "Normal"
+msgstr "ปกติ"
+
+#: ../gok.glade2.h:93
+msgid "Number of _flashes:"
+msgstr "จำนวน_ครั้งที่กะพริบ:"
+
+#: ../gok.glade2.h:94
+msgid "Number of _predictions:"
+msgstr "จำนวนการ_ทำนาย:"
+
+#: ../gok.glade2.h:95
+msgid "Number of command predictions:"
+msgstr "จำนวนการทำนายคำสั่ง"
+
+#: ../gok.glade2.h:96
+msgid "Number of word predictions:"
+msgstr "จำนวนการทำนายคำ"
+
+#: ../gok.glade2.h:97
+msgid "Other _input device:"
+msgstr "อุ_ปกรณ์รับข้อมูลอื่น:"
+
+#: ../gok.glade2.h:98
+msgid "Prediction"
+msgstr "การทำนาย"
+
+#: ../gok.glade2.h:99
+msgid "Press"
+msgstr "กด"
+
+#: ../gok.glade2.h:100
+msgid "Previous Key"
+msgstr "ปุ่มก่อนหน้า"
+
+#: ../gok.glade2.h:101
+msgid "Read keyboard from file:"
+msgstr "อ่านแป้นพิมพ์จากแฟ้ม:"
+
+#: ../gok.glade2.h:102
+msgid "Release"
+msgstr "ปล่อย"
+
+#. User interface for the access method
+#: ../gok.glade2.h:103 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "ขวา:"
+
+#: ../gok.glade2.h:104
+msgid "S_witch"
+msgstr "_สวิตช์"
+
+#: ../gok.glade2.h:105
+msgid "Show Only This Font Group"
+msgstr "แสดงเฉพาะแบบอักษรกลุ่มนี้"
+
+#: ../gok.glade2.h:106
+msgid "So_und:"
+msgstr "เสีย_ง:"
+
+#: ../gok.glade2.h:107
+msgid "Speak key _label"
+msgstr "อ่านออกแสียง_ป้ายปุ่ม"
+
+#: ../gok.glade2.h:108
+msgid "Style:"
+msgstr "สไตล์:"
+
+#: ../gok.glade2.h:109
+msgid "Switch _1"
+msgstr "สวิตช์ _1"
+
+#: ../gok.glade2.h:110
+msgid "Switch _2"
+msgstr "สวิตช์ _2"
+
+#: ../gok.glade2.h:111
+msgid "Switch _3"
+msgstr "สวิตช์ _3"
+
+#: ../gok.glade2.h:112
+msgid "Switch _4"
+msgstr "สวิตช์ _4"
+
+#: ../gok.glade2.h:113
+msgid "Switch _5"
+msgstr "สวิตช์ _5"
+
+#: ../gok.glade2.h:114
+msgid "Target:"
+msgstr "เป้าหมาย:"
+
+#: ../gok.glade2.h:115
+msgid "To Back"
+msgstr "ไปที่ด้านท้าย"
+
+#: ../gok.glade2.h:116
+msgid "To Front"
+msgstr "ไปที่ด้านหน้า"
+
+#: ../gok.glade2.h:117
+msgid "Toggle"
+msgstr "สลับ"
+
+#: ../gok.glade2.h:118
+msgid "Top:"
+msgstr "บน:"
+
+#: ../gok.glade2.h:119
+msgid "Use _extra word list file(s)"
+msgstr "ใช้แฟ้มรายการคำ_พิเศษ"
+
+#: ../gok.glade2.h:120
+msgid "Use _key averaging"
+msgstr ""
+
+#: ../gok.glade2.h:121
+msgid "Valuator Sensitivity"
+msgstr ""
+
+#: ../gok.glade2.h:122
+msgid "Word Completion"
+msgstr "การเติมเต็มคำ"
+
+#: ../gok.glade2.h:123
+msgid "_100ths of a second"
+msgstr "ส่วน_ร้อยวินาที"
+
+#: ../gok.glade2.h:124
+msgid "_Add"
+msgstr "เ_พิ่ม"
+
+#: ../gok.glade2.h:125
+msgid "_Browse..."
+msgstr "เ_รียกดู..."
+
+#: ../gok.glade2.h:126
+msgid "_Delete"
+msgstr "_ลบ"
+
+#: ../gok.glade2.h:127
+msgid "_Joystick"
+msgstr "_ก้านควบคุม"
+
+#: ../gok.glade2.h:128
+msgid "_Method:"
+msgstr "_วิธี:"
+
+#: ../gok.glade2.h:129
+msgid "_Name:"
+msgstr "_ชื่อ:"
+
+#: ../gok.glade2.h:130
+msgid "_New"
+msgstr "ใ_หม่"
+
+#: ../gok.glade2.h:131
+msgid "_Number of predictions:"
+msgstr "_จำนวนการทำนาย:"
+
+#: ../gok.glade2.h:132
+msgid "_Rename"
+msgstr "เ_ปลี่ยนชื่อ"
+
+#: ../gok.glade2.h:133
+msgid "_Single axis:"
+msgstr ""
+
+#: ../gok.glade2.h:134
+msgid "_Spacing:"
+msgstr "_ช่องไฟ:"
+
+#: ../gok.glade2.h:135
+msgid "_Use Desktop Theme Preferences"
+msgstr "ใ_ช้ชุดตกแต่งของเดสก์ท็อป"
+
+#: ../gok.glade2.h:136
+msgid "_Valuator"
+msgstr ""
+
+#: ../gok.glade2.h:137
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr ""
+
+#: ../gok.glade2.h:138
+msgid "access method name"
+msgstr "ชื่อวิธีสั่งการ"
+
+#: ../gok.glade2.h:139
+msgid "cancel"
+msgstr "ยกเลิก"
+
+#: ../gok.glade2.h:140
+msgid "display user help"
+msgstr "แสดงวิธีใช้"
+
+#: ../gok.glade2.h:141
+msgid "high"
+msgstr "สูง"
+
+#: ../gok.glade2.h:142
+msgid "low"
+msgstr "ต่ำ"
+
+#: ../gok.glade2.h:143
+msgid "pixels"
+msgstr "พิกเซล"
+
+#: ../gok.glade2.h:144
+msgid "revert to original settings"
+msgstr "คืนค่าเป็นค่าเริ่มต้น"
+
+#: ../gok.glade2.h:145
+msgid "try these settings"
+msgstr "ลองการตั้งค่าเหล่านี้"
+
+#: ../gok.glade2.h:146
+msgid "use these settings"
+msgstr "ใช้การตั้งค่าเหล่านี้"
+
+#: ../gok/callbacks.c:372
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "ขออภัย ยังไม่ได้ทำเครื่องมือช่วยตั้งวิธีสั่งการ"
+
+#: ../gok/callbacks.c:374
+msgid "GOK Access Method Wizard"
+msgstr "เครื่องมือช่วยตั้งวิธีสั่งการ"
+
+#: ../gok/gok-control.c:227
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "ขออภัย ยังท่องดูแฟ้มเสียงไม่ได้"
+
+#: ../gok/gok-control.c:229
+msgid "GOK Browse for sound file"
+msgstr "การท่องดูแฟ้มเสียงของ GOK"
+
+#: ../gok/gok-control.c:253
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "ขออภัย การปรับแต่งขั้นสูงยังไม่มี"
+
+#: ../gok/gok-control.c:255
+msgid "GOK Inverse Scanning Advanced"
+msgstr ""
+
+#: ../gok/gok-editor.c:154 ../gok/gok-editor.c:187 ../gok/gok-editor.c:267
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"คุณได้แก้ไขแฟ้มปัจจุบัน\n"
+"คุณต้องการจะละทิ้งการแก้ไขของคุณหรือไม่?"
+
+#: ../gok/gok-editor.c:156 ../gok/gok-editor.c:189 ../gok/gok-editor.c:269
+#: ../gok/gok-editor.c:1061
+msgid "Keyboard Filename Invalid"
+msgstr "ชื่อแฟ้มแป้นพิมพ์ใช้ไม่ได้"
+
+#: ../gok/gok-editor.c:218
+msgid "new"
+msgstr "ใหม่"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:279
+msgid "Select keyboard file for editing"
+msgstr "เลือกแฟ้มแป้นพิมพ์ที่จะแก้ไข"
+
+#: ../gok/gok-editor.c:289 ../gok/gok-editor.c:981
+msgid ".kbd files"
+msgstr "แฟ้ม .kbd"
+
+#: ../gok/gok-editor.c:544
+msgid "label"
+msgstr "ป้าย"
+
+#: ../gok/gok-editor.c:718
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "ไม่สามารถบันทึกแฟ้ม: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:971
+msgid "Save keyboard file as"
+msgstr "บันทึกแฟ้มแป้นพิมพ์เป็น"
+
+#: ../gok/gok-editor.c:1052
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"นี่ไม่ใช่ชื่อแฟ้มแป้นพิมพ์ที่ใช้ได้:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1084
+msgid "(new)"
+msgstr "(ใหม่)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"GOK ตรวจจับกิจกรรมได้จากอุปกรณ์ใหม่ ชื่อ '%s'  คุณต้องการใช้อุปกรณ์นี้แทนที่อุปกรณ์ '%s' หรือไม่?"
+
+#: ../gok/gok-key.c:117
+msgid "Mute"
+msgstr "ปิดเสียง"
+
+#: ../gok/gok-key.c:120
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"ปุ่ม\n"
+"เมาส์"
+
+#: ../gok/gok-key.c:123
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"แท็บ\n"
+"ซ้าย"
+
+#: ../gok/gok-key.c:230
+msgid "<nil>"
+msgstr "<nil>"
+
+#: ../gok/gok-key.c:234
+msgid "Divide"
+msgstr "หาร"
+
+#: ../gok/gok-key.c:237
+msgid "Multiply"
+msgstr "คูณ"
+
+#: ../gok/gok-key.c:240
+msgid "Subtract"
+msgstr "ลบ"
+
+#: ../gok/gok-key.c:243
+msgid "Addition"
+msgstr "บวก"
+
+#: ../gok/gok-key.c:246
+msgid "Prior"
+msgstr "ก่อนหน้า"
+
+#: ../gok/gok-key.c:249
+msgid "Next"
+msgstr "ถัดไป"
+
+#: ../gok/gok-key.c:252 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "เหย้า"
+
+#: ../gok/gok-key.c:255 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "จบ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:258 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "ขึ้น"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:261 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "ลง"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:264 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "ซ้าย"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:267 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "ขวา"
+
+#: ../gok/gok-key.c:270
+msgid "Begin"
+msgstr "เริ่ม"
+
+#: ../gok/gok-key.c:273
+msgid "Decimal"
+msgstr "ตัวเลข"
+
+#: ../gok/gok-key.c:276
+msgid "Meta"
+msgstr "เมตา"
+
+#: ../gok/gok-key.c:279
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"หลาย\n"
+"ปุ่ม"
+
+#: ../gok/gok-key.c:282
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+
+#: ../gok/gok-key.c:285
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+
+#: ../gok/gok-key.c:288
+msgid "Muhenkan"
+msgstr ""
+
+#: ../gok/gok-key.c:291
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+
+#: ../gok/gok-key.c:294
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"ฮิระงะนะ\n"
+"คะตะคะนะ"
+
+#: ../gok/gok-keyboard.c:154
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "ไม่สามารถตั้งต้นส่วนขยาย XKB (รหัสข้อผิดพลาด %x)"
+
+#: ../gok/gok-keyboard.c:160 ../gok/gok-keyboard.c:201
+msgid "keyboard description not available!"
+msgstr "ไม่มีข้อมูลบรรยายแป้นพิมพ์"
+
+#: ../gok/gok-keyboard.c:166 ../gok/gok-keyboard.c:207
+#: ../gok/gok-keyboard.c:504
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr ""
+
+#: ../gok/gok-keyboard.c:432
+msgid "Back"
+msgstr "กลับ"
+
+#: ../gok/gok-keyboard.c:449 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "ซ้ำปุ่มถัดไป"
+
+#: ../gok/gok-keyboard.c:461
+msgid "Edit"
+msgstr "แก้ไข"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:474
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"Num\n"
+"Pad"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:488 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "ซ่อน"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:678
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:691
+msgid "Level 2"
+msgstr ""
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:704
+msgid "Level 3"
+msgstr ""
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:717
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Back\n"
+"Space"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:728 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tab"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:739
+msgid "space"
+msgstr "แคร่เว้นวรรค"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:750 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Enter"
+
+#: ../gok/gok-keyboard.c:788 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "เมนู"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:844
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr ""
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:848
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr ""
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:860
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr ""
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:869
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr ""
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:916
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:917
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr ""
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:925
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr ""
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:931
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr ""
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1914
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2802
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2807 ../gok/gok-spy.c:1781
+msgid "Table"
+msgstr "ตาราง"
+
+#: ../gok/gok-keyboard.c:2812 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "แถบเครื่องมือ"
+
+#: ../gok/gok-keyboard.c:2816
+msgid "Applications"
+msgstr "โปรแกรม"
+
+#: ../gok/gok-keyboard.c:2826
+msgid "Menu"
+msgstr "เมนู"
+
+#. please!
+#: ../gok/gok-keyboard.c:3642 ../gok/main.c:1932 ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3646
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "แป้นพิมพ์เสมือนแบบพลวัตสำหรับเดสก์ท็อป GNOME"
+
+#: ../gok/gok-keyboard.c:3648
+msgid "translator-credits"
+msgstr ""
+"Arthit Suriyawongkul <art@siit.net>\n"
+"Theppitak Karoonboonyanan <thep@linux.thai.net>"
+
+#: ../gok/gok-keyboard.c:3650
+msgid "Full Credits"
+msgstr "เครดิตเต็ม"
+
+#: ../gok/gok-keyboard.c:3652
+msgid "About GOK"
+msgstr "เกี่ยวกับ GOK"
+
+#: ../gok/gok-libusb.c:161
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "ไม่สามารถตั้งต้นแบ็กเอนด์ libusb - %s"
+
+#: ../gok/gok-libusb.c:189
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: พบอุปกรณ์ที่มีค่า VID:PID เป็น %x:%x"
+
+#: ../gok/gok-libusb.c:200
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "ไม่พบอุปกรณ์ที่มีค่า VID:PID เป็น %x:%x"
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:212
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "มีการกำหนดสิทธิ์ที่ไม่ถูกต้องของ %s"
+
+#: ../gok/gok-libusb.c:300
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr ""
+
+#: ../gok/gok-scanner.c:1005
+msgid "error reading description"
+msgstr "เกิดข้อผิดพลาดขณะอ่านคำบรรยาย"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1698
+msgid "V Scrollbar"
+msgstr "แถบเลื่อนตั้ง"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1703
+msgid "H Scrollbar"
+msgstr "แถบเลื่อนนอน"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:373 ../gok/gok-page-actions.c:418
+#: ../gok/gok-page-actions.c:437
+msgid "GOK Action Name"
+msgstr "ชื่อการกระทำของ GOK"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:379
+msgid "Change the action name:"
+msgstr "เปลี่ยนชื่อการกระทำ:"
+
+#: ../gok/gok-page-actions.c:416
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"ชื่อการกระทำเป็นชื่อว่างไม่ได้\n"
+"กรุณาตั้งชื่อการกระทำใหม่"
+
+#: ../gok/gok-page-actions.c:435
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"ขออภัย มีการกระทำชื่อนี้อยู่ก่อนแล้ว\n"
+"กรุณาตั้งชื่อการกระทำใหม่"
+
+#: ../gok/gok-page-actions.c:489
+#, c-format
+msgid "New Action %d"
+msgstr "การกระทำใหม่ %d"
+
+#: ../gok/gok-page-actions.c:552
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "คุณต้องการลบการกระทำ (%s) นี้หรือไม่?"
+
+#: ../gok/gok-page-actions.c:560
+msgid "GOK Delete Action"
+msgstr "GOK ลบการกระทำ"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:411 ../gok/gok-page-feedbacks.c:456
+#: ../gok/gok-page-feedbacks.c:475
+msgid "GOK Feedback Name"
+msgstr "ชื่อการโต้ตอบของ GOK"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:417
+msgid "Change the feedback name:"
+msgstr "เปลี่ยนชื่อการโต้ตอบ:"
+
+#: ../gok/gok-page-feedbacks.c:454
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"ชื่อการโต้ตอบเป็นชื่อว่างไม่ได้\n"
+"กรุณาตั้งชื่อการโต้ตอบใหม่"
+
+#: ../gok/gok-page-feedbacks.c:473
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"ขออภัย มีการโต้ตอบชื่อนี้อยู่ก่อนแล้ว\n"
+"กรุณาตั้งชื่อการโต้ตอบใหม่"
+
+#: ../gok/gok-page-feedbacks.c:525
+#, c-format
+msgid "New Feedback %d"
+msgstr "การโต้ตอบใหม่ %d"
+
+#: ../gok/gok-page-feedbacks.c:641
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "คุณต้องการลบการโต้ตอบ (%s) นี้หรือไม่?"
+
+#: ../gok/gok-page-feedbacks.c:649
+msgid "GOK Delete Feedback"
+msgstr "GOK ลบการโต้ตอบ"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:872
+msgid "Select sound file"
+msgstr "เลือกแฟ้มเสียง"
+
+#: ../gok/gok-page-keyboard.c:180
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "ป้อนไดเรกทอรีที่จะค้นหาแฟ้มแป้นพิมพ์ GOK เพิ่มเติม"
+
+#: ../gok/gok-page-keyboard.c:194
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "เลือกแฟ้ม XML ที่กำหนดแป้นพิมพ์เริ่มต้นสำหรับเขียนข้อความของคุณ"
+
+#: ../gok/gok-page-keysizespace.c:83
+msgid "Button"
+msgstr "ปุ่ม"
+
+#: ../gok/gok-windowlister.c:214
+msgid "Window List"
+msgstr "รายชื่อหน้าต่าง"
+
+#: ../gok/gok-utf8-word-complete.c:120
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "ไม่สามารถอ่านเนื้อหาของแฟ้มพจนานุกรม '%s'\n"
+
+#: ../gok/main.c:200
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"ใช้วิธีเข้าถึงที่ระบุ อาร์กิวเมนต์ NAME เป็นสตริงที่สามารถดูได้จากแฟ้มวิธีเข้าถึง (.xam) ต่าง ๆ "
+"ซึ่งใช้กำหนดค่าให้กับคุณสมบัติ \"name\" ของแท็ก <gok:accessmethod> สังเกตว่า "
+"ชื่อวิธีไม่จำเป็นต้องเหมือนกับชื่อแฟ้ม .xam (ดู --list-accessmethods)"
+
+#: ../gok/main.c:201
+msgid "NAME"
+msgstr "NAME"
+
+#: ../gok/main.c:209
+msgid "Start the GOK keyboard editor"
+msgstr "เปิดเครื่องมือแก้ไขแป้นพิมพ์ GOK"
+
+#: ../gok/main.c:217
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "ใช้ความสามารถพิเศษที่อาจไม่เสถียรของ gok"
+
+#: ../gok/main.c:225
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"เมื่อใดที่ไม่ได้ใช้ตัวเลือก --geometry gok จะจำตำแหน่งหน้าต่างของการเรียกไว้ "
+"และเปิดที่ตำแหน่งเดียวกันในครั้งต่อไป แต่ถ้ามีการใช้ตัวเลือก --geometry gok "
+"จะเปิดในพื้นที่สี่เหลี่ยมที่ระบุในข้อมูลเรขาคณิต X11 ที่กำหนด และ gok จะไม่จำตำแหน่งนั้นเมื่อปิดตัวลง "
+"แต่ถ้าต้องการให้จำ ก็สามารถทำได้ โดยใช้ตัวเลือก --remembergeometry ซึ่งจะบังคับให้ gok "
+"จำตำแหน่ง แม้จะเปิดด้วยตัวเลือก --geometry ก็ตาม"
+
+#: ../gok/main.c:226
+msgid "GEOMETRY"
+msgstr "GEOMETRY"
+
+#: ../gok/main.c:234
+msgid "Use the specified input device"
+msgstr "ใช้อุปกรณ์รับข้อมูลที่กำหนด"
+
+#: ../gok/main.c:235
+msgid "DEVICENAME"
+msgstr "DEVICENAME"
+
+#: ../gok/main.c:243
+msgid "Start GOK with the specified keyboard."
+msgstr "เปิด GOK ด้วยแป้นพิมพ์ที่ระบุ"
+
+#: ../gok/main.c:244
+msgid "KEYBOARDNAME"
+msgstr "KEYBOARDNAME"
+
+#: ../gok/main.c:252
+msgid "List the access methods that can be used as options to other arguments."
+msgstr "แสดงรายชื่อวิธีการเข้าถึงที่สามารถใช้เป็นตัวเลือกสำหรับอาร์กิวเมนต์อื่น"
+
+#: ../gok/main.c:261
+msgid "List the actions that can be used as options to other arguments."
+msgstr "แสดงรายชื่อการกระทำที่สามารถใช้เป็นตัวเลือกสำหรับอาร์กิวเมนต์อื่น"
+
+#: ../gok/main.c:270
+msgid "GOK will be used to login"
+msgstr "จะใช้ GOK ในการเข้าระบบ"
+
+#: ../gok/main.c:280
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "GOK จะแสดงคีย์สำหรับ GUI ที่ไม่มีชื่อ มีประโยชน์สำหรับการดีบั๊ก"
+
+#: ../gok/main.c:290
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"สามารถใช้กับ --geometry ได้ โดยจะบังคับให้ GOK จำตำแหน่งหน้าต่างก่อนปิดแม้จะใช้ --"
+"geometry ในการเปิด กรุณาอ่านรายละเอียดเพิ่มเติมได้ที่ตัวเลือก --geometry"
+
+#: ../gok/main.c:301
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr "เปิด GOK และดักการเปิดให้ไปสำรวจข้อมูล (ดู --list-actions)"
+
+#: ../gok/main.c:311
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr "เปิด GOK และดักการเปิดให้ไปเลือก (ดู --list-actions)"
+
+#: ../gok/main.c:320
+msgid "Open the settings dialog box when GOK starts"
+msgstr "เปิดกล่องโต้ตอบตั้งค่าเมื่อ GOK เริ่มทำงาน"
+
+#: ../gok/main.c:330
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"ใช้ libusb ในการรับเหตุการณ์ข้อมูลเข้า และใช้อุปกรณ์ที่มี ID ผู้จำหน่าย (VID) และ ID ผลิตภัณฑ์ "
+"(PID) ของ USB ตามที่กำหนด"
+
+#: ../gok/main.c:349
+msgid "Attempt to use GOK without the system mouse"
+msgstr "พยายามใช้ GOK โดยไม่ใช้เมาส์ของระบบ"
+
+#: ../gok/main.c:358
+msgid "Disable automatic keyboard branching"
+msgstr ""
+
+#: ../gok/main.c:659
+msgid "The GNOME On-screen Keyboard"
+msgstr "แป้นพิมพ์บนจอของ GNOME"
+
+#: ../gok/main.c:755
+#, c-format
+msgid "gok: Unsupported geometry specification\n"
+msgstr "gok: ไม่รองรับข้อกำหนดเรขาคณิตนี้\n"
+
+#: ../gok/main.c:756
+#, c-format
+msgid ""
+"gok: Currently GOK requires that the x, y, width and height all be given\n"
+msgstr "gok: ณ ตอนนี้ ต้องให้ข้อมูลทั้ง x, y, ความกว้าง และความสูงทั้งหมดกับ GOK\n"
+
+#: ../gok/main.c:852
+msgid "XKB extension is required."
+msgstr "จำเป็นต้องใช้ส่วนขยาย XKB"
+
+#: ../gok/main.c:862
+msgid "Can't initialize actions."
+msgstr "ไม่สามารถตั้งค่าเริ่มต้นการกระทำ"
+
+#: ../gok/main.c:872
+msgid "Can't initialize feedbacks."
+msgstr "ไม่สามารถตั้งค่าเริ่มต้นการโต้ตอบ"
+
+#: ../gok/main.c:917 ../gok/main.c:926
+msgid "can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr "ไม่สามารถตั้งค่าเริ่มต้นแบ็กเอนด์ libusb - ไม่สามารถแจงค่า VID:PID ของ USB"
+
+#: ../gok/main.c:942
+msgid "Can't create the main GOK window!"
+msgstr "ไม่สามารถสร้างหน้าต่างหลัก GOK!"
+
+#: ../gok/main.c:961
+msgid "Can't create the settings dialog window!"
+msgstr "ไม่สามารถสร้างหน้าต่างกล่องโต้ตอบตั้งค่า!"
+
+#: ../gok/main.c:1024
+msgid "No keyboards to display!"
+msgstr "ไม่มีแป้นพิมพ์ที่จะแสดง!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1161 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "จับ UI"
+
+#: ../gok/main.c:1178
+msgid "popup menu"
+msgstr "เมนูผุดขึ้น"
+
+#: ../gok/main.c:2117
+msgid "Can't create a compose keyboard!"
+msgstr "ไม่สามารถสร้างแป้นพิมพ์สำหรับเขียนข้อความ!"
+
+#: ../gok/main.c:2159
+msgid "Can't read any keyboards!"
+msgstr "ไม่สามารถอ่านข้อมูลแป้นพิมพ์ใดได้!"
+
+#: ../gok/main.c:2275
+msgid "could not access method directory key from GConf!"
+msgstr "ไม่สามารถอ่านค่าคีย์ไดเรกทอรีวิธีการเข้าถึงจาก GConf ได้!"
+
+#: ../gok/main.c:2283
+msgid "possibly unknown access method!"
+msgstr "อาจเป็นวิธีเข้าถึงที่ไม่รู้จัก!"
+
+#: ../gok/main.c:2837
+#, c-format
+msgid ""
+"Sorry, GOK can't run because:\n"
+"%s"
+msgstr ""
+"ขออภัย GOK ไม่สามารถทำงานได้เพราะ:\n"
+"%s"
+
+#: ../gok/main.c:2845
+msgid "GOK Fatal Error"
+msgstr "ข้อผิดพลาดร้ายแรงของ GOK"
+
+#: ../gok/main.c:2858
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run.  GOK is currently unable to retrieve those settings.  If "
+"this is the first time that you have run gok after installing it you may "
+"need to restart gconfd, you can use this command: 'gconftool-2 --shutdown' "
+"or log out and back in."
+msgstr ""
+"GOK ใช้ GConf 2 ในการเก็บค่าตั้ง โดยจำเป็นต้องมีค่าตั้งบางอย่างอยู่ใน GConf จึงจะทำงานได้ "
+"ขณะนี้ GConf ไม่สามารถดึงค่าตั้งดังกล่าวได้ ถ้านี่ครั้งแรกที่คุณเรียก gok หลังจากติดตั้ง "
+"คุณอาจจะต้องเริ่ม gconfd ใหม่ โดยคุณสามารถใช้คำสั่งนี้ได้: 'gconftool-2 --shutdown' "
+"หรือเพียงแต่ออกจากระบบแล้วเข้าใหม่ก็ได้"
+
+#: ../gok/main.c:2875
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given.  Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"ณ ตอนนี้ ต้องให้ข้อมูลทั้ง x, y, ความกว้าง และความสูงทั้งหมดกับ GOK  ขออภัย "
+"จะไม่ใช้ข้อกำหนดเรขาคณิตของคุณ"
+
+#: ../gok/main.c:2877
+msgid "gok: Unsupported geometry specification"
+msgstr "gok: ไม่รองรับข้อกำหนดเรขาคณิตนี้"
+
+#: ../gok/main.c:3118
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"GOK อาจทำงานไม่ปกติ เพราะไม่สามารถเปิดใช้ความสามารถ 'การค้างปุ่มกด' ของเดสก์ท็อปของคุณได้"
+
+#: ../gok/main.c:3125
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK เปิดใช้ 'การค้างปุ่มกด' แล้ว ซึ่งจำเป็นต้องใช้\n"
+
+#: ../gok/main.c:3147
+msgid "GOK cannot run because XKB display extension is missing.\n"
+msgstr "GOK ไม่สามารถทำงานได้ เพราะขาดส่วนขยาย XKB ของดิสเพลย์\n"
+
+#: ../gok/main.c:3220
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"อุปกรณ์ที่คุณใช้สั่งงาน GOK อยู่นี้ กำลังควบคุมตัวชี้ (หรือตัวชี้เมาส์) ของระบบอยู่ด้วย "
+"การแย่งกันใช้เมาส์กับโปรแกรมต่างๆ อาจรบกวนการใช้โปรแกรมเหล่านั้นหรือ GOK ของคุณ\n"
+"\n"
+"เราขอแนะนำให้คุณตั้งค่าอุปกรณ์รับข้อมูลของคุณให้เป็นอุปกรณ์ 'Extended' แทน "
+"ดูข้อมูลเพิ่มเติมได้จากคู่มือวิธีใช้ GOK"
+
+#: ../gok/main.c:3226
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"อุปกรณ์ที่คุณใช้สั่งงาน GOK อยู่นี้ กำลังควบคุมตัวชี้ของระบบอยู่ด้วย\n"
+"\n"
+"เพื่อไม่ให้เกิดการแย่งใช้เมาส์กับโปรแกรมต่างๆ GOK "
+"จะตัดการเชื่อมต่ออุปกรณ์ที่คุณกำลังใช้ออกจากตัวชี้ของระบบในระหว่างที่คุณใช้ GOK\n"
+"\n"
+"อีกทางเลือกหนึ่งคือ คุณอาจตั้งค่า GOK ให้ใช้อุปกรณ์รับข้อมูลอื่นแทน ดูรายละเอียดได้จากคู่มือวิธีใช้"
+
+#. no longer used!
+#: ../gok/main.c:3233 ../gok/main.c:3236
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "ดูเหมือนคุณกำลังตั้งค่า GOK ให้ใช้โหมด 'ตัวชี้หลัก'"
+
+#: ../gok/main.c:3330
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"ไม่ได้เปิดใช้เทคโนโลยีสิ่งอำนวยความสะดวก\n"
+"\n"
+"คุณสามารถเรียก GOK โดยไม่เปิดการรองรับเทคโนโลยีสิ่งอำนวยความสะดวกได้เหมือนกัน "
+"แต่ความสามารถบางอย่างของโปรแกรมจะขาดหายไป\n"
+"\n"
+"หากต้องการเปิดใช้การรองรับเทคโนโลยีสิ่งอำนวยความสะดวก "
+"แล้วเข้าระบบใหม่โดยให้การเปลี่ยนแปลงมีผล ก็คลิกที่ \"เปิดใช้แล้วออกจากระบบ\"\n"
+"\n"
+"หากต้องการใช้ GOK ต่อไป คลิก \"ต่อไป\"\n"
+"\n"
+"หากต้องการออกจาก GOK คลิก \"ปิด\"\n"
+"\n"
+
+#: ../gok/main.c:3349
+msgid "Enable and Log Out"
+msgstr "เปิดใช้แล้วออกจากระบบ"
+
+#: ../gok/main.c:3361
+msgid "Continue"
+msgstr "ต่อไป"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(ส่วนร้อยวินาที)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "การสแกนย้อนกลับ"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "กดสวิตช์แช่เพื่อเริ่มสแกน กดอีกปุ่มหนึ่งเพื่อเลือก"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "สแกน:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "การสแกนอัตโนมัติด้วยปุ่มเดียว"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "เริ่มสแกน:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap Row/Columns"
+msgstr "ปัดบรรทัด/สดมภ์"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr ""
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr ""
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "ลง:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr ""
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "ขึ้น:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "แสดง"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "โปรแกรมอ่านวิธีใช้"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "เทอร์มินัล"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "เครื่องมือแก้ไขข้อความ"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "เว็บเบราว์เซอร์"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "เขียนข้อความ"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "เรียกโปรแกรม"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "เมาส์"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "ปุ่ม 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "ปุ่ม 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "ปุ่ม 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "ดับเบิลคลิก"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "กดแช่"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "ตัวชี้"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "ซ้ำ"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "เต็ม"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr ""
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "แคบลง"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "ซ้ำปุ่มถัดไป"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "เตี้ยลง"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "สูงขึ้น"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "กว้างขึ้น"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "ออกจากโปรแกรมจริงๆ!"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "AccessMethodName"
+#~ msgstr "ชื่อวิธีสั่งการ"

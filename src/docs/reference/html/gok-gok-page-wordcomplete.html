@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-page-wordcomplete</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch03.html" title="Preferences GUI">
+<link rel="prev" href="gok-gok-page-keysizespace.html" title="gok-page-keysizespace">
+<link rel="next" href="ch04.html" title="Command Prediction">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-page-keysizespace.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch03.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="ch04.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-page-wordcomplete.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-page-wordcomplete.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-page-wordcomplete">
+<a name="gok-gok-page-wordcomplete"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-page-wordcomplete.top_of_page"></a>gok-page-wordcomplete</span></h2>
+<p>gok-page-wordcomplete</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-page-wordcomplete.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-page-wordcomplete.html#gok-page-wordcomplete-initialize" title="gok_page_wordcomplete_initialize ()">gok_page_wordcomplete_initialize</a>    (<a
+href="/usr/share/gtk-doc/html/libglade/GladeXML.html"
+>GladeXML</a> *xml);
+void                <a class="link" href="gok-gok-page-wordcomplete.html#gok-page-wordcomplete-refresh" title="gok_page_wordcomplete_refresh ()">gok_page_wordcomplete_refresh</a>       (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-page-wordcomplete.html#gok-page-wordcomplete-apply" title="gok_page_wordcomplete_apply ()">gok_page_wordcomplete_apply</a>         (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-page-wordcomplete.html#gok-page-wordcomplete-revert" title="gok_page_wordcomplete_revert ()">gok_page_wordcomplete_revert</a>        (void);
+void                <a class="link" href="gok-gok-page-wordcomplete.html#gok-page-wordcomplete-backup" title="gok_page_wordcomplete_backup ()">gok_page_wordcomplete_backup</a>        (void);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-page-wordcomplete.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-page-wordcomplete.details"></a><h2>Details</h2>
+<div class="refsect2" title="gok_page_wordcomplete_initialize ()">
+<a name="gok-page-wordcomplete-initialize"></a><h3>gok_page_wordcomplete_initialize ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_page_wordcomplete_initialize    (<a
+href="/usr/share/gtk-doc/html/libglade/GladeXML.html"
+>GladeXML</a> *xml);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>xml</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_page_wordcomplete_refresh ()">
+<a name="gok-page-wordcomplete-refresh"></a><h3>gok_page_wordcomplete_refresh ()</h3>
+<pre class="programlisting">void                gok_page_wordcomplete_refresh       (void);</pre>
+<p>
+Refreshes the controls on this page from the gok data.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_page_wordcomplete_apply ()">
+<a name="gok-page-wordcomplete-apply"></a><h3>gok_page_wordcomplete_apply ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_page_wordcomplete_apply         (void);</pre>
+<p>
+Updates the gok data with values from the controls.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if any of the gok data settings have changed, FALSE if not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_page_wordcomplete_revert ()">
+<a name="gok-page-wordcomplete-revert"></a><h3>gok_page_wordcomplete_revert ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_page_wordcomplete_revert        (void);</pre>
+<p>
+Revert to the backup settings for this page.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if any of the settings have changed, FALSE 
+if they are all still the same.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_page_wordcomplete_backup ()">
+<a name="gok-page-wordcomplete-backup"></a><h3>gok_page_wordcomplete_backup ()</h3>
+<pre class="programlisting">void                gok_page_wordcomplete_backup        (void);</pre>
+<p>
+Copies all the member settings to backup.</p>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

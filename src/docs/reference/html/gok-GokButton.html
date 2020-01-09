@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GokButton</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-branchback-stack.html" title="gok-branchback-stack">
+<link rel="next" href="gok-gok-chunker.html" title="gok-chunker">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-branchback-stack.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-chunker.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-GokButton.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-GokButton.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="GokButton">
+<a name="gok-GokButton"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-GokButton.top_of_page"></a>GokButton</span></h2>
+<p>GokButton</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-GokButton.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-GokButton.html#GOK-TYPE-BUTTON--CAPS" title="GOK_TYPE_BUTTON">GOK_TYPE_BUTTON</a>
+#define             <a class="link" href="gok-GokButton.html#GOK-BUTTON-CLASS--CAPS" title="GOK_BUTTON_CLASS()">GOK_BUTTON_CLASS</a>                    (k)
+<a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               <a class="link" href="gok-GokButton.html#gok-button-get-type" title="gok_button_get_type ()">gok_button_get_type</a>                 (void);
+<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="gok-GokButton.html#gok-button-new-with-label" title="gok_button_new_with_label ()">gok_button_new_with_label</a>           (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pText,
+                                                         GokImagePlacementPolicy align);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-GokButton.html#gok-button-enter-notify" title="gok_button_enter_notify ()">gok_button_enter_notify</a>             (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *widget,
+                                                         <a
+href="http://library.gnome.org/devel/gdk/unstable/gdk-Event-Structures.html#GdkEventCrossing"
+>GdkEventCrossing</a> *event);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-GokButton.html#gok-button-leave-notify" title="gok_button_leave_notify ()">gok_button_leave_notify</a>             (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *widget,
+                                                         <a
+href="http://library.gnome.org/devel/gdk/unstable/gdk-Event-Structures.html#GdkEventCrossing"
+>GdkEventCrossing</a> *event);
+void                <a class="link" href="gok-GokButton.html#gok-button-state-changed" title="gok_button_state_changed ()">gok_button_state_changed</a>            (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *widget,
+                                                         <a
+href="http://library.gnome.org/devel/gtk/unstable/gtk-Standard-Enumerations.html#GtkStateType"
+>GtkStateType</a> state,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-GokButton.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-GokButton.details"></a><h2>Details</h2>
+<div class="refsect2" title="GOK_TYPE_BUTTON">
+<a name="GOK-TYPE-BUTTON--CAPS"></a><h3>GOK_TYPE_BUTTON</h3>
+<pre class="programlisting">#define GOK_TYPE_BUTTON        (gok_button_get_type ())
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_BUTTON_CLASS()">
+<a name="GOK-BUTTON-CLASS--CAPS"></a><h3>GOK_BUTTON_CLASS()</h3>
+<pre class="programlisting">#define GOK_BUTTON_CLASS(k)    (G_TYPE_CHECK_CLASS_CAST (k, GOK_TYPE_BUTTON, GokButtonClass)
+</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>k</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_button_get_type ()">
+<a name="gok-button-get-type"></a><h3>gok_button_get_type ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gobject/unstable/gobject-Type-Information.html#GType"
+>GType</a>               gok_button_get_type                 (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_button_new_with_label ()">
+<a name="gok-button-new-with-label"></a><h3>gok_button_new_with_label ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          gok_button_new_with_label           (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pText,
+                                                         GokImagePlacementPolicy align);</pre>
+<p>
+Creates a new GOK button with a label.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pText</code></em> :</span></p></td>
+<td> Text string for the button's label.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>align</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new button, NULL if it could not be created.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_button_enter_notify ()">
+<a name="gok-button-enter-notify"></a><h3>gok_button_enter_notify ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_button_enter_notify             (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *widget,
+                                                         <a
+href="http://library.gnome.org/devel/gdk/unstable/gdk-Event-Structures.html#GdkEventCrossing"
+>GdkEventCrossing</a> *event);</pre>
+<p>
+This handler is called whenever a widget on the keyboard is entered.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>widget</code></em> :</span></p></td>
+<td> Pointer to the widget that has just been entered.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>event</code></em> :</span></p></td>
+<td> Not sure?
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the given widget is associated with a GOK key, FALSE if
+the given button is not associated with a GOK key.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_button_leave_notify ()">
+<a name="gok-button-leave-notify"></a><h3>gok_button_leave_notify ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_button_leave_notify             (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *widget,
+                                                         <a
+href="http://library.gnome.org/devel/gdk/unstable/gdk-Event-Structures.html#GdkEventCrossing"
+>GdkEventCrossing</a> *event);</pre>
+<p>
+This handler is called whenever a widget on the keyboard has been left.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>widget</code></em> :</span></p></td>
+<td> Pointer to the widget that has just been left.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>event</code></em> :</span></p></td>
+<td> Not sure?
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the given widget is associated with a GOK key, FALSE if
+the given button is not associated with a GOK key.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_button_state_changed ()">
+<a name="gok-button-state-changed"></a><h3>gok_button_state_changed ()</h3>
+<pre class="programlisting">void                gok_button_state_changed            (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a> *widget,
+                                                         <a
+href="http://library.gnome.org/devel/gtk/unstable/gtk-Standard-Enumerations.html#GtkStateType"
+>GtkStateType</a> state,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+This is called each time the button state is changed. We handle this call
+and make sure the button is set to the state we want.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>widget</code></em> :</span></p></td>
+<td> The button that has just changed state.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>state</code></em> :</span></p></td>
+<td> State requested (not necessarily the state we set it).
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> Any user data associated with the widget (ignored by us).
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

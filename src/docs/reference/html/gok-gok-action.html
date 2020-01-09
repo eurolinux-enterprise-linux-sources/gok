@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-action</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-callbacks.html" title="callbacks">
+<link rel="next" href="gok-gok-branchback-stack.html" title="gok-branchback-stack">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-callbacks.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-branchback-stack.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-action.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-action.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-action">
+<a name="gok-gok-action"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-action.top_of_page"></a>gok-action</span></h2>
+<p>gok-action</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-action.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-gok-action.html#ACTION-TYPE-SWITCH--CAPS" title="ACTION_TYPE_SWITCH">ACTION_TYPE_SWITCH</a>
+#define             <a class="link" href="gok-gok-action.html#ACTION-TYPE-MOUSEBUTTON--CAPS" title="ACTION_TYPE_MOUSEBUTTON">ACTION_TYPE_MOUSEBUTTON</a>
+#define             <a class="link" href="gok-gok-action.html#ACTION-TYPE-MOUSEPOINTER--CAPS" title="ACTION_TYPE_MOUSEPOINTER">ACTION_TYPE_MOUSEPOINTER</a>
+#define             <a class="link" href="gok-gok-action.html#ACTION-TYPE-DWELL--CAPS" title="ACTION_TYPE_DWELL">ACTION_TYPE_DWELL</a>
+enum                <a class="link" href="gok-gok-action.html#ActionState" title="enum ActionState">ActionState</a>;
+GokAction*          <a class="link" href="gok-gok-action.html#gok-action-new" title="gok_action_new ()">gok_action_new</a>                      (void);
+void                <a class="link" href="gok-gok-action.html#gok-action-free" title="gok_action_free ()">gok_action_free</a>                     (GokAction *action);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-action.html#gok-action-open" title="gok_action_open ()">gok_action_open</a>                     (void);
+void                <a class="link" href="gok-gok-action.html#gok-action-close" title="gok_action_close ()">gok_action_close</a>                    (void);
+GokAction*          <a class="link" href="gok-gok-action.html#gok-action-get-first-action" title="gok_action_get_first_action ()">gok_action_get_first_action</a>         (void);
+void                <a class="link" href="gok-gok-action.html#gok-action-set-modified" title="gok_action_set_modified ()">gok_action_set_modified</a>             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);
+void                <a class="link" href="gok-gok-action.html#gok-action-delete-action" title="gok_action_delete_action ()">gok_action_delete_action</a>            (GokAction *pActionDelete);
+GokAction*          <a class="link" href="gok-gok-action.html#gok-action-find-action" title="gok_action_find_action ()">gok_action_find_action</a>              (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAction,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bDisplayName);
+void                <a class="link" href="gok-gok-action.html#gok-action-add-action" title="gok_action_add_action ()">gok_action_add_action</a>               (GokAction *pActionNew);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-action.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-action.details"></a><h2>Details</h2>
+<div class="refsect2" title="ACTION_TYPE_SWITCH">
+<a name="ACTION-TYPE-SWITCH--CAPS"></a><h3>ACTION_TYPE_SWITCH</h3>
+<pre class="programlisting">#define ACTION_TYPE_SWITCH 1
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="ACTION_TYPE_MOUSEBUTTON">
+<a name="ACTION-TYPE-MOUSEBUTTON--CAPS"></a><h3>ACTION_TYPE_MOUSEBUTTON</h3>
+<pre class="programlisting">#define ACTION_TYPE_MOUSEBUTTON 2
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="ACTION_TYPE_MOUSEPOINTER">
+<a name="ACTION-TYPE-MOUSEPOINTER--CAPS"></a><h3>ACTION_TYPE_MOUSEPOINTER</h3>
+<pre class="programlisting">#define ACTION_TYPE_MOUSEPOINTER 4
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="ACTION_TYPE_DWELL">
+<a name="ACTION-TYPE-DWELL--CAPS"></a><h3>ACTION_TYPE_DWELL</h3>
+<pre class="programlisting">#define ACTION_TYPE_DWELL 8
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="enum ActionState">
+<a name="ActionState"></a><h3>enum ActionState</h3>
+<pre class="programlisting">typedef enum {
+ACTION_STATE_UNDEFINED,
+ACTION_STATE_PRESS,
+ACTION_STATE_RELEASE,
+ACTION_STATE_CLICK,
+ACTION_STATE_DOUBLECLICK,
+ACTION_STATE_ENTER,
+ACTION_STATE_LEAVE
+} ActionState;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_new ()">
+<a name="gok-action-new"></a><h3>gok_action_new ()</h3>
+<pre class="programlisting">GokAction*          gok_action_new                      (void);</pre>
+<p>
+Allocates memory for a new GokAction and initializes its attributes
+to default values. Please free the returned GokAction using
+gok_action_free.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new GokAction
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_free ()">
+<a name="gok-action-free"></a><h3>gok_action_free ()</h3>
+<pre class="programlisting">void                gok_action_free                     (GokAction *action);</pre>
+<p>
+Frees a GokAction and associated resources.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>action</code></em> :</span></p></td>
+<td> a GokAction
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_open ()">
+<a name="gok-action-open"></a><h3>gok_action_open ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_action_open                     (void);</pre>
+<p>
+Initializes the gok actions and reads them from GConf.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the actions were initialized without problem,
+         FALSE if problems occured.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_close ()">
+<a name="gok-action-close"></a><h3>gok_action_close ()</h3>
+<pre class="programlisting">void                gok_action_close                    (void);</pre>
+<p>
+Closes the gok actions and saves them in GConf.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_get_first_action ()">
+<a name="gok-action-get-first-action"></a><h3>gok_action_get_first_action ()</h3>
+<pre class="programlisting">GokAction*          gok_action_get_first_action         (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the first action in the list of actions.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_set_modified ()">
+<a name="gok-action-set-modified"></a><h3>gok_action_set_modified ()</h3>
+<pre class="programlisting">void                gok_action_set_modified             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);</pre>
+<p>
+Sets the 'modified' flag for the gok actions. If the flag is TRUE then
+the actions are written to a file when the program ends.
+This should be called any time an action is added or modified.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>bTrueFalse</code></em> :</span></p></td>
+<td> New state of the 'modified' flag for the gok actions.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_delete_action ()">
+<a name="gok-action-delete-action"></a><h3>gok_action_delete_action ()</h3>
+<pre class="programlisting">void                gok_action_delete_action            (GokAction *pActionDelete);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pActionDelete</code></em> :</span></p></td>
+<td> Pointer to the action that will be deleted.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_find_action ()">
+<a name="gok-action-find-action"></a><h3>gok_action_find_action ()</h3>
+<pre class="programlisting">GokAction*          gok_action_find_action              (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAction,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bDisplayName);</pre>
+<p>
+Finds the action from within our list of actions.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameAction</code></em> :</span></p></td>
+<td> Name of the action you're trying to find.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bDisplayName</code></em> :</span></p></td>
+<td> This should be set TRUE if you are passing in the display
+name of the action. It should be set FALSE if passing in the actual
+name of the action.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the action, NULL if not found.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_action_add_action ()">
+<a name="gok-action-add-action"></a><h3>gok_action_add_action ()</h3>
+<pre class="programlisting">void                gok_action_add_action               (GokAction *pActionNew);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pActionNew</code></em> :</span></p></td>
+<td> Pointer to an action that gets added to our list of actions.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>command-predictor</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch04.html" title="Command Prediction">
+<link rel="prev" href="gok-command-graph.html" title="command-graph">
+<link rel="next" href="gok-command-vertex-data.html" title="command-vertex-data">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-command-graph.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-command-vertex-data.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-command-predictor.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-command-predictor.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="command-predictor">
+<a name="gok-command-predictor"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-command-predictor.top_of_page"></a>command-predictor</span></h2>
+<p>command-predictor</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-command-predictor.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+enum                <a class="link" href="gok-command-predictor.html#Prediction-Algorithm" title="enum Prediction_Algorithm">Prediction_Algorithm</a>;
+void                <a class="link" href="gok-command-predictor.html#command-predictor-free" title="command_predictor_free ()">command_predictor_free</a>              (const Command_Predictor predictor);
+Command_Predictor   <a class="link" href="gok-command-predictor.html#command-predictor-create" title="command_predictor_create ()">command_predictor_create</a>            (const Command_Graph graph);
+void                <a class="link" href="gok-command-predictor.html#command-predictor-calculate-recency-percentages" title="command_predictor_calculate_recency_percentages ()">command_predictor_calculate_recency_percentages</a>
+                                                        (const Command_Predictor predictor);
+const float         <a class="link" href="gok-command-predictor.html#command-predictor-get-recency-percent-correct" title="command_predictor_get_recency_percent_correct ()">command_predictor_get_recency_percent_correct</a>
+                                                        (const Command_Predictor predictor,
+                                                         const int index);
+void                <a class="link" href="gok-command-predictor.html#command-predictor-calculate-frequency-percentages" title="command_predictor_calculate_frequency_percentages ()">command_predictor_calculate_frequency_percentages</a>
+                                                        (const Command_Predictor predictor);
+const float         <a class="link" href="gok-command-predictor.html#command-predictor-get-frequency-percent-correct" title="command_predictor_get_frequency_percent_correct ()">command_predictor_get_frequency_percent_correct</a>
+                                                        (const Command_Predictor predictor,
+                                                         const int index);
+const Command_Vertex* <a class="link" href="gok-command-predictor.html#command-predictor-predict-same-as-last" title="command_predictor_predict_same_as_last ()">command_predictor_predict_same_as_last</a>
+                                                        (const Command_Predictor predictor);
+const Command_Vertex* <a class="link" href="gok-command-predictor.html#command-predictor-predict-high-stat" title="command_predictor_predict_high_stat ()">command_predictor_predict_high_stat</a>
+                                                        (const Command_Predictor predictor);
+void                <a class="link" href="gok-command-predictor.html#command-predictor-evaluate-prediction" title="command_predictor_evaluate_prediction ()">command_predictor_evaluate_prediction</a>
+                                                        (const Command_Predictor predictor,
+                                                         const Command_Vertex actual_vertex,
+                                                         const <a class="link" href="gok-command-predictor.html#Prediction-Algorithm" title="enum Prediction_Algorithm">Prediction_Algorithm</a> algorithm,
+                                                         const int num_predictions);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-command-predictor.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-command-predictor.details"></a><h2>Details</h2>
+<div class="refsect2" title="enum Prediction_Algorithm">
+<a name="Prediction-Algorithm"></a><h3>enum Prediction_Algorithm</h3>
+<pre class="programlisting">typedef enum {
+  RECENCY,
+  FREQUENCY
+} Prediction_Algorithm;
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_free ()">
+<a name="command-predictor-free"></a><h3>command_predictor_free ()</h3>
+<pre class="programlisting">void                command_predictor_free              (const Command_Predictor predictor);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_create ()">
+<a name="command-predictor-create"></a><h3>command_predictor_create ()</h3>
+<pre class="programlisting">Command_Predictor   command_predictor_create            (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_calculate_recency_percentages ()">
+<a name="command-predictor-calculate-recency-percentages"></a><h3>command_predictor_calculate_recency_percentages ()</h3>
+<pre class="programlisting">void                command_predictor_calculate_recency_percentages
+                                                        (const Command_Predictor predictor);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_get_recency_percent_correct ()">
+<a name="command-predictor-get-recency-percent-correct"></a><h3>command_predictor_get_recency_percent_correct ()</h3>
+<pre class="programlisting">const float         command_predictor_get_recency_percent_correct
+                                                        (const Command_Predictor predictor,
+                                                         const int index);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>index</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_calculate_frequency_percentages ()">
+<a name="command-predictor-calculate-frequency-percentages"></a><h3>command_predictor_calculate_frequency_percentages ()</h3>
+<pre class="programlisting">void                command_predictor_calculate_frequency_percentages
+                                                        (const Command_Predictor predictor);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_get_frequency_percent_correct ()">
+<a name="command-predictor-get-frequency-percent-correct"></a><h3>command_predictor_get_frequency_percent_correct ()</h3>
+<pre class="programlisting">const float         command_predictor_get_frequency_percent_correct
+                                                        (const Command_Predictor predictor,
+                                                         const int index);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>index</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_predict_same_as_last ()">
+<a name="command-predictor-predict-same-as-last"></a><h3>command_predictor_predict_same_as_last ()</h3>
+<pre class="programlisting">const Command_Vertex* command_predictor_predict_same_as_last
+                                                        (const Command_Predictor predictor);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_predict_high_stat ()">
+<a name="command-predictor-predict-high-stat"></a><h3>command_predictor_predict_high_stat ()</h3>
+<pre class="programlisting">const Command_Vertex* command_predictor_predict_high_stat
+                                                        (const Command_Predictor predictor);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_predictor_evaluate_prediction ()">
+<a name="command-predictor-evaluate-prediction"></a><h3>command_predictor_evaluate_prediction ()</h3>
+<pre class="programlisting">void                command_predictor_evaluate_prediction
+                                                        (const Command_Predictor predictor,
+                                                         const Command_Vertex actual_vertex,
+                                                         const <a class="link" href="gok-command-predictor.html#Prediction-Algorithm" title="enum Prediction_Algorithm">Prediction_Algorithm</a> algorithm,
+                                                         const int num_predictions);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>predictor</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>actual_vertex</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>algorithm</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>num_predictions</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

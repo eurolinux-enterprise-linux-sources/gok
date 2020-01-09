@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-gconf-keys</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-feedback.html" title="gok-feedback">
+<link rel="next" href="gok-gok-gconf.html" title="gok-gconf">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-feedback.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-gconf.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-gconf-keys.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-gconf-keys.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-gconf-keys">
+<a name="gok-gok-gconf-keys"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-gconf-keys.top_of_page"></a>gok-gconf-keys</span></h2>
+<p>gok-gconf-keys</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-gconf-keys.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ROOT--CAPS" title="GOK_GCONF_ROOT">GOK_GCONF_ROOT</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-LAYOUT--CAPS" title="GOK_GCONF_LAYOUT">GOK_GCONF_LAYOUT</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-KEY-SPACING--CAPS" title="GOK_GCONF_KEY_SPACING">GOK_GCONF_KEY_SPACING</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-KEY-WIDTH--CAPS" title="GOK_GCONF_KEY_WIDTH">GOK_GCONF_KEY_WIDTH</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-KEY-HEIGHT--CAPS" title="GOK_GCONF_KEY_HEIGHT">GOK_GCONF_KEY_HEIGHT</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-KEYBOARD-X--CAPS" title="GOK_GCONF_KEYBOARD_X">GOK_GCONF_KEYBOARD_X</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-KEYBOARD-Y--CAPS" title="GOK_GCONF_KEYBOARD_Y">GOK_GCONF_KEYBOARD_Y</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACCESS-METHOD--CAPS" title="GOK_GCONF_ACCESS_METHOD">GOK_GCONF_ACCESS_METHOD</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-WORD-COMPLETE--CAPS" title="GOK_GCONF_WORD_COMPLETE">GOK_GCONF_WORD_COMPLETE</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-NUMBER-PREDICTIONS--CAPS" title="GOK_GCONF_NUMBER_PREDICTIONS">GOK_GCONF_NUMBER_PREDICTIONS</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-USE-GTKPLUS-THEME--CAPS" title="GOK_GCONF_USE_GTKPLUS_THEME">GOK_GCONF_USE_GTKPLUS_THEME</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-KEYBOARD-DIRECTORY--CAPS" title="GOK_GCONF_KEYBOARD_DIRECTORY">GOK_GCONF_KEYBOARD_DIRECTORY</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACCESS-METHOD-DIRECTORY--CAPS" title="GOK_GCONF_ACCESS_METHOD_DIRECTORY">GOK_GCONF_ACCESS_METHOD_DIRECTORY</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-DICTIONARY-DIRECTORY--CAPS" title="GOK_GCONF_DICTIONARY_DIRECTORY">GOK_GCONF_DICTIONARY_DIRECTORY</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-RESOURCE-DIRECTORY--CAPS" title="GOK_GCONF_RESOURCE_DIRECTORY">GOK_GCONF_RESOURCE_DIRECTORY</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACCESS-METHOD-SETTINGS--CAPS" title="GOK_GCONF_ACCESS_METHOD_SETTINGS">GOK_GCONF_ACCESS_METHOD_SETTINGS</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTIONS--CAPS" title="GOK_GCONF_ACTIONS">GOK_GCONF_ACTIONS</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTIONS-WORKAROUND--CAPS" title="GOK_GCONF_ACTIONS_WORKAROUND">GOK_GCONF_ACTIONS_WORKAROUND</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-DISPLAYNAME--CAPS" title="GOK_GCONF_ACTION_DISPLAYNAME">GOK_GCONF_ACTION_DISPLAYNAME</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-TYPE--CAPS" title="GOK_GCONF_ACTION_TYPE">GOK_GCONF_ACTION_TYPE</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-STATE--CAPS" title="GOK_GCONF_ACTION_STATE">GOK_GCONF_ACTION_STATE</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-NUMBER--CAPS" title="GOK_GCONF_ACTION_NUMBER">GOK_GCONF_ACTION_NUMBER</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-RATE--CAPS" title="GOK_GCONF_ACTION_RATE">GOK_GCONF_ACTION_RATE</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-PERMANENT--CAPS" title="GOK_GCONF_ACTION_PERMANENT">GOK_GCONF_ACTION_PERMANENT</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-KEY-AVERAGING--CAPS" title="GOK_GCONF_ACTION_KEY_AVERAGING">GOK_GCONF_ACTION_KEY_AVERAGING</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-TYPE-SWITCH--CAPS" title="GOK_GCONF_ACTION_TYPE_SWITCH">GOK_GCONF_ACTION_TYPE_SWITCH</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-TYPE-MOUSEBUTTON--CAPS" title="GOK_GCONF_ACTION_TYPE_MOUSEBUTTON">GOK_GCONF_ACTION_TYPE_MOUSEBUTTON</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-TYPE-MOUSEPOINTER--CAPS" title="GOK_GCONF_ACTION_TYPE_MOUSEPOINTER">GOK_GCONF_ACTION_TYPE_MOUSEPOINTER</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-TYPE-DWELL--CAPS" title="GOK_GCONF_ACTION_TYPE_DWELL">GOK_GCONF_ACTION_TYPE_DWELL</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-STATE-UNDEFINED--CAPS" title="GOK_GCONF_ACTION_STATE_UNDEFINED">GOK_GCONF_ACTION_STATE_UNDEFINED</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-STATE-PRESS--CAPS" title="GOK_GCONF_ACTION_STATE_PRESS">GOK_GCONF_ACTION_STATE_PRESS</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-STATE-RELEASE--CAPS" title="GOK_GCONF_ACTION_STATE_RELEASE">GOK_GCONF_ACTION_STATE_RELEASE</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-STATE-CLICK--CAPS" title="GOK_GCONF_ACTION_STATE_CLICK">GOK_GCONF_ACTION_STATE_CLICK</a>
+#define             <a class="link" href="gok-gok-gconf-keys.html#GOK-GCONF-ACTION-STATE-DOUBLECLICK--CAPS" title="GOK_GCONF_ACTION_STATE_DOUBLECLICK">GOK_GCONF_ACTION_STATE_DOUBLECLICK</a>
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-gconf-keys.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-gconf-keys.details"></a><h2>Details</h2>
+<div class="refsect2" title="GOK_GCONF_ROOT">
+<a name="GOK-GCONF-ROOT--CAPS"></a><h3>GOK_GCONF_ROOT</h3>
+<pre class="programlisting">#define GOK_GCONF_ROOT                     "/apps/gok"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_LAYOUT">
+<a name="GOK-GCONF-LAYOUT--CAPS"></a><h3>GOK_GCONF_LAYOUT</h3>
+<pre class="programlisting">#define GOK_GCONF_LAYOUT                   "/apps/gok/layout"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_KEY_SPACING">
+<a name="GOK-GCONF-KEY-SPACING--CAPS"></a><h3>GOK_GCONF_KEY_SPACING</h3>
+<pre class="programlisting">#define GOK_GCONF_KEY_SPACING              "/apps/gok/layout/key_spacing"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_KEY_WIDTH">
+<a name="GOK-GCONF-KEY-WIDTH--CAPS"></a><h3>GOK_GCONF_KEY_WIDTH</h3>
+<pre class="programlisting">#define GOK_GCONF_KEY_WIDTH                "/apps/gok/layout/key_width"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_KEY_HEIGHT">
+<a name="GOK-GCONF-KEY-HEIGHT--CAPS"></a><h3>GOK_GCONF_KEY_HEIGHT</h3>
+<pre class="programlisting">#define GOK_GCONF_KEY_HEIGHT               "/apps/gok/layout/key_height"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_KEYBOARD_X">
+<a name="GOK-GCONF-KEYBOARD-X--CAPS"></a><h3>GOK_GCONF_KEYBOARD_X</h3>
+<pre class="programlisting">#define GOK_GCONF_KEYBOARD_X               "/apps/gok/layout/keyboard_x"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_KEYBOARD_Y">
+<a name="GOK-GCONF-KEYBOARD-Y--CAPS"></a><h3>GOK_GCONF_KEYBOARD_Y</h3>
+<pre class="programlisting">#define GOK_GCONF_KEYBOARD_Y               "/apps/gok/layout/keyboard_y"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACCESS_METHOD">
+<a name="GOK-GCONF-ACCESS-METHOD--CAPS"></a><h3>GOK_GCONF_ACCESS_METHOD</h3>
+<pre class="programlisting">#define GOK_GCONF_ACCESS_METHOD            "/apps/gok/access_method"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_WORD_COMPLETE">
+<a name="GOK-GCONF-WORD-COMPLETE--CAPS"></a><h3>GOK_GCONF_WORD_COMPLETE</h3>
+<pre class="programlisting">#define GOK_GCONF_WORD_COMPLETE            "/apps/gok/word_complete"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_NUMBER_PREDICTIONS">
+<a name="GOK-GCONF-NUMBER-PREDICTIONS--CAPS"></a><h3>GOK_GCONF_NUMBER_PREDICTIONS</h3>
+<pre class="programlisting">#define GOK_GCONF_NUMBER_PREDICTIONS       "/apps/gok/number_predictions"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_USE_GTKPLUS_THEME">
+<a name="GOK-GCONF-USE-GTKPLUS-THEME--CAPS"></a><h3>GOK_GCONF_USE_GTKPLUS_THEME</h3>
+<pre class="programlisting">#define GOK_GCONF_USE_GTKPLUS_THEME        "/apps/gok/use_gtkplus_theme"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_KEYBOARD_DIRECTORY">
+<a name="GOK-GCONF-KEYBOARD-DIRECTORY--CAPS"></a><h3>GOK_GCONF_KEYBOARD_DIRECTORY</h3>
+<pre class="programlisting">#define GOK_GCONF_KEYBOARD_DIRECTORY       "/apps/gok/keyboard_directory"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACCESS_METHOD_DIRECTORY">
+<a name="GOK-GCONF-ACCESS-METHOD-DIRECTORY--CAPS"></a><h3>GOK_GCONF_ACCESS_METHOD_DIRECTORY</h3>
+<pre class="programlisting">#define GOK_GCONF_ACCESS_METHOD_DIRECTORY  "/apps/gok/access_method_directory"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_DICTIONARY_DIRECTORY">
+<a name="GOK-GCONF-DICTIONARY-DIRECTORY--CAPS"></a><h3>GOK_GCONF_DICTIONARY_DIRECTORY</h3>
+<pre class="programlisting">#define GOK_GCONF_DICTIONARY_DIRECTORY     "/apps/gok/dictionary_directory"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_RESOURCE_DIRECTORY">
+<a name="GOK-GCONF-RESOURCE-DIRECTORY--CAPS"></a><h3>GOK_GCONF_RESOURCE_DIRECTORY</h3>
+<pre class="programlisting">#define GOK_GCONF_RESOURCE_DIRECTORY       "/apps/gok/resource_directory"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACCESS_METHOD_SETTINGS">
+<a name="GOK-GCONF-ACCESS-METHOD-SETTINGS--CAPS"></a><h3>GOK_GCONF_ACCESS_METHOD_SETTINGS</h3>
+<pre class="programlisting">#define GOK_GCONF_ACCESS_METHOD_SETTINGS   "/apps/gok/access_method_settings"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTIONS">
+<a name="GOK-GCONF-ACTIONS--CAPS"></a><h3>GOK_GCONF_ACTIONS</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTIONS                  "/apps/gok/actions"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTIONS_WORKAROUND">
+<a name="GOK-GCONF-ACTIONS-WORKAROUND--CAPS"></a><h3>GOK_GCONF_ACTIONS_WORKAROUND</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTIONS_WORKAROUND       "/apps/gok/actions/workaround"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_DISPLAYNAME">
+<a name="GOK-GCONF-ACTION-DISPLAYNAME--CAPS"></a><h3>GOK_GCONF_ACTION_DISPLAYNAME</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_DISPLAYNAME       "displayname"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_TYPE">
+<a name="GOK-GCONF-ACTION-TYPE--CAPS"></a><h3>GOK_GCONF_ACTION_TYPE</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_TYPE              "type"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_STATE">
+<a name="GOK-GCONF-ACTION-STATE--CAPS"></a><h3>GOK_GCONF_ACTION_STATE</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_STATE             "state"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_NUMBER">
+<a name="GOK-GCONF-ACTION-NUMBER--CAPS"></a><h3>GOK_GCONF_ACTION_NUMBER</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_NUMBER            "number"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_RATE">
+<a name="GOK-GCONF-ACTION-RATE--CAPS"></a><h3>GOK_GCONF_ACTION_RATE</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_RATE              "rate"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_PERMANENT">
+<a name="GOK-GCONF-ACTION-PERMANENT--CAPS"></a><h3>GOK_GCONF_ACTION_PERMANENT</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_PERMANENT         "permanent"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_KEY_AVERAGING">
+<a name="GOK-GCONF-ACTION-KEY-AVERAGING--CAPS"></a><h3>GOK_GCONF_ACTION_KEY_AVERAGING</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_KEY_AVERAGING     "key_averaging"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_TYPE_SWITCH">
+<a name="GOK-GCONF-ACTION-TYPE-SWITCH--CAPS"></a><h3>GOK_GCONF_ACTION_TYPE_SWITCH</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_TYPE_SWITCH       "switch"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_TYPE_MOUSEBUTTON">
+<a name="GOK-GCONF-ACTION-TYPE-MOUSEBUTTON--CAPS"></a><h3>GOK_GCONF_ACTION_TYPE_MOUSEBUTTON</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_TYPE_MOUSEBUTTON  "mousebutton"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_TYPE_MOUSEPOINTER">
+<a name="GOK-GCONF-ACTION-TYPE-MOUSEPOINTER--CAPS"></a><h3>GOK_GCONF_ACTION_TYPE_MOUSEPOINTER</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_TYPE_MOUSEPOINTER "mousepointer"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_TYPE_DWELL">
+<a name="GOK-GCONF-ACTION-TYPE-DWELL--CAPS"></a><h3>GOK_GCONF_ACTION_TYPE_DWELL</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_TYPE_DWELL        "dwell"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_STATE_UNDEFINED">
+<a name="GOK-GCONF-ACTION-STATE-UNDEFINED--CAPS"></a><h3>GOK_GCONF_ACTION_STATE_UNDEFINED</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_STATE_UNDEFINED   "undefined"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_STATE_PRESS">
+<a name="GOK-GCONF-ACTION-STATE-PRESS--CAPS"></a><h3>GOK_GCONF_ACTION_STATE_PRESS</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_STATE_PRESS       "press"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_STATE_RELEASE">
+<a name="GOK-GCONF-ACTION-STATE-RELEASE--CAPS"></a><h3>GOK_GCONF_ACTION_STATE_RELEASE</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_STATE_RELEASE     "release"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_STATE_CLICK">
+<a name="GOK-GCONF-ACTION-STATE-CLICK--CAPS"></a><h3>GOK_GCONF_ACTION_STATE_CLICK</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_STATE_CLICK       "click"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="GOK_GCONF_ACTION_STATE_DOUBLECLICK">
+<a name="GOK-GCONF-ACTION-STATE-DOUBLECLICK--CAPS"></a><h3>GOK_GCONF_ACTION_STATE_DOUBLECLICK</h3>
+<pre class="programlisting">#define GOK_GCONF_ACTION_STATE_DOUBLECLICK "doubleclick"
+</pre>
+<p>
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

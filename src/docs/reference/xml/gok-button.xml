@@ -1,0 +1,151 @@
+<refentry id="gok-GokButton">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-GokButton.top_of_page">GokButton</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GokButton</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-GokButton.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="GOK-TYPE-BUTTON--CAPS">GOK_TYPE_BUTTON</link>
+#define             <link linkend="GOK-BUTTON-CLASS--CAPS">GOK_BUTTON_CLASS</link>                    (k)
+<link linkend="GType">GType</link>               <link linkend="gok-button-get-type">gok_button_get_type</link>                 (void);
+<link linkend="GtkWidget">GtkWidget</link>*          <link linkend="gok-button-new-with-label">gok_button_new_with_label</link>           (const <link linkend="gchar">gchar</link> *pText,
+                                                         <link linkend="GokImagePlacementPolicy">GokImagePlacementPolicy</link> align);
+<link linkend="gint">gint</link>                <link linkend="gok-button-enter-notify">gok_button_enter_notify</link>             (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GdkEventCrossing">GdkEventCrossing</link> *event);
+<link linkend="gint">gint</link>                <link linkend="gok-button-leave-notify">gok_button_leave_notify</link>             (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GdkEventCrossing">GdkEventCrossing</link> *event);
+<link linkend="void">void</link>                <link linkend="gok-button-state-changed">gok_button_state_changed</link>            (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GtkStateType">GtkStateType</link> state,
+                                                         <link linkend="gpointer">gpointer</link> user_data);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-GokButton.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-GokButton.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GOK-TYPE-BUTTON--CAPS" role="macro">
+<title>GOK_TYPE_BUTTON</title>
+<indexterm zone="GOK-TYPE-BUTTON--CAPS"><primary sortas="GOK_TYPE_BUTTON">GOK_TYPE_BUTTON</primary></indexterm><programlisting>#define GOK_TYPE_BUTTON        (gok_button_get_type ())
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GOK-BUTTON-CLASS--CAPS" role="macro">
+<title>GOK_BUTTON_CLASS()</title>
+<indexterm zone="GOK-BUTTON-CLASS--CAPS"><primary sortas="GOK_BUTTON_CLASS">GOK_BUTTON_CLASS</primary></indexterm><programlisting>#define GOK_BUTTON_CLASS(k)    (G_TYPE_CHECK_CLASS_CAST (k, GOK_TYPE_BUTTON, GokButtonClass)
+</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>k</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-button-get-type" role="function">
+<title>gok_button_get_type ()</title>
+<indexterm zone="gok-button-get-type"><primary sortas="gok_button_get_type">gok_button_get_type</primary></indexterm><programlisting><link linkend="GType">GType</link>               gok_button_get_type                 (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-button-new-with-label" role="function">
+<title>gok_button_new_with_label ()</title>
+<indexterm zone="gok-button-new-with-label"><primary sortas="gok_button_new_with_label">gok_button_new_with_label</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link>*          gok_button_new_with_label           (const <link linkend="gchar">gchar</link> *pText,
+                                                         <link linkend="GokImagePlacementPolicy">GokImagePlacementPolicy</link> align);</programlisting>
+<para>
+Creates a new GOK button with a label.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pText</parameter>&#160;:</term>
+<listitem><simpara> Text string for the button's label.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>align</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the new button, NULL if it could not be created.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-button-enter-notify" role="function">
+<title>gok_button_enter_notify ()</title>
+<indexterm zone="gok-button-enter-notify"><primary sortas="gok_button_enter_notify">gok_button_enter_notify</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_button_enter_notify             (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GdkEventCrossing">GdkEventCrossing</link> *event);</programlisting>
+<para>
+This handler is called whenever a widget on the keyboard is entered.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>widget</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the widget that has just been entered.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>event</parameter>&#160;:</term>
+<listitem><simpara> Not sure?
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the given widget is associated with a GOK key, FALSE if
+the given button is not associated with a GOK key.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-button-leave-notify" role="function">
+<title>gok_button_leave_notify ()</title>
+<indexterm zone="gok-button-leave-notify"><primary sortas="gok_button_leave_notify">gok_button_leave_notify</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_button_leave_notify             (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GdkEventCrossing">GdkEventCrossing</link> *event);</programlisting>
+<para>
+This handler is called whenever a widget on the keyboard has been left.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>widget</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the widget that has just been left.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>event</parameter>&#160;:</term>
+<listitem><simpara> Not sure?
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the given widget is associated with a GOK key, FALSE if
+the given button is not associated with a GOK key.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-button-state-changed" role="function">
+<title>gok_button_state_changed ()</title>
+<indexterm zone="gok-button-state-changed"><primary sortas="gok_button_state_changed">gok_button_state_changed</primary></indexterm><programlisting><link linkend="void">void</link>                gok_button_state_changed            (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GtkStateType">GtkStateType</link> state,
+                                                         <link linkend="gpointer">gpointer</link> user_data);</programlisting>
+<para>
+This is called each time the button state is changed. We handle this call
+and make sure the button is set to the state we want.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>widget</parameter>&#160;:</term>
+<listitem><simpara> The button that has just changed state.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>state</parameter>&#160;:</term>
+<listitem><simpara> State requested (not necessarily the state we set it).
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara> Any user data associated with the widget (ignored by us).
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

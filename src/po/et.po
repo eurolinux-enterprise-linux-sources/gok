@@ -1,0 +1,2111 @@
+# GNOME ekraaniklaviatuuri eesti keele tõlge.
+# Estonian translation of GNOME On-screen Keyboard.
+#
+# Copyright (C) 2005, 2006 Free Software Foundation, Inc.
+# Copyright (C) 2007, 2008 The GNOME Project.
+# This file is distributed under the same license as the gok package.
+#
+# Ivar Smolin <okul@linux.ee>, 2005-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gok HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-08 03:22+0100\n"
+"PO-Revision-Date: 2008-04-19 12:45+0300\n"
+"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
+"Language-Team: Estonian <gnome-et@linux.ee>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "Aktiveeri"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "Aktiveeritakse:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "Aktiveerimine:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "Automaatne läbivaatus"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "Korduseid enne seiskamist:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:69
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "Tagasiside"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "Tagasiside aktiveerimine"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "Algne viivitus:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:18
+msgid "Movement:"
+msgstr "Liikumine:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:20
+msgid "Operation"
+msgstr "Toiming"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:22
+msgid "Options"
+msgstr "Valikud"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:26
+msgid "Scan Delay:"
+msgstr "Läbivaatuse viivitus:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:28
+msgid "Scan Speed:"
+msgstr "Läbivaatuse kiirus:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "Läbivaatuse suund:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "Läbivaatuse alustamine"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "Läbivaatuse alustamine:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:34
+msgid "Wrap Rows/Columns"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr ""
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "Otsevalimine"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "Tagasiside aktiveerimine:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr ""
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr ""
+"Klahvi esiletõstmiseks liiguta hiirekursorit. Valimiseks vajuta lülitit."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:30
+msgid "Select:"
+msgstr "Valimine:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr ""
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr ""
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "Programmist lähemalt"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "Abi"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "Eelistused"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "Lõpeta GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "Aken"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2485
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "tagasi"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:337
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr "Semikoolonitega eraldatud nimekiri sõnalõpetuse sõnaraamatute radadest"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "Kas GOK akent laiendatakse kogu ekraani laiusele?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "Kas see tagasiside vilgub"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "Kas see tagasiside mängib heli"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "Kas see tagasiside ütleb GOK klahvi sildi"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "Kas see toiming on püsiv"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "Kas see tagasiside on püsiv"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "Kas sõnalõpetus on sisse lülitatud"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "Klahvi vilkumine"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "Hiire vasaku nupuga"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "Hiire keskmise nupuga"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "Hiire neljanda nupuga"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "Hiire viienda nupuga"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "Hiirekursoriga"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "Puudub"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "Hiire parema nupuga"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"Peaks olema üks järgnevatest väärtustest: \"xkb\", \"default\", \"alpha\", "
+"\"alpha-freq\", \"custom\". Kui \"custom\", siis peaks ka "
+"\"custom_compose_keyboard\" kirjeldatud olema."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "Heli üks"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "Heli kaks"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "Kõne"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "1. lüliti"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "2. lüliti"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "3. lüliti"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "4. lüliti"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "5. lüliti"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "Kataloog, millest laaditakse sõnaraamatufailid."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "Kataloog, millest laaditakse gok ressursifail."
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "Klahvi kõrgus"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "Klahvi laius"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "Klaviatuuri X-koordinaat"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "Klaviatuuri Y-koordinaat"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "Kasutatava xinput-seadme nimi"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "Kordade arv, mitu korda see tagasiside vilgub"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "Klahvide vahel olev ruum"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr ""
+
+#: ../gok.desktop.in.h:1
+msgid "On-Screen Keyboard"
+msgstr "Ekraaniklaviatuur"
+
+#: ../gok.desktop.in.h:2
+msgid "Type and navigate applications using alternative input devices"
+msgstr ""
+
+#: ../gok.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gok.glade2.h:2
+msgid "3 State"
+msgstr ""
+
+#: ../gok.glade2.h:3
+msgid "<b>Appearance</b>"
+msgstr "<b>Välimus</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Behavior</b>"
+msgstr "<b>Käitumine</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Branch</b>"
+msgstr ""
+
+#: ../gok.glade2.h:6
+msgid "<b>Command Prediction</b>"
+msgstr "<b>Käsu ennustamine</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Compose Keyboard</b>"
+msgstr ""
+
+#: ../gok.glade2.h:8
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>Kohandatud klaviatuurid</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Actions</b>"
+msgstr "<b>Toimingute kirjeldamine</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Define Feedback</b>"
+msgstr "<b>Tagasiside kirjeldamine</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>Viivitus enne aktiveerimist</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Description</b>"
+msgstr "<b>Kirjeldus</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>Dokkimine ja horisontaalne laiendamine</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Event Source</b>"
+msgstr "<b>Sündmuse allikas</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Font</b>"
+msgstr "<b>Kirjatüüp</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Flashing</b>"
+msgstr "<b>Klahvi vilkumine</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>Klahvide suuruse ja klahvivahede sätted</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Key</b>"
+msgstr "<b>Klahv</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Keyboard</b>"
+msgstr "<b>Klaviatuur</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Modifier</b>"
+msgstr ""
+
+#: ../gok.glade2.h:21
+msgid "<b>Output</b>"
+msgstr "<b>Väljund</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Position</b>"
+msgstr "<b>Asukoht</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Preview</b>"
+msgstr "<b>Eelvaade</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sensitivity</b>"
+msgstr "<b>Tundlikkus</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Sound</b>"
+msgstr "<b>Heli</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Speech</b>"
+msgstr "<b>Kõne</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Switch or Button Number</b>"
+msgstr ""
+
+#: ../gok.glade2.h:28
+msgid "<b>Theme</b>"
+msgstr "<b>Teema</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Timers and Delays</b>"
+msgstr ""
+
+#: ../gok.glade2.h:30
+msgid "<b>Type</b>"
+msgstr "<b>Liik</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Valuator Type</b>"
+msgstr ""
+
+#: ../gok.glade2.h:32
+msgid "<b>Word Completion</b>"
+msgstr "<b>Sõnalõpetus</b>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>Märkus:</b> Selle sätte muutmine ei rakendu enne GOK järgmist "
+"käivitamist.</i></small>"
+
+#: ../gok.glade2.h:34
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+
+#: ../gok.glade2.h:35
+msgid "Access Methods"
+msgstr "Pääsumeetodid"
+
+#: ../gok.glade2.h:36
+msgid "AccessMethodName"
+msgstr ""
+
+#: ../gok.glade2.h:37
+msgid "Action Names List"
+msgstr "Toimingunimede loend"
+
+#: ../gok.glade2.h:38
+msgid "Action Type:"
+msgstr "Toimingu tüüp:"
+
+#: ../gok.glade2.h:39
+msgid "ActionTypeNotebook"
+msgstr ""
+
+#: ../gok.glade2.h:40
+msgid "Actions"
+msgstr "Toimingud"
+
+#: ../gok.glade2.h:41
+msgid "Activate on Dw_ell"
+msgstr ""
+
+#: ../gok.glade2.h:42
+msgid "Activate on _Enter"
+msgstr ""
+
+#: ../gok.glade2.h:43
+msgid "Activate on _Move"
+msgstr ""
+
+#: ../gok.glade2.h:44
+msgid "Activate when _pressed"
+msgstr "Aktiveeritakse _vajutamisel"
+
+#: ../gok.glade2.h:45
+msgid "Activate when _released"
+msgstr "Aktiveeritakse _lahtilaskmisel"
+
+#: ../gok.glade2.h:46
+msgid "Add"
+msgstr "Lisa"
+
+#: ../gok.glade2.h:47
+msgid "Add New Key"
+msgstr "Lisa uus klahv"
+
+#: ../gok.glade2.h:48
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "Lisakataloog GOK klaviatuuride otsinguks"
+
+#: ../gok.glade2.h:49
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "Lisakataloog GOK klaviatuurifailide otsinguks"
+
+#: ../gok.glade2.h:50
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr ""
+
+#: ../gok.glade2.h:51
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr ""
+
+#: ../gok.glade2.h:52
+msgid "Appearance"
+msgstr "Välimus"
+
+#: ../gok.glade2.h:53
+msgid "Bottom:"
+msgstr "All:"
+
+#: ../gok.glade2.h:54
+msgid "Browse"
+msgstr "Sirvi"
+
+#: ../gok.glade2.h:55
+msgid "C_ore pointer"
+msgstr ""
+
+#: ../gok.glade2.h:56
+msgid "Command Prediction"
+msgstr "Käsu ennustamine"
+
+#: ../gok.glade2.h:57
+msgid "Delay"
+msgstr "Viivitus"
+
+#: ../gok.glade2.h:58
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr ""
+
+#: ../gok.glade2.h:59
+msgid "Delete"
+msgstr "Kustuta"
+
+#: ../gok.glade2.h:60
+msgid "Delete Key"
+msgstr "Kustuta klahv"
+
+#: ../gok.glade2.h:61
+msgid "Dock"
+msgstr "Rakendus dokitakse"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:62 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "Dokitakse alla"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:63 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "Dokitakse üles"
+
+#: ../gok.glade2.h:64
+msgid "Duplicate"
+msgstr "Dubleeri"
+
+#: ../gok.glade2.h:65
+msgid "Enable _key flashing"
+msgstr "_Klahvi vilkumine on lubatud"
+
+#: ../gok.glade2.h:66
+msgid "Enable _sound"
+msgstr "H_eli on lubatud"
+
+#: ../gok.glade2.h:67
+msgid "Enable _word completion"
+msgstr "_Sõnalõpetus on lubatud"
+
+#: ../gok.glade2.h:68
+msgid "Enable co_mmand prediction"
+msgstr "Käsu _ennustamine on lubatud"
+
+#: ../gok.glade2.h:70
+msgid "Fill Width"
+msgstr "Kogu laius täidetakse"
+
+#: ../gok.glade2.h:71
+msgid "Font Group:"
+msgstr "Kirjatüübi grupp:"
+
+#: ../gok.glade2.h:72 ../gok/gok-editor.c:35
+msgid "GOK Keyboard Editor"
+msgstr "GOK klaviatuuriredaktor"
+
+#: ../gok.glade2.h:73
+msgid "GOK Preferences"
+msgstr "GOK eelistused"
+
+#: ../gok.glade2.h:74
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:75
+msgid "Key Height"
+msgstr "Klahvi kõrgus"
+
+#: ../gok.glade2.h:76
+msgid "Key Spacing"
+msgstr "Klahvidevaheline ruum"
+
+#: ../gok.glade2.h:77
+msgid "Key Width"
+msgstr "Klahvi laius"
+
+#: ../gok.glade2.h:78
+msgid "Key _width:"
+msgstr "Klahvi la_ius:"
+
+#: ../gok.glade2.h:79
+msgid "Key h_eight:"
+msgstr "Klahvi kõr_gus:"
+
+#: ../gok.glade2.h:80
+msgid "Keyboards"
+msgstr "Klaviatuurid"
+
+#: ../gok.glade2.h:81
+msgid "Keycode:"
+msgstr "Klahvi kood:"
+
+#: ../gok.glade2.h:82
+msgid "Keysym:"
+msgstr ""
+
+#: ../gok.glade2.h:83
+msgid "Label:"
+msgstr "Silt:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:84 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "Vasakul:"
+
+#: ../gok.glade2.h:85
+msgid "Match physical keyboard as reported by X Server"
+msgstr ""
+
+#: ../gok.glade2.h:86
+msgid "Modifier Post"
+msgstr ""
+
+#: ../gok.glade2.h:87
+msgid "Modifier Pre"
+msgstr ""
+
+#: ../gok.glade2.h:88
+msgid "Modifier:"
+msgstr "Muutja:"
+
+#: ../gok.glade2.h:89
+msgid "Move Down"
+msgstr "Liiguta alla"
+
+#: ../gok.glade2.h:90
+msgid "Move Up"
+msgstr "Liiguta üles"
+
+#: ../gok.glade2.h:91
+msgid "Name:"
+msgstr "Nimi:"
+
+#: ../gok.glade2.h:92
+msgid "New"
+msgstr "Uus"
+
+#: ../gok.glade2.h:93
+msgid "Next Key"
+msgstr "Järgmine klahv"
+
+#: ../gok.glade2.h:94
+msgid "Normal"
+msgstr "Tavaline"
+
+#: ../gok.glade2.h:95
+msgid "Number of _flashes:"
+msgstr "_Vilgutuste arv:"
+
+#: ../gok.glade2.h:96
+msgid "Number of _predictions:"
+msgstr "E_nnustuste arv:"
+
+#: ../gok.glade2.h:97
+msgid "Number of command predictions:"
+msgstr ""
+
+#: ../gok.glade2.h:98
+msgid "Number of word predictions:"
+msgstr ""
+
+#: ../gok.glade2.h:99
+msgid "Other _input device:"
+msgstr "Muud s_isendseadmed:"
+
+#: ../gok.glade2.h:100
+msgid "Prediction"
+msgstr "Ennustamine"
+
+#: ../gok.glade2.h:101
+msgid "Press"
+msgstr "Vajutamine"
+
+#: ../gok.glade2.h:102
+msgid "Previous Key"
+msgstr "Eelmine klahv"
+
+#: ../gok.glade2.h:103
+msgid "Read keyboard from file:"
+msgstr "Klaviatuur loetakse failist:"
+
+#: ../gok.glade2.h:104
+msgid "Release"
+msgstr "Lahtilaskmine"
+
+#. User interface for the access method
+#: ../gok.glade2.h:105 ../directed.xml.in.h:24
+msgid "Right:"
+msgstr "Paremal:"
+
+#: ../gok.glade2.h:106
+msgid "S_witch"
+msgstr ""
+
+#: ../gok.glade2.h:107
+msgid "Show Only This Font Group"
+msgstr "Näidatakse ainult seda kirjatüübi gruppi"
+
+#: ../gok.glade2.h:108
+msgid "So_und:"
+msgstr "_Heli:"
+
+#: ../gok.glade2.h:109
+msgid "Speak key _label"
+msgstr "Klahvi _silt öeldakse"
+
+#: ../gok.glade2.h:110
+msgid "Style:"
+msgstr "Laad:"
+
+#: ../gok.glade2.h:111
+msgid "Switch _1"
+msgstr "_1. lüliti"
+
+#: ../gok.glade2.h:112
+msgid "Switch _2"
+msgstr "_2. lüliti"
+
+#: ../gok.glade2.h:113
+msgid "Switch _3"
+msgstr "_3. lüliti"
+
+#: ../gok.glade2.h:114
+msgid "Switch _4"
+msgstr "_4. lüliti"
+
+#: ../gok.glade2.h:115
+msgid "Switch _5"
+msgstr "_5. lüliti"
+
+#: ../gok.glade2.h:116
+msgid "Target:"
+msgstr ""
+
+#: ../gok.glade2.h:117
+msgid "To Back"
+msgstr "Taha"
+
+#: ../gok.glade2.h:118
+msgid "To Front"
+msgstr "Ette"
+
+#: ../gok.glade2.h:119
+msgid "Toggle"
+msgstr ""
+
+#: ../gok.glade2.h:120
+msgid "Top:"
+msgstr "Ülal:"
+
+#: ../gok.glade2.h:121
+msgid "Use _extra word list file(s)"
+msgstr "_Täiendavad sõnanimekirja fail(id)"
+
+#: ../gok.glade2.h:122
+msgid "Use _key averaging"
+msgstr ""
+
+#: ../gok.glade2.h:123
+msgid "Valuator Sensitivity"
+msgstr ""
+
+#: ../gok.glade2.h:124
+msgid "Word Completion"
+msgstr "Sõnalõpetus"
+
+#: ../gok.glade2.h:125
+msgid "_100ths of a second"
+msgstr "sa_jandiksekundit"
+
+#: ../gok.glade2.h:126
+msgid "_Add"
+msgstr "_Lisa"
+
+#: ../gok.glade2.h:127
+msgid "_Browse..."
+msgstr "_Sirvi..."
+
+#: ../gok.glade2.h:128
+msgid "_Delete"
+msgstr "_Kustuta"
+
+#: ../gok.glade2.h:129
+msgid "_Joystick"
+msgstr "_Joystick"
+
+#: ../gok.glade2.h:130
+msgid "_Method:"
+msgstr "_Meetod:"
+
+#: ../gok.glade2.h:131
+msgid "_Name:"
+msgstr "_Nimi:"
+
+#: ../gok.glade2.h:132
+msgid "_New"
+msgstr "_Uus"
+
+#: ../gok.glade2.h:133
+msgid "_Number of predictions:"
+msgstr "_Ennustuste arv:"
+
+#: ../gok.glade2.h:134
+msgid "_Rename"
+msgstr "Muuda _nime"
+
+#: ../gok.glade2.h:135
+msgid "_Single axis:"
+msgstr ""
+
+#: ../gok.glade2.h:136
+msgid "_Spacing:"
+msgstr "_Vaheruum:"
+
+#: ../gok.glade2.h:137
+msgid "_Use Desktop Theme Preferences"
+msgstr "Kasutatakse töölauateema eelist_usi"
+
+#: ../gok.glade2.h:138
+msgid "_Valuator"
+msgstr ""
+
+#: ../gok.glade2.h:139
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr ""
+
+#: ../gok.glade2.h:140
+msgid "access method name"
+msgstr ""
+
+#: ../gok.glade2.h:141
+msgid "cancel"
+msgstr ""
+
+#: ../gok.glade2.h:142
+msgid "display user help"
+msgstr "abiteabe kuvamine"
+
+#: ../gok.glade2.h:143
+msgid "high"
+msgstr ""
+
+#: ../gok.glade2.h:144
+msgid "low"
+msgstr ""
+
+#: ../gok.glade2.h:145
+msgid "pixels"
+msgstr "pikslit"
+
+#: ../gok.glade2.h:146
+msgid "revert to original settings"
+msgstr ""
+
+#: ../gok.glade2.h:147
+msgid "try these settings"
+msgstr ""
+
+#: ../gok.glade2.h:148
+msgid "use these settings"
+msgstr ""
+
+#: ../gok/callbacks.c:372
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr ""
+
+#: ../gok/callbacks.c:374
+msgid "GOK Access Method Wizard"
+msgstr ""
+
+#: ../gok/gok-control.c:227
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "Vabandust, helifaili sirvimine pole veel teostatud."
+
+#: ../gok/gok-control.c:229
+msgid "GOK Browse for sound file"
+msgstr ""
+
+#: ../gok/gok-control.c:253
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "Vabandust, laiendatud sätted pole veel teostatud."
+
+#: ../gok/gok-control.c:255
+msgid "GOK Inverse Scanning Advanced"
+msgstr ""
+
+#: ../gok/gok-editor.c:154 ../gok/gok-editor.c:187 ../gok/gok-editor.c:267
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"Sa oled käesolevat faili muutnud.\n"
+"Soovid sa muudatusi tühistada?"
+
+#: ../gok/gok-editor.c:156 ../gok/gok-editor.c:189 ../gok/gok-editor.c:269
+#: ../gok/gok-editor.c:1060
+msgid "Keyboard Filename Invalid"
+msgstr ""
+
+#: ../gok/gok-editor.c:218
+msgid "new"
+msgstr "uus"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:279
+msgid "Select keyboard file for editing"
+msgstr ""
+
+#: ../gok/gok-editor.c:289 ../gok/gok-editor.c:981
+msgid ".kbd files"
+msgstr ".kbd failid"
+
+#: ../gok/gok-editor.c:544
+msgid "label"
+msgstr "silt"
+
+#: ../gok/gok-editor.c:718
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "Faili pole võimalik salvestada: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:971
+msgid "Save keyboard file as"
+msgstr "Klaviatuurifaili salvestamine nimega"
+
+#: ../gok/gok-editor.c:1052
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"Klaviatuurifaili nimi on vigane:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1082
+msgid "(new)"
+msgstr "(uus)"
+
+#: ../gok/gok-input.c:527
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+
+#: ../gok/gok-key.c:117
+msgid "Mute"
+msgstr "Tumm"
+
+#: ../gok/gok-key.c:120
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"Hiir\n"
+"Klahvid"
+
+#: ../gok/gok-key.c:123
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+
+#: ../gok/gok-key.c:230
+msgid "<nil>"
+msgstr ""
+
+#: ../gok/gok-key.c:234
+msgid "Divide"
+msgstr "Jaga"
+
+#: ../gok/gok-key.c:237
+msgid "Multiply"
+msgstr "Korruta"
+
+#: ../gok/gok-key.c:240
+msgid "Subtract"
+msgstr "Lahuta"
+
+#: ../gok/gok-key.c:243
+msgid "Addition"
+msgstr "Liida"
+
+#: ../gok/gok-key.c:246
+msgid "Prior"
+msgstr "Eelmine"
+
+#: ../gok/gok-key.c:249
+msgid "Next"
+msgstr "Järgmine"
+
+#: ../gok/gok-key.c:252 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Algusesse"
+
+#: ../gok/gok-key.c:255 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "Lõppu"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:258 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "Üles"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:261 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "Alla"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:264 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "Vasakule"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:267 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "Paremale"
+
+#: ../gok/gok-key.c:270
+msgid "Begin"
+msgstr ""
+
+#: ../gok/gok-key.c:273
+msgid "Decimal"
+msgstr ""
+
+#: ../gok/gok-key.c:276
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:279
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+
+#: ../gok/gok-key.c:282
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+
+#: ../gok/gok-key.c:285
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+
+#: ../gok/gok-key.c:288
+msgid "Muhenkan"
+msgstr ""
+
+#: ../gok/gok-key.c:291
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+
+#: ../gok/gok-key.c:294
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:155
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:161 ../gok/gok-keyboard.c:202
+msgid "keyboard description not available!"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:167 ../gok/gok-keyboard.c:208
+#: ../gok/gok-keyboard.c:504
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr ""
+
+#: ../gok/gok-keyboard.c:432
+msgid "Back"
+msgstr "Tagasi"
+
+#: ../gok/gok-keyboard.c:449 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:461
+msgid "Edit"
+msgstr "Redigeeri"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:474
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:488 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "Peida"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:699
+msgid "shift"
+msgstr ""
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:711
+msgid "Level 2"
+msgstr ""
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:723
+msgid "Level 3"
+msgstr ""
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:735
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:746 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tab"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:757
+msgid "space"
+msgstr "tühik"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:768 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Enter"
+
+#: ../gok/gok-keyboard.c:806 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "Menüüd"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. * The prefix before the '|' character is just a context string and need not be
+#. * translated.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:865
+msgid "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr ""
+
+#. The substring "level 1|" should not be translated.
+#. * For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:870
+msgid "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr ""
+
+#. Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#.
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#.
+#: ../gok/gok-keyboard.c:877 ../gok/gok-keyboard.c:933
+msgid "level 2|"
+msgstr ""
+
+#. For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#: ../gok/gok-keyboard.c:880 ../gok/gok-keyboard.c:934
+msgid "level 3|"
+msgstr ""
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "level #|abcde..." strings
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:928
+msgid "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:929
+msgid "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr ""
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1920
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2824
+msgid "GUI"
+msgstr ""
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2829 ../gok/gok-spy.c:1746
+msgid "Table"
+msgstr "Tabel"
+
+#: ../gok/gok-keyboard.c:2834 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "Tööriistaribad"
+
+#: ../gok/gok-keyboard.c:2838
+msgid "Applications"
+msgstr "Rakendused"
+
+#: ../gok/gok-keyboard.c:2848
+msgid "Menu"
+msgstr "Menüü"
+
+#: ../gok/gok-keyboard.c:3747
+msgid "translator-credits"
+msgstr "Ivar Smolin <okul@linux.ee>, 2005-2008."
+
+#: ../gok/gok-keyboard.c:3770 ../gok/main.c:1854 ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3772
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "Dünaamilised virtuaalklaviatuurid GNOME töölauale"
+
+#: ../gok/gok-keyboard.c:3781
+msgid "Full Credits"
+msgstr "Täielik autorite loetelu"
+
+#: ../gok/gok-libusb.c:161
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "libusb taustaprogrammi pole võimalik lähtestada - %s"
+
+#: ../gok/gok-libusb.c:189
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr ""
+
+#: ../gok/gok-libusb.c:200
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr ""
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:212
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr ""
+
+#: ../gok/gok-libusb.c:300
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr ""
+
+#: ../gok/gok-scanner.c:1005
+msgid "error reading description"
+msgstr ""
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1664
+msgid "V Scrollbar"
+msgstr "Püstkerimisriba"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1669
+msgid "H Scrollbar"
+msgstr "Rõhtkerimisriba"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:373 ../gok/gok-page-actions.c:418
+#: ../gok/gok-page-actions.c:437
+msgid "GOK Action Name"
+msgstr "GOK tegevuse nimi"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:379
+msgid "Change the action name:"
+msgstr "Tegevuse nime muutmine:"
+
+#: ../gok/gok-page-actions.c:416
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"Tegevuse nimi ei tohi olla tühi.\n"
+"Palun sisesta tegevusele nimi."
+
+#: ../gok/gok-page-actions.c:435
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"Sellise nimega tegevus on juba olemas.\n"
+"Palun sisesta tegevusele uus nimi."
+
+#: ../gok/gok-page-actions.c:489
+#, c-format
+msgid "New Action %d"
+msgstr "Uus toiming %d"
+
+#: ../gok/gok-page-actions.c:552
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "Kas soovid kustutada seda toimingut (%s)?"
+
+#: ../gok/gok-page-actions.c:560
+msgid "GOK Delete Action"
+msgstr ""
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:411 ../gok/gok-page-feedbacks.c:456
+#: ../gok/gok-page-feedbacks.c:475
+msgid "GOK Feedback Name"
+msgstr "GOK tagasiside nimi"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:417
+msgid "Change the feedback name:"
+msgstr "Tagasiside nime muutmine:"
+
+#: ../gok/gok-page-feedbacks.c:454
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+
+#: ../gok/gok-page-feedbacks.c:473
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+
+#: ../gok/gok-page-feedbacks.c:525
+#, c-format
+msgid "New Feedback %d"
+msgstr "Uus tagasiside %d"
+
+#: ../gok/gok-page-feedbacks.c:641
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr ""
+
+#: ../gok/gok-page-feedbacks.c:649
+msgid "GOK Delete Feedback"
+msgstr ""
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:872
+msgid "Select sound file"
+msgstr "Helifaili valimine"
+
+#: ../gok/gok-page-keyboard.c:180
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr ""
+
+#: ../gok/gok-page-keyboard.c:194
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr ""
+
+#: ../gok/gok-page-keysizespace.c:83
+msgid "Button"
+msgstr "Nupp"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "Akende loend"
+
+#: ../gok/gok-utf8-word-complete.c:120
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr ""
+
+#: ../gok/main.c:197
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+
+#: ../gok/main.c:198
+msgid "NAME"
+msgstr "NIMI"
+
+#: ../gok/main.c:206
+msgid "Start the GOK keyboard editor"
+msgstr "GOK klaviatuuriredaktori käivitamine"
+
+#: ../gok/main.c:214
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "GOK erilise kuid ebastabiilse funktsionaalsuse kasutamine"
+
+#: ../gok/main.c:222
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+
+#: ../gok/main.c:223
+msgid "GEOMETRY"
+msgstr "GEOMEETRIA"
+
+#: ../gok/main.c:231
+msgid "Use the specified input device"
+msgstr "Kirjeldatud sisendseadme kasutamine"
+
+#: ../gok/main.c:232
+msgid "DEVICENAME"
+msgstr "SEADMENIMI"
+
+#: ../gok/main.c:240
+msgid "Start GOK with the specified keyboard."
+msgstr "GOK käivitamine koos määratud klaviatuuriga"
+
+#: ../gok/main.c:241
+msgid "KEYBOARDNAME"
+msgstr "KLAVIATUURINIMI"
+
+#: ../gok/main.c:249
+msgid "List the access methods that can be used as options to other arguments."
+msgstr ""
+
+#: ../gok/main.c:258
+msgid "List the actions that can be used as options to other arguments."
+msgstr ""
+
+#: ../gok/main.c:267
+msgid "GOK will be used to login"
+msgstr "GOK-d kasutatakse sisselogimiseks"
+
+#: ../gok/main.c:277
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr ""
+
+#: ../gok/main.c:287
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+
+#: ../gok/main.c:298
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+
+#: ../gok/main.c:308
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+
+#: ../gok/main.c:317
+msgid "Open the settings dialog box when GOK starts"
+msgstr "Sätete dialoogi avamine GOK käivitamisel"
+
+#: ../gok/main.c:327
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+
+#: ../gok/main.c:582
+msgid "The GNOME On-screen Keyboard"
+msgstr "GNOME ekraaniklaviatuur"
+
+#: ../gok/main.c:684
+#, c-format
+msgid "gok: Unsupported geometry specification\n"
+msgstr ""
+
+#: ../gok/main.c:685
+#, c-format
+msgid ""
+"gok: Currently GOK requires that the x, y, width and height all be given\n"
+msgstr ""
+
+#: ../gok/main.c:781
+msgid "XKB extension is required."
+msgstr "XKB laiendus on vajalik"
+
+#: ../gok/main.c:791
+msgid "Can't initialize actions."
+msgstr "Toimingute lähtestamine pole võimalik."
+
+#: ../gok/main.c:801
+msgid "Can't initialize feedbacks."
+msgstr "Tagasisidesid pole võimalik lähtestada"
+
+#: ../gok/main.c:846 ../gok/main.c:855
+msgid "can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr ""
+
+#: ../gok/main.c:871
+msgid "Can't create the main GOK window!"
+msgstr "GOK peaakent pole võimalik luua!"
+
+#: ../gok/main.c:890
+msgid "Can't create the settings dialog window!"
+msgstr "Sätete dialoogiakent pole võimalik luua!"
+
+#: ../gok/main.c:953
+msgid "No keyboards to display!"
+msgstr "Pole klaviatuure, mida kuvada!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1087 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr ""
+
+#: ../gok/main.c:1103
+msgid "popup menu"
+msgstr "hüpikmenüü"
+
+#: ../gok/main.c:2040
+msgid "Can't create a compose keyboard!"
+msgstr ""
+
+#: ../gok/main.c:2082
+msgid "Can't read any keyboards!"
+msgstr ""
+
+#: ../gok/main.c:2198
+msgid "could not access method directory key from GConf!"
+msgstr ""
+
+#: ../gok/main.c:2206
+msgid "possibly unknown access method!"
+msgstr ""
+
+#: ../gok/main.c:2760
+#, c-format
+msgid ""
+"Sorry, GOK can't run because:\n"
+"%s"
+msgstr ""
+"Vabandust, GOK ei saa käivituda. Põhjus:\n"
+"%s"
+
+#: ../gok/main.c:2768
+msgid "GOK Fatal Error"
+msgstr "GOK saatuslik viga"
+
+#: ../gok/main.c:2781
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run.  GOK is currently unable to retrieve those settings.  If "
+"this is the first time that you have run gok after installing it you may "
+"need to restart gconfd, you can use this command: 'gconftool-2 --shutdown' "
+"or log out and back in."
+msgstr ""
+
+#: ../gok/main.c:2798
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given.  Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+
+#: ../gok/main.c:2800
+msgid "gok: Unsupported geometry specification"
+msgstr "gok: Toetamata geomeetriakirjeldus"
+
+#: ../gok/main.c:3016
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+
+#: ../gok/main.c:3023
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK lubas kleepuvad klahvid, kuna neid on GOK töötamiseks vaja.\n"
+
+#: ../gok/main.c:3045
+msgid "GOK cannot run because XKB display extension is missing.\n"
+msgstr "GOK ei saa käivituda kuna XKB kuvalaiendus on puudu.\n"
+
+#: ../gok/main.c:3118
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+
+#: ../gok/main.c:3124
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+
+#. no longer used!
+#: ../gok/main.c:3131 ../gok/main.c:3134
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr ""
+
+#: ../gok/main.c:3232
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"Abistava tehnika tugi pole lubatud.\n"
+"\n"
+"Sa võid GOK käivitada ilma abistava tehnika toeta, kuid sel juhul pole "
+"programmi mõningane funktsionaalsus kasutatav.\n"
+"\n"
+"Abistava tehnika toe lubamiseks pead sa lisaks lubamisele veel uue seansiga "
+"sisse logima. Kui soovid seda teha, klõpsa \"Luba ja logi välja\".\n"
+"\n"
+"GOK kasutamise jätkamiseks klõpsa \"Jätka\".\n"
+"\n"
+"GOK sulgemiseks klõpsa \"Sulge\".\n"
+"\n"
+
+#: ../gok/main.c:3251
+msgid "Enable and Log Out"
+msgstr "Luba ja logi välja"
+
+#: ../gok/main.c:3263
+msgid "Continue"
+msgstr "Jätka"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(sekundisajandikku)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "Pööratud läbivaatus"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr ""
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "Läbivaatus:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "Üksiku klahvi automaatne läbivaatamine"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "Läbivaatuse alustamine:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap"
+msgstr ""
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "Üksiku klahvi pööratud läbivaatamine"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr ""
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "Alla:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:32
+msgid "Up:"
+msgstr "Üles:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "Näita"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "Abiteabe sirvija"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "Terminal"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "Tekstiredaktor"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "Veebisirvija"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "Sisesta"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "Käivita"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "Hiir"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "Nupp 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "Nupp 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "Nupp 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "Topeltklõps"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr ""
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "Kursor"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "Kordus"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "Täida"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Ujuv"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "Kitsam"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "Järgmise klahvi kordamine"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "Lühem"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "Pikem"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "Laiem"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "Lõpeta!"

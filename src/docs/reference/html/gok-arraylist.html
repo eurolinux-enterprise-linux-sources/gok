@@ -1,0 +1,350 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>arraylist</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch04.html" title="Command Prediction">
+<link rel="prev" href="gok-global.html" title="global">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-global.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td> </td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-arraylist.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-arraylist.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="arraylist">
+<a name="gok-arraylist"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-arraylist.top_of_page"></a>arraylist</span></h2>
+<p>arraylist</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-arraylist.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>
+#define             <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a>
+void                <a class="link" href="gok-arraylist.html#arraylist-free" title="arraylist_free ()">arraylist_free</a>                      (const Arraylist list);
+Arraylist           <a class="link" href="gok-arraylist.html#arraylist-create" title="arraylist_create ()">arraylist_create</a>                    (const <a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a> (equalsconst Object object_1, const Object object_2) ());
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-arraylist.html#arraylist-add" title="arraylist_add ()">arraylist_add</a>                       (const Arraylist list,
+                                                         <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-arraylist.html#arraylist-remove" title="arraylist_remove ()">arraylist_remove</a>                    (const Arraylist list,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-arraylist.html#arraylist-contains" title="arraylist_contains ()">arraylist_contains</a>                  (const Arraylist list,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);
+int                 <a class="link" href="gok-arraylist.html#arraylist-index-of" title="arraylist_index_of ()">arraylist_index_of</a>                  (const Arraylist list,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-arraylist.html#arraylist-is-empty" title="arraylist_is_empty ()">arraylist_is_empty</a>                  (const Arraylist list);
+int                 <a class="link" href="gok-arraylist.html#arraylist-size" title="arraylist_size ()">arraylist_size</a>                      (const Arraylist list);
+<a class="link" href="gok-arraylist.html#Object" title="Object">Object</a>              <a class="link" href="gok-arraylist.html#arraylist-get" title="arraylist_get ()">arraylist_get</a>                       (const Arraylist list,
+                                                         const int index);
+void                <a class="link" href="gok-arraylist.html#arraylist-clear" title="arraylist_clear ()">arraylist_clear</a>                     (const Arraylist list);
+void                <a class="link" href="gok-arraylist.html#arraylist-sort" title="arraylist_sort ()">arraylist_sort</a>                      (const Arraylist list,
+                                                         const int (compareconst Object object_1, const Object object_2) ());
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-arraylist.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-arraylist.details"></a><h2>Details</h2>
+<div class="refsect2" title="Boolean">
+<a name="Boolean"></a><h3>Boolean</h3>
+<pre class="programlisting">#define             Boolean</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="Object">
+<a name="Object"></a><h3>Object</h3>
+<pre class="programlisting">#define             Object</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_free ()">
+<a name="arraylist-free"></a><h3>arraylist_free ()</h3>
+<pre class="programlisting">void                arraylist_free                      (const Arraylist list);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_create ()">
+<a name="arraylist-create"></a><h3>arraylist_create ()</h3>
+<pre class="programlisting">Arraylist           arraylist_create                    (const <a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a> (equalsconst Object object_1, const Object object_2) ());</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>equals</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_add ()">
+<a name="arraylist-add"></a><h3>arraylist_add ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             arraylist_add                       (const Arraylist list,
+                                                         <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_remove ()">
+<a name="arraylist-remove"></a><h3>arraylist_remove ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             arraylist_remove                    (const Arraylist list,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_contains ()">
+<a name="arraylist-contains"></a><h3>arraylist_contains ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             arraylist_contains                  (const Arraylist list,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_index_of ()">
+<a name="arraylist-index-of"></a><h3>arraylist_index_of ()</h3>
+<pre class="programlisting">int                 arraylist_index_of                  (const Arraylist list,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> object);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_is_empty ()">
+<a name="arraylist-is-empty"></a><h3>arraylist_is_empty ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             arraylist_is_empty                  (const Arraylist list);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_size ()">
+<a name="arraylist-size"></a><h3>arraylist_size ()</h3>
+<pre class="programlisting">int                 arraylist_size                      (const Arraylist list);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_get ()">
+<a name="arraylist-get"></a><h3>arraylist_get ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Object" title="Object">Object</a>              arraylist_get                       (const Arraylist list,
+                                                         const int index);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>index</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_clear ()">
+<a name="arraylist-clear"></a><h3>arraylist_clear ()</h3>
+<pre class="programlisting">void                arraylist_clear                     (const Arraylist list);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="arraylist_sort ()">
+<a name="arraylist-sort"></a><h3>arraylist_sort ()</h3>
+<pre class="programlisting">void                arraylist_sort                      (const Arraylist list,
+                                                         const int (compareconst Object object_1, const Object object_2) ());</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>compare</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

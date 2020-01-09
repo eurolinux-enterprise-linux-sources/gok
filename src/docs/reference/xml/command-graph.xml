@@ -1,0 +1,233 @@
+<refentry id="gok-command-graph">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-command-graph.top_of_page">command-graph</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>command-graph</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-command-graph.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="MAX-NUM-PREDICTIONS--CAPS">MAX_NUM_PREDICTIONS</link>
+<link linkend="void">void</link>                <link linkend="command-graph-free">command_graph_free</link>                  (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="Command-Graph">Command_Graph</link>       <link linkend="command-graph-create">command_graph_create</link>                ();
+<link linkend="void">void</link>                <link linkend="command-graph-add-vertex">command_graph_add_vertex</link>            (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         const <link linkend="Command-Vertex">Command_Vertex</link> vertex);
+const <link linkend="Command-Vertex">Command_Vertex</link> * <link linkend="command-graph-get-last-n-added-vertices">command_graph_get_last_n_added_vertices</link>
+                                                        (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="void">void</link>                <link linkend="command-graph-remove-vertex">command_graph_remove_vertex</link>         (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         const <link linkend="Command-Vertex">Command_Vertex</link> vertex);
+<link linkend="Command-Vertex">Command_Vertex</link>      <link linkend="command-graph-get-vertex">command_graph_get_vertex</link>            (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         const <link linkend="Command-Vertex">Command_Vertex</link> vertex);
+<link linkend="int">int</link>                 <link linkend="command-graph-size">command_graph_size</link>                  (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="int">int</link>                 <link linkend="command-graph-total-commands">command_graph_total_commands</link>        (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="Arraylist">Arraylist</link>           <link linkend="command-graph-get-vertices">command_graph_get_vertices</link>          (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="Command-Vertex">Command_Vertex</link>      <link linkend="command-graph-get-last-added-vertex">command_graph_get_last_added_vertex</link> (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="void">void</link>                <link linkend="command-graph-sort-by-stat">command_graph_sort_by_stat</link>          (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="void">void</link>                <link linkend="command-graph-sort-by-keyboard">command_graph_sort_by_keyboard</link>      (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="void">void</link>                <link linkend="command-graph-dump-to-text">command_graph_dump_to_text</link>          (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         <link linkend="FILE--CAPS">FILE</link> *stream);
+<link linkend="void">void</link>                <link linkend="command-graph-dump-to-binary">command_graph_dump_to_binary</link>        (const <link linkend="Command-Graph">Command_Graph</link> graph);
+<link linkend="Command-Graph">Command_Graph</link>       <link linkend="command-graph-reconstruct-from-binary">command_graph_reconstruct_from_binary</link>
+                                                        ();
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-command-graph.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-command-graph.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="MAX-NUM-PREDICTIONS--CAPS" role="macro">
+<title>MAX_NUM_PREDICTIONS</title>
+<indexterm zone="MAX-NUM-PREDICTIONS--CAPS"><primary sortas="MAX_NUM_PREDICTIONS">MAX_NUM_PREDICTIONS</primary></indexterm><programlisting>#define MAX_NUM_PREDICTIONS 10
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="command-graph-free" role="function">
+<title>command_graph_free ()</title>
+<indexterm zone="command-graph-free"><primary sortas="command_graph_free">command_graph_free</primary></indexterm><programlisting><link linkend="void">void</link>                command_graph_free                  (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-create" role="function">
+<title>command_graph_create ()</title>
+<indexterm zone="command-graph-create"><primary sortas="command_graph_create">command_graph_create</primary></indexterm><programlisting><link linkend="Command-Graph">Command_Graph</link>       command_graph_create                ();</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-add-vertex" role="function">
+<title>command_graph_add_vertex ()</title>
+<indexterm zone="command-graph-add-vertex"><primary sortas="command_graph_add_vertex">command_graph_add_vertex</primary></indexterm><programlisting><link linkend="void">void</link>                command_graph_add_vertex            (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         const <link linkend="Command-Vertex">Command_Vertex</link> vertex);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>vertex</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-get-last-n-added-vertices" role="function">
+<title>command_graph_get_last_n_added_vertices ()</title>
+<indexterm zone="command-graph-get-last-n-added-vertices"><primary sortas="command_graph_get_last_n_added_vertices">command_graph_get_last_n_added_vertices</primary></indexterm><programlisting>const <link linkend="Command-Vertex">Command_Vertex</link> * command_graph_get_last_n_added_vertices
+                                                        (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-remove-vertex" role="function">
+<title>command_graph_remove_vertex ()</title>
+<indexterm zone="command-graph-remove-vertex"><primary sortas="command_graph_remove_vertex">command_graph_remove_vertex</primary></indexterm><programlisting><link linkend="void">void</link>                command_graph_remove_vertex         (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         const <link linkend="Command-Vertex">Command_Vertex</link> vertex);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>vertex</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-get-vertex" role="function">
+<title>command_graph_get_vertex ()</title>
+<indexterm zone="command-graph-get-vertex"><primary sortas="command_graph_get_vertex">command_graph_get_vertex</primary></indexterm><programlisting><link linkend="Command-Vertex">Command_Vertex</link>      command_graph_get_vertex            (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         const <link linkend="Command-Vertex">Command_Vertex</link> vertex);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>vertex</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-size" role="function">
+<title>command_graph_size ()</title>
+<indexterm zone="command-graph-size"><primary sortas="command_graph_size">command_graph_size</primary></indexterm><programlisting><link linkend="int">int</link>                 command_graph_size                  (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-total-commands" role="function">
+<title>command_graph_total_commands ()</title>
+<indexterm zone="command-graph-total-commands"><primary sortas="command_graph_total_commands">command_graph_total_commands</primary></indexterm><programlisting><link linkend="int">int</link>                 command_graph_total_commands        (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-get-vertices" role="function">
+<title>command_graph_get_vertices ()</title>
+<indexterm zone="command-graph-get-vertices"><primary sortas="command_graph_get_vertices">command_graph_get_vertices</primary></indexterm><programlisting><link linkend="Arraylist">Arraylist</link>           command_graph_get_vertices          (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-get-last-added-vertex" role="function">
+<title>command_graph_get_last_added_vertex ()</title>
+<indexterm zone="command-graph-get-last-added-vertex"><primary sortas="command_graph_get_last_added_vertex">command_graph_get_last_added_vertex</primary></indexterm><programlisting><link linkend="Command-Vertex">Command_Vertex</link>      command_graph_get_last_added_vertex (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-sort-by-stat" role="function">
+<title>command_graph_sort_by_stat ()</title>
+<indexterm zone="command-graph-sort-by-stat"><primary sortas="command_graph_sort_by_stat">command_graph_sort_by_stat</primary></indexterm><programlisting><link linkend="void">void</link>                command_graph_sort_by_stat          (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-sort-by-keyboard" role="function">
+<title>command_graph_sort_by_keyboard ()</title>
+<indexterm zone="command-graph-sort-by-keyboard"><primary sortas="command_graph_sort_by_keyboard">command_graph_sort_by_keyboard</primary></indexterm><programlisting><link linkend="void">void</link>                command_graph_sort_by_keyboard      (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-dump-to-text" role="function">
+<title>command_graph_dump_to_text ()</title>
+<indexterm zone="command-graph-dump-to-text"><primary sortas="command_graph_dump_to_text">command_graph_dump_to_text</primary></indexterm><programlisting><link linkend="void">void</link>                command_graph_dump_to_text          (const <link linkend="Command-Graph">Command_Graph</link> graph,
+                                                         <link linkend="FILE--CAPS">FILE</link> *stream);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>stream</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-dump-to-binary" role="function">
+<title>command_graph_dump_to_binary ()</title>
+<indexterm zone="command-graph-dump-to-binary"><primary sortas="command_graph_dump_to_binary">command_graph_dump_to_binary</primary></indexterm><programlisting><link linkend="void">void</link>                command_graph_dump_to_binary        (const <link linkend="Command-Graph">Command_Graph</link> graph);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>graph</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-graph-reconstruct-from-binary" role="function">
+<title>command_graph_reconstruct_from_binary ()</title>
+<indexterm zone="command-graph-reconstruct-from-binary"><primary sortas="command_graph_reconstruct_from_binary">command_graph_reconstruct_from_binary</primary></indexterm><programlisting><link linkend="Command-Graph">Command_Graph</link>       command_graph_reconstruct_from_binary
+                                                        ();</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

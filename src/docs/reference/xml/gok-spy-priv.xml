@@ -1,0 +1,91 @@
+<refentry id="gok-gok-spy-priv">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-gok-spy-priv.top_of_page">gok-spy-priv</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gok-spy-priv</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-gok-spy-priv.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+<link linkend="void">void</link>                (<link linkend="ListChangeListenerCB">*ListChangeListenerCB</link>)             (<link linkend="AccessibleNode">AccessibleNode</link> *plist);
+<link linkend="void">void</link>                (<link linkend="MouseButtonListenerCB">*MouseButtonListenerCB</link>)            (<link linkend="gint">gint</link> mouseButton,
+                                                         <link linkend="gint">gint</link> state,
+                                                         long <link linkend="x">x</link> ,
+                                                         long <link linkend="y">y</link> );
+typedef             <link linkend="ListChangeListener">ListChangeListener</link>;
+typedef             <link linkend="MouseButtonListener">MouseButtonListener</link>;
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-gok-spy-priv.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-gok-spy-priv.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="ListChangeListenerCB" role="function">
+<title>ListChangeListenerCB ()</title>
+<indexterm zone="ListChangeListenerCB"><primary sortas="ListChangeListenerCB">ListChangeListenerCB</primary></indexterm><programlisting><link linkend="void">void</link>                (*ListChangeListenerCB)             (<link linkend="AccessibleNode">AccessibleNode</link> *plist);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>plist</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="MouseButtonListenerCB" role="function">
+<title>MouseButtonListenerCB ()</title>
+<indexterm zone="MouseButtonListenerCB"><primary sortas="MouseButtonListenerCB">MouseButtonListenerCB</primary></indexterm><programlisting><link linkend="void">void</link>                (*MouseButtonListenerCB)            (<link linkend="gint">gint</link> mouseButton,
+                                                         <link linkend="gint">gint</link> state,
+                                                         long <link linkend="x">x</link> ,
+                                                         long <link linkend="y">y</link> );</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>mouseButton</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>state</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Param3</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Param4</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="ListChangeListener" role="typedef">
+<title>ListChangeListener</title>
+<indexterm zone="ListChangeListener"><primary sortas="ListChangeListener">ListChangeListener</primary></indexterm><programlisting>typedef void ListChangeListener;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="MouseButtonListener" role="typedef">
+<title>MouseButtonListener</title>
+<indexterm zone="MouseButtonListener"><primary sortas="MouseButtonListener">MouseButtonListener</primary></indexterm><programlisting>typedef void MouseButtonListener;
+</programlisting>
+<para>
+</para></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

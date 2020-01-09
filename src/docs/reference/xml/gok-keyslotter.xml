@@ -1,0 +1,105 @@
+<refentry id="gok-gok-keyslotter">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-gok-keyslotter.top_of_page">gok-keyslotter</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gok-keyslotter</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-gok-keyslotter.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-keyslotter-on">gok_keyslotter_on</link>                   (<link linkend="gboolean">gboolean</link> bOnOff,
+                                                         <link linkend="int">int</link> keytype);
+<link linkend="void">void</link>                <link linkend="gok-keyslotter-change-number-predictions">gok_keyslotter_change_number_predictions</link>
+                                                        (<link linkend="int">int</link> Number,
+                                                         <link linkend="int">int</link> keytype);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-keyslotter-add-prediction-keys">gok_keyslotter_add_prediction_keys</link>  (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="int">int</link> keytype);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-gok-keyslotter.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-gok-keyslotter.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="gok-keyslotter-on" role="function">
+<title>gok_keyslotter_on ()</title>
+<indexterm zone="gok-keyslotter-on"><primary sortas="gok_keyslotter_on">gok_keyslotter_on</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_keyslotter_on                   (<link linkend="gboolean">gboolean</link> bOnOff,
+                                                         <link linkend="int">int</link> keytype);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>bOnOff</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>keytype</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-keyslotter-change-number-predictions" role="function">
+<title>gok_keyslotter_change_number_predictions ()</title>
+<indexterm zone="gok-keyslotter-change-number-predictions"><primary sortas="gok_keyslotter_change_number_predictions">gok_keyslotter_change_number_predictions</primary></indexterm><programlisting><link linkend="void">void</link>                gok_keyslotter_change_number_predictions
+                                                        (<link linkend="int">int</link> Number,
+                                                         <link linkend="int">int</link> keytype);</programlisting>
+<para>
+<parameter>Number</parameter>: Number of prediction keys.
+</para>
+<para>
+Changes the number of prediction keys displayed on the keyboard. This
+should be called after the user has selected a new number from the settings
+dialog.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Number</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>keytype</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-keyslotter-add-prediction-keys" role="function">
+<title>gok_keyslotter_add_prediction_keys ()</title>
+<indexterm zone="gok-keyslotter-add-prediction-keys"><primary sortas="gok_keyslotter_add_prediction_keys">gok_keyslotter_add_prediction_keys</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_keyslotter_add_prediction_keys  (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="int">int</link> keytype);</programlisting>
+<para>
+<parameter>pKeyboard</parameter>: Pointer to the keyboard that gets the new prediction keys.
+</para>
+<para>
+Adds a row of prediction keys to the given keyboard.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>keytype</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the prediction keys were added, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

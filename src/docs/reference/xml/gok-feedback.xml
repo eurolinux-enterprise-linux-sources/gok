@@ -1,0 +1,170 @@
+<refentry id="gok-gok-feedback">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-gok-feedback.top_of_page">gok-feedback</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gok-feedback</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-gok-feedback.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+<link linkend="GokFeedback">GokFeedback</link>*        <link linkend="gok-feedback-new">gok_feedback_new</link>                    (void);
+<link linkend="void">void</link>                <link linkend="gok-feedback-free">gok_feedback_free</link>                   (<link linkend="GokFeedback">GokFeedback</link> *pFeedback);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-feedback-open">gok_feedback_open</link>                   (void);
+<link linkend="void">void</link>                <link linkend="gok-feedback-close">gok_feedback_close</link>                  (void);
+<link linkend="GokFeedback">GokFeedback</link>*        <link linkend="gok-feedback-get-first-feedback">gok_feedback_get_first_feedback</link>     (void);
+<link linkend="GokFeedback">GokFeedback</link>*        <link linkend="gok-feedback-find-feedback">gok_feedback_find_feedback</link>          (<link linkend="gchar">gchar</link> *NameFeedback,
+                                                         <link linkend="gboolean">gboolean</link> bDisplayName);
+<link linkend="void">void</link>                <link linkend="gok-feedback-add-feedback">gok_feedback_add_feedback</link>           (<link linkend="GokFeedback">GokFeedback</link> *pFeedbackNew);
+<link linkend="void">void</link>                <link linkend="gok-feedback-delete-feedback">gok_feedback_delete_feedback</link>        (<link linkend="GokFeedback">GokFeedback</link> *pFeedbackDelete);
+<link linkend="void">void</link>                <link linkend="gok-feedback-backup">gok_feedback_backup</link>                 (<link linkend="GokFeedback">GokFeedback</link> *pFeedback);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-feedback-revert">gok_feedback_revert</link>                 (<link linkend="GokFeedback">GokFeedback</link> *pFeedback);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-gok-feedback.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-gok-feedback.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="gok-feedback-new" role="function">
+<title>gok_feedback_new ()</title>
+<indexterm zone="gok-feedback-new"><primary sortas="gok_feedback_new">gok_feedback_new</primary></indexterm><programlisting><link linkend="GokFeedback">GokFeedback</link>*        gok_feedback_new                    (void);</programlisting>
+<para>
+Allocates memory for a new GokFeedback and initializes its attributes
+to default values. Please free the returned GokFeedback using
+gok_feedback_free.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to a new GokFeedback.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-free" role="function">
+<title>gok_feedback_free ()</title>
+<indexterm zone="gok-feedback-free"><primary sortas="gok_feedback_free">gok_feedback_free</primary></indexterm><programlisting><link linkend="void">void</link>                gok_feedback_free                   (<link linkend="GokFeedback">GokFeedback</link> *pFeedback);</programlisting>
+<para>
+Frees a GokFeedback and associated resources.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pFeedback</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the feedback that will be freed.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-open" role="function">
+<title>gok_feedback_open ()</title>
+<indexterm zone="gok-feedback-open"><primary sortas="gok_feedback_open">gok_feedback_open</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_feedback_open                   (void);</programlisting>
+<para>
+Initializes the gok feedbacks and reads them from GConf.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the feedbacks were initialized, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-close" role="function">
+<title>gok_feedback_close ()</title>
+<indexterm zone="gok-feedback-close"><primary sortas="gok_feedback_close">gok_feedback_close</primary></indexterm><programlisting><link linkend="void">void</link>                gok_feedback_close                  (void);</programlisting>
+<para>
+Closes the gok feedbacks and saves them in GConf.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-feedback-get-first-feedback" role="function">
+<title>gok_feedback_get_first_feedback ()</title>
+<indexterm zone="gok-feedback-get-first-feedback"><primary sortas="gok_feedback_get_first_feedback">gok_feedback_get_first_feedback</primary></indexterm><programlisting><link linkend="GokFeedback">GokFeedback</link>*        gok_feedback_get_first_feedback     (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the first feedback in the list of feedbacks.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-find-feedback" role="function">
+<title>gok_feedback_find_feedback ()</title>
+<indexterm zone="gok-feedback-find-feedback"><primary sortas="gok_feedback_find_feedback">gok_feedback_find_feedback</primary></indexterm><programlisting><link linkend="GokFeedback">GokFeedback</link>*        gok_feedback_find_feedback          (<link linkend="gchar">gchar</link> *NameFeedback,
+                                                         <link linkend="gboolean">gboolean</link> bDisplayName);</programlisting>
+<para>
+Finds the feedback from within our list of feedbacks.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>NameFeedback</parameter>&#160;:</term>
+<listitem><simpara> Name of the feedback you're trying to find.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>bDisplayName</parameter>&#160;:</term>
+<listitem><simpara> This should be set TRUE if you are passing in the display
+name of the feedback. It should be set FALSE if passing in the actual
+name of the feedback.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the feedback, NULL if not found.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-add-feedback" role="function">
+<title>gok_feedback_add_feedback ()</title>
+<indexterm zone="gok-feedback-add-feedback"><primary sortas="gok_feedback_add_feedback">gok_feedback_add_feedback</primary></indexterm><programlisting><link linkend="void">void</link>                gok_feedback_add_feedback           (<link linkend="GokFeedback">GokFeedback</link> *pFeedbackNew);</programlisting>
+<para>
+Adds a new feedback to our list of feedbacks.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pFeedbackNew</parameter>&#160;:</term>
+<listitem><simpara> Pointer to an feedback that gets added to our list of feedbacks.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-delete-feedback" role="function">
+<title>gok_feedback_delete_feedback ()</title>
+<indexterm zone="gok-feedback-delete-feedback"><primary sortas="gok_feedback_delete_feedback">gok_feedback_delete_feedback</primary></indexterm><programlisting><link linkend="void">void</link>                gok_feedback_delete_feedback        (<link linkend="GokFeedback">GokFeedback</link> *pFeedbackDelete);</programlisting>
+<para>
+Deletes the given feedback and unhooks it from our list of feedbacks.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pFeedbackDelete</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the feedback that will be deleted.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-backup" role="function">
+<title>gok_feedback_backup ()</title>
+<indexterm zone="gok-feedback-backup"><primary sortas="gok_feedback_backup">gok_feedback_backup</primary></indexterm><programlisting><link linkend="void">void</link>                gok_feedback_backup                 (<link linkend="GokFeedback">GokFeedback</link> *pFeedback);</programlisting>
+<para>
+Creates a copy of all the data stored on the feedback.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pFeedback</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the feedback that will be backed up.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-feedback-revert" role="function">
+<title>gok_feedback_revert ()</title>
+<indexterm zone="gok-feedback-revert"><primary sortas="gok_feedback_revert">gok_feedback_revert</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_feedback_revert                 (<link linkend="GokFeedback">GokFeedback</link> *pFeedback);</programlisting>
+<para>
+Moves the backup data to the current data on the feedback.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pFeedback</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the feedback that will be reverted.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if any of the reverted settings are different from the
+current settings. Returns FALSE if the reverted settings are the same
+as the current settings.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

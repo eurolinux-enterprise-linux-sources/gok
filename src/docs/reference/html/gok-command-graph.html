@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>command-graph</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch04.html" title="Command Prediction">
+<link rel="prev" href="gok-command-edge.html" title="command-edge">
+<link rel="next" href="gok-command-predictor.html" title="command-predictor">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-command-edge.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-command-predictor.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-command-graph.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-command-graph.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="command-graph">
+<a name="gok-command-graph"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-command-graph.top_of_page"></a>command-graph</span></h2>
+<p>command-graph</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-command-graph.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-command-graph.html#MAX-NUM-PREDICTIONS--CAPS" title="MAX_NUM_PREDICTIONS">MAX_NUM_PREDICTIONS</a>
+void                <a class="link" href="gok-command-graph.html#command-graph-free" title="command_graph_free ()">command_graph_free</a>                  (const Command_Graph graph);
+Command_Graph       <a class="link" href="gok-command-graph.html#command-graph-create" title="command_graph_create ()">command_graph_create</a>                ();
+void                <a class="link" href="gok-command-graph.html#command-graph-add-vertex" title="command_graph_add_vertex ()">command_graph_add_vertex</a>            (const Command_Graph graph,
+                                                         const Command_Vertex vertex);
+const Command_Vertex * <a class="link" href="gok-command-graph.html#command-graph-get-last-n-added-vertices" title="command_graph_get_last_n_added_vertices ()">command_graph_get_last_n_added_vertices</a>
+                                                        (const Command_Graph graph);
+void                <a class="link" href="gok-command-graph.html#command-graph-remove-vertex" title="command_graph_remove_vertex ()">command_graph_remove_vertex</a>         (const Command_Graph graph,
+                                                         const Command_Vertex vertex);
+Command_Vertex      <a class="link" href="gok-command-graph.html#command-graph-get-vertex" title="command_graph_get_vertex ()">command_graph_get_vertex</a>            (const Command_Graph graph,
+                                                         const Command_Vertex vertex);
+int                 <a class="link" href="gok-command-graph.html#command-graph-size" title="command_graph_size ()">command_graph_size</a>                  (const Command_Graph graph);
+int                 <a class="link" href="gok-command-graph.html#command-graph-total-commands" title="command_graph_total_commands ()">command_graph_total_commands</a>        (const Command_Graph graph);
+Arraylist           <a class="link" href="gok-command-graph.html#command-graph-get-vertices" title="command_graph_get_vertices ()">command_graph_get_vertices</a>          (const Command_Graph graph);
+Command_Vertex      <a class="link" href="gok-command-graph.html#command-graph-get-last-added-vertex" title="command_graph_get_last_added_vertex ()">command_graph_get_last_added_vertex</a> (const Command_Graph graph);
+void                <a class="link" href="gok-command-graph.html#command-graph-sort-by-stat" title="command_graph_sort_by_stat ()">command_graph_sort_by_stat</a>          (const Command_Graph graph);
+void                <a class="link" href="gok-command-graph.html#command-graph-sort-by-keyboard" title="command_graph_sort_by_keyboard ()">command_graph_sort_by_keyboard</a>      (const Command_Graph graph);
+void                <a class="link" href="gok-command-graph.html#command-graph-dump-to-text" title="command_graph_dump_to_text ()">command_graph_dump_to_text</a>          (const Command_Graph graph,
+                                                         FILE *stream);
+void                <a class="link" href="gok-command-graph.html#command-graph-dump-to-binary" title="command_graph_dump_to_binary ()">command_graph_dump_to_binary</a>        (const Command_Graph graph);
+Command_Graph       <a class="link" href="gok-command-graph.html#command-graph-reconstruct-from-binary" title="command_graph_reconstruct_from_binary ()">command_graph_reconstruct_from_binary</a>
+                                                        ();
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-command-graph.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-command-graph.details"></a><h2>Details</h2>
+<div class="refsect2" title="MAX_NUM_PREDICTIONS">
+<a name="MAX-NUM-PREDICTIONS--CAPS"></a><h3>MAX_NUM_PREDICTIONS</h3>
+<pre class="programlisting">#define MAX_NUM_PREDICTIONS 10
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_free ()">
+<a name="command-graph-free"></a><h3>command_graph_free ()</h3>
+<pre class="programlisting">void                command_graph_free                  (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_create ()">
+<a name="command-graph-create"></a><h3>command_graph_create ()</h3>
+<pre class="programlisting">Command_Graph       command_graph_create                ();</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_add_vertex ()">
+<a name="command-graph-add-vertex"></a><h3>command_graph_add_vertex ()</h3>
+<pre class="programlisting">void                command_graph_add_vertex            (const Command_Graph graph,
+                                                         const Command_Vertex vertex);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>vertex</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_get_last_n_added_vertices ()">
+<a name="command-graph-get-last-n-added-vertices"></a><h3>command_graph_get_last_n_added_vertices ()</h3>
+<pre class="programlisting">const Command_Vertex * command_graph_get_last_n_added_vertices
+                                                        (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_remove_vertex ()">
+<a name="command-graph-remove-vertex"></a><h3>command_graph_remove_vertex ()</h3>
+<pre class="programlisting">void                command_graph_remove_vertex         (const Command_Graph graph,
+                                                         const Command_Vertex vertex);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>vertex</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_get_vertex ()">
+<a name="command-graph-get-vertex"></a><h3>command_graph_get_vertex ()</h3>
+<pre class="programlisting">Command_Vertex      command_graph_get_vertex            (const Command_Graph graph,
+                                                         const Command_Vertex vertex);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>vertex</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_size ()">
+<a name="command-graph-size"></a><h3>command_graph_size ()</h3>
+<pre class="programlisting">int                 command_graph_size                  (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_total_commands ()">
+<a name="command-graph-total-commands"></a><h3>command_graph_total_commands ()</h3>
+<pre class="programlisting">int                 command_graph_total_commands        (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_get_vertices ()">
+<a name="command-graph-get-vertices"></a><h3>command_graph_get_vertices ()</h3>
+<pre class="programlisting">Arraylist           command_graph_get_vertices          (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_get_last_added_vertex ()">
+<a name="command-graph-get-last-added-vertex"></a><h3>command_graph_get_last_added_vertex ()</h3>
+<pre class="programlisting">Command_Vertex      command_graph_get_last_added_vertex (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_sort_by_stat ()">
+<a name="command-graph-sort-by-stat"></a><h3>command_graph_sort_by_stat ()</h3>
+<pre class="programlisting">void                command_graph_sort_by_stat          (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_sort_by_keyboard ()">
+<a name="command-graph-sort-by-keyboard"></a><h3>command_graph_sort_by_keyboard ()</h3>
+<pre class="programlisting">void                command_graph_sort_by_keyboard      (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_dump_to_text ()">
+<a name="command-graph-dump-to-text"></a><h3>command_graph_dump_to_text ()</h3>
+<pre class="programlisting">void                command_graph_dump_to_text          (const Command_Graph graph,
+                                                         FILE *stream);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>stream</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_dump_to_binary ()">
+<a name="command-graph-dump-to-binary"></a><h3>command_graph_dump_to_binary ()</h3>
+<pre class="programlisting">void                command_graph_dump_to_binary        (const Command_Graph graph);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>graph</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_graph_reconstruct_from_binary ()">
+<a name="command-graph-reconstruct-from-binary"></a><h3>command_graph_reconstruct_from_binary ()</h3>
+<pre class="programlisting">Command_Graph       command_graph_reconstruct_from_binary
+                                                        ();</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

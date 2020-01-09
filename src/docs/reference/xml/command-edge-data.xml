@@ -1,0 +1,152 @@
+<refentry id="gok-command-edge-data">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-command-edge-data.top_of_page">command-edge-data</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>command-edge-data</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-command-edge-data.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="COMMAND-EDGE-DATA-DEFAULT-WEIGHT--CAPS">COMMAND_EDGE_DATA_DEFAULT_WEIGHT</link>
+#define             <link linkend="COMMAND-EDGE-DATA-WEIGHT-DELTA--CAPS">COMMAND_EDGE_DATA_WEIGHT_DELTA</link>
+<link linkend="Boolean">Boolean</link>             <link linkend="command-edge-data-equals">command_edge_data_equals</link>            (const <link linkend="Object">Object</link> data_1,
+                                                         const <link linkend="Object">Object</link> data_2);
+<link linkend="void">void</link>                <link linkend="command-edge-data-free">command_edge_data_free</link>              (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data);
+<link linkend="Command-Edge-Data">Command_Edge_Data</link>   <link linkend="command-edge-data-create">command_edge_data_create</link>            (const <link linkend="float">float</link> weight);
+<link linkend="void">void</link>                <link linkend="command-edge-data-set-weight">command_edge_data_set_weight</link>        (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data,
+                                                         const <link linkend="float">float</link> weight);
+<link linkend="float">float</link>               <link linkend="command-edge-data-get-weight">command_edge_data_get_weight</link>        (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data);
+<link linkend="void">void</link>                <link linkend="command-edge-data-dump-text">command_edge_data_dump_text</link>         (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data,
+                                                         <link linkend="FILE--CAPS">FILE</link> *stream);
+<link linkend="void">void</link>                <link linkend="command-edge-data-dump-binary">command_edge_data_dump_binary</link>       (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data,
+                                                         <link linkend="FILE--CAPS">FILE</link> *stream);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-command-edge-data.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-command-edge-data.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="COMMAND-EDGE-DATA-DEFAULT-WEIGHT--CAPS" role="macro">
+<title>COMMAND_EDGE_DATA_DEFAULT_WEIGHT</title>
+<indexterm zone="COMMAND-EDGE-DATA-DEFAULT-WEIGHT--CAPS"><primary sortas="COMMAND_EDGE_DATA_DEFAULT_WEIGHT">COMMAND_EDGE_DATA_DEFAULT_WEIGHT</primary></indexterm><programlisting>#define COMMAND_EDGE_DATA_DEFAULT_WEIGHT 1.0
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="COMMAND-EDGE-DATA-WEIGHT-DELTA--CAPS" role="macro">
+<title>COMMAND_EDGE_DATA_WEIGHT_DELTA</title>
+<indexterm zone="COMMAND-EDGE-DATA-WEIGHT-DELTA--CAPS"><primary sortas="COMMAND_EDGE_DATA_WEIGHT_DELTA">COMMAND_EDGE_DATA_WEIGHT_DELTA</primary></indexterm><programlisting>#define COMMAND_EDGE_DATA_WEIGHT_DELTA 1.0
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="command-edge-data-equals" role="function">
+<title>command_edge_data_equals ()</title>
+<indexterm zone="command-edge-data-equals"><primary sortas="command_edge_data_equals">command_edge_data_equals</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             command_edge_data_equals            (const <link linkend="Object">Object</link> data_1,
+                                                         const <link linkend="Object">Object</link> data_2);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>data_1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>data_2</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-edge-data-free" role="function">
+<title>command_edge_data_free ()</title>
+<indexterm zone="command-edge-data-free"><primary sortas="command_edge_data_free">command_edge_data_free</primary></indexterm><programlisting><link linkend="void">void</link>                command_edge_data_free              (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>data</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-edge-data-create" role="function">
+<title>command_edge_data_create ()</title>
+<indexterm zone="command-edge-data-create"><primary sortas="command_edge_data_create">command_edge_data_create</primary></indexterm><programlisting><link linkend="Command-Edge-Data">Command_Edge_Data</link>   command_edge_data_create            (const <link linkend="float">float</link> weight);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>weight</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-edge-data-set-weight" role="function">
+<title>command_edge_data_set_weight ()</title>
+<indexterm zone="command-edge-data-set-weight"><primary sortas="command_edge_data_set_weight">command_edge_data_set_weight</primary></indexterm><programlisting><link linkend="void">void</link>                command_edge_data_set_weight        (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data,
+                                                         const <link linkend="float">float</link> weight);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>data</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>weight</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-edge-data-get-weight" role="function">
+<title>command_edge_data_get_weight ()</title>
+<indexterm zone="command-edge-data-get-weight"><primary sortas="command_edge_data_get_weight">command_edge_data_get_weight</primary></indexterm><programlisting><link linkend="float">float</link>               command_edge_data_get_weight        (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>data</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-edge-data-dump-text" role="function">
+<title>command_edge_data_dump_text ()</title>
+<indexterm zone="command-edge-data-dump-text"><primary sortas="command_edge_data_dump_text">command_edge_data_dump_text</primary></indexterm><programlisting><link linkend="void">void</link>                command_edge_data_dump_text         (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data,
+                                                         <link linkend="FILE--CAPS">FILE</link> *stream);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>data</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>stream</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="command-edge-data-dump-binary" role="function">
+<title>command_edge_data_dump_binary ()</title>
+<indexterm zone="command-edge-data-dump-binary"><primary sortas="command_edge_data_dump_binary">command_edge_data_dump_binary</primary></indexterm><programlisting><link linkend="void">void</link>                command_edge_data_dump_binary       (const <link linkend="Command-Edge-Data">Command_Edge_Data</link> data,
+                                                         <link linkend="FILE--CAPS">FILE</link> *stream);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>data</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>stream</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

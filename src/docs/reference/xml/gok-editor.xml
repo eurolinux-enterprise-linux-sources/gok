@@ -1,0 +1,318 @@
+<refentry id="gok-gok-editor">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-gok-editor.top_of_page">gok-editor</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gok-editor</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-gok-editor.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+<link linkend="void">void</link>                <link linkend="gok-editor-run">gok_editor_run</link>                      (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-close">gok_editor_close</link>                    (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-on-exit">gok_editor_on_exit</link>                  (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-new">gok_editor_new</link>                      (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-open-file">gok_editor_open_file</link>                (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-new-file">gok_editor_new_file</link>                 (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-touch-file">gok_editor_touch_file</link>               (<link linkend="gboolean">gboolean</link> modified);
+<link linkend="void">void</link>                <link linkend="gok-editor-show-parameters">gok_editor_show_parameters</link>          (<link linkend="GokKey">GokKey</link> *pKey);
+<link linkend="void">void</link>                <link linkend="gok-editor-next-key">gok_editor_next_key</link>                 (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-previous-key">gok_editor_previous_key</link>             (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-add-key">gok_editor_add_key</link>                  (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-delete-key">gok_editor_delete_key</link>               (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-duplicate-key">gok_editor_duplicate_key</link>            (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-update-key">gok_editor_update_key</link>               (void);
+<link linkend="void">void</link>                <link linkend="gok-editor-update-keyboard">gok_editor_update_keyboard</link>          (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);
+<link linkend="gboolean">gboolean</link>            <link linkend="on-editor-keyboard-delete-event">on_editor_keyboard_delete_event</link>     (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GdkEvent">GdkEvent</link> *event,
+                                                         <link linkend="gpointer">gpointer</link> user_data);
+<link linkend="void">void</link>                <link linkend="gok-editor-keyboard-key-press">gok_editor_keyboard_key_press</link>       (<link linkend="GtkWidget">GtkWidget</link> *pWidget);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-editor-save-current-keyboard">gok_editor_save_current_keyboard</link>    (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-editor-save-current-keyboard-as">gok_editor_save_current_keyboard_as</link> (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-editor-save-keyboard">gok_editor_save_keyboard</link>            (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="gchar">gchar</link> *Filename);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-editor-print-outputs">gok_editor_print_outputs</link>            (<link linkend="FILE--CAPS">FILE</link> *pFile,
+                                                         <link linkend="GokOutput">GokOutput</link> *pOutput,
+                                                         <link linkend="gboolean">gboolean</link> bWrapper);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-editor-validate-keyboard">gok_editor_validate_keyboard</link>        (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);
+<link linkend="void">void</link>                <link linkend="gok-editor-message-filename-bad">gok_editor_message_filename_bad</link>     (<link linkend="gchar">gchar</link> *Filename);
+<link linkend="void">void</link>                <link linkend="gok-editor-update-title">gok_editor_update_title</link>             (void);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-gok-editor.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-gok-editor.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="gok-editor-run" role="function">
+<title>gok_editor_run ()</title>
+<indexterm zone="gok-editor-run"><primary sortas="gok_editor_run">gok_editor_run</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_run                      (void);</programlisting>
+<para>
+Runs the GOK keyboard editor.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-close" role="function">
+<title>gok_editor_close ()</title>
+<indexterm zone="gok-editor-close"><primary sortas="gok_editor_close">gok_editor_close</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_close                    (void);</programlisting>
+<para>
+Closes the GOK keyboard editor.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-on-exit" role="function">
+<title>gok_editor_on_exit ()</title>
+<indexterm zone="gok-editor-on-exit"><primary sortas="gok_editor_on_exit">gok_editor_on_exit</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_on_exit                  (void);</programlisting>
+<para>
+The menu item to close the program has been selected so close it.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-new" role="function">
+<title>gok_editor_new ()</title>
+<indexterm zone="gok-editor-new"><primary sortas="gok_editor_new">gok_editor_new</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_new                      (void);</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-open-file" role="function">
+<title>gok_editor_open_file ()</title>
+<indexterm zone="gok-editor-open-file"><primary sortas="gok_editor_open_file">gok_editor_open_file</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_open_file                (void);</programlisting>
+<para>
+Opens an existing keyboard file for editing.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-new-file" role="function">
+<title>gok_editor_new_file ()</title>
+<indexterm zone="gok-editor-new-file"><primary sortas="gok_editor_new_file">gok_editor_new_file</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_new_file                 (void);</programlisting>
+<para>
+Create a new GOK keyboard file.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-touch-file" role="function">
+<title>gok_editor_touch_file ()</title>
+<indexterm zone="gok-editor-touch-file"><primary sortas="gok_editor_touch_file">gok_editor_touch_file</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_touch_file               (<link linkend="gboolean">gboolean</link> modified);</programlisting>
+<para>
+Marks the file as having modifications (or not)</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>modified</parameter>&#160;:</term>
+<listitem><simpara> should the file be marked as modified?
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-show-parameters" role="function">
+<title>gok_editor_show_parameters ()</title>
+<indexterm zone="gok-editor-show-parameters"><primary sortas="gok_editor_show_parameters">gok_editor_show_parameters</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_show_parameters          (<link linkend="GokKey">GokKey</link> *pKey);</programlisting>
+<para>
+Displays the parameters for the given key on the editor dialog.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKey</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the key that will be edited.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-next-key" role="function">
+<title>gok_editor_next_key ()</title>
+<indexterm zone="gok-editor-next-key"><primary sortas="gok_editor_next_key">gok_editor_next_key</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_next_key                 (void);</programlisting>
+<para>
+Display parameters for the next key on the keyboard.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-previous-key" role="function">
+<title>gok_editor_previous_key ()</title>
+<indexterm zone="gok-editor-previous-key"><primary sortas="gok_editor_previous_key">gok_editor_previous_key</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_previous_key             (void);</programlisting>
+<para>
+Select the previous key properties</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> void
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-add-key" role="function">
+<title>gok_editor_add_key ()</title>
+<indexterm zone="gok-editor-add-key"><primary sortas="gok_editor_add_key">gok_editor_add_key</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_add_key                  (void);</programlisting>
+<para>
+Add a default key to the keyboard.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-delete-key" role="function">
+<title>gok_editor_delete_key ()</title>
+<indexterm zone="gok-editor-delete-key"><primary sortas="gok_editor_delete_key">gok_editor_delete_key</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_delete_key               (void);</programlisting>
+<para>
+Delete the currently selected key..</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-duplicate-key" role="function">
+<title>gok_editor_duplicate_key ()</title>
+<indexterm zone="gok-editor-duplicate-key"><primary sortas="gok_editor_duplicate_key">gok_editor_duplicate_key</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_duplicate_key            (void);</programlisting>
+<para>
+Add a copy of the currently selected key.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-update-key" role="function">
+<title>gok_editor_update_key ()</title>
+<indexterm zone="gok-editor-update-key"><primary sortas="gok_editor_update_key">gok_editor_update_key</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_update_key               (void);</programlisting>
+<para>
+Call this if a key property changes.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-editor-update-keyboard" role="function">
+<title>gok_editor_update_keyboard ()</title>
+<indexterm zone="gok-editor-update-keyboard"><primary sortas="gok_editor_update_keyboard">gok_editor_update_keyboard</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_update_keyboard          (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);</programlisting>
+<para>
+update the display of the keyboard and recalculate rows and columns</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the keyboard that will be updated.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="on-editor-keyboard-delete-event" role="function">
+<title>on_editor_keyboard_delete_event ()</title>
+<indexterm zone="on-editor-keyboard-delete-event"><primary sortas="on_editor_keyboard_delete_event">on_editor_keyboard_delete_event</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            on_editor_keyboard_delete_event     (<link linkend="GtkWidget">GtkWidget</link> *widget,
+                                                         <link linkend="GdkEvent">GdkEvent</link> *event,
+                                                         <link linkend="gpointer">gpointer</link> user_data);</programlisting>
+<para>
+Prevents the keyboard window from closing.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>widget</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>event</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE so the keyboard window will NOT close.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-keyboard-key-press" role="function">
+<title>gok_editor_keyboard_key_press ()</title>
+<indexterm zone="gok-editor-keyboard-key-press"><primary sortas="gok_editor_keyboard_key_press">gok_editor_keyboard_key_press</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_keyboard_key_press       (<link linkend="GtkWidget">GtkWidget</link> *pWidget);</programlisting>
+<para>
+The user has just pressed a key on the keyboard.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pWidget</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-save-current-keyboard" role="function">
+<title>gok_editor_save_current_keyboard ()</title>
+<indexterm zone="gok-editor-save-current-keyboard"><primary sortas="gok_editor_save_current_keyboard">gok_editor_save_current_keyboard</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_editor_save_current_keyboard    (void);</programlisting>
+<para>
+Saves the current keyboard back to its original file.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the keyboard was saved, FALSE if keyboard was not saved.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-save-current-keyboard-as" role="function">
+<title>gok_editor_save_current_keyboard_as ()</title>
+<indexterm zone="gok-editor-save-current-keyboard-as"><primary sortas="gok_editor_save_current_keyboard_as">gok_editor_save_current_keyboard_as</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_editor_save_current_keyboard_as (void);</programlisting>
+<para>
+Saves the current keyboard under a new filename.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the keyboard was saved, FALSE if keyboard was not saved.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-save-keyboard" role="function">
+<title>gok_editor_save_keyboard ()</title>
+<indexterm zone="gok-editor-save-keyboard"><primary sortas="gok_editor_save_keyboard">gok_editor_save_keyboard</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_editor_save_keyboard            (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard,
+                                                         <link linkend="gchar">gchar</link> *Filename);</programlisting>
+<para>
+Saves the given keyboard to the given file.
+</para>
+<para>
+<parameter>pKeyboard</parameter>: Pointer to the keyboard that will be saved to disk.
+<parameter>Filename</parameter>: Name of the file where the keyboard will be saved.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Filename</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the keyboard was saved, FALSE if keyboard was not saved.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-print-outputs" role="function">
+<title>gok_editor_print_outputs ()</title>
+<indexterm zone="gok-editor-print-outputs"><primary sortas="gok_editor_print_outputs">gok_editor_print_outputs</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_editor_print_outputs            (<link linkend="FILE--CAPS">FILE</link> *pFile,
+                                                         <link linkend="GokOutput">GokOutput</link> *pOutput,
+                                                         <link linkend="gboolean">gboolean</link> bWrapper);</programlisting>
+<para>
+Prints the outputs in XML format to the given file.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pFile</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the XML file that gets the outputs.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>pOutput</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the first output that gets written.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>bWrapper</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the outputs were written, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-validate-keyboard" role="function">
+<title>gok_editor_validate_keyboard ()</title>
+<indexterm zone="gok-editor-validate-keyboard"><primary sortas="gok_editor_validate_keyboard">gok_editor_validate_keyboard</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_editor_validate_keyboard        (<link linkend="GokKeyboard">GokKeyboard</link> *pKeyboard);</programlisting>
+<para>
+Validates the current keyboard to make sure it is OK.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pKeyboard</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the keyboard is OK, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-message-filename-bad" role="function">
+<title>gok_editor_message_filename_bad ()</title>
+<indexterm zone="gok-editor-message-filename-bad"><primary sortas="gok_editor_message_filename_bad">gok_editor_message_filename_bad</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_message_filename_bad     (<link linkend="gchar">gchar</link> *Filename);</programlisting>
+<para>
+Inform the user that the selected file name is not a valid 
+GOK keyboard file name.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Filename</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the file name.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-editor-update-title" role="function">
+<title>gok_editor_update_title ()</title>
+<indexterm zone="gok-editor-update-title"><primary sortas="gok_editor_update_title">gok_editor_update_title</primary></indexterm><programlisting><link linkend="void">void</link>                gok_editor_update_title             (void);</programlisting>
+<para>
+Displays the filename and modification status in the titlebar.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> void
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

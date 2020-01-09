@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-settings-dialog</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-scanner.html" title="gok-scanner">
+<link rel="next" href="gok-gok-sound.html" title="gok-sound">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-scanner.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-sound.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-settings-dialog.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-settings-dialog.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-settings-dialog">
+<a name="gok-gok-settings-dialog"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-settings-dialog.top_of_page"></a>gok-settings-dialog</span></h2>
+<p>gok-settings-dialog</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-settings-dialog.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-settings-dialog.html#gok-settingsdialog-open" title="gok_settingsdialog_open ()">gok_settingsdialog_open</a>             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bShow);
+void                <a class="link" href="gok-gok-settings-dialog.html#gok-settingsdialog-close" title="gok_settingsdialog_close ()">gok_settingsdialog_close</a>            (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-settings-dialog.html#gok-settingsdialog-show" title="gok_settingsdialog_show ()">gok_settingsdialog_show</a>             (void);
+void                <a class="link" href="gok-gok-settings-dialog.html#gok-settingsdialog-hide" title="gok_settingsdialog_hide ()">gok_settingsdialog_hide</a>             (void);
+void                <a class="link" href="gok-gok-settings-dialog.html#on-button-try" title="on_button_try ()">on_button_try</a>                       (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+void                <a class="link" href="gok-gok-settings-dialog.html#on-button-revert" title="on_button_revert ()">on_button_revert</a>                    (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+void                <a class="link" href="gok-gok-settings-dialog.html#on-button-ok" title="on_button_ok ()">on_button_ok</a>                        (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+void                <a class="link" href="gok-gok-settings-dialog.html#on-button-cancel" title="on_button_cancel ()">on_button_cancel</a>                    (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+void                <a class="link" href="gok-gok-settings-dialog.html#on-button-help" title="on_button_help ()">on_button_help</a>                      (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+void                <a class="link" href="gok-gok-settings-dialog.html#gok-settingsdialog-refresh" title="gok_settingsdialog_refresh ()">gok_settingsdialog_refresh</a>          (void);
+void                <a class="link" href="gok-gok-settings-dialog.html#gok-settingsdialog-backup-settings" title="gok_settingsdialog_backup_settings ()">gok_settingsdialog_backup_settings</a>  (void);
+<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="gok-gok-settings-dialog.html#gok-settingsdialog-get-window" title="gok_settingsdialog_get_window ()">gok_settingsdialog_get_window</a>       (void);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-settings-dialog.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-settings-dialog.details"></a><h2>Details</h2>
+<div class="refsect2" title="gok_settingsdialog_open ()">
+<a name="gok-settingsdialog-open"></a><h3>gok_settingsdialog_open ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_settingsdialog_open             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bShow);</pre>
+<p>
+Creates the GOK settings dialog.
+</p>
+<p>
+<em class="parameter"><code>bShow</code></em>: If TRUE the settings dialog will be shown. If FALSE the dialog will be
+created but not shown.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>bShow</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the settings dialog could be created, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_settingsdialog_close ()">
+<a name="gok-settingsdialog-close"></a><h3>gok_settingsdialog_close ()</h3>
+<pre class="programlisting">void                gok_settingsdialog_close            (void);</pre>
+<p>
+Destroys the GOK settings dialog.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> void
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_settingsdialog_show ()">
+<a name="gok-settingsdialog-show"></a><h3>gok_settingsdialog_show ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_settingsdialog_show             (void);</pre>
+<p>
+Displays the GOK settings dialog.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the settings dialog was shown, FALSE if not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_settingsdialog_hide ()">
+<a name="gok-settingsdialog-hide"></a><h3>gok_settingsdialog_hide ()</h3>
+<pre class="programlisting">void                gok_settingsdialog_hide             (void);</pre>
+<p>
+Hides the GOK settings dialog.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="on_button_try ()">
+<a name="on-button-try"></a><h3>on_button_try ()</h3>
+<pre class="programlisting">void                on_button_try                       (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+The TRY button has been clicked. Apply any changes from the settings but
+don't hide the dialog</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>button</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> Any user data associated with the button.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="on_button_revert ()">
+<a name="on-button-revert"></a><h3>on_button_revert ()</h3>
+<pre class="programlisting">void                on_button_revert                    (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+The REVERT button has been clicked. Returns the settings to the way they were
+and update the keyboard.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>button</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> Any user data associated with the button.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="on_button_ok ()">
+<a name="on-button-ok"></a><h3>on_button_ok ()</h3>
+<pre class="programlisting">void                on_button_ok                        (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+The OK button has been clicked. Apply any changes from the settings and
+hide the settings dialog.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>button</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> Any user data associated with the button.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="on_button_cancel ()">
+<a name="on-button-cancel"></a><h3>on_button_cancel ()</h3>
+<pre class="programlisting">void                on_button_cancel                    (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+The CANCEL button has been clicked. Return settings to the way they were and
+update the keyboard and hide the settings dialog.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>button</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> Any user data associated with the button.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="on_button_help ()">
+<a name="on-button-help"></a><h3>on_button_help ()</h3>
+<pre class="programlisting">void                on_button_help                      (<a
+href="http://library.gnome.org/devel/gtk/unstable/GtkButton.html"
+>GtkButton</a> *button,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+The HELP button has been clicked.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>button</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> Any user data associated with the button.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_settingsdialog_refresh ()">
+<a name="gok-settingsdialog-refresh"></a><h3>gok_settingsdialog_refresh ()</h3>
+<pre class="programlisting">void                gok_settingsdialog_refresh          (void);</pre>
+<p>
+Refreshes the dialog controls. This should be called after the user has resized the keyboard
+(which causes the key size to change) or if the gok data has changed.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_settingsdialog_backup_settings ()">
+<a name="gok-settingsdialog-backup-settings"></a><h3>gok_settingsdialog_backup_settings ()</h3>
+<pre class="programlisting">void                gok_settingsdialog_backup_settings  (void);</pre>
+<p>
+Copies all the member settings to backup.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_settingsdialog_get_window ()">
+<a name="gok-settingsdialog-get-window"></a><h3>gok_settingsdialog_get_window ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/gtk/unstable/GtkWidget.html"
+>GtkWidget</a>*          gok_settingsdialog_get_window       (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the settings dialog window.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

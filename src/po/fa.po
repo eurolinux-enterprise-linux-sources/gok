@@ -1,0 +1,2072 @@
+# Persian translation of gok.
+# Copyright (C) 2005 Sharif FarsiWeb, Inc.
+# This file is distributed under the same license as the gok package.
+# Elnaz Sarbar <elnaz@farsiweb.info>, 2005.
+# Meelad Zakaria <meelad@farsiweb.info>, 2005.
+msgid ""
+msgstr ""
+"Project-Id-Version: gok HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-16 06:42+0000\n"
+"PO-Revision-Date: 2005-08-18 19:24+0430\n"
+"Last-Translator: Meelad Zakaria <meelad@farsiweb.info>\n"
+"Language-Team: Persian <farsi@lists.sharif.edu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../automatic-scanning.xml.in.h:1 ../direct-selection.xml.in.h:1
+#: ../dwell-selection.xml.in.h:1 ../inverse-scanning.xml.in.h:1
+#: ../singlekey-inverse-scanning.xml.in.h:1 ../directed.xml.in.h:1
+msgid "(100s of a second)"
+msgstr "(صدم ثانیه)"
+
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "فعال کردن"
+
+#: ../automatic-scanning.xml.in.h:3 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:2
+#: ../singlekey-automatic-scanning.xml.in.h:1
+#: ../singlekey-inverse-scanning.xml.in.h:2 ../directed.xml.in.h:3
+msgid "Activate:"
+msgstr "فعال کردن:"
+
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:3
+#: ../dwell-selection.xml.in.h:3 ../inverse-scanning.xml.in.h:3
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:3 ../directed.xml.in.h:4
+msgid "Activation:"
+msgstr "فعال‌سازی:"
+
+#: ../automatic-scanning.xml.in.h:5 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:4
+msgid "Auto Repeat On"
+msgstr "روشن کردن تکرار خودکار"
+
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:5
+#: ../dwell-selection.xml.in.h:5 ../inverse-scanning.xml.in.h:5
+msgid "Auto Repeat Rate:"
+msgstr "آهنگ تکرار خودکار:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "پویش خودکار"
+
+#: ../automatic-scanning.xml.in.h:9 ../singlekey-automatic-scanning.xml.in.h:3
+msgid "Autostart (starts automatically)"
+msgstr "آغاز خودکار (به طور خودکار آغاز می‌شود)"
+
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:4
+msgid "Bottom/Top"
+msgstr "پایین/بالا"
+
+#: ../automatic-scanning.xml.in.h:11 ../inverse-scanning.xml.in.h:7
+msgid "Continuous Cycle On"
+msgstr "روشن کردن چرخه‌ی پیوسته"
+
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:5
+#: ../singlekey-inverse-scanning.xml.in.h:5
+msgid "Cycles Before Stopping:"
+msgstr "تعداد دور‌ها قبل از توقف:"
+
+#: ../automatic-scanning.xml.in.h:13 ../direct-selection.xml.in.h:7
+#: ../dwell-selection.xml.in.h:7 ../gok.glade2.h:69
+#: ../inverse-scanning.xml.in.h:9 ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:6
+msgid "Feedback"
+msgstr "بازخورد"
+
+#: ../automatic-scanning.xml.in.h:14
+msgid "Feedback Activation"
+msgstr "فعال‌سازی بازخورد"
+
+#: ../automatic-scanning.xml.in.h:15
+msgid "Feedback Movement"
+msgstr "جابه‌جایی بازخورد"
+
+#: ../automatic-scanning.xml.in.h:16
+#: ../singlekey-automatic-scanning.xml.in.h:9
+msgid "Initial Delay:"
+msgstr "تأخیر اولیه:"
+
+#: ../automatic-scanning.xml.in.h:17 ../inverse-scanning.xml.in.h:13
+#: ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:9
+msgid "Left/Right"
+msgstr "چپ/راست"
+
+#: ../automatic-scanning.xml.in.h:18 ../direct-selection.xml.in.h:11
+#: ../dwell-selection.xml.in.h:11 ../inverse-scanning.xml.in.h:14
+#: ../singlekey-automatic-scanning.xml.in.h:11
+#: ../singlekey-inverse-scanning.xml.in.h:10 ../directed.xml.in.h:9
+msgid "Movement:"
+msgstr "جابه‌جایی:"
+
+#: ../automatic-scanning.xml.in.h:19 ../direct-selection.xml.in.h:12
+#: ../dwell-selection.xml.in.h:12 ../inverse-scanning.xml.in.h:15
+#: ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:11 ../directed.xml.in.h:10
+msgid "Operation"
+msgstr "عملیات"
+
+#: ../automatic-scanning.xml.in.h:20 ../direct-selection.xml.in.h:13
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:13
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:11
+msgid "Options"
+msgstr "گزینه‌ها"
+
+#: ../automatic-scanning.xml.in.h:21
+#: ../singlekey-automatic-scanning.xml.in.h:14
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr "برای آغاز پویش یک سوییچ را فشار دهید.  برای انتخاب، همان سوییچ یا سوییچ دیگری را فشار دهید."
+
+#: ../automatic-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:15
+msgid "Press switch to start"
+msgstr "برای آغاز سوییچ را فشار دهید"
+
+#: ../automatic-scanning.xml.in.h:23 ../inverse-scanning.xml.in.h:18
+#: ../singlekey-automatic-scanning.xml.in.h:16
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Right/Left"
+msgstr "راست/چپ"
+
+#: ../automatic-scanning.xml.in.h:24 ../inverse-scanning.xml.in.h:19
+#: ../singlekey-automatic-scanning.xml.in.h:17
+#: ../singlekey-inverse-scanning.xml.in.h:15 ../directed.xml.in.h:13
+msgid "Scan Delay:"
+msgstr "تأخیر پویش:"
+
+#: ../automatic-scanning.xml.in.h:25 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Scan Speed:"
+msgstr "سرعت پویش:"
+
+#: ../automatic-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:19
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Scanning Direction:"
+msgstr "جهت پویش:"
+
+#: ../automatic-scanning.xml.in.h:27
+msgid "Start Scanning"
+msgstr "آغاز پویش"
+
+#: ../automatic-scanning.xml.in.h:28
+#: ../singlekey-automatic-scanning.xml.in.h:23
+msgid "Start scanning:"
+msgstr "آغاز پویش:"
+
+#: ../automatic-scanning.xml.in.h:29 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:20
+msgid "Top/Bottom"
+msgstr "یالا/پایین"
+
+#: ../automatic-scanning.xml.in.h:30 ../inverse-scanning.xml.in.h:23
+#: ../singlekey-inverse-scanning.xml.in.h:21 ../directed.xml.in.h:17
+msgid "Wrap Rows/Columns"
+msgstr "پیچیدن سطرها/ستون‌ها"
+
+#: ../automatic-scanning.xml.in.h:31
+msgid "feedbackmovement"
+msgstr "جابه‌جایی بازخورد"
+
+#: ../automatic-scanning.xml.in.h:32
+msgid "feedbackselection"
+msgstr "انتخاب بازخورد"
+
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "انتخاب مستقیم"
+
+#: ../direct-selection.xml.in.h:8 ../dwell-selection.xml.in.h:8
+#: ../inverse-scanning.xml.in.h:10 ../singlekey-automatic-scanning.xml.in.h:7
+#: ../singlekey-inverse-scanning.xml.in.h:7
+msgid "Feedback Activation:"
+msgstr "فعال‌سازی بازخورد:"
+
+#: ../direct-selection.xml.in.h:9 ../dwell-selection.xml.in.h:9
+#: ../inverse-scanning.xml.in.h:11 ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:8 ../directed.xml.in.h:7
+msgid "Feedback Movement:"
+msgstr "جابه‌جایی بازخورد:"
+
+#: ../direct-selection.xml.in.h:10
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr "اشاره‌گر موشی را حرکت دهید تا کلیدی پررنگ شودد. برای انتخاب کردن، یک سوییچ را فشار دهید."
+
+#: ../direct-selection.xml.in.h:14 ../dwell-selection.xml.in.h:13
+#: ../directed.xml.in.h:15
+msgid "Select:"
+msgstr "انتخاب:"
+
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "انتخاب با توقف"
+
+#: ../dwell-selection.xml.in.h:10
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "اشاره‌گر موشی را حرکت دهید تا یک کلید پررنگ شود.  روی کلید توقف کنید تا انتخاب شود."
+
+#: ../dwell-selection.xml.in.h:14
+msgid "_Options"
+msgstr "_گزینه‌ها"
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "درباره"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "راهنما"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "ترک GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "پنجره"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2489
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "عقب"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:290
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"فهرستی از مسیرهای کاملاً مشخص از لغت‌نامه‌های تکمیل کلمه که با نقطه‌ویرگول از هم جدا شده‌اند"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "آیا ترجیحات منحصر شوند؟"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "نوع صفحه‌کلید استفاده شده به عنوان صفحه‌کلید پیش‌فرض حروف‌چینی را مشخص می‌کند"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr "آیا GOK صفحه‌کلید حروف‌چینی‌اش را به صورت پویا بر مبنای اطلاعات کارگزار X تولید کند؟"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "آیا هر کاربر GOK نسخه‌ی خصوصی‌ای از لغت‌نامه‌ی پیش‌بینی کلمه دارد؟"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "آیا پنجره‌ی GOK تا جایی که همه‌ی عرض صفحه را پر کند باز شود؟"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "آیا اشاره‌گر اصلی اشاره‌گر صفحه‌کلید GOK را دنبال کند؟"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "آیا این بارخورد چشمک بزند"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "آیا این بازخورد صدایی پخش کند"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "آیا این کلید برچسب کلیدی از GOK را بخواند"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "توقف"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr ""
+"مکان لنگر پنجره‌ی اصلی GOK (اگر ملحق شدنی باشد)، اگر نه رشته‌ی خالی"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "چند فرزند هر گره در درخت واسط گرافیکی کاربر به دنبال اشیاء قابل دسترسی جستجو شوند"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "چند سطح پایین‌تر درخت واسط گرافیکی کاربر به دنبال اشیاء قابل دسترسی جستجو شوند"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "آیا این کنش همیشگی است"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "آیا این بازخورد همیشگی است"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "آیا تکمیل کلمه روشن است"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "چشمک زدن کلید"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "دکمه‌ی چپ موشی"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "دکمه‌ی وسط موشی"
+
+#: ../gok-wxkbith-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "دکمه‌ی ۴ موشی"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "دکمه‌ی ۵ موشی"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "اشاره‌گر موشی"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "دکمه‌ی راست موشی"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"باید یکی از این‌ها باشد: «xkb»، «default»، «alpha»، «alpha-freq»،‌ "
+"«custom»؛ اگر «custom» باشد، باید «custom_compose_keyboard» تعریف شده باشد."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "صدای یک"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "صدای دو"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "سخن"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "سويییچ ۱"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "سوییچ ۲"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "سوییچ ۳"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "سوییچ ۴"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "سوییچ ۵"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "روش دسترسی مورد استفاده"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "شاخه‌ای که پرونده‌های روش دسترسی از آن بار شوند."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "شاخه‌ای که پرونده‌های لغت‌نامه از آن بار شوند."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "شاخه‌ای که پرونده‌های منبع gok از آن بار شوند"
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "شاخه‌ای که پرونده‌های صفحه‌کلید سفارشی یا خاص کاربر از آن بار شوند."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "نام مسیر کامل به پرونده‌ای که صفحه‌کلید حروف‌چینی سفارشی GOK را تعریف می‌کند"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "ارتفاع کلید"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "عرض کلید"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "مختصات X صفحه‌کلید"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "مختصات Y صفحه‌کلید"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "نام صدایی که این بازخورد پخش خواهد کرد"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr ""
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "نامی که برای این کنش به کاربر نمایش داده می‌شود"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "نامی که برای این بازخورد به کاربر نمایش داده می‌شود"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "شماره اگر مربوط است"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "تعداد پیش‌بینی‌ها برای تکمیل کلمه"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "تعداد دفعاتی که این بازخورد چشمک خواهد زد"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr "لغت‌نامه‌ی اصلی که پرونده‌های صفحه‌کلید از آن بار می‌شوند. پیش‌فرض لغت‌نامه‌ی سیستم است."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "آهنگ این کنش"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "فاصله‌ی بین کلیدها"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "وضعیتی که این کنش در‌ آن فعال می‌شود"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "نوع این کنش"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "این که از فهرست کلمه‌های اضافی برای جستجوی نامزدهای مناسب برای تکمیل کلمه استفاده شود یا نه"
+
+#: ../gok.desktop.in.h:1
+msgid "On-Screen Keyboard"
+msgstr "صفحه‌کلید روی صفحه"
+
+#: ../gok.desktop.in.h:2
+msgid "The GNOME On-screen Keyboard"
+msgstr "صفحه‌کلید روی صفحه‌ی گنوم"
+
+#: ../gok.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gok.glade2.h:2
+msgid "3 State"
+msgstr "۳ حالت"
+
+#: ../gok.glade2.h:3
+msgid "<b>Appearance</b>"
+msgstr "<b>قیافه</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Behavior</b>"
+msgstr "<b>رفتار</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Branch</b>"
+msgstr "<b>شاخه</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Command Prediction</b>"
+msgstr "<b>پیش‌بینی فرمان</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>صفحه‌کلید حروف‌چینی</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>صفحه‌کلیدهای سفارشی</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Actions</b>"
+msgstr "<b>تعریف کنش</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Define Feedback</b>"
+msgstr "<b>تعریف بازخورد</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>تأخیر قبل از فعال‌سازی</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Description</b>"
+msgstr "<b>شرح</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>ملحق شدن و باز شدن افقی</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Event Source</b>"
+msgstr "<b>منبع رویداد</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Font</b>"
+msgstr "<b>قلم</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Flashing</b>"
+msgstr "<b>چشمک زدن کلید</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>کنترل‌های اندازه‌ی کلید و فاصله‌گذاری</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Key</b>"
+msgstr "<b>کلید</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Keyboard</b>"
+msgstr "<b>صفحه‌کلید</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Modifier</b>"
+msgstr "<b>تغییر دهنده</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Output</b>"
+msgstr "<b>خروجی</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Position</b>"
+msgstr "<b>موقعیت</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Preview</b>"
+msgstr "<b>پیش‌نمایش</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sensitivity</b>"
+msgstr "<b>حساسیت</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Sound</b>"
+msgstr "<b>صدا</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Speech</b>"
+msgstr "<b>سخن</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>شماره‌ی دکمه یا سوییچ</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Theme</b>"
+msgstr "<b>تم</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>وقت‌نگهدارها و تأخیرها</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Type</b>"
+msgstr "<b>نوع</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Valuator Type</b>"
+msgstr "<b>نوع ارزیاب</b>"
+
+#: ../gok.glade2.h:32
+msgid "<b>Word Completion</b>"
+msgstr "<b>تکمیل کلمه</b>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>توجه:</b> تغییرات این تنظیمات تا دفعه‌ی بعدی که GOK را اجرا"
+"می‌کنید مؤثر نخواهد بود.</i></small>"
+
+#: ../gok.glade2.h:34
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+
+#: ../gok.glade2.h:35
+msgid "Access Methods"
+msgstr "روش‌های دسترسی"
+
+#: ../gok.glade2.h:36
+msgid "AccessMethodName"
+msgstr "AccessMethodName"
+
+#: ../gok.glade2.h:37
+msgid "Action Names List"
+msgstr "فهرست نام کنش‌ها"
+
+#: ../gok.glade2.h:38
+msgid "Action Type:"
+msgstr "نوع کنش:"
+
+#: ../gok.glade2.h:39
+msgid "ActionTypeNotebook"
+msgstr "ActionTypeNotebook"
+
+#: ../gok.glade2.h:40
+msgid "Actions"
+msgstr "کنش‌ها"
+
+#: ../gok.glade2.h:41
+msgid "Activate on Dw_ell"
+msgstr "فعال شدن با تو_قف"
+
+#: ../gok.glade2.h:42
+msgid "Activate on _Enter"
+msgstr "فعال شدن با _ورود"
+
+#: ../gok.glade2.h:43
+msgid "Activate on _Move"
+msgstr "فعال شدن با _جابه‌جایی"
+
+#: ../gok.glade2.h:44
+msgid "Activate when _pressed"
+msgstr "فعال شدن هنگام _فشرده شدن"
+
+#: ../gok.glade2.h:45
+msgid "Activate when _released"
+msgstr "فعال شدن هنگام _رها شدن"
+
+#: ../gok.glade2.h:46
+msgid "Add"
+msgstr "اضافه کردن"
+
+#: ../gok.glade2.h:47
+msgid "Add New Key"
+msgstr "اضافه کردن کلید جدید"
+
+#: ../gok.glade2.h:48
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "شاخه‌ی اضافی برای جستجوی صفحه‌کلیدهای GOK"
+
+#: ../gok.glade2.h:49
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "شاخه‌ی اضافه برای جستجوی پرونده‌های صفحه‌کلید GOK"
+
+#: ../gok.glade2.h:50
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "صفحه‌کلید الفباعددی مرتب شده از روی بسامد حروف"
+
+#: ../gok.glade2.h:51
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "صفحه‌کلید الفباعددی مرتب شده از روی الفبا"
+
+#: ../gok.glade2.h:52
+msgid "Appearance"
+msgstr "ظاهر"
+
+#: ../gok.glade2.h:53
+msgid "Bottom:"
+msgstr "پایین:"
+
+#: ../gok.glade2.h:54
+msgid "Browse"
+msgstr "مرور"
+
+#: ../gok.glade2.h:55
+msgid "C_ore pointer"
+msgstr "اشاره‌گر اصلی"
+
+#: ../gok.glade2.h:56
+msgid "Command Prediction"
+msgstr "پیش‌بینی فرمان"
+
+#: ../gok.glade2.h:57
+msgid "Delay"
+msgstr "تأخیر"
+
+#: ../gok.glade2.h:58
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr "تأخیر، به صدم ثانیه، بین اتفاق افتادن رویداد راه‌انداز و شروع فعال‌سازی"
+
+#: ../gok.glade2.h:59
+msgid "Delete"
+msgstr "حذف"
+
+#: ../gok.glade2.h:60
+msgid "Delete Key"
+msgstr "حذف کلید"
+
+#: ../gok.glade2.h:61
+msgid "Dock"
+msgstr "ملحق شدن"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:62 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "ملحق شدن به پایین"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:63 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "ملحق شدن به بالا"
+
+#: ../gok.glade2.h:64
+msgid "Duplicate"
+msgstr "تکثیر"
+
+#: ../gok.glade2.h:65
+msgid "Enable _key flashing"
+msgstr "به کار انداختن _چشمک زدن کلید"
+
+#: ../gok.glade2.h:66
+msgid "Enable _sound"
+msgstr "به کار انداختن _صدا"
+
+#: ../gok.glade2.h:67
+msgid "Enable _word completion"
+msgstr "به کار انداختن تکمیل _کلمه"
+
+#: ../gok.glade2.h:68
+msgid "Enable co_mmand prediction"
+msgstr "به کار انداختن پیش‌بینی _فرمان"
+
+#: ../gok.glade2.h:70
+msgid "Fill Width"
+msgstr "پر کردن عرض"
+
+#: ../gok.glade2.h:71
+msgid "Font Group:"
+msgstr "گروه قلم:"
+
+#: ../gok.glade2.h:72 ../gok/gok-editor.c:35
+msgid "GOK Keyboard Editor"
+msgstr "ویرایشگر صفحه‌کلید GOK"
+
+#: ../gok.glade2.h:73
+msgid "GOK Preferences"
+msgstr "ترجیحات GOK"
+
+#: ../gok.glade2.h:74
+msgid "GOK:"
+msgstr "‏GOK:"
+
+#: ../gok.glade2.h:75
+msgid "Key Height"
+msgstr "ارتفاع کلید"
+
+#: ../gok.glade2.h:76
+msgid "Key Spacing"
+msgstr "فاصله‌گذاری کلید"
+
+#: ../gok.glade2.h:77
+msgid "Key Width"
+msgstr "عرض کلید"
+
+#: ../gok.glade2.h:78
+msgid "Key _width:"
+msgstr "_عرض کلید:"
+
+#: ../gok.glade2.h:79
+msgid "Key h_eight:"
+msgstr "_ارتفاع کلید:"
+
+#: ../gok.glade2.h:80
+msgid "Keyboards"
+msgstr "صفحه‌کلیدها"
+
+#: ../gok.glade2.h:81
+msgid "Keycode:"
+msgstr "کد کلید:"
+
+#: ../gok.glade2.h:82
+msgid "Keysym:"
+msgstr ""
+
+#: ../gok.glade2.h:83
+msgid "Label:"
+msgstr "برچسب"
+
+#: ../gok.glade2.h:84 ../directed.xml.in.h:8
+msgid "Left:"
+msgstr "چپ"
+
+#: ../gok.glade2.h:85
+msgid "Match physical keyboard as reported by X Server"
+msgstr "مطابقت با کلید فیزیکی همان طور که کارگزار X گزارش کرده"
+
+#: ../gok.glade2.h:86
+msgid "Modifier Post"
+msgstr ""
+
+#: ../gok.glade2.h:87
+msgid "Modifier Pre"
+msgstr ""
+
+#: ../gok.glade2.h:88
+msgid "Modifier:"
+msgstr "تغییر دهنده؛"
+
+#: ../gok.glade2.h:89
+msgid "Move Down"
+msgstr "جابه‌جایی به پایین"
+
+#: ../gok.glade2.h:90
+msgid "Move Up"
+msgstr "جابه‌جایی به بالا"
+
+#: ../gok.glade2.h:91
+msgid "Name:"
+msgstr "نام:"
+
+#: ../gok.glade2.h:92
+msgid "New"
+msgstr "جدید"
+
+#: ../gok.glade2.h:93
+msgid "Next Key"
+msgstr "کلید بعدی"
+
+#: ../gok.glade2.h:94
+msgid "Normal"
+msgstr "عادی"
+
+#: ../gok.glade2.h:95
+msgid "Number of _flashes:"
+msgstr "تعداد _چشمک زدن‌ها:"
+
+#: ../gok.glade2.h:96
+msgid "Number of _predictions:"
+msgstr "تعداد _پیش‌بینی‌ها:"
+
+#: ../gok.glade2.h:97
+msgid "Number of command predictions:"
+msgstr "تعداد پیش‌بینی‌های فرمان:"
+
+#: ../gok.glade2.h:98
+msgid "Number of word predictions:"
+msgstr "تعداد پیش‌بینی‌های کلمه:"
+
+#: ../gok.glade2.h:99
+msgid "Other _input device:"
+msgstr "دستگاه‌های _ورودی دیگر"
+
+#: ../gok.glade2.h:100
+msgid "Prediction"
+msgstr "پیش‌بینی"
+
+#: ../gok.glade2.h:101
+msgid "Press"
+msgstr "فشردن"
+
+#: ../gok.glade2.h:102
+msgid "Previous Key"
+msgstr "کلید قبلی"
+
+#: ../gok.glade2.h:103
+msgid "Read keyboard from file:"
+msgstr "خواندن صفحه‌کلید از پرونده:"
+
+#: ../gok.glade2.h:104
+msgid "Release"
+msgstr "رها کردن"
+
+#: ../gok.glade2.h:105 ../directed.xml.in.h:12
+msgid "Right:"
+msgstr "راست:"
+
+#: ../gok.glade2.h:106
+msgid "S_witch"
+msgstr "_سوییچ"
+
+#: ../gok.glade2.h:107
+msgid "Show Only This Font Group"
+msgstr "نشان دادن فقط این گروه قلم"
+
+#: ../gok.glade2.h:108
+msgid "So_und:"
+msgstr "_صدا:"
+
+#: ../gok.glade2.h:109
+msgid "Speak key _label"
+msgstr "گفتن _برچسب کلید"
+
+#: ../gok.glade2.h:110
+msgid "Style:"
+msgstr "سبک:"
+
+#: ../gok.glade2.h:111
+msgid "Switch _1"
+msgstr "سوییچ _۱"
+
+#: ../gok.glade2.h:112
+msgid "Switch _2"
+msgstr "سوییچ _۲"
+
+#: ../gok.glade2.h:113
+msgid "Switch _3"
+msgstr "سوییچ _۳"
+
+#: ../gok.glade2.h:114
+msgid "Switch _4"
+msgstr "سوییچ _۴"
+
+#: ../gok.glade2.h:115
+msgid "Switch _5"
+msgstr "سوییچ _۵"
+
+#: ../gok.glade2.h:116
+msgid "Target:"
+msgstr "هدف:"
+
+#: ../gok.glade2.h:117
+msgid "To Back"
+msgstr "به عقب"
+
+#: ../gok.glade2.h:118
+msgid "To Front"
+msgstr "به جلو"
+
+#: ../gok.glade2.h:119
+msgid "Toggle"
+msgstr "ضامن"
+
+#: ../gok.glade2.h:120
+msgid "Top:"
+msgstr "بالا:"
+
+#: ../gok.glade2.h:121
+msgid "Use _extra word list file(s)"
+msgstr "استفاده از پرونده(‌ها)ی فهرست کلمه‌ی  اـضافی"
+
+#: ../gok.glade2.h:122
+msgid "Use _key averaging"
+msgstr "استفاده از حد متوسط _کلید"
+
+#: ../gok.glade2.h:123
+msgid "Valuator Sensitivity"
+msgstr "حساسیت ارزیاب"
+
+#: ../gok.glade2.h:124
+msgid "Word Completion"
+msgstr "تکمیل کلمه"
+
+#: ../gok.glade2.h:125
+msgid "_100ths of a second"
+msgstr "_صدم ثانیه"
+
+#: ../gok.glade2.h:126
+msgid "_Add"
+msgstr "ا_ضافه کردن"
+
+#: ../gok.glade2.h:127
+msgid "_Browse..."
+msgstr "_مرور..."
+
+#: ../gok.glade2.h:128
+msgid "_Delete"
+msgstr "_حذف"
+
+#: ../gok.glade2.h:129
+msgid "_Joystick"
+msgstr "‌دسته‌ی بازی"
+
+#: ../gok.glade2.h:130
+msgid "_Method:"
+msgstr "_روش:"
+
+#: ../gok.glade2.h:131
+msgid "_Name:"
+msgstr "_نام:"
+
+#: ../gok.glade2.h:132
+msgid "_New"
+msgstr "_جدید"
+
+#: ../gok.glade2.h:133
+msgid "_Number of predictions:"
+msgstr "_تعداد پیش‌بینی‌ها:"
+
+#: ../gok.glade2.h:134
+msgid "_Rename"
+msgstr "ت_غییر نام"
+
+#: ../gok.glade2.h:135
+msgid "_Single axis:"
+msgstr "ت_ک محور:"
+
+#: ../gok.glade2.h:136
+msgid "_Spacing:"
+msgstr "_فاصله‌گذاری:"
+
+#: ../gok.glade2.h:137
+msgid "_Use Desktop Theme Preferences"
+msgstr "است_فاده از ترجیحات تم رومیزی"
+
+#: ../gok.glade2.h:138
+msgid "_Valuator"
+msgstr "ار_زیاب"
+
+#: ../gok.glade2.h:139
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "ارزیا_ب X-Y (محورهای ۰ و ۱)"
+
+#: ../gok.glade2.h:140
+msgid "access method name"
+msgstr "نام روش دسترسی"
+
+#: ../gok.glade2.h:141
+msgid "cancel"
+msgstr "انصراف"
+
+#: ../gok.glade2.h:142
+msgid "display user help"
+msgstr "نمایش راهنمای کاربر"
+
+#: ../gok.glade2.h:143
+msgid "high"
+msgstr "زیاد"
+
+#: ../gok.glade2.h:144
+msgid "low"
+msgstr "کم"
+
+#: ../gok.glade2.h:145
+msgid "pixels"
+msgstr "نقطه"
+
+#: ../gok.glade2.h:146
+msgid "revert to original settings"
+msgstr "بازگشت به تنظیمات اولیه"
+
+#: ../gok.glade2.h:147
+msgid "try these settings"
+msgstr "امتحان این تنظیمات"
+
+#: ../gok.glade2.h:148
+msgid "use these settings"
+msgstr "استفاده از این تنظیمات"
+
+#: ../gok/callbacks.c:372
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr ""
+
+#: ../gok/callbacks.c:374
+msgid "GOK Access Method Wizard"
+msgstr ""
+
+#: ../gok/gok-control.c:227
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "ببخشید،‌ مرور برای پرونده‌ی صوتی هنوز پیاده نشده است."
+
+#: ../gok/gok-control.c:229
+msgid "GOK Browse for sound file"
+msgstr "مرور GOK برای پرونده‌ی صوتی"
+
+#: ../gok/gok-control.c:253
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "ببشخید،‌ تنظیمات پیشرفته هنور پیاده‌سازی نشده است."
+
+#: ../gok/gok-control.c:255
+msgid "GOK Inverse Scanning Advanced"
+msgstr ""
+
+#: ../gok/gok-editor.c:154 ../gok/gok-editor.c:187 ../gok/gok-editor.c:267
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"شما پرونده‌ی فعلی را تغییر داده‌اید.\n"
+"آیا می‌خواهید تغییرات‌تان را دور بیاندازید؟"
+
+#: ../gok/gok-editor.c:156 ../gok/gok-editor.c:189 ../gok/gok-editor.c:269
+#: ../gok/gok-editor.c:1060
+msgid "Keyboard Filename Invalid"
+msgstr "نام پرونده‌ی صفحه‌کلید نامعتبر است"
+
+#: ../gok/gok-editor.c:218
+msgid "new"
+msgstr "جدید"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:279
+msgid "Select keyboard file for editing"
+msgstr "انتخاب پرونده‌ی صفحه‌کلید برای ویرایش"
+
+#: ../gok/gok-editor.c:289 ../gok/gok-editor.c:981
+msgid ".kbd files"
+msgstr "پرونده‌های .kbd"
+
+#: ../gok/gok-editor.c:544
+msgid "label"
+msgstr "برچسب"
+
+#: ../gok/gok-editor.c:718
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "نمی‌توان پرونده را ذخیره کرد: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:971
+msgid "Save keyboard file as"
+msgstr "ذخیره‌ی پرونده‌ی صفحه‌کلید با نام"
+
+#: ../gok/gok-editor.c:1052
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr "این نام پرونده‌ی صفحه‌کلید معتبر نیست:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1082
+msgid "(new)"
+msgstr "(جدید)"
+
+#: ../gok/gok-input.c:515
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"‏GOK فعالیت دستگاه سخت‌افزاری جدیدی به نام «%s» را تشخیص داده است. آیا مایلید از این دستگاه به جای دستگاه «%s» استفاده کنید؟"
+
+#: ../gok/gok-key.c:117
+msgid "Mute"
+msgstr "بی‌صدا"
+
+#: ../gok/gok-key.c:120
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"کلیدهای\n"
+"موشی"
+
+#: ../gok/gok-key.c:123
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"جهش\n"
+"چپ"
+
+#: ../gok/gok-key.c:234
+msgid "Divide"
+msgstr "تقسیم"
+
+#: ../gok/gok-key.c:237
+msgid "Multiply"
+msgstr "ضرب"
+
+#: ../gok/gok-key.c:240
+msgid "Subtract"
+msgstr "تفریق"
+
+#: ../gok/gok-key.c:243
+msgid "Addition"
+msgstr "جمع"
+
+#: ../gok/gok-key.c:246
+msgid "Prior"
+msgstr "قبلی"
+
+#: ../gok/gok-key.c:249
+msgid "Next"
+msgstr "بعدی"
+
+#: ../gok/gok-key.c:252 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "آغازه"
+
+#: ../gok/gok-key.c:255 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "پایان‌بَر"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:258 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "بالا"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:261 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "پایین"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:264 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "چپ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:267 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "راست"
+
+#: ../gok/gok-key.c:270
+msgid "Begin"
+msgstr "ابتدا"
+
+#: ../gok/gok-key.c:273
+msgid "Decimal"
+msgstr "دهدهی"
+
+#: ../gok/gok-key.c:276
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:279
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"چند\n"
+"کلیدی"
+
+#: ../gok/gok-key.c:282
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"ضامن\n"
+"Eisu"
+
+#: ../gok/gok-key.c:285
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"حالت\n"
+"هنکان"
+
+#: ../gok/gok-key.c:288
+msgid "Muhenkan"
+msgstr "موهنکان"
+
+#: ../gok/gok-key.c:291
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"حالت\n"
+"سوییچ"
+
+#: ../gok/gok-keyboard.c:155
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:161 ../gok/gok-keyboard.c:202
+msgid "keyboard description not available!"
+msgstr "شرح صفحه‌کلید موجود نیست!"
+
+#: ../gok/gok-keyboard.c:167 ../gok/gok-keyboard.c:208
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "خواندن پیکربندی ظاهری صفحه‌کلید از کارگزار X شما ممکن نیست."
+
+#: ../gok/gok-keyboard.c:432
+msgid "Back"
+msgstr "عقب"
+
+#: ../gok/gok-keyboard.c:450 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "تکرار بعدی"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "ویرایش"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"تخته‌کلید\n"
+"عددی"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "مخفی کردن"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:701
+msgid "shift"
+msgstr "تبدیل"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:713
+msgid "Level 2"
+msgstr "سطح ۲"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:725
+msgid "Level 3"
+msgstr "سطح ۳"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:737
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"پس‌بَر"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:748 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "جهش"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:759
+msgid "space"
+msgstr "فاصله"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:770 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "ورود"
+
+#: ../gok/gok-keyboard.c:808 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "منوها"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. * The prefix before the '|' character is just a context string and need not be
+#. * translated.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.GOK
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:867
+msgid "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "ابپتثجچحخدذرزسشصضطظعغفقکگلمنوهی۱۲۳۴۵۶۷۸۹۰-=/\\.‍"
+
+#. The substring "level 1|" should not be translated.
+#. * For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:872
+msgid "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "آءأإؤئژكةيًٌٍَُِّْ[]{}<>«»؛:؟!٬٫﷼٪×،*()ـ+"
+
+
+#. Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#.
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#.
+#: ../gok/gok-keyboard.c:879 ../gok/gok-keyboard.c:935
+msgid "level 2|"
+msgstr ""
+
+#. For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#: ../gok/gok-keyboard.c:882 ../gok/gok-keyboard.c:936
+msgid "level 3|"
+msgstr ""
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "level #|abcde..." strings
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:930
+msgid "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr ""
+
+#: ../gok/gok-keyboard.c:931
+msgid "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr ""
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1924
+msgid "GOK - "
+msgstr "صفحه‌کلید فارسی ایران"
+
+#: ../gok/gok-keyboard.c:2828
+msgid "GUI"
+msgstr "واسط گرافیکی کاربر"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2833 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "جدول"
+
+#: ../gok/gok-keyboard.c:2838 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "نوارهای ابزار"
+
+#: ../gok/gok-keyboard.c:2842
+msgid "Applications"
+msgstr "برنامه‌ها"
+
+#: ../gok/gok-keyboard.c:2852
+msgid "Menu"
+msgstr "منو"
+
+#: ../gok/gok-keyboard.c:3747
+msgid "translator-credits"
+msgstr ""
+"الناز سربر <elnaz@farsiweb.info>\n"
+"میلاد زکریا <meelad@farsiweb.info>"
+
+#: ../gok/gok-keyboard.c:3770 ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3772
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "صفحه‌کلیدهای مجازی پویا برای رومیزی گنوم"
+
+#: ../gok/gok-keyboard.c:3781
+msgid "Full Credits"
+msgstr ""
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "خطا هنگام خواندن شرح"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1702
+msgid "V Scrollbar"
+msgstr "نوار لغزش عمودی"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1707
+msgid "H Scrollbar"
+msgstr "نوار لغزش افقی"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:371 ../gok/gok-page-actions.c:416
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "نام کنش GOK"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:377
+msgid "Change the action name:"
+msgstr "تغییر نام کنش"
+
+#: ../gok/gok-page-actions.c:414
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"نام کنش نمی‌تواند خالی باشد.\n"
+"لطفاً یک نام کنش جدید وارد کنید."
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"ببخشید، این نام کنش از قبل وجود دارد.\n"
+"لطفاً یک نام کنش جدید وارد کنید. "
+
+#: ../gok/gok-page-actions.c:488
+#, c-format
+msgid "New Action %d"
+msgstr "کنش جدید %Id"
+
+#: ../gok/gok-page-actions.c:551
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "آیا می‌خواهید این کنش را حذف کنید(%s)؟"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "حذف کنش GOK"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:411 ../gok/gok-page-feedbacks.c:456
+#: ../gok/gok-page-feedbacks.c:475
+msgid "GOK Feedback Name"
+msgstr "نام بازخورد GOK"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:417
+msgid "Change the feedback name:"
+msgstr "تغییر نام بازخورد:"
+
+#: ../gok/gok-page-feedbacks.c:454
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"خالی بودن نام بازخورد ممکن نیست.\n"
+"لطفاً یک نام بازخورد جدید وارد کنید."
+
+#: ../gok/gok-page-feedbacks.c:473
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"ببخشید، این نام بازخورد از قبل وجود دارد.\n"
+"لطفاً یک نام بازخورد جدید وارد کنید."
+
+#: ../gok/gok-page-feedbacks.c:526
+#, c-format
+msgid "New Feedback %d"
+msgstr "بازخورد جدید %Id"
+
+#: ../gok/gok-page-feedbacks.c:644
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "آیا می‌خواهید این بازخورد را حذف کنید(%s)؟"
+
+#: ../gok/gok-page-feedbacks.c:652
+msgid "GOK Delete Feedback"
+msgstr "حذف بازخورد GOK"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:875
+msgid "Select sound file"
+msgstr "انتخاب پرونده‌ی صوتی"
+
+#: ../gok/gok-page-keyboard.c:180
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "وارد کردن شاخه برای جستجوی پرونده‌های اضافی صفحه‌کلید GOK"
+
+#: ../gok/gok-page-keyboard.c:194
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "انتخاب پرونده‌ی XML تعریف کننده‌ی راه‌اندازه صفحه‌کلید حروف‌چینی‌تان"
+
+#: ../gok/gok-page-keysizespace.c:83
+msgid "Button"
+msgstr "دکمه"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "فهرست پنجره‌ها"
+
+#: ../gok/gok-utf8-word-complete.c:120
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "خواندن محتوای پرونده‌ی لغت‌نامه‌ی «%s» ممکن نیست\n"
+
+#: ../gok/main.c:170
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"استفاده از روش دسترسی مشخص شده. نام رشته‌ای است در پرونده‌های مختلف روش دسترسی (.xam) "
+"تخصیص داده شده به ویژگی «name» برچسب <gok:accessmethod>.  توجه کنید که این لزوماً با نام"
+"پرونده‌ی xam یکی نیست. (‎--list-accessmethods را ببینید)"
+
+#: ../gok/main.c:171
+msgid "NAME"
+msgstr "نام"
+
+#: ../gok/main.c:179gconftool-2 --shutdown
+msgid "Start the GOK keyboard editor"
+msgstr "آغاز کردن ویرایش‌گر صفحه‌کلید GOK"
+
+#: ../gok/main.c:187
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "استفاده از چیزهای ویژه، اما احتمالاً ناپایدار gok"
+
+#: ../gok/main.c:195
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"هر وقت از ‎--geometry استفاده نشود، gok موقعیتش را بین فراخوانی‌ها فراموش نمی‌کند و "
+"در موقعیتی آغاز می‌شود که آخرین بار خاموش شده بود. زمانی که از ‎--geometry استفاده "
+"می‌شود، gok خود را داخل ناحیه‌ی مستطیل شکلی از صفحه که توسط مشخصات پیکربندی  "
+"ظاهری X11 شرح داده شده است قرار می‌دهد. هنگامی که از ‎--geometry استفاده می‌شود gok"
+"در زمان خاموش شدن موقعیتش را به خاطر نمی‌آورد. تغییر این رفتار با پرچم ‎--remembergeometry"
+" ممکن است که gok را مجبور به یاد‌آوری موقعیتش در زمان خاموش شدن می‌کند حتی اگر با ‎--geometry"
+"آغاز شده باشد."
+
+#: ../gok/main.c:196
+msgid "GEOMETRY"
+msgstr "پیکربندی ظاهری"
+
+#: ../gok/main.c:204
+msgid "Use the specified input device"
+msgstr "استفاده از ابزار ورودی مشخص شده"
+
+#: ../gok/main.c:205
+msgid "DEVICENAME"
+msgstr "نام دستگاه"
+
+#: ../gok/main.c:213
+msgid "Start GOK with the specified keyboard."
+msgstr "آغاز کردن GOK با صفحه‌کلید مشخص شده."
+
+#: ../gok/main.c:214
+msgid "KEYBOARDNAME"
+msgstr "نام صفحه‌کلید"
+
+#: ../gok/main.c:222
+msgid "List the access methods that can be used as options to other arguments."
+msgstr "فهرست کردن روش‌های دسترسی‌ای که می‌تواند به عنوان گزینه‌های آرگومان‌های دیگر استفاده شود."
+
+#: ../gok/main.c:231
+msgid "List the actions that can be used as options to other arguments."
+msgstr "فهرست کردن کنش‌هایی که می‌تواند به عنوان گزینه‌های آرگومان‌های دیگر استفاده شود."
+
+#: ../gok/main.c:240
+msgid "GOK will be used to login"
+msgstr "از GOK برای ورود به سیستم استفاده خواهد شد"
+
+#: ../gok/main.c:251
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"می‌تواند با ‎--geometry استفاده شود. GOK را مجبور می‌کند موقعیتش را هنگام خاموش شدن به خاطر داشته"
+"باشد حتی اگر با ‎--geomerty آغاز شده باشد. لطفاً برای اطلاعات بیشتر بحث زیر پرچم ‎--geometry را ببینید."
+
+#: ../gok/main.c:262
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+
+#: ../gok/main.c:272
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+
+#: ../gok/main.c:281
+msgid "Open the settings dialog box when GOK starts"
+msgstr "باز کردن جعبه‌ی محاوره‌ هنگام آغاز شدن GOK"
+
+#: ../gok/main.c:616
+#, c-format
+msgid "gok: Unsupported geometry specification\n"
+msgstr "‏gok: مشخصات پیکربندی ظاهری پشتیبانی نشده\n"
+
+#: ../gok/main.c:617
+#, c-format
+msgid ""
+"gok: Currently GOK requires that the x, y, width and height all be given\n"
+msgstr "‏gok: در حال حاضر GOK لازم دارد x، y، عرض و ارتفاع همه داده شوند\n"
+
+#: ../gok/main.c:713
+msgid "XKB extension is required."
+msgstr ""
+
+#: ../gok/main.c:723
+msgid "Can't initialize actions."
+msgstr "نمی‌توان کنش‌ها را راه‌اندازی کرد."
+
+#: ../gok/main.c:733
+msgid "Can't initialize feedbacks."
+msgstr "نمی‌توان بازخوردها راه‌اندازی کرد."
+
+#: ../gok/main.c:760
+msgid "Can't create the main GOK window!"
+msgstr "نمی‌توان پنجره‌ی اصلی GOK را ایجاد کرد!"
+
+#: ../gok/main.c:779
+msgid "Can't create the settings dialog window!"
+msgstr "نمی‌توان پنجره‌ی محاوره‌ی تنظیمات را ایجاد گرد!"
+
+#: ../gok/main.c:841
+msgid "No keyboards to display!"
+msgstr "هیچ صفحه‌کلیدی برای نمایش وجود ندارد!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:975 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "واسط کاربر Grab"
+
+#: ../gok/main.c:991
+msgid "popup menu"
+msgstr "منوی واشو"
+
+#: ../gok/main.c:1858
+msgid "Can't create a compose keyboard!"
+msgstr "ایجاد صفحه‌کلید حروف‌چینی ممکن نیست!"
+
+#: ../gok/main.c:1900
+msgid "Can't read any keyboards!"
+msgstr "نمی‌توان هیچ صفحه‌کلیدی خواند!"
+
+#: ../gok/main.c:2017
+msgid "could not access method directory key from GConf!"
+msgstr "دسترسی به کلید شاخه‌ی روش از GConf ممکن نیست!"
+
+#: ../gok/main.c:2025
+msgid "possibly unknown access method!"
+msgstr "روش دسترسی احتمالاً نامعلوم!"
+
+#: ../gok/main.c:2569
+msgid "Sorry, GOK can't run because:\n"
+msgstr "ببخشید، اجرای GOK ممکن نیست چون:\n"
+
+#: ../gok/main.c:2578
+msgid "GOK Fatal Error"
+msgstr "خطای مهلک GOK"
+
+#: ../gok/main.c:2590
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run.  GOK is currently unable to retrieve those settings.  If "
+"this is the first time that you have run gok after installing it you may "
+"need to restart gconfd, you can use this command: 'gconftool-2 --shutdown' "
+"or log out and back in."
+msgstr ""
+"‏GOK برای ذخیره‌ی تنظیماتش از GConf 2 استفاده می‌کند و برای اجرا نیازمند تنظیمات خاصی در GConf است."
+"‏GOK در حال حاضر قادر به بازیابی این تنظیمات نیست. اگر این اولین باری است که gok را بعد از نصب کردن اجرا"
+"می‌کنید، ممکن است لازم باشد gconfd را راه‌اندازی مجدد کنید، شما می‌توانید از این فرمان استفاده"
+"کنید: «gconftool-2 --shutdown»  یا از سیستم خارج شده و دوباره وارد شوید."
+
+#: ../gok/main.c:2607
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given.  Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"در حال حاضر GOK لازم دارد x، y، عرض و ارتفاع همه داده شوند"
+"ببخشید، از مشخصات پیکربندی ظاهری شما استفاده نخواهد شد."
+
+#: ../gok/main.c:2609
+msgid "gok: Unsupported geometry specification"
+msgstr "‏gok: مشخصات پیکربندی ظاهری پشتیبانی نشده"
+
+#: ../gok/main.c:2816
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"‏GOK ممکن است درست کار نکند، چون نمی‌تواند امکان کلیدهای چسبان رومیزی شما را به کار بیاندازد."
+
+#: ../gok/main.c:2823
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr ""
+"‏GOK کلیدهای چسبان را که به آن‌ها احتیاج دارد، به کار انداخته است.\n"
+
+#: ../gok/main.c:2845
+msgid "GOK cannot run because XKB display extension is missing.\n"
+msgstr ""
+
+#: ../gok/main.c:2914
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+
+#: ../gok/main.c:2920
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+
+#. no longer used!
+#: ../gok/main.c:2927 ../gok/main.c:2930
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "به نظر می‌رسد شما GOK را برای استفاده از حالت «اشاره‌گر اصلی» پیکربندی کرده‌اید."
+
+#: ../gok/main.c:3028
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"پشتیبانی فناوری کمکی به کار انداخته نشده است.\n"
+"\n"
+"شما می‌توانید GOK را بدون پشتیبانی فناوری‌های کمکی آغاز کنید."
+" هر چند، ممکن است بعضی از امکانات برنامه قابل دسترسی نباشد.\n"
+"\n"
+"برای به کار انداختن پشتیبانی فناوری‌های کمکی و ورود به یک نشست تازه"
+" با به کار انداخته شدن تغییرات، روی به کار اندازی و خروج از سیستم کلیک کنید.\n"
+"\n"
+"برای ادامه‌ی استفاده از GOK، روی ادامه کلیک کنید.\n"
+"\n"
+"برای ترک GOK، روی بستن کلیک کنید.\n"
+"\n"
+
+#: ../gok/main.c:3047
+msgid "Enable and Log Out"
+msgstr "به کار انداختن و خروج از سیستم"
+
+#: ../gok/main.c:3059
+msgid "Continue"
+msgstr "ادامه"
+
+#: ../inverse-scanning.xml.in.h:12
+msgid "Inverse Scanning"
+msgstr "پویش معکوس"
+
+#: ../inverse-scanning.xml.in.h:17 ../singlekey-inverse-scanning.xml.in.h:13
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "فشردن و نگه داشتن سوییچ برای پویش. نگه داشتن سوییچ دیگر برای انتخاب"
+
+#: ../inverse-scanning.xml.in.h:21 ../singlekey-inverse-scanning.xml.in.h:17
+msgid "Scan:"
+msgstr "پویش:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:21
+msgid "Single Key Automatic Scanning"
+msgstr "پویش خودکار تک کلیدی"
+
+#: ../singlekey-automatic-scanning.xml.in.h:22
+msgid "Start Scanning:"
+msgstr "آغاز پویش:"
+
+#: ../singlekey-automatic-scanning.xml.in.h:25
+msgid "Wrap"
+msgstr "پیچیدن"
+
+#: ../singlekey-inverse-scanning.xml.in.h:19
+msgid "Single Key Inverse Scanning"
+msgstr ""
+
+#: ../directed.xml.in.h:2
+msgid "5 Switch Directed"
+msgstr ""
+
+#: ../directed.xml.in.h:5
+msgid "Down:"
+msgstr "پایین:"
+
+#: ../directed.xml.in.h:16
+msgid "Up:"
+msgstr "بالا:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "نشان دادن"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "مرورگر راهنما"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "پایانه"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "ویرایش‌گر متن"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "مرورگر وب"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "حروف‌چینی"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "راه‌انداز"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "موشی"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "دکمه‌ی ۱"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "دکمه‌ی ۲"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "دکمه‌ی ۳"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "دوبار کلیک"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "چفت"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "اشاره‌گر"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "تکرار"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "پرکردن"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "شناور"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "باریک‌تر"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "تکرار کلید بعدی"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "کوتاه‌تر"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "بلندتر"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "پهن‌تر"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "مهار"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "حذف"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "درج"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "اعداد"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr ""
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr ""
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "تبدیل"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "جهش-&gt;"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "واقعاً ترک!"

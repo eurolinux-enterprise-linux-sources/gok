@@ -1,0 +1,2223 @@
+# translation of gok.master.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gok.master.kn\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gok&component=general\n"
+"POT-Creation-Date: 2009-09-07 01:48+0000\n"
+"PO-Revision-Date: 2009-09-20 15:40+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "ಸಕ್ರಿಯಗೊಳಿಸು"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "ಸಕ್ರಿಯಗೊಳಿಸು:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "ಸಕ್ರಿಯಗೊಳಿಕೆ:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "ಸ್ವಯಂಚಾಲಿತ ಸ್ಕ್ಯಾನಿಂಗ್"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "ಕೆಳಗೆ/ಮೇಲಕ್ಕೆ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "ನಿಲ್ಲಿಸುವ ಮೊದಲಿನ ಆವರ್ತನಗಳು:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:66
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "ಫೀಡ್‌ಬ್ಯಾಕ್"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "ಫೀಡ್‌ಬ್ಯಾಕ್ ಸಕ್ರಿಯಗೊಳಿಕೆ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "ಫೀಡ್‌ಬ್ಯಾಕ್ ಚಲನೆ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "ಆರಂಭದ ವಿಳಂಬ:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "ಎಡ/ಬಲ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "ಚಲನೆ:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "ಕಾರ್ಯಾಚರಣೆ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "ಆಯ್ಕೆಗಳು"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+"ಸ್ಕ್ಯಾನಿಂಗ್ ಅನ್ನು ಆರಂಭಿಸಲು ಒಂದು ಸ್ವಿಚ್ ಅನ್ನು ಒತ್ತಿ.  ಮತ್ತೊಮ್ಮೆ ಆರಿಸಲು ಅದೆ ಸ್ವಿಚ್ ಅನ್ನು "
+"ಅಥವ ಬೇರೊಂದು ಸ್ವಿಚ್ ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "ಬಲ/ಎಡ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "ಸ್ಕ್ಯಾನ್ ವಿಳಂಬ:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "ಸ್ಕ್ಯಾನ್ ವೇಗ:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "ಸ್ಕ್ಯಾನಿಂಗ್ ದಿಕ್ಕು:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "ಸ್ಕ್ಯಾನಿಂಗನ್ನು ಆರಂಭಿಸು"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "ಸ್ಕ್ಯಾನಿಂಗನ್ನು ಆರಂಭಿಸು:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "ಮೇಲೆ/ಕೆಳಗೆ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "ಅಡ್ಡಸಾಲುಗಳನ್ನು/ಲಂಬಸಾಲುಗಳನ್ನು ಆವರಿಸು"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "feedbackmovement"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "feedbackselection"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "ನೇರ ಆಯ್ಕೆ"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "ಪ್ರತಿಕ್ರಿಯೆ ಸಕ್ರಿಯಗೊಳಿಕೆ:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "ಪ್ರತಿಕ್ರಿಯೆ ಚಲನೆ:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr ""
+"ಒಂದು ಕೀಲಿಯನ್ನು ಹೈಲೈಟ್ ಮಾಡಲು ಮೌಸಿನ ಸೂಚಕವನ್ನು ಚಲಿಸು. ಆರಿಸಲು ಒಂದು ಸ್ವಿಚ್ಚನ್ನು ಆಯ್ಕೆ "
+"ಮಾಡಿ."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "ಆರಿಸು:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "ಡ್ವೆಲ್ ಆಯ್ಕೆ"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr ""
+"ಒಂದು ಕೀಲಿಯನ್ನು ಸುಪ್ರಕಾಶಗೊಳಿಸಲು(ಹೈಲೈಟ್) ಮೌಸ್‌ನ ಸೂಚಕವನ್ನು ಅದರ ಮೇಲೆ ಇರಿಸಿ. ಅದನ್ನು ಆಯ್ಕೆ "
+"ಮಾಡಲು ಕೀಲಿಯ ಮೇಲೆ ಡ್ವೆಲ್‌ ಮಾಡಿ."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "ಇದರ ಬಗ್ಗೆ"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "ನೆರವು"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "ಆದ್ಯತೆಗಳು"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "GOK ಇಂದ ಹೊರನಡೆ"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "ವಿಂಡೊ"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2467
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "ಹಿಂದಕ್ಕೆ"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:349
+msgid "A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+"ಸಂಸ್ಕರಿಸುವ ಮೊದಲು ಇನ್‌ಪುಟ್ ಸಾಧನದ ವಿಶ್ಲೇಷಕ(ವ್ಯಾಲುವೇಟರ್) ಘಟನೆಗಳಿಗೆ ಅನ್ವಯಿಸಬೇಕಿರುವ ಒಂದು "
+"ಗುಣಕ"
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"ಒಂದು ಅರ್ಧವಿರಾಮ ಚಿಹ್ನೆಯಿಂದ ಬೇರ್ಡಿಸಲಾದ ಹೆಚ್ಚುವರಿ ಪದ-ಪೂರ್ಣಗೊಳಿಕೆ ಶಬ್ಧಕೋಶಗಳ ಸಂಪೂರ್ಣವಾಗಿ "
+"ಸೂಚಿಸಲಾದ ಮಾರ್ಗಗಳ ಪಟ್ಟಿ"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "ಆದ್ಯತೆಗಳನ್ನು ನಿರ್ಬಂಧಿಸಬೇಕೆ?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ರಚನಾ ಕೀಲಿಮಣೆಗಾಗಿ ಬಳಸಲಾಗುವ ಪೂರ್ವನಿಯೋಜಿತ ಕೀಲಿ ಮಣೆಯನ್ನು ನಿರ್ಧರಿಸುತ್ತದೆ"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr ""
+"GOK ಯು ಅದರ ರಚನಾ ಕೀಲಿಮಣೆಯನ್ನು X ಪರಿಚಾರಕದಿಂದ ದೊರೆತ ಮಾಹಿತಿಯಿಂದಾಗಿ ತಾನೆ "
+"ಕ್ರಿಯಾತ್ಮಕವಾಗಿ ಉತ್ಪಾದಿಸುತ್ತದೆಯೆ?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid "Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "ಪ್ರತಿಯೊಂದು GOK ಬಳಕೆದಾರರಲ್ಲಿ ಪದಗಳ ಊಹೆಗಾಗಿನ ಶಬ್ಧಕೋಶದ ಒಂದು ಖಾಸಗಿ ಪ್ರತಿ ಇದೆಯೆ?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "GOK ವಿಂಡೋವು ಸಂಪೂರ್ಣ ತೆರೆಯ ಅಗಲಕ್ಕೆ ಹೊಂದುವಂತೆ ಹಿಗ್ಗಿಸಲ್ಪಡುತ್ತದೆಯೆ?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "ಮುಖ್ಯ ಸೂಚಕವು GOK ಕೀಲಿಮಣೆ ಸೂಚಕವನ್ನು ಅನುಸರಿಸಬೇಕೆ?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "ಈ ಕ್ರಿಯೆಯು ಕೀಲಿ ಸರಾಸರಿಯನ್ನು(ಆವ್‌ರೇಜಿಂಗ್) ಬಳಸಬೇಕೆ"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "ಈ ಪ್ರತಿಕ್ರಿಯೆಯು ಹೊಳೆಯಬೇಕೆ"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "ಈ ಪ್ರತಿಕ್ರಿಯೆಯು ಒಂದು ಧ್ವನಿಯನ್ನು ಚಲಾಯಿಸುತ್ತದೆ"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "ಈ ಪ್ರತಿಕ್ರಿಯೆಯು ಒಂದು GOK ಕೀಲಿಯ ಲೇಬಲ್‌ ಅನ್ನು ತಿಳಿಸಬೇಕೆ"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "ಡ್ವೆಲ್‌"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr ""
+"GOK ಮುಖ್ಯ ವಿಂಡೋದ ಲಂಗರು ತಾಣ (ಒಂದು ಡಾಕ್ ಆಗಿದ್ದಲ್ಲಿ), ಅಥವ ಇಲ್ಲದೆ ಹೋದಲ್ಲಿ ಒಂದು ಖಾಲಿ "
+"ವಾಕ್ಯ"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr ""
+"ನಿಲುಕಣಾ ವಸ್ತುಗಳನ್ನು ಹುಡುಕಲು GUI ವೃಕ್ಷದಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ನೋಡ್‌ನಲ್ಲಿನ ಎಷ್ಟು ಉಪ-ಅಂಶಗಳನ್ನು"
+"(ಚಿಲ್ಡ್ರನ್) ಬಳಸಬೇಕು"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "ನಿಲುಕಣಾ ವಸ್ತುಗಳನ್ನು ಹುಡುಕಲು GUI ವೃಕ್ಷದ ಕೆಳಗಿನ ಎಷ್ಟು ಹಂತಗಳನ್ನು ಬಳಸಬೇಕು"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "ಈ ಕ್ರಿಯೆಯು ಶಾಶ್ವತವೆ"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "ಈ ಪ್ರತಿಕ್ರಿಯೆಯು ಶಾಶ್ವತವೆ"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "ಪದ ಪೂರ್ಣಗೊಳಿಕೆಯು ಚಾಲನೆಯಲ್ಲಿದೆಯೆ"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "ಕೀಲಿ ಹೊಳೆಯುವಿಕೆ"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "ಮೌಸ್‌ನ ಎಡ ಗುಂಡಿ"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "ಮೌಸ್‌ನ ಮಧ್ಯದ ಗುಂಡಿ"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "ಮೌಸ್‌ ಗುಂಡಿ 4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "ಮೌಸ್‌ ಗುಂಡಿ 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "ಮೌಸ್‌ನ ಸೂಚಕ"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "ಮೌಸ್‌ನ ಬಲ ಗುಂಡಿ"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಒಂದು ಆಗಿರಬೇಕು: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; \"custom\" ಆಗಿದ್ದಲ್ಲಿ, \"custom_compose_keyboard\" ಅನ್ನು "
+"ಸೂಚಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "ಶಬ್ಧ ಒಂದು"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "ಶಬ್ಧ ಎರಡು"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "ಮಾತು"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "ಸ್ವಿಚ್ 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "ಸ್ವಿಚ್ 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "ಸ್ವಿಚ್ 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "ಸ್ವಿಚ್ 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "ಸ್ವಿಚ್ 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "ಬಳಸಬೇಕಿರುವ ನಿಲುಕಣಾ ವಿಧಾನ"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "ನಿಲುಕಣಾ ವಿಧಾನದ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಬೇಕಿರುವ ಕೋಶ."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "ಶಬ್ಧಕೋಶದ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಬೇಕಿರುವ ಕೋಶ."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "gok ಸಂಪನ್ಮೂಲ ಕಡತವನ್ನು ಲೋಡ್ ಮಾಡಬೇಕಿರುವ ಕೋಶ."
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "ಬಳಕೆದಾರ-ನಿಗದಿತ ಅಥವ ಇಚ್ಛೆಯ ಕೀಲಿಮಣೆ ಕಡತಗಳನ್ನು ಲೋಡ್ ಮಾಡಬೇಕಿರುವ ಕೋಶ."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "ಒಂದು ಇಚ್ಛೆಯ GOK ರಚನಾ ಕೀಲಿಮಣೆಯನ್ನು ಸೂಚಿಸುವ ಕಡತದ ಸಂಪೂರ್ಣ ಮಾರ್ಗದ ಹೆಸರು"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "ಕೀಲಿಯ ಉದ್ದ"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "ಕೀಲಿಯ ಅಗಲ"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "ಕೀಲಿಮಣೆಯ X ನಿರ್ದೇಶಾಂಕಗಳು"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "ಕೀಲಿಮಣೆಯ Y ನಿರ್ದೇಶಾಂಕಗಳು"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "ಈ ಪ್ರತಿಕ್ರಿಯೆಯು ಚಲಾಯಿಸುವ ಧ್ವನಿಯ ಹೆಸರು"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "ಬಳಸಲು xinput ಸಾಧನದ ಹೆಸರು"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "ಈ ಕ್ರಿಯೆಗಾಗಿ ಬಳಕೆದಾರರಿಗೆ ತೋರಿಸಬೇಕಿರುವ ಹೆಸರು"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "ಈ ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಬಳಕೆದಾರರಿಗೆ ತೋರಿಸಬೇಕಿರುವ ಹೆಸರು"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "ಅನ್ವಯಿಸಬಹುದಾದದಲ್ಲಿ ಸಂಖ್ಯೆ"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "ಪದದ ಪೂರ್ಣಗೊಳಿಕೆಗಾಗಿನ ಊಹೆಗಳ ಸಂಖ್ಯೆ"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "ಈ ಪ್ರತಿಕ್ರಿಯೆಯು ಮಿನುಗುವ ಸಂಖ್ಯೆ"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"ಕೀಲಿಮಣೆ ಕಡತಗಳನ್ನು ಯಾವ ಪ್ರಾಥಮಿಕ ಕೋಶದಿಂದ ಲೋಡ್ ಮಾಡಬೇಕೊ ಆ ಕೋಶ. ವ್ಯವಸ್ಥೆಯ ಕೋಶವು "
+"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿರುತ್ತದೆ."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "ಈ ಕ್ರಿಯೆಗಾಗಿನ ದರ"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "ಕೀಲಿಗಳ ನಡುವಿನ ಜಾಗ"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "ಈ ಕ್ರಿಯೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾದಾಗ ಇದ್ದ ಸ್ಥಿತಿ"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "ಈ ಕ್ರಿಯೆಯ ಬಗೆ"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "GOK ಪದ-ಪೂರ್ಣಗೊಳಿಕಾ ಅಬ್ಯರ್ಥಿಗಳಿಗಾಗಿ ಹುಡುಕುವಾಗ ಹೆಚ್ಚುವರಿ ಪದ ಪಟ್ಟಿಗಳನ್ನು ಬಳಸಬೇಕೆ"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr "ಅನ್ವಯಗಳಿಗೆ ನ್ಯಾವಿಗೇಟ್ ಮಾಡು ಹಾಗು ಪರ್ಯಾಯ ಇನ್‌ಪುಟ್‌ ಸಾಧನಗಳನ್ನು ಬಳಸಿಕೊಂಡು ನಮೂದಿಸು"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "ತೆರೆಯ ಮೇಲಿನ ಕೀಲಿಮಣೆ"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "3 ಸ್ಥಿತಿ"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>ಗೋಚರಿಕೆ</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>ವರ್ತನೆ</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>ವಿಭಾಗ</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>ಆಜ್ಞೆಯ ಊಹೆಗಳು</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>ಕಂಪೋಸ್ ಕೀಲಿಮಣೆ</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>ನನ್ನಿಚ್ಛೆಯ ಕೀಲಿಮಣೆ</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>ಕ್ರಿಯೆಗಳನ್ನು ವಿವರಿಸು</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ವಿವರಿಸು</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>ಸಕ್ರಿಯಗೊಳಿಸುವ ಮೊದಲಿನ ವಿಳಂಬ</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>ವಿವರಣೆ</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>ಡಾಕ್‌ ಮಾಡು ಹಾಗು ಅಡ್ಡಲಾಗಿ ವಿಸ್ತರಿಸು</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>ಘಟನೆಯ ಆಕರ</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>ಅಕ್ಷರಶೈಲಿ</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>ಕೀಲಿ ಮಿನುಗುವಿಕೆ</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>ಕೀಲಿ ಗಾತ್ರ ಹಾಗು ಅಂತರಗಳ ನಿಯಂತ್ರಣ</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>ಕೀಲಿ</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>ಕೀಲಿಮಣೆ</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>ಮಾರ್ಪಡಕ</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>ಔಟ್‌ಪುಟ್</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>ಸ್ಥಾನ</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>ಮುನ್ನೋಟ</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>ಸಂವೇದನಶೀಲತೆ</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>ಧ್ವನಿ</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>ಮಾತು</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>ಸ್ವಿಚ್ ಅಥವ ಗುಂಡಿಯ ಸಂಖ್ಯೆ</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>ಥೀಮ್</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>ಟೈಮರುಗಳು ಹಾಗು ವಿಳಂಬಗಳು</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>ಬಗೆ</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>ಮೌಲ್ಯಕದ ಬಗೆ</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>ಪದದ ಪೂರ್ಣಗೊಳಿಕೆ</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>ಸೂಚನೆ:</b>GOK ಅನ್ನು ಮುಂದಿನ ಬಾರಿ ಚಲಾಯಿಸುವವರೆಗೂ ಈ ಸಿದ್ಥತೆಗಳಿಗೆ "
+"ಮಾಡಲಾದ ಬದಲಾವಣೆಗಳು ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರುವುದಿಲ್ಲ.</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr "ಸಂಸ್ಕರಣೆಯ ಮೊದಲು ವಿಸ್ತರಿಸಲಾದ ಇನ್‌ಪುಟ್ ಸಾಧನ ವಿಶ್ಲೇಷಕ ಘಟನೆಗಳಿಗೆ ಅನ್ವಯಿಸಲಾಗುವ ಒಂದು ಗುಣಕ."
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "ನಿಲುಕಣಾ ವಿಧಾನಗಳು"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "ಕಾರ್ಯದ ಹೆಸರುಗಳ ಪಟ್ಟಿ"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "ಕಾರ್ಯದ ಬಗೆ:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "ActionTypeNotebook"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "ಕಾರ್ಯಗಳು"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "ಡ್ವೆಲ್ ಆದಾಗ ಸಕ್ರಿಯಗೊಳಿಸು(_e)"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "ನಮೂದಿಸಿದಾಗ ಸಕ್ರಿಯಗೊಳಿಸು(_E)"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "ಚಲಿಸಿದಾಗ ಸಕ್ರಿಯಗೊಳಿಸು(_M)"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "ಒತ್ತಿದಾಗ ಸಕ್ರಿಯಗೊಳಿಸು(_p)"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "ಬಿಟ್ಟಾಗ ಸಕ್ರಿಯಗೊಳಿಸು(_r)"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "ಸೇರಿಸಿ"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "ಹೊಸ ಕೀಲಿಯನ್ನು ಸೇರಿಸಿ"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "GOK ಕೀಲಿಮಣೆಗಳಿಗಾಗಿ ಹುಡುಕಬೇಕಿರುವ ಹೆಚ್ಚುವರಿ ಕೋಶ"
+
+#: ../gok.glade2.h:47
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "ಪದದ ಆವರ್ತನೆಗೆ ಅನುಗುಣವಾಗಿ ಜೋಡಿಸಲಾದ ವರ್ಣಮಾಲಾಸಾಂಖ್ಯಿಕ(ಅಲ್ಫಾನ್ಯೂಮರಿಕ್) ಕೀಲಿಮಣೆ"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "ವರ್ಣಮಾಲೆಗೆ ಅನುಗುಣವಾಗಿ ವಿಂಗಡಿಸಲಾದ ವರ್ಣಮಾಲಾಸಾಂಖ್ಯಿಕ(ಅಲ್ಫಾನ್ಯೂಮರಿಕ್) ಕೀಲಿಮಣೆ"
+
+#: ../gok.glade2.h:49
+msgid "Appearance"
+msgstr "ಗೋಚರಿಕೆ"
+
+#: ../gok.glade2.h:50
+msgid "Bottom:"
+msgstr "ಕೆಳಗೆ:"
+
+#: ../gok.glade2.h:51
+msgid "Browse"
+msgstr "ವೀಕ್ಷಿಸು"
+
+#: ../gok.glade2.h:52
+msgid "C_ore pointer"
+msgstr "ಮುಖ್ಯ ಸೂಚಕ(_o)"
+
+#: ../gok.glade2.h:53
+msgid "Command Prediction"
+msgstr "ಆಜ್ಞೆಯ ಊಹೆ"
+
+#: ../gok.glade2.h:54
+msgid "Delay"
+msgstr "ವಿಳಂಬ"
+
+#: ../gok.glade2.h:55
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr "ಟ್ರಿಗರ್ ಮಾಡುವ ಘಟನೆಯು ಸಂಭವಿಸದ ನಂತರ, ಸಕ್ರಿಯಗೊಳ್ಳುವ ನಡುವಿನ ಕಾಲವಿಳಂಬ, ಒಂದು ಸೆಕೆಂಡಿನ 100ನೆ ಒಂದು ಭಾಗ."
+
+#: ../gok.glade2.h:56
+msgid "Delete"
+msgstr "ಅಳಿಸು"
+
+#: ../gok.glade2.h:57
+msgid "Delete Key"
+msgstr "ಅಳಿಸುವ ಕೀಲಿ"
+
+#: ../gok.glade2.h:58
+msgid "Dock"
+msgstr "ಡಾಕ್ ಮಾಡು"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:59 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "ಕೆಳಕ್ಕೆ ಡಾಕ್ ಮಾಡು"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "ಮೇಲಕ್ಕೆ ಡಾಕ್ ಮಾಡು"
+
+#: ../gok.glade2.h:61
+msgid "Duplicate"
+msgstr "ನಕಲು"
+
+#: ../gok.glade2.h:62
+msgid "Enable _key flashing"
+msgstr "ಕೀಲಿ ಮಿನುಗುವಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_k)"
+
+#: ../gok.glade2.h:63
+msgid "Enable _sound"
+msgstr "ಧ್ವನಿಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_s)"
+
+#: ../gok.glade2.h:64
+msgid "Enable _word completion"
+msgstr "ಪದದ ಪೂರ್ಣಗೊಳಿಕೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_w)"
+
+#: ../gok.glade2.h:65
+msgid "Enable co_mmand prediction"
+msgstr "ಆಜ್ಞೆಯ ಊಹೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_m)"
+
+#: ../gok.glade2.h:67
+msgid "Fill Width"
+msgstr "ಅಗಲವನ್ನು ತುಂಬಿಸು"
+
+#: ../gok.glade2.h:68
+msgid "Font Group:"
+msgstr "ಅಕ್ಷರಶೈಲಿ ಸಮೂಹ:"
+
+#: ../gok.glade2.h:69 ../gok/gok-editor.c:36
+msgid "GOK Keyboard Editor"
+msgstr "GOK ಕೀಲಿಮಣೆ ಸಂಪಾದಕ"
+
+#: ../gok.glade2.h:70
+msgid "GOK Preferences"
+msgstr "GOK ಆದ್ಯತೆಗಳು"
+
+#: ../gok.glade2.h:71
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:72
+msgid "Key Height"
+msgstr "ಕೀಲಿಯ ಉದ್ದ"
+
+#: ../gok.glade2.h:73
+msgid "Key Spacing"
+msgstr "ಕೀಲಿ ಅಂತರ"
+
+#: ../gok.glade2.h:74
+msgid "Key Width"
+msgstr "ಕೀಲಿಯ ಅಗಲ"
+
+#: ../gok.glade2.h:75
+msgid "Key _width:"
+msgstr "ಕೀಲಿಯ ಅಗಲ(_w):"
+
+#: ../gok.glade2.h:76
+msgid "Key h_eight:"
+msgstr "ಕೀಲಿಯ ಉದ್ದ (_e):"
+
+#: ../gok.glade2.h:77
+msgid "Keyboards"
+msgstr "ಕೀಲಿಮಣೆಗಳು"
+
+#: ../gok.glade2.h:78
+msgid "Keycode:"
+msgstr "ಕೀಕೋಡ್:"
+
+#: ../gok.glade2.h:79
+msgid "Keysym:"
+msgstr "ಕೀಸಿಮ್:"
+
+#: ../gok.glade2.h:80
+msgid "Label:"
+msgstr "ಲೇಬಲ್:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:81 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "ಎಡ:"
+
+#: ../gok.glade2.h:82
+msgid "Match physical keyboard as reported by X Server"
+msgstr "X ಪರಿಚಾರಕದಿಂದ ಸೂಚಿಸಲಾದ ನಿಜವಾದ ಕೀಲಿಮಣೆಗೆ ಹೊಂದಿಸು"
+
+#: ../gok.glade2.h:83
+msgid "Modifier Post"
+msgstr "ನಂತರದ್ದನ್ನು ಮಾರ್ಪಡಿಸು"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Pre"
+msgstr "ಮುಂಚಿನದನ್ನು ಮಾರ್ಪಡಿಸು"
+
+#: ../gok.glade2.h:85
+msgid "Modifier:"
+msgstr "ಮಾರ್ಪಡಕ:"
+
+#: ../gok.glade2.h:86
+msgid "Move Down"
+msgstr "ಕೆಳಕ್ಕೆ ಚಲಿಸು"
+
+#: ../gok.glade2.h:87
+msgid "Move Up"
+msgstr "ಮೇಲಕ್ಕೆ ಚಲಿಸು"
+
+#: ../gok.glade2.h:88
+msgid "Name:"
+msgstr "ಹೆಸರು:"
+
+#: ../gok.glade2.h:89
+msgid "New"
+msgstr "ಹೊಸ"
+
+#: ../gok.glade2.h:90
+msgid "Next Key"
+msgstr "ಮುಂದಿನ ಕೀಲಿ"
+
+#: ../gok.glade2.h:91
+msgid "Normal"
+msgstr "ಸಾಮಾನ್ಯ"
+
+#: ../gok.glade2.h:92
+msgid "Number of _flashes:"
+msgstr "ಮಿನುಗುವಿಕೆಗಳ ಸಂಖ್ಯೆ(_f):"
+
+#: ../gok.glade2.h:93
+msgid "Number of _predictions:"
+msgstr "ಊಹೆಗಳ ಸಂಖ್ಯೆ(_p):"
+
+#: ../gok.glade2.h:94
+msgid "Number of command predictions:"
+msgstr "ಆಜ್ಞೆಯ ಊಹೆಗಳ ಸಂಖ್ಯೆ:"
+
+#: ../gok.glade2.h:95
+msgid "Number of word predictions:"
+msgstr "ಪದದ ಊಹೆಗಳ ಸಂಖ್ಯೆ:"
+
+#: ../gok.glade2.h:96
+msgid "Other _input device:"
+msgstr "ಇತರೆ ಇನ್‌ಪುಟ್ ಸಾಧನ(_i):"
+
+#: ../gok.glade2.h:97
+msgid "Prediction"
+msgstr "ಊಹೆ"
+
+#: ../gok.glade2.h:98
+msgid "Press"
+msgstr "ಒತ್ತಿ"
+
+#: ../gok.glade2.h:99
+msgid "Previous Key"
+msgstr "ಹಿಂದಿನ ಕೀಲಿ"
+
+#: ../gok.glade2.h:100
+msgid "Read keyboard from file:"
+msgstr "ಕೀಲಿಮಣೆಯನ್ನು ಕಡತದಿಂದ ಓದು:"
+
+#: ../gok.glade2.h:101
+msgid "Release"
+msgstr "ಬಿಡುಗಡೆ"
+
+#. User interface for the access method
+#: ../gok.glade2.h:102 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "ಬಲ:"
+
+#: ../gok.glade2.h:103
+msgid "S_witch"
+msgstr "ಸ್ವಿಚ್(_w)"
+
+#: ../gok.glade2.h:104
+msgid "Show Only This Font Group"
+msgstr "ಕೇವಲ ಈ ಅಕ್ಷರ ಶೈಲಿಯ ಗುಂಪನ್ನು ತೋರಿಸು"
+
+#: ../gok.glade2.h:105
+msgid "So_und:"
+msgstr "ಧ್ವನಿ(_u):"
+
+#: ../gok.glade2.h:106
+msgid "Speak key _label"
+msgstr "ಕೀಲಿ ಲೇಬಲ್ ಅನ್ನು ಉಚ್ಛರಿಸು(_l)"
+
+#: ../gok.glade2.h:107
+msgid "Style:"
+msgstr "ಶೈಲಿ:"
+
+#: ../gok.glade2.h:108
+msgid "Switch _1"
+msgstr "ಸ್ವಿಚ್ _1"
+
+#: ../gok.glade2.h:109
+msgid "Switch _2"
+msgstr "ಸ್ವಿಚ್ _2"
+
+#: ../gok.glade2.h:110
+msgid "Switch _3"
+msgstr "ಸ್ವಿಚ್ _3"
+
+#: ../gok.glade2.h:111
+msgid "Switch _4"
+msgstr "ಸ್ವಿಚ್ _4"
+
+#: ../gok.glade2.h:112
+msgid "Switch _5"
+msgstr "ಸ್ವಿಚ್ _5"
+
+#: ../gok.glade2.h:113
+msgid "Target:"
+msgstr "ಗುರಿ:"
+
+#: ../gok.glade2.h:114
+msgid "To Back"
+msgstr "ಹಿಂಬದಿಗೆ"
+
+#: ../gok.glade2.h:115
+msgid "To Front"
+msgstr "ಎದುರಿಗೆ"
+
+#: ../gok.glade2.h:116
+msgid "Toggle"
+msgstr "ಟಾಗಲ್"
+
+#: ../gok.glade2.h:117
+msgid "Top:"
+msgstr "ಮೇಲಿನ:"
+
+#: ../gok.glade2.h:118
+msgid "Use _extra word list file(s)"
+msgstr "ಹೆಚ್ಚಿನ ಪದ ಕಡತವನ್ನು(ಗಳನ್ನು) ಬಳಸು(_e)"
+
+#: ../gok.glade2.h:119
+msgid "Use _key averaging"
+msgstr "ಕೀಲಿ ಸರಾಸರಿಗೊಳಿಕೆಯನ್ನು ಬಳಸು(_k)"
+
+#: ../gok.glade2.h:120
+msgid "Valuator Sensitivity"
+msgstr "ಮೌಲ್ಯಕದ ಸಂವೇದನಶೀಲತೆ"
+
+#: ../gok.glade2.h:121
+msgid "Word Completion"
+msgstr "ಪದದ ಪೂರ್ಣಗೊಳಿಕೆ"
+
+#: ../gok.glade2.h:122
+msgid "_100ths of a second"
+msgstr "ಒಂದು ಸೆಕೆಂಡಿನ _100 ಭಾಗದಲ್ಲಿ ಒಂದು ಭಾಗ"
+
+#: ../gok.glade2.h:123
+msgid "_Add"
+msgstr "ಸೇರಿಸು(_A)"
+
+#: ../gok.glade2.h:124
+msgid "_Browse..."
+msgstr "ವೀಕ್ಷಿಸು(_B)..."
+
+#: ../gok.glade2.h:125
+msgid "_Delete"
+msgstr "ಅಳಿಸಿ(_D)"
+
+#: ../gok.glade2.h:126
+msgid "_Joystick"
+msgstr "ಜಾಯ್‌ಸ್ಟಿಕ್(_J)"
+
+#: ../gok.glade2.h:127
+msgid "_Method:"
+msgstr "ವಿಧಾನ(_M):"
+
+#: ../gok.glade2.h:128
+msgid "_Name:"
+msgstr "ಹೆಸರು(_N):"
+
+#: ../gok.glade2.h:129
+msgid "_New"
+msgstr "ಹೊಸ(_N)"
+
+#: ../gok.glade2.h:130
+msgid "_Number of predictions:"
+msgstr "ಊಹೆಗಳ ಸಂಖ್ಯೆ(_N):"
+
+#: ../gok.glade2.h:131
+msgid "_Rename"
+msgstr "ಹೆಸರನ್ನು ಬದಲಿಸು(_R)"
+
+#: ../gok.glade2.h:132
+msgid "_Single axis:"
+msgstr "ಏಕ ಅಕ್ಷ(_S):"
+
+#: ../gok.glade2.h:133
+msgid "_Spacing:"
+msgstr "ಜಾಗ(_S):"
+
+#: ../gok.glade2.h:134
+msgid "_Use Desktop Theme Preferences"
+msgstr "ಗಣಕತೆರೆ ಥೀಮ್‌ ಆದ್ಯತೆಗಳನ್ನು ಬಳಸು(_U)"
+
+#: ../gok.glade2.h:135
+msgid "_Valuator"
+msgstr "ಮೌಲ್ಯಕ(_V)"
+
+#: ../gok.glade2.h:136
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "_X-Y ಮೌಲ್ಯಕ (0 ಹಾಗು 1 ಅಕ್ಷಗಳು)"
+
+#: ../gok.glade2.h:137
+msgid "access method name"
+msgstr "ನಿಲುಕಣಾ ವಿಧಾನದ ಹೆಸರು"
+
+#: ../gok.glade2.h:138
+msgid "cancel"
+msgstr "ರದ್ದು ಮಾಡು"
+
+#: ../gok.glade2.h:139
+msgid "display user help"
+msgstr "ಬಳಕೆದಾರ ನೆರವನ್ನು ತೋರಿಸು"
+
+#: ../gok.glade2.h:140
+msgid "high"
+msgstr "ಮೇಲ್ಮಟ್ಟ"
+
+#: ../gok.glade2.h:141
+msgid "low"
+msgstr "ಕೆಳಮಟ್ಟ"
+
+#: ../gok.glade2.h:142
+msgid "pixels"
+msgstr "ಪಿಕ್ಸೆಲ್ಲುಗಳು"
+
+#: ../gok.glade2.h:143
+msgid "revert to original settings"
+msgstr "ಮೂಲ ಸಂಯೋಜನೆಗಳಿಗೆ ಮರಳಿಸು"
+
+#: ../gok.glade2.h:144
+msgid "try these settings"
+msgstr "ಈ ಸಂಯೋಜನೆಗಳನ್ನು ಪ್ರಯತ್ನಿಸಿ"
+
+#: ../gok.glade2.h:145
+msgid "use these settings"
+msgstr "ಈ ಸಂಯೋಜನೆಗಳನ್ನು ಬಳಸಿ"
+
+#: ../gok/callbacks.c:373
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "ಕ್ಷಮಿಸಿ, ನಿಲುಕಣಾ ವಿಧಾನದ ಗಾರುಡಿಯನ್ನು ಇನ್ನೂ ಸಹ ಅನ್ವಯಿಸಲಾಗಿಲ್ಲ."
+
+#: ../gok/callbacks.c:375
+msgid "GOK Access Method Wizard"
+msgstr "GOK ನಿಲುಕಣಾ ವಿಧಾನದ ಗಾರುಡಿ"
+
+#: ../gok/gok-control.c:248
+msgid "GOK Browse for sound file"
+msgstr "GOK ಧ್ವನಿ ಕಡತಕ್ಕಾಗಿನ ವೀಕ್ಷಣೆ"
+
+#: ../gok/gok-control.c:249
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "ಕ್ಷಮಿಸಿ, ಧ್ವನಿ ಕಡತಕ್ಕಾಗಿ ವೀಕ್ಷಿಸುವುದು ಇನ್ನೂ ಸಹ ಅನ್ವಯಿಸಲಾಗಿಲ್ಲ."
+
+#: ../gok/gok-control.c:254
+msgid "GOK Inverse Scanning Advanced"
+msgstr "GOK ವಿಲೋಮ ಸ್ಕ್ಯಾನಿಂಗ್ ಸುಧಾರಿತ"
+
+#: ../gok/gok-control.c:255
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "ಕ್ಷಮಿಸಿ, ಸುಧಾರಿತ ಸಂಯೋಜನೆಗಳನ್ನು ಇನ್ನೂ ಸಹ ಅನ್ವಯಿಸಲಾಗಿಲ್ಲ."
+
+#: ../gok/gok-editor.c:147 ../gok/gok-editor.c:181 ../gok/gok-editor.c:262
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"ನೀವು ಈಗಿನ ಕಡತವನ್ನು ಮಾರ್ಪಡಿಸಿದ್ದೀರಿ.\n"
+"ನೀವು ಮಾಡಿದ ಬದಲಾವಣೆಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಬೇಕೆ?"
+
+#: ../gok/gok-editor.c:149 ../gok/gok-editor.c:183 ../gok/gok-editor.c:264
+#: ../gok/gok-editor.c:1056
+msgid "Keyboard Filename Invalid"
+msgstr "ಕೀಲಿಮಣೆ ಕಡತದ ಹೆಸರು ಅಮಾನ್ಯವಾಗಿದೆ"
+
+#: ../gok/gok-editor.c:212
+msgid "new"
+msgstr "ಹೊಸ"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:274
+msgid "Select keyboard file for editing"
+msgstr "ಸಂಪಾದಿಸಲು ಕಡತವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#: ../gok/gok-editor.c:284 ../gok/gok-editor.c:976
+msgid ".kbd files"
+msgstr ".kbd ಕಡಗಳು"
+
+#: ../gok/gok-editor.c:539
+msgid "label"
+msgstr "ಲೇಬಲ್"
+
+#: ../gok/gok-editor.c:713
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "ಕಡತವನ್ನು ಉಳಿಸಲಾಗಿಲ್ಲ: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:966
+msgid "Save keyboard file as"
+msgstr "ಕೀಲಿಮಣೆ ಕಡತವನ್ನು ಹೀಗೆ ಉಳಿಸು"
+
+#: ../gok/gok-editor.c:1047
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"ಇದು ಒಂದು ಮಾನ್ಯವಾದ ಕೀಲಿಮಣೆ ಕಡತದ ಹೆಸರು ಆಗಿಲ್ಲ:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1079
+msgid "(new)"
+msgstr "(ಹೊಸ)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"'%s' ಎಂಬ ಹೆಸರಿನ ಹೊಸ ಯಂತ್ರಾಂಶ ಸಾಧನದಲ್ಲಿನ ಚಟುವಟಿಕೆಯನ್ನು GOK ಯು ಗುರುತಿಸಿದೆ. ಸಾಧನ '%"
+"s' ದ ಬದಲಿಗೆ ನೀವು ಈ ಸಾಧನವನ್ನು ಬಳಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#: ../gok/gok-key.c:118
+msgid "Mute"
+msgstr "ಮೂಕ"
+
+#: ../gok/gok-key.c:121
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"ಮೌಸ್\n"
+"ಕೀಲಿಗಳು"
+
+#: ../gok/gok-key.c:124
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"ಎಡ\n"
+"ಟ್ಯಾಬ್"
+
+#: ../gok/gok-key.c:231
+msgid "<nil>"
+msgstr "<nil>"
+
+#: ../gok/gok-key.c:235
+msgid "Divide"
+msgstr "ಭಾಗಿಸು"
+
+#: ../gok/gok-key.c:238
+msgid "Multiply"
+msgstr "ಗುಣಿಸು"
+
+#: ../gok/gok-key.c:241
+msgid "Subtract"
+msgstr "ಕಳೆ"
+
+#: ../gok/gok-key.c:244
+msgid "Addition"
+msgstr "ಕೂಡಿಸು"
+
+#: ../gok/gok-key.c:247
+msgid "Prior"
+msgstr "ಮೊದಲಿನ"
+
+#: ../gok/gok-key.c:250
+msgid "Next"
+msgstr "ಮುಂದಿನ"
+
+#: ../gok/gok-key.c:253 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "ಹೋಮ್"
+
+#: ../gok/gok-key.c:256 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "ಕೊನೆ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:259 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "ಮೇಲಕ್ಕೆ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:262 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "ಕೆಳಕ್ಕೆ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:265 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "ಎಡ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:268 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "ಬಲ"
+
+#: ../gok/gok-key.c:271
+msgid "Begin"
+msgstr "ಆರಂಭ"
+
+#: ../gok/gok-key.c:274
+msgid "Decimal"
+msgstr "ದಶಾಂಶ"
+
+#: ../gok/gok-key.c:277
+msgid "Meta"
+msgstr "ಮೆಟಾ"
+
+#: ../gok/gok-key.c:280
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"ಬಹು\n"
+"ಕೀಲಿ"
+
+#: ../gok/gok-key.c:283
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Eisu\n"
+"ಟಾಗಲ್"
+
+#: ../gok/gok-key.c:286
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"ಹೆನ್‌ಕನ್\n"
+"ಕ್ರಮ"
+
+#: ../gok/gok-key.c:289
+msgid "Muhenkan"
+msgstr "ಮುಹೆನ್‌ಕನ್‌"
+
+#: ../gok/gok-key.c:292
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"ಕ್ರಮ\n"
+"ಸ್ವಿಚ್"
+
+#: ../gok/gok-key.c:295
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"ಹಿರಗಾನಾ\n"
+"ಕಟಕಾನಾ"
+
+#: ../gok/gok-keyboard.c:156
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Xkb ವಿಸ್ತರಣೆಯನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ! (ದೋಷ ಸಂಜ್ಞೆ %x)"
+
+#: ../gok/gok-keyboard.c:162 ../gok/gok-keyboard.c:203
+msgid "keyboard description not available!"
+msgstr "ಕೀಲಿಮಣೆ ವಿವರಣೆಯು ಲಭ್ಯವಿಲ್ಲ!"
+
+#: ../gok/gok-keyboard.c:168 ../gok/gok-keyboard.c:209
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "ನಿಮ್ಮ X ಪರಿಚಾರಕದಿಂದ ಕೀಲಿಮಣೆ ಜ್ಯಾಮಿತಿಯನ್ನು ಓದಲು ಸಾಧ್ಯವಿಲ್ಲ."
+
+#: ../gok/gok-keyboard.c:434
+msgid "Back"
+msgstr "ಹಿಂದಕ್ಕೆ"
+
+#: ../gok/gok-keyboard.c:451 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "ಮುಂದಿನ ಪುನರಾವರ್ತನೆ"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "ಸಂಪಾದನೆ"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"Num\n"
+"ಪ್ಯಾಡ್"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "ಅಡಗಿಸು"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:680
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:693
+msgid "Level 2"
+msgstr "ಹಂತ 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:706
+msgid "Level 3"
+msgstr "ಹಂತ 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:719
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Back\n"
+"Space"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:730 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tab"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:741
+msgid "space"
+msgstr "space"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:752 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Enter"
+
+#: ../gok/gok-keyboard.c:790 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "ಮೆನುಗಳು"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:846
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:850
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:862
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:871
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:918
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:919
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:927
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:933
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1916
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2790
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2795 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "ಕೋಷ್ಟಕ"
+
+#: ../gok/gok-keyboard.c:2800 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "ಉಪಕರಣಪಟ್ಟಿಗಳು"
+
+#: ../gok/gok-keyboard.c:2804
+msgid "Applications"
+msgstr "ಅನ್ವಯಗಳು"
+
+#: ../gok/gok-keyboard.c:2814
+msgid "Menu"
+msgstr "ಮೆನು"
+
+#. please!
+#: ../gok/gok-keyboard.c:3626 ../gok/gok-sound.c:49 ../gok/main.c:1941
+#: ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3630
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "GNOME ಗಣಕತೆರೆಗಾಗಿನ ಕ್ರಿಯಾತ್ಮಕ ವರ್ಚುವಲ್ ಕೀಲಮಣೆಗಳು"
+
+#: ../gok/gok-keyboard.c:3632
+msgid "translator-credits"
+msgstr "ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>"
+
+#: ../gok/gok-keyboard.c:3634
+msgid "Full Credits"
+msgstr "ಪೂರ್ಣ ಮನ್ನಣೆಗಳು"
+
+#: ../gok/gok-keyboard.c:3636
+msgid "About GOK"
+msgstr "GOK ಕುರಿತು"
+
+#: ../gok/gok-libusb.c:162
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "libusb ಬ್ಯಾಕೆಂಡ್ ಅನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ - %s "
+
+#: ../gok/gok-libusb.c:190
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: VID:PID ಜೋಡಿ %x:%x ಸಾಧನವು ಕಂಡು ಬಂದಿದೆ"
+
+#: ../gok/gok-libusb.c:201
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "VID:PID ಜೋಡಿ %x:%x ಯೊಂದಿಗೆ ಯಾವುದೆ ಸಾಧನವು ಕಂಡು ಬಂದಿಲ್ಲ."
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:213
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "%s ನಲ್ಲಿ ಸರಿಯಲ್ಲದ ಅನುಮತಿಗಳು ಇವೆ"
+
+#: ../gok/gok-libusb.c:301
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "%x:%x ಸಾಧನದಲ್ಲಿ ಯಾವುದೆ ಸೂಕ್ತವಾದ USB ಅಂತ್ಯಬಿಂದುಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "ವಿವರಣೆಯನ್ನು ಓದುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ"
+
+#.
+#. * i18n: "Key Feedback" is a sound event description. The string
+#. * doesn't appear in the user interface, it is part of the metadata
+#. * attached to sounds coming from GOK. Sounds are played whenever
+#. * a key on the virtual keyboard is pressed.
+#.
+#: ../gok/gok-sound.c:58
+#| msgid "Feedback"
+msgid "Key Feedback"
+msgstr "ಕೀಲಿ ಫೀಡ್‌ಬ್ಯಾಕ್"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1701
+msgid "V Scrollbar"
+msgstr "V ಚಲನಪಟ್ಟಿಕೆ"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1706
+msgid "H Scrollbar"
+msgstr "H ಚಲನಪಟ್ಟಿಕೆ"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:375 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "GOK ಕ್ರಿಯೆಯ ಹೆಸರು"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:381
+msgid "Change the action name:"
+msgstr "ಕ್ರಿಯೆಯ ಹೆಸರನ್ನು ಬದಲಾಯಿಸು:"
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"ಕ್ರಿಯೆಯ ಹೆಸರು ಖಾಲಿ ಇರುವಂತಿಲ್ಲ.\n"
+"ದಯವಿಟ್ಟು ಬೇರೊಂದು ಕ್ರಿಯೆಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"ಕ್ಷಮಿಸಿ, ಆ ಹೆಸರಿನ ಕ್ರಿಯೆಯು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.\n"
+"ದಯವಿಟ್ಟು ಬೇರೊಂದು ಕ್ರಿಯೆಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+msgid "New Action %d"
+msgstr "ಹೊಸ ಕ್ರಿಯೆ %d"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "ನೀವು ಈ ಕೀಲಿಯನ್ನು ಅಳಿಸಲು ಬಯಸುತ್ತೀರೆ (%s)?"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "GOK ಅಳಿಸುವ ಕ್ರಿಯೆ"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:413 ../gok/gok-page-feedbacks.c:453
+#: ../gok/gok-page-feedbacks.c:473
+msgid "GOK Feedback Name"
+msgstr "GOK ಪ್ರತಿಕ್ರಿಯೆಯ ಹೆಸರು"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:419
+msgid "Change the feedback name:"
+msgstr "ಪ್ರತಿಕ್ರಿಯೆಯ ಹೆಸರನ್ನು ಬದಲಾಯಿಸು:"
+
+#: ../gok/gok-page-feedbacks.c:451
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"ಪ್ರತಿಕ್ರಿಯೆ ಹೆಸರು ಖಾಲಿ ಇರುವಂತಿಲ್ಲ.\n"
+"ದಯವಿಟ್ಟು ಬೇರೊಂದು ಪ್ರತಿಕ್ರಿಯೆ ಹೆಸರನ್ನು ನಮೂದಿಸಿ."
+
+#: ../gok/gok-page-feedbacks.c:471
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"ಕ್ಷಮಿಸಿ, ಆ ಹೆಸರಿನ ಪ್ರತಿಕ್ರಿಯೆ ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ.\n"
+"ದಯವಿಟ್ಟು ಬೇರೊಂದು ಪ್ರತಿಕ್ರಿಯೆ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"
+
+#: ../gok/gok-page-feedbacks.c:523
+#, c-format
+msgid "New Feedback %d"
+msgstr "ಹೊಸ ಪ್ರತಿಕ್ರಿಯೆ %d"
+
+#: ../gok/gok-page-feedbacks.c:639
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "ನೀವು ಈ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನಿಜವಾಗಿಯೂ ಅಳಿಸಲು ಬಯಸುತ್ತೀರೆ (%s)?"
+
+#: ../gok/gok-page-feedbacks.c:648
+msgid "GOK Delete Feedback"
+msgstr "GOK ಅಳಿಸುವಿಕೆಯ ಪ್ರತಿಕ್ರಿಯೆ"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:871
+msgid "Select sound file"
+msgstr "ಧ್ವನಿ ಕಡತವನ್ನು ಆರಿಸಿ"
+
+#: ../gok/gok-page-keyboard.c:215
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "ಹೆಚ್ಚುವರಿ GOK ಕೀಲಿಮಣೆ ಕಡತಗಳಿಗಾಗಿ ಹುಡುಕಬೇಕಿರುವ ಕೋಶವನ್ನು ನಮೂದಿಸಿ."
+
+#: ../gok/gok-page-keyboard.c:249
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "ನಿಮ್ಮ ಆರಂಭಿಕ ರಚನಾ ಕೀಲಿಮಣೆಯನ್ನು ಸೂಚಿಸುವ XML ಕಡತವನ್ನು ಆರಿಸಿ"
+
+#: ../gok/gok-page-keysizespace.c:82
+msgid "Button"
+msgstr "ಗುಂಡಿ"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "ವಿಂಡೋ ಪಟ್ಟಿ"
+
+#: ../gok/gok-utf8-word-complete.c:121
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "ಶಬ್ಧಕೋಶ ಕಡತ '%s' ದಲ್ಲಿನ ವಿಷಯಗಳನ್ನು ಓದಲಾಗಿಲ್ಲ\n"
+
+#: ../gok/main.c:209
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"ನಿಗದಿತ ನಿಲುಕಣಾ ವಿಧಾನವನ್ನು ಬಳಸಿ. NAME ಎನ್ನುವುದು ಒಂದು ವಾಕ್ಯವಾಗಿರುತ್ತದೆ ಹಾಗು <gok:accessmethod> ಟ್ಯಾಗ್‌ನ \"name\"(ಹೆಸರು) ಗುಣಧರ್ಮಕ್ಕೆ ನಿಯೋಜಿಸಲಾದ ಹಲವಾರು ನಿಲುಕಣಾ ವಿಧಾನದ ಕಡತಗಳಲ್ಲಿ (.xam) ಕಂಡುಬರುತ್ತದೆ. ಇದು ಯಾವಾಗಲೂ ."
+"xam ಕಡತದ ಹೆಸರಿನಂತೆಯೆ ಇರಬೇಕೆಂದಿಲ್ಲ ಎನ್ನುವುದನ್ನು ನೆನಪಿಡಿ. (--list-accessmethods ಅನ್ನು ನೋಡಿ)"
+
+#: ../gok/main.c:210
+msgid "NAME"
+msgstr "NAME"
+
+#: ../gok/main.c:218
+msgid "Start the GOK keyboard editor"
+msgstr "GOK ಕೀಲಿಮಣೆ ಸಂಪಾದಕವನ್ನು ಆರಂಭಿಸು"
+
+#: ../gok/main.c:226
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "ವಿಶೇಷವಾದ, ಆದರೆ ಬಹುಷಃ ಅಸ್ಥಿರವಾದ gok ಅಂಶವನ್ನು ಬಳಸಿ"
+
+#: ../gok/main.c:234
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr "--geometry ಅನ್ನು ಬಳಸದೆ ಇರುವಾಗೆಲ್ಲಾ gok ಮನವಿಗಳ ನಡುವೆ ಅದರ ಸ್ಥಾನವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳುತ್ತದೆ ಹಾಗು ಅದನ್ನು ಕೊನೆಯಬಾರಿಗೆ ಮುಚ್ಚಿದಾಗ ಅದು ಎಲ್ಲಿತ್ತೊ ಅಲ್ಲಿಂದ ಆರಂಭಗೊಳ್ಳುತ್ತದೆ.  --geometry ಅನ್ನು ಬಳಸಿದಾಗ gok X11 ಜ್ಯಾಮಿತಿ ವಿವರಗಳಿಂದ ಸೂಚಿಸಲಾದ ತೆರೆಯ ಜಾಗದಲ್ಲಿನ ಆಯತಾಕಾರದ ಒಳಗೆ ತನ್ನನ್ನು ತಾನು ಇರಿಸಿಕೊಳ್ಳುತ್ತದೆ.  --geometry ಅನ್ನು ಬಳಸಿದಾಗ gok ಅನ್ನು ಹಿಂದಿನ ಬಾರಿ ಮುಚ್ಚಿದಾಗ ಇದ್ದ ತನ್ನ ಜಾಗವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳುವುದಿಲ್ಲ.  ಈ ವರ್ತನೆಯನ್ನು --remembergeometry ಫ್ಲ್ಯಾಗ್‌ನಲ್ಲಿ ಬದಲಾಯಿಸಬಹುದಾಗಿದ್ದು ಇದು gok  ಯನ್ನು --geometry ನೊಂದಿಗೆ ಆರಂಭಿಸಲಾಗಿದ್ದರೂ ಸಹ ಇದನ್ನು ಹಿಂದಿನ ಬಾರಿ ಮುಚ್ಚಿದಾಗ ಇದ್ದ ಸ್ಥಳವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳುತ್ತದೆ."
+
+#: ../gok/main.c:235
+msgid "GEOMETRY"
+msgstr "GEOMETRY"
+
+#: ../gok/main.c:243
+msgid "Use the specified input device"
+msgstr "ನಿಶ್ಚಿತ ಇನ್‌ಪುಟ್ ಸಾಧನವನ್ನು ಬಳಸು"
+
+#: ../gok/main.c:244
+msgid "DEVICENAME"
+msgstr "DEVICENAME"
+
+#: ../gok/main.c:252
+msgid "Start GOK with the specified keyboard."
+msgstr "ನಿಶ್ಚಿತ ಕೀಲಿ ಮಣೆಯಿಂದ GOK ಅನ್ನು ಆರಂಭಿಸು."
+
+#: ../gok/main.c:253
+msgid "KEYBOARDNAME"
+msgstr "KEYBOARDNAME"
+
+#: ../gok/main.c:261
+msgid "List the access methods that can be used as options to other arguments."
+msgstr "ಇತರೆ ಆರ್ಗುಮೆಂಟಿಗಾಗಿ ಆಯ್ಕೆಗಳಾಗಿ ಬಳಸಲಾಗುವ ನಿಲುಕಣಾ ವಿಧಾನಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ."
+
+#: ../gok/main.c:270
+msgid "List the actions that can be used as options to other arguments."
+msgstr "ಇತರೆ ಆರ್ಗುಮೆಂಟಿಗಾಗಿ ಆಯ್ಕೆಗಳಾಗಿ ಬಳಸಲಾಗುವ ಕ್ರಿಯೆಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡುತ್ತದೆ."
+
+#: ../gok/main.c:279
+msgid "GOK will be used to login"
+msgstr "ಪ್ರವೇಶಿಸಲು GOK ಅನ್ನು ಬಳಸಲಾಗುವುದು"
+
+#: ../gok/main.c:289
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "GOK ಯು ಹೆಸರಿಲ್ಲದ GUI ಗಾಗಿ ಕೀಲಿಗಳನ್ನು ತೋರಿಸುತ್ತದೆ. ದೋಷ ನಿವಾರಣೆಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ."
+
+#: ../gok/main.c:299
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr "--geometry ಯೊಂದಿಗೆ ಬಳಸಬಹುದು.  GOK ಅನ್ನು --geometry ಯೊಂದಿಗೆ ಆರಂಭಿಸಲಾಗಿದ್ದರೂ ಸಹ ಸ್ಥಗಿತಗೊಳಿಸಿದಾಗ ಅದರ ಸ್ಥಳವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳುವಂತೆ ಒತ್ತಾಯಪಡಿಸುತ್ತದೆ. ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ --geometry ನ ಅಡಿಯಲ್ಲಿನ ವಿವರಣೆಯನ್ನು ನೋಡಿ."
+
+#: ../gok/main.c:310
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+"GOK ಅನ್ನು ಆರಂಭಿಸಿ ಹಾಗು ಸ್ಕ್ಯಾನ್‌ ಕಾರ್ಯವನ್ನು ನಡೆಸಲು ಈ ಕ್ರಿಯೆಯನ್ನು ಬಳಸಿ. (--list-"
+"actions ಅನ್ನು ನೋಡಿ)"
+
+#: ../gok/main.c:320
+msgid "Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+"GOK ಅನ್ನು ಆರಂಭಿಸಿ ಹಾಗು ಆಯ್ಕೆಯ ಕಾರ್ಯವನ್ನು ನಡೆಸಲು ಈ ಕ್ರಿಯೆಯನ್ನು ಬಳಸಿ. (--list-"
+"actions ಅನ್ನು ನೋಡಿ)"
+
+#: ../gok/main.c:329
+msgid "Open the settings dialog box when GOK starts"
+msgstr "GOK ಆರಂಭಗೊಂಡಾಗ ಸಿದ್ಧತೆಗಳ ಸಂವಾದ ಪೆಟ್ಟಿಗೆಯನ್ನು ತೆರೆ"
+
+#: ../gok/main.c:339
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"ಇನ್‌ಪುಟ್‌ ಘಟನೆಗಳಿಗಾಗಿ libusb ಅನ್ನು ಬಳಸಿ ಹಾಗು ಸೂಚಿಸಲಾದ USB ಮಾರಾಟಗಾರ(ವೆಂಡರ್) "
+"ID (VID) ಹಾಗು ಉತ್ಪನ್ನ ID (PID) ಯೊಂದಿಗೆ ಬಳಸಿ."
+
+#: ../gok/main.c:358
+msgid "Attempt to use GOK without the system mouse"
+msgstr "ಗಣಕದ ಮೌಸ್‌ ಇಲ್ಲದೆ GOK ಅನ್ನು ಬಳಸುವ ಪ್ರಯತ್ನ"
+
+#: ../gok/main.c:367
+msgid "Disable automatic keyboard branching"
+msgstr "ಸ್ವಯಂಚಾಲಿತ ಕೀಲಿಮಣೆಯು ಕವಲೊಡೆಯುವುದನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
+
+#: ../gok/main.c:668
+msgid "The GNOME On-screen Keyboard"
+msgstr "GNOME ತೆರೆಯ-ಮೇಲಿನ ಕೀಲಿಮಣೆ(GOK)"
+
+#: ../gok/main.c:766
+#| msgid "gok: Unsupported geometry specification"
+msgid "Unsupported geometry specification"
+msgstr "ಬೆಂಬಲವಿರದ ಜ್ಯಾಮಿತಿಯ ವಿವರ"
+
+#: ../gok/main.c:767
+#| msgid ""
+#| "Currently GOK requires that the x, y, width and height all be given.  "
+#| "Sorry, your geometry specification will not be used."
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given. Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"ಪ್ರಸಕ್ತ GOK ಗಾಗಿ x, y, ಅಗಲ ಹಾಗು ಎತ್ತರ, ಇವೆಲ್ಲವನ್ನೂ ಸೂಚಿಸಬೇಕಾಗುತ್ತದೆ.  ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ "
+"ಜ್ಯಾಮಿತಿಯ ವಿವರಗಳನ್ನು ಬಳಸಲಾಗುವುದಿಲ್ಲ."
+
+#: ../gok/main.c:863
+msgid "XKB extension is required."
+msgstr "XKB ಎಕ್ಸ್‍ಟೆನ್ಶನ್ನಿನ ಅಗತ್ಯವಿದೆ."
+
+#: ../gok/main.c:873
+msgid "Can't initialize actions."
+msgstr "ಕ್ರಿಯೆಗಳನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ."
+
+#: ../gok/main.c:883
+msgid "Can't initialize feedbacks."
+msgstr "ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ."
+
+#: ../gok/main.c:928 ../gok/main.c:937
+#| msgid "can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgid "Can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr "libusb ಬ್ಯಾಕೆಂಡ್ ಅನ್ನು ಆರಂಭಿಸಲಾಗಿಲ್ಲ - USB VID:PID ಜೋಡಿಯನ್ನು ಪಾರ್ಸ್ ಮಾಡಲಾಗಿಲ್ಲ"
+
+#: ../gok/main.c:953
+msgid "Can't create the main GOK window!"
+msgstr "ಮುಖ್ಯ GOK ವಿಂಡೋ ಅನ್ನು ನಿರ್ಮಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ!"
+
+#: ../gok/main.c:972
+msgid "Can't create the settings dialog window!"
+msgstr "ಸಿದ್ಧತಾ ಸಂವಾದ ವಿಂಡೋವನ್ನು ನಿರ್ಮಿಸಲಾಗಿಲ್ಲ!"
+
+#: ../gok/main.c:1033
+msgid "No keyboards to display!"
+msgstr "ತೋರಿಸಲು ಯಾವುದೆ ಕೀಲಿ ಮಣೆ ಇಲ್ಲ!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1170 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "UI ಸೆಳೆಯುವಿಕೆ"
+
+#: ../gok/main.c:1187
+msgid "popup menu"
+msgstr "ಪುಟಿಕೆ ಮೆನು"
+
+#: ../gok/main.c:2113
+msgid "Can't create a compose keyboard!"
+msgstr "ಕಂಪೋಸ್ ಕೀಲಿಮಣೆಯನ್ನು ರಚಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ!"
+
+#: ../gok/main.c:2155
+msgid "Can't read any keyboards!"
+msgstr "ಯಾವ ಕೀಲಿ ಮಣೆಯನ್ನೂ ಕೂಡ ಓದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ!"
+
+#: ../gok/main.c:2266
+#| msgid "could not access method directory key from GConf!"
+msgid "Could not get access method directory key from GConf."
+msgstr "GConf ನಿಂದ ವಿಧಾನ ಕೋಶ ಕೀಲಿಯನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+
+#: ../gok/main.c:2273
+#| msgid "possibly unknown access method!"
+msgid "Possibly unknown access method."
+msgstr "ಬಹುಷಃ ನಿಲುಕಣಾ ವಿಧಾನವು ತಿಳಿದಿಲ್ಲ."
+
+#: ../gok/main.c:2829
+#| msgid ""
+#| "Sorry, GOK can't run because:\n"
+#| "%s"
+msgid "Sorry, GOK can't run"
+msgstr "ಕ್ಷಮಿಸಿ, GOK ಅನ್ನು ಚಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+#: ../gok/main.c:2840
+msgid "GOK Fatal Error"
+msgstr "GOK ಅಪಾಯಕಾರಿ ದೋಷ"
+
+#: ../gok/main.c:2876
+#| msgid "GOK Fatal Error"
+msgid "GOK Error"
+msgstr "GOK ದೋಷ"
+
+#: ../gok/main.c:2896
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run. GOK is currently unable to retrieve those settings. If this "
+"is the first time that you have run gok after installing it you may need to "
+"restart gconfd, you can use this command: 'gconftool-2 --shutdown' or log "
+"out and back in."
+msgstr "GOK ಯು ತನ್ನ ಸಿದ್ಧತೆಗಳನ್ನು ಉಳಿಸಲು GConf 2 ಅನ್ನು ಬಳಸುತ್ತದೆ ಹಾಗು ಚಲಾಯಿತಗೊಳ್ಳಲು ಕೆಲವು GConf ನಲ್ಲಿ ಸಿದ್ಧತೆಗಳನ್ನು ಮಾಡಬೇಕಾಗುತ್ತದೆ. ಸದ್ಯ GOK ಗೆ ಆ ಸಿದ್ಧತೆಗಳನ್ನು ಪಡೆಯಲು ಮರಳಿ ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. ನೀವು gok ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಿದ ನಂತರ ಇದೆ ಮೊದಲ ಬಾರಿಗೆ ಅದನ್ನು ಚಲಾಯಿಸುತ್ತಿದ್ದಲ್ಲಿ gconfd ಅನ್ನು ಮರಳಿ ಆರಂಭಿಸಬೇಕಾಗುತ್ತದೆ. ಇದಕ್ಕಾಗಿ ನೀವು 'gconftool-2 --shutdown' ಅನ್ನು ಅಥವ ಚಲಾಯಿಸಬಹುದು ಅಥವ ಒಮ್ಮೆ ನಿರ್ಗಮಿಸಿ ನಂತರ ಮರಳಿ ಪ್ರವೇಶಿಸಿ."
+
+#: ../gok/main.c:3135
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"GOK ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡದೆ ಇರಬಹುದು ಏಕೆಂದರೆ ನೀವು ನಿಮ್ಮ ಗಣಕತೆರೆಯಲ್ಲಿನ 'ಸ್ಟಿಕಿ "
+"ಕೀಲಿಗಳು' ಸೌಕರ್ಯವನ್ನು ಶಕ್ತಗೊಳಿಸಿಲ್ಲ."
+
+#: ../gok/main.c:3142
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK ಗೆ ಅಗತ್ಯವಿರುವ ಸ್ಟಿಕಿ ಕೀಲಿಗಳನ್ನು ಅದು ಶಕ್ತಗೊಳಿಸಿದೆ.\n"
+
+#. post an error dialog
+#: ../gok/main.c:3160
+#| msgid "GOK cannot run because XKB display extension is missing.\n"
+msgid "XKB display extension is missing."
+msgstr "XKB ಪ್ರದರ್ಶಕದ ವಿಸ್ತರಣೆಯು ಕಾಣಿಸುತ್ತಿಲ್ಲ."
+
+#: ../gok/main.c:3284
+msgid "Unable to open help file"
+msgstr "ನೆರವಿನ ಕಡತವನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#: ../gok/main.c:3310
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"ನೀವು GOK ಅನ್ನು ನಿರ್ವಹಿಸಲು ಬಳಸುತ್ತಿರುವ ಸಾಧನವು ವ್ಯವಸ್ಥೆಯ ಸೂಚಕವನ್ನೂ (ಅಥವ 'ಮೌಸ್‌ನ ತೆರೆಸೂಚಕ') ಸಹ ನಿಯಂತ್ರಿಸುತ್ತದೆ. ಸೂಚಕವನ್ನು ಬಳಸುವ ಅನ್ವಯಗಳಿಂದಾಗಿ GOK ಅನ್ನು ಬಳಸಲು ನಿಮಗೆ ತೊಂದರೆ ಎದುರಾಗಬಹುದು.\n"
+"\n"
+"ಬದಲಿಗೆ ನೀವು ನಿಮ್ಮ ಇನ್‌ಪುಟ್ ಸಾಧನವನ್ನು ಒಂದು 'ವಿಸ್ತರಿಸಲಾದ(Extended)' ಇನ್‌ಪುಟ್ ಸಾಧನವಾಗಿ ಸಂರಚಿಸುವಂತೆ ನಾವು ಬಲವಾಗಿ ಸಲಹೆ ಮಾಡುತ್ತೇವೆ; ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ GOK ನೆರವನ್ನು ನೋಡಿ."
+
+#: ../gok/main.c:3316
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"GOK ಅನ್ನು ನಿಯಂತ್ರಿಸಲು ನೀವು ಬಳಸುತ್ತಿರುವ ಸಾಧನವು ಗಣಕದ ಸೂಚಕವನ್ನು ನಿಯಂತ್ರಿಸುತ್ತಿದೆ.\n"
+"\n"
+"ಅನ್ವಯವು ಸೂಚಕವನ್ನು ಬಳಸುವುದರಿಂದಾಗಿ ಉಂಟಾಗುವ ಘರ್ಷಣೆಯನ್ನು ತಪ್ಪಿಸಲು, GOK ಯ ಅಧಿವೇಶನದಲ್ಲಿ "
+"ನೀವು ಈಗ ಬಳಸುತ್ತಿರುವ ಸಾಧನದ ಗಣಕದ ಸೂಚಕದೊಂದಿಗಿನ ಸಂಪರ್ಕವನ್ನು GOK ಯು ಈಗ ತಪ್ಪಿಸುತ್ತದೆ.\n"
+"\n"
+"ಪರ್ಯಾಯವಾಗಿ, GOK ಯು ಬೇರೊಂದು ಇನ್‌ಪುಟ್ ಸಾಧನವನ್ನು ಬಳಸುವಂತೆ ನೀವು ಸಂರಚಿಸಬಹುದಾಗಿದೆ; "
+"ವಿವರಗಳಿಗಾಗಿ ನೆರವನ್ನು ನೋಡಿ."
+
+#. no longer used!
+#: ../gok/main.c:3323 ../gok/main.c:3326
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "'ಮುಖ್ಯ ಸೂಚಕ'ಕ್ರಮವನ್ನು ಬಳಸುವಂತೆ  GOK ಅನ್ನು ನೀವು ಸಂರಚಿಸುತ್ತಿರುವಂತೆ ತೋರುತ್ತಿದೆ."
+
+#: ../gok/main.c:3420
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನ ಬೆಂಬಲವನ್ನು ಶಕ್ತಗೊಳಿಸಿಲ್ಲ.\n"
+"\n"
+"ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನಗಳ ಬೆಂಬಲವಿಲ್ಲದೆ ನೀವು GOK ಆರಂಭಿಸಬಹುದು. ಆದರೆ, ಅನ್ವಯದ ಕೆಲವು "
+"ಸವಲತ್ತುಗಳು ಲಭ್ಯವಿರದೆ ಇರಬಹುದು.\n"
+"\n"
+"ಸಹಾಯಕ ತಂತ್ರಜ್ಞಾನಗಳಿಗೆ ಬೆಂಬಲವನ್ನು ಶಕ್ತಗೊಳಿಸಲು ಹಾಗು ಬದಲಾವಣೆಯು ಶಕ್ತಗೊಂಡ ಒಂದು ಹೊಸ "
+"ಅಧಿವೇಶನಕ್ಕೆ ಪ್ರವೇಶಿಸಲು, ಶಕ್ತಗೊಳಿಸು ಹಾಗು ನಿರ್ಗಮಿಸು ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.\n"
+"\n"
+"GOK ಅನ್ನು ಬಳಸುವುದನ್ನು ಮುಂದುವರೆಸಲು, ಮುಂದುವರೆ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.\n"
+"\n"
+"GOK ಇಂದ ನಿರ್ಗಮಿಸಲು, ಮುಚ್ಚು ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.\n"
+"\n"
+
+#: ../gok/main.c:3439
+msgid "Enable and Log Out"
+msgstr "ಶಕ್ತಗೊಳಿಸು ಹಾಗು ನಿರ್ಗಮಿಸು"
+
+#: ../gok/main.c:3451
+msgid "Continue"
+msgstr "ಮುಂದುವರೆ"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(ಒಂದು ಸೆಕೆಂಡಿನ 100s)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "ವಿಲೋಮ ಸ್ಕ್ಯಾನಿಂಗ್"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಒಂದು ಸ್ವಿಚ್ ಅನ್ನು ಒತ್ತಿ. ಆಯ್ಕೆ ಮಾಡಲು ಇನ್ನೊಂದು ಸ್ವಿಚ್ ಅನ್ನು ಒತ್ತಿ."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "ಸ್ಕ್ಯಾನ್:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "ಒಂದು ಕೀಲಿ ಸ್ವಯಂಚಾಲಿತ ಸ್ಕ್ಯಾನಿಂಗ್"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "ಸ್ಕ್ಯಾನಿಂಗನ್ನು ಆರಂಭಿಸು:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap Row/Columns"
+msgstr "ಸಾಲು/ಲಂಬಸಾಲುಗಳನ್ನು ಆವರಿಸು"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "ಒಂದು ಕೀಲಿ ವಿಲೋಮ ಸ್ಕ್ಯಾನಿಂಗ್"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "5 ಸ್ವಿಚ್ ದಿಕ್ಕಿನ"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "ಕೆಳಗೆ:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "ಹೈಲೈಟರನ್ನು ನಾಲ್ಕು ದಿಕ್ಕಿನಲ್ಲೂ ಜರುಗಿಸಿ.  ಕೀಲಿಯನ್ನು ಆರಿಸಿ."
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "ಮೇಲೆ:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "ತೋರಿಸು"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "ನೆರವು ವೀಕ್ಷಕ"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "ಟರ್ಮಿನಲ್"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "ಪಠ್ಯ ಸಂಪಾದಕ"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "ಜಾಲ ವೀಕ್ಷಕ"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "ರಚನೆ"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "ಆರಂಭಗಾರ"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "ಮೌಸ್"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "ಗುಂಡಿ 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "ಗುಂಡಿ 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "ಗುಂಡಿ 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "Dbl ಕ್ಲಿಕ್"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "ಚಿಲಕ ಹಾಕು"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "ಸೂಚಕ"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "ಮರುಕಳಿಸು"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "ತುಂಬಿಸು"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "ತೇಲು"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "ಕಿರಿದಾಗಿಸುವವ"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "ಮುಂದಿನ ಕೀಲಿಯನ್ನು ಪುನರಾವರ್ತಿಸು"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "ಚಿಕ್ಕದಾದ"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "ಉದ್ದವಾದ"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "ಅಗಲವಾದ"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "ನಿಜವಾಗಲೂ ಹೊರನಡೆಯಬೇಕೆ!"
+

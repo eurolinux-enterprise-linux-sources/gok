@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>global</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch04.html" title="Command Prediction">
+<link rel="prev" href="gok-command-vertex.html" title="command-vertex">
+<link rel="next" href="gok-arraylist.html" title="arraylist">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-command-vertex.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-arraylist.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-global.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-global.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="global">
+<a name="gok-global"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-global.top_of_page"></a>global</span></h2>
+<p>global</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-global.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-global.html#EMPTY-STRING--CAPS" title="EMPTY_STRING">EMPTY_STRING</a>
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-global.html#string-equals" title="string_equals ()">string_equals</a>                       (const char *string_1,
+                                                         const char *string_2);
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-global.html#string-not-equals" title="string_not_equals ()">string_not_equals</a>                   (const char *string_1,
+                                                         const char *string_2);
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-global.html#string-empty" title="string_empty ()">string_empty</a>                        (const char *string_1);
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-global.html#string-starts-with" title="string_starts_with ()">string_starts_with</a>                  (const char *string_1,
+                                                         const char *string_2);
+<a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             <a class="link" href="gok-global.html#string-ends-with" title="string_ends_with ()">string_ends_with</a>                    (const char *string_1,
+                                                         const char *string_2);
+void                <a class="link" href="gok-global.html#string-trim" title="string_trim ()">string_trim</a>                         (char *string_1);
+void *              <a class="link" href="gok-global.html#checked-malloc" title="checked_malloc ()">checked_malloc</a>                      (const size_t size);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-global.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-global.details"></a><h2>Details</h2>
+<div class="refsect2" title="EMPTY_STRING">
+<a name="EMPTY-STRING--CAPS"></a><h3>EMPTY_STRING</h3>
+<pre class="programlisting">#define EMPTY_STRING ""
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="string_equals ()">
+<a name="string-equals"></a><h3>string_equals ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             string_equals                       (const char *string_1,
+                                                         const char *string_2);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_1</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_2</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="string_not_equals ()">
+<a name="string-not-equals"></a><h3>string_not_equals ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             string_not_equals                   (const char *string_1,
+                                                         const char *string_2);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_1</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_2</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="string_empty ()">
+<a name="string-empty"></a><h3>string_empty ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             string_empty                        (const char *string_1);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_1</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="string_starts_with ()">
+<a name="string-starts-with"></a><h3>string_starts_with ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             string_starts_with                  (const char *string_1,
+                                                         const char *string_2);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_1</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_2</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="string_ends_with ()">
+<a name="string-ends-with"></a><h3>string_ends_with ()</h3>
+<pre class="programlisting"><a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>             string_ends_with                    (const char *string_1,
+                                                         const char *string_2);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_1</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string_2</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="string_trim ()">
+<a name="string-trim"></a><h3>string_trim ()</h3>
+<pre class="programlisting">void                string_trim                         (char *string_1);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>string_1</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="checked_malloc ()">
+<a name="checked-malloc"></a><h3>checked_malloc ()</h3>
+<pre class="programlisting">void *              checked_malloc                      (const size_t size);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>size</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

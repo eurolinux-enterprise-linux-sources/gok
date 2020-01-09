@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gok-data</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch01.html" title="GOK Internal API">
+<link rel="prev" href="gok-gok-control.html" title="gok-control">
+<link rel="next" href="gok-gok-editor.html" title="gok-editor">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-gok-control.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-gok-editor.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-gok-data.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-gok-data.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="gok-data">
+<a name="gok-gok-data"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-gok-data.top_of_page"></a>gok-data</span></h2>
+<p>gok-data</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-gok-data.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#define             <a class="link" href="gok-gok-data.html#GOK-SETTINGS-FILE--CAPS" title="GOK_SETTINGS_FILE">GOK_SETTINGS_FILE</a>
+#define             <a class="link" href="gok-gok-data.html#MAX-KEY-SPACING--CAPS" title="MAX_KEY_SPACING">MAX_KEY_SPACING</a>
+#define             <a class="link" href="gok-gok-data.html#MAX-KEY-WIDTH--CAPS" title="MAX_KEY_WIDTH">MAX_KEY_WIDTH</a>
+#define             <a class="link" href="gok-gok-data.html#MIN-KEY-WIDTH--CAPS" title="MIN_KEY_WIDTH">MIN_KEY_WIDTH</a>
+#define             <a class="link" href="gok-gok-data.html#MAX-KEY-HEIGHT--CAPS" title="MAX_KEY_HEIGHT">MAX_KEY_HEIGHT</a>
+#define             <a class="link" href="gok-gok-data.html#MIN-KEY-HEIGHT--CAPS" title="MIN_KEY_HEIGHT">MIN_KEY_HEIGHT</a>
+void                <a class="link" href="gok-gok-data.html#gok-data-initialize" title="gok_data_initialize ()">gok_data_initialize</a>                 (void);
+GokSetting*         <a class="link" href="gok-gok-data.html#gok-data-construct-setting" title="gok_data_construct_setting ()">gok_data_construct_setting</a>          (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-read-settings" title="gok_data_read_settings ()">gok_data_read_settings</a>              (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-write-settings" title="gok_data_write_settings ()">gok_data_write_settings</a>             (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-get-setting" title="gok_data_get_setting ()">gok_data_get_setting</a>                (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAccessMethod,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameSetting,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *Value,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> **ValueString);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-create-setting" title="gok_data_create_setting ()">gok_data_create_setting</a>             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAccessMethod,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameSetting,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Value,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pValueString);
+void                <a class="link" href="gok-gok-data.html#gok-data-close" title="gok_data_close ()">gok_data_close</a>                      (void);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-set-setting" title="gok_data_set_setting ()">gok_data_set_setting</a>                (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAccessMethod,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameSetting,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Value,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *ValueString);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-data.html#gok-data-get-key-width" title="gok_data_get_key_width ()">gok_data_get_key_width</a>              (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-key-width" title="gok_data_set_key_width ()">gok_data_set_key_width</a>              (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Width);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-data.html#gok-data-get-key-height" title="gok_data_get_key_height ()">gok_data_get_key_height</a>             (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-key-height" title="gok_data_set_key_height ()">gok_data_set_key_height</a>             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Height);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-data.html#gok-data-get-key-spacing" title="gok_data_get_key_spacing ()">gok_data_get_key_spacing</a>            (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-key-spacing" title="gok_data_set_key_spacing ()">gok_data_set_key_spacing</a>            (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Spacing);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-data.html#gok-data-get-keyboard-x" title="gok_data_get_keyboard_x ()">gok_data_get_keyboard_x</a>             (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-keyboard-x" title="gok_data_set_keyboard_x ()">gok_data_set_keyboard_x</a>             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> X);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-data.html#gok-data-get-keyboard-y" title="gok_data_get_keyboard_y ()">gok_data_get_keyboard_y</a>             (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-keyboard-y" title="gok_data_set_keyboard_y ()">gok_data_set_keyboard_y</a>             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Y);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-get-keysize-priority" title="gok_data_get_keysize_priority ()">gok_data_get_keysize_priority</a>       (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-keysize-priority" title="gok_data_set_keysize_priority ()">gok_data_set_keysize_priority</a>       (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bFlag);
+char*               <a class="link" href="gok-gok-data.html#gok-data-get-name-accessmethod" title="gok_data_get_name_accessmethod ()">gok_data_get_name_accessmethod</a>      (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-name-accessmethod" title="gok_data_set_name_accessmethod ()">gok_data_set_name_accessmethod</a>      (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-get-wordcomplete" title="gok_data_get_wordcomplete ()">gok_data_get_wordcomplete</a>           (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-wordcomplete" title="gok_data_set_wordcomplete ()">gok_data_set_wordcomplete</a>           (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="gok-gok-data.html#gok-data-get-num-predictions" title="gok_data_get_num_predictions ()">gok_data_get_num_predictions</a>        (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-num-predictions" title="gok_data_set_num_predictions ()">gok_data_set_num_predictions</a>        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Number);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-restore-settings" title="gok_data_restore_settings ()">gok_data_restore_settings</a>           (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-backup-setting" title="gok_data_backup_setting ()">gok_data_backup_setting</a>             (GokSetting *pSetting);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-restore-setting" title="gok_data_restore_setting ()">gok_data_restore_setting</a>            (GokSetting *pSetting);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-get-control-values" title="gok_data_get_control_values ()">gok_data_get_control_values</a>         (GokControl *pControl);
+<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="gok-gok-data.html#gok-data-get-use-gtkplus-theme" title="gok_data_get_use_gtkplus_theme ()">gok_data_get_use_gtkplus_theme</a>      (void);
+void                <a class="link" href="gok-gok-data.html#gok-data-set-use-gtkplus-theme" title="gok_data_set_use_gtkplus_theme ()">gok_data_set_use_gtkplus_theme</a>      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-gok-data.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-gok-data.details"></a><h2>Details</h2>
+<div class="refsect2" title="GOK_SETTINGS_FILE">
+<a name="GOK-SETTINGS-FILE--CAPS"></a><h3>GOK_SETTINGS_FILE</h3>
+<pre class="programlisting">#define GOK_SETTINGS_FILE "gok-settings.xml"
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="MAX_KEY_SPACING">
+<a name="MAX-KEY-SPACING--CAPS"></a><h3>MAX_KEY_SPACING</h3>
+<pre class="programlisting">#define MAX_KEY_SPACING 100
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="MAX_KEY_WIDTH">
+<a name="MAX-KEY-WIDTH--CAPS"></a><h3>MAX_KEY_WIDTH</h3>
+<pre class="programlisting">#define MAX_KEY_WIDTH 200
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="MIN_KEY_WIDTH">
+<a name="MIN-KEY-WIDTH--CAPS"></a><h3>MIN_KEY_WIDTH</h3>
+<pre class="programlisting">#define MIN_KEY_WIDTH 5
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="MAX_KEY_HEIGHT">
+<a name="MAX-KEY-HEIGHT--CAPS"></a><h3>MAX_KEY_HEIGHT</h3>
+<pre class="programlisting">#define MAX_KEY_HEIGHT 100
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="MIN_KEY_HEIGHT">
+<a name="MIN-KEY-HEIGHT--CAPS"></a><h3>MIN_KEY_HEIGHT</h3>
+<pre class="programlisting">#define MIN_KEY_HEIGHT 5
+</pre>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_initialize ()">
+<a name="gok-data-initialize"></a><h3>gok_data_initialize ()</h3>
+<pre class="programlisting">void                gok_data_initialize                 (void);</pre>
+<p>
+Call this before using the Data. All data is initialized here.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_construct_setting ()">
+<a name="gok-data-construct-setting"></a><h3>gok_data_construct_setting ()</h3>
+<pre class="programlisting">GokSetting*         gok_data_construct_setting          (void);</pre>
+<p>
+Creates a new GokSetting structure.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A pointer to the new setting, NULL if setting was not created.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_read_settings ()">
+<a name="gok-data-read-settings"></a><h3>gok_data_read_settings ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_read_settings              (void);</pre>
+<p>
+Reads in the settings from disk. The settings are stored in a list
+with the first item * in m_pSettingFirst.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the settings were read in correctly, FALSE if not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_write_settings ()">
+<a name="gok-data-write-settings"></a><h3>gok_data_write_settings ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_write_settings             (void);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_setting ()">
+<a name="gok-data-get-setting"></a><h3>gok_data_get_setting ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_get_setting                (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAccessMethod,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameSetting,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> *Value,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> **ValueString);</pre>
+<p>
+Gets a value for an access method setting.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameAccessMethod</code></em> :</span></p></td>
+<td> Name of the access method that contains the setting.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameSetting</code></em> :</span></p></td>
+<td> Name of the setting you want.
+This string may specify more than
+one setting with the various names seperated by '+'. In this case, only the
+first name will be used. 
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Value</code></em> :</span></p></td>
+<td> Will contain the setting value if the function returns TRUE. This
+may be NULL in which case it will not be filled in.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ValueString</code></em> :</span></p></td>
+<td> Will contain a pointer to the value string. This name be NULL
+in which case it will not be filled in.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the GokData has the setting, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_create_setting ()">
+<a name="gok-data-create-setting"></a><h3>gok_data_create_setting ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_create_setting             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAccessMethod,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameSetting,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Value,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *pValueString);</pre>
+<p>
+Creates a new setting and stores it in GConf.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameAccessMethod</code></em> :</span></p></td>
+<td> Name of the access method that uses the setting.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameSetting</code></em> :</span></p></td>
+<td> Name of the setting.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Value</code></em> :</span></p></td>
+<td> Setting value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pValueString</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the new setting was created, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_close ()">
+<a name="gok-data-close"></a><h3>gok_data_close ()</h3>
+<pre class="programlisting">void                gok_data_close                      (void);</pre>
+<p>
+Frees any memory used by the data.</p>
+<p>
+</p>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_setting ()">
+<a name="gok-data-set-setting"></a><h3>gok_data_set_setting ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_set_setting                (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameAccessMethod,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *NameSetting,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Value,
+                                                         <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *ValueString);</pre>
+<p>
+Sets a value for an access method.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameAccessMethod</code></em> :</span></p></td>
+<td> Name of the access method that contains the setting.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>NameSetting</code></em> :</span></p></td>
+<td> Name of the setting you want.
+You may specify more than one setting by seperating
+the setting names by "+".
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>Value</code></em> :</span></p></td>
+<td> Will contain the setting value if the function returns TRUE.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ValueString</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the setting was changed, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_key_width ()">
+<a name="gok-data-get-key-width"></a><h3>gok_data_get_key_width ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_data_get_key_width              (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The key width.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_key_width ()">
+<a name="gok-data-set-key-width"></a><h3>gok_data_set_key_width ()</h3>
+<pre class="programlisting">void                gok_data_set_key_width              (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Width);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>Width</code></em> :</span></p></td>
+<td> The new key width
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_key_height ()">
+<a name="gok-data-get-key-height"></a><h3>gok_data_get_key_height ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_data_get_key_height             (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The key height.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_key_height ()">
+<a name="gok-data-set-key-height"></a><h3>gok_data_set_key_height ()</h3>
+<pre class="programlisting">void                gok_data_set_key_height             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Height);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>Height</code></em> :</span></p></td>
+<td> The new key height.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_key_spacing ()">
+<a name="gok-data-get-key-spacing"></a><h3>gok_data_get_key_spacing ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_data_get_key_spacing            (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The key spacing.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_key_spacing ()">
+<a name="gok-data-set-key-spacing"></a><h3>gok_data_set_key_spacing ()</h3>
+<pre class="programlisting">void                gok_data_set_key_spacing            (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Spacing);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>Spacing</code></em> :</span></p></td>
+<td> The new key spacing.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_keyboard_x ()">
+<a name="gok-data-get-keyboard-x"></a><h3>gok_data_get_keyboard_x ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_data_get_keyboard_x             (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The horizontal location of the keyboard.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_keyboard_x ()">
+<a name="gok-data-set-keyboard-x"></a><h3>gok_data_set_keyboard_x ()</h3>
+<pre class="programlisting">void                gok_data_set_keyboard_x             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> X);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>X</code></em> :</span></p></td>
+<td> Horizontal position of the keyboard.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_keyboard_y ()">
+<a name="gok-data-get-keyboard-y"></a><h3>gok_data_get_keyboard_y ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_data_get_keyboard_y             (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The vertical position of the keyboard.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_keyboard_y ()">
+<a name="gok-data-set-keyboard-y"></a><h3>gok_data_set_keyboard_y ()</h3>
+<pre class="programlisting">void                gok_data_set_keyboard_y             (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Y);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>Y</code></em> :</span></p></td>
+<td> Vertical position of the keyboard.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_keysize_priority ()">
+<a name="gok-data-get-keysize-priority"></a><h3>gok_data_get_keysize_priority ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_get_keysize_priority       (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the keyboard should use the keysize to determine
+the keyboard size, FALSE if not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_keysize_priority ()">
+<a name="gok-data-set-keysize-priority"></a><h3>gok_data_set_keysize_priority ()</h3>
+<pre class="programlisting">void                gok_data_set_keysize_priority       (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bFlag);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>bFlag</code></em> :</span></p></td>
+<td> TRUE if the keysize should be used to determine keyboard size.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_name_accessmethod ()">
+<a name="gok-data-get-name-accessmethod"></a><h3>gok_data_get_name_accessmethod ()</h3>
+<pre class="programlisting">char*               gok_data_get_name_accessmethod      (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> Pointer to the name of the current access method.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_name_accessmethod ()">
+<a name="gok-data-set-name-accessmethod"></a><h3>gok_data_set_name_accessmethod ()</h3>
+<pre class="programlisting">void                gok_data_set_name_accessmethod      (const <a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gchar"
+>gchar</a> *Name);</pre>
+<p>
+Records the new access method and stores it in GConf.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>Name</code></em> :</span></p></td>
+<td> Name of the current access method.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_wordcomplete ()">
+<a name="gok-data-get-wordcomplete"></a><h3>gok_data_get_wordcomplete ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_get_wordcomplete           (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if word completion is turned on, FALSE if it's turned off.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_wordcomplete ()">
+<a name="gok-data-set-wordcomplete"></a><h3>gok_data_set_wordcomplete ()</h3>
+<pre class="programlisting">void                gok_data_set_wordcomplete           (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>bTrueFalse</code></em> :</span></p></td>
+<td> The flag setting the word completion state.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_num_predictions ()">
+<a name="gok-data-get-num-predictions"></a><h3>gok_data_get_num_predictions ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a>                gok_data_get_num_predictions        (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The maximum number of word predictions.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_num_predictions ()">
+<a name="gok-data-set-num-predictions"></a><h3>gok_data_set_num_predictions ()</h3>
+<pre class="programlisting">void                gok_data_set_num_predictions        (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gint"
+>gint</a> Number);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>Number</code></em> :</span></p></td>
+<td> Maximum number of word predictions.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_restore_settings ()">
+<a name="gok-data-restore-settings"></a><h3>gok_data_restore_settings ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_restore_settings           (void);</pre>
+<p>
+Restores the values for all the settings.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if any restored setting was different from the
+current setting.  Returns FALSE if all the restored settings are
+the same as the current settings.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_backup_setting ()">
+<a name="gok-data-backup-setting"></a><h3>gok_data_backup_setting ()</h3>
+<pre class="programlisting">void                gok_data_backup_setting             (GokSetting *pSetting);</pre>
+<p>
+Backs up the values for the given setting.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>pSetting</code></em> :</span></p></td>
+<td> Pointer to the setting that will be backed up.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_restore_setting ()">
+<a name="gok-data-restore-setting"></a><h3>gok_data_restore_setting ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_restore_setting            (GokSetting *pSetting);</pre>
+<p>
+Restores the values for the given setting.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pSetting</code></em> :</span></p></td>
+<td> Pointer to the setting that will be restored.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the backup setting is different from the current
+setting.  Returns FALSE if the backup setting is the same as the
+current setting.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_control_values ()">
+<a name="gok-data-get-control-values"></a><h3>gok_data_get_control_values ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_get_control_values         (GokControl *pControl);</pre>
+<p>
+Gets the values from the settings for the given control.</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pControl</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if the value was updated, FALSE if not.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_get_use_gtkplus_theme ()">
+<a name="gok-data-get-use-gtkplus-theme"></a><h3>gok_data_get_use_gtkplus_theme ()</h3>
+<pre class="programlisting"><a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a>            gok_data_get_use_gtkplus_theme      (void);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> TRUE if we should use the Gtk+ theme, FALSE if we should not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="gok_data_set_use_gtkplus_theme ()">
+<a name="gok-data-set-use-gtkplus-theme"></a><h3>gok_data_set_use_gtkplus_theme ()</h3>
+<pre class="programlisting">void                gok_data_set_use_gtkplus_theme      (<a
+href="http://library.gnome.org/devel/glib/unstable/glib-Basic-Types.html#gboolean"
+>gboolean</a> bTrueFalse);</pre>
+<p>
+</p>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>bTrueFalse</code></em> :</span></p></td>
+<td> The flag setting whether to use the Gtk+ theme or not.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>

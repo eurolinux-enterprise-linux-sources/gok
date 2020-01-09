@@ -1,0 +1,2152 @@
+# translation of gok.HEAD[1-229].po to Latvian
+# translation of gok.HEAD[1-229].po to Latvian
+# translation of gok.HEAD.po to Latvian
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Raivis Dejus <orvils@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gok.HEAD[1-229]\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-19 19:24+0300\n"
+"PO-Revision-Date: 2006-05-30 22:22+0300\n"
+"Last-Translator: Raivis Dejus <orvils@gmail.com>\n"
+"Language-Team: Latvian <locale@laka.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "Aktivizēt"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "Aktivizēt:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "Aktivizēšana:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "Automātiska skanēšana"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "Apakšā/Virsotnē"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "Ieiet ciklā pirms apstāšanās:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:69
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "Atgriezeniskā saite"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "Atgriezeniskās saites aktivizācija"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "Atgriezeniskās saites pārvietošana"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "Sākotnējā aizkave:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "Kreisais/Labais"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:18
+msgid "Movement:"
+msgstr "Pārvietošana:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:20
+msgid "Operation"
+msgstr "Operācija"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:22
+msgid "Options"
+msgstr "Izvēle"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+"Piespiediet slēdzi, lai sāktu skanēšanu. Piespiediet citu slēdzi vai to pašu "
+"vēlreiz, lai izvēlētos."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "Labais/Kreisais"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:26
+msgid "Scan Delay:"
+msgstr "Skanēšanas aizkave:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:28
+msgid "Scan Speed:"
+msgstr "Skanēšanas ātrums:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "Skanēšanas virziens:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "Sākt skanēšanu"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "Sākt skanēšanu:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "Virsotnē/Apakšā"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:34
+msgid "Wrap Rows/Columns"
+msgstr "Pārnest rindas/kolonnas"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "Atgriezeniskās saites pārvietošana"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "Atgriezeniskās saites atlasīšana"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "Tieša atlasīšana"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "Atgriezeniskās saites aktivizēšana:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "Atgriezeniskās saites pārvietošana:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr ""
+"Pārvietojiet peles kursoru līdz izceltajai norādei. Nospiediet slēdzi, lai "
+"izvēlētos."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:30
+msgid "Select:"
+msgstr "Izvēlēties:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "Uzturēšanās izvēle"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr ""
+"Pārvietojiet peles kursoru līdz izceltajai norādei.Paturiet brīdi virs "
+"norādes, lai izvēlētos."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "Par"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "Palīdzība"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "Uzstādījumi"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "Iziet no GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "Logs"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2488
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "Aizmugurē"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:309
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+"Reizinātājam jābut apstiprinatam ar ievadierīces validatoru pirms procesa "
+"uzsākšanas"
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"Ar semikolu atdalīts saraksts, kas sastāv no pilnībā norādītiem ceļiem uz "
+"papildus vārdu izpildes vārdnīcām "
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "Vai uzstādījumi ir ierobežoti?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr ""
+"Norāda tastatūras tipu, kas tiks lietots pec noklusējuma uzstādītajai "
+"tastatūrai"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr "Vai GOK ģenerē savu izveidotu tastatūru no X Servera dinamiski?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr ""
+"Vai katram GOK lietotājam ir sava privāta kopija no vārda paredzēšanas "
+"vārdnīcas?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "Vai GOK logs izvēršas visa ekrāna platumā?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "Vai pamata kursors seko GOK tastatūras kursoram?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "Vai ši darbība lieto taustiņo vienādošanu "
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "Vai šī atbildes reakcija mirgo"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "Vai šī atbildes reakcija skan"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "Vai šī atbildes reakcija izrunā GOK taustiņu"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "Kavēties"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr ""
+"GOK galvenais logs novieto atrašanās vietu (ja ir piestātne), vai tukšu "
+"simbolu virkni, ja nav"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "Cik daudz produktu no katra mezgla meklēt kā pieejamus objektus"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "Cik daudz līmēnu no katra mezgla mēģina sameklēt pieejamus objektus"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "Vai šī darbība ir ilgstoša"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "Vai šī atbildes reakcija ir ilgstoša"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "Vai vārds pabeigšana ir prasīta"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "Mirgojoša norāde"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "Kreisā peles poga"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "Vidējā peles poga"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "Peles poga nr.4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "Peles poga nr.5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "Peles kursors"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "Neviens"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "Labā peles poga"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"Vajadzētu  būt vienam no sekojošajiem: \"xkb\", \"default\", \"alpha\", "
+"\"alpha-freq\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" "
+"should be defined."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "Skaņa nr.1"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "Skaņa nr.2"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "Izruna"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "Slēdzis 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "Slēdzis 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "Slēdzis 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "Slēdzis 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "Slēdzis 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "Pieejas metode, kuru lietot"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "Direktorija, no kuras ielādēt pieejas metodes failus."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "Direktorija, no kuras ielādēt vārdnīcas failus."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "Direktorija, no kuras ielādēt GOK resursu failus."
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr ""
+"Direktorija, no kuras ielādēt lietotāja definētās vai pielāgotās tastatūras "
+"failus."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "Pilns ceļa vārds uz failu, kurš definē pielogoto GOK tastatūru"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "Taustiņa augstums"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "Taustiņa platums"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "Tasatatūras x koordinātes"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "Tasatatūras y koordinātes"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "Skaņas nosaukums, kuru atskaņos atbildē"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "Ievadierīces nosaukums, kuru lietos"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "Nosaukums, kuru rādīt lietotājam šai darbībai"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "Nosaukums, kuru rādīt lietotājam šai atbildei"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "Numurs, ja piemērots"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "Paredzamais skaits vārds izpildei"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "Skaits, cik reižu šī atbilde iemirgosies"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"Primārā direktorija, no kuras ielādēt tastatūras failus. Pēc noklusējuma - "
+"sistēmas direktorija."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "Darbības novērtējums"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "Atstarpe starp taustiņiem"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "Stāvoklis, kādā ši darbība ir aktivizēta"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "Šīs darbības veids"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr ""
+"Kuru no papildus vārdu sarakstiem lietot, kad tiek meklēti GOK kandidāti "
+"vārdu pabeigšanai"
+
+#: ../gok.desktop.in.h:1
+msgid "On-Screen Keyboard"
+msgstr "Ekrāna tastatūra"
+
+#: ../gok.desktop.in.h:2 ../gok/main.c:550
+msgid "The GNOME On-screen Keyboard"
+msgstr "GNOME ekrāna tastatūra"
+
+#: ../gok.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gok.glade2.h:2
+msgid "3 State"
+msgstr "3 stāvokļi"
+
+#: ../gok.glade2.h:3
+msgid "<b>Appearance</b>"
+msgstr "<b>\"Izskats\"</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Behavior</b>"
+msgstr "<b>Uzvedība</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Branch</b>"
+msgstr "<b>Nodaļa</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Command Prediction</b>"
+msgstr "<b>Komandas prognozēšana</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>Izveidot tastatūra</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>Pielāgot tastatūru</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Actions</b>"
+msgstr "<b>Definēt darbības</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Define Feedback</b>"
+msgstr "<b>Definēt atbildes reakciju</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>Atlikt pirms aktivizēšānas</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Description</b>"
+msgstr "<b>Raksturojums</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>Novietot un izvērst horizontāli</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Event Source</b>"
+msgstr "<b>Notikuma cēlonis</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Font</b>"
+msgstr "<b>Fonts</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Flashing</b>"
+msgstr "<b>Mirgojošs taustiņš</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>Taustiņa izmēra un un atstarpes kontrolierīce</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Key</b>"
+msgstr "<b>Taustiņš</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Keyboard</b>"
+msgstr "<b>Tastatūra</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Modifier</b>"
+msgstr "<b>Modifikators</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Output</b>"
+msgstr "<b>Izvade</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Position</b>"
+msgstr "<b>Pozīcija</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Preview</b>"
+msgstr "<b>Priekšskatījums</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sensitivity</b>"
+msgstr "<b>Jūtīgums</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Sound</b>"
+msgstr "<b>Skaņa</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Speech</b>"
+msgstr "<b>Izruna</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>Slēdžu vai pogu numuri</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Theme</b>"
+msgstr "<b>Tēma</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>Taimeri un aizkaves</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Type</b>"
+msgstr "<b>Tips</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Valuator Type</b>"
+msgstr "<b>Taksētāja tips</b>"
+
+#: ../gok.glade2.h:32
+msgid "<b>Word Completion</b>"
+msgstr "<b>Vārda pabeigšana</b>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>Piezīme:</b> Jūsu veiktās izmaiņas tiks ņemtas vērā tikai "
+"nākamajā reizē, kad jūs palaidīsiet GOK.</i></small>"
+
+#: ../gok.glade2.h:34
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+"Reizinātājs, kurš ir apstiprināts uz paplašinātiem  ievadierīces taksētāja "
+"notikumiem pirms apstrādes."
+
+#: ../gok.glade2.h:35
+msgid "Access Methods"
+msgstr "Pieejas metodes"
+
+#: ../gok.glade2.h:36
+msgid "AccessMethodName"
+msgstr "Pieejas metodes nosaukums"
+
+#: ../gok.glade2.h:37
+msgid "Action Names List"
+msgstr "Darbību nosaukumu saraksts"
+
+#: ../gok.glade2.h:38
+msgid "Action Type:"
+msgstr "Darbības tips:"
+
+#: ../gok.glade2.h:39
+msgid "ActionTypeNotebook"
+msgstr "Darbības tipa bloknots"
+
+#: ../gok.glade2.h:40
+msgid "Actions"
+msgstr "Darbības"
+
+#: ../gok.glade2.h:41
+msgid "Activate on Dw_ell"
+msgstr "Aktivizēt ar mītn_e"
+
+#: ../gok.glade2.h:42
+msgid "Activate on _Enter"
+msgstr "Aktivizēt ar I_enākt"
+
+#: ../gok.glade2.h:43
+msgid "Activate on _Move"
+msgstr "Aktivizēt ar Pār_vietot"
+
+#: ../gok.glade2.h:44
+msgid "Activate when _pressed"
+msgstr "Aktivizēt, kad _piespiests"
+
+#: ../gok.glade2.h:45
+msgid "Activate when _released"
+msgstr "Aktivizētēt, kad at_laists"
+
+#: ../gok.glade2.h:46
+msgid "Add"
+msgstr "Pievienot"
+
+#: ../gok.glade2.h:47
+msgid "Add New Key"
+msgstr "Pievienot jaunu taustiņu"
+
+#: ../gok.glade2.h:48
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "Papildus direktorija, lai meklētu GOK tastatūras"
+
+#: ../gok.glade2.h:49
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "Papildus direktorija, lai meklētu GOK tastatūras failus"
+
+#: ../gok.glade2.h:50
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "Burtu un ciparu tastatūra ir sakārtota pēc burtu lietojuma biežuma"
+
+#: ../gok.glade2.h:51
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "Burtu un ciparu tastatūra ir sakārtota pēc alfabēta"
+
+#: ../gok.glade2.h:52
+msgid "Appearance"
+msgstr "Izskats"
+
+#: ../gok.glade2.h:53
+msgid "Bottom:"
+msgstr "Lejā:"
+
+#: ../gok.glade2.h:54
+msgid "Browse"
+msgstr "Pārlūkot"
+
+#: ../gok.glade2.h:55
+msgid "C_ore pointer"
+msgstr "Serdes rādītājs"
+
+#: ../gok.glade2.h:56
+msgid "Command Prediction"
+msgstr "Komandas prognozēšana"
+
+#: ../gok.glade2.h:57
+msgid "Delay"
+msgstr "Atlikšana"
+
+#: ../gok.glade2.h:58
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr ""
+"Atlikt simtajā sekundē pēc notikuma sākšanas, pirms aktivizēšana ir sākusies."
+
+#: ../gok.glade2.h:59
+msgid "Delete"
+msgstr "Dzēst"
+
+#: ../gok.glade2.h:60
+msgid "Delete Key"
+msgstr "Dzēst taustiņu"
+
+#: ../gok.glade2.h:61
+msgid "Dock"
+msgstr "Novietošana"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:62 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "Nopietot lejā"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:63 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "Novietot augsā"
+
+#: ../gok.glade2.h:64
+msgid "Duplicate"
+msgstr "Dublēt"
+
+#: ../gok.glade2.h:65
+msgid "Enable _key flashing"
+msgstr "Atļaut _taustiņa mirgošanu"
+
+#: ../gok.glade2.h:66
+msgid "Enable _sound"
+msgstr "Atļaut _skaņu"
+
+#: ../gok.glade2.h:67
+msgid "Enable _word completion"
+msgstr "Atļaut _vārda izpildi"
+
+#: ../gok.glade2.h:68
+msgid "Enable co_mmand prediction"
+msgstr "Atļaut _komandas prognozēšanu"
+
+#: ../gok.glade2.h:70
+msgid "Fill Width"
+msgstr "Aizpidīt platumu"
+
+#: ../gok.glade2.h:71
+msgid "Font Group:"
+msgstr "Fontu grupa:"
+
+#: ../gok.glade2.h:72 ../gok/gok-editor.c:35
+msgid "GOK Keyboard Editor"
+msgstr "GOK tastaturas labotājs"
+
+#: ../gok.glade2.h:73
+msgid "GOK Preferences"
+msgstr "GOK uzstādījumi"
+
+#: ../gok.glade2.h:74
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:75
+msgid "Key Height"
+msgstr "Taustiņa augstums"
+
+#: ../gok.glade2.h:76
+msgid "Key Spacing"
+msgstr "Tastiņa atstarpes"
+
+#: ../gok.glade2.h:77
+msgid "Key Width"
+msgstr "Taustiņa platums"
+
+#: ../gok.glade2.h:78
+msgid "Key _width:"
+msgstr "Taustiņa _platums:"
+
+#: ../gok.glade2.h:79
+msgid "Key h_eight:"
+msgstr "Taustiņa _augstums:"
+
+#: ../gok.glade2.h:80
+msgid "Keyboards"
+msgstr "Tastatūras"
+
+#: ../gok.glade2.h:81
+msgid "Keycode:"
+msgstr "Taustiņa šifrs:"
+
+#: ../gok.glade2.h:82
+msgid "Keysym:"
+msgstr "Taustiņa apzīmējums:"
+
+#: ../gok.glade2.h:83
+msgid "Label:"
+msgstr "Etiķete:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:84 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "Pa kreisi:"
+
+#: ../gok.glade2.h:85
+msgid "Match physical keyboard as reported by X Server"
+msgstr "Saskaņojiet fizisko tastatūru kā teikts X serverī"
+
+#: ../gok.glade2.h:86
+msgid "Modifier Post"
+msgstr "Modifikatora ziņojums"
+
+#: ../gok.glade2.h:87
+msgid "Modifier Pre"
+msgstr "Modifikators pirms"
+
+#: ../gok.glade2.h:88
+msgid "Modifier:"
+msgstr "Modifikators:"
+
+#: ../gok.glade2.h:89
+msgid "Move Down"
+msgstr "Pārvietot uz leju"
+
+#: ../gok.glade2.h:90
+msgid "Move Up"
+msgstr "Pārvietot uz leju"
+
+#: ../gok.glade2.h:91
+msgid "Name:"
+msgstr "Nosaukums:"
+
+#: ../gok.glade2.h:92
+msgid "New"
+msgstr "Jauns"
+
+#: ../gok.glade2.h:93
+msgid "Next Key"
+msgstr "Nākamais taustiņš"
+
+#: ../gok.glade2.h:94
+msgid "Normal"
+msgstr "Standarta"
+
+#: ../gok.glade2.h:95
+msgid "Number of _flashes:"
+msgstr "Zibšņu skaits:"
+
+#: ../gok.glade2.h:96
+msgid "Number of _predictions:"
+msgstr "Prognozēšanas skaits:"
+
+#: ../gok.glade2.h:97
+msgid "Number of command predictions:"
+msgstr "Komandu prognozēšanas skaits:"
+
+#: ../gok.glade2.h:98
+msgid "Number of word predictions:"
+msgstr "Vārdu prognozēšanas skaits:"
+
+#: ../gok.glade2.h:99
+msgid "Other _input device:"
+msgstr "Citas _ievadierīces:"
+
+#: ../gok.glade2.h:100
+msgid "Prediction"
+msgstr "Pronoze"
+
+#: ../gok.glade2.h:101
+msgid "Press"
+msgstr "Spiest"
+
+#: ../gok.glade2.h:102
+msgid "Previous Key"
+msgstr "Ieprieksējais taustiņš"
+
+#: ../gok.glade2.h:103
+msgid "Read keyboard from file:"
+msgstr "Nolasīt tastatūru no faila:"
+
+#: ../gok.glade2.h:104
+msgid "Release"
+msgstr "Atlaist"
+
+#. User interface for the access method
+#: ../gok.glade2.h:105 ../directed.xml.in.h:24
+msgid "Right:"
+msgstr "Pa labi:"
+
+#: ../gok.glade2.h:106
+msgid "S_witch"
+msgstr "S_lēdzis"
+
+#: ../gok.glade2.h:107
+msgid "Show Only This Font Group"
+msgstr "Rādīt tikai šo fontu grupu"
+
+#: ../gok.glade2.h:108
+msgid "So_und:"
+msgstr "_Skaņa\":"
+
+#: ../gok.glade2.h:109
+msgid "Speak key _label"
+msgstr "Izrunāt taustiņu"
+
+#: ../gok.glade2.h:110
+msgid "Style:"
+msgstr "Stils:"
+
+#: ../gok.glade2.h:111
+msgid "Switch _1"
+msgstr "Slēdzis nr._1"
+
+#: ../gok.glade2.h:112
+msgid "Switch _2"
+msgstr "Slēdzis nr._2"
+
+#: ../gok.glade2.h:113
+msgid "Switch _3"
+msgstr "Slēdzis nr._3"
+
+#: ../gok.glade2.h:114
+msgid "Switch _4"
+msgstr "Slēdzis nr._4"
+
+#: ../gok.glade2.h:115
+msgid "Switch _5"
+msgstr "Slēdzis nr._5"
+
+#: ../gok.glade2.h:116
+msgid "Target:"
+msgstr "Mērķis:"
+
+#: ../gok.glade2.h:117
+msgid "To Back"
+msgstr "Atpakaļ"
+
+#: ../gok.glade2.h:118
+msgid "To Front"
+msgstr "Uz priekšu"
+
+#: ../gok.glade2.h:119
+msgid "Toggle"
+msgstr "Pārslēdzējs"
+
+#: ../gok.glade2.h:120
+msgid "Top:"
+msgstr "Augšā:"
+
+#: ../gok.glade2.h:121
+msgid "Use _extra word list file(s)"
+msgstr "Li_etot papildus vārdu saraksta failu(s)"
+
+#: ../gok.glade2.h:122
+msgid "Use _key averaging"
+msgstr "Lietot _taustiņa vienādošanu"
+
+#: ../gok.glade2.h:123
+msgid "Valuator Sensitivity"
+msgstr "Taktētāja jūtība"
+
+#: ../gok.glade2.h:124
+msgid "Word Completion"
+msgstr "Vārda izpilde"
+
+#: ../gok.glade2.h:125
+msgid "_100ths of a second"
+msgstr "_100tā sekunde"
+
+#: ../gok.glade2.h:126
+msgid "_Add"
+msgstr "_Pievienot"
+
+#: ../gok.glade2.h:127
+msgid "_Browse..."
+msgstr "_Pārlūkot..."
+
+#: ../gok.glade2.h:128
+msgid "_Delete"
+msgstr "_Dzēst"
+
+#: ../gok.glade2.h:129
+msgid "_Joystick"
+msgstr "_Kursorsvira"
+
+#: ../gok.glade2.h:130
+msgid "_Method:"
+msgstr "_Metode:"
+
+#: ../gok.glade2.h:131
+msgid "_Name:"
+msgstr "_Nosaukums:"
+
+#: ../gok.glade2.h:132
+msgid "_New"
+msgstr "Jau_ns"
+
+#: ../gok.glade2.h:133
+msgid "_Number of predictions:"
+msgstr "Paredzējuma _numurs no:"
+
+#: ../gok.glade2.h:134
+msgid "_Rename"
+msgstr "Pā_rsaukt"
+
+#: ../gok.glade2.h:135
+msgid "_Single axis:"
+msgstr "Viena a_ss:"
+
+#: ../gok.glade2.h:136
+msgid "_Spacing:"
+msgstr "At_starpes:"
+
+#: ../gok.glade2.h:137
+msgid "_Use Desktop Theme Preferences"
+msgstr "Izmantot darbvirsmas tēmas _uzstādījumus"
+
+#: ../gok.glade2.h:138
+msgid "_Valuator"
+msgstr "_Novērtētājs"
+
+#: ../gok.glade2.h:139
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "_X-Y novērtētājs (asis 0 un 1)"
+
+#: ../gok.glade2.h:140
+msgid "access method name"
+msgstr "pieejas metodes vārds"
+
+#: ../gok.glade2.h:141
+msgid "cancel"
+msgstr "atcelt"
+
+#: ../gok.glade2.h:142
+msgid "display user help"
+msgstr "parādīt lietotāja palīdzību"
+
+#: ../gok.glade2.h:143
+msgid "high"
+msgstr "augstums"
+
+#: ../gok.glade2.h:144
+msgid "low"
+msgstr "zemu"
+
+#: ../gok.glade2.h:145
+msgid "pixels"
+msgstr "pikseļi"
+
+#: ../gok.glade2.h:146
+msgid "revert to original settings"
+msgstr "atgriezt uz sākotnējos uzstādijumus"
+
+#: ../gok.glade2.h:147
+msgid "try these settings"
+msgstr "pamēģināt šos uzstādijumus"
+
+#: ../gok.glade2.h:148
+msgid "use these settings"
+msgstr "lietot šos uzstādijumus"
+
+#: ../gok/callbacks.c:372
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "Atvainojiet, Pieejas metodes vednis.vēl nav izveidots."
+
+#: ../gok/callbacks.c:374
+msgid "GOK Access Method Wizard"
+msgstr "GOK Pieejas Metodes Vednis"
+
+#: ../gok/gok-control.c:227
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "Atvainojiet, skaņas faila pārlūkošana nav izveidota."
+
+#: ../gok/gok-control.c:229
+msgid "GOK Browse for sound file"
+msgstr "GOK pārlūkot skaņas failu"
+
+#: ../gok/gok-control.c:253
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "Atvainojiet, papildus uzstādijumi nav izveidoti."
+
+#: ../gok/gok-control.c:255
+msgid "GOK Inverse Scanning Advanced"
+msgstr "GOK apgrieztā papildus skanēšana"
+
+#: ../gok/gok-editor.c:154 ../gok/gok-editor.c:187 ../gok/gok-editor.c:267
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"Jūs modificētjāt sekojošu failu.\n"
+"Vai vēlaties atcelt izmaiņas?"
+
+#: ../gok/gok-editor.c:156 ../gok/gok-editor.c:189 ../gok/gok-editor.c:269
+#: ../gok/gok-editor.c:1060
+msgid "Keyboard Filename Invalid"
+msgstr "Nepareizs tastatūras faila nosaukums"
+
+#: ../gok/gok-editor.c:218
+msgid "new"
+msgstr "Jauns"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:279
+msgid "Select keyboard file for editing"
+msgstr "Izvēlēties rediģidējamo tastatūras failu"
+
+#: ../gok/gok-editor.c:289 ../gok/gok-editor.c:981
+msgid ".kbd files"
+msgstr ".kbd faili"
+
+#: ../gok/gok-editor.c:544
+msgid "label"
+msgstr "etiķete"
+
+#: ../gok/gok-editor.c:718
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "Nevar saglabāt failu: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:971
+msgid "Save keyboard file as"
+msgstr "Saglabāt tastatūras failu kā"
+
+#: ../gok/gok-editor.c:1052
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"Nav derīgs tastatūras faila vārds:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1082
+msgid "(new)"
+msgstr "(jauns)"
+
+#: ../gok/gok-input.c:515
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"GOK ir atradis jaunu iekārtu '%s'. Vai vēlaties lietot šo iekārtu "
+"iepriekšējās '%s' iekārtas vietā?"
+
+#: ../gok/gok-key.c:117
+msgid "Mute"
+msgstr "Apklusināt"
+
+#: ../gok/gok-key.c:120
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"Peles\n"
+"pogas"
+
+#: ../gok/gok-key.c:123
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"Pa kreisi\n"
+"tabulēšanas taustiņš"
+
+#: ../gok/gok-key.c:234
+msgid "Divide"
+msgstr "Sadalīties"
+
+#: ../gok/gok-key.c:237
+msgid "Multiply"
+msgstr "Daudzkārtēji"
+
+#: ../gok/gok-key.c:240
+msgid "Subtract"
+msgstr "Atņemt"
+
+#: ../gok/gok-key.c:243
+msgid "Addition"
+msgstr "Saskaitīšana"
+
+#: ../gok/gok-key.c:246
+msgid "Prior"
+msgstr "Iepriekšējais"
+
+#: ../gok/gok-key.c:249
+msgid "Next"
+msgstr "Nākamais"
+
+#: ../gok/gok-key.c:252 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Mājas(Home)"
+
+#: ../gok/gok-key.c:255 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "Beigas(end)"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:258 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "Augšup"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:261 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "Lejup"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:264 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "Pa kreisi"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:267 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "Pa labi"
+
+#: ../gok/gok-key.c:270
+msgid "Begin"
+msgstr "Sākt"
+
+#: ../gok/gok-key.c:273
+msgid "Decimal"
+msgstr "Decimāl skaitlis"
+
+#: ../gok/gok-key.c:276
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:279
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"Multi\n"
+"poga"
+
+#: ../gok/gok-key.c:282
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Eisu\n"
+"pārslēdzējs"
+
+#: ../gok/gok-key.c:285
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"Henkan\n"
+"Režīms"
+
+#: ../gok/gok-key.c:288
+msgid "Muhenkan"
+msgstr "Muhenkan"
+
+#: ../gok/gok-key.c:291
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"Režīma\n"
+"pārslēgs"
+
+#: ../gok/gok-keyboard.c:155
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Xkb nevar ieinstalēt paplašināju! (kļūdas kods %x)"
+
+#: ../gok/gok-keyboard.c:161 ../gok/gok-keyboard.c:202
+msgid "keyboard description not available!"
+msgstr "nav pieejams tastatūras apraksts!"
+
+#: ../gok/gok-keyboard.c:167 ../gok/gok-keyboard.c:208
+#: ../gok/gok-keyboard.c:504
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "Nevar nolasīt tastatūras ģeometriju no X Servera."
+
+#: ../gok/gok-keyboard.c:432
+msgid "Back"
+msgstr "Atpakaļ"
+
+#: ../gok/gok-keyboard.c:449 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "Atkārtot nākošo"
+
+#: ../gok/gok-keyboard.c:461
+msgid "Edit"
+msgstr "Rediģēt"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:474
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"ciparslēga taustiņš\n"
+"pildījuma rakstzīme (Pad)"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:488 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "Slēpt"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:699
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:711
+msgid "Level 2"
+msgstr "2. Līmenis"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:723
+msgid "Level 3"
+msgstr "3. Līmenis"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:735
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Atpakaļ\n"
+"atstarpes taustiņš"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:746 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tabulēšanas taustiņš"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:757
+msgid "space"
+msgstr "atstarpes taustiņš"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:768 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "ievadīšanas taustiņš (Enter)"
+
+#: ../gok/gok-keyboard.c:806 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "Izvēlnes"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. * The prefix before the '|' character is just a context string and need not be
+#. * translated.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:865
+msgid "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "0. Līmenis |abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+
+#. The substring "level 1|" should not be translated.
+#. * For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:870
+msgid "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "1. Līmenis |ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+
+#. Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#.
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#.
+#: ../gok/gok-keyboard.c:877 ../gok/gok-keyboard.c:933
+msgid "level 2|"
+msgstr "2. Līmenis |"
+
+#. For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#: ../gok/gok-keyboard.c:880 ../gok/gok-keyboard.c:934
+msgid "level 3|"
+msgstr "3. Līmenis |"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "level #|abcde..." strings
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:928
+msgid "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "0. Līmenis |etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:929
+msgid "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "1. Līmenis |ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1923
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2827
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2832 ../gok/gok-spy.c:1746
+msgid "Table"
+msgstr "Tabula"
+
+#: ../gok/gok-keyboard.c:2837 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "Rīkjosla"
+
+#: ../gok/gok-keyboard.c:2841
+msgid "Applications"
+msgstr "Aplikācijas"
+
+#: ../gok/gok-keyboard.c:2851
+msgid "Menu"
+msgstr "Izvēlne"
+
+#: ../gok/gok-keyboard.c:3750
+msgid "translator-credits"
+msgstr ""
+"Uģis Ambārovs \n"
+" Raitis Matisovs"
+
+#: ../gok/gok-keyboard.c:3773 ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3775
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "Dinamiskā virtuālā tastatūra priekš GNOME darbavirsmas"
+
+#: ../gok/gok-keyboard.c:3784
+msgid "Full Credits"
+msgstr "Pilnie nopelni"
+
+#: ../gok/gok-scanner.c:1003
+msgid "error reading description"
+msgstr "kļūda lasot aprakjstu"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1664
+msgid "V Scrollbar"
+msgstr "Vertikālā ritjosla"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1669
+msgid "H Scrollbar"
+msgstr "Horizontālā Ritjosla"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:370 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:434
+msgid "GOK Action Name"
+msgstr "GOK darbības nosaukums"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:376
+msgid "Change the action name:"
+msgstr "Mainīt darbības nosaukumu:"
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"Darbības nosaukums nedrīkst būt tukšs.\n"
+"Lūdzu ievadiet jaunu darbības nosaukumu."
+
+#: ../gok/gok-page-actions.c:432
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"Atvainojiet, darbības nosaukums jau eksistē.\n"
+"Lūdzu ievadiet jaunu darbības nosaukumu"
+
+#: ../gok/gok-page-actions.c:486
+#, c-format
+msgid "New Action %d"
+msgstr "Jauna darbība %d"
+
+#: ../gok/gok-page-actions.c:549
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "Vai vēlaties izdzēst šo darbību (%s)?"
+
+#: ../gok/gok-page-actions.c:557
+msgid "GOK Delete Action"
+msgstr "GOK Dzēst darbību"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:411 ../gok/gok-page-feedbacks.c:456
+#: ../gok/gok-page-feedbacks.c:475
+msgid "GOK Feedback Name"
+msgstr "GOK Atgriezeniskās saites nosaukums"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:417
+msgid "Change the feedback name:"
+msgstr "Mainīt atgriezeniskās saites nosaukumu:"
+
+#: ../gok/gok-page-feedbacks.c:454
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"Atgriezeniskās saites nosaukums nevar būt tukšs.\n"
+"Lūdzu ievadiet jaunu atgriezeniskās saites nosaukumu."
+
+#: ../gok/gok-page-feedbacks.c:473
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"Atvainojiet, atgriezeniskās saites nosaukumu jau eksistē.\n"
+"Lūdzu ievadiet jaunu atgriezeniskās saites nosaukumu"
+
+#: ../gok/gok-page-feedbacks.c:525
+#, c-format
+msgid "New Feedback %d"
+msgstr "Jauns atgriezeniskās saites nosaukums %d"
+
+#: ../gok/gok-page-feedbacks.c:641
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "Vai vēlaties dzēst atgriezenisko saiti (%s)?"
+
+#: ../gok/gok-page-feedbacks.c:649
+msgid "GOK Delete Feedback"
+msgstr "GOG dzēst atgriezenisko saiti"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:872
+msgid "Select sound file"
+msgstr "Izvēlēties skaņas failu"
+
+#: ../gok/gok-page-keyboard.c:180
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr ""
+"Ievadīt direktotiju papildu meklēšanai kur, GOK meklēs tastatūras failus."
+
+#: ../gok/gok-page-keyboard.c:194
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "Izvēlēties XML failu kur definēsiet savu izveidoto klaviatūru"
+
+#: ../gok/gok-page-keysizespace.c:83
+msgid "Button"
+msgstr "Poga"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "Logu saraksts"
+
+#: ../gok/gok-utf8-word-complete.c:120
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "Nevar nolasīt direktorijas faila saturu '%s'\n"
+
+#: ../gok/main.c:180
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"Izmantot specializētu pieejas metodi. VARDS ir virkne un nevar atrast to "
+"dažādos pieejas metodes failos(.xam)attiecināma uz \"name\" īpatnību <gok:"
+"accessmethod> elementu. Piezīme tas nav nepieciešams tāds pats vārds kā .xam "
+"failam. (skatīt--srakstu-pieejas metodes)"
+
+#: ../gok/main.c:181
+msgid "NAME"
+msgstr "Vārds"
+
+#: ../gok/main.c:189
+msgid "Start the GOK keyboard editor"
+msgstr "Startēt GOK tastatūras rediģētājs"
+
+#: ../gok/main.c:197
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "Izmantot speciālo, bet iespējams nestabilo, gok lietu"
+
+#: ../gok/main.c:205
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"Vienmēr kad --ģeometrijā netiek lietota gok mainīgie tā ir pozīcija starp "
+"piesaukšanu un laišana darbā pozīcijā tāda kāda bija pirms izslēgšanas. Kad "
+"--gok ģeometrijā lieto pašas pozīcijas ar taisnleņķa reģionu uz ekrāna "
+"izskaidrots ar iedoto x11 ģeometrijas specifikāciju. Kad --ģeometrija lieto "
+"gok tas neatceras savu pozīciju kad izsledzas. Šo rīcību var maimīt ar --"
+"atcerēties ģeometriju karodziņu kurš liek gok atcerēties tā pozīciju kad "
+"izsēdzās, pat tad kad, tā startējās ar --ģeometriju."
+
+#: ../gok/main.c:206
+msgid "GEOMETRY"
+msgstr "ĢEOMETRIJA"
+
+#: ../gok/main.c:214
+msgid "Use the specified input device"
+msgstr "Izmantot specifisku ieejas iekārtu"
+
+#: ../gok/main.c:215
+msgid "DEVICENAME"
+msgstr "IEKĀRTASVĀRDS"
+
+#: ../gok/main.c:223
+msgid "Start GOK with the specified keyboard."
+msgstr "Startēt GOK ar specifisko tastatūru."
+
+#: ../gok/main.c:224
+msgid "KEYBOARDNAME"
+msgstr "TASTATŪRASVĀRDS"
+
+#: ../gok/main.c:232
+msgid "List the access methods that can be used as options to other arguments."
+msgstr ""
+"Parādīt sarakstu ar darbības metodēm kas var tikt lietotas kā opcijas citiem "
+"argumentiem."
+
+#: ../gok/main.c:241
+msgid "List the actions that can be used as options to other arguments."
+msgstr "Pārādīt darbības kas var tikt lietotas kā opcijas citiem argumentiem."
+
+#: ../gok/main.c:250
+msgid "GOK will be used to login"
+msgstr "GOK tiks lietots uz pieteikšanos"
+
+#: ../gok/main.c:260
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "GOK parādīs pogas bezvārdu GUI. Noderīgs priekš atkļūdošanas."
+
+#: ../gok/main.c:270
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"Lieto ar --ģeometriju. Liek GOK atcerēties tā pozīciju kas izsēdzas pat "
+"startējot ar --ģeometriju. Lūdzu aplūkojiet izskaidrojumu zem --ģeometrijas "
+"karoga, priekš vairāk informācijas."
+
+#: ../gok/main.c:281
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+"Startēt GOK un piekabināt šīs darbības lai skanētu operācijas. (skatīt --"
+"sarakstu-darbības)"
+
+#: ../gok/main.c:291
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+"Startēt GOK un piekabināt šīs darbības lai skanētu operācijas. (skatīt --"
+"sarakstu-darbības)"
+
+#: ../gok/main.c:300
+msgid "Open the settings dialog box when GOK starts"
+msgstr "Atvērt uzstādijuma dialoga lodziņu kad GOK palaižas"
+
+#: ../gok/main.c:640
+#, c-format
+msgid "gok: Unsupported geometry specification\n"
+msgstr "gok: Neatbilstoša ģeometrijas specifikācija\n"
+
+#: ../gok/main.c:641
+#, c-format
+msgid ""
+"gok: Currently GOK requires that the x, y, width and height all be given\n"
+msgstr "gok: GOK pieprasa norādīt visus x, y, augstumus un platumus\n"
+
+#: ../gok/main.c:737
+msgid "XKB extension is required."
+msgstr "XKB nepieciešams paplašinājums."
+
+#: ../gok/main.c:747
+msgid "Can't initialize actions."
+msgstr "Nevar noteikt darbību."
+
+#: ../gok/main.c:757
+msgid "Can't initialize feedbacks."
+msgstr "Nevar noteikt atgriezenisko saiti."
+
+#: ../gok/main.c:784
+msgid "Can't create the main GOK window!"
+msgstr "Nevar izveidot galveno GOK logu!"
+
+#: ../gok/main.c:803
+msgid "Can't create the settings dialog window!"
+msgstr "Nevar izveidot uzstādijuma dialoga logu!"
+
+#: ../gok/main.c:863
+msgid "No keyboards to display!"
+msgstr "Nav tastatūtu ko parādīt!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:997 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "UI Grab"
+
+#: ../gok/main.c:1013
+msgid "popup menu"
+msgstr "izlecošais logs"
+
+#: ../gok/main.c:1920
+msgid "Can't create a compose keyboard!"
+msgstr "Nevar radīt izveidoto tastatūru!"
+
+#: ../gok/main.c:1962
+msgid "Can't read any keyboards!"
+msgstr "Nevar nolasīt nevienu tastatūru!"
+
+#: ../gok/main.c:2078
+msgid "could not access method directory key from GConf!"
+msgstr "nevar piekļūt metodei direktorijas atslēgai no GConf!"
+
+#: ../gok/main.c:2086
+msgid "possibly unknown access method!"
+msgstr "iespējams nezināma pieejas metode!"
+
+#: ../gok/main.c:2633
+#, c-format
+msgid ""
+"Sorry, GOK can't run because:\n"
+"%s"
+msgstr ""
+"Atvainojiet, GOK nevar uzstartēt jo:\n"
+"%s"
+
+#: ../gok/main.c:2641
+msgid "GOK Fatal Error"
+msgstr "GOK Nelabojama kļūda"
+
+#: ../gok/main.c:2654
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run.  GOK is currently unable to retrieve those settings.  If "
+"this is the first time that you have run gok after installing it you may "
+"need to restart gconfd, you can use this command: 'gconftool-2 --shutdown' "
+"or log out and back in."
+msgstr ""
+"GOK lieto GConf 2 lai uzglabātu uzstādijumus un pieprasītu noteiktus "
+"uzstādijumus kurus palaist no GConf. GOK pašlaik nav spējīgs labot tos "
+"uzstādijumus. Ja šī ir pirmā reize kad palaižat gok pēc instalācijas, tad ir "
+"nepieciešams pārstartēt gconfd,jūs varat lietot šo komandu: 'gconftool-2 --"
+"shutdown' vai atteikties and ienākt pa jaunu."
+
+#: ../gok/main.c:2671
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given.  Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"GOK pieprasa uzlikt visus x,y augstumus un platumus. Atvainojiet, jūsu "
+"ģeometrijas specifikācija netiks lietoti."
+
+#: ../gok/main.c:2673
+msgid "gok: Unsupported geometry specification"
+msgstr "gok: Neatbalstīta ģeometrijas specifikācija "
+
+#: ../gok/main.c:2880
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"GOK nestrādās korekti, jo nevar aktivizēt jūsu darba virsmu 'lipīgās "
+"atslēgas' iespēja."
+
+#: ../gok/main.c:2887
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK aktivizējis Lipīgās atslēgas, kuras ir nepieciešamas.\n"
+
+#: ../gok/main.c:2909
+msgid "GOK cannot run because XKB display extension is missing.\n"
+msgstr "GOK nevar palaist jo XKB parādīšansas paplašinājums trūkst.\n"
+
+#: ../gok/main.c:2982
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"Ierīci ko jūs jietojat lai darbotos ar GOK arī kontrolē sistēmu norāde (vai "
+"peles norāde). Konflikti ar aplikāciju lietojot norādi var iejaukties ar "
+"jūsu atļauju lai lietotu aplikācijas vai GOK.\n"
+"\n"
+"Mēs stingri iesakām konfigurēt jūsu ievadirīces kā paplašinātās 'ievad "
+"ierīces; priekš vairāk informācijas skatīt GOK paīdzību."
+
+#: ../gok/main.c:2988
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"Ierīci ko jūs jietojat lai darbotos ar GOK arī kontrolē sistēmas norādi.\n"
+"\n"
+"Lai novērstu konfliktu ar aplikācijām kas lieto norādi, GOK tagad atslēgs "
+"ierīci kuru jūs lietojat nno sistēmas norādes uz laiku kamēr darbojas GOK "
+"sesija.\n"
+"\n"
+"Cita iespēja, jūs varat uzstādīt GOK lietot citu ievad ierīci; vairāk "
+"informācijas GOK palīdzībā."
+
+#. no longer used!
+#: ../gok/main.c:2995 ../gok/main.c:2998
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "Jūs konfigurēsiet GOK lietot 'kodol norādes'  veidu."
+
+#: ../gok/main.c:3096
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"Asistēšanas tehnoloģijas atbalsts nav aktivizēts.\n"
+"\n"
+"Jūs varat palaist GOK bez asistēšanas tehnoloģijas. Laigan, dažas no "
+"aplikāciju pazīmēm var netikt būt pieejamas.\n"
+"\n"
+"Lai aktivizētu atbalstu asistēšanas tehnoloģijai un piesakieties jaunai "
+"sesijai ar izmaiņu aktivizēts , spiest aktivizēt un ateikties.\n"
+"\n"
+"Lai turpinātu lietot GOK, spiest Turpināt.\n"
+"\n"
+"Lai izietu GOK, spiest Aizvērt.\n"
+"\n"
+
+#: ../gok/main.c:3115
+msgid "Enable and Log Out"
+msgstr "Aktivizēt un Ateikties"
+
+#: ../gok/main.c:3127
+msgid "Continue"
+msgstr "Turpināt"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(100s no sekundes)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "Apgrieztā skanēšana"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr ""
+"Nozpiest un turēt slēdzi lai slanētu. Spiest otru slēdzi lai izvēlētos."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "Skenēt:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "Vienkārša atslēga automātiskai skanēšanai"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "sākt startēt:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap"
+msgstr "Pārnešana"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "Vienkārša atslēga apgrieztai skanēšanai"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "5 slēdzis virzīšanai"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "Lejup:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:32
+msgid "Up:"
+msgstr "Augšup:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "Parādīt"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "Palīdzības pārlūks"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "Termināls"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "Teksta redaktors"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "TīmekļaPārlūks"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "Izveidot"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "Palaidējs"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "Pele"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "Poga 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "Poga 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "Poga 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "dubult klikšķis"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "Aizgrieznis"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "Rādītājs"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "Atkārtot"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "Aizpildīt"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Peldošs"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "Sašaurināts"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "Atkārtot nākošo atslēgu"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "Mazākais"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "Garākais"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "Platākais"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del poga"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "ins poga"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num poga"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn poga"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp poga"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Pārvietot (shift poga)"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tablators (Tab)&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "Vai tiešām beigt!"

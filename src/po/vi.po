@@ -1,0 +1,2225 @@
+# Vietnamese translation for GOK.
+# Copyright © 2009 GNOME i18n Project for Vietnamese.
+# Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
+# Clytie Siddall <clytie@riverland.net.au>, 2005-2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gok GNOME TRUNK\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gok&component=general\n"
+"POT-Creation-Date: 2009-02-11 08:47+0000\n"
+"PO-Revision-Date: 2009-02-11 23:28+1030\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.6.4a5\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "Kích hoạt"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "Kích hoạt:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "Sự kích hoạt:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "Tự động quét"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "Dưới/Trên"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "Số chu kỳ trước khi dừng:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:67
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "Hồi âm"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "Cách kích hoạt hồi âm"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "Di chuyển hồi âm"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "Khoảng đợi ban đầu :"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "Trái/Phải"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "Di chuyển:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "Thao tác"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "Tùy chọn"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+"Nhấn công tắt để bắt đầu quét. Nhấn công tắt khác hoặc công tắt cũ lần nữa "
+"để chọn."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "Phải/Trái"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "Khoảng đợi quét:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "Tốc độ quét:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "Hướng quét:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "Chạy quét"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "Chạy quét:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "Trên/Dưới"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "Cuốn cột/hàng"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "di_chuyển_hồi_âm"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "chọn_hồi_âm"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "Chọn trực tiếp"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "Cách kích hoạt hồi âm:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "Di chuyển hồi âm:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr "Di chuyển con trỏ chuột để tô sáng một phím. Nhấn công tắt để chọn."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "Chọn:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "Chọn nhấn lâu"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "Di chuyển con trỏ chuột để tô sáng phím. Nhấn lâu vào phím để chọn."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "Giới thiệu"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "Tùy thích"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "Thoát GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "Cửa sổ"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2456
+#: ../gok/gok-windowlister.c:246 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "lùi"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:340
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+"Một số nhân cần áp dụng vào sự kiện định giá trị của thiết bị nhập trước khi "
+"xử lý."
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"Một danh sách định giới bằng dấu chấm phẩy, các đường dẫn đã ghi rõ đầy đủ "
+"đến từ điển gõ xong từ thêm."
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "Tùy thích có bị giới hạn không?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "Quyết định kiểu bàn phím được dùng cho bàn phím cấu tạo mặc định"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr ""
+"GOK có phát sinh động bàn phím cấu tạo dựa trên thông tin từ trình phục vụ X "
+"không?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "Mỗi người dùng GOK có một bản sao riêng của từ điển dự đoán từ không?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "Cửa sổ GOK có bung chiếm toàn chiều rộng màn hình không?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "Con trỏ lõi có theo con trỏ bàn phím GOK không?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "Hành động này có dùng khả năng trung bình phím không?"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "Hồi âm này có chớp không?"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "Hồi âm này có phát tiếng không?"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "Hồi âm này có nói nhãn của một phím GOK không?"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "Nhấn lâu"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr "Vị trí neo cửa sổ chính của GOK (nếu neo), hoặc chuỗi rỗng nếu không"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr ""
+"Số nút con trên cây giao diện người dùng đồ họa nơi cần tìm đối tượng có khả "
+"năng truy nhập"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr ""
+"Số cấp xuống cây giao diện người dùng đồ họa cần tìm đối tượng có khả năng "
+"truy nhập"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "Có phải hành động thường trực không"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "Có phải hồi âm thường trực không"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "Bật gõ xong từ chưa"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "Chớp sáng phím"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "Nút trái trên chuột"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "Nút giữa trên chuột"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "Nút 4 trên chuột"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "Nút 5 trên chuột"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "Con trỏ chuột"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "Không có"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "Nút phải trên chuột"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"Nên là một của những điều theo đây: \"xkb\",\"default\" (mặc định), \"alpha"
+"\", \"alpha-freq\", \"custom\" (tự chọn); Nếu chọn \"custom\" thì nên định "
+"nghĩa \"custom_compose_keyboard\" (bàn phím cấu tạo tự chọn)."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "Âm thanh 1"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "Âm thanh 2"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "Tiếng nói"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "Công tắc 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "Công tắc 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "Công tắc 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "Công tắc 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "Công tắc 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "Phương pháp truy cập cần dùng"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "Thư mục nơi cần tải tập tin phương pháp truy cập."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "Thư mục nơi cần tải tập tin từ điển."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "Thư mục nơi cần tải tập tin tài nguyên Gok."
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr ""
+"Thư mục nơi cần tải tập tin bàn phím tự chọn hoặc đặc trưng cho người dùng."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr ""
+"Tên đường dẫn đầy đủ đến tập tin định nghĩa một bàn phím cấu tạo GOK tự chọn"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "Bề cao phím"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "Bề rộng phím"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "Tọa độ X bàn phím"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "Tọa độ Y bàn phím"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "Tên âm thanh hồi âm này phát ra"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "Tên của thiết bị XInput cần dùng"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "Tên cần hiển thị cho hành động này"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "Tên cần hiển thị cho hồi âm này"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "Số (nếu thích hợp)"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "Số lần dự đoán khi gõ xong từ"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "Số lần hồi âm này chớp"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"Thư mục chính nơi cần tải tập tin bàn phím. Mặc định là một thư mục hệ thống."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "Tốc độ cho hành động này"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "Khoảng trắng giữa phím"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "Tính trạng kích hoạt hành động này"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "Kiểu hành động"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr ""
+"Có nên dùng danh sách từ thêm khi tìm kiếm từ gõ xong trong GOK hay không"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr "Duyệt qua các ứng dụng và gõ dùng thiết bị nhập thay thế"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "Bàn phím trên màn hình"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "3 tính trạng"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>Diện mạo</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>Ứng xử</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>Nhánh</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>Dự đoán lệnh</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>Cấu tạo Bàn phím</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>Bàn phím tự chọn</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>Định nghĩa hành động</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>Định nghĩa hồi âm</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>Khoảng chờ trước khi kích hoạt</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>Mô tả</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>Vào neo rồi bung ngang</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>Nguồn sự kiện</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>Phông chữ</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>Chớp Phím</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>Kích cỡ phím và điều khiển khoảng</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>Phím</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>Bàn phím</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>Phím bổ trợ</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>Kết xuất</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>Vị trí</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>Xem thử</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>Độ nhạy</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>Âm thanh</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>Tiếng nói</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>Số thứ tự công tắt hay nút</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>Sắc thái</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>Định thời và chờ</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>Kiểu</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>Kiểu định giá trị</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>Gõ xong từ</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>Ghi chú:</b> Các thay đổi thiết lập này sẽ có tác dụng chỉ khi "
+"bạn chạy trình GOK lần sau.</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+"Một số nhân được áp dụng vào sự kiện định giá trị thiết bị nhập đã mở rộng "
+"trước khi xử lý."
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "Phương pháp truy cập"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "Danh sách Tên Hành động"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "Kiểu hành động:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "Vở_kiểu_hành_động"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "Hành động"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "Kích hoạt khi nhấn _lâu"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "Kích hoạt khi bấm phím _Enter"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "Kích hoạt khi _Di chuyển"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "Kích hoạt khi _Nhấn"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "Kích hoạt khi _Nhả"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "Thêm"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "Thêm phím mới"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "Thư mục thêm nơi cần tìm kiếm bàn phím GOK"
+
+#: ../gok.glade2.h:47
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "Thư mục thêm nơi cần tìm kiếm tập tin bàn phím GOK"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "Bàn phím chữ số được sắp xếp theo tần số chữ"
+
+#: ../gok.glade2.h:49
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "Bàn phím chữ số được sắp xếp theo abc"
+
+#: ../gok.glade2.h:50
+msgid "Appearance"
+msgstr "Diện mạo"
+
+#: ../gok.glade2.h:51
+msgid "Bottom:"
+msgstr "Dưới:"
+
+#: ../gok.glade2.h:52
+msgid "Browse"
+msgstr "Duyệt"
+
+#: ../gok.glade2.h:53
+msgid "C_ore pointer"
+msgstr "Con trỏ _lõi"
+
+#: ../gok.glade2.h:54
+msgid "Command Prediction"
+msgstr "Dự đoán lệnh"
+
+#: ../gok.glade2.h:55
+msgid "Delay"
+msgstr "Khoảng chờ"
+
+#: ../gok.glade2.h:56
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr ""
+"Khoảng (theo phần 100 một giây) sau khi sự kiện gây nên, trước khi kích hoạt"
+
+#: ../gok.glade2.h:57
+msgid "Delete"
+msgstr "Xoá bỏ"
+
+#: ../gok.glade2.h:58
+msgid "Delete Key"
+msgstr "Xóa bỏ phím"
+
+#: ../gok.glade2.h:59
+msgid "Dock"
+msgstr "Neo"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "Neo dưới"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:61 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "Neo trên"
+
+#: ../gok.glade2.h:62
+msgid "Duplicate"
+msgstr "Nhân đôi"
+
+#: ../gok.glade2.h:63
+msgid "Enable _key flashing"
+msgstr "Bật _chớp phím"
+
+#: ../gok.glade2.h:64
+msgid "Enable _sound"
+msgstr "Bật _âm thanh"
+
+#: ../gok.glade2.h:65
+msgid "Enable _word completion"
+msgstr "Bật gõ _xong từ"
+
+#: ../gok.glade2.h:66
+msgid "Enable co_mmand prediction"
+msgstr "Bật _dự đoán lệnh"
+
+#: ../gok.glade2.h:68
+msgid "Fill Width"
+msgstr "Bề rộng chiếm"
+
+#: ../gok.glade2.h:69
+msgid "Font Group:"
+msgstr "Nhóm phông chữ :"
+
+#: ../gok.glade2.h:70 ../gok/gok-editor.c:35
+msgid "GOK Keyboard Editor"
+msgstr "Bộ hiệu chỉnh bàn phím GOK"
+
+#: ../gok.glade2.h:71
+msgid "GOK Preferences"
+msgstr "Tùy thích GOK"
+
+# Name: don't translate / Tên: đừng dịch
+#: ../gok.glade2.h:72
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:73
+msgid "Key Height"
+msgstr "Bề cao phím"
+
+#: ../gok.glade2.h:74
+msgid "Key Spacing"
+msgstr "Khoảng cách phím"
+
+#: ../gok.glade2.h:75
+msgid "Key Width"
+msgstr "Bề rộng phím"
+
+#: ../gok.glade2.h:76
+msgid "Key _width:"
+msgstr "Bề _rộng phím:"
+
+#: ../gok.glade2.h:77
+msgid "Key h_eight:"
+msgstr "Bề _cao phím:"
+
+#: ../gok.glade2.h:78
+msgid "Keyboards"
+msgstr "Bàn phím"
+
+#: ../gok.glade2.h:79
+msgid "Keycode:"
+msgstr "Mã phím:"
+
+#: ../gok.glade2.h:80
+msgid "Keysym:"
+msgstr "Keysym:"
+
+#: ../gok.glade2.h:81
+msgid "Label:"
+msgstr "Nhãn:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:82 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "Trái:"
+
+#: ../gok.glade2.h:83
+msgid "Match physical keyboard as reported by X Server"
+msgstr "Khớp với bàn phím vật lý do trình phục vụ X thông báo"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Post"
+msgstr "Hậu bổ trợ"
+
+#: ../gok.glade2.h:85
+msgid "Modifier Pre"
+msgstr "Tiền bổ trợ"
+
+#: ../gok.glade2.h:86
+msgid "Modifier:"
+msgstr "Phím bổ trợ :"
+
+#: ../gok.glade2.h:87
+msgid "Move Down"
+msgstr "Đem xuống"
+
+#: ../gok.glade2.h:88
+msgid "Move Up"
+msgstr "Đem lên"
+
+#: ../gok.glade2.h:89
+msgid "Name:"
+msgstr "Tên:"
+
+#: ../gok.glade2.h:90
+msgid "New"
+msgstr "Mới"
+
+#: ../gok.glade2.h:91
+msgid "Next Key"
+msgstr "Phím kế"
+
+#: ../gok.glade2.h:92
+msgid "Normal"
+msgstr "Chuẩn"
+
+#: ../gok.glade2.h:93
+msgid "Number of _flashes:"
+msgstr "Số lần _chớp:"
+
+#: ../gok.glade2.h:94
+msgid "Number of _predictions:"
+msgstr "Số lần _dự đoán:"
+
+#: ../gok.glade2.h:95
+msgid "Number of command predictions:"
+msgstr "Số lần dự đoán lệnh:"
+
+#: ../gok.glade2.h:96
+msgid "Number of word predictions:"
+msgstr "Số lần dự đoán từ :"
+
+#: ../gok.glade2.h:97
+msgid "Other _input device:"
+msgstr "Thiết bị nhập _khác:"
+
+#: ../gok.glade2.h:98
+msgid "Prediction"
+msgstr "Dự đoán"
+
+#: ../gok.glade2.h:99
+msgid "Press"
+msgstr "Nhấn"
+
+#: ../gok.glade2.h:100
+msgid "Previous Key"
+msgstr "Phím trước"
+
+#: ../gok.glade2.h:101
+msgid "Read keyboard from file:"
+msgstr "Đọc bàn phím từ tập tin:"
+
+#: ../gok.glade2.h:102
+msgid "Release"
+msgstr "Nhả"
+
+#. User interface for the access method
+#: ../gok.glade2.h:103 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "Phải:"
+
+#: ../gok.glade2.h:104
+msgid "S_witch"
+msgstr "_Công tắc"
+
+#: ../gok.glade2.h:105
+msgid "Show Only This Font Group"
+msgstr "Hiện chỉ nhóm phông chữ này"
+
+#: ../gok.glade2.h:106
+msgid "So_und:"
+msgstr "_Âm thanh:"
+
+#: ../gok.glade2.h:107
+msgid "Speak key _label"
+msgstr "Nói _nhãn phím"
+
+#: ../gok.glade2.h:108
+msgid "Style:"
+msgstr "Kiểu :"
+
+#: ../gok.glade2.h:109
+msgid "Switch _1"
+msgstr "Công tắc _1"
+
+#: ../gok.glade2.h:110
+msgid "Switch _2"
+msgstr "Công tắc _2"
+
+#: ../gok.glade2.h:111
+msgid "Switch _3"
+msgstr "Công tắc _3"
+
+#: ../gok.glade2.h:112
+msgid "Switch _4"
+msgstr "Công tắc _4"
+
+#: ../gok.glade2.h:113
+msgid "Switch _5"
+msgstr "Công tắc _5"
+
+#: ../gok.glade2.h:114
+msgid "Target:"
+msgstr "Đích:"
+
+#: ../gok.glade2.h:115
+msgid "To Back"
+msgstr "Ra sau"
+
+#: ../gok.glade2.h:116
+msgid "To Front"
+msgstr "Lên trước"
+
+#: ../gok.glade2.h:117
+msgid "Toggle"
+msgstr "Bật tắt"
+
+#: ../gok.glade2.h:118
+msgid "Top:"
+msgstr "Trên:"
+
+#: ../gok.glade2.h:119
+msgid "Use _extra word list file(s)"
+msgstr "Dùng tập tin danh sách từ th_êm"
+
+#: ../gok.glade2.h:120
+msgid "Use _key averaging"
+msgstr "Dùng tr_ung bình phím"
+
+#: ../gok.glade2.h:121
+msgid "Valuator Sensitivity"
+msgstr "Độ nhạy định giá trị"
+
+#: ../gok.glade2.h:122
+msgid "Word Completion"
+msgstr "Gõ xong từ"
+
+#: ../gok.glade2.h:123
+msgid "_100ths of a second"
+msgstr "Phần _100 một giây"
+
+#: ../gok.glade2.h:124
+msgid "_Add"
+msgstr "Th_êm"
+
+#: ../gok.glade2.h:125
+msgid "_Browse..."
+msgstr "_Duyệt..."
+
+#: ../gok.glade2.h:126
+msgid "_Delete"
+msgstr "_Xóa bỏ"
+
+#: ../gok.glade2.h:127
+msgid "_Joystick"
+msgstr "Cần ch_ơi"
+
+#: ../gok.glade2.h:128
+msgid "_Method:"
+msgstr "_Phương pháp:"
+
+#: ../gok.glade2.h:129
+msgid "_Name:"
+msgstr "_Tên:"
+
+#: ../gok.glade2.h:130
+msgid "_New"
+msgstr "_Mới"
+
+#: ../gok.glade2.h:131
+msgid "_Number of predictions:"
+msgstr "Số lần _dự đoán:"
+
+#: ../gok.glade2.h:132
+msgid "_Rename"
+msgstr "_Đổi tên"
+
+#: ../gok.glade2.h:133
+msgid "_Single axis:"
+msgstr "Trục đơ_n:"
+
+#: ../gok.glade2.h:134
+msgid "_Spacing:"
+msgstr "_Khoảng cách:"
+
+#: ../gok.glade2.h:135
+msgid "_Use Desktop Theme Preferences"
+msgstr "Dùng Tù_y thích Sắc thái Môi trường"
+
+#: ../gok.glade2.h:136
+msgid "_Valuator"
+msgstr "Bộ định _giá trị"
+
+#: ../gok.glade2.h:137
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "Bộ định giá trị _X-Y (trục 0 và 1)"
+
+#: ../gok.glade2.h:138
+msgid "access method name"
+msgstr "tên phương pháp truy cập"
+
+#: ../gok.glade2.h:139
+msgid "cancel"
+msgstr "hủy bỏ"
+
+#: ../gok.glade2.h:140
+msgid "display user help"
+msgstr "hiện trợ giúp người dùng"
+
+#: ../gok.glade2.h:141
+msgid "high"
+msgstr "cao"
+
+#: ../gok.glade2.h:142
+msgid "low"
+msgstr "thấp"
+
+#: ../gok.glade2.h:143
+msgid "pixels"
+msgstr "điểm ảnh"
+
+#: ../gok.glade2.h:144
+msgid "revert to original settings"
+msgstr "hoàn nguyên thiết lập gốc"
+
+#: ../gok.glade2.h:145
+msgid "try these settings"
+msgstr "thử thiết lập này"
+
+#: ../gok.glade2.h:146
+msgid "use these settings"
+msgstr "dùng thiết lập này"
+
+#: ../gok/callbacks.c:372
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "Rất tiếc, chưa thực hiện Trợ lý Phương pháp Truy cập."
+
+#: ../gok/callbacks.c:374
+msgid "GOK Access Method Wizard"
+msgstr "Trợ lý Phương pháp Truy cập GOK"
+
+#: ../gok/gok-control.c:227
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "Rất tiếc, chưa thực hiện khả năng duyệt tìm tập tin âm thanh."
+
+#: ../gok/gok-control.c:229
+msgid "GOK Browse for sound file"
+msgstr "Duyệt tìm tập tin âm thanh GOK"
+
+#: ../gok/gok-control.c:253
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "Rất tiếc, chưa thực hiện thiết lập cấp cao."
+
+#: ../gok/gok-control.c:255
+msgid "GOK Inverse Scanning Advanced"
+msgstr "Quét Ngược Cấp cao GOK"
+
+#: ../gok/gok-editor.c:154 ../gok/gok-editor.c:187 ../gok/gok-editor.c:267
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"Bạn đã sửa đổi tập tin hiện thời.\n"
+"Có muốn hủy bỏ các thay đổi này sao?"
+
+#: ../gok/gok-editor.c:156 ../gok/gok-editor.c:189 ../gok/gok-editor.c:269
+#: ../gok/gok-editor.c:1061
+msgid "Keyboard Filename Invalid"
+msgstr "Tên tập tin bàn phím không hợp lệ"
+
+#: ../gok/gok-editor.c:218
+msgid "new"
+msgstr "mới"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:279
+msgid "Select keyboard file for editing"
+msgstr "Chọn tập tin bàn phím cần hiệu chỉnh"
+
+#: ../gok/gok-editor.c:289 ../gok/gok-editor.c:981
+msgid ".kbd files"
+msgstr "tập tin .kbd"
+
+#: ../gok/gok-editor.c:544
+msgid "label"
+msgstr "nhãn"
+
+#: ../gok/gok-editor.c:718
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "Không thể lưu tập tin: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:971
+msgid "Save keyboard file as"
+msgstr "Lưu tập tin bàn phím dạng"
+
+#: ../gok/gok-editor.c:1052
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"Đây không phải là tên tập tin bàn phím hợp lệ:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1084
+msgid "(new)"
+msgstr "(mới)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"Trình GOK đã phát hiện hoạt động từ một một thiết bị phần cứng mới tên « %s "
+"». Bạn có muốn sử dụng thiết bị này thay vào thiết bị « %s » không?"
+
+#: ../gok/gok-key.c:117
+msgid "Mute"
+msgstr "Câm"
+
+#: ../gok/gok-key.c:120
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"Chuột\n"
+"Phím"
+
+#: ../gok/gok-key.c:123
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"Trái\n"
+"Tab"
+
+#: ../gok/gok-key.c:230
+msgid "<nil>"
+msgstr "<không có>"
+
+#: ../gok/gok-key.c:234
+msgid "Divide"
+msgstr "Chia"
+
+#: ../gok/gok-key.c:237
+msgid "Multiply"
+msgstr "Nhân"
+
+#: ../gok/gok-key.c:240
+msgid "Subtract"
+msgstr "Trừ"
+
+#: ../gok/gok-key.c:243
+msgid "Addition"
+msgstr "Cộng"
+
+#: ../gok/gok-key.c:246
+msgid "Prior"
+msgstr "Trước"
+
+#: ../gok/gok-key.c:249
+msgid "Next"
+msgstr "Tiếp"
+
+#: ../gok/gok-key.c:252 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Home"
+
+#: ../gok/gok-key.c:255 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "End"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:258 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "Lên"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:261 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "Xuống"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:264 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "Trái"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:267 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "Phải"
+
+#: ../gok/gok-key.c:270
+msgid "Begin"
+msgstr "Bắt đầu"
+
+#: ../gok/gok-key.c:273
+msgid "Decimal"
+msgstr "Thập phân"
+
+#: ../gok/gok-key.c:276
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:279
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"Đa\n"
+"phím"
+
+#: ../gok/gok-key.c:282
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Bật tắt\n"
+"Eisu"
+
+#: ../gok/gok-key.c:285
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"Chế độ\n"
+"Henkan"
+
+# Name: don't translate / Tên: đừng dịch
+#: ../gok/gok-key.c:288
+msgid "Muhenkan"
+msgstr "Muhenkan"
+
+#: ../gok/gok-key.c:291
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"Công tắt\n"
+"chế độ"
+
+#: ../gok/gok-key.c:294
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"Hiragana\n"
+"Katakana"
+
+#: ../gok/gok-keyboard.c:154
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Không thể sở khởi phần mở rộng « xkb » (mã lỗi « %x »)"
+
+#: ../gok/gok-keyboard.c:160 ../gok/gok-keyboard.c:201
+msgid "keyboard description not available!"
+msgstr "không có mô tả bàn phím!"
+
+#: ../gok/gok-keyboard.c:166 ../gok/gok-keyboard.c:207
+#: ../gok/gok-keyboard.c:504
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "Không thể đọc dạng hình bàn phím từ trình phục vụ X của bạn."
+
+#: ../gok/gok-keyboard.c:432
+msgid "Back"
+msgstr "Lùi"
+
+#: ../gok/gok-keyboard.c:449 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "Lặp điều kế"
+
+#: ../gok/gok-keyboard.c:461
+msgid "Edit"
+msgstr "Hiệu chỉnh"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:474
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"Vùng\n"
+"Phím số"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:488 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "Ẩn"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:675
+msgid "shift"
+msgstr "Shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:688
+msgid "Level 2"
+msgstr "Cấp 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:701
+msgid "Level 3"
+msgstr "Cấp 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:714
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Xóa\n"
+"lùi"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:725 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tab"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:736
+msgid "space"
+msgstr "dài"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:747 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Enter"
+
+#: ../gok/gok-keyboard.c:785 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "Trình đơn"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:841
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "aăâbcdđeêghiklmnoôơpqrstuưvxyỵ«‹1234567890đ-=[];'#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:845
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "AĂÂBCDĐEÊGHIKLMNOÔƠPQRSTUƯVX»›!\"3$₫%^&*()_+{}:@~<>?"
+
+#. Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#.
+#: ../gok/gok-keyboard.c:852
+msgctxt "level 2"
+msgid ""
+msgstr "ằẳẵắặầẩẫấậềểễếệồổỗốộừửữứựờởỡớợàảãáạèẻẽéẹìỉĩíịòỏõóọùủũúụỳỷỹýỵ"
+
+#. For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#: ../gok/gok-keyboard.c:855
+msgctxt "level 3"
+msgid ""
+msgstr "ẰẲẴẮẶẦẨẪẤẬỀỂỄẾỆỒỔỖỐỘỪỬỮỨỰỜỞỠỚỢÀẢÃÁẠÈẺẼÉẸÌỈĨÍỊÒỎÕÓỌÙỦŨÚỤỲỶỸÝỴ"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:902
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "aăâeêtoôuươiynrshdđlcmgqbvkxp«‹`1234567890đ-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:903
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "AĂÂEÊTOÔUƯƠIYNRSHDĐLCMGQBVKXP»›~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#.
+#: ../gok/gok-keyboard.c:907
+msgctxt "freq-level 2"
+msgid ""
+msgstr "ằẳẵắặầẩẫấậềểễếệồổỗốộừửữứựờởỡớợàảãáạèẻẽéẹìỉĩíịòỏõóọùủũúụỳỷỹýỵ"
+
+#: ../gok/gok-keyboard.c:908
+msgctxt "freq-level 3"
+msgid ""
+msgstr "ẰẲẴẮẶẦẨẪẤẬỀỂỄẾỆỒỔỖỐỘỪỬỮỨỰỜỞỠỚỢÀẢÃÁẠÈẺẼÉẸÌỈĨÍỊÒỎÕÓỌÙỦŨÚỤỲỶỸÝỴ"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1891
+msgid "GOK - "
+msgstr "GOK — "
+
+#: ../gok/gok-keyboard.c:2779
+msgid "GUI"
+msgstr "Giao diện người dùng đồ họa"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2784 ../gok/gok-spy.c:1781
+msgid "Table"
+msgstr "Bảng"
+
+#: ../gok/gok-keyboard.c:2789 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "Thanh công cụ"
+
+#: ../gok/gok-keyboard.c:2793
+msgid "Applications"
+msgstr "Ứng dụng"
+
+#: ../gok/gok-keyboard.c:2803
+msgid "Menu"
+msgstr "Trình đơn"
+
+#. please!
+#: ../gok/gok-keyboard.c:3619 ../gok/main.c:1905 ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3623
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "Bàn phím động ảo cho môi trường GNOME"
+
+#: ../gok/gok-keyboard.c:3625
+msgid "translator-credits"
+msgstr "Nhóm Việt hóa GNOME (http://gnomevi.sourceforge.net)"
+
+#: ../gok/gok-keyboard.c:3627
+msgid "Full Credits"
+msgstr "Công trạng đầy đủ"
+
+#: ../gok/gok-keyboard.c:3629
+#| msgid "About"
+msgid "About GOK"
+msgstr "Giới thiệu"
+
+#: ../gok/gok-libusb.c:161
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "không thể khởi động backend libusb - %s"
+
+#: ../gok/gok-libusb.c:189
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: tìm thấy thiết bị với cặp VID:PID là %x:%x"
+
+#: ../gok/gok-libusb.c:200
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "không tìm thấy thiết bị với cặp VID:PID là %x:%x"
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:212
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "quyền truy cập %s không đúng"
+
+#: ../gok/gok-libusb.c:300
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "không có điểm kết USB thích hợp trong thiết bị %x:%x"
+
+#: ../gok/gok-scanner.c:1005
+msgid "error reading description"
+msgstr "gặp lỗi khi đọc mô tả"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1698
+msgid "V Scrollbar"
+msgstr "Thanh cuộn V"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1703
+msgid "H Scrollbar"
+msgstr "Thanh cuộn H"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:373 ../gok/gok-page-actions.c:418
+#: ../gok/gok-page-actions.c:437
+msgid "GOK Action Name"
+msgstr "Tên hành động GOK"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:379
+msgid "Change the action name:"
+msgstr "Thay đổi tên hành động:"
+
+#: ../gok/gok-page-actions.c:416
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"Hành động phải có tên.\n"
+"Hãy nhập tên hành động mới."
+
+#: ../gok/gok-page-actions.c:435
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"Rất tiếc, một hành động tên này đã có.\n"
+"Hãy nhập tên mới."
+
+#: ../gok/gok-page-actions.c:489
+#, c-format
+msgid "New Action %d"
+msgstr "Hành động mới %d"
+
+#: ../gok/gok-page-actions.c:552
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "Bạn có muốn xóa bỏ hành động này (%s) không?"
+
+#: ../gok/gok-page-actions.c:560
+msgid "GOK Delete Action"
+msgstr "Xóa bỏ Hành động GOK"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:411 ../gok/gok-page-feedbacks.c:456
+#: ../gok/gok-page-feedbacks.c:475
+msgid "GOK Feedback Name"
+msgstr "Tên Hồi âm GOK"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:417
+msgid "Change the feedback name:"
+msgstr "Thay đổi tên hồi âm:"
+
+#: ../gok/gok-page-feedbacks.c:454
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"Hồi âm phải có tên.\n"
+"Hãy nhập tên hồi âm mới."
+
+#: ../gok/gok-page-feedbacks.c:473
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"Rất tiếc, một hồi âm tên này đã có.\n"
+"Hãy nhập tên hồi âm mới."
+
+#: ../gok/gok-page-feedbacks.c:525
+#, c-format
+msgid "New Feedback %d"
+msgstr "Phản hồi mới %d"
+
+#: ../gok/gok-page-feedbacks.c:641
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "Bạn có muốn xóa bỏ hồi âm này (%s) không?"
+
+#: ../gok/gok-page-feedbacks.c:649
+msgid "GOK Delete Feedback"
+msgstr "Xóa bỏ hồi âm GOK"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:872
+msgid "Select sound file"
+msgstr "Chọn tập tin âm thanh"
+
+#: ../gok/gok-page-keyboard.c:180
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "Hãy nhập thư mục nơi cần tìm kiếm tập tin bàn phím GOK thêm."
+
+#: ../gok/gok-page-keyboard.c:194
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "Hãy chọn tập tin XML định nghĩa bàn phím cấu tạo khởi chạy."
+
+#: ../gok/gok-page-keysizespace.c:83
+msgid "Button"
+msgstr "Nút 3"
+
+#: ../gok/gok-windowlister.c:214
+msgid "Window List"
+msgstr "Danh sách cửa sổ"
+
+#: ../gok/gok-utf8-word-complete.c:120
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "Không thể đọc nội dung của tập tin từ điển « %s ».\n"
+
+#: ../gok/main.c:200
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"Hãy sử dụng phương pháp truy cập đã ghi rõ. TÊN là một chuỗi có thể được tìm "
+"trong những tập tin phương pháp truy cập khác nhau (.xam) được gán cho tài "
+"sản « tên » của thẻ <gok:accessmethod> (phương pháp truy cập). Hãy ghi chú "
+"rằng tên này không luôn là cùng một tên với tên của tập tin « .xam » (hãy xem "
+"« --list-accessmethods » [liệt kê các phương pháp truy cập])."
+
+#: ../gok/main.c:201
+msgid "NAME"
+msgstr "TÊN"
+
+#: ../gok/main.c:209
+msgid "Start the GOK keyboard editor"
+msgstr "Khởi chạy Bộ hiệu chỉnh bàn phím GOK"
+
+#: ../gok/main.c:217
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "Dùng các thứ GOK đặc biệt mà có thể bất định"
+
+#: ../gok/main.c:225
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"Khi mà không dùng tùy chọn « --geometry » (dạng hình) thì trình GOK nhớ vị "
+"trí của chính nó giữa hai lần gọi, và bắt đầu lại tại vị trí đã có khi tắt "
+"lần trước. Khi có dùng « --geometry » thì trình GOK chọn vị trí ở trong vùng "
+"chữ nhật do đặc tả dạng hình X11 đã cho. Khi có dùng « --geometry » thì trình "
+"GOK không nhớ vị trí khi tắt. Có thể thay đổi hành vi này bằng cách dùng cờ « "
+"--remembergeometry » mà buộc GOK nhớ vị trí khi tắt, ngay cả khi đã khởi "
+"chạy với « --geometry »."
+
+#: ../gok/main.c:226
+msgid "GEOMETRY"
+msgstr "DẠNG HÌNH"
+
+#: ../gok/main.c:234
+msgid "Use the specified input device"
+msgstr "Dùng thiết bị nhập xác định"
+
+#: ../gok/main.c:235
+msgid "DEVICENAME"
+msgstr "TÊN_THIẾT_BỊ"
+
+#: ../gok/main.c:243
+msgid "Start GOK with the specified keyboard."
+msgstr "Khởi chạy GOK với bàn phím xác định."
+
+#: ../gok/main.c:244
+msgid "KEYBOARDNAME"
+msgstr "TÊN_BÀN_PHÍM"
+
+#: ../gok/main.c:252
+msgid "List the access methods that can be used as options to other arguments."
+msgstr ""
+"Liệt kê các phương pháp truy cập có thể được dùng là tùy chọn với đối số "
+"khác."
+
+#: ../gok/main.c:261
+msgid "List the actions that can be used as options to other arguments."
+msgstr "Liệt kê các hành động có thể được dùng là tùy chọn với đối số khác."
+
+#: ../gok/main.c:270
+msgid "GOK will be used to login"
+msgstr "GOK sẽ được dùng để đăng nhập"
+
+#: ../gok/main.c:280
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr ""
+"GOK sẽ hiển thị phím cho giao diện người dùng đồ họa vô danh. Có ích khi gỡ "
+"lỗi."
+
+#: ../gok/main.c:290
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"Có thể được dùng với tùy chọn « --geometry » (dạng hình). Nó buộc trình GOK "
+"nhớ vị trí chính nó khi tắt, ngay cả khi được khởi chạy với « --geometry ». "
+"Hãy xem thảo luận dưới cờ « --geometry » để tìm thông tin thêm."
+
+#: ../gok/main.c:301
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+"Khởi chạy GOK và lấy hành động này để quét các thao tác. (Hãy xem « --list-"
+"actions ».)"
+
+#: ../gok/main.c:311
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+"Khởi chạy GOK và lấy hành động này để chọn thao tác. (Hãy xem « --list-"
+"actions ».)"
+
+#: ../gok/main.c:320
+msgid "Open the settings dialog box when GOK starts"
+msgstr "Mở hộp thoại thiết lập khi khởi chạy GOK"
+
+#: ../gok/main.c:330
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"Dùng libusb làm đầu vào sự kiện và dùng thiết bị với mã ID nhà sản xuất USB "
+"(VID) và mã sản phẩm (PID) xác định."
+
+#: ../gok/main.c:349
+msgid "Attempt to use GOK without the system mouse"
+msgstr "Thử dùng GOK không cần chuột hệ thống"
+
+#: ../gok/main.c:358
+msgid "Disable automatic keyboard branching"
+msgstr "Tắt chức năng tự động tách nhánh bàn phím"
+
+#: ../gok/main.c:632
+msgid "The GNOME On-screen Keyboard"
+msgstr "Bàn phím trên màn hình GNOME"
+
+#: ../gok/main.c:728
+#, c-format
+msgid "gok: Unsupported geometry specification\n"
+msgstr "gok: không hỗ trợ đặc tả dạng hình đó\n"
+
+#: ../gok/main.c:729
+#, c-format
+msgid ""
+"gok: Currently GOK requires that the x, y, width and height all be given\n"
+msgstr ""
+"gok: hiện thời trình GOK cần thiết bạn gõ cả độ cao, độ rộng và tọa độ x, y "
+"đều.\n"
+
+#: ../gok/main.c:825
+msgid "XKB extension is required."
+msgstr "Cần phần mở rộng XKB."
+
+#: ../gok/main.c:835
+msgid "Can't initialize actions."
+msgstr "Không thể khởi chạy hành động."
+
+#: ../gok/main.c:845
+msgid "Can't initialize feedbacks."
+msgstr "Không thể khởi chạy hồi âm."
+
+#: ../gok/main.c:890 ../gok/main.c:899
+msgid "can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr ""
+"không thể khởi động backend libusb - không thể phân tích cặp USB VID:PID"
+
+#: ../gok/main.c:915
+msgid "Can't create the main GOK window!"
+msgstr "Không thể tạo cửa sổ GOK chính!"
+
+#: ../gok/main.c:934
+msgid "Can't create the settings dialog window!"
+msgstr "Không thể tạo cửa sổ hộp thoại thiết lập!"
+
+#: ../gok/main.c:997
+msgid "No keyboards to display!"
+msgstr "Không có bàn phím cần hiển thị!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1134 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "Bắt UI"
+
+#: ../gok/main.c:1151
+msgid "popup menu"
+msgstr "trình đơn bật lên"
+
+#: ../gok/main.c:2090
+msgid "Can't create a compose keyboard!"
+msgstr "Không thể tạo một bàn phím cấu tạo!"
+
+#: ../gok/main.c:2132
+msgid "Can't read any keyboards!"
+msgstr "Không thể đọc bàn phím nào!"
+
+#: ../gok/main.c:2248
+msgid "could not access method directory key from GConf!"
+msgstr "không thể truy cập khóa thư mục phương pháp từ GConf!"
+
+#: ../gok/main.c:2256
+msgid "possibly unknown access method!"
+msgstr "gặp phương pháp truy cập có thể không rõ!"
+
+#: ../gok/main.c:2810
+#, c-format
+msgid ""
+"Sorry, GOK can't run because:\n"
+"%s"
+msgstr ""
+"Rất tiếc, GOK không chạy được vì:\n"
+"%s"
+
+#: ../gok/main.c:2818
+msgid "GOK Fatal Error"
+msgstr "Lỗi GOK nghiêm trọng"
+
+#: ../gok/main.c:2831
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run.  GOK is currently unable to retrieve those settings.  If "
+"this is the first time that you have run gok after installing it you may "
+"need to restart gconfd, you can use this command: 'gconftool-2 --shutdown' "
+"or log out and back in."
+msgstr ""
+"GOK dùng trình GConf 2 để lưu các thiết lập, thì yêu cầu một vài thiết lập "
+"có trong GConf để có thể chạy. GOK hiện thời không thể lấy các thiết lập đó. "
+"Nếu đây là lần đầu tiên bạn chạy GOK sau khi cài đặt, có thể bạn cần khởi "
+"chạy lại trình nền « gconfd ». Như thế thì bạn có thể dùng lệnh: « gconftool-2 "
+"--shutdown » (tắt) hoặc đăng xuất rồi đăng nhập trở lại."
+
+#: ../gok/main.c:2848
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given.  Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"Hiện thời trình GOK cần thiết bạn gõ cả độ cao, độ rộng và tọa độ x, y đều. "
+"Rất tiếc là sẽ không dùng đặc tả dạng hình của bạn."
+
+#: ../gok/main.c:2850
+msgid "gok: Unsupported geometry specification"
+msgstr "gok: không hỗ trợ đặc tả dạng hình"
+
+#: ../gok/main.c:3091
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"Có lẽ trình GOK sẽ không hoạt động cho đúng, vì nó không thể hiệu lực tính "
+"năng « phím dính » của môi trường của bạn."
+
+#: ../gok/main.c:3098
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "Trình GOK đã hiệu lực tính năng « Phím dính » mà nó cần thiết.\n"
+
+#: ../gok/main.c:3120
+msgid "GOK cannot run because XKB display extension is missing.\n"
+msgstr "Trình GOK không chạy được vì thiếu phần mở rộng trình bày XKB.\n"
+
+#: ../gok/main.c:3193
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"Bạn đang sử dụng một thiết bị để điều khiển trình GOK mà cũng đang điều "
+"khiển con trỏ hệ thống (hay « con trỏ con chuột »). Hai ứng dụng khác nhau "
+"dùng chung con trỏ này có lẽ sẽ gây trở ngại cho khả năng dùng ứng dụng đó "
+"hay trình GOK.\n"
+"\n"
+"Rất khuyên bạn cấu hình thiết bị nhập là thiết bị nhập « Đã mở rộng » thay "
+"thế. Xem Trợ giúp GOK để tìm thông tin thêm."
+
+#: ../gok/main.c:3199
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"Bạn đang sử dụng một thiết bị để điều khiển trình GOK mà cũng đang điều "
+"khiển con trỏ hệ thống.\n"
+"\n"
+"Để tránh xung đột với ứng dụng khác cũng dùng con trỏ này, trình GOK lúc bây "
+"giờ sẽ ngắt kết nối đến thiết bị bạn đang sử dụng ra con trỏ hệ thống trong "
+"phiên chạy GOK này."
+
+#. no longer used!
+#: ../gok/main.c:3206 ../gok/main.c:3209
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "Hình như bạn đang cấu hình trình GOK để dùng chế độ « con trỏ lõi »."
+
+#: ../gok/main.c:3303
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"Hỗ trợ Kỹ thuật Trợ giúp chưa được bật.\n"
+"\n"
+"Bạn có thể khởi chạy trình GOK không cần bật hỗ trợ kỹ thuật trợ giúp. Tuy "
+"nhiên, vài tính năng của ứng dụng có lẽ sẽ bị mất.\n"
+"\n"
+"Để bật hỗ trợ kỹ thuật trợ giúp và cũng đăng nhập vào phiên chạy mới, hãy "
+"nhấn « Bật và đăng xuất ».\n"
+"\n"
+"Để tiếp tục dùng GOK, nhấn « Tiếp tục ».\n"
+"\n"
+"Để thoát GOK, nhấn « Đóng ».\n"
+"\n"
+
+#: ../gok/main.c:3322
+msgid "Enable and Log Out"
+msgstr "Bật và đăng xuất"
+
+#: ../gok/main.c:3334
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(phần 100 một giây)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "Quét ngược"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "Nhấn và giữ công tắt để quét. Nhấn công tắt khác để chọn."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "Quét:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "Quét tự động phím đơn"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "Chạy quét:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap Row/Columns"
+msgstr "Cuốn hàng/cột"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "Quét ngược phím đơn"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "5 Công tắt đã hướng"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "Xuống:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "Di chuyển bút tô sáng theo 4 hướng. Chọn phím."
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "Lên:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "Hiện"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "Bộ duyệt trợ giúp"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "Thiết bị cuối"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "Bộ soạn thảo văn bản"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "Bộ duyệt Mạng"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "Soạn thảo"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "Bộ khởi chạy"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "Chuột"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "Nút 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "Nút 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "Nút 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "Nhấp đúp"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "Khóa"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "Con trỏ"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "Lặp lại"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "Tô đầy"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Nổi"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "Hẹp hơn"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "Lặp phím kế"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "Thấp hơn"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "Cao hơn"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "Rộng hơn"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "Thật sự thoát."

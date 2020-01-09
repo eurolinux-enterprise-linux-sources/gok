@@ -1,0 +1,512 @@
+<refentry id="gok-gok-data">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-gok-data.top_of_page">gok-data</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>gok-data</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-gok-data.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="GOK-SETTINGS-FILE--CAPS">GOK_SETTINGS_FILE</link>
+#define             <link linkend="MAX-KEY-SPACING--CAPS">MAX_KEY_SPACING</link>
+#define             <link linkend="MAX-KEY-WIDTH--CAPS">MAX_KEY_WIDTH</link>
+#define             <link linkend="MIN-KEY-WIDTH--CAPS">MIN_KEY_WIDTH</link>
+#define             <link linkend="MAX-KEY-HEIGHT--CAPS">MAX_KEY_HEIGHT</link>
+#define             <link linkend="MIN-KEY-HEIGHT--CAPS">MIN_KEY_HEIGHT</link>
+<link linkend="void">void</link>                <link linkend="gok-data-initialize">gok_data_initialize</link>                 (void);
+<link linkend="GokSetting">GokSetting</link>*         <link linkend="gok-data-construct-setting">gok_data_construct_setting</link>          (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-read-settings">gok_data_read_settings</link>              (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-write-settings">gok_data_write_settings</link>             (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-get-setting">gok_data_get_setting</link>                (<link linkend="gchar">gchar</link> *NameAccessMethod,
+                                                         <link linkend="gchar">gchar</link> *NameSetting,
+                                                         <link linkend="gint">gint</link> *Value,
+                                                         <link linkend="gchar">gchar</link> **ValueString);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-create-setting">gok_data_create_setting</link>             (<link linkend="gchar">gchar</link> *NameAccessMethod,
+                                                         <link linkend="gchar">gchar</link> *NameSetting,
+                                                         <link linkend="gint">gint</link> Value,
+                                                         <link linkend="gchar">gchar</link> *pValueString);
+<link linkend="void">void</link>                <link linkend="gok-data-close">gok_data_close</link>                      (void);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-set-setting">gok_data_set_setting</link>                (<link linkend="gchar">gchar</link> *NameAccessMethod,
+                                                         <link linkend="gchar">gchar</link> *NameSetting,
+                                                         <link linkend="gint">gint</link> Value,
+                                                         <link linkend="gchar">gchar</link> *ValueString);
+<link linkend="gint">gint</link>                <link linkend="gok-data-get-key-width">gok_data_get_key_width</link>              (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-key-width">gok_data_set_key_width</link>              (<link linkend="gint">gint</link> Width);
+<link linkend="gint">gint</link>                <link linkend="gok-data-get-key-height">gok_data_get_key_height</link>             (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-key-height">gok_data_set_key_height</link>             (<link linkend="gint">gint</link> Height);
+<link linkend="gint">gint</link>                <link linkend="gok-data-get-key-spacing">gok_data_get_key_spacing</link>            (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-key-spacing">gok_data_set_key_spacing</link>            (<link linkend="gint">gint</link> Spacing);
+<link linkend="gint">gint</link>                <link linkend="gok-data-get-keyboard-x">gok_data_get_keyboard_x</link>             (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-keyboard-x">gok_data_set_keyboard_x</link>             (<link linkend="gint">gint</link> X);
+<link linkend="gint">gint</link>                <link linkend="gok-data-get-keyboard-y">gok_data_get_keyboard_y</link>             (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-keyboard-y">gok_data_set_keyboard_y</link>             (<link linkend="gint">gint</link> Y);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-get-keysize-priority">gok_data_get_keysize_priority</link>       (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-keysize-priority">gok_data_set_keysize_priority</link>       (<link linkend="gboolean">gboolean</link> bFlag);
+<link linkend="char">char</link>*               <link linkend="gok-data-get-name-accessmethod">gok_data_get_name_accessmethod</link>      (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-name-accessmethod">gok_data_set_name_accessmethod</link>      (const <link linkend="gchar">gchar</link> *Name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-get-wordcomplete">gok_data_get_wordcomplete</link>           (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-wordcomplete">gok_data_set_wordcomplete</link>           (<link linkend="gboolean">gboolean</link> bTrueFalse);
+<link linkend="gint">gint</link>                <link linkend="gok-data-get-num-predictions">gok_data_get_num_predictions</link>        (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-num-predictions">gok_data_set_num_predictions</link>        (<link linkend="gint">gint</link> Number);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-restore-settings">gok_data_restore_settings</link>           (void);
+<link linkend="void">void</link>                <link linkend="gok-data-backup-setting">gok_data_backup_setting</link>             (<link linkend="GokSetting">GokSetting</link> *pSetting);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-restore-setting">gok_data_restore_setting</link>            (<link linkend="GokSetting">GokSetting</link> *pSetting);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-get-control-values">gok_data_get_control_values</link>         (<link linkend="GokControl">GokControl</link> *pControl);
+<link linkend="gboolean">gboolean</link>            <link linkend="gok-data-get-use-gtkplus-theme">gok_data_get_use_gtkplus_theme</link>      (void);
+<link linkend="void">void</link>                <link linkend="gok-data-set-use-gtkplus-theme">gok_data_set_use_gtkplus_theme</link>      (<link linkend="gboolean">gboolean</link> bTrueFalse);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-gok-data.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-gok-data.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GOK-SETTINGS-FILE--CAPS" role="macro">
+<title>GOK_SETTINGS_FILE</title>
+<indexterm zone="GOK-SETTINGS-FILE--CAPS"><primary sortas="GOK_SETTINGS_FILE">GOK_SETTINGS_FILE</primary></indexterm><programlisting>#define GOK_SETTINGS_FILE "gok-settings.xml"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="MAX-KEY-SPACING--CAPS" role="macro">
+<title>MAX_KEY_SPACING</title>
+<indexterm zone="MAX-KEY-SPACING--CAPS"><primary sortas="MAX_KEY_SPACING">MAX_KEY_SPACING</primary></indexterm><programlisting>#define MAX_KEY_SPACING 100
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="MAX-KEY-WIDTH--CAPS" role="macro">
+<title>MAX_KEY_WIDTH</title>
+<indexterm zone="MAX-KEY-WIDTH--CAPS"><primary sortas="MAX_KEY_WIDTH">MAX_KEY_WIDTH</primary></indexterm><programlisting>#define MAX_KEY_WIDTH 200
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="MIN-KEY-WIDTH--CAPS" role="macro">
+<title>MIN_KEY_WIDTH</title>
+<indexterm zone="MIN-KEY-WIDTH--CAPS"><primary sortas="MIN_KEY_WIDTH">MIN_KEY_WIDTH</primary></indexterm><programlisting>#define MIN_KEY_WIDTH 5
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="MAX-KEY-HEIGHT--CAPS" role="macro">
+<title>MAX_KEY_HEIGHT</title>
+<indexterm zone="MAX-KEY-HEIGHT--CAPS"><primary sortas="MAX_KEY_HEIGHT">MAX_KEY_HEIGHT</primary></indexterm><programlisting>#define MAX_KEY_HEIGHT 100
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="MIN-KEY-HEIGHT--CAPS" role="macro">
+<title>MIN_KEY_HEIGHT</title>
+<indexterm zone="MIN-KEY-HEIGHT--CAPS"><primary sortas="MIN_KEY_HEIGHT">MIN_KEY_HEIGHT</primary></indexterm><programlisting>#define MIN_KEY_HEIGHT 5
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gok-data-initialize" role="function">
+<title>gok_data_initialize ()</title>
+<indexterm zone="gok-data-initialize"><primary sortas="gok_data_initialize">gok_data_initialize</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_initialize                 (void);</programlisting>
+<para>
+Call this before using the Data. All data is initialized here.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-data-construct-setting" role="function">
+<title>gok_data_construct_setting ()</title>
+<indexterm zone="gok-data-construct-setting"><primary sortas="gok_data_construct_setting">gok_data_construct_setting</primary></indexterm><programlisting><link linkend="GokSetting">GokSetting</link>*         gok_data_construct_setting          (void);</programlisting>
+<para>
+Creates a new GokSetting structure.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> A pointer to the new setting, NULL if setting was not created.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-read-settings" role="function">
+<title>gok_data_read_settings ()</title>
+<indexterm zone="gok-data-read-settings"><primary sortas="gok_data_read_settings">gok_data_read_settings</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_read_settings              (void);</programlisting>
+<para>
+Reads in the settings from disk. The settings are stored in a list
+with the first item * in m_pSettingFirst.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the settings were read in correctly, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-write-settings" role="function">
+<title>gok_data_write_settings ()</title>
+<indexterm zone="gok-data-write-settings"><primary sortas="gok_data_write_settings">gok_data_write_settings</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_write_settings             (void);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-setting" role="function">
+<title>gok_data_get_setting ()</title>
+<indexterm zone="gok-data-get-setting"><primary sortas="gok_data_get_setting">gok_data_get_setting</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_get_setting                (<link linkend="gchar">gchar</link> *NameAccessMethod,
+                                                         <link linkend="gchar">gchar</link> *NameSetting,
+                                                         <link linkend="gint">gint</link> *Value,
+                                                         <link linkend="gchar">gchar</link> **ValueString);</programlisting>
+<para>
+Gets a value for an access method setting.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>NameAccessMethod</parameter>&#160;:</term>
+<listitem><simpara> Name of the access method that contains the setting.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>NameSetting</parameter>&#160;:</term>
+<listitem><simpara> Name of the setting you want.
+This string may specify more than
+one setting with the various names seperated by '+'. In this case, only the
+first name will be used. 
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Value</parameter>&#160;:</term>
+<listitem><simpara> Will contain the setting value if the function returns TRUE. This
+may be NULL in which case it will not be filled in.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>ValueString</parameter>&#160;:</term>
+<listitem><simpara> Will contain a pointer to the value string. This name be NULL
+in which case it will not be filled in.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the GokData has the setting, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-create-setting" role="function">
+<title>gok_data_create_setting ()</title>
+<indexterm zone="gok-data-create-setting"><primary sortas="gok_data_create_setting">gok_data_create_setting</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_create_setting             (<link linkend="gchar">gchar</link> *NameAccessMethod,
+                                                         <link linkend="gchar">gchar</link> *NameSetting,
+                                                         <link linkend="gint">gint</link> Value,
+                                                         <link linkend="gchar">gchar</link> *pValueString);</programlisting>
+<para>
+Creates a new setting and stores it in GConf.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>NameAccessMethod</parameter>&#160;:</term>
+<listitem><simpara> Name of the access method that uses the setting.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>NameSetting</parameter>&#160;:</term>
+<listitem><simpara> Name of the setting.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Value</parameter>&#160;:</term>
+<listitem><simpara> Setting value.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>pValueString</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the new setting was created, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-close" role="function">
+<title>gok_data_close ()</title>
+<indexterm zone="gok-data-close"><primary sortas="gok_data_close">gok_data_close</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_close                      (void);</programlisting>
+<para>
+Frees any memory used by the data.</para>
+<para>
+</para></refsect2>
+<refsect2 id="gok-data-set-setting" role="function">
+<title>gok_data_set_setting ()</title>
+<indexterm zone="gok-data-set-setting"><primary sortas="gok_data_set_setting">gok_data_set_setting</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_set_setting                (<link linkend="gchar">gchar</link> *NameAccessMethod,
+                                                         <link linkend="gchar">gchar</link> *NameSetting,
+                                                         <link linkend="gint">gint</link> Value,
+                                                         <link linkend="gchar">gchar</link> *ValueString);</programlisting>
+<para>
+Sets a value for an access method.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>NameAccessMethod</parameter>&#160;:</term>
+<listitem><simpara> Name of the access method that contains the setting.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>NameSetting</parameter>&#160;:</term>
+<listitem><simpara> Name of the setting you want.
+You may specify more than one setting by seperating
+the setting names by "+".
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>Value</parameter>&#160;:</term>
+<listitem><simpara> Will contain the setting value if the function returns TRUE.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>ValueString</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the setting was changed, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-key-width" role="function">
+<title>gok_data_get_key_width ()</title>
+<indexterm zone="gok-data-get-key-width"><primary sortas="gok_data_get_key_width">gok_data_get_key_width</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_data_get_key_width              (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> The key width.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-key-width" role="function">
+<title>gok_data_set_key_width ()</title>
+<indexterm zone="gok-data-set-key-width"><primary sortas="gok_data_set_key_width">gok_data_set_key_width</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_key_width              (<link linkend="gint">gint</link> Width);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Width</parameter>&#160;:</term>
+<listitem><simpara> The new key width
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-key-height" role="function">
+<title>gok_data_get_key_height ()</title>
+<indexterm zone="gok-data-get-key-height"><primary sortas="gok_data_get_key_height">gok_data_get_key_height</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_data_get_key_height             (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> The key height.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-key-height" role="function">
+<title>gok_data_set_key_height ()</title>
+<indexterm zone="gok-data-set-key-height"><primary sortas="gok_data_set_key_height">gok_data_set_key_height</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_key_height             (<link linkend="gint">gint</link> Height);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Height</parameter>&#160;:</term>
+<listitem><simpara> The new key height.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-key-spacing" role="function">
+<title>gok_data_get_key_spacing ()</title>
+<indexterm zone="gok-data-get-key-spacing"><primary sortas="gok_data_get_key_spacing">gok_data_get_key_spacing</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_data_get_key_spacing            (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> The key spacing.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-key-spacing" role="function">
+<title>gok_data_set_key_spacing ()</title>
+<indexterm zone="gok-data-set-key-spacing"><primary sortas="gok_data_set_key_spacing">gok_data_set_key_spacing</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_key_spacing            (<link linkend="gint">gint</link> Spacing);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Spacing</parameter>&#160;:</term>
+<listitem><simpara> The new key spacing.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-keyboard-x" role="function">
+<title>gok_data_get_keyboard_x ()</title>
+<indexterm zone="gok-data-get-keyboard-x"><primary sortas="gok_data_get_keyboard_x">gok_data_get_keyboard_x</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_data_get_keyboard_x             (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> The horizontal location of the keyboard.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-keyboard-x" role="function">
+<title>gok_data_set_keyboard_x ()</title>
+<indexterm zone="gok-data-set-keyboard-x"><primary sortas="gok_data_set_keyboard_x">gok_data_set_keyboard_x</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_keyboard_x             (<link linkend="gint">gint</link> X);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>X</parameter>&#160;:</term>
+<listitem><simpara> Horizontal position of the keyboard.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-keyboard-y" role="function">
+<title>gok_data_get_keyboard_y ()</title>
+<indexterm zone="gok-data-get-keyboard-y"><primary sortas="gok_data_get_keyboard_y">gok_data_get_keyboard_y</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_data_get_keyboard_y             (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> The vertical position of the keyboard.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-keyboard-y" role="function">
+<title>gok_data_set_keyboard_y ()</title>
+<indexterm zone="gok-data-set-keyboard-y"><primary sortas="gok_data_set_keyboard_y">gok_data_set_keyboard_y</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_keyboard_y             (<link linkend="gint">gint</link> Y);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Y</parameter>&#160;:</term>
+<listitem><simpara> Vertical position of the keyboard.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-keysize-priority" role="function">
+<title>gok_data_get_keysize_priority ()</title>
+<indexterm zone="gok-data-get-keysize-priority"><primary sortas="gok_data_get_keysize_priority">gok_data_get_keysize_priority</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_get_keysize_priority       (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the keyboard should use the keysize to determine
+the keyboard size, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-keysize-priority" role="function">
+<title>gok_data_set_keysize_priority ()</title>
+<indexterm zone="gok-data-set-keysize-priority"><primary sortas="gok_data_set_keysize_priority">gok_data_set_keysize_priority</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_keysize_priority       (<link linkend="gboolean">gboolean</link> bFlag);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>bFlag</parameter>&#160;:</term>
+<listitem><simpara> TRUE if the keysize should be used to determine keyboard size.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-name-accessmethod" role="function">
+<title>gok_data_get_name_accessmethod ()</title>
+<indexterm zone="gok-data-get-name-accessmethod"><primary sortas="gok_data_get_name_accessmethod">gok_data_get_name_accessmethod</primary></indexterm><programlisting><link linkend="char">char</link>*               gok_data_get_name_accessmethod      (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> Pointer to the name of the current access method.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-name-accessmethod" role="function">
+<title>gok_data_set_name_accessmethod ()</title>
+<indexterm zone="gok-data-set-name-accessmethod"><primary sortas="gok_data_set_name_accessmethod">gok_data_set_name_accessmethod</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_name_accessmethod      (const <link linkend="gchar">gchar</link> *Name);</programlisting>
+<para>
+Records the new access method and stores it in GConf.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Name</parameter>&#160;:</term>
+<listitem><simpara> Name of the current access method.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-wordcomplete" role="function">
+<title>gok_data_get_wordcomplete ()</title>
+<indexterm zone="gok-data-get-wordcomplete"><primary sortas="gok_data_get_wordcomplete">gok_data_get_wordcomplete</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_get_wordcomplete           (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if word completion is turned on, FALSE if it's turned off.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-wordcomplete" role="function">
+<title>gok_data_set_wordcomplete ()</title>
+<indexterm zone="gok-data-set-wordcomplete"><primary sortas="gok_data_set_wordcomplete">gok_data_set_wordcomplete</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_wordcomplete           (<link linkend="gboolean">gboolean</link> bTrueFalse);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>bTrueFalse</parameter>&#160;:</term>
+<listitem><simpara> The flag setting the word completion state.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-num-predictions" role="function">
+<title>gok_data_get_num_predictions ()</title>
+<indexterm zone="gok-data-get-num-predictions"><primary sortas="gok_data_get_num_predictions">gok_data_get_num_predictions</primary></indexterm><programlisting><link linkend="gint">gint</link>                gok_data_get_num_predictions        (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> The maximum number of word predictions.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-num-predictions" role="function">
+<title>gok_data_set_num_predictions ()</title>
+<indexterm zone="gok-data-set-num-predictions"><primary sortas="gok_data_set_num_predictions">gok_data_set_num_predictions</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_num_predictions        (<link linkend="gint">gint</link> Number);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>Number</parameter>&#160;:</term>
+<listitem><simpara> Maximum number of word predictions.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-restore-settings" role="function">
+<title>gok_data_restore_settings ()</title>
+<indexterm zone="gok-data-restore-settings"><primary sortas="gok_data_restore_settings">gok_data_restore_settings</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_restore_settings           (void);</programlisting>
+<para>
+Restores the values for all the settings.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if any restored setting was different from the
+current setting.  Returns FALSE if all the restored settings are
+the same as the current settings.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-backup-setting" role="function">
+<title>gok_data_backup_setting ()</title>
+<indexterm zone="gok-data-backup-setting"><primary sortas="gok_data_backup_setting">gok_data_backup_setting</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_backup_setting             (<link linkend="GokSetting">GokSetting</link> *pSetting);</programlisting>
+<para>
+Backs up the values for the given setting.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pSetting</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the setting that will be backed up.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-restore-setting" role="function">
+<title>gok_data_restore_setting ()</title>
+<indexterm zone="gok-data-restore-setting"><primary sortas="gok_data_restore_setting">gok_data_restore_setting</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_restore_setting            (<link linkend="GokSetting">GokSetting</link> *pSetting);</programlisting>
+<para>
+Restores the values for the given setting.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pSetting</parameter>&#160;:</term>
+<listitem><simpara> Pointer to the setting that will be restored.
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the backup setting is different from the current
+setting.  Returns FALSE if the backup setting is the same as the
+current setting.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-control-values" role="function">
+<title>gok_data_get_control_values ()</title>
+<indexterm zone="gok-data-get-control-values"><primary sortas="gok_data_get_control_values">gok_data_get_control_values</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_get_control_values         (<link linkend="GokControl">GokControl</link> *pControl);</programlisting>
+<para>
+Gets the values from the settings for the given control.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>pControl</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if the value was updated, FALSE if not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-get-use-gtkplus-theme" role="function">
+<title>gok_data_get_use_gtkplus_theme ()</title>
+<indexterm zone="gok-data-get-use-gtkplus-theme"><primary sortas="gok_data_get_use_gtkplus_theme">gok_data_get_use_gtkplus_theme</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gok_data_get_use_gtkplus_theme      (void);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> TRUE if we should use the Gtk+ theme, FALSE if we should not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gok-data-set-use-gtkplus-theme" role="function">
+<title>gok_data_set_use_gtkplus_theme ()</title>
+<indexterm zone="gok-data-set-use-gtkplus-theme"><primary sortas="gok_data_set_use_gtkplus_theme">gok_data_set_use_gtkplus_theme</primary></indexterm><programlisting><link linkend="void">void</link>                gok_data_set_use_gtkplus_theme      (<link linkend="gboolean">gboolean</link> bTrueFalse);</programlisting>
+<para>
+</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>bTrueFalse</parameter>&#160;:</term>
+<listitem><simpara> The flag setting whether to use the Gtk+ theme or not.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

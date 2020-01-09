@@ -1,0 +1,2193 @@
+# Chinese (Taiwan) translation of gok.
+# Copyright (C) 2002-2007 Free Software Foundation, Inc.
+# Abel Cheung <abel@oaka.org>, 2002-2003.
+# Woodman Tuen <wmtuen@gmail.com>, 2005-2007.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gok 2.27.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-22 16:37+0800\n"
+"PO-Revision-Date: 2009-07-22 14:54+0800\n"
+"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
+"Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "使用"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "使用："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "啟用："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "自動掃描"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "下至上"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "循環次數："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:67
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "反饋"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "反饋啟用"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "反饋動作"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "起始延遲："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "左至右"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "動作："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "操作"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "選項"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr "按下開關來開始掃描，按另一個或相同的開關來選取。"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "右至左"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "掃描延遲："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "掃描速度："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "掃描方向："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "開始掃描"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "開始掃描："
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "上至下"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "回到開始的行/列"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "反饋動作"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "反饋選取"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "直接選取"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "反饋啟用："
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "反饋動作："
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr "移動鼠標來標示按鍵，然後按下開關來選取。"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "選取"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "暫留選取"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "移動滑鼠來標示一按鍵，然後暫留一會來選擇該按鍵。"
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "關於"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "求助"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "偏好設定"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "離開 GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "視窗"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2467
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "上一頁"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:342
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr "處理前套用到輸入裝置定值器事件的乘數"
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr "分號-介定清單來完全指定附加的字詞自動補齊字典的路徑"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "偏好設定是否受限制？"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "決定鍵盤類型作為預設的寫作鍵盤"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr "GOK 是否以 X 伺服器的資料來動態地產生寫作鍵盤？"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "GOK 是否有會私有版本的字詞預測字典檔？"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "GOK 視窗的寬度會否自動增加至整個畫面的寬度？"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "核心指標(core pointer )是否跟隨 GOK 鍵盤指標？"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "這動作是否使用按鍵平均"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "這反饋是否閃爍"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "這反饋是否播放音效"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "這反饋是否讀出 GOK 按鍵的標籤"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "暫留"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr "GOK 主視窗停泊位置（如果固定），如果無則使其空白"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "GUI 搜尋存取物件時每個節點有多少個子程序"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "GUI 樹搜尋存取物件時的的級別數"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "這動作是否永遠"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "這反饋是否永遠"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "是否使用自動補齊"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "按鍵閃爍"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "滑鼠左鍵"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "滑鼠中鍵"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "滑鼠按鈕 4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "滑鼠按鈕 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "鼠標"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "沒有"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "滑鼠右鍵"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"需要定義為以下其中一個：\"xkb\", \"default\", \"alpha\", \"alpha-freq\", "
+"\"custom\"; if \"custom\", \"custom_compose_keyboard\"。"
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "音效一"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "音效二"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "語音"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "開關 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "開關 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "開關 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "開關 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "開關 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "使用的存取方法"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "載入存取方法檔案的目錄。"
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "載入字典檔案時會在這個目錄尋找檔案"
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "載入 gok 資源檔案的目錄。"
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "載入用戶指定或自訂的鍵盤檔案的目錄。"
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "定義自訂的 GOK 寫作鍵盤的完整檔案路徑"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "每個鍵的高度"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "每個鍵的寬度"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "鍵盤的水平位置"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "鍵盤的垂直位置"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "本反饋所播放的音效名稱"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "準備使用的 xinput 輸入裝置的名稱"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "這動作顯示給使用者名稱"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "這反饋顯示給使用者名稱"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "適用時的數目"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "字詞自動補齊的預測數"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "這反饋會閃爍的次數"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr "載入鍵盤檔案的主目錄。預設是系統目錄。"
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "這動作的比率"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "每個鍵之間相隔的寬度"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "這動作啟用時的狀態"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "這動作的類型"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "當搜尋自動補齊候選字詞時是否使用附加的文字清單"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr "使用替代的輸入裝置來輸入並使用應用程式"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "畫面鍵盤"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "3 State"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>外觀</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>運作方式</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>分支</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>指令預測</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>寫作鍵盤</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>自訂鍵盤</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>定義動作</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>定義反饋</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>啟用前延遲</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>描述</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>固定及水平伸展</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>事件來源</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>字型</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>按鍵閃爍</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>鍵的大小和相隔空間</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>按鍵</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>鍵盤</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>修飾鍵</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>輸出</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>位置<./b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>預覽</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>靈敏度</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>音效</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>語音</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>開關式按鍵編號</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>佈景主題</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>時計及延遲</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>類型</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>定值器類型</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>自動補齊</b>"
+
+#
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>注意：</b> 此設定需要在重新啟動 GOK 後才會生效。</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr "處理前套用到伸延輸入裝置定值器事件的乘數"
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "存取方法"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "動作名稱清單"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "動作類型："
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "ActionTypeNotebook"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "動作"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "暫留時啟用(_E)"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "按下 _Enter 後啟用"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "移動後啟用(_M)"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "當按下時啟用(_P)"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "放開時啟用(_R)"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "加入"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "加入新按鍵"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "另外的資料夾作為尋找 GOK 鍵盤"
+
+#: ../gok.glade2.h:47
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "另外的資料夾作為尋找 GOK 鍵盤檔"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "以字母使用頻率來排列的字母及數字鍵盤"
+
+#: ../gok.glade2.h:49
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "以字母順序來排列的字母及數字鍵盤"
+
+#: ../gok.glade2.h:50
+msgid "Appearance"
+msgstr "外觀"
+
+#: ../gok.glade2.h:51
+msgid "Bottom:"
+msgstr "下:"
+
+#: ../gok.glade2.h:52
+msgid "Browse"
+msgstr "瀏覽"
+
+#: ../gok.glade2.h:53
+msgid "C_ore pointer"
+msgstr "指標裝置(_C)"
+
+#: ../gok.glade2.h:54
+msgid "Command Prediction"
+msgstr "指令預測"
+
+#: ../gok.glade2.h:55
+msgid "Delay"
+msgstr "延遲"
+
+#: ../gok.glade2.h:56
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr "延遲，以百分之一秒計算，在切換的事件執行之後，在啟用之前。"
+
+#: ../gok.glade2.h:57
+msgid "Delete"
+msgstr "刪除"
+
+#: ../gok.glade2.h:58
+msgid "Delete Key"
+msgstr "刪除鍵"
+
+#: ../gok.glade2.h:59
+msgid "Dock"
+msgstr "固定"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "向下固定"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:61 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "向上固定"
+
+#: ../gok.glade2.h:62
+msgid "Duplicate"
+msgstr "複製"
+
+#: ../gok.glade2.h:63
+msgid "Enable _key flashing"
+msgstr "啟用按鍵閃爍功能(_K)"
+
+#: ../gok.glade2.h:64
+msgid "Enable _sound"
+msgstr "啟用音效(_S)"
+
+#: ../gok.glade2.h:65
+msgid "Enable _word completion"
+msgstr "啟用自動補齊功能(_W)"
+
+#: ../gok.glade2.h:66
+msgid "Enable co_mmand prediction"
+msgstr "啟用指令預測功能(_M)"
+
+#: ../gok.glade2.h:68
+msgid "Fill Width"
+msgstr "左右伸展"
+
+#: ../gok.glade2.h:69
+msgid "Font Group:"
+msgstr "字型群組："
+
+#: ../gok.glade2.h:70 ../gok/gok-editor.c:36
+msgid "GOK Keyboard Editor"
+msgstr "GOK 鍵盤編輯器"
+
+#: ../gok.glade2.h:71
+msgid "GOK Preferences"
+msgstr "GOK 偏好設定"
+
+#: ../gok.glade2.h:72
+msgid "GOK:"
+msgstr "GOK："
+
+#: ../gok.glade2.h:73
+msgid "Key Height"
+msgstr "鍵的高度"
+
+#: ../gok.glade2.h:74
+msgid "Key Spacing"
+msgstr "鍵的空間"
+
+#: ../gok.glade2.h:75
+msgid "Key Width"
+msgstr "鍵的寬度"
+
+#: ../gok.glade2.h:76
+msgid "Key _width:"
+msgstr "鍵的寬度(_W):"
+
+#: ../gok.glade2.h:77
+msgid "Key h_eight:"
+msgstr "鍵的高度(_E):"
+
+#: ../gok.glade2.h:78
+msgid "Keyboards"
+msgstr "鍵盤"
+
+#: ../gok.glade2.h:79
+msgid "Keycode:"
+msgstr "按鍵代碼："
+
+#: ../gok.glade2.h:80
+msgid "Keysym:"
+msgstr "按鍵符號："
+
+#: ../gok.glade2.h:81
+msgid "Label:"
+msgstr "標籤："
+
+#. User interface for the access method
+#: ../gok.glade2.h:82 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "左:"
+
+#: ../gok.glade2.h:83
+msgid "Match physical keyboard as reported by X Server"
+msgstr "與由 X 伺服器所報知的物理鍵盤匹配"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Post"
+msgstr "後修飾鍵"
+
+#: ../gok.glade2.h:85
+msgid "Modifier Pre"
+msgstr "前修飾鍵"
+
+#: ../gok.glade2.h:86
+msgid "Modifier:"
+msgstr "修飾鍵:"
+
+#: ../gok.glade2.h:87
+msgid "Move Down"
+msgstr "下移"
+
+#: ../gok.glade2.h:88
+msgid "Move Up"
+msgstr "上移"
+
+#: ../gok.glade2.h:89
+msgid "Name:"
+msgstr "名稱:"
+
+#: ../gok.glade2.h:90
+msgid "New"
+msgstr "新增"
+
+#: ../gok.glade2.h:91
+msgid "Next Key"
+msgstr "下個鍵"
+
+#: ../gok.glade2.h:92
+msgid "Normal"
+msgstr "一般"
+
+#: ../gok.glade2.h:93
+msgid "Number of _flashes:"
+msgstr "閃爍次數(_F):"
+
+#: ../gok.glade2.h:94
+msgid "Number of _predictions:"
+msgstr "預測數目(_P):"
+
+#: ../gok.glade2.h:95
+msgid "Number of command predictions:"
+msgstr "指令預測數目："
+
+#: ../gok.glade2.h:96
+msgid "Number of word predictions:"
+msgstr "字詞預測數目："
+
+#: ../gok.glade2.h:97
+msgid "Other _input device:"
+msgstr "其它輸入裝置(_I):"
+
+#: ../gok.glade2.h:98
+msgid "Prediction"
+msgstr "預測"
+
+#: ../gok.glade2.h:99
+msgid "Press"
+msgstr "按下"
+
+#: ../gok.glade2.h:100
+msgid "Previous Key"
+msgstr "上個鍵"
+
+#: ../gok.glade2.h:101
+msgid "Read keyboard from file:"
+msgstr "讀取鍵盤檔於："
+
+#: ../gok.glade2.h:102
+msgid "Release"
+msgstr "放開"
+
+#. User interface for the access method
+#: ../gok.glade2.h:103 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "右:"
+
+#: ../gok.glade2.h:104
+msgid "S_witch"
+msgstr "開關(_W)"
+
+#: ../gok.glade2.h:105
+msgid "Show Only This Font Group"
+msgstr "只顯示字型群組"
+
+#: ../gok.glade2.h:106
+msgid "So_und:"
+msgstr "音效(_U):"
+
+#: ../gok.glade2.h:107
+msgid "Speak key _label"
+msgstr "讀出按鍵標籤(_L)"
+
+#: ../gok.glade2.h:108
+msgid "Style:"
+msgstr "款式:"
+
+#: ../gok.glade2.h:109
+msgid "Switch _1"
+msgstr "開關 _1"
+
+#: ../gok.glade2.h:110
+msgid "Switch _2"
+msgstr "開關 _2"
+
+#: ../gok.glade2.h:111
+msgid "Switch _3"
+msgstr "開關 _3"
+
+#: ../gok.glade2.h:112
+msgid "Switch _4"
+msgstr "開關 _4"
+
+#: ../gok.glade2.h:113
+msgid "Switch _5"
+msgstr "開關 _5"
+
+#: ../gok.glade2.h:114
+msgid "Target:"
+msgstr "目標："
+
+#: ../gok.glade2.h:115
+msgid "To Back"
+msgstr "往後"
+
+#: ../gok.glade2.h:116
+msgid "To Front"
+msgstr "往前"
+
+#: ../gok.glade2.h:117
+msgid "Toggle"
+msgstr "切換"
+
+#: ../gok.glade2.h:118
+msgid "Top:"
+msgstr "上:"
+
+#: ../gok.glade2.h:119
+msgid "Use _extra word list file(s)"
+msgstr "使用額外的字詞列表檔案(_E)"
+
+#: ../gok.glade2.h:120
+msgid "Use _key averaging"
+msgstr "使用按鍵平均(_K)"
+
+#: ../gok.glade2.h:121
+msgid "Valuator Sensitivity"
+msgstr "定值器敏感度"
+
+#: ../gok.glade2.h:122
+msgid "Word Completion"
+msgstr "自動補齊"
+
+#: ../gok.glade2.h:123
+msgid "_100ths of a second"
+msgstr "百分之一秒(_1)"
+
+#: ../gok.glade2.h:124
+msgid "_Add"
+msgstr "加入(_A)"
+
+#: ../gok.glade2.h:125
+msgid "_Browse..."
+msgstr "瀏覽(_B)..."
+
+#: ../gok.glade2.h:126
+msgid "_Delete"
+msgstr "刪除(_D)"
+
+#: ../gok.glade2.h:127
+msgid "_Joystick"
+msgstr "搖桿(_J)"
+
+#: ../gok.glade2.h:128
+msgid "_Method:"
+msgstr "方法(_M):"
+
+#: ../gok.glade2.h:129
+msgid "_Name:"
+msgstr "名稱(_N):"
+
+#: ../gok.glade2.h:130
+msgid "_New"
+msgstr "新增(_N)"
+
+#: ../gok.glade2.h:131
+msgid "_Number of predictions:"
+msgstr "預測數目(_N):"
+
+#: ../gok.glade2.h:132
+msgid "_Rename"
+msgstr "重新命名(_R)"
+
+#: ../gok.glade2.h:133
+msgid "_Single axis:"
+msgstr "單軸(_S):"
+
+#: ../gok.glade2.h:134
+msgid "_Spacing:"
+msgstr "間距(_S):"
+
+#: ../gok.glade2.h:135
+msgid "_Use Desktop Theme Preferences"
+msgstr "使用桌面佈景主題設定(_U)"
+
+#: ../gok.glade2.h:136
+msgid "_Valuator"
+msgstr "定值器(_V)"
+
+#: ../gok.glade2.h:137
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "_X-Y 定值器（軸 0 及 1）"
+
+#: ../gok.glade2.h:138
+msgid "access method name"
+msgstr "存取方法名稱"
+
+#: ../gok.glade2.h:139
+msgid "cancel"
+msgstr "取消"
+
+#: ../gok.glade2.h:140
+msgid "display user help"
+msgstr "顯示說明文件"
+
+#: ../gok.glade2.h:141
+msgid "high"
+msgstr "高"
+
+#: ../gok.glade2.h:142
+msgid "low"
+msgstr "低"
+
+#: ../gok.glade2.h:143
+msgid "pixels"
+msgstr "像素"
+
+#: ../gok.glade2.h:144
+msgid "revert to original settings"
+msgstr "還原至原來的設定"
+
+#: ../gok.glade2.h:145
+msgid "try these settings"
+msgstr "嘗試此組設定"
+
+#: ../gok.glade2.h:146
+msgid "use these settings"
+msgstr "使用此組設定"
+
+#: ../gok/callbacks.c:373
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "很抱歉，存取方法精靈還未完成。"
+
+#: ../gok/callbacks.c:375
+msgid "GOK Access Method Wizard"
+msgstr "GOK 存取方法精靈"
+
+#: ../gok/gok-control.c:248
+msgid "GOK Browse for sound file"
+msgstr "GOK 瀏覽音效檔"
+
+#: ../gok/gok-control.c:249
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "很抱歉，瀏覽音效檔還未完成。"
+
+#: ../gok/gok-control.c:254
+msgid "GOK Inverse Scanning Advanced"
+msgstr "GOK 進階反向掃描"
+
+#: ../gok/gok-control.c:255
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "抱歉，進階設定仍未開始編寫。"
+
+#: ../gok/gok-editor.c:147 ../gok/gok-editor.c:181 ../gok/gok-editor.c:262
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"您已經更改了這個檔案。\n"
+"是否捨棄所有更改過的內容？"
+
+#: ../gok/gok-editor.c:149 ../gok/gok-editor.c:183 ../gok/gok-editor.c:264
+#: ../gok/gok-editor.c:1056
+msgid "Keyboard Filename Invalid"
+msgstr "鍵盤檔案名稱無效"
+
+#: ../gok/gok-editor.c:212
+msgid "new"
+msgstr "新增"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:274
+msgid "Select keyboard file for editing"
+msgstr "選取準備編輯的鍵盤檔案"
+
+#: ../gok/gok-editor.c:284 ../gok/gok-editor.c:976
+msgid ".kbd files"
+msgstr ".kbd 檔案"
+
+#: ../gok/gok-editor.c:539
+msgid "label"
+msgstr "標籤"
+
+#: ../gok/gok-editor.c:713
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "無法儲存檔案：%s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:966
+msgid "Save keyboard file as"
+msgstr "儲存鍵盤檔案為"
+
+#: ../gok/gok-editor.c:1047
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"這個不是有效的鍵盤檔案名稱：\n"
+"%s"
+
+#: ../gok/gok-editor.c:1079
+msgid "(new)"
+msgstr "（新增）"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr "GOK 偵測到名為‘%s’的新裝置的活動。您要使用這裝置以取代‘%s’嗎？"
+
+#: ../gok/gok-key.c:119
+msgid "Mute"
+msgstr "靜音"
+
+#: ../gok/gok-key.c:122
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"Mouse\n"
+"按鍵"
+
+#: ../gok/gok-key.c:125
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"Left\n"
+"Tab"
+
+#: ../gok/gok-key.c:232
+msgid "<nil>"
+msgstr "<nil>"
+
+#: ../gok/gok-key.c:236
+msgid "Divide"
+msgstr "÷"
+
+#: ../gok/gok-key.c:239
+msgid "Multiply"
+msgstr "×"
+
+#: ../gok/gok-key.c:242
+msgid "Subtract"
+msgstr "－"
+
+#: ../gok/gok-key.c:245
+msgid "Addition"
+msgstr "＋"
+
+#: ../gok/gok-key.c:248
+msgid "Prior"
+msgstr "Prior"
+
+#: ../gok/gok-key.c:251
+msgid "Next"
+msgstr "Next"
+
+#: ../gok/gok-key.c:254 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Home"
+
+#: ../gok/gok-key.c:257 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "End"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:260 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "上"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:263 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "下"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:266 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "左"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:269 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "右"
+
+#: ../gok/gok-key.c:272
+msgid "Begin"
+msgstr "開始"
+
+#: ../gok/gok-key.c:275
+msgid "Decimal"
+msgstr "十進位"
+
+#: ../gok/gok-key.c:278
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:281
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"多種\n"
+"按鍵"
+
+#: ../gok/gok-key.c:284
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Eisu\n"
+"切換"
+
+#: ../gok/gok-key.c:287
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"Henkan\n"
+"模式"
+
+#: ../gok/gok-key.c:290
+msgid "Muhenkan"
+msgstr "Muhenkan"
+
+#: ../gok/gok-key.c:293
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"模式\n"
+"切換"
+
+#: ../gok/gok-key.c:296
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"平假名\n"
+"片假名"
+
+#: ../gok/gok-keyboard.c:156
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Xkb 伸延無法初始化！（錯誤碼 %x）"
+
+#: ../gok/gok-keyboard.c:162 ../gok/gok-keyboard.c:203
+msgid "keyboard description not available!"
+msgstr "鍵盤描述不存在！"
+
+#: ../gok/gok-keyboard.c:168 ../gok/gok-keyboard.c:209
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "無法從 X 伺服器中取得鍵盤位置。"
+
+#: ../gok/gok-keyboard.c:434
+msgid "Back"
+msgstr "上頁"
+
+#: ../gok/gok-keyboard.c:451 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "重覆下一個"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "編輯"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"Num\n"
+"Pad"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "隱藏"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:680
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:693
+msgid "Level 2"
+msgstr "Level 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:706
+msgid "Level 3"
+msgstr "Level 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:719
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Back\n"
+"Space"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:730 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tab"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:741
+msgid "space"
+msgstr "space"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:752 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Enter"
+
+#: ../gok/gok-keyboard.c:790 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "選單"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:846
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:850
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:862
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:871
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:918
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:919
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:927
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:933
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1916
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2790
+msgid "GUI"
+msgstr "圖形介面"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2795 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "表格"
+
+#: ../gok/gok-keyboard.c:2800 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "工具列"
+
+#: ../gok/gok-keyboard.c:2804
+msgid "Applications"
+msgstr "應用程式"
+
+#: ../gok/gok-keyboard.c:2814
+msgid "Menu"
+msgstr "選單"
+
+#. please!
+#: ../gok/gok-keyboard.c:3626 ../gok/gok-sound.c:49 ../gok/main.c:1937
+#: ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3630
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "GNOME 桌面的動態虛擬鍵盤"
+
+#: ../gok/gok-keyboard.c:3632
+msgid "translator-credits"
+msgstr ""
+"如對翻譯有任何意見，請送一封電子郵件給\n"
+"以下地址，GNOME 翻譯團隊會盡快回覆您：\n"
+"zh-l10n@lists.linux.org.tw\n"
+"\n"
+" Woodman Tuen <wmtuen@gmail.com>, 2005-07 \n"
+" Abel Cheung <abel@oaka.org>, 2002-03"
+
+#: ../gok/gok-keyboard.c:3634
+msgid "Full Credits"
+msgstr "全體成員"
+
+#: ../gok/gok-keyboard.c:3636
+msgid "About GOK"
+msgstr "關於 GOK"
+
+#: ../gok/gok-libusb.c:161
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "無法起動 libusb 後端 -%s"
+
+#: ../gok/gok-libusb.c:189
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c：找到裝置的 VID:PID 配對 %x:%x"
+
+#: ../gok/gok-libusb.c:200
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "無法找到VID:PID 配對 %x:%x 的裝置"
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:212
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "%s 的權限不正確"
+
+#: ../gok/gok-libusb.c:300
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "在裝置 %x 中找不到合適的端點：%x"
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "讀取描述錯誤"
+
+#: ../gok/gok-sound.c:52
+msgid "Key Feedback"
+msgstr "按鍵回饋"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1701
+msgid "V Scrollbar"
+msgstr "垂直捲軸"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1706
+msgid "H Scrollbar"
+msgstr "水平捲軸"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:375 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "GOK 行動名稱"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:381
+msgid "Change the action name:"
+msgstr "修改動作名稱："
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"動作名稱不能留空。\n"
+"請輸入一個新的動作名稱。"
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"很抱歉，該動作名稱已經存在。\n"
+"請輸入一個新的動作名稱"
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+msgid "New Action %d"
+msgstr "新增動作 %d"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "您希望刪除此動作嗎 (%s)?"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "GOK 刪除動作"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:413 ../gok/gok-page-feedbacks.c:453
+#: ../gok/gok-page-feedbacks.c:473
+msgid "GOK Feedback Name"
+msgstr "GOK 反饋名稱"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:419
+msgid "Change the feedback name:"
+msgstr "變更反饋名稱："
+
+#: ../gok/gok-page-feedbacks.c:451
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"反饋名稱不能是空白的。\n"
+"請輸入一個新的反饋名稱。"
+
+#: ../gok/gok-page-feedbacks.c:471
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"很抱歉，該反饋名稱已經存在。\n"
+"請輸入一個新的反饋名稱"
+
+#: ../gok/gok-page-feedbacks.c:523
+#, c-format
+msgid "New Feedback %d"
+msgstr "新增反饋 %d"
+
+#: ../gok/gok-page-feedbacks.c:639
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "您要刪除這反饋 (%s)?"
+
+#: ../gok/gok-page-feedbacks.c:648
+msgid "GOK Delete Feedback"
+msgstr "GOK 刪除反饋"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:871
+msgid "Select sound file"
+msgstr "選擇聲音檔案"
+
+#: ../gok/gok-page-keyboard.c:183
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "輪入尋找附加 GOK 鍵盤檔案的目錄。"
+
+#: ../gok/gok-page-keyboard.c:197
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "選擇定義您執行寫作鍵盤的 XML 檔"
+
+#: ../gok/gok-page-keysizespace.c:82
+msgid "Button"
+msgstr "按鈕"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "視窗清單"
+
+#: ../gok/gok-utf8-word-complete.c:122
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "無法讀取字典檔‘%s’的內容\n"
+
+#: ../gok/main.c:202
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"使用指定的存取方法。「名稱」是一字串及可在各種「存取方法檔案」(.xam)中，以 "
+"<gok:accessmethod> 標籤所指定。注意，名稱不需要跟 xam 檔的名稱一樣（請參閱 --"
+"list-accessmethods）"
+
+#: ../gok/main.c:203
+msgid "NAME"
+msgstr "名稱"
+
+#: ../gok/main.c:211
+msgid "Start the GOK keyboard editor"
+msgstr "啟動 GOK 鍵盤編輯器"
+
+#: ../gok/main.c:219
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "使用特別的，但可能不穩定的，gok 的東西"
+
+#: ../gok/main.c:227
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"當 --geometry 沒有使用時 gok 執行時會回到它上次關閉時的位置。--geometry 用作"
+"將gok 置於由 X11 所指定的坐標位置於螢幕的方型內。當使用 --geometry 時 gok 執"
+"行時不會記錄關閉時的位置。這行為能以 -remembergeometry 來改變它；即使以 --"
+"geometry 來執行，但仍強迫 gok 在關閉時仍記錄當時的位置。"
+
+#: ../gok/main.c:228
+msgid "GEOMETRY"
+msgstr "位置大小"
+
+#: ../gok/main.c:236
+msgid "Use the specified input device"
+msgstr "使用指定的輸入裝置"
+
+#: ../gok/main.c:237
+msgid "DEVICENAME"
+msgstr "裝置名稱"
+
+#: ../gok/main.c:245
+msgid "Start GOK with the specified keyboard."
+msgstr "啟動 GOK 時顯示指定的鍵盤。"
+
+#: ../gok/main.c:246
+msgid "KEYBOARDNAME"
+msgstr "鍵盤名稱"
+
+#: ../gok/main.c:254
+msgid "List the access methods that can be used as options to other arguments."
+msgstr "列出其它參數能夠使用的存取方法的選項。"
+
+#: ../gok/main.c:263
+msgid "List the actions that can be used as options to other arguments."
+msgstr "列出其它參數能夠使用的動作的選項。"
+
+#: ../gok/main.c:272
+msgid "GOK will be used to login"
+msgstr "GOK 會用作登入"
+
+#: ../gok/main.c:282
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "GOK 會給無名的 GUI 顯示按鍵。對除錯很有用。"
+
+#: ../gok/main.c:292
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"能與 --geometry 一起使用。即使 GOK 以 --geometry. 執行，仍強迫 GOK 在關閉時記"
+"下它的位置。請參考關於 --geometry. 的討論以取得更多資訊。"
+
+#: ../gok/main.c:303
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr "開始執行 GOK 時以該動作為掃描動作。（請看 --list-actions）"
+
+#: ../gok/main.c:313
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr "開始執行 GOK 時以該動作為選擇動作。（請看 --list-actions）"
+
+#: ../gok/main.c:322
+msgid "Open the settings dialog box when GOK starts"
+msgstr "開始執行 GOK 時開啟設定對話視窗"
+
+#: ../gok/main.c:332
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr "以 libusb 作為輸入事件及使用特定廠商 ID (VID) 及 產品 ID (PID)的裝置。"
+
+#: ../gok/main.c:351
+msgid "Attempt to use GOK without the system mouse"
+msgstr "嘗試不以系統滑鼠使用 GOK"
+
+#: ../gok/main.c:360
+msgid "Disable automatic keyboard branching"
+msgstr "停用自動鍵盤分支"
+
+#: ../gok/main.c:661
+msgid "The GNOME On-screen Keyboard"
+msgstr "GNOME 畫面鍵盤"
+
+#: ../gok/main.c:760
+msgid "Unsupported geometry specification"
+msgstr "不支援這種方式來指定視窗的位置和尺寸"
+
+#: ../gok/main.c:761
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given. Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"需要提供 x, y, 寬度及高度給目前的 GOK。抱歉，您所指定的坐標將不會使用。"
+
+#: ../gok/main.c:857
+msgid "XKB extension is required."
+msgstr "需要 XKB 擴展功能。"
+
+#: ../gok/main.c:867
+msgid "Can't initialize actions."
+msgstr "動作無法啟動。"
+
+#: ../gok/main.c:877
+msgid "Can't initialize feedbacks."
+msgstr "反饋無法初始化。"
+
+#: ../gok/main.c:922 ../gok/main.c:931
+msgid "Can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr "不能起動 libusb 後端 - 不能分析 USB VID:PID 配對"
+
+#: ../gok/main.c:947
+msgid "Can't create the main GOK window!"
+msgstr "無法顯示 GOK 主視窗！"
+
+#: ../gok/main.c:966
+msgid "Can't create the settings dialog window!"
+msgstr "無法顯示設定對話窗！"
+
+#: ../gok/main.c:1029
+msgid "No keyboards to display!"
+msgstr "沒有任何鍵盤可以顯示！"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1166 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "擷取使用者介面"
+
+#: ../gok/main.c:1183
+msgid "popup menu"
+msgstr "彈出式選單"
+
+#: ../gok/main.c:2109
+msgid "Can't create a compose keyboard!"
+msgstr "無法建立寫作鍵盤"
+
+#: ../gok/main.c:2151
+msgid "Can't read any keyboards!"
+msgstr "無法讀入任何鍵盤！"
+
+#: ../gok/main.c:2262
+msgid "Could not get access method directory key from GConf."
+msgstr "無法在 GConf 中存取方法目錄設定鍵。"
+
+#: ../gok/main.c:2269
+msgid "Possibly unknown access method."
+msgstr "應該是不明的存取方法。"
+
+#: ../gok/main.c:2825
+msgid "Sorry, GOK can't run"
+msgstr "抱歉，GOK 無法啟動"
+
+#: ../gok/main.c:2836
+msgid "GOK Fatal Error"
+msgstr "GOK 嚴重錯誤"
+
+#: ../gok/main.c:2872
+msgid "GOK Error"
+msgstr "GOK 錯誤"
+
+#: ../gok/main.c:2892
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run. GOK is currently unable to retrieve those settings. If this "
+"is the first time that you have run gok after installing it you may need to "
+"restart gconfd, you can use this command: 'gconftool-2 --shutdown' or log "
+"out and back in."
+msgstr ""
+"GOK 使用 GConf2 來存儲設定及需要在 GConf 執行某些設定。但 GOK 現在無法取得這"
+"些設定。如果您是在安裝後第一次執行 GOK，您可能需要重新啟動 gconfd；您可以使用"
+"這指令：'gconftool-2 --shutdown'，或登出後再登入。"
+
+#: ../gok/main.c:3131
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr "因為無法啟用您的桌面的「粘性特殊鍵」功能，GOK 可能不能正確定工作。"
+
+#: ../gok/main.c:3138
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK 已經啟用粘性特殊鍵，這是它需要的。\n"
+
+#. post an error dialog
+#: ../gok/main.c:3156
+msgid "XKB display extension is missing."
+msgstr "缺少 XKB 延伸功能。"
+
+#: ../gok/main.c:3233
+msgid "Unable to open help file"
+msgstr "無法開啟求助文件檔案"
+
+#: ../gok/main.c:3259
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"正在用作操控 GOK 的指標裝置也在控制系統指標（或鼠標）。\n"
+"與其它應用程式所發生的衝突可能會防礙您使用這些程式或 GOK。\n"
+"我們強烈建議您設置您的輸入裝置為「伸延」輸入裝置來取代。；參閱 GOK 說明文件以"
+"取得更多資訊。"
+
+#: ../gok/main.c:3265
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"正在用作控制 GOK 的指標裝置也在控制系統指標。\n"
+"為防止與其它程式使用指標時發生衝突，在您的 GOK 階段上 GOK 現在會將您現在用作"
+"系統指標的裝置解除連接。\n"
+"\n"
+"或者您可以將 GOK 設目為使用其它的輸入裝置以取代；詳情請參閱說明文件。"
+
+#. no longer used!
+#: ../gok/main.c:3272 ../gok/main.c:3275
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "您看來正在配置 GOK 使用核心指標裝置模式(core pointer mode)。"
+
+#: ../gok/main.c:3369
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"沒有啟用協助技術支援。\n"
+"\n"
+"您是可以在不使用協助技術支援的情況下執行 GOK，但是這樣會有一些功能無法使"
+"用。\n"
+"\n"
+"要啟用協助技術支援及登入一個已經啟用協助技術的階段，按「啟用及登出」。\n"
+"\n"
+"繼續使用 GOK，按「繼續」。\n"
+"\n"
+"離開，按「關閉」。\n"
+"\n"
+
+#: ../gok/main.c:3388
+msgid "Enable and Log Out"
+msgstr "啟用並登出"
+
+#: ../gok/main.c:3400
+msgid "Continue"
+msgstr "繼續"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "（百分之一秒）"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "反向掃描"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "按下及按住開關來開始掃描，然後按另一個開關來選取。"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "掃描："
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "單鍵自動掃描"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "開始掃描："
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap Row/Columns"
+msgstr "換列/欄"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "單鍵反向掃描"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "五開關直接選取"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "下："
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "以 4 個方向移動標示器。選擇按鍵。"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "上："
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "顯示"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "說明文件瀏覽器"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "終端機"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "文字編輯器"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "網頁瀏覽器"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "寫作"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "執行程式"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "滑鼠"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "按鈕 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "按鈕 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "按鈕 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "雙擊"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "鎖住"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "指標"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "重覆"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "填滿"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "浮動"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "收窄"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "重覆下一鍵"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "縮短"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "增高"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "加闊"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "真的要離開！"

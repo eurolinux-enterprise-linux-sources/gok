@@ -1,0 +1,55 @@
+<!-- ##### MACRO MAXWORDLENGTH ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO MAX_ACCESS_METHOD_NAME ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO MAX_KEYBOARD_NAME ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### MACRO MAX_SETTING_NAME ##### -->
+<para>
+
+</para>
+
+
+<!-- ##### FUNCTION create_dialogSettings ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+<!-- ##### FUNCTION create_windowEditor ##### -->
+<para>
+
+</para>
+
+@Returns: 
+
+<!-- ##### FUNCTION lookup_widget ##### -->
+<para>
+
+</para>
+
+@widget: 
+@widget_name: 
+@Returns: 
+
+<!-- ##### FUNCTION on_combo_entry16_changed ##### -->
+<para>
+
+</para>
+
+@editable: 
+@user_data: 
+

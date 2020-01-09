@@ -1,0 +1,151 @@
+<refentry id="gok-global">
+<refmeta>
+<refentrytitle role="top_of_page" id="gok-global.top_of_page">global</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GOK Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>global</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gok-global.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="EMPTY-STRING--CAPS">EMPTY_STRING</link>
+<link linkend="Boolean">Boolean</link>             <link linkend="string-equals">string_equals</link>                       (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);
+<link linkend="Boolean">Boolean</link>             <link linkend="string-not-equals">string_not_equals</link>                   (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);
+<link linkend="Boolean">Boolean</link>             <link linkend="string-empty">string_empty</link>                        (const <link linkend="char">char</link> *string_1);
+<link linkend="Boolean">Boolean</link>             <link linkend="string-starts-with">string_starts_with</link>                  (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);
+<link linkend="Boolean">Boolean</link>             <link linkend="string-ends-with">string_ends_with</link>                    (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);
+<link linkend="void">void</link>                <link linkend="string-trim">string_trim</link>                         (<link linkend="char">char</link> *string_1);
+<link linkend="void">void</link> *              <link linkend="checked-malloc">checked_malloc</link>                      (const <link linkend="size-t">size_t</link> size);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gok-global.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gok-global.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="EMPTY-STRING--CAPS" role="macro">
+<title>EMPTY_STRING</title>
+<indexterm zone="EMPTY-STRING--CAPS"><primary sortas="EMPTY_STRING">EMPTY_STRING</primary></indexterm><programlisting>#define EMPTY_STRING ""
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="string-equals" role="function">
+<title>string_equals ()</title>
+<indexterm zone="string-equals"><primary sortas="string_equals">string_equals</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             string_equals                       (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>string_1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>string_2</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="string-not-equals" role="function">
+<title>string_not_equals ()</title>
+<indexterm zone="string-not-equals"><primary sortas="string_not_equals">string_not_equals</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             string_not_equals                   (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>string_1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>string_2</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="string-empty" role="function">
+<title>string_empty ()</title>
+<indexterm zone="string-empty"><primary sortas="string_empty">string_empty</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             string_empty                        (const <link linkend="char">char</link> *string_1);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>string_1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="string-starts-with" role="function">
+<title>string_starts_with ()</title>
+<indexterm zone="string-starts-with"><primary sortas="string_starts_with">string_starts_with</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             string_starts_with                  (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>string_1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>string_2</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="string-ends-with" role="function">
+<title>string_ends_with ()</title>
+<indexterm zone="string-ends-with"><primary sortas="string_ends_with">string_ends_with</primary></indexterm><programlisting><link linkend="Boolean">Boolean</link>             string_ends_with                    (const <link linkend="char">char</link> *string_1,
+                                                         const <link linkend="char">char</link> *string_2);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>string_1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>string_2</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="string-trim" role="function">
+<title>string_trim ()</title>
+<indexterm zone="string-trim"><primary sortas="string_trim">string_trim</primary></indexterm><programlisting><link linkend="void">void</link>                string_trim                         (<link linkend="char">char</link> *string_1);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>string_1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="checked-malloc" role="function">
+<title>checked_malloc ()</title>
+<indexterm zone="checked-malloc"><primary sortas="checked_malloc">checked_malloc</primary></indexterm><programlisting><link linkend="void">void</link> *              checked_malloc                      (const <link linkend="size-t">size_t</link> size);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>size</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

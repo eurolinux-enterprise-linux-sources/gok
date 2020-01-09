@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<GOK:GokFile xmlns:GOK="http://www.gnome.org/GOK">
+
+<GOK:keyboard name="mouse" commandprediction="no" wordcompletion="no" expand="sometimes">
+	<GOK:key left="0" right="1" top="0" bottom="1" type="branchBack">
+		<!-- Translators: short label for go back. -->
+		<_GOK:label>back</_GOK:label>
+	</GOK:key>
+	<GOK:key left="1" right="2" top="0" bottom="1" type="mousebutton" action="latch">
+		<!-- Translators: verb. -->
+		<_GOK:label>Latch</_GOK:label>
+	</GOK:key>
+	<GOK:key left="2" right="4" top="0" bottom="1" type="pointer">
+		<_GOK:label>Pointer</_GOK:label>
+	</GOK:key>
+	<GOK:key left="4" right="6" top="0" bottom="1" type="repeat-next">
+		<_GOK:label>Repeat</_GOK:label>
+	</GOK:key>
+	<GOK:key left="0" right="1" top="1" bottom="2" type="mouse" dir="northwest">
+		<!-- Translators: direction up and left (North West) -->
+		<GOK:image source="NW.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="1" right="3" top="1" bottom="2" type="mouse" dir="north">
+		<GOK:image source="North.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="3" right="4" top="1" bottom="2" type="mouse" dir="northeast">
+		<GOK:image source="NE.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="4" right="6" top="1" bottom="2" type="mousebutton" action="button1">
+		<_GOK:label>Button 1</_GOK:label>
+	</GOK:key>
+	<GOK:key left="0" right="1" top="2" bottom="3" type="mouse" dir="west">
+		<GOK:image source="West.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="1" right="3" top="2" bottom="3" type="mousebutton" action="double1">
+		<_GOK:label>Dbl Click</_GOK:label>
+	</GOK:key>
+	<GOK:key left="3" right="4" top="2" bottom="3" type="mouse" dir="east">
+		<GOK:image source="East.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="4" right="6" top="2" bottom="3" type="mousebutton" action="button2">
+		<_GOK:label>Button 2</_GOK:label>
+	</GOK:key>
+	<GOK:key left="0" right="1" top="3" bottom="4" type="mouse" dir="southwest">
+		<GOK:image source="SW.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="1" right="3" top="3" bottom="4" type="mouse" dir="south">
+		<GOK:image source="South.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="3" right="4" top="3" bottom="4" type="mouse" dir="southeast">
+		<GOK:image source="SE.png" type="fixed:20,20"/>
+	</GOK:key>
+	<GOK:key left="4" right="6" top="3" bottom="4" type="mousebutton" action="button3">
+		<_GOK:label>Button 3</_GOK:label>
+	</GOK:key>
+</GOK:keyboard>
+</GOK:GokFile>

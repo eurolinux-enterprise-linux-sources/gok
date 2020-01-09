@@ -1,0 +1,2427 @@
+# translation of gok to Kinyarwanda.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gok package.
+# Steve Murphy <murf@e-tools.com>, 2005
+# Steve performed initial rough translation from compendium built from translations provided by the following translators:
+# Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
+# Viateur MUGENZI <muvia1@yahoo.fr>, 2005.
+# Noëlla Mupole <s24211045@tuks.co.za>, 2005.
+# Carole Karema <karemacarole@hotmail.com>, 2005.
+# JEAN BAPTISTE NGENDAHAYO <ngenda_denis@yahoo.co.uk>, 2005.
+# Augustin KIBERWA  <akiberwa@yahoo.co.uk>, 2005.
+# Donatien NSENGIYUMVA <ndonatienuk@yahoo.co.uk>, 2005..
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gok 2.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-03-31 18:03-0700\n"
+"PO-Revision-Date: 2005-03-28 19:35-0700\n"
+"Last-Translator: Steve Murphy <murf@e-tools.com>\n"
+"Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: automatic-scanning.xml.in.h:1 direct-selection.xml.in.h:1
+#: dwell-selection.xml.in.h:1 inverse-scanning.xml.in.h:1
+#: singlekey-inverse-scanning.xml.in.h:1 directed.xml.in.h:1
+#, fuzzy
+msgid "(100s of a second)"
+msgstr "(Bya a ISEGONDA"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Filter.Graphic.Export.GIF.Interlaced..1.text
+#: automatic-scanning.xml.in.h:2 main.kbd.in.h:1
+msgid "Activate"
+msgstr "Kureka bigakora"
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Filter.Graphic.Export.GIF.Interlaced..1.text
+#: automatic-scanning.xml.in.h:3 direct-selection.xml.in.h:2
+#: dwell-selection.xml.in.h:2 inverse-scanning.xml.in.h:2
+#: singlekey-automatic-scanning.xml.in.h:1
+#: singlekey-inverse-scanning.xml.in.h:2 directed.xml.in.h:3
+#, fuzzy
+msgid "Activate:"
+msgstr "Kureka bigakora"
+
+#: automatic-scanning.xml.in.h:4 direct-selection.xml.in.h:3
+#: dwell-selection.xml.in.h:3 inverse-scanning.xml.in.h:3
+#: singlekey-automatic-scanning.xml.in.h:2
+#: singlekey-inverse-scanning.xml.in.h:3 directed.xml.in.h:4
+msgid "Activation:"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:5 direct-selection.xml.in.h:4
+#: dwell-selection.xml.in.h:4 inverse-scanning.xml.in.h:4
+msgid "Auto Repeat On"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:6 direct-selection.xml.in.h:5
+#: dwell-selection.xml.in.h:5 inverse-scanning.xml.in.h:5
+msgid "Auto Repeat Rate:"
+msgstr ""
+
+#. User interface for the access method
+#: automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:9 singlekey-automatic-scanning.xml.in.h:3
+#, fuzzy
+msgid "Autostart (starts automatically)"
+msgstr "ku buryo bwikora"
+
+#: automatic-scanning.xml.in.h:10 inverse-scanning.xml.in.h:6
+#: singlekey-automatic-scanning.xml.in.h:4
+#: singlekey-inverse-scanning.xml.in.h:4
+msgid "Bottom/Top"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:11 inverse-scanning.xml.in.h:7
+msgid "Continuous Cycle On"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:12 inverse-scanning.xml.in.h:8
+#: singlekey-automatic-scanning.xml.in.h:5
+#: singlekey-inverse-scanning.xml.in.h:5
+msgid "Cycles Before Stopping:"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:13 direct-selection.xml.in.h:7
+#: dwell-selection.xml.in.h:7 gok.glade2.h:69 inverse-scanning.xml.in.h:9
+#: singlekey-automatic-scanning.xml.in.h:6
+#: singlekey-inverse-scanning.xml.in.h:6 directed.xml.in.h:6
+msgid "Feedback"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:14
+msgid "Feedback Activation"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:15
+msgid "Feedback Movement"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:16 singlekey-automatic-scanning.xml.in.h:9
+msgid "Initial Delay:"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:17 inverse-scanning.xml.in.h:13
+#: singlekey-automatic-scanning.xml.in.h:10
+#: singlekey-inverse-scanning.xml.in.h:9
+msgid "Left/Right"
+msgstr ""
+
+# svx/source\options\optctl.src:RID_SVXPAGE_OPTIONS_CTL.FT_MOVEMENT.text
+#: automatic-scanning.xml.in.h:18 direct-selection.xml.in.h:11
+#: dwell-selection.xml.in.h:11 inverse-scanning.xml.in.h:14
+#: singlekey-automatic-scanning.xml.in.h:11
+#: singlekey-inverse-scanning.xml.in.h:10 directed.xml.in.h:9
+#, fuzzy
+msgid "Movement:"
+msgstr "Igenda"
+
+#: automatic-scanning.xml.in.h:19 direct-selection.xml.in.h:12
+#: dwell-selection.xml.in.h:12 inverse-scanning.xml.in.h:15
+#: singlekey-automatic-scanning.xml.in.h:12
+#: singlekey-inverse-scanning.xml.in.h:11 directed.xml.in.h:10
+msgid "Operation"
+msgstr ""
+
+# basctl/source\basicide\moduldlg.src:RID_DLG_LIBS.RID_FL_OPTIONS.text
+#: automatic-scanning.xml.in.h:20 direct-selection.xml.in.h:13
+#: inverse-scanning.xml.in.h:16 singlekey-automatic-scanning.xml.in.h:13
+#: singlekey-inverse-scanning.xml.in.h:12 directed.xml.in.h:11
+msgid "Options"
+msgstr "Amahitamo"
+
+#: automatic-scanning.xml.in.h:21 singlekey-automatic-scanning.xml.in.h:14
+#, fuzzy
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr "a Hindura Kuri Gutangira Hindura Cyangwa Hindura Kuri Guhitamo"
+
+#: automatic-scanning.xml.in.h:22 singlekey-automatic-scanning.xml.in.h:15
+#, fuzzy
+msgid "Press switch to start"
+msgstr "Hindura Kuri Gutangira"
+
+#: automatic-scanning.xml.in.h:23 inverse-scanning.xml.in.h:18
+#: singlekey-automatic-scanning.xml.in.h:16
+#: singlekey-inverse-scanning.xml.in.h:14
+msgid "Right/Left"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:24 inverse-scanning.xml.in.h:19
+#: singlekey-automatic-scanning.xml.in.h:17
+#: singlekey-inverse-scanning.xml.in.h:15 directed.xml.in.h:13
+msgid "Scan Delay:"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:25 inverse-scanning.xml.in.h:20
+#: singlekey-automatic-scanning.xml.in.h:18
+#: singlekey-inverse-scanning.xml.in.h:16 directed.xml.in.h:14
+msgid "Scan Speed:"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:26 singlekey-automatic-scanning.xml.in.h:19
+#: singlekey-inverse-scanning.xml.in.h:18
+msgid "Scanning Direction:"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:27
+#, fuzzy
+msgid "Start Scanning"
+msgstr "Gutangira"
+
+#: automatic-scanning.xml.in.h:28 singlekey-automatic-scanning.xml.in.h:23
+#, fuzzy
+msgid "Start scanning:"
+msgstr "Gutangira"
+
+#: automatic-scanning.xml.in.h:29 inverse-scanning.xml.in.h:22
+#: singlekey-automatic-scanning.xml.in.h:24
+#: singlekey-inverse-scanning.xml.in.h:20
+msgid "Top/Bottom"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:30 inverse-scanning.xml.in.h:23
+#: singlekey-inverse-scanning.xml.in.h:21 directed.xml.in.h:17
+msgid "Wrap Rows/Columns"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:31
+msgid "feedbackmovement"
+msgstr ""
+
+#: automatic-scanning.xml.in.h:32
+msgid "feedbackselection"
+msgstr ""
+
+#: direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr ""
+
+#: direct-selection.xml.in.h:8 dwell-selection.xml.in.h:8
+#: inverse-scanning.xml.in.h:10 singlekey-automatic-scanning.xml.in.h:7
+#: singlekey-inverse-scanning.xml.in.h:7
+msgid "Feedback Activation:"
+msgstr ""
+
+#: direct-selection.xml.in.h:9 dwell-selection.xml.in.h:9
+#: inverse-scanning.xml.in.h:11 singlekey-automatic-scanning.xml.in.h:8
+#: singlekey-inverse-scanning.xml.in.h:8 directed.xml.in.h:7
+msgid "Feedback Movement:"
+msgstr ""
+
+#: direct-selection.xml.in.h:10
+#, fuzzy
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr ""
+"Imbeba Mweretsi Kuri garagaza cyane a Urufunguzo a Hindura Kuri Guhitamo"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_PLUGINMENU.SUBMENU_EDIT.SUBMENU_EDIT_TABLE.SID_SELECT_TABLES.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_MENUBAR.SUBMENU_EDIT.SUBMENU_EDIT_TABLE.SID_SELECT_TABLES.text
+#: direct-selection.xml.in.h:14 dwell-selection.xml.in.h:13
+#: directed.xml.in.h:15
+#, fuzzy
+msgid "Select:"
+msgstr "Guhitamo..."
+
+#: dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr ""
+
+#: dwell-selection.xml.in.h:10
+#, fuzzy
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr ""
+"Imbeba Mweretsi Kuri garagaza cyane a Urufunguzo ku Urufunguzo Kuri Guhitamo"
+
+# basctl/source\basicide\moduldlg.src:RID_DLG_LIBS.RID_FL_OPTIONS.text
+#: dwell-selection.xml.in.h:14
+#, fuzzy
+msgid "_Options"
+msgstr "Amahitamo"
+
+#: gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "Bigyanye"
+
+# scp/source\office\profile.lng:STR_VALUE_TEMPLATE_SERVICES_HELP.text
+#: gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "Ifashayobora"
+
+# extracted from content/PrefsWindow.xul
+# LOCALIZATION NOTE : FILE UI for the outer parts of the Prefs dialog
+#: gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "Ibyahisemo"
+
+#: gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr ""
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_CONTENT.GB_WINDOW.text
+#: gok-controls.kbd.in.h:5 main.kbd.in.h:12
+msgid "Window"
+msgstr "Idirishya"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: gok-controls.kbd.in.h:6 gok/gok-keyboard.c:2489 gok/gok-windowlister.c:248
+#: launcher.kbd.in.h:5 mouse.kbd.in.h:10 move-resize.kbd.in.h:23
+#: numberpad.kbd.in.h:20 quit.kbd.in.h:4 valuator.kbd.in.h:3
+#, fuzzy
+msgid "back"
+msgstr "Inyuma"
+
+#: gok-with-references.schemas.in.h:1 gok/main.c:290
+#, fuzzy
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr "A Kuri Byashyizweho Kuri Iyinjiza APAREYE Ibyabaye Mbere Inonosora"
+
+#: gok-with-references.schemas.in.h:2
+#, fuzzy
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr "A Akabago n'Akitso Urutonde Bya Inzira Kuri ijambo Inkoranyamagambo"
+
+#: gok-with-references.schemas.in.h:3
+#, fuzzy
+msgid "Are the preferences to be restricted?"
+msgstr "Ibyahiswemo Kuri Nta gukoresha bisesuye"
+
+#: gok-with-references.schemas.in.h:4
+#, fuzzy
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "Mwandikisho Ubwoko kugirango Mburabuzi Himba: Mwandikisho"
+
+#: gok-with-references.schemas.in.h:5
+#, fuzzy
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr "Himba: Mwandikisho ku Ibisobanuro Bivuye"
+
+#: gok-with-references.schemas.in.h:6
+#, fuzzy
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "Ukoresha: a By'umwihariko Gukoporora Bya ijambo Inkoranyamagambo"
+
+#: gok-with-references.schemas.in.h:7
+#, fuzzy
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "Idirishya Kwagura Kuri Kuzuza Mugaragaza Ubugari"
+
+#: gok-with-references.schemas.in.h:8
+#, fuzzy
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "Mweretsi Mwandikisho Mweretsi"
+
+#: gok-with-references.schemas.in.h:9
+#, fuzzy
+msgid "Does this action use key averaging"
+msgstr "iyi Igikorwa Gukoresha Urufunguzo"
+
+#: gok-with-references.schemas.in.h:10
+#, fuzzy
+msgid "Does this feedback flash"
+msgstr "iyi Umurabyo"
+
+#: gok-with-references.schemas.in.h:11
+#, fuzzy
+msgid "Does this feedback play a sound"
+msgstr "iyi Gukina a Ijwi"
+
+#: gok-with-references.schemas.in.h:12
+#, fuzzy
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "iyi Akarango Bya a Urufunguzo"
+
+#: gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:14
+#, fuzzy
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr ""
+"Idirishya Agafashi Ahantu NIBA a Cyangwa ubusa Ikurikiranyanyuguti NIBA OYA"
+
+#: gok-with-references.schemas.in.h:15
+#, fuzzy
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "Bya in Kuri Gushaka kugirango Ibintu"
+
+#: gok-with-references.schemas.in.h:16
+#, fuzzy
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "Intera Hasi Kuri Gushaka kugirango Ibintu"
+
+#: gok-with-references.schemas.in.h:17
+#, fuzzy
+msgid "Is this action permanent"
+msgstr "iyi Igikorwa"
+
+#: gok-with-references.schemas.in.h:18
+#, fuzzy
+msgid "Is this feedback permanent"
+msgstr "iyi"
+
+#: gok-with-references.schemas.in.h:19
+#, fuzzy
+msgid "Is word completion on"
+msgstr "ijambo ku"
+
+#: gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr ""
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....View.Dialog.MiddleMouseButton.text
+#: gok-with-references.schemas.in.h:22
+#, fuzzy
+msgid "Middle Mouse Button"
+msgstr "Buto yo hagati y'imbeba"
+
+#: gok-with-references.schemas.in.h:23
+#, fuzzy
+msgid "Mouse Button 4"
+msgstr "4."
+
+#: gok-with-references.schemas.in.h:24
+#, fuzzy
+msgid "Mouse Button 5"
+msgstr "5"
+
+#: gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr ""
+
+# goodies/source\filter.vcl\eps\dlgeps.src:DLG_EXPORT_EPS.RB_COMPRESSION_NONE.text
+#: gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "Nta na kimwe"
+
+#: gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:28
+#, fuzzy
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr "Bya Mburabuzi Alufa Alufa Kunoza NIBA Kunoza"
+
+#: gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:32
+#, fuzzy
+msgid "Switch 1"
+msgstr "1."
+
+#: gok-with-references.schemas.in.h:33
+#, fuzzy
+msgid "Switch 2"
+msgstr "2."
+
+#: gok-with-references.schemas.in.h:34
+#, fuzzy
+msgid "Switch 3"
+msgstr "3."
+
+#: gok-with-references.schemas.in.h:35
+#, fuzzy
+msgid "Switch 4"
+msgstr "4."
+
+#: gok-with-references.schemas.in.h:36
+#, fuzzy
+msgid "Switch 5"
+msgstr "5"
+
+#: gok-with-references.schemas.in.h:37
+#, fuzzy
+msgid "The access method to use"
+msgstr "Uburyo Kuri Gukoresha"
+
+#: gok-with-references.schemas.in.h:38
+#, fuzzy
+msgid "The directory to load access method files from."
+msgstr "bushyinguro Kuri Ibirimo Uburyo Idosiye Bivuye"
+
+#: gok-with-references.schemas.in.h:39
+#, fuzzy
+msgid "The directory to load dictionary files from."
+msgstr "bushyinguro Kuri Ibirimo Inkoranyamagambo Idosiye Bivuye"
+
+#: gok-with-references.schemas.in.h:40
+#, fuzzy
+msgid "The directory to load the gok resource file from."
+msgstr "bushyinguro Kuri Ibirimo IDOSIYE Bivuye"
+
+#: gok-with-references.schemas.in.h:41
+#, fuzzy
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr ""
+"bushyinguro Kuri Ibirimo Ukoresha: Cyangwa Kunoza Mwandikisho Idosiye Bivuye"
+
+#: gok-with-references.schemas.in.h:42
+#, fuzzy
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "Kuri a IDOSIYE a Kunoza Himba: Mwandikisho"
+
+#: gok-with-references.schemas.in.h:43
+#, fuzzy
+msgid "The key height"
+msgstr "Urufunguzo Ubuhagarike"
+
+#: gok-with-references.schemas.in.h:44
+#, fuzzy
+msgid "The key width"
+msgstr "Urufunguzo Ubugari"
+
+#: gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr ""
+
+#: gok-with-references.schemas.in.h:47
+#, fuzzy
+msgid "The name of the sound that this feedback will play"
+msgstr "Izina: Bya Ijwi iyi Gukina"
+
+#: gok-with-references.schemas.in.h:48
+#, fuzzy
+msgid "The name of the xinput device to use"
+msgstr "Izina: Bya APAREYE Kuri Gukoresha"
+
+#: gok-with-references.schemas.in.h:49
+#, fuzzy
+msgid "The name to display to the user for this action"
+msgstr "Izina: Kuri Kugaragaza Kuri Ukoresha: kugirango iyi Igikorwa"
+
+#: gok-with-references.schemas.in.h:50
+#, fuzzy
+msgid "The name to display to the user for this feedback"
+msgstr "Izina: Kuri Kugaragaza Kuri Ukoresha: kugirango iyi"
+
+#: gok-with-references.schemas.in.h:51
+#, fuzzy
+msgid "The number if applicable"
+msgstr "Umubare NIBA"
+
+#: gok-with-references.schemas.in.h:52
+#, fuzzy
+msgid "The number of predictions for word completion"
+msgstr "Umubare Bya kugirango ijambo"
+
+#: gok-with-references.schemas.in.h:53
+#, fuzzy
+msgid "The number of times this feedback will flash"
+msgstr "Umubare Bya Times iyi Umurabyo"
+
+#: gok-with-references.schemas.in.h:54
+#, fuzzy
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"bushyinguro Kuri Ibirimo Mwandikisho Idosiye Bivuye ni a Sisitemu bushyinguro"
+
+#: gok-with-references.schemas.in.h:55
+#, fuzzy
+msgid "The rate for this action"
+msgstr "Igipimo kugirango iyi Igikorwa"
+
+#: gok-with-references.schemas.in.h:56
+#, fuzzy
+msgid "The space between keys"
+msgstr "Umwanya hagati Utubuto"
+
+#: gok-with-references.schemas.in.h:57
+#, fuzzy
+msgid "The state in which this action is activated"
+msgstr "Leta in iyi Igikorwa ni"
+
+#: gok-with-references.schemas.in.h:58
+#, fuzzy
+msgid "The type of this action"
+msgstr "Ubwoko Bya iyi Igikorwa"
+
+#: gok-with-references.schemas.in.h:59
+#, fuzzy
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "Kuri Gukoresha ijambo Intonde Ryari: Ishakisha kugirango ijambo"
+
+#: gok.desktop.in.h:1
+msgid "On-Screen Keyboard"
+msgstr ""
+
+#: gok.desktop.in.h:2
+#, fuzzy
+msgid "The GNOME On-screen Keyboard"
+msgstr "Mugaragaza"
+
+#: gok.glade2.h:1
+msgid "*"
+msgstr "*"
+
+#: gok.glade2.h:2
+#, fuzzy
+msgid "3 State"
+msgstr "3."
+
+#: gok.glade2.h:3
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:4
+#, fuzzy
+msgid "<b>Behavior</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:5
+#, fuzzy
+msgid "<b>Branch</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:6
+#, fuzzy
+msgid "<b>Command Prediction</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:7
+#, fuzzy
+msgid "<b>Compose Keyboard</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:8
+#, fuzzy
+msgid "<b>Custom Keyboards</b>"
+msgstr "<B Kugena B"
+
+#: gok.glade2.h:9
+#, fuzzy
+msgid "<b>Define Actions</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:10
+#, fuzzy
+msgid "<b>Define Feedback</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:11
+#, fuzzy
+msgid "<b>Delay Before Activation</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:12
+#, fuzzy
+msgid "<b>Description</b>"
+msgstr "<Igaragaza Imiterere:"
+
+#: gok.glade2.h:13
+#, fuzzy
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<B Na B"
+
+#: gok.glade2.h:14
+#, fuzzy
+msgid "<b>Event Source</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:15
+#, fuzzy
+msgid "<b>Font</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:16
+#, fuzzy
+msgid "<b>Key Flashing</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:17
+#, fuzzy
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<B Na B"
+
+#: gok.glade2.h:18
+#, fuzzy
+msgid "<b>Key</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:19
+#, fuzzy
+msgid "<b>Keyboard</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:20
+#, fuzzy
+msgid "<b>Modifier</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:21
+#, fuzzy
+msgid "<b>Output</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:22
+#, fuzzy
+msgid "<b>Position</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:23
+#, fuzzy
+msgid "<b>Preview</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:24
+#, fuzzy
+msgid "<b>Sensitivity</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:25
+#, fuzzy
+msgid "<b>Sound</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:26
+#, fuzzy
+msgid "<b>Speech</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:27
+#, fuzzy
+msgid "<b>Switch or Button Number</b>"
+msgstr "<B Cyangwa B"
+
+#: gok.glade2.h:28
+#, fuzzy
+msgid "<b>Theme</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:29
+#, fuzzy
+msgid "<b>Timers and Delays</b>"
+msgstr "<B Na B"
+
+#: gok.glade2.h:30
+#, fuzzy
+msgid "<b>Type</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:31
+#, fuzzy
+msgid "<b>Valuator Type</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:32
+#, fuzzy
+msgid "<b>Word Completion</b>"
+msgstr "<B B"
+
+#: gok.glade2.h:33
+#, fuzzy
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<Gitoya i B B Kuri iyi Igenamiterere OYA INGARUKA Komeza>> Gukoresha i Gitoya"
+
+#: gok.glade2.h:34
+#, fuzzy
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+"A ni Byashyizweho Kuri Byongerewe... Iyinjiza APAREYE Ibyabaye Mbere "
+"Inonosora"
+
+#: gok.glade2.h:35
+msgid "Access Methods"
+msgstr ""
+
+#: gok.glade2.h:36
+msgid "AccessMethodName"
+msgstr ""
+
+#: gok.glade2.h:37
+msgid "Action Names List"
+msgstr ""
+
+#: gok.glade2.h:38
+msgid "Action Type:"
+msgstr ""
+
+#: gok.glade2.h:39
+msgid "ActionTypeNotebook"
+msgstr ""
+
+#: gok.glade2.h:40
+msgid "Actions"
+msgstr ""
+
+#: gok.glade2.h:41
+#, fuzzy
+msgid "Activate on Dw_ell"
+msgstr "ku"
+
+#: gok.glade2.h:42
+#, fuzzy
+msgid "Activate on _Enter"
+msgstr "ku"
+
+#: gok.glade2.h:43
+#, fuzzy
+msgid "Activate on _Move"
+msgstr "ku"
+
+#: gok.glade2.h:44
+#, fuzzy
+msgid "Activate when _pressed"
+msgstr "Ryari:"
+
+#: gok.glade2.h:45
+#, fuzzy
+msgid "Activate when _released"
+msgstr "Ryari:"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\miscdlgs.src:RID_SCDLG_COL_OPT.FT_LABEL.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\miscdlgs.src:RID_SCDLG_ROW_OPT.FT_LABEL.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scstring.src:STR_OPT_ROWHEIGHT.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\scstring.src:STR_OPT_COLWIDTH.text
+#: gok.glade2.h:46
+msgid "Add"
+msgstr "Kongera"
+
+#: gok.glade2.h:47
+msgid "Add New Key"
+msgstr ""
+
+#: gok.glade2.h:48
+#, fuzzy
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "bushyinguro Kuri Gushaka kugirango"
+
+#: gok.glade2.h:49
+#, fuzzy
+msgid "Additional directory to search for GOK keyboard files"
+msgstr "bushyinguro Kuri Gushaka kugirango Mwandikisho Idosiye"
+
+#: gok.glade2.h:50
+#, fuzzy
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "Mwandikisho ku Ibaruwa... Ubwisubire"
+
+#: gok.glade2.h:51
+#, fuzzy
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "Mwandikisho bishunguwe"
+
+# offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_GENERAL_OPTIONS.12.text
+#: gok.glade2.h:52
+msgid "Appearance"
+msgstr "Imigaragarire"
+
+#: gok.glade2.h:53
+msgid "Bottom:"
+msgstr "Hasi:"
+
+# toolkit/source\awt\accessiblestrings.src:RID_STR_ACC_NAME_BROWSEBUTTON.text
+#: gok.glade2.h:54
+msgid "Browse"
+msgstr "Gushakisha"
+
+#: gok.glade2.h:55
+#, fuzzy
+msgid "C_ore pointer"
+msgstr "Mweretsi"
+
+#: gok.glade2.h:56
+msgid "Command Prediction"
+msgstr ""
+
+# svx/source\dialog\textanim.src:RID_SVXPAGE_TEXTANIMATION.FT_DELAY.text
+#: gok.glade2.h:57
+msgid "Delay"
+msgstr "Gutinda"
+
+#: gok.glade2.h:58
+#, fuzzy
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr "in Bya a ISEGONDA Nyuma Icyabaye Mbere"
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_DELETECURRENT.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_DEL.text
+#: gok.glade2.h:59
+msgid "Delete"
+msgstr "Gusiba"
+
+#: gok.glade2.h:60
+msgid "Delete Key"
+msgstr ""
+
+#: gok.glade2.h:61
+msgid "Dock"
+msgstr ""
+
+#. Translators: dock is used as a verb.
+#: gok.glade2.h:62 move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr ""
+
+#. Translators: dock is used as a verb.
+#: gok.glade2.h:63 move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr ""
+
+#: gok.glade2.h:64
+msgid "Duplicate"
+msgstr "Gusubiramo"
+
+#: gok.glade2.h:65
+#, fuzzy
+msgid "Enable _key flashing"
+msgstr "Urufunguzo"
+
+#: gok.glade2.h:66
+#, fuzzy
+msgid "Enable _sound"
+msgstr "Ijwi"
+
+# offmgr/source\offapp\dialog\autocdlg.src:RID_OFAPAGE_AUTOCOMPLETE_OPTIONS.CB_ACTIV.text
+#: gok.glade2.h:67
+#, fuzzy
+msgid "Enable _word completion"
+msgstr "Gutuma ijambo rirangira"
+
+#: gok.glade2.h:68
+#, fuzzy
+msgid "Enable co_mmand prediction"
+msgstr "Komandi:"
+
+#: gok.glade2.h:70
+msgid "Fill Width"
+msgstr ""
+
+#: gok.glade2.h:71
+msgid "Font Group:"
+msgstr ""
+
+#: gok.glade2.h:72 gok/gok-editor.c:35
+msgid "GOK Keyboard Editor"
+msgstr ""
+
+#: gok.glade2.h:73
+msgid "GOK Preferences"
+msgstr ""
+
+#: gok.glade2.h:74
+msgid "GOK:"
+msgstr ""
+
+#: gok.glade2.h:75
+msgid "Key Height"
+msgstr ""
+
+#: gok.glade2.h:76
+msgid "Key Spacing"
+msgstr ""
+
+#: gok.glade2.h:77
+msgid "Key Width"
+msgstr ""
+
+#: gok.glade2.h:78
+#, fuzzy
+msgid "Key _width:"
+msgstr "Ubugari"
+
+#: gok.glade2.h:79
+#, fuzzy
+msgid "Key h_eight:"
+msgstr "Ubuhagarike"
+
+#: gok.glade2.h:80
+msgid "Keyboards"
+msgstr ""
+
+#: gok.glade2.h:81
+msgid "Keycode:"
+msgstr ""
+
+#: gok.glade2.h:82
+msgid "Keysym:"
+msgstr ""
+
+#: gok.glade2.h:83
+#, fuzzy
+msgid "Label:"
+msgstr "Akayobozi:"
+
+#: gok.glade2.h:84 directed.xml.in.h:8
+msgid "Left:"
+msgstr "Ibumoso:"
+
+#: gok.glade2.h:85
+#, fuzzy
+msgid "Match physical keyboard as reported by X Server"
+msgstr "Ifatika Mwandikisho Nka ku"
+
+#: gok.glade2.h:86
+msgid "Modifier Post"
+msgstr ""
+
+#: gok.glade2.h:87
+msgid "Modifier Pre"
+msgstr ""
+
+#: gok.glade2.h:88
+msgid "Modifier:"
+msgstr ""
+
+# sfx2/sdi\sfxslots.src:SID_CURSORDOWN.text
+#: gok.glade2.h:89
+msgid "Move Down"
+msgstr "Kumanura/Kumanuka"
+
+# sfx2/sdi\sfxslots.src:SID_CURSORUP.text
+#: gok.glade2.h:90
+msgid "Move Up"
+msgstr "Kuzamura"
+
+# sc/source\ui\dbgui\pvfundlg.src:RID_SCDLG_PIVOTSUBT.FT_NAMELABEL.text
+#: gok.glade2.h:91
+msgid "Name:"
+msgstr "Izina:"
+
+# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_NEW.text
+#: gok.glade2.h:92
+msgid "New"
+msgstr "Gishya"
+
+#: gok.glade2.h:93
+msgid "Next Key"
+msgstr ""
+
+# officecfg/registry\schema\org\openoffice\Office\Common.xcs:....Save.Graphic.Format..0.text
+#: gok.glade2.h:94
+msgid "Normal"
+msgstr "Bisanzwe"
+
+#: gok.glade2.h:95
+#, fuzzy
+msgid "Number of _flashes:"
+msgstr "Bya"
+
+#: gok.glade2.h:96
+#, fuzzy
+msgid "Number of _predictions:"
+msgstr "Bya"
+
+#: gok.glade2.h:97
+#, fuzzy
+msgid "Number of command predictions:"
+msgstr "Bya Komandi:"
+
+#: gok.glade2.h:98
+#, fuzzy
+msgid "Number of word predictions:"
+msgstr "Bya ijambo"
+
+#: gok.glade2.h:99
+#, fuzzy
+msgid "Other _input device:"
+msgstr "Iyinjiza APAREYE"
+
+#: gok.glade2.h:100
+msgid "Prediction"
+msgstr ""
+
+#: gok.glade2.h:101
+msgid "Press"
+msgstr "Kanda"
+
+#: gok.glade2.h:102
+msgid "Previous Key"
+msgstr ""
+
+#: gok.glade2.h:103
+#, fuzzy
+msgid "Read keyboard from file:"
+msgstr "Mwandikisho Bivuye IDOSIYE"
+
+#: gok.glade2.h:104
+msgid "Release"
+msgstr ""
+
+#: gok.glade2.h:105 directed.xml.in.h:12
+msgid "Right:"
+msgstr "Iburyo:"
+
+#: gok.glade2.h:106
+#, fuzzy
+msgid "S_witch"
+msgstr "Hindura"
+
+#: gok.glade2.h:107
+msgid "Show Only This Font Group"
+msgstr ""
+
+# svx/inc\globlmn.hrc:TMP_SID_INSERT_SOUND.SID_INSERT_SOUND.text
+#: gok.glade2.h:108
+#, fuzzy
+msgid "So_und:"
+msgstr "Ijwi..."
+
+#: gok.glade2.h:109
+#, fuzzy
+msgid "Speak key _label"
+msgstr "Urufunguzo Akarango"
+
+# sfx2/source\dialog\filedlghelper.src:STR_LB_IMAGE_TEMPLATE.text
+#: gok.glade2.h:110
+msgid "Style:"
+msgstr "Imisusire"
+
+#: gok.glade2.h:111
+msgid "Switch _1"
+msgstr ""
+
+#: gok.glade2.h:112
+msgid "Switch _2"
+msgstr ""
+
+#: gok.glade2.h:113
+msgid "Switch _3"
+msgstr ""
+
+#: gok.glade2.h:114
+msgid "Switch _4"
+msgstr ""
+
+#: gok.glade2.h:115
+msgid "Switch _5"
+msgstr ""
+
+#: gok.glade2.h:116
+msgid "Target:"
+msgstr "Intego:"
+
+#: gok.glade2.h:117
+msgid "To Back"
+msgstr ""
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\accel\accel.src:STR_FRONT.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:STR_FRONT.text
+#: gok.glade2.h:118
+#, fuzzy
+msgid "To Front"
+msgstr "Imbere"
+
+# officecfg/registry\schema\org\openoffice\Office\Writer.xcs:....Navigator.GlobalDocMode.text
+#: gok.glade2.h:119
+msgid "Toggle"
+msgstr "Mukomatanya"
+
+#: gok.glade2.h:120
+msgid "Top:"
+msgstr "Hejuru:"
+
+#: gok.glade2.h:121
+#, fuzzy
+msgid "Use _extra word list file(s)"
+msgstr "Birenga ijambo Urutonde IDOSIYE S"
+
+#: gok.glade2.h:122
+#, fuzzy
+msgid "Use _key averaging"
+msgstr "Urufunguzo"
+
+#: gok.glade2.h:123
+msgid "Valuator Sensitivity"
+msgstr ""
+
+# #-#-#-#-#  offmgr.pot (Gnome 2.12)  #-#-#-#-#
+# offmgr/source\offapp\dialog\autocdlg.src:RID_OFA_AUTOCORR_DLG.1.RID_OFAPAGE_AUTOCOMPLETE_OPTIONS.text
+# #-#-#-#-#  offmgr.pot (Gnome 2.12)  #-#-#-#-#
+# offmgr/source\offapp\dialog\autocdlg.src:RID_OFAPAGE_AUTOCOMPLETE_OPTIONS.text
+#: gok.glade2.h:124
+msgid "Word Completion"
+msgstr "Kurangiza Ijambo"
+
+#: gok.glade2.h:125
+#, fuzzy
+msgid "_100ths of a second"
+msgstr "Bya a ISEGONDA"
+
+#: gok.glade2.h:126
+#, fuzzy
+msgid "_Add"
+msgstr "Kongeramo"
+
+#: gok.glade2.h:127
+#, fuzzy
+msgid "_Browse..."
+msgstr "Gushakisha..."
+
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_DELETECURRENT.text
+# #-#-#-#-#  basctl.pot (Gnome 2.12)  #-#-#-#-#
+# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_DEL.text
+#: gok.glade2.h:128
+#, fuzzy
+msgid "_Delete"
+msgstr "Gusiba"
+
+#: gok.glade2.h:129
+msgid "_Joystick"
+msgstr ""
+
+#: gok.glade2.h:130
+#, fuzzy
+msgid "_Method:"
+msgstr "Uburyo:"
+
+# basctl/source\basicide\moduldlg.src:RID_DLG_NEWLIB.RID_FT_NEWLIB.text
+#: gok.glade2.h:131
+#, fuzzy
+msgid "_Name:"
+msgstr "Izina:"
+
+# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_NEW.text
+#: gok.glade2.h:132
+#, fuzzy
+msgid "_New"
+msgstr "Gishya"
+
+#: gok.glade2.h:133
+#, fuzzy
+msgid "_Number of predictions:"
+msgstr "Bya"
+
+# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_RENAMECURRENT.text
+#: gok.glade2.h:134
+#, fuzzy
+msgid "_Rename"
+msgstr "Guhindura izina"
+
+#: gok.glade2.h:135
+#, fuzzy
+msgid "_Single axis:"
+msgstr "Umurongo fatizo"
+
+# #-#-#-#-#  starmath.pot (Gnome 2.12)  #-#-#-#-#
+# starmath/source\menu.src:RID_SMMENU.~Format.SID_DISTANCE.text
+# #-#-#-#-#  starmath.pot (Gnome 2.12)  #-#-#-#-#
+# starmath/source\menu.src:RID_SMPLUGINMENU.~Format.SID_DISTANCE.text
+#: gok.glade2.h:136
+#, fuzzy
+msgid "_Spacing:"
+msgstr "Gutandukanya"
+
+#: gok.glade2.h:137
+msgid "_Use Desktop Theme Preferences"
+msgstr ""
+
+#: gok.glade2.h:138
+msgid "_Valuator"
+msgstr ""
+
+#: gok.glade2.h:139
+#, fuzzy
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "Imirongo fatizo... 0 Na 1."
+
+#: gok.glade2.h:140
+#, fuzzy
+msgid "access method name"
+msgstr "Uburyo Izina:"
+
+# sfx2/source\statbar\statbar.src:RID_NAVIGATION_COMMANDS.1.text
+#: gok.glade2.h:141
+msgid "cancel"
+msgstr "kwirengagiza"
+
+#: gok.glade2.h:142
+#, fuzzy
+msgid "display user help"
+msgstr "Kugaragaza Ukoresha: Ifashayobora"
+
+# 2806
+#: gok.glade2.h:143
+#, fuzzy
+msgid "high"
+msgstr "kirekire"
+
+# sfx2/source\dialog\mailwindow.src:RID_MAIL_WINDOW.LB_MAILWIN_PRIO.4.text
+#: gok.glade2.h:144
+#, fuzzy
+msgid "low"
+msgstr "Byo hasi"
+
+#: gok.glade2.h:145
+msgid "pixels"
+msgstr "pigiseli"
+
+#: gok.glade2.h:146
+#, fuzzy
+msgid "revert to original settings"
+msgstr "Kugaruza Kuri Umwimerere Amagenamiterere"
+
+#: gok.glade2.h:147
+#, fuzzy
+msgid "try these settings"
+msgstr "Amagenamiterere"
+
+#: gok.glade2.h:148
+#, fuzzy
+msgid "use these settings"
+msgstr "Gukoresha Amagenamiterere"
+
+#: gok/callbacks.c:372
+#, fuzzy
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "OYA"
+
+#: gok/callbacks.c:374
+msgid "GOK Access Method Wizard"
+msgstr ""
+
+#: gok/gok-control.c:227
+#, fuzzy
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "Gushakisha... kugirango Ijwi IDOSIYE OYA"
+
+#: gok/gok-control.c:229
+#, fuzzy
+msgid "GOK Browse for sound file"
+msgstr "kugirango Ijwi IDOSIYE"
+
+#: gok/gok-control.c:253
+#, fuzzy
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "Urwego rwo hejuru Amagenamiterere OYA"
+
+#: gok/gok-control.c:255
+msgid "GOK Inverse Scanning Advanced"
+msgstr ""
+
+#: gok/gok-editor.c:154 gok/gok-editor.c:187 gok/gok-editor.c:267
+#, fuzzy
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr "Byahinduwe KIGEZWEHO IDOSIYE Kuri Kwanga Amahinduka"
+
+#: gok/gok-editor.c:156 gok/gok-editor.c:189 gok/gok-editor.c:269
+#: gok/gok-editor.c:1060
+msgid "Keyboard Filename Invalid"
+msgstr ""
+
+# basctl/source\basicide\brkdlg.src:RID_BASICIDE_BREAKPOINTDLG.RID_PB_NEW.text
+#: gok/gok-editor.c:218
+#, fuzzy
+msgid "new"
+msgstr "Gishya"
+
+#. create the file selector dialog
+#: gok/gok-editor.c:279
+#, fuzzy
+msgid "Select keyboard file for editing"
+msgstr "Mwandikisho IDOSIYE kugirango"
+
+#: gok/gok-editor.c:289 gok/gok-editor.c:981
+#, fuzzy
+msgid ".kbd files"
+msgstr ""
+".Project- Id- Version: basctl\n"
+"POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
+"PO- Revision- Date: 2004- 11- 04 10: 13- 0700\n"
+"Last- Translator: Language- Team:< en@ li. org> MIME- Version: 1. 0\n"
+"Content- Type: text/ plain; charset= UTF- 8\n"
+"Content- Transfer- Encoding: 8bit\n"
+"X- Generator: KBabel 1. 0\n"
+"."
+
+#: gok/gok-editor.c:544
+#, fuzzy
+msgid "label"
+msgstr "Akarango"
+
+#: gok/gok-editor.c:718
+#, fuzzy, c-format
+msgid "Can't save file: %s\n"
+msgstr "Kubika IDOSIYE"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: gok/gok-editor.c:971
+#, fuzzy
+msgid "Save keyboard file as"
+msgstr "Kubika Mwandikisho IDOSIYE Nka"
+
+#: gok/gok-editor.c:1052
+#, fuzzy, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr "ni OYA a Byemewe Mwandikisho Izina ry'idosiye:"
+
+#: gok/gok-editor.c:1082
+#, fuzzy
+msgid "(new)"
+msgstr "(Gishya"
+
+#: gok/gok-input.c:515
+#, fuzzy, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"Umurimo Bivuye a Gishya APAREYE nka Kuri Gukoresha iyi APAREYE Bya APAREYE"
+
+#: gok/gok-key.c:117
+msgid "Mute"
+msgstr "Mute"
+
+#: gok/gok-key.c:120
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+
+#: gok/gok-key.c:123
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+
+# 1714
+#: gok/gok-key.c:234
+msgid "Divide"
+msgstr "Igabanya"
+
+# 3984
+#: gok/gok-key.c:237
+msgid "Multiply"
+msgstr "kuba"
+
+# svx/sdi\svxslots.src:SID_POLY_SUBSTRACT.text
+#: gok/gok-key.c:240
+msgid "Subtract"
+msgstr "Gukuramo"
+
+# starmath/source\smres.src:RID_TOOLBOXWINDOW.1.RID_XPLUSY.text
+#: gok/gok-key.c:243
+#, fuzzy
+msgid "Addition"
+msgstr "Guteranya+"
+
+#: gok/gok-key.c:246
+msgid "Prior"
+msgstr ""
+
+#: gok/gok-key.c:249
+msgid "Next"
+msgstr "Ikurikira"
+
+#: gok/gok-key.c:252 numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Home"
+
+# officecfg/registry\schema\org\openoffice\Office\DataAccess.xcs:....FormSearchOptions.SearchPosition..end-of-field.text
+#: gok/gok-key.c:255 numberpad.kbd.in.h:4
+msgid "End"
+msgstr "Impera"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_LAYOUT.LB_ALIGN.3.text
+#. Translators: this describes the direction gok will move.
+#: gok/gok-key.c:258 move-resize.kbd.in.h:20 numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "Hejuru"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_LAYOUT.LB_ALIGN.1.text
+#. Translators: this describes the direction gok will move.
+#: gok/gok-key.c:261 move-resize.kbd.in.h:6 numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "Hasi"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_LAYOUT.LB_ALIGN.4.text
+#. Translators: this describes the direction gok will move.
+#: gok/gok-key.c:264 move-resize.kbd.in.h:11 numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "Ibumoso"
+
+# sc/source\ui\src\optdlg.src:RID_SCPAGE_LAYOUT.LB_ALIGN.2.text
+#. Translators: this describes the direction gok will move.
+#: gok/gok-key.c:267 move-resize.kbd.in.h:15 numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "Iburyo"
+
+#: gok/gok-key.c:270
+msgid "Begin"
+msgstr ""
+
+# sc/source\ui\dbgui\validate.src:TP_VALIDATION_VALUES.LB_ALLOW.3.text
+#: gok/gok-key.c:273
+msgid "Decimal"
+msgstr "Ikinyacumi"
+
+# the command key
+#: gok/gok-key.c:276
+msgid "Meta"
+msgstr "Meta"
+
+#: gok/gok-key.c:279
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+
+#: gok/gok-key.c:282
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+
+#: gok/gok-key.c:285
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+
+#: gok/gok-key.c:288
+msgid "Muhenkan"
+msgstr ""
+
+#: gok/gok-key.c:291
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+
+#: gok/gok-keyboard.c:155
+#, fuzzy, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Umugereka OYA Ikosa ITEGEKONGENGA"
+
+#: gok/gok-keyboard.c:161 gok/gok-keyboard.c:202
+#, fuzzy
+msgid "keyboard description not available!"
+msgstr "Mwandikisho Isobanuramiterere OYA Bihari"
+
+#: gok/gok-keyboard.c:167 gok/gok-keyboard.c:208 gok/gok-keyboard.c:506
+#, fuzzy
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "Gusoma Bivuye"
+
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib2.src:TAB_AXIS.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib2.src:TAB_X_AXIS.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib2.src:TAB_Y_AXIS.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib2.src:TAB_Z_AXIS.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib2.src:TAB_GRID.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib2.src:TAB_LINE.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_TITLE.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_LEGEND.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_DATA_LINE.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib.src:TAB_DATA_POINT.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib3.src:TAB_DIAGRAM_FLOOR.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib3.src:TAB_DIAGRAM_AREA.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib4.src:TAB_DIAGRAM_STOCK_LOSS.1.text
+# #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
+# sch/source\ui\dlg\attrib4.src:TAB_DIAGRAM_STOCK_PLUS.1.text
+#: gok/gok-keyboard.c:432
+msgid "Back"
+msgstr "Inyuma"
+
+#: gok/gok-keyboard.c:450 valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr ""
+
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+# #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
+#: gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "Kwandika"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+
+# basctl/source\basicide\basidesh.src:RID_POPUP_TABBAR.SID_BASICIDE_HIDECURPAGE.text
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: gok/gok-keyboard.c:490 move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "Gushisha"
+
+#. translators: "shift" as in "the shift modifier key"
+#: gok/gok-keyboard.c:701
+#, fuzzy
+msgid "shift"
+msgstr "Gusunika"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: gok/gok-keyboard.c:713
+msgid "Level 2"
+msgstr "Urwego rwa 2"
+
+#. translators: see note for "Level 2"
+#: gok/gok-keyboard.c:725
+msgid "Level 3"
+msgstr "Urwego rwa 3"
+
+#. translators: this is a label for a 'Back space' key
+#: gok/gok-keyboard.c:737
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+
+# sc/source\ui\src\textdlgs.src:RID_SCDLG_PARAGRAPH.1.RID_SVXPAGE_TABULATOR.text
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: gok/gok-keyboard.c:748 numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Isimbuka"
+
+# sc/source\ui\dbgui\asciiopt.src:RID_SCDLG_ASCII.CKB_SPACE.text
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: gok/gok-keyboard.c:759
+#, fuzzy
+msgid "space"
+msgstr "Umwanya"
+
+# LOCALIZATION NOTE : BLOCK end GLYPHS
+# Enter, backspace, and Tab might have both glyphs and text
+# if the keyboards usually have a glyph,
+# if there is a meaningful translation,
+# or if keyboards are localized
+# then translate them or insert the appropriate glyph
+# otherwise you should probably just translate the glyph regions
+# LOCALIZATION NOTE : BLOCK maybe GLYPHS
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: gok/gok-keyboard.c:770 numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Injiza"
+
+#: gok/gok-keyboard.c:808 main.kbd.in.h:7
+msgid "Menus"
+msgstr "Ibikubiyemo"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. * The prefix before the '|' character is just a context string and need not be
+#. * translated.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: gok/gok-keyboard.c:867
+msgid "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+
+#. The substring "level 1|" should not be translated.
+#. * For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: gok/gok-keyboard.c:872
+msgid "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+
+#. Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#.
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#.
+#: gok/gok-keyboard.c:879 gok/gok-keyboard.c:935
+msgid "level 2|"
+msgstr "level 2|"
+
+#. For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#: gok/gok-keyboard.c:882 gok/gok-keyboard.c:936
+msgid "level 3|"
+msgstr "level 3|"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "level #|abcde..." strings
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: gok/gok-keyboard.c:930
+msgid "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: gok/gok-keyboard.c:931
+msgid "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#. change the name of the window to the keyboard name
+#: gok/gok-keyboard.c:1924
+msgid "GOK - "
+msgstr ""
+
+#: gok/gok-keyboard.c:2816
+msgid "GUI"
+msgstr ""
+
+#. translators: "table" as in row/column data structure
+#: gok/gok-keyboard.c:2821 gok/gok-spy.c:1747
+msgid "Table"
+msgstr "Imbonerahamwe"
+
+# sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_OBJECTBAR.text
+#: gok/gok-keyboard.c:2826 main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "Imyanyabikoresho"
+
+#: gok/gok-keyboard.c:2830
+msgid "Applications"
+msgstr "Porogaramu"
+
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_MENU.text
+# #-#-#-#-#  sfx2.pot (Gnome 2.12)  #-#-#-#-#
+# sfx2/source\dialog\cfg.src:STR_MENU.text
+#: gok/gok-keyboard.c:2840
+msgid "Menu"
+msgstr "Ibikubiyemo"
+
+#: gok/gok-keyboard.c:3714
+msgid "translator_credits"
+msgstr ""
+
+#: gok/gok-keyboard.c:3737 main.kbd.in.h:4
+msgid "GOK"
+msgstr ""
+
+#: gok/gok-keyboard.c:3739
+#, fuzzy
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "Kitaboneka kugirango Ibiro"
+
+#: gok/gok-keyboard.c:3748
+msgid "Full Credits"
+msgstr ""
+
+#: gok/gok-scanner.c:1007
+#, fuzzy
+msgid "error reading description"
+msgstr "Ikosa Isobanuramiterere"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: gok/gok-spy.c:1665
+#, fuzzy
+msgid "V Scrollbar"
+msgstr "V"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: gok/gok-spy.c:1670
+#, fuzzy
+msgid "H Scrollbar"
+msgstr "H"
+
+#. create the 'new action name' dialog
+#: gok/gok-page-actions.c:371 gok/gok-page-actions.c:416
+#: gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr ""
+
+#. add a text label
+#: gok/gok-page-actions.c:377
+#, fuzzy
+msgid "Change the action name:"
+msgstr "Igikorwa Izina:"
+
+#: gok/gok-page-actions.c:414
+#, fuzzy
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr "Izina: ubusa Injiza a Gishya Igikorwa Izina:"
+
+#: gok/gok-page-actions.c:433
+#, fuzzy
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr "Igikorwa Izina: Injiza a Gishya Igikorwa Izina:"
+
+#: gok/gok-page-actions.c:488
+#, c-format
+msgid "New Action %d"
+msgstr ""
+
+#: gok/gok-page-actions.c:551
+#, fuzzy, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "Kuri Gusiba iyi Igikorwa"
+
+#: gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr ""
+
+#. create the 'new feedbacks name' dialog
+#: gok/gok-page-feedbacks.c:411 gok/gok-page-feedbacks.c:456
+#: gok/gok-page-feedbacks.c:475
+msgid "GOK Feedback Name"
+msgstr ""
+
+#. add a text label
+#: gok/gok-page-feedbacks.c:417
+#, fuzzy
+msgid "Change the feedback name:"
+msgstr "Izina:"
+
+#: gok/gok-page-feedbacks.c:454
+#, fuzzy
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr "Izina: ubusa Injiza a Gishya Izina:"
+
+#: gok/gok-page-feedbacks.c:473
+#, fuzzy
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr "Izina: Injiza a Gishya Izina:"
+
+#: gok/gok-page-feedbacks.c:526
+#, c-format
+msgid "New Feedback %d"
+msgstr ""
+
+#: gok/gok-page-feedbacks.c:644
+#, fuzzy, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "Kuri Gusiba iyi"
+
+#: gok/gok-page-feedbacks.c:652
+msgid "GOK Delete Feedback"
+msgstr ""
+
+#. create the file selector dialog
+#: gok/gok-page-feedbacks.c:875
+#, fuzzy
+msgid "Select sound file"
+msgstr "Ijwi IDOSIYE"
+
+#: gok/gok-page-keyboard.c:180
+#, fuzzy
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "bushyinguro Kuri Gushaka kugirango Mwandikisho Idosiye"
+
+#: gok/gok-page-keyboard.c:194
+#, fuzzy
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "IDOSIYE Himba: Mwandikisho"
+
+# basctl/source\basicide\tbxctl.src:RID_TOOLBOX.SID_INSERT_PUSHBUTTON.text
+#: gok/gok-page-keysizespace.c:83
+msgid "Button"
+msgstr "Akabuto"
+
+# sfx2/sdi\sfxslots.src:SID_MDIWINDOWLIST.text
+#: gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "Irisiti y'Amadirishya"
+
+#: gok/gok-utf8-word-complete.c:120
+#, fuzzy, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "OYA Gusoma Ibigize Bya Inkoranyamagambo IDOSIYE"
+
+#: gok/main.c:170
+#, fuzzy
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"Uburyo ni a Ikurikiranyanyuguti Na Byabonetse in Uburyo Idosiye Kuri Izina: "
+"indangakintu Bya Itagi: iyi ni OYA Nka Izina: Bya IDOSIYE Urutonde"
+
+#: gok/main.c:171
+#, fuzzy
+msgid "NAME"
+msgstr "Izina"
+
+#: gok/main.c:179
+#, fuzzy
+msgid "Start the GOK keyboard editor"
+msgstr "Gutangira Mwandikisho Muhinduzi"
+
+#: gok/main.c:187
+#, fuzzy
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "Bidasanzwe"
+
+#: gok/main.c:195
+#, fuzzy
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"Iyigamashusho ni OYA Ibirindiro hagati Na in Ibirindiro Ryari: Iheruka Zimya "
+"Iyigamashusho ni imyanya muri Cy'urukiramende Ubuso Bya Mugaragaza ku "
+"Iyigamashusho Iyigamashusho ni OYA Ibirindiro Ryari: Hasi Byahinduwe Na: "
+"Ibendera Kuri Ibirindiro Ryari: Zimya ATARIIGIHARWE Ryari: Na: Iyigamashusho"
+
+#: gok/main.c:196
+#, fuzzy
+msgid "GEOMETRY"
+msgstr "Iyigamashusho"
+
+#: gok/main.c:204
+#, fuzzy
+msgid "Use the specified input device"
+msgstr "Iyinjiza APAREYE"
+
+#: gok/main.c:205
+msgid "DEVICENAME"
+msgstr ""
+
+#: gok/main.c:213
+#, fuzzy
+msgid "Start GOK with the specified keyboard."
+msgstr "Gutangira Na: Mwandikisho"
+
+#: gok/main.c:214
+msgid "KEYBOARDNAME"
+msgstr ""
+
+#: gok/main.c:222
+#, fuzzy
+msgid "List the access methods that can be used as options to other arguments."
+msgstr "Nka Amahitamo Kuri Ikindi ingingo"
+
+#: gok/main.c:231
+#, fuzzy
+msgid "List the actions that can be used as options to other arguments."
+msgstr "Nka Amahitamo Kuri Ikindi ingingo"
+
+#: gok/main.c:240
+#, fuzzy
+msgid "GOK will be used to login"
+msgstr "Kuri Ifashayinjira"
+
+#: gok/main.c:251
+#, fuzzy
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"Na: Iyigamashusho Kuri Ibirindiro Ryari: Zimya ATARIIGIHARWE Ryari: Na: "
+"Iyigamashusho Iyigamashusho Ibendera kugirango Birenzeho Ibisobanuro"
+
+#: gok/main.c:262
+#, fuzzy
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr "Gutangira Na iyi Igikorwa Kuri Gusikana Ibikorwa: Urutonde"
+
+#: gok/main.c:272
+#, fuzzy
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr "Gutangira Na iyi Igikorwa Kuri Guhitamo Ibikorwa: Urutonde"
+
+#: gok/main.c:281
+#, fuzzy
+msgid "Open the settings dialog box when GOK starts"
+msgstr "Amagenamiterere Ikiganiro Agasanduku Ryari:"
+
+#: gok/main.c:616
+#, fuzzy, c-format
+msgid "gok: Unsupported geometry specification\n"
+msgstr "Iyigamashusho"
+
+#: gok/main.c:617
+#, fuzzy, c-format
+msgid ""
+"gok: Currently GOK requires that the x, y, width and height all be given\n"
+msgstr "X Y Ubugari Na Ubuhagarike Byose"
+
+#: gok/main.c:713
+#, fuzzy
+msgid "XKB extension is required."
+msgstr "Umugereka ni Bya ngombwa"
+
+#: gok/main.c:723
+#, fuzzy
+msgid "Can't initialize actions."
+msgstr "gutangiza"
+
+#: gok/main.c:733
+#, fuzzy
+msgid "Can't initialize feedbacks."
+msgstr "gutangiza"
+
+#: gok/main.c:760
+#, fuzzy
+msgid "Can't create the main GOK window!"
+msgstr "Kurema Idirishya"
+
+#: gok/main.c:779
+#, fuzzy
+msgid "Can't create the settings dialog window!"
+msgstr "Kurema Amagenamiterere Ikiganiro Idirishya"
+
+#: gok/main.c:841
+#, fuzzy
+msgid "No keyboards to display!"
+msgstr "Kuri Kugaragaza"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: gok/main.c:975 main.kbd.in.h:11
+msgid "UI Grab"
+msgstr ""
+
+#: gok/main.c:991
+#, fuzzy
+msgid "popup menu"
+msgstr "Ibikubiyemo"
+
+#: gok/main.c:1858
+#, fuzzy
+msgid "Can't create a compose keyboard!"
+msgstr "Kurema a Himba: Mwandikisho"
+
+#: gok/main.c:1900
+#, fuzzy
+msgid "Can't read any keyboards!"
+msgstr "Gusoma"
+
+#: gok/main.c:2017
+#, fuzzy
+msgid "could not access method directory key from GConf!"
+msgstr "OYA Uburyo bushyinguro Urufunguzo Bivuye"
+
+#: gok/main.c:2025
+#, fuzzy
+msgid "possibly unknown access method!"
+msgstr "Kitazwi Uburyo"
+
+#: gok/main.c:2569
+#, fuzzy
+msgid "Sorry, GOK can't run because:\n"
+msgstr "Gukoresha"
+
+#: gok/main.c:2578
+msgid "GOK Fatal Error"
+msgstr ""
+
+#: gok/main.c:2590
+#, fuzzy
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run.  GOK is currently unable to retrieve those settings.  If "
+"this is the first time that you have run gok after installing it you may "
+"need to restart gconfd, you can use this command: 'gconftool-2 --shutdown' "
+"or log out and back in."
+msgstr ""
+"2. Kuri Amagenamiterere Na Amagenamiterere Kuri in Kuri Gukoresha ni Kuri "
+"Amagenamiterere iyi ni Itangira Igihe Gukoresha Nyuma gukora "
+"iyinjizaporogaramu:%s Gicurasi Kuri Ongera utangire Gukoresha iyi Komandi: "
+"2. Cyangwa LOG Inyuma Na Inyuma in"
+
+#: gok/main.c:2607
+#, fuzzy
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given.  Sorry, "
+"your geometry specification will not be used."
+msgstr "X Y Ubugari Na Ubuhagarike Byose Iyigamashusho OYA"
+
+#: gok/main.c:2609
+#, fuzzy
+msgid "gok: Unsupported geometry specification"
+msgstr "Iyigamashusho"
+
+#: gok/main.c:2816
+#, fuzzy
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr "Gicurasi OYA Akazi OYA Gushoboza"
+
+#: gok/main.c:2823
+#, fuzzy
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "Bikora"
+
+#: gok/main.c:2845
+#, fuzzy
+msgid "GOK cannot run because XKB display extension is missing.\n"
+msgstr "Gukoresha Kugaragaza Umugereka ni Ibuze"
+
+#: gok/main.c:2912
+#, fuzzy
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"APAREYE ikoresha Kuri ni Sisitemu Mweretsi Cyangwa Imbeba Na: Gukoresha Bya "
+"Mweretsi Gicurasi Na: Kuri Gukoresha Porogaramu Cyangwa Iyinjiza APAREYE Nka "
+"Iyinjiza APAREYE kugirango Birenzeho Ibisobanuro"
+
+#: gok/main.c:2918
+#, fuzzy
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"APAREYE ikoresha Kuri Igenzura ni Sisitemu Mweretsi Na: Gukoresha Bya "
+"Mweretsi NONEAHA Gucomora APAREYE ikoresha Bivuye Sisitemu Mweretsi "
+"kugirango Igihe- ngombwa Bya Umukoro Gicurasi Kugena Imiterere Kuri "
+"Gukoresha Iyinjiza APAREYE kugirango Birambuye"
+
+#. no longer used!
+#: gok/main.c:2925 gok/main.c:2928
+#, fuzzy
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "Kugaragara Kuri Kuri Gukoresha Ubwoko"
+
+#: gok/main.c:3025
+#, fuzzy
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"Gutangira Gushigikira kugirango Bya Ibiranga Bya Porogaramu OYA Bihari "
+"Gushoboza Gushigikira kugirango Na LOG in Kuri a Gishya Umukoro Na: "
+"Guhindura>> Bikora Kanda Na urifuzagukomeza ikoresha Kanda Dukomeza Kuvamo "
+"Kanda Funga"
+
+#: gok/main.c:3044
+#, fuzzy
+msgid "Enable and Log Out"
+msgstr "Na"
+
+#: gok/main.c:3056
+msgid "Continue"
+msgstr "Gukomeza"
+
+#: inverse-scanning.xml.in.h:12
+msgid "Inverse Scanning"
+msgstr ""
+
+#: inverse-scanning.xml.in.h:17 singlekey-inverse-scanning.xml.in.h:13
+#, fuzzy
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "Na a Hindura Kuri Gusikana Hindura Kuri Guhitamo"
+
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/inc\globlmn.hrc:ITEM_INSERT_TWAIN_MENU.SID_SCAN.text
+# #-#-#-#-#  svx.pot (Gnome 2.12)  #-#-#-#-#
+# svx/sdi\svxslots.src:SID_SCAN.text
+#: inverse-scanning.xml.in.h:21 singlekey-inverse-scanning.xml.in.h:17
+#, fuzzy
+msgid "Scan:"
+msgstr "Gusikana"
+
+#. User interface for the access method
+#: singlekey-automatic-scanning.xml.in.h:21
+msgid "Single Key Automatic Scanning"
+msgstr ""
+
+#: singlekey-automatic-scanning.xml.in.h:22
+#, fuzzy
+msgid "Start Scanning:"
+msgstr "Gutangira"
+
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\fmtui\tmpdlg.src:DLG_TEMPLATE_3.1.TP_FRM_WRAP.text
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\frmdlg\frmpage.src:DLG_FRM_STD.1.TP_FRM_WRAP.text
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\frmdlg\frmpage.src:DLG_FRM_GRF.1.TP_FRM_WRAP.text
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\frmdlg\frmpage.src:DLG_FRM_OLE.1.TP_FRM_WRAP.text
+# #-#-#-#-#  sw.pot (Gnome 2.12)  #-#-#-#-#
+# sw/source\ui\frmdlg\frmui.src:STR_FRMUI_WRAP.text
+#: singlekey-automatic-scanning.xml.in.h:25
+msgid "Wrap"
+msgstr "Gufunika"
+
+#: singlekey-inverse-scanning.xml.in.h:19
+msgid "Single Key Inverse Scanning"
+msgstr ""
+
+#: directed.xml.in.h:2
+#, fuzzy
+msgid "5 Switch Directed"
+msgstr "5"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_PLUGINMENU.SUBMENU_EDIT.SUBMENU_FILL.FID_FILL_TO_BOTTOM.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_MENUBAR.SUBMENU_EDIT.SUBMENU_FILL.FID_FILL_TO_BOTTOM.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\miscdlgs.src:RID_SCDLG_FILLSERIES.BTN_BOTTOM.text
+#: directed.xml.in.h:5
+#, fuzzy
+msgid "Down:"
+msgstr "Hasi"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_PLUGINMENU.SUBMENU_EDIT.SUBMENU_FILL.FID_FILL_TO_TOP.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_MENUBAR.SUBMENU_EDIT.SUBMENU_FILL.FID_FILL_TO_TOP.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\miscdlgs.src:RID_SCDLG_FILLSERIES.BTN_TOP.text
+#: directed.xml.in.h:16
+#, fuzzy
+msgid "Up:"
+msgstr "Hejuru"
+
+# basctl/source\basicide\objdlg.src:RID_BASICIDE_OBJCAT.RID_TB_TOOLBOX.TBITEM_SHOW.text
+#: hide.kbd.in.h:1
+msgid "Show"
+msgstr "Garagaza"
+
+#: launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr ""
+
+#: launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr ""
+
+#: launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "Umuhinduzi w'inyandiko"
+
+#: launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr ""
+
+#. Translators: one word meaning: to enter text.
+#: main.kbd.in.h:3
+#, fuzzy
+msgid "Compose"
+msgstr "Himba"
+
+#. Translators: launcher, as in launching/running programs
+#: main.kbd.in.h:6
+msgid "Launcher"
+msgstr ""
+
+# offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.FL_MOUSE.text
+#: main.kbd.in.h:8
+msgid "Mouse"
+msgstr "Imbeba"
+
+#: mouse.kbd.in.h:1
+#, fuzzy
+msgid "Button 1"
+msgstr "1."
+
+#: mouse.kbd.in.h:2
+#, fuzzy
+msgid "Button 2"
+msgstr "2."
+
+#: mouse.kbd.in.h:3
+#, fuzzy
+msgid "Button 3"
+msgstr "3."
+
+#: mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr ""
+
+#. Translators: verb.
+#: mouse.kbd.in.h:6
+msgid "Latch"
+msgstr ""
+
+#: mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "Mweretsi"
+
+# sfx2/sdi\sfxslots.src:SID_REPEAT.text
+#: mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "Gusubiramo"
+
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\globstr.src:RID_GLOBSTR.STR_UNDO_AUTOFILL.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_PLUGINMENU.SUBMENU_EDIT.SUBMENU_FILL.text
+# #-#-#-#-#  sc.pot (Gnome 2.12)  #-#-#-#-#
+# sc/source\ui\src\menue.src:SCCFG_MENUBAR.SUBMENU_EDIT.SUBMENU_FILL.text
+#: move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "Kuzuza"
+
+#: move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Kureremba"
+
+#: move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr ""
+
+#: move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr ""
+
+#. Translators: shorter as in height.
+#: move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr ""
+
+#: move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr ""
+
+#: move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr ""
+
+# the control key
+#: numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+# LOCALIZATION NOTE (Del): DONT_TRANSLATE
+#: numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Gusiba"
+
+#: numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Kongeramo"
+
+#: numberpad.kbd.in.h:9
+msgid "Num"
+msgstr ""
+
+#. Translators: abbreviation for Page Down.
+#: numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr ""
+
+#. Translators: abbreviation for Page Up.
+#: numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr ""
+
+#: numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Gusunika"
+
+#: numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr ""
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr ""

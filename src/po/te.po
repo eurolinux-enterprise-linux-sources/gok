@@ -1,0 +1,2236 @@
+# translation of gok.master.te.po to Telugu
+# Telugu translation of gok.
+# Copyright (C) Swecha Telugu Localisation Team <localisation@swecha.org>
+# This file is distributed under the same license as the gok package.
+#
+# Pramod <pramod@swecha.net>, 2007.
+# Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gok.master.te\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gok&component=general\n"
+"POT-Creation-Date: 2009-09-07 01:48+0000\n"
+"PO-Revision-Date: 2009-09-17 19:00+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "క్రియాశీలించు"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "క్రియాశీలించు:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "క్రియాశీలించుట:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "స్వయంచాలక్ సంశోధన"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "క్రింద/పైన"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "ఆపుటకు ముందు కాలచక్రములు:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:66
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "స్పందన"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "స్పందన క్రియాశీలం"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "స్పందన కదలిక"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "ప్రాధమిక ఆలస్యం:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "ఎడమ/కుడి"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "ఒక పని:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "కార్యము"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "ఇఛ్ఛాపూర్వకాలు"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr "సంశోధించుట మొదలుపెట్టుటకు మీట నొక్కుము. వేరొక మీటను లేదా అదే మీటను నొక్కుముమరలా ఎంచుకొనుటకు."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "కుడి/ఎడమ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "సంశోధన "
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "సంశోధన వేగము:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "సంశోధించు దిశ:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "సంశోధించుట మొదలుపెట్టు"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "సంశోధించుట మొదలుపెట్టు:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "పైన/క్రింద"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "అడ్డ పట్టీ/నిలువు పట్టీ పొట్లం కట్టు"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "స్పందనకదలిక"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "స్పందనఎంపిక"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "సూటి ఎంపిక"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "స్పందన క్రియాశీలం:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "స్పందన కదలిక:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr "కీ ని ఉద్దీపనంచేయుటకు మౌస్‌సూచికను కదుపుము.  ఎంపికచేయుటకు స్విచ్ ను నొక్కుము."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "ఎంచుకొను:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "నివసించు ఎంపిక"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr "కీను ఉద్దీపనంచేయుటకు మౌస్ సూచికను కదుపుము. ఎంపికచేయుటకు కీపైన పట్టిఉంచుము."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "గురించి"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "సహాయము"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "అభీష్టాలు"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "GOK త్యజించు"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "గవాక్షం"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2467
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "వెనక్కి"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:349
+msgid "A multiplier to be applied to input device valuator events before processing"
+msgstr "ఇన్‌పుట్ పరికరం వాల్యుయేటర్ ఘటనలను నిర్వర్తించుటకు మునుపు ఒక గుణకం ఆపాదించబడాలి."
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr "అదనపు పద-పూరింపు నిఘంటువులకు సెమీకోలన్-విభజించిన పూర్తిగా తెలిపిన మార్గాల జాబితా"
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "ఈ అభీష్టాలు నిరోధించబడాలా?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr "అప్రమేయ కూర్పరి కీబోర్డు కొరకు ఉపయోగించవలిసిన కీబోర్డురకం ను నిర్దారించుము"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr "X సేవిక నుండి సమాచారం పైన ఆధారపడి యాంత్రికంగా GOK కూర్పరి కీబోర్డును సంభవింపచేస్తుందా?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid "Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr "ప్రతి GOK వినియోగదారి పద భవిష్యత్తు నిఘంటువు యొక్క వ్యక్తిగత నకలు కలిగిఉండాలా?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "పూర్తితెర వెడల్పును నింపుటకు GOK విండో విస్తరింపబడాలా?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "ప్రాధమిక సూచిక GOK కీబోర్డు సూచికను అనుసరించాలా?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "ఈ చర్య కీ సగటును ఉపయోగిస్తుందా"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "ఈ ప్రతిస్పందన ప్రకాశిస్తుందా"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "ఈ ప్రతిస్పందన శబ్దంను ప్లే చేస్తుందా"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "ఈ ప్రతిస్పందన GOK కీ యొక్క లేబుల్ గురించి మాట్లాడుతుందా"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "నివసించు"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr "GOK ముఖ్య విండో యాంకర్ స్థానము (డాక్ అయితే), లేదా కాకపోతే ఖాళి స్ట్రింగ్"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr "వాడుకొనగల ఆబ్జక్టులగురించి శోధించటకు GUI వృక్షం నందు ప్రతి నోడ్‌నందు ఏన్ని శిశువులు ఉండాలి"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr "వాడుకొనగల ఆబ్జక్టుల కొరకు వెతుకుటకు GUI వృక్షంక్రింద ఎన్ని స్థాయిలు ఉండాలి"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "ఈ చర్య శాశ్వతమా"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "ఈ ప్రతిస్పందన శాశ్వతమా"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "పదము పూర్తవుటపై కలిగి"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "ప్రకాశించెడు మీట"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "ఎడమ చుంచు బొత్తం"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "మధ్య చుంచు బొత్తం"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "చుంచు బొత్తం 4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "చుంచు బొత్తం 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "చుంచు ములుకు"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "ఏదీకాదు"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "కుడి చుంచు బొత్తం"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"ఈ క్రిందివాటిలో ఒకటి కావాలి: \"xkb\", \"default\", \"alpha\", \"alpha-freq\", \"custom"
+"\"; \"custom\", \"custom_compose_keyboard\" నిర్వచించవలసి వస్తే."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "ధ్వని ఒకటి"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "ధ్వని రెండు"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "మాటలు"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "మీట 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "మీట 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "మీట ౩"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "మీట 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "మీట 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "ఈ సాంగత్య విధం వాడుటకు"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "ఈ సాంగత్య విధం దస్త్రముల నుండి నింపుటకు వివరము."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "ఈ నిఘంటువు దస్త్రముల నుండి నింపుటకు వివరము."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "ఈ gok పునఃవనరు దస్త్రము నుండి నింపుటకు వివరము"
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "వినియోగదారు-పేర్కొను లేదా మలచిన మీటల పలకం దస్త్రముల నుండి నింపుటకు వివరము."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "మలచిన GOK కూర్పరి కీబోర్డును నిర్వచించుటకు దస్త్రంకు పూర్తి మార్గనామము"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "ఈ మీట ఎత్తు"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "ఈ మీట పొడవు"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr " X సమానమై మీటల పలకాలు"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "Y సమానమైన మీటల పలకాలు"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "ఈ ప్రతిస్పందన ప్లేచేసే శబ్దం యొక్క నామము"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "పరికరంను వాడుటకు xఎగుబడి యొక్క నామము"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "వినియోగదారునికి నామము ప్రదర్శించుటకు కొరకు ఈ క్రియ"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "వినియోగదారునికి నామము ప్రదర్శించుటకు కొరకు ఈ "
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "సంఖ్య ఒకవేళ యోగ్యమైతే"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "పదము పూర్తవుట కొరకు సంఖ్య యొక్క భవిష్యత్తును చెప్పుట"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "ఈ ప్రతిస్పందన ప్రకాశించబోవు పర్యాయాల సంఖ్య"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr "కీబోర్డు దస్త్రాలు నింపబడుటకు ప్రాధమిక నిఘంటువు. సిస్టమ్ సంచయం అనునది అప్రమేయం."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "ఈ క్రియ కొరకు వెల"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "మీటల మధ్యన ఖాళీ"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "ఎదైతే ఈ క్రియ క్రియాశీలింపబడినదో ఆ స్థితి "
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "ఈ క్రియ యొక్క విధము"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr "GOK పద-పూరింపు ఆపేక్షకుల కొరకు శోధించునప్పుడు అదనపు పదజాబితాలను ఉపయోగించాలా"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr "అనువర్తనములను చూచి ప్రత్యామ్నాయ ఇన్‌పుట్ పరికరములను వుపయోగించి టైపుచేయుము"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "తెర-పై మీటల పలకం"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "3 స్థితి"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>రూపం</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>ప్రవర్తన</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>శాఖ</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>ఆదేశం భవిష్యత్తును చెప్పుట</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>ఏర్పరచు మీటల పలకం</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>మలచిన మీటలపలకాలు</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>క్రియలను నిర్వచించు</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>ఫీడ్ బ్యాక్ నిర్వచించు</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>క్రియాశీలించుటకు ముందు ఆలస్యము</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>వివరణ</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>బొది మరియు అడ్డంగా విస్తరించి పొడగించు</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>ఘటన వనరు</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>అక్షర శైలి</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>ప్రకాశించెడు మీట</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>మీట పరిమాణం మరియు ఖాళీల నియంత్రణలు</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>మీట</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>మీటల పలకం</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>మార్చునది</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>దిగుబడి</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>స్థానము</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>ఉపదర్శనం</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>సున్నితమైన</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>ధ్వని</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>మాటలు</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>మీట లేదా బొత్తం సంఖ్య</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>వైవిద్యాంశం</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>సమయములు మరియు ఆలస్యములు</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>రకము</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>వెలకట్టు రకము</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>పదము పూర్తిచేయు</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>గమనిక:</b> ఈ అమరికకు మార్పలు మీరు GOK మళ్ళీ నడుపునంతవరకు ప్రభావితం కావు.</"
+"i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr "నిర్వర్తించుటకు మునుపు విస్తరించిన ఇన్‌పుట్ పరికర వాల్యూయేటర్ ఘటనలకు ఆపాదించుటకు గుణిజం."
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "సాంగత్య పద్దతులు"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "క్రియ నామాల జాబితా"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "క్రియ రకము:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "క్రియ రకము నోట్ బుక్"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "క్రియలు"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "_నివసించుటపై క్రియశీలించు"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "_చేరుట పై క్రియాశీలించు"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "_కదుపుట పై క్రియాశీలించు"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "_అదమబడినప్పుడు క్రియాశీలించు"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "_విడుదల చేయబడినపుడు క్రియాశీలించు"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "చేర్చు"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "కొత్త మీట చేర్చు"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "GOK మీటల పలకాలు వెతుకుట కొరకు అధికముగా చేర్చిన వివరము"
+
+#: ../gok.glade2.h:47
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "తొలిపూర్ణ సంఖ్య మీటల పలకం వరుస పద్దతిలో పెట్టుట ద్వారా పదం పౌనఃపున్యము"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "తొలిపూర్ణ సంఖ్య మీటల పలకం అక్షర క్రమానుసారంగా చేర్చబడింది"
+
+#: ../gok.glade2.h:49
+msgid "Appearance"
+msgstr "రూపం"
+
+#: ../gok.glade2.h:50
+msgid "Bottom:"
+msgstr "క్రింద:"
+
+#: ../gok.glade2.h:51
+msgid "Browse"
+msgstr "అన్వేషించు"
+
+#: ../gok.glade2.h:52
+msgid "C_ore pointer"
+msgstr "_కీలక ములుకు"
+
+#: ../gok.glade2.h:53
+msgid "Command Prediction"
+msgstr "ఆదేశం భవిష్యత్తు చెప్పుట"
+
+#: ../gok.glade2.h:54
+msgid "Delay"
+msgstr "ఆలస్యము"
+
+#: ../gok.glade2.h:55
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr "ఆలస్యం, సెకనులో 100 ఓ భాగము, ప్రయోగపు ఘటన సంభవంకు తర్వాత, క్రీయాశీలం కాబోవోటకు ముందు."
+
+#: ../gok.glade2.h:56
+msgid "Delete"
+msgstr "తొలగించు"
+
+#: ../gok.glade2.h:57
+msgid "Delete Key"
+msgstr "మీట తొలగించు"
+
+#: ../gok.glade2.h:58
+msgid "Dock"
+msgstr "బొది, దొరువు"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:59 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "బొది క్రింద"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "బొది పైన"
+
+#: ../gok.glade2.h:61
+msgid "Duplicate"
+msgstr "నకిలీ"
+
+#: ../gok.glade2.h:62
+msgid "Enable _key flashing"
+msgstr "_మీట ప్రకాశము క్రియాశీలించు"
+
+#: ../gok.glade2.h:63
+msgid "Enable _sound"
+msgstr "_ధ్వని క్రియాశీలించు"
+
+#: ../gok.glade2.h:64
+msgid "Enable _word completion"
+msgstr "‌_పదం ముగించుటను క్రియాశీలించు"
+
+#: ../gok.glade2.h:65
+msgid "Enable co_mmand prediction"
+msgstr "_ఆదేశ భవిష్యత్తును చెప్పుట క్రియాశీలించు"
+
+#: ../gok.glade2.h:67
+msgid "Fill Width"
+msgstr "నింపు పొడవు"
+
+#: ../gok.glade2.h:68
+msgid "Font Group:"
+msgstr "అక్షర శైలి సముదాయం:"
+
+#: ../gok.glade2.h:69 ../gok/gok-editor.c:36
+msgid "GOK Keyboard Editor"
+msgstr "GOK మీటల పలకం సరిచేయునది"
+
+#: ../gok.glade2.h:70
+msgid "GOK Preferences"
+msgstr "GOK అభీష్టాలు"
+
+#: ../gok.glade2.h:71
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:72
+msgid "Key Height"
+msgstr "మీట ఎత్తు"
+
+#: ../gok.glade2.h:73
+msgid "Key Spacing"
+msgstr "మీట ఖాళీ"
+
+#: ../gok.glade2.h:74
+msgid "Key Width"
+msgstr "మీట పొడవు"
+
+#: ../gok.glade2.h:75
+msgid "Key _width:"
+msgstr "_మీట పొడవు"
+
+#: ../gok.glade2.h:76
+msgid "Key h_eight:"
+msgstr "_మీట ఎత్తు"
+
+#: ../gok.glade2.h:77
+msgid "Keyboards"
+msgstr "మీటల పలకాలు"
+
+#: ../gok.glade2.h:78
+msgid "Keycode:"
+msgstr "మీటసంకేతం:"
+
+#: ../gok.glade2.h:79
+msgid "Keysym:"
+msgstr "కీసిమ్:"
+
+#: ../gok.glade2.h:80
+msgid "Label:"
+msgstr "లేబుల్:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:81 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "ఎడమ:"
+
+#: ../gok.glade2.h:82
+msgid "Match physical keyboard as reported by X Server"
+msgstr "X సేవిక ద్వారా నివేదించినట్లుగా భౌతిక కీబోర్డును సరిపోల్చుము"
+
+#: ../gok.glade2.h:83
+msgid "Modifier Post"
+msgstr "సవరణి పోస్టు"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Pre"
+msgstr "సవరణి ప్రి"
+
+#: ../gok.glade2.h:85
+msgid "Modifier:"
+msgstr "సరిచేయునది:"
+
+#: ../gok.glade2.h:86
+msgid "Move Down"
+msgstr "క్రిందికి కదుపు"
+
+#: ../gok.glade2.h:87
+msgid "Move Up"
+msgstr "పైకి కదుపు"
+
+#: ../gok.glade2.h:88
+msgid "Name:"
+msgstr "నామము:"
+
+#: ../gok.glade2.h:89
+msgid "New"
+msgstr "కొత్త"
+
+#: ../gok.glade2.h:90
+msgid "Next Key"
+msgstr "తరువాత మీట"
+
+#: ../gok.glade2.h:91
+msgid "Normal"
+msgstr "సాధారణమైన"
+
+#: ../gok.glade2.h:92
+msgid "Number of _flashes:"
+msgstr "_ప్రకాశవంతముల యొక్క సంఖ్య:"
+
+#: ../gok.glade2.h:93
+msgid "Number of _predictions:"
+msgstr "_భవిష్యత్తు చెప్పుట సంఖ్య:"
+
+#: ../gok.glade2.h:94
+msgid "Number of command predictions:"
+msgstr "ఆదేశ భవిష్యత్తు చెప్పుట యొక్క సంఖ్య:"
+
+#: ../gok.glade2.h:95
+msgid "Number of word predictions:"
+msgstr "పదం భవిష్యత్తు చెప్పుట యొక్క సంఖ్య:"
+
+#: ../gok.glade2.h:96
+msgid "Other _input device:"
+msgstr "_వేరొక ఎగుబడి పరికరం:"
+
+#: ../gok.glade2.h:97
+msgid "Prediction"
+msgstr "భవిష్యత్తు చెప్పుట"
+
+#: ../gok.glade2.h:98
+msgid "Press"
+msgstr "నొక్కుట"
+
+#: ../gok.glade2.h:99
+msgid "Previous Key"
+msgstr "ముందు మీట"
+
+#: ../gok.glade2.h:100
+msgid "Read keyboard from file:"
+msgstr "దస్త్రం నుండి మీటల పలకంను చదువు"
+
+#: ../gok.glade2.h:101
+msgid "Release"
+msgstr "విడుదల"
+
+#. User interface for the access method
+#: ../gok.glade2.h:102 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "కుడి:"
+
+#: ../gok.glade2.h:103
+msgid "S_witch"
+msgstr "_మీట"
+
+#: ../gok.glade2.h:104
+msgid "Show Only This Font Group"
+msgstr "ఈ ఫాంటు సమూహంను మాత్రమే చూపుము"
+
+#: ../gok.glade2.h:105
+msgid "So_und:"
+msgstr "_ధ్వని:"
+
+#: ../gok.glade2.h:106
+msgid "Speak key _label"
+msgstr "‌_మాట్లాడే మీట లేబుల్"
+
+#: ../gok.glade2.h:107
+msgid "Style:"
+msgstr "శైలి:"
+
+#: ../gok.glade2.h:108
+msgid "Switch _1"
+msgstr "_మీట 1"
+
+#: ../gok.glade2.h:109
+msgid "Switch _2"
+msgstr "_మీట 2"
+
+#: ../gok.glade2.h:110
+msgid "Switch _3"
+msgstr "_మీట 3"
+
+#: ../gok.glade2.h:111
+msgid "Switch _4"
+msgstr "_మీట 4"
+
+#: ../gok.glade2.h:112
+msgid "Switch _5"
+msgstr "_మీట 5"
+
+#: ../gok.glade2.h:113
+msgid "Target:"
+msgstr "గమ్యం:"
+
+#: ../gok.glade2.h:114
+msgid "To Back"
+msgstr "వెనుకకు"
+
+#: ../gok.glade2.h:115
+msgid "To Front"
+msgstr "ముందుకు"
+
+#: ../gok.glade2.h:116
+msgid "Toggle"
+msgstr "మార్పు"
+
+#: ../gok.glade2.h:117
+msgid "Top:"
+msgstr "పైన:"
+
+#: ../gok.glade2.h:118
+msgid "Use _extra word list file(s)"
+msgstr "_అధిక పద జాబితా దస్త్రం(లు) వాడుము"
+
+#: ../gok.glade2.h:119
+msgid "Use _key averaging"
+msgstr "_మీట సగటును వాడుము"
+
+#: ../gok.glade2.h:120
+msgid "Valuator Sensitivity"
+msgstr "వాల్యుయేటర్ సున్నితత్వం"
+
+#: ../gok.glade2.h:121
+msgid "Word Completion"
+msgstr "పదం ముగింపు"
+
+#: ../gok.glade2.h:122
+msgid "_100ths of a second"
+msgstr "సేకనులు _100 ఓ బాగము"
+
+#: ../gok.glade2.h:123
+msgid "_Add"
+msgstr "_చేర్చు"
+
+#: ../gok.glade2.h:124
+msgid "_Browse..."
+msgstr "_అన్వేషించు..."
+
+#: ../gok.glade2.h:125
+msgid "_Delete"
+msgstr "_తొలగించు"
+
+#: ../gok.glade2.h:126
+msgid "_Joystick"
+msgstr "_"
+
+#: ../gok.glade2.h:127
+msgid "_Method:"
+msgstr "_పద్దతి:"
+
+#: ../gok.glade2.h:128
+msgid "_Name:"
+msgstr "_నామము:"
+
+#: ../gok.glade2.h:129
+msgid "_New"
+msgstr "_కొత్త"
+
+#: ../gok.glade2.h:130
+msgid "_Number of predictions:"
+msgstr "_భవిష్యత్తు చెప్పుట యొక్క సంఖ్య:"
+
+#: ../gok.glade2.h:131
+msgid "_Rename"
+msgstr "_పునర్నామకరణ"
+
+#: ../gok.glade2.h:132
+msgid "_Single axis:"
+msgstr "_ఒంటరి అక్షము:"
+
+#: ../gok.glade2.h:133
+msgid "_Spacing:"
+msgstr "_ఖాళీ:"
+
+#: ../gok.glade2.h:134
+msgid "_Use Desktop Theme Preferences"
+msgstr "_గవాక్ష వైవిద్యాంశ అభీష్టాలు వాడుము"
+
+#: ../gok.glade2.h:135
+msgid "_Valuator"
+msgstr "_"
+
+#: ../gok.glade2.h:136
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "_X-Y వాల్యూయేటర్ (అక్షములు 0 మరియు )1"
+
+#: ../gok.glade2.h:137
+msgid "access method name"
+msgstr "సాంగత్య పద్దతి నామము"
+
+#: ../gok.glade2.h:138
+msgid "cancel"
+msgstr "రద్దుచేయు"
+
+#: ../gok.glade2.h:139
+msgid "display user help"
+msgstr "వినియోగదారు సహాయము ప్రదర్శించు"
+
+#: ../gok.glade2.h:140
+msgid "high"
+msgstr "ఎక్కువ"
+
+#: ../gok.glade2.h:141
+msgid "low"
+msgstr "తక్కువ"
+
+#: ../gok.glade2.h:142
+msgid "pixels"
+msgstr "పిక్సెల్స్"
+
+#: ../gok.glade2.h:143
+msgid "revert to original settings"
+msgstr "పూర్వస్థితికి మొదటి అమరికలు"
+
+#: ../gok.glade2.h:144
+msgid "try these settings"
+msgstr "ఈ అమరికలను ప్రయత్నించుము"
+
+#: ../gok.glade2.h:145
+msgid "use these settings"
+msgstr "ఈ అమరికలను వాడుము"
+
+#: ../gok/callbacks.c:373
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "క్షమించాలి, వాడుకొను విధానం విజార్డు ఇంకా తయారుకాలేదు."
+
+#: ../gok/callbacks.c:375
+msgid "GOK Access Method Wizard"
+msgstr "GOK సాంగత్య పద్దతి మంత్రగాడు"
+
+#: ../gok/gok-control.c:248
+msgid "GOK Browse for sound file"
+msgstr "ధ్వని దస్త్రం కొరకు GOK అన్వేషించు"
+
+#: ../gok/gok-control.c:249
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "క్షమించాలి, శబ్ద దస్త్రం కొరకు అన్వేషణ ఇంకా తయారుకాలేదు."
+
+#: ../gok/gok-control.c:254
+msgid "GOK Inverse Scanning Advanced"
+msgstr "GOk విలోమమైన సంశోధన ఉన్నతస్థితి"
+
+#: ../gok/gok-control.c:255
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "క్షమించాలి, ఆధునిక అమరికలు ఇంకా తయారుకాలేదు."
+
+#: ../gok/gok-editor.c:147 ../gok/gok-editor.c:181 ../gok/gok-editor.c:262
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"నీవు గాని ప్రస్తుత దస్త్రమును మార్చినావా.\n"
+"నీవు మీ యొక్క మార్పులను వద్దనుకుంటున్నావా?"
+
+#: ../gok/gok-editor.c:149 ../gok/gok-editor.c:183 ../gok/gok-editor.c:264
+#: ../gok/gok-editor.c:1056
+msgid "Keyboard Filename Invalid"
+msgstr "మీటల పలకం దస్త్ర నామము వర్తించదు"
+
+#: ../gok/gok-editor.c:212
+msgid "new"
+msgstr "కొత్త"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:274
+msgid "Select keyboard file for editing"
+msgstr "సరిచేయుట కొరకు మీటల పలకం దస్త్రం ఎంచుకొను"
+
+#: ../gok/gok-editor.c:284 ../gok/gok-editor.c:976
+msgid ".kbd files"
+msgstr ".kbd దస్త్రాలు"
+
+#: ../gok/gok-editor.c:539
+msgid "label"
+msgstr "లేబుల్"
+
+#: ../gok/gok-editor.c:713
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "దస్త్రం ను దాచలేము: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:966
+msgid "Save keyboard file as"
+msgstr "మీటల పలకం దస్త్రం ఇలా దాచు"
+
+#: ../gok/gok-editor.c:1047
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"ఈ మీటల పలకం దస్త్ర నామము వర్తించదు:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1079
+msgid "(new)"
+msgstr "(కొత్త)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"కొత్త హార్డువేర్ పరికరం '%s' నుండి GOK క్రియాశీలతను గర్తించింది.  మీరు ఈ పరికరాన్ని '%s' పరికరం "
+"బదులుగా ఉపయోగించాలని అనుకుంటున్నారా?"
+
+#: ../gok/gok-key.c:118
+msgid "Mute"
+msgstr "మౌనం"
+
+#: ../gok/gok-key.c:121
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"చుంచు\n"
+"మీటలు"
+
+#: ../gok/gok-key.c:124
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"ఎడమ\n"
+"నెట్టు"
+
+#: ../gok/gok-key.c:231
+msgid "<nil>"
+msgstr "<శూన్యము>"
+
+#: ../gok/gok-key.c:235
+msgid "Divide"
+msgstr "విభజించు"
+
+#: ../gok/gok-key.c:238
+msgid "Multiply"
+msgstr "గుణించు"
+
+#: ../gok/gok-key.c:241
+msgid "Subtract"
+msgstr "తొలగించు"
+
+#: ../gok/gok-key.c:244
+msgid "Addition"
+msgstr "జతచేయు"
+
+#: ../gok/gok-key.c:247
+msgid "Prior"
+msgstr "ప్రాముఖ్యమైన"
+
+#: ../gok/gok-key.c:250
+msgid "Next"
+msgstr "తరువాతి"
+
+#: ../gok/gok-key.c:253 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "నివాసం"
+
+#: ../gok/gok-key.c:256 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "చివరి"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:259 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "పైన"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:262 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "క్రింద"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:265 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "ఎడమ"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:268 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "కుడి"
+
+#: ../gok/gok-key.c:271
+msgid "Begin"
+msgstr "మెదలు"
+
+#: ../gok/gok-key.c:274
+msgid "Decimal"
+msgstr "డెసిమల్"
+
+#: ../gok/gok-key.c:277
+msgid "Meta"
+msgstr "Meta"
+
+#: ../gok/gok-key.c:280
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"రెండు\n"
+"మీట"
+
+#: ../gok/gok-key.c:283
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"ఐసు\n"
+"మార్పు"
+
+#: ../gok/gok-key.c:286
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"హెక్నన్\n"
+"విధము"
+
+#: ../gok/gok-key.c:289
+msgid "Muhenkan"
+msgstr "ముహెన్ కన్"
+
+#: ../gok/gok-key.c:292
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"విధము\n"
+"మీట"
+
+#: ../gok/gok-key.c:295
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"హిరగానా\n"
+"కటకానా"
+
+#: ../gok/gok-keyboard.c:156
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Xkb పొడిగింపు సిద్దంకాలేక పోయింది! (దోషం కోడ్ %x)"
+
+#: ../gok/gok-keyboard.c:162 ../gok/gok-keyboard.c:203
+msgid "keyboard description not available!"
+msgstr "మీటల పలకం వివరణ లభించలేదు!"
+
+#: ../gok/gok-keyboard.c:168 ../gok/gok-keyboard.c:209
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "కీబోర్డు రేఖాశాస్త్రం మీ X సేవికనుండి చదువబడలేదు."
+
+#: ../gok/gok-keyboard.c:434
+msgid "Back"
+msgstr "వెనుక"
+
+#: ../gok/gok-keyboard.c:451 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "తరువాతది మళ్ళీచేయు"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "సరిచేయు"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"నమ్\n"
+"పాడ్"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "దాచు"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:680
+msgid "shift"
+msgstr "shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:693
+msgid "Level 2"
+msgstr "స్థాయి 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:706
+msgid "Level 3"
+msgstr "స్థాయి 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:719
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"వెనుక\n"
+"ఖాళీ"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:730 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "నెట్టు"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:741
+msgid "space"
+msgstr "ఖాళీ"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:752 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "చేర్చు"
+
+#: ../gok/gok-keyboard.c:790 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "జాబితాలు"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:846
+#| msgid "level 0|abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:850
+#| msgid "level 1|ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:862
+#| msgid "level 2|"
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:871
+#| msgid "level 3|"
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:918
+#| msgid "level 0|etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:919
+#| msgid "level 1|ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:927
+#| msgid "level 2|"
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:933
+#| msgid "level 3|"
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1916
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2790
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2795 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "పట్టిక"
+
+#: ../gok/gok-keyboard.c:2800 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "పనిముట్ల పట్టాలు"
+
+#: ../gok/gok-keyboard.c:2804
+msgid "Applications"
+msgstr "కార్యక్షేత్రాలు"
+
+#: ../gok/gok-keyboard.c:2814
+msgid "Menu"
+msgstr "జాబితా"
+
+#. please!
+#: ../gok/gok-keyboard.c:3626 ../gok/gok-sound.c:49 ../gok/main.c:1941
+#: ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3630
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "గ్నోమ్ గవాక్షం కొరకు చురుకైన వాస్తవ ప్రతిరూప మీటల పలకాలు"
+
+#: ../gok/gok-keyboard.c:3632
+msgid "translator-credits"
+msgstr "Pramod <pramod@swecha.net>"
+
+#: ../gok/gok-keyboard.c:3634
+msgid "Full Credits"
+msgstr "పూర్తి పరపతులు"
+
+#: ../gok/gok-keyboard.c:3636
+#| msgid "About"
+msgid "About GOK"
+msgstr "GOK గురించి"
+
+#: ../gok/gok-libusb.c:162
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "libusb బ్యక్ఎండ్ - %s ను సిద్దీకరించలేదు"
+
+#: ../gok/gok-libusb.c:190
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: VID:PID యుగళం %x:%x తో పరికరం కనుగొన్నది"
+
+#: ../gok/gok-libusb.c:201
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "VID:PID యుగళం %x:%x తో పరికరం ను కనుగొనలేకపోయింది"
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:213
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "%s పైన అక్కడి సరికాని అనుమతులు ఉన్నవి"
+
+#: ../gok/gok-libusb.c:301
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "పరికరం %x:%x నందు ఏ సరిజోడి USB అంత్యసూచీలు కనబడలేదు"
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "వివరణ చదువుటలో దోషము"
+
+#.
+#. * i18n: "Key Feedback" is a sound event description. The string
+#. * doesn't appear in the user interface, it is part of the metadata
+#. * attached to sounds coming from GOK. Sounds are played whenever
+#. * a key on the virtual keyboard is pressed.
+#.
+#: ../gok/gok-sound.c:58
+#| msgid "Feedback"
+msgid "Key Feedback"
+msgstr "కీ స్పందన"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1701
+msgid "V Scrollbar"
+msgstr "V జరుపు పట్టా"
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1706
+msgid "H Scrollbar"
+msgstr "H జరుపు పట్టా"
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:375 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "GOK క్రియ నామము"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:381
+msgid "Change the action name:"
+msgstr "క్రియ నామమును మార్చుము:"
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"క్రియ నామము ఖాళీగా ఉండకూడదు.\n"
+"దయచేసి కొత్త క్రియ నామమును చేర్చుము."
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"క్షమించండి, ఆ క్రియ నామము ఇదివరకే కలిగివున్నది.\n"
+"దయచేసి కొత్త క్రియ నామమును చేర్చుము"
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+msgid "New Action %d"
+msgstr "%d కొత్త క్రియ"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "నీవు ఈ క్రియను తొలగించుటకు ఇష్టపడుతున్నావా (%s)?"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "GOK క్రియ తొలగించు"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:413 ../gok/gok-page-feedbacks.c:453
+#: ../gok/gok-page-feedbacks.c:473
+msgid "GOK Feedback Name"
+msgstr "GOK ప్రతిస్పందన నామము"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:419
+msgid "Change the feedback name:"
+msgstr "ప్రతిస్పందన నామమును మార్చుము:"
+
+#: ../gok/gok-page-feedbacks.c:451
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"ప్రతిస్పందననామము ఖాళీ కాలేదు.\n"
+"దయచేసి కొత్త ప్రతిస్పందన నామమును ప్రవేశపెట్టుము."
+
+#: ../gok/gok-page-feedbacks.c:471
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"క్షమించాలి, ప్రతిస్పందననామము ఇప్పటికే ఉంది.\n"
+"దయచేసి కొత్త ప్రతిస్పందననామమను ప్రవేశపెట్టండి"
+
+#: ../gok/gok-page-feedbacks.c:523
+#, c-format
+msgid "New Feedback %d"
+msgstr "కొత్త ప్రతిస్పందన %d"
+
+#: ../gok/gok-page-feedbacks.c:639
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "మీరు ఈ ప్రతిస్పందన (%s) ను తొలగించుదామని అనుకుంటున్నారా?"
+
+#: ../gok/gok-page-feedbacks.c:648
+msgid "GOK Delete Feedback"
+msgstr "GOK తొలగింపు ప్రతిస్పందన"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:871
+msgid "Select sound file"
+msgstr "ధ్వని దస్త్రంను ఎంచుకొను"
+
+#: ../gok/gok-page-keyboard.c:215
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "అదనపు GOK కీబోర్డు దస్త్రముల కొరకు శోధించుటకు సంచయంను ప్రవేశపెట్టండి."
+
+#: ../gok/gok-page-keyboard.c:249
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr "మీ ప్రారంభ కూర్పరి కీబోర్డును నిర్వచించు XML దస్త్రంను ఎంపికచేయుము"
+
+#: ../gok/gok-page-keysizespace.c:82
+msgid "Button"
+msgstr "బొత్తం"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "గవాక్షం జాబితా"
+
+#: ../gok/gok-utf8-word-complete.c:121
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "'%s' నిఘంటువు దస్త్రం యొక్క సారములు చదువలేము\n"
+
+#: ../gok/main.c:209
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"తెలుపబడిన వాడంకం విధానాన్ని ఉపయోగించుము. నామము స్ట్రింగ్ మరియు వేర్వేరు వాడిక విధాన దస్త్రాలలో "
+"కనబడుతుంది (.xam) <gok:accessmethod> \"నామము\" లక్షణం కు అప్పగించబడుతుంది. ఇది xam "
+"దస్త్రం యొక్క నామము మాదిగా ఉండాల్సిన అవసరంలేదని గమనించండి. (--జాబితా-వాడువిధానాలను చూడండి)"
+
+#: ../gok/main.c:210
+msgid "NAME"
+msgstr "నామము"
+
+#: ../gok/main.c:218
+msgid "Start the GOK keyboard editor"
+msgstr "GOK మీటల పలకం సరిచేయునది మొదలుపెట్టు"
+
+#: ../gok/main.c:226
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "ప్రత్యేకంగా వాడు, కాని సాధ్యముగా నిలకడగాలేదు, gok వస్తువు"
+
+#: ../gok/main.c:234
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"ఎప్పుడైనా --జియోమెట్రీ ఉపయోగించనప్పుడు gok దాని స్థానమును ఇన్‌వోకేషన్స్ మరియు ప్రారంభంలమద్య అది "
+"మూయబడికముందు ఉన్న స్థానమునందు గుర్తుంచుకొంటుంది. --జియోమెట్రీ gok స్థానములను దానంతటదే "
+"దీర్ఘచతురస్త్ర తెర ప్రాంతము X11 జియోమెట్రీ వివరణలో తెలుపబడే దాంట్లో ఉపయోగిస్తుంది. ఎప్పుడైతే --జియోమెట్రీ "
+"gok ఉపయోగించినా అది మూయబడేటప్పుడు స్థానాన్ని గుర్తుంచుకోదు. ఈ స్వబావం --జియోమెట్రీగుర్తుంచుకో ఫ్లాగ్ తో "
+"మార్చబడుతుంది ఏదైతే gok ని దాని స్థానాన్ని మూసివేత అప్పుడు --జియోమెట్రీతో ప్రారంభమప్పుడు గర్తుంచుటకు "
+"బలవంతపెడుతుందో."
+
+#: ../gok/main.c:235
+msgid "GEOMETRY"
+msgstr "క్షేత్ర గణితం"
+
+#: ../gok/main.c:243
+msgid "Use the specified input device"
+msgstr "నిర్థేశించబడిన ఎగుమతి పరికరం వాడుము"
+
+#: ../gok/main.c:244
+msgid "DEVICENAME"
+msgstr "పరికరనామము"
+
+#: ../gok/main.c:252
+msgid "Start GOK with the specified keyboard."
+msgstr "నిర్థేశించబడిన మీటల పలకం తో GOK మొదలుపెట్టు."
+
+#: ../gok/main.c:253
+msgid "KEYBOARDNAME"
+msgstr "మీటల పలకం నామము"
+
+#: ../gok/main.c:261
+msgid "List the access methods that can be used as options to other arguments."
+msgstr "ఇతర ఆర్గుమెంట్లకు ఐచ్చికాలుగా ఉపయోగింపగల వాడిక విధానాలను జాబితాచేయుము."
+
+#: ../gok/main.c:270
+msgid "List the actions that can be used as options to other arguments."
+msgstr "ఇతర ఆర్గుమెంట్లకు ఐచ్చికాలగా ఉపయోగించగల చర్యలను జాబితాచేయుము."
+
+#: ../gok/main.c:279
+msgid "GOK will be used to login"
+msgstr "ప్రవేశద్వారం కు GOK వాడబడును"
+
+#: ../gok/main.c:289
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "నామములేని GUI కొరకు GOK మీటలను ప్రదర్శించును. లోపం నిర్మూలించుటకు ఉపయోగము."
+
+#: ../gok/main.c:299
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"--జియోమెట్రి తో ఉపయోగపడగలదు.  GOK దాని స్థానమును ముసివేత అప్పుడు మరియు --జియోమెట్రీ తో "
+"ప్రారంభమగునప్పుడు గుర్తుపెట్టుకొనుటకు బలవంతపెడుతుంది. దయచేసి ఎక్కువసమాచారం కొరకు --జియోమెట్రీ "
+"ఫ్లాగ్‌ క్రింది చర్చను చూడండి."
+
+#: ../gok/main.c:310
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr "GOK ను ప్రారంభించండి మరియు ఈ చర్యను స్కాన్ కార్యములకు తగిలించండి. (చూడండి --జాబితా-చర్యలు)"
+
+#: ../gok/main.c:320
+msgid "Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr "GOK ను ప్రారంభించండి మరియు ఈ చర్యను ఎంపిక కార్యములకు తగిలించండి. (చూడండి --జాబితా-చర్యలు)"
+
+#: ../gok/main.c:329
+msgid "Open the settings dialog box when GOK starts"
+msgstr "GOK మొదలైనప్పుడు అమరికల వివరణ పేటిక తెరువుము"
+
+#: ../gok/main.c:339
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"libusb ను ఇన్‌పుట్ ఘటనల కొరకు ఉపయోగించండి మరియు పరికరాన్ని తెలుపబడిన USB అమ్మకందారు ID (VID) "
+"మరియు ఉత్పత్తి ID (PID) తో ఉపయోగించండి."
+
+#: ../gok/main.c:358
+msgid "Attempt to use GOK without the system mouse"
+msgstr "సిస్టమ్ మౌస్‌తో కాకుండా GOK వుపయోగించడానికి దాడి"
+
+#: ../gok/main.c:367
+msgid "Disable automatic keyboard branching"
+msgstr "స్వయంచాలక కీబోర్డు శాఖీకరణను అచేతనముచేయి"
+
+#: ../gok/main.c:668
+msgid "The GNOME On-screen Keyboard"
+msgstr "గ్నోమ్ పై-తెర మీటల పలకం"
+
+#: ../gok/main.c:766
+#| msgid "gok: Unsupported geometry specification"
+msgid "Unsupported geometry specification"
+msgstr "మద్దతీయని జియోమెట్రీ విశదీకరణ"
+
+#: ../gok/main.c:767
+#| msgid ""
+#| "Currently GOK requires that the x, y, width and height all be given.  "
+#| "Sorry, your geometry specification will not be used."
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given. Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"ప్రస్తుతం GOK కు అవసరమైన x, y, వెడల్పు మరియు ఎత్తు అన్ని ఇవ్వబడినవి.  క్షమించాలి, మీ జియోమెట్రీ వివరణ "
+"వుపయోగించబడబోదు."
+
+#: ../gok/main.c:863
+msgid "XKB extension is required."
+msgstr "XKB పొడగింపు అవసరము."
+
+#: ../gok/main.c:873
+msgid "Can't initialize actions."
+msgstr "క్రియలను సంసిద్దించుటకు వీలుకాదు."
+
+#: ../gok/main.c:883
+msgid "Can't initialize feedbacks."
+msgstr "ఫీడ్‌బ్యాక్స్  ను సిద్దీకరించలేదు."
+
+#: ../gok/main.c:928 ../gok/main.c:937
+#| msgid "can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgid "Can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr "libusb బ్యాక్ఎండ్ ను సిద్దీకరించలేదు - USB VID:PID యుగళంను పార్శ్ చేయలేదు"
+
+#: ../gok/main.c:953
+msgid "Can't create the main GOK window!"
+msgstr "మూల GOK గవాక్షంను సృష్టించలేవు!"
+
+#: ../gok/main.c:972
+msgid "Can't create the settings dialog window!"
+msgstr "అమరికల వివరణ గవాక్షంను సృష్టించలేవు!"
+
+#: ../gok/main.c:1033
+msgid "No keyboards to display!"
+msgstr "ప్రదర్శనకు ఎటువంటి మీటల ఫలకాలు లేవు "
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1170 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "UI లాక్కొను"
+
+#: ../gok/main.c:1187
+msgid "popup menu"
+msgstr "ప్రత్యక్షమయ్యే జాబితా"
+
+#: ../gok/main.c:2113
+msgid "Can't create a compose keyboard!"
+msgstr "ఏర్పరచు మీటల ఫలకంను సృష్టించలేము!"
+
+#: ../gok/main.c:2155
+msgid "Can't read any keyboards!"
+msgstr "ఎటువంటి మీటల ఫలకం చదువలేము!"
+
+#: ../gok/main.c:2266
+#| msgid "could not access method directory key from GConf!"
+msgid "Could not get access method directory key from GConf."
+msgstr "GConf నుండి యాక్సెస్ పద్దతి డైరెక్టరీ కీను పొందలేక పోయింది."
+
+#: ../gok/main.c:2273
+#| msgid "possibly unknown access method!"
+msgid "Possibly unknown access method."
+msgstr "సాధ్యముగా తెలియని యాక్సెస్ పద్దతి."
+
+#: ../gok/main.c:2829
+#| msgid ""
+#| "Sorry, GOK can't run because:\n"
+#| "%s"
+msgid "Sorry, GOK can't run"
+msgstr "క్షమించండి, GOK నడుపలేవు"
+
+#: ../gok/main.c:2840
+msgid "GOK Fatal Error"
+msgstr "GOK తీవ్ర దోషము"
+
+#: ../gok/main.c:2876
+#| msgid "GOK Fatal Error"
+msgid "GOK Error"
+msgstr "GOK దోషము"
+
+#: ../gok/main.c:2896
+#| msgid ""
+#| "GOK uses GConf 2 to store its settings and requires certain settings to "
+#| "be in GConf to run.  GOK is currently unable to retrieve those settings.  "
+#| "If this is the first time that you have run gok after installing it you "
+#| "may need to restart gconfd, you can use this command: 'gconftool-2 --"
+#| "shutdown' or log out and back in."
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run. GOK is currently unable to retrieve those settings. If this "
+"is the first time that you have run gok after installing it you may need to "
+"restart gconfd, you can use this command: 'gconftool-2 --shutdown' or log "
+"out and back in."
+msgstr ""
+"GOK ఉపయోగిస్తుంది GConf 2 ను దాని అమరికలను నిల్వఉంచుటకు మరియు కొన్ని అమరికలు GConf లో ఉంటాయి "
+"నడుపుటకు.  GOK ప్రస్తుతం వాటిని తిరిగిపోందలేదు. మీరు gok సంస్థాపించిన తర్వాత ఇదే మొదటి సారి "
+"నడుపుతుంటే మీరు gconfd ను పునఃప్రారంబించవలసి ఉంటుంది, మీరు ఈ అదేశంను ఉపయోగించ వచ్చు: "
+"'gconftool-2 --shutdown' లేదా లాగ్ అవుట్ అయ్యి మళ్ళీ లాగిన్ అవ్వండి."
+
+#: ../gok/main.c:3135
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"GOK సరిగా పనిచోస్తుండక పోవచ్చు, ఎంచేతంటే ఇది మీ డెస్కుటాప్ యొక్క 'చీటి కీలు' సౌలబ్యాన్ని చేతనం "
+"చేయలేకపోయింది."
+
+#: ../gok/main.c:3142
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr "GOK అతికించు మీటలను ఉపయోగించబడినది, అది కావలసిన.\n"
+
+#. post an error dialog
+#: ../gok/main.c:3160
+#| msgid "GOK cannot run because XKB display extension is missing.\n"
+msgid "XKB display extension is missing."
+msgstr "XKB ప్రదర్శన పొడగింపు తప్పిపోయింది."
+
+#: ../gok/main.c:3284
+msgid "Unable to open help file"
+msgstr "సహాయ ఫైలును తెరువలేక పోయింది"
+
+#: ../gok/main.c:3310
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+"మీరు GOK ను నిర్వర్తించుటకు ఉపయోగిస్తున్న పరికరం సిస్టమ్ సూచికను (లేదా 'మౌస్ సూచీను') కూడా "
+"నియంత్రిస్తోది.  మీ సామర్ద్యంతో అప్లికేషన్‌లను లేదా GOK ఉపయోగించుటకు సూచిక యొక్క అనువర్తనంల ఉపయోగం "
+"విభేదాలు కల్పించకొనవచ్చు.\n"
+"\n"
+"మీ ఇన్‌పుట్ పరికరంను 'విస్తరించిన' ఇన్‌పుట్ పరికరంగా ఆకృతీకరించుట మేము గట్టిగా సమర్దస్తాము; అధిక "
+"సమాచారం కొరకు GOK సహాయంను చూడండి."
+
+#: ../gok/main.c:3316
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"మీరు GOK ను నింయంత్రించుటకు ఉపయోగిస్తున్న పరికరం సిస్టమ్ సూచినికూడా నియంత్రిస్తుంది.\n"
+"\n"
+"సూచిక యొక్క ఉపయోగంతో అనువర్తనంలతో ఇబ్బందులను తొలగించుటకు, మీరు మీ GOK భాగము యొక్క కాలమునకు "
+"సిస్టమ్ సూచినుండి ఉపయోగిస్తున్న పరికరాన్ని GOK అననుసంధానంచేస్తుంది.\n"
+"\n"
+"మద్యేమార్గంగా, మీరు GOK ను వేరే ఇన్‌పుట్ పరికరం ఉపయోగించునట్టు ఆకృతీకరించవచ్చు; వివరముల కొరకు "
+"సహాయంను చూడుము."
+
+#. no longer used!
+#: ../gok/main.c:3323 ../gok/main.c:3326
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "మీరు GOK ను 'ప్రాధమిక సూచి' రీతిని ఉపయోగించుకొనుటకు ఆకృతీకరిస్తున్నట్లు కనిపిస్తున్నారు."
+
+#: ../gok/main.c:3420
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"సహాయక సాకేతికత మద్దతు చేతనంకాలేదు.\n"
+"\n"
+"మీరు సహాయక సాంకేతికతల కొరకు మద్దతు ను చేతనంచేయుకుండా GOK ను ప్రారంబించవచ్చు. ఏమైనప్పటికి, "
+"అనువర్తనం యొక్క కొన్ని సౌలభ్యాలు అందుబాటులో ఉండకపోవచ్చు.\n"
+"\n"
+"సహాయక సాంకేతకతల కొరకు మద్దతును చేతనపరుచుటకు మరియు మార్పు చేతనంతో కొత్త భాగమునకు లాగ్ "
+"అవ్వుటకు, చేతనం నొక్కుము మరియు లాగ్ అవుట్.\n"
+"\n"
+"GOK ఉపయోగిస్తూ కొనసాగించుటకు, కొనసాగించు నొక్కుము.\n"
+"\n"
+"GOK నిష్క్రమించుటకు, మూయుము నొక్కండి.\n"
+"\n"
+
+#: ../gok/main.c:3439
+msgid "Enable and Log Out"
+msgstr "క్రియాశీలించు మరియు నమోదు బయటికి"
+
+#: ../gok/main.c:3451
+msgid "Continue"
+msgstr "కొనసాగు"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(100s యొక్క ఒక క్షణం)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "విలోమమైన సంశోధన"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr "సంశోధన కు మీట నొక్కుము మరియు ఆపుము. ఎంచుకొనుటకు వేరొక మీట నొక్కుము."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "సంశోధన:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "ఒంటరి మీట స్వయంచాలక సంశోధన"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "సంశోధన మొదలుపెట్టు"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+#| msgid "Wrap Rows/Columns"
+msgid "Wrap Row/Columns"
+msgstr "అడ్డవరుస/నిలువువరుస చుట్టుము"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "ఒంటరి మీట విలోమమైన సంశోధన"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "5 మీట దర్శకించబడినది"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "క్రిందికి:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "ఉద్దీపనిని 4 దిశలలో కదుల్చుము.  కీను యెంపికచేయుము."
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "పైకి:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "చూపు"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "సహాయ అన్వేషి"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "అగ్రం"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "పాఠం సరిచేయునది"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "మహాతల అన్వేషి"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "ఏర్పరచు"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "ప్రయోగవేదిక"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "చుంచు"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "బొత్తం  1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "బొత్తం  2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "బొత్తం  ౩"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "Dbl నొక్కు"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "తలుపునకు గడియవేయు"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "సూచిక"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "మళ్ళీచేయు"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "నింపు"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Float"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "దగ్గరిదైన"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "తరువాత మీట మళ్ళీచేయు"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "చిన్నదైన"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "చెప్పునది"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "విశాలమైన"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "పుటక్రిందికి"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "పుటపైకి"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "నెట్టు&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "నిజంగా త్యజించు"
+

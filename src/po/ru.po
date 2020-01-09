@@ -1,0 +1,2279 @@
+# translation of gok to Russian
+# Copyright (C) 2005 GNOME Accessibility Team
+# This file is distributed under the same license as the gok package.
+#
+# Leonid Kanter <leon@asplinux.ru>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: gok trunk\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gok&component=general\n"
+"POT-Creation-Date: 2009-10-10 19:47+0000\n"
+"PO-Revision-Date: 2009-10-11 17:25+0300\n"
+"Last-Translator: Dmitry Yacenko <d.yacenko@gmail.com>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:2 ../main.kbd.in.h:1
+msgid "Activate"
+msgstr "Активировать"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:4 ../direct-selection.xml.in.h:2
+#: ../dwell-selection.xml.in.h:2 ../inverse-scanning.xml.in.h:4
+#: ../singlekey-automatic-scanning.xml.in.h:2
+#: ../singlekey-inverse-scanning.xml.in.h:4 ../directed.xml.in.h:6
+msgid "Activate:"
+msgstr "Активировать:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:6 ../direct-selection.xml.in.h:4
+#: ../dwell-selection.xml.in.h:4 ../inverse-scanning.xml.in.h:6
+#: ../singlekey-automatic-scanning.xml.in.h:4
+#: ../singlekey-inverse-scanning.xml.in.h:6 ../directed.xml.in.h:8
+msgid "Activation:"
+msgstr "Активация:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:8
+msgid "Automatic Scanning"
+msgstr "Автоматическое сканирование"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:10 ../inverse-scanning.xml.in.h:8
+#: ../singlekey-automatic-scanning.xml.in.h:6
+#: ../singlekey-inverse-scanning.xml.in.h:8
+msgid "Bottom/Top"
+msgstr "Низ/Верх"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:12 ../inverse-scanning.xml.in.h:10
+#: ../singlekey-automatic-scanning.xml.in.h:8
+#: ../singlekey-inverse-scanning.xml.in.h:10
+msgid "Cycles Before Stopping:"
+msgstr "Повторов перед остановом:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:14 ../direct-selection.xml.in.h:8
+#: ../dwell-selection.xml.in.h:8 ../gok.glade2.h:66
+#: ../inverse-scanning.xml.in.h:12 ../singlekey-automatic-scanning.xml.in.h:10
+#: ../singlekey-inverse-scanning.xml.in.h:12 ../directed.xml.in.h:12
+msgid "Feedback"
+msgstr "Реакции"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:16
+msgid "Feedback Activation"
+msgstr "Реактивная активация"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:18
+msgid "Feedback Movement"
+msgstr "Реактивное смещение"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:16
+msgid "Initial Delay:"
+msgstr "Начальная задержка:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:22 ../inverse-scanning.xml.in.h:20
+#: ../singlekey-automatic-scanning.xml.in.h:18
+#: ../singlekey-inverse-scanning.xml.in.h:18
+msgid "Left/Right"
+msgstr "Лево/Право"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:24 ../direct-selection.xml.in.h:16
+#: ../dwell-selection.xml.in.h:16 ../inverse-scanning.xml.in.h:22
+#: ../singlekey-automatic-scanning.xml.in.h:20
+#: ../singlekey-inverse-scanning.xml.in.h:20 ../directed.xml.in.h:20
+msgid "Movement:"
+msgstr "Движение:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:26 ../direct-selection.xml.in.h:18
+#: ../dwell-selection.xml.in.h:18 ../inverse-scanning.xml.in.h:24
+#: ../singlekey-automatic-scanning.xml.in.h:22
+#: ../singlekey-inverse-scanning.xml.in.h:22 ../directed.xml.in.h:22
+msgid "Operation"
+msgstr "Операция"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:28 ../inverse-scanning.xml.in.h:26
+#: ../singlekey-automatic-scanning.xml.in.h:24
+#: ../singlekey-inverse-scanning.xml.in.h:24 ../directed.xml.in.h:24
+msgid "Options"
+msgstr "Параметры"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:26
+msgid ""
+"Press a switch to start scanning.  Press another switch or the same switch "
+"again to select."
+msgstr ""
+"Для начала сканирования нажмите переключатель. Потом нажмите другой или тот "
+"же самый переключатель для выбора."
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:32 ../inverse-scanning.xml.in.h:30
+#: ../singlekey-automatic-scanning.xml.in.h:28
+#: ../singlekey-inverse-scanning.xml.in.h:28
+msgid "Right/Left"
+msgstr "Право/Лево"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:34 ../inverse-scanning.xml.in.h:32
+#: ../singlekey-automatic-scanning.xml.in.h:30
+#: ../singlekey-inverse-scanning.xml.in.h:30 ../directed.xml.in.h:28
+msgid "Scan Delay:"
+msgstr "Задержка:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:36 ../inverse-scanning.xml.in.h:34
+#: ../singlekey-automatic-scanning.xml.in.h:32
+#: ../singlekey-inverse-scanning.xml.in.h:32 ../directed.xml.in.h:30
+msgid "Scan Speed:"
+msgstr "Скорость:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:34
+#: ../singlekey-inverse-scanning.xml.in.h:36
+msgid "Scanning Direction:"
+msgstr "Направление:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:40
+msgid "Start Scanning"
+msgstr "Начать сканирование"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:42
+#: ../singlekey-automatic-scanning.xml.in.h:40
+msgid "Start scanning:"
+msgstr "Начать сканирование:"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:44 ../inverse-scanning.xml.in.h:38
+#: ../singlekey-automatic-scanning.xml.in.h:42
+#: ../singlekey-inverse-scanning.xml.in.h:40
+msgid "Top/Bottom"
+msgstr "Верх/Низ"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:46 ../inverse-scanning.xml.in.h:40
+#: ../singlekey-inverse-scanning.xml.in.h:42 ../directed.xml.in.h:36
+msgid "Wrap Rows/Columns"
+msgstr "Переносить строки/столбцы"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:48
+msgid "feedbackmovement"
+msgstr "реактивноедвижение"
+
+#. User interface for the access method
+#: ../automatic-scanning.xml.in.h:50
+msgid "feedbackselection"
+msgstr "реактивноевыделение"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:6
+msgid "Direct Selection"
+msgstr "Прямое выделение"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:10 ../dwell-selection.xml.in.h:10
+#: ../inverse-scanning.xml.in.h:14 ../singlekey-automatic-scanning.xml.in.h:12
+#: ../singlekey-inverse-scanning.xml.in.h:14
+msgid "Feedback Activation:"
+msgstr "Реактивная активация:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:12 ../dwell-selection.xml.in.h:12
+#: ../inverse-scanning.xml.in.h:16 ../singlekey-automatic-scanning.xml.in.h:14
+#: ../singlekey-inverse-scanning.xml.in.h:16 ../directed.xml.in.h:14
+msgid "Feedback Movement:"
+msgstr "Реактивное смещение:"
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Press a switch to select."
+msgstr ""
+"Поместите указатель мыши для для подсветки клавиши. Нажмите переключатель "
+"для выбора."
+
+#. User interface for the access method
+#: ../direct-selection.xml.in.h:20 ../dwell-selection.xml.in.h:20
+#: ../directed.xml.in.h:32
+msgid "Select:"
+msgstr "Выбрать:"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:6
+msgid "Dwell Selection"
+msgstr "Останавливающееся выделение"
+
+#. User interface for the access method
+#: ../dwell-selection.xml.in.h:14
+msgid "Move the mouse pointer to highlight a key.  Dwell on the key to select."
+msgstr ""
+"Поместите указатель мыши для подсветки клавиши. Оставайтесь на клавише для "
+"выбора."
+
+#: ../gok-controls.kbd.in.h:1
+msgid "About"
+msgstr "О программе"
+
+#: ../gok-controls.kbd.in.h:2
+msgid "Help"
+msgstr "Справка"
+
+#: ../gok-controls.kbd.in.h:3
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../gok-controls.kbd.in.h:4
+msgid "Quit GOK"
+msgstr "Выйти из GOK"
+
+#: ../gok-controls.kbd.in.h:5 ../main.kbd.in.h:12
+msgid "Window"
+msgstr "Окно"
+
+#. "back" means go to previous keyboard
+#. Translators: short label for go back.
+#: ../gok-controls.kbd.in.h:6 ../gok/gok-keyboard.c:2467
+#: ../gok/gok-windowlister.c:248 ../launcher.kbd.in.h:5 ../mouse.kbd.in.h:10
+#: ../move-resize.kbd.in.h:23 ../numberpad.kbd.in.h:20 ../quit.kbd.in.h:4
+#: ../valuator.kbd.in.h:3
+msgid "back"
+msgstr "назад"
+
+#: ../gok-with-references.schemas.in.h:1 ../gok/main.c:349
+msgid ""
+"A multiplier to be applied to input device valuator events before processing"
+msgstr ""
+"Множитель применяемый при обработке событий, поступающих от устройства ввода."
+
+#: ../gok-with-references.schemas.in.h:2
+msgid ""
+"A semicolon-delimited list of fully specified paths to additional word-"
+"completion dictionaries"
+msgstr ""
+"Список путей к дополнительным словарям дополнений слов, разделенных запятыми."
+
+#: ../gok-with-references.schemas.in.h:3
+msgid "Are the preferences to be restricted?"
+msgstr "Ограничевать параметры?"
+
+#: ../gok-with-references.schemas.in.h:4
+msgid "Determines the keyboard type used for the default compose keyboard"
+msgstr ""
+"Определяет тип клавиатуры, используемыё для построения клавиатуры по "
+"умолчанию"
+
+#: ../gok-with-references.schemas.in.h:5
+msgid ""
+"Does GOK generate its compose keyboard dynamically based on information from "
+"the X Server?"
+msgstr ""
+"Автоматически строить клавиатуру ввода на основе информации от X-сервера?"
+
+#: ../gok-with-references.schemas.in.h:6
+msgid ""
+"Does each GOK user have a private copy of the word prediction dictionary?"
+msgstr ""
+"Должен ли каждый пользователь GOK иметь личную копию словаря дополнений слов?"
+
+#: ../gok-with-references.schemas.in.h:7
+msgid "Does the GOK window expand to fill the full screen width?"
+msgstr "Расширять ли окно GOK до всей шириню экрана?"
+
+#: ../gok-with-references.schemas.in.h:8
+msgid "Does the core pointer follow the GOK keyboard pointer?"
+msgstr "Будет ли основной указатель следовать за указателем GOK?"
+
+#: ../gok-with-references.schemas.in.h:9
+msgid "Does this action use key averaging"
+msgstr "Это действие использует усреднение клавиш?"
+
+#: ../gok-with-references.schemas.in.h:10
+msgid "Does this feedback flash"
+msgstr "Реакция вызывает мигание"
+
+#: ../gok-with-references.schemas.in.h:11
+msgid "Does this feedback play a sound"
+msgstr "Реакция проигрывает звук"
+
+#: ../gok-with-references.schemas.in.h:12
+msgid "Does this feedback speak the label of a GOK key"
+msgstr "Реакция произносит метку клавиши GOK"
+
+#: ../gok-with-references.schemas.in.h:13
+msgid "Dwell"
+msgstr "Остановка"
+
+#: ../gok-with-references.schemas.in.h:14
+msgid "GOK main window anchor location (if a dock), or empty string if not"
+msgstr ""
+"Выравнивание главного окна GOK (если оно встроено), или пустая строка в "
+"противоположном случае"
+
+#: ../gok-with-references.schemas.in.h:15
+msgid ""
+"How many children of each node in the GUI tree to search for accessible "
+"objects"
+msgstr ""
+"Сколько потомков каждого узла дерева виджетов просматривать при поиске "
+"объектов вспомогательных возможностей"
+
+#: ../gok-with-references.schemas.in.h:16
+msgid "How many levels down the GUI tree to search for accessible objects"
+msgstr ""
+"Насколько глубоко искать объекты со вспомогательными возможностями в дереве "
+"виджетов"
+
+#: ../gok-with-references.schemas.in.h:17
+msgid "Is this action permanent"
+msgstr "Это действие первично"
+
+#: ../gok-with-references.schemas.in.h:18
+msgid "Is this feedback permanent"
+msgstr "Эта реакция первична"
+
+#: ../gok-with-references.schemas.in.h:19
+msgid "Is word completion on"
+msgstr "Включено автоматическое дополнение"
+
+#: ../gok-with-references.schemas.in.h:20
+msgid "Key flashing"
+msgstr "Мигание клавиш"
+
+#: ../gok-with-references.schemas.in.h:21
+msgid "Left Mouse Button"
+msgstr "Левая кнопка мыши"
+
+#: ../gok-with-references.schemas.in.h:22
+msgid "Middle Mouse Button"
+msgstr "Средняя кнопка мыши"
+
+#: ../gok-with-references.schemas.in.h:23
+msgid "Mouse Button 4"
+msgstr "Кнопка мыши 4"
+
+#: ../gok-with-references.schemas.in.h:24
+msgid "Mouse Button 5"
+msgstr "Кнопка мыши 5"
+
+#: ../gok-with-references.schemas.in.h:25
+msgid "Mouse Pointer"
+msgstr "Указатель мыши"
+
+#: ../gok-with-references.schemas.in.h:26
+msgid "None"
+msgstr "Нет"
+
+#: ../gok-with-references.schemas.in.h:27
+msgid "Right Mouse Button"
+msgstr "Правая кнопка мыши"
+
+#: ../gok-with-references.schemas.in.h:28
+msgid ""
+"Should be one of the following: \"xkb\", \"default\", \"alpha\", \"alpha-freq"
+"\", \"custom\"; if \"custom\", \"custom_compose_keyboard\" should be defined."
+msgstr ""
+"Допустимые значения: \"xkb\", \"default\", \"alpha\", \"alpha-freq\", "
+"\"custom\"; если значение \"custom\", должен быть определен ключ "
+"\"custom_compose_keyboard\"."
+
+#: ../gok-with-references.schemas.in.h:29
+msgid "Sound one"
+msgstr "Первый звук"
+
+#: ../gok-with-references.schemas.in.h:30
+msgid "Sound two"
+msgstr "Второй звук"
+
+#: ../gok-with-references.schemas.in.h:31
+msgid "Speech"
+msgstr "Речь"
+
+#: ../gok-with-references.schemas.in.h:32
+msgid "Switch 1"
+msgstr "Переключатель 1"
+
+#: ../gok-with-references.schemas.in.h:33
+msgid "Switch 2"
+msgstr "Переключатель 2"
+
+#: ../gok-with-references.schemas.in.h:34
+msgid "Switch 3"
+msgstr "Переключатель 3"
+
+#: ../gok-with-references.schemas.in.h:35
+msgid "Switch 4"
+msgstr "Переключатель 4"
+
+#: ../gok-with-references.schemas.in.h:36
+msgid "Switch 5"
+msgstr "Переключатель 5"
+
+#: ../gok-with-references.schemas.in.h:37
+msgid "The access method to use"
+msgstr "Используемый метод доступа"
+
+#: ../gok-with-references.schemas.in.h:38
+msgid "The directory to load access method files from."
+msgstr "Каталог для загрузки файлов методов доступа."
+
+#: ../gok-with-references.schemas.in.h:39
+msgid "The directory to load dictionary files from."
+msgstr "Каталог для загрузки словарей."
+
+#: ../gok-with-references.schemas.in.h:40
+msgid "The directory to load the gok resource file from."
+msgstr "Каталог для загрузки файла ресурсов GOK."
+
+#: ../gok-with-references.schemas.in.h:41
+msgid "The directory to load user-specific or custom keyboard files from."
+msgstr "Каталог для загрузки пользовательских раскладок клавиатуры."
+
+#: ../gok-with-references.schemas.in.h:42
+msgid "The full pathname to a file which defines a custom GOK compose keyboard"
+msgstr "Полное имя к файлу, который определяет раскладку клавиатуры GOK"
+
+#: ../gok-with-references.schemas.in.h:43
+msgid "The key height"
+msgstr "Высота клавиш"
+
+#: ../gok-with-references.schemas.in.h:44
+msgid "The key width"
+msgstr "Ширина клавиш"
+
+#: ../gok-with-references.schemas.in.h:45
+msgid "The keyboards X coordinate"
+msgstr "Координата X клавиатур"
+
+#: ../gok-with-references.schemas.in.h:46
+msgid "The keyboards Y coordinate"
+msgstr "Координата Y клавиатур"
+
+#: ../gok-with-references.schemas.in.h:47
+msgid "The name of the sound that this feedback will play"
+msgstr "Звуковой сигнал, проигрываемый в этом случае"
+
+#: ../gok-with-references.schemas.in.h:48
+msgid "The name of the xinput device to use"
+msgstr "Используемое устройство XInput"
+
+#: ../gok-with-references.schemas.in.h:49
+msgid "The name to display to the user for this action"
+msgstr "Название действия, отображаемое пользователю"
+
+#: ../gok-with-references.schemas.in.h:50
+msgid "The name to display to the user for this feedback"
+msgstr "Имя реакции, отображаемое пользователю"
+
+#: ../gok-with-references.schemas.in.h:51
+msgid "The number if applicable"
+msgstr "Число подсказок"
+
+#: ../gok-with-references.schemas.in.h:52
+msgid "The number of predictions for word completion"
+msgstr "Число подсказок при дополнении слова"
+
+#: ../gok-with-references.schemas.in.h:53
+msgid "The number of times this feedback will flash"
+msgstr "Число миганий в ответ на реакцию"
+
+#: ../gok-with-references.schemas.in.h:54
+msgid ""
+"The primary directory to load keyboard files from. Default is a system "
+"directory."
+msgstr ""
+"Основной каталог для загрузки файлов клавиатуры. По умолчанию используется "
+"системный каталог."
+
+#: ../gok-with-references.schemas.in.h:55
+msgid "The rate for this action"
+msgstr "Частота этого действия"
+
+#: ../gok-with-references.schemas.in.h:56
+msgid "The space between keys"
+msgstr "Расстояние между клавишами"
+
+#: ../gok-with-references.schemas.in.h:57
+msgid "The state in which this action is activated"
+msgstr "Состояние, в котором это действие было активировано"
+
+#: ../gok-with-references.schemas.in.h:58
+msgid "The type of this action"
+msgstr "Тип этого действия"
+
+#: ../gok-with-references.schemas.in.h:59
+msgid ""
+"Whether to use additional word lists when searching for GOK word-completion "
+"candidates"
+msgstr ""
+"Добавлять дополнительные списки слов для поиска вариантов дополнения слов"
+
+#: ../gok.desktop.in.h:1
+msgid "Navigate applications and type using alternative input devices"
+msgstr ""
+"Перемещение между приложениями и ввод текста, используя альтернативные "
+"устройства ввода"
+
+#: ../gok.desktop.in.h:2
+msgid "On-Screen Keyboard"
+msgstr "Экранная клавиатура"
+
+#: ../gok.glade2.h:1
+msgid "3 State"
+msgstr "3 Состояния"
+
+#: ../gok.glade2.h:2
+msgid "<b>Appearance</b>"
+msgstr "<b>Вид</b>"
+
+#: ../gok.glade2.h:3
+msgid "<b>Behavior</b>"
+msgstr "<b>Поведение</b>"
+
+#: ../gok.glade2.h:4
+msgid "<b>Branch</b>"
+msgstr "<b>Ветвь</b>"
+
+#: ../gok.glade2.h:5
+msgid "<b>Command Prediction</b>"
+msgstr "<b>Предсказание команд</b>"
+
+#: ../gok.glade2.h:6
+msgid "<b>Compose Keyboard</b>"
+msgstr "<b>Клавиатура для набора</b>"
+
+#: ../gok.glade2.h:7
+msgid "<b>Custom Keyboards</b>"
+msgstr "<b>Пользовательские клавиатуры</b>"
+
+#: ../gok.glade2.h:8
+msgid "<b>Define Actions</b>"
+msgstr "<b>Определить действия</b>"
+
+#: ../gok.glade2.h:9
+msgid "<b>Define Feedback</b>"
+msgstr "<b>Определить реакцию</b>"
+
+#: ../gok.glade2.h:10
+msgid "<b>Delay Before Activation</b>"
+msgstr "<b>Задержка перед  активацией</b>"
+
+#: ../gok.glade2.h:11
+msgid "<b>Description</b>"
+msgstr "<b>Описание</b>"
+
+#: ../gok.glade2.h:12
+msgid "<b>Dock and Expand Horizontally</b>"
+msgstr "<b>Присоединять и расширять по горизонали</b>"
+
+#: ../gok.glade2.h:13
+msgid "<b>Event Source</b>"
+msgstr "<b>Источник событий</b>"
+
+#: ../gok.glade2.h:14
+msgid "<b>Font</b>"
+msgstr "<b>Шрифт</b>"
+
+#: ../gok.glade2.h:15
+msgid "<b>Key Flashing</b>"
+msgstr "<b>Мигание клавиш</b>"
+
+#: ../gok.glade2.h:16
+msgid "<b>Key Size and Spacing Controls</b>"
+msgstr "<b>Размеры клавиш и промежутков</b>"
+
+#: ../gok.glade2.h:17
+msgid "<b>Key</b>"
+msgstr "<b>Клавиша</b>"
+
+#: ../gok.glade2.h:18
+msgid "<b>Keyboard</b>"
+msgstr "<b>Клавиатура</b>"
+
+#: ../gok.glade2.h:19
+msgid "<b>Modifier</b>"
+msgstr "<b>Модификатор</b>"
+
+#: ../gok.glade2.h:20
+msgid "<b>Output</b>"
+msgstr "<b>Вывод</b>"
+
+#: ../gok.glade2.h:21
+msgid "<b>Position</b>"
+msgstr "<b>Позиция</b>"
+
+#: ../gok.glade2.h:22
+msgid "<b>Preview</b>"
+msgstr "<b>Предварительный просмотр</b>"
+
+#: ../gok.glade2.h:23
+msgid "<b>Sensitivity</b>"
+msgstr "<b>Чувствительность</b>"
+
+#: ../gok.glade2.h:24
+msgid "<b>Sound</b>"
+msgstr "<b>Звук</b>"
+
+#: ../gok.glade2.h:25
+msgid "<b>Speech</b>"
+msgstr "<b>Речь</b>"
+
+#: ../gok.glade2.h:26
+msgid "<b>Switch or Button Number</b>"
+msgstr "<b>Номер кнопки или переключателя</b>"
+
+#: ../gok.glade2.h:27
+msgid "<b>Theme</b>"
+msgstr "<b>Тема</b>"
+
+#: ../gok.glade2.h:28
+msgid "<b>Timers and Delays</b>"
+msgstr "<b>Времена и задержки</b>"
+
+#: ../gok.glade2.h:29
+msgid "<b>Type</b>"
+msgstr "<b>Тип</b>"
+
+#: ../gok.glade2.h:30
+msgid "<b>Valuator Type</b>"
+msgstr "<b>Тип применения</b>"
+
+#: ../gok.glade2.h:31
+msgid "<b>Word Completion</b>"
+msgstr "<b>Дополнение слов</b>"
+
+#: ../gok.glade2.h:32
+msgid ""
+"<small><i><b>Note:</b> Changes to this setting will not take effect until "
+"you next run GOK.</i></small>"
+msgstr ""
+"<small><i><b>Замечание:</b> Эти изменения не вступят в силу до тех пор, пока "
+"GOK не будет перезапущен.</i></small>"
+
+#: ../gok.glade2.h:33
+msgid ""
+"A multiplier which is applied to the extended input device valuator events "
+"before processing."
+msgstr ""
+"Множитель, на который будут увеличены перед обработкой события, поступающие "
+"с внешних устройств ввода."
+
+#: ../gok.glade2.h:34
+msgid "Access Methods"
+msgstr "Дополнительные возможности"
+
+#: ../gok.glade2.h:35
+msgid "Action Names List"
+msgstr "Список действий"
+
+#: ../gok.glade2.h:36
+msgid "Action Type:"
+msgstr "Тип действия:"
+
+#: ../gok.glade2.h:37
+msgid "ActionTypeNotebook"
+msgstr "ТипыДействий"
+
+#: ../gok.glade2.h:38
+msgid "Actions"
+msgstr "Действия"
+
+#: ../gok.glade2.h:39
+msgid "Activate on Dw_ell"
+msgstr "Активировать во время _ожидания"
+
+#: ../gok.glade2.h:40
+msgid "Activate on _Enter"
+msgstr "Активировать после клавиши _Ввод"
+
+#: ../gok.glade2.h:41
+msgid "Activate on _Move"
+msgstr "Активировать при _движении"
+
+#: ../gok.glade2.h:42
+msgid "Activate when _pressed"
+msgstr "Активировать при _нажатии"
+
+#: ../gok.glade2.h:43
+msgid "Activate when _released"
+msgstr "Активировать при отп_ускании"
+
+#: ../gok.glade2.h:44
+msgid "Add"
+msgstr "Добавить"
+
+#: ../gok.glade2.h:45
+msgid "Add New Key"
+msgstr "Добавить новую клавишу"
+
+#: ../gok.glade2.h:46
+msgid "Additional directory to search for GOK Keyboards"
+msgstr "Дополнительный каталог с клавиатурами GOK"
+
+#: ../gok.glade2.h:47
+msgid "Alphanumeric keyboard arranged by letter frequency"
+msgstr "Цифро-символьные клавиатуры, распределённые по частоте"
+
+#: ../gok.glade2.h:48
+msgid "Alphanumeric keyboard sorted alphabetically"
+msgstr "Цифро-символьные клавиатуры, распредлённые по алфавиту"
+
+#: ../gok.glade2.h:49
+msgid "Appearance"
+msgstr "Вид"
+
+#: ../gok.glade2.h:50
+msgid "Bottom:"
+msgstr "Низ:"
+
+#: ../gok.glade2.h:51
+msgid "Browse"
+msgstr "Просмотреть"
+
+#: ../gok.glade2.h:52
+msgid "C_ore pointer"
+msgstr "_Главный указатель"
+
+#: ../gok.glade2.h:53
+msgid "Command Prediction"
+msgstr "Предсказание команд"
+
+#: ../gok.glade2.h:54
+msgid "Delay"
+msgstr "Задержка"
+
+#: ../gok.glade2.h:55
+msgid ""
+"Delay, in 100ths of a second, after the triggering event occurs, before "
+"activation takes place."
+msgstr ""
+"Задержка в сотых долях секунды между появлением события и активацией "
+"ответного действия."
+
+#: ../gok.glade2.h:56
+msgid "Delete"
+msgstr "Удалить"
+
+#: ../gok.glade2.h:57
+msgid "Delete Key"
+msgstr "Удалить клавишу"
+
+#: ../gok.glade2.h:58
+msgid "Dock"
+msgstr "Присоединить"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:59 ../move-resize.kbd.in.h:2
+msgid "Dock Bottom"
+msgstr "Присоединить внизу"
+
+#. Translators: dock is used as a verb.
+#: ../gok.glade2.h:60 ../move-resize.kbd.in.h:4
+msgid "Dock Top"
+msgstr "Присоединить вверху"
+
+#: ../gok.glade2.h:61
+msgid "Duplicate"
+msgstr "Сделать копию"
+
+#: ../gok.glade2.h:62
+msgid "Enable _key flashing"
+msgstr "Включить _мигание клавиш"
+
+#: ../gok.glade2.h:63
+msgid "Enable _sound"
+msgstr "Включить _звук"
+
+#: ../gok.glade2.h:64
+msgid "Enable _word completion"
+msgstr "Включить дополнение _слов"
+
+#: ../gok.glade2.h:65
+msgid "Enable co_mmand prediction"
+msgstr "Включить дополнение _команд"
+
+#: ../gok.glade2.h:67
+msgid "Fill Width"
+msgstr "Заполнять по ширине"
+
+#: ../gok.glade2.h:68
+msgid "Font Group:"
+msgstr "Шрифт:"
+
+#: ../gok.glade2.h:69 ../gok/gok-editor.c:36
+msgid "GOK Keyboard Editor"
+msgstr "Редактор клавиатуры GOK"
+
+#: ../gok.glade2.h:70
+msgid "GOK Preferences"
+msgstr "Параметры GOK"
+
+#: ../gok.glade2.h:71
+msgid "GOK:"
+msgstr "GOK:"
+
+#: ../gok.glade2.h:72
+msgid "Key Height"
+msgstr "Высота клавиш"
+
+#: ../gok.glade2.h:73
+msgid "Key Spacing"
+msgstr "Расстояния между клавишами"
+
+#: ../gok.glade2.h:74
+msgid "Key Width"
+msgstr "Ширина клавиш"
+
+#: ../gok.glade2.h:75
+msgid "Key _width:"
+msgstr "_Ширина клавиш:"
+
+#: ../gok.glade2.h:76
+msgid "Key h_eight:"
+msgstr "_Высота клавиш:"
+
+#: ../gok.glade2.h:77
+msgid "Keyboards"
+msgstr "Клавиатуры"
+
+#: ../gok.glade2.h:78
+msgid "Keycode:"
+msgstr "Код:"
+
+#: ../gok.glade2.h:79
+msgid "Keysym:"
+msgstr "Символ клавиши:"
+
+#: ../gok.glade2.h:80
+msgid "Label:"
+msgstr "Метка:"
+
+#. User interface for the access method
+#: ../gok.glade2.h:81 ../directed.xml.in.h:16
+msgid "Left:"
+msgstr "Слева:"
+
+#: ../gok.glade2.h:82
+msgid "Match physical keyboard as reported by X Server"
+msgstr "Синхронизировать с физической клавиатурой, заданной в X-сервере"
+
+#: ../gok.glade2.h:83
+msgid "Modifier Post"
+msgstr "После модификации"
+
+#: ../gok.glade2.h:84
+msgid "Modifier Pre"
+msgstr "Перед модификацией"
+
+#: ../gok.glade2.h:85
+msgid "Modifier:"
+msgstr "Модификатор:"
+
+#: ../gok.glade2.h:86
+msgid "Move Down"
+msgstr "Переместить вниз"
+
+#: ../gok.glade2.h:87
+msgid "Move Up"
+msgstr "Переместить вверх"
+
+#: ../gok.glade2.h:88
+msgid "Name:"
+msgstr "Имя:"
+
+#: ../gok.glade2.h:89
+msgid "New"
+msgstr "Создать"
+
+#: ../gok.glade2.h:90
+msgid "Next Key"
+msgstr "Следующая клавиша"
+
+#: ../gok.glade2.h:91
+msgid "Normal"
+msgstr "Обычный"
+
+#: ../gok.glade2.h:92
+msgid "Number of _flashes:"
+msgstr "_Миганий:"
+
+#: ../gok.glade2.h:93
+msgid "Number of _predictions:"
+msgstr "_Предсказаний:"
+
+#: ../gok.glade2.h:94
+msgid "Number of command predictions:"
+msgstr "Предсказаний команд:"
+
+#: ../gok.glade2.h:95
+msgid "Number of word predictions:"
+msgstr "Предсказаний слов:"
+
+#: ../gok.glade2.h:96
+msgid "Other _input device:"
+msgstr "Другие устройства _ввода:"
+
+#: ../gok.glade2.h:97
+msgid "Prediction"
+msgstr "Предсказание"
+
+#: ../gok.glade2.h:98
+msgid "Press"
+msgstr "Нажать"
+
+#: ../gok.glade2.h:99
+msgid "Previous Key"
+msgstr "Предыдущая клавиша"
+
+#: ../gok.glade2.h:100
+msgid "Read keyboard from file:"
+msgstr "Прочитать клавиатуру из файла:"
+
+#: ../gok.glade2.h:101
+msgid "Release"
+msgstr "Отпустить"
+
+#. User interface for the access method
+#: ../gok.glade2.h:102 ../directed.xml.in.h:26
+msgid "Right:"
+msgstr "Справа:"
+
+#: ../gok.glade2.h:103
+msgid "S_witch"
+msgstr "_Переключатель"
+
+#: ../gok.glade2.h:104
+msgid "Show Only This Font Group"
+msgstr "Показывать только эту группу шрифта"
+
+#: ../gok.glade2.h:105
+msgid "So_und:"
+msgstr "_Звук"
+
+#: ../gok.glade2.h:106
+msgid "Speak key _label"
+msgstr "Проговаривать _метку клавиши"
+
+#: ../gok.glade2.h:107
+msgid "Style:"
+msgstr "Стиль:"
+
+#: ../gok.glade2.h:108
+msgid "Switch _1"
+msgstr "Переключатель _1"
+
+#: ../gok.glade2.h:109
+msgid "Switch _2"
+msgstr "Переключатель _2"
+
+#: ../gok.glade2.h:110
+msgid "Switch _3"
+msgstr "Переключатель _3"
+
+#: ../gok.glade2.h:111
+msgid "Switch _4"
+msgstr "Переключатель _4"
+
+#: ../gok.glade2.h:112
+msgid "Switch _5"
+msgstr "Переключатель _5"
+
+#: ../gok.glade2.h:113
+msgid "Target:"
+msgstr "Цель:"
+
+#: ../gok.glade2.h:114
+msgid "To Back"
+msgstr "Для возвращения"
+
+#: ../gok.glade2.h:115
+msgid "To Front"
+msgstr "На передний план"
+
+#: ../gok.glade2.h:116
+msgid "Toggle"
+msgstr "Переключить"
+
+#: ../gok.glade2.h:117
+msgid "Top:"
+msgstr "Вверху:"
+
+#: ../gok.glade2.h:118
+msgid "Use _extra word list file(s)"
+msgstr "Использовать _дополнительные списки слов"
+
+#: ../gok.glade2.h:119
+msgid "Use _key averaging"
+msgstr "Использовать _усреднение клавиш"
+
+#: ../gok.glade2.h:120
+msgid "Valuator Sensitivity"
+msgstr "Чувствительность"
+
+#: ../gok.glade2.h:121
+msgid "Word Completion"
+msgstr "Дополнение слов"
+
+#: ../gok.glade2.h:122
+msgid "_100ths of a second"
+msgstr "_Сотые доли секунды"
+
+#: ../gok.glade2.h:123
+msgid "_Add"
+msgstr "_Добавить"
+
+#: ../gok.glade2.h:124
+msgid "_Browse..."
+msgstr "_Просмотреть..."
+
+#: ../gok.glade2.h:125
+msgid "_Delete"
+msgstr "_Удалить"
+
+#: ../gok.glade2.h:126
+msgid "_Joystick"
+msgstr "_Джойстик"
+
+#: ../gok.glade2.h:127
+msgid "_Method:"
+msgstr "_Метод:"
+
+#: ../gok.glade2.h:128
+msgid "_Name:"
+msgstr "_Имя:"
+
+#: ../gok.glade2.h:129
+msgid "_New"
+msgstr "_Создать"
+
+#: ../gok.glade2.h:130
+msgid "_Number of predictions:"
+msgstr "_Предсказаний:"
+
+#: ../gok.glade2.h:131
+msgid "_Rename"
+msgstr "_Переименовать"
+
+#: ../gok.glade2.h:132
+msgid "_Single axis:"
+msgstr "_Одиночный оси:"
+
+#: ../gok.glade2.h:133
+msgid "_Spacing:"
+msgstr "_Промежутки:"
+
+#: ../gok.glade2.h:134
+msgid "_Use Desktop Theme Preferences"
+msgstr "_Использовать параметры рабочей среды"
+
+#: ../gok.glade2.h:135
+msgid "_Valuator"
+msgstr "_Оценщик"
+
+#: ../gok.glade2.h:136
+msgid "_X-Y valuator (axes 0 and 1)"
+msgstr "_X-Y оценщик (оси 0 и 1)"
+
+#: ../gok.glade2.h:137
+msgid "access method name"
+msgstr "имя метода доступа"
+
+#: ../gok.glade2.h:138
+msgid "cancel"
+msgstr "отменить"
+
+#: ../gok.glade2.h:139
+msgid "display user help"
+msgstr "показать подсказку"
+
+#: ../gok.glade2.h:140
+msgid "high"
+msgstr "выше"
+
+#: ../gok.glade2.h:141
+msgid "low"
+msgstr "ниже"
+
+#: ../gok.glade2.h:142
+msgid "pixels"
+msgstr "пикселей"
+
+#: ../gok.glade2.h:143
+msgid "revert to original settings"
+msgstr "вернуть к первоначальному значению"
+
+#: ../gok.glade2.h:144
+msgid "try these settings"
+msgstr "попробовать эти настройки"
+
+#: ../gok.glade2.h:145
+msgid "use these settings"
+msgstr "использовать эти настройки"
+
+#: ../gok/callbacks.c:373
+msgid "Sorry, Access Method Wizard not implemented yet."
+msgstr "Извините, поддержка дополнительной возможности не реализована."
+
+#: ../gok/callbacks.c:375
+msgid "GOK Access Method Wizard"
+msgstr "Помощник дополнительных возможностей GOK"
+
+#: ../gok/gok-control.c:248
+msgid "GOK Browse for sound file"
+msgstr "Просмотр звуковых файлов GOK"
+
+#: ../gok/gok-control.c:249
+msgid "Sorry, browse for sound file not implemented yet."
+msgstr "Извините, просмотр звуковых файлов еще не реализован."
+
+#: ../gok/gok-control.c:254
+msgid "GOK Inverse Scanning Advanced"
+msgstr "Расширенное обратное сканирование GOK"
+
+#: ../gok/gok-control.c:255
+msgid "Sorry, advanced settings not implemented yet."
+msgstr "Извините, дополнительные возможности пока не реализованы."
+
+#: ../gok/gok-editor.c:147 ../gok/gok-editor.c:181 ../gok/gok-editor.c:262
+msgid ""
+"You have modified the current file.\n"
+"Do you want to discard your changes?"
+msgstr ""
+"Вы изменили текущий файл.\n"
+"Отбросить изменения?"
+
+#: ../gok/gok-editor.c:149 ../gok/gok-editor.c:183 ../gok/gok-editor.c:264
+#: ../gok/gok-editor.c:1056
+msgid "Keyboard Filename Invalid"
+msgstr "Имя файла клавиатуры некорректно"
+
+#: ../gok/gok-editor.c:212
+msgid "new"
+msgstr "создать"
+
+#. create the file selector dialog
+#: ../gok/gok-editor.c:274
+msgid "Select keyboard file for editing"
+msgstr "Выберите файл клавиатуры для правки"
+
+#: ../gok/gok-editor.c:284 ../gok/gok-editor.c:976
+msgid ".kbd files"
+msgstr "Файлы .kbd"
+
+#: ../gok/gok-editor.c:539
+msgid "label"
+msgstr "метка"
+
+#: ../gok/gok-editor.c:713
+#, c-format
+msgid "Can't save file: %s\n"
+msgstr "Не удалось сохранить файл: %s\n"
+
+#. get name of keyboard filename
+#. create the file selector dialog
+#: ../gok/gok-editor.c:966
+msgid "Save keyboard file as"
+msgstr "Сохранить файл клавиатуры как"
+
+#: ../gok/gok-editor.c:1047
+#, c-format
+msgid ""
+"This is not a valid keyboard filename:\n"
+"%s"
+msgstr ""
+"Это имя файла клавиатуры не корректно:\n"
+"%s"
+
+#: ../gok/gok-editor.c:1079
+msgid "(new)"
+msgstr "(создать)"
+
+#: ../gok/gok-input.c:526
+#, c-format
+msgid ""
+"GOK has detected activity from a new hardware device named '%s'.  Would you "
+"like to use this device instead of device '%s'?"
+msgstr ""
+"GOK обнаружил активность нового устройсва '%s'.  Использовать это устройство "
+"вместо '%s'?"
+
+#: ../gok/gok-key.c:118
+msgid "Mute"
+msgstr "Выключить"
+
+#: ../gok/gok-key.c:121
+msgid ""
+"Mouse\n"
+"Keys"
+msgstr ""
+"Мышь\n"
+"Клавиши"
+
+#: ../gok/gok-key.c:124
+msgid ""
+"Left\n"
+"Tab"
+msgstr ""
+"Влево\n"
+"Табуляция"
+
+#: ../gok/gok-key.c:231
+msgid "<nil>"
+msgstr "<нет>"
+
+#: ../gok/gok-key.c:235
+msgid "Divide"
+msgstr "Делить"
+
+#: ../gok/gok-key.c:238
+msgid "Multiply"
+msgstr "Умножить"
+
+#: ../gok/gok-key.c:241
+msgid "Subtract"
+msgstr "Минус"
+
+#: ../gok/gok-key.c:244
+msgid "Addition"
+msgstr "Плюс"
+
+#: ../gok/gok-key.c:247
+msgid "Prior"
+msgstr "Пред"
+
+#: ../gok/gok-key.c:250
+msgid "Next"
+msgstr "След"
+
+#: ../gok/gok-key.c:253 ../numberpad.kbd.in.h:6
+msgid "Home"
+msgstr "Home"
+
+#: ../gok/gok-key.c:256 ../numberpad.kbd.in.h:4
+msgid "End"
+msgstr "End"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:259 ../move-resize.kbd.in.h:20 ../numberpad.kbd.in.h:18
+msgid "Up"
+msgstr "Вверх"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:262 ../move-resize.kbd.in.h:6 ../numberpad.kbd.in.h:3
+msgid "Down"
+msgstr "Вниз"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:265 ../move-resize.kbd.in.h:11 ../numberpad.kbd.in.h:8
+msgid "Left"
+msgstr "Влево"
+
+#. Translators: this describes the direction gok will move.
+#: ../gok/gok-key.c:268 ../move-resize.kbd.in.h:15 ../numberpad.kbd.in.h:14
+msgid "Right"
+msgstr "Вправо"
+
+#: ../gok/gok-key.c:271
+msgid "Begin"
+msgstr "Начало"
+
+#: ../gok/gok-key.c:274
+msgid "Decimal"
+msgstr "Десятичные"
+
+#: ../gok/gok-key.c:277
+msgid "Meta"
+msgstr "Мета"
+
+#: ../gok/gok-key.c:280
+msgid ""
+"Multi\n"
+"key"
+msgstr ""
+"Мульти\n"
+"клавиша"
+
+#: ../gok/gok-key.c:283
+msgid ""
+"Eisu\n"
+"toggle"
+msgstr ""
+"Eisu\n"
+"переключатель"
+
+#: ../gok/gok-key.c:286
+msgid ""
+"Henkan\n"
+"Mode"
+msgstr ""
+"Henkan\n"
+"режим"
+
+#: ../gok/gok-key.c:289
+msgid "Muhenkan"
+msgstr "Muhenkan"
+
+#: ../gok/gok-key.c:292
+msgid ""
+"Mode\n"
+"switch"
+msgstr ""
+"Пер.\n"
+"режим"
+
+#: ../gok/gok-key.c:295
+msgid ""
+"Hiragana\n"
+"Katakana"
+msgstr ""
+"Хирагана\n"
+"Катакана"
+
+#: ../gok/gok-keyboard.c:156
+#, c-format
+msgid "Xkb extension could not be initialized! (error code %x)"
+msgstr "Не удалось инициализировать расширение xkb! (код ошибки %x)"
+
+#: ../gok/gok-keyboard.c:162 ../gok/gok-keyboard.c:203
+msgid "keyboard description not available!"
+msgstr "описание клавиатуры не доступно!"
+
+#: ../gok/gok-keyboard.c:168 ../gok/gok-keyboard.c:209
+#: ../gok/gok-keyboard.c:506
+msgid "Keyboard Geometry cannot be read from your X Server."
+msgstr "Не удалось прочитать конфигурацию клавиатуры с X-сервера."
+
+#: ../gok/gok-keyboard.c:434
+msgid "Back"
+msgstr "Назад"
+
+#: ../gok/gok-keyboard.c:451 ../valuator.kbd.in.h:1
+msgid "Repeat Next"
+msgstr "Повторить следующее"
+
+#: ../gok/gok-keyboard.c:463
+msgid "Edit"
+msgstr "Правка"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:476
+msgid ""
+"Num\n"
+"Pad"
+msgstr ""
+"Num\n"
+"Pad"
+
+#. translators: Abbreviation/mnemonic for "numeric keypad", but must be <= 10 chars
+#: ../gok/gok-keyboard.c:490 ../move-resize.kbd.in.h:9
+msgid "Hide"
+msgstr "Скрыть"
+
+#. translators: "shift" as in "the shift modifier key"
+#: ../gok/gok-keyboard.c:680
+msgid "shift"
+msgstr "Shift"
+
+#. translators: The context is "key level" as in shift/caps status on keyboard
+#: ../gok/gok-keyboard.c:693
+msgid "Level 2"
+msgstr "Уровень 2"
+
+#. translators: see note for "Level 2"
+#: ../gok/gok-keyboard.c:706
+msgid "Level 3"
+msgstr "Уровень 3"
+
+#. translators: this is a label for a 'Back space' key
+#: ../gok/gok-keyboard.c:719
+msgid ""
+"Back\n"
+"Space"
+msgstr ""
+"Back\n"
+"Space"
+
+#. translators: this is a label for a "Tab" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:730 ../numberpad.kbd.in.h:16
+msgid "Tab"
+msgstr "Tab"
+
+#. translators: this is a label for a "spacebar" key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:741
+msgid "space"
+msgstr "Space"
+
+#. translators: this is a label for an "Enter" or Return key, for instance on a keyboard
+#: ../gok/gok-keyboard.c:752 ../numberpad.kbd.in.h:5
+msgid "Enter"
+msgstr "Enter"
+
+#: ../gok/gok-keyboard.c:790 ../main.kbd.in.h:7
+msgid "Menus"
+msgstr "Меню"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * Each string below corresponds to the characters associated with a particular
+#. * "shift level" in the XKB keyboard definition.
+#. *
+#. * For languages where 'case' is used, the first string should contain
+#. * the lowercase alphabet.
+#. *
+#. * Note that unless your locale clearly requires that digits and/or punctuation
+#. * precede alphabetic characters, digits and punctuation should be placed
+#. * at the end of the string.
+#.
+#: ../gok/gok-keyboard.c:846
+msgctxt "level 0"
+msgid "abcdefghijklmnopqrstuvwxyz1234567890-=[];'#\\,./"
+msgstr "абвгдеёжзийклмнопрстуфхцчшщъюьэюя1234567890-=[];'#\\,./"
+
+#. For languages/locales which use 'upper case', this string should
+#. * correspond to uppercase versions of characters in the 'level 0' string.
+#.
+#: ../gok/gok-keyboard.c:850
+msgctxt "level 1"
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ!\"3$%^&*()_+{}:@~<>?"
+msgstr "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ!\"3$%^&*()_+{}:@~<>?"
+
+#.
+#. * Not used in C locale: this string can contain a third set of characters
+#. * at another 'shift level'.  It can be used to provide a second/alternate
+#. * glyph/character set for the locale, separately or in conjunction with
+#. * 'level 3'.  At the translator's discretion, accented characters can be
+#. * placed here and in 'level 3' as well.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:862
+msgctxt "level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * For locales which need an even larger character set, or offer uppercase versions
+#. * of the 'level2' characters, add them to 'level 3'
+#. *
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:871
+msgctxt "level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#.
+#. * Note to Translators: the following strings should contain your LANG/locale's
+#. * alphabet or, in the case of LANGs with a very large glyph set, a set of
+#. * character-primitives which can be used to compose your language's character set.
+#. * This string should contain all of the glyphs in the "abcde..." strings in context level #
+#. * but they should appear in 'frequency order', that is, the most frequently occurring
+#. * characters in your locale should appear at the front of the list.
+#. * (Put digits after characters, and punctuation last).
+#. * If level 0 and level 1 refer to upper-and-lower-case in your locale,
+#. * the characters in these two strings should occur in the same relative order.
+#.
+#: ../gok/gok-keyboard.c:918
+msgctxt "freq-level 0"
+msgid "etaonrishdlfcmugypwbvkxjqz`1234567890-=\\[];'<,./"
+msgstr "оеанитслвркёмудпяыьгзбчйжшхюцщэфъ`1234567890-=\\[];'<,./"
+
+#: ../gok/gok-keyboard.c:919
+msgctxt "freq-level 1"
+msgid "ETAONRISHDLFCMUGYPWBVKXJQZ~!@#$%^&*()_+|{}:\"><>?"
+msgstr "ОЕАНИТСЛВРКЁМУДПЯЫЬГЗБЧЙЖШХЮЦЩЭФЪ~!@#$%^&*()_+|{}:\"><>?"
+
+#.
+#. * Seldom-used or alternate characters can appear in levels 2 and 3 if necessary.
+#. *
+#. * Important: Do not translate "no-level-2". This string is intended as a
+#. * placeholder to signal GOK that 'level 2' is not used. If your locale doesn't
+#. * require 'level 2' characters, set the msgstr to "no-level-2".
+#.
+#: ../gok/gok-keyboard.c:927
+msgctxt "freq-level 2"
+msgid "no-level-2"
+msgstr "no-level-2"
+
+#.
+#. * Important: Do not translate "no-level-3". This string is intended as a
+#. * placeholder to signal GOK that 'level 3' is not used. If your locale doesn't
+#. * require 'level 3' characters, set the msgstr to "no-level-3".
+#.
+#: ../gok/gok-keyboard.c:933
+msgctxt "freq-level 3"
+msgid "no-level-3"
+msgstr "no-level-3"
+
+#. change the name of the window to the keyboard name
+#: ../gok/gok-keyboard.c:1916
+msgid "GOK - "
+msgstr "GOK - "
+
+#: ../gok/gok-keyboard.c:2790
+msgid "GUI"
+msgstr "GUI"
+
+#. translators: "table" as in row/column data structure
+#: ../gok/gok-keyboard.c:2795 ../gok/gok-spy.c:1784
+msgid "Table"
+msgstr "Таблица"
+
+#: ../gok/gok-keyboard.c:2800 ../main.kbd.in.h:9
+msgid "Toolbars"
+msgstr "Панель инструментов"
+
+#: ../gok/gok-keyboard.c:2804
+msgid "Applications"
+msgstr "Приложения"
+
+#: ../gok/gok-keyboard.c:2814
+msgid "Menu"
+msgstr "Меню"
+
+#. please!
+#: ../gok/gok-keyboard.c:3626 ../gok/gok-sound.c:49 ../gok/main.c:1941
+#: ../main.kbd.in.h:4
+msgid "GOK"
+msgstr "GOK"
+
+#: ../gok/gok-keyboard.c:3630
+msgid "Dynamic virtual keyboards for the GNOME desktop"
+msgstr "Динамические виртуальные клавиатуры для рабочей среды Гном"
+
+#: ../gok/gok-keyboard.c:3632
+msgid "translator-credits"
+msgstr ""
+"Николай В. Шмырёв <nshmyrev@yandex.ru>\n"
+"Дмитрий Яценко <d.yacenko@gmail.com>"
+
+#: ../gok/gok-keyboard.c:3634
+msgid "Full Credits"
+msgstr "Благодарности"
+
+#: ../gok/gok-keyboard.c:3636
+msgid "About GOK"
+msgstr "О программе"
+
+#: ../gok/gok-libusb.c:162
+#, c-format
+msgid "can't initialize the libusb backend - %s"
+msgstr "не удалось включить подсистему libusb - %s"
+
+#: ../gok/gok-libusb.c:190
+#, c-format
+msgid "gok-libusb.c: found device with VID:PID pair %x:%x"
+msgstr "gok-libusb.c: найдено устройство с идентификатором VID:PID %x:%x"
+
+#: ../gok/gok-libusb.c:201
+#, c-format
+msgid "could not find device with VID:PID pair %x:%x."
+msgstr "не удалось найти устройство с идентификатором VID:PID %x:%x"
+
+#. FIXME: print the full path for dev->filename
+#: ../gok/gok-libusb.c:213
+#, c-format
+msgid "there are incorrect permissions on %s"
+msgstr "права доступа к %s некорректны"
+
+#: ../gok/gok-libusb.c:302
+#, c-format
+msgid "no suitable USB endpoints found in device %x:%x"
+msgstr "Устройство %x:%x не имеет подходящих возможностей"
+
+#: ../gok/gok-scanner.c:1007
+msgid "error reading description"
+msgstr "при чтении описания произошла ошибка"
+
+#.
+#. * i18n: "Key Feedback" is a sound event description. The string
+#. * doesn't appear in the user interface, it is part of the metadata
+#. * attached to sounds coming from GOK. Sounds are played whenever
+#. * a key on the virtual keyboard is pressed.
+#.
+#: ../gok/gok-sound.c:58
+msgid "Key Feedback"
+msgstr "Реакция на кнопки"
+
+#. translators: abbreviated version of "Vertical Scrollbar"
+#: ../gok/gok-spy.c:1701
+msgid "V Scrollbar"
+msgstr "Верт. Прокр."
+
+#. translators: abbreviated version of "Horizontal Scrollbar"
+#: ../gok/gok-spy.c:1706
+msgid "H Scrollbar"
+msgstr "Гориз. Прокр."
+
+#. create the 'new action name' dialog
+#: ../gok/gok-page-actions.c:375 ../gok/gok-page-actions.c:415
+#: ../gok/gok-page-actions.c:435
+msgid "GOK Action Name"
+msgstr "Действий GOK"
+
+#. add a text label
+#: ../gok/gok-page-actions.c:381
+msgid "Change the action name:"
+msgstr "Изменить действие:"
+
+#: ../gok/gok-page-actions.c:413
+msgid ""
+"Action name can't be empty.\n"
+"Please enter a new action name."
+msgstr ""
+"Название действия не может быть пустым.\n"
+"Пожалуйста, назовите действие."
+
+#: ../gok/gok-page-actions.c:433
+msgid ""
+"Sorry, that action name already exists.\n"
+"Please enter a new action name"
+msgstr ""
+"Такое действие уже существует.\n"
+"Выберите другое имя"
+
+#: ../gok/gok-page-actions.c:487
+#, c-format
+msgid "New Action %d"
+msgstr "Создать действие %d"
+
+#: ../gok/gok-page-actions.c:550
+#, c-format
+msgid "Do you wish to delete this action (%s)?"
+msgstr "Удалить это действие (%s)?"
+
+#: ../gok/gok-page-actions.c:559
+msgid "GOK Delete Action"
+msgstr "Удалить действие GOK"
+
+#. create the 'new feedbacks name' dialog
+#: ../gok/gok-page-feedbacks.c:413 ../gok/gok-page-feedbacks.c:453
+#: ../gok/gok-page-feedbacks.c:473
+msgid "GOK Feedback Name"
+msgstr "Реакция GOK"
+
+#. add a text label
+#: ../gok/gok-page-feedbacks.c:419
+msgid "Change the feedback name:"
+msgstr "Изменить имя реакции:"
+
+#: ../gok/gok-page-feedbacks.c:451
+msgid ""
+"Feedback name can't be empty.\n"
+"Please enter a new feedback name."
+msgstr ""
+"Имя реакции не может быть пустым.\n"
+"Пожалуйста, введите новое имя реакции."
+
+#: ../gok/gok-page-feedbacks.c:471
+msgid ""
+"Sorry, that feedback name already exists.\n"
+"Please enter a new feedback name"
+msgstr ""
+"Реакция с таким именем уже существует.\n"
+"Пожалуйста, введите новое имя"
+
+#: ../gok/gok-page-feedbacks.c:523
+#, c-format
+msgid "New Feedback %d"
+msgstr "Создать реакцию %d"
+
+#: ../gok/gok-page-feedbacks.c:639
+#, c-format
+msgid "Do you wish to delete this feedback (%s)?"
+msgstr "Вы действительно хотите удалить эту реакцию (%s)?"
+
+#: ../gok/gok-page-feedbacks.c:648
+msgid "GOK Delete Feedback"
+msgstr "Удалить реакцию GOK"
+
+#. create the file selector dialog
+#: ../gok/gok-page-feedbacks.c:871
+msgid "Select sound file"
+msgstr "Выбор звукового файла"
+
+#: ../gok/gok-page-keyboard.c:215
+msgid "Enter directory to search for additional GOK keyboard files."
+msgstr "Введите каталог для поиска дополнительных "
+
+#: ../gok/gok-page-keyboard.c:249
+msgid "Select the XML file defining your startup compose keyboard"
+msgstr ""
+"Выберите файл в формате XML, описывающий начальную конфигурацию клавиатуры"
+
+#: ../gok/gok-page-keysizespace.c:82
+msgid "Button"
+msgstr "Кнопка"
+
+#: ../gok/gok-windowlister.c:216
+msgid "Window List"
+msgstr "Список окон"
+
+#: ../gok/gok-utf8-word-complete.c:121
+#, c-format
+msgid "Could not read contents of dictionary file '%s'\n"
+msgstr "Не удается прочитать содержимое файла со словарем \"%s\"\n"
+
+#: ../gok/main.c:209
+msgid ""
+"Use the specified access method. NAME is a string and can be found in the "
+"various access method files (.xam) assigned to the \"name\" property of <gok:"
+"accessmethod> tag. Note this is not necessarily the same as the name of the ."
+"xam file. (See --list-accessmethods)"
+msgstr ""
+"Использовать заданную вспомогательную технологию. ИМЯ должно быть строкой, "
+"содержащейся в различных файлах с описаниями технологий (.xam), в качестве "
+"свойства \"name\" элемента <gok:accessmethod>. Заметьте, что это имя может "
+"не совпадать с именем файла xam. Дляполучения списка имен смотрите параметр "
+"--list-accessmethods."
+
+#: ../gok/main.c:210
+msgid "NAME"
+msgstr "ИМЯ"
+
+#: ../gok/main.c:218
+msgid "Start the GOK keyboard editor"
+msgstr "Запустить редактор клавиатуры GOK"
+
+#: ../gok/main.c:226
+msgid "Use special, but possibly unstable, gok stuff"
+msgstr "Использовать дополнительные, даже недоработанные, возможности GOK"
+
+#: ../gok/main.c:234
+msgid ""
+"Whenever --geometry is not used gok remembers its position between "
+"invocations and starts in the position that it had when it was last "
+"shutdown.  When --geometry is used gok positions itself within the "
+"rectangular area of screen described by the given X11 geometry "
+"specification.  When --geometry is used gok does not remember its position "
+"when it shuts down.  This behaviour can be changed with the --"
+"remembergeometry flag which forces gok to remember its position when "
+"shutdown even when it was started with --geometry."
+msgstr ""
+"Когда не используется параметр --geometry, GOK запоминает свое расположение "
+"на экране при предыдущем запуске и восстанавливает это расположение Когда "
+"задан параметр --geometry, он используется для задания прямоуголной области "
+"экрана в виде, привычном для задания геометрии в X11. Когда параметр --"
+"geometry используется, GOK не запоминает последнее расположение при "
+"закрытии. Такое поведение может быть изменено при помощи параметра --"
+"remembergeometry, который заставляет GOK запомнить положение на экране даже "
+"если он был запущен с ключём --geometry."
+
+#: ../gok/main.c:235
+msgid "GEOMETRY"
+msgstr "ГЕОМЕТРИЯ"
+
+#: ../gok/main.c:243
+msgid "Use the specified input device"
+msgstr "Использовать заданное устройство ввода"
+
+#: ../gok/main.c:244
+msgid "DEVICENAME"
+msgstr "УСТРОЙСТВО"
+
+#: ../gok/main.c:252
+msgid "Start GOK with the specified keyboard."
+msgstr "Запустить GOK с заданной клавиатурой."
+
+#: ../gok/main.c:253
+msgid "KEYBOARDNAME"
+msgstr "КЛАВИАТУРА"
+
+#: ../gok/main.c:261
+msgid "List the access methods that can be used as options to other arguments."
+msgstr ""
+"Вывести список вспомогательных технологий, доступных для использования."
+
+#: ../gok/main.c:270
+msgid "List the actions that can be used as options to other arguments."
+msgstr "Вывести список действий, доступных для использования"
+
+#: ../gok/main.c:279
+msgid "GOK will be used to login"
+msgstr "Использовать GOK для входа в систему"
+
+#: ../gok/main.c:289
+msgid "GOK will display keys for nameless GUI. Useful for debugging."
+msgstr "GOK будет отображать клавиши для безымянного GUI. Удобно для отладки."
+
+#: ../gok/main.c:299
+msgid ""
+"Can be used with --geometry.  Forces GOK to remember its position when "
+"shutdown even when it was started with --geometry.  Please see the "
+"discussion under the --geometry flag for more information."
+msgstr ""
+"Может быть использован с параметром --geometry. Заставляет GOK запоминать "
+"расположение на экране при выходе, даже если параметр --geometry был задан. "
+"Дополнительные сведения содержася в описании параметра --geometry."
+
+#: ../gok/main.c:310
+msgid "Start GOK and hook this action to scan operations. (See --list-actions)"
+msgstr ""
+"Запустить GOK и использовать действие дял сканирования. (Смотрите также --"
+"list-actions)"
+
+#: ../gok/main.c:320
+msgid ""
+"Start GOK and hook this action to select operations. (See --list-actions)"
+msgstr ""
+"Запустить GOK и использовать это действие для выделения. (Смотрите также --"
+"list-actions)"
+
+#: ../gok/main.c:329
+msgid "Open the settings dialog box when GOK starts"
+msgstr "Открыть диалог параметров при запуске"
+
+#: ../gok/main.c:339
+msgid ""
+"Use libusb for input events and use the device with the specified USB Vendor "
+"ID (VID) and Product ID (PID)."
+msgstr ""
+"Использует libusb для обработки поступающих событий и устройство с заданным "
+"производителем (VID) и кодом продукта (PID)."
+
+#: ../gok/main.c:358
+msgid "Attempt to use GOK without the system mouse"
+msgstr "Использовать GOK без использования мыши"
+
+#: ../gok/main.c:367
+msgid "Disable automatic keyboard branching"
+msgstr "Выключить автоматическое разделение клавиатуры"
+
+#: ../gok/main.c:668
+msgid "The GNOME On-screen Keyboard"
+msgstr "Экранная клавиатура для среды Гном"
+
+#: ../gok/main.c:766
+msgid "Unsupported geometry specification"
+msgstr "Неподдерживаемая спецификация расположения"
+
+#: ../gok/main.c:767
+msgid ""
+"Currently GOK requires that the x, y, width and height all be given. Sorry, "
+"your geometry specification will not be used."
+msgstr ""
+"GOK требует задания всех значений: координат x, y, ширины и высоты. "
+"Извините, ваша спецификация расположения не будет использована."
+
+#: ../gok/main.c:863
+msgid "XKB extension is required."
+msgstr "Требуется расширение XKB."
+
+#: ../gok/main.c:873
+msgid "Can't initialize actions."
+msgstr "Не удалось инициализировать действия."
+
+#: ../gok/main.c:883
+msgid "Can't initialize feedbacks."
+msgstr "Не удалось инициализировать реакции."
+
+#: ../gok/main.c:928 ../gok/main.c:937
+msgid "Can't initialize the libusb backend - can't parse USB VID:PID pair"
+msgstr ""
+"Не удалось запустить подсистему libusb - некорректный формат пары VID:PID"
+
+#: ../gok/main.c:953
+msgid "Can't create the main GOK window!"
+msgstr "Не удалось создать главное окно GOK!"
+
+#: ../gok/main.c:972
+msgid "Can't create the settings dialog window!"
+msgstr "Не удалось создать диалог параметров!"
+
+#: ../gok/main.c:1033
+msgid "No keyboards to display!"
+msgstr "Нет отображаемых клавиатур!"
+
+#. Translators: short version User Interface Grab, used to grab GUI buttons etc.
+#: ../gok/main.c:1170 ../main.kbd.in.h:11
+msgid "UI Grab"
+msgstr "Снимок"
+
+#: ../gok/main.c:1187
+msgid "popup menu"
+msgstr "всплывающее меню"
+
+#: ../gok/main.c:2113
+msgid "Can't create a compose keyboard!"
+msgstr "Не удается создать клавиатуру ввода!"
+
+#: ../gok/main.c:2155
+msgid "Can't read any keyboards!"
+msgstr "Не удается прочитать ни один файл с описанием клавиатуры!"
+
+#: ../gok/main.c:2266
+msgid "Could not get access method directory key from GConf."
+msgstr ""
+"Не удается взять из GConf каталог с описаниями вспомогательных технологий."
+
+#: ../gok/main.c:2273
+msgid "Possibly unknown access method."
+msgstr "возможно неизвестная вспомогательная технология."
+
+#: ../gok/main.c:2829
+msgid "Sorry, GOK can't run"
+msgstr "Не удается запустить GOK"
+
+#: ../gok/main.c:2840
+msgid "GOK Fatal Error"
+msgstr "Неисправимая ошибка GOK"
+
+#: ../gok/main.c:2876
+msgid "GOK Error"
+msgstr "Ошибка GOK"
+
+#: ../gok/main.c:2896
+msgid ""
+"GOK uses GConf 2 to store its settings and requires certain settings to be "
+"in GConf to run. GOK is currently unable to retrieve those settings. If this "
+"is the first time that you have run gok after installing it you may need to "
+"restart gconfd, you can use this command: 'gconftool-2 --shutdown' or log "
+"out and back in."
+msgstr ""
+"GOK использует GConf 2 для хранения параметров и требует, чтобы некоторые "
+"параметры обязательно присутствовали в GConf. Сейчас не удается прочитать их "
+"оттуда. Если это первый запуск GOK после установки, возможно, придется "
+"перезапустить программу gconfd. Вы можете использовать для этого команду: "
+"'gconftool-2 --shutdown' или выйти из сеанса и зайти снова."
+
+#: ../gok/main.c:3135
+msgid ""
+"GOK may not work properly, because it could not enable your desktop's "
+"'sticky keys' feature."
+msgstr ""
+"GOK возможно будет работать неправильно, так как не удалось активировать "
+"возможность обработки залипающих клавиш Вашей рабочей среды."
+
+#: ../gok/main.c:3142
+msgid "GOK has enabled Sticky Keys, which it requires.\n"
+msgstr ""
+"GOK активировал необходимую для корректной работы обработку залипающих "
+"клавиш.\n"
+
+#. post an error dialog
+#: ../gok/main.c:3160
+msgid "XKB display extension is missing."
+msgstr "Отсутствует расширение XKB."
+
+#: ../gok/main.c:3284
+msgid "Unable to open help file"
+msgstr "Невозможно открыть файл помощи"
+
+#: ../gok/main.c:3310
+msgid ""
+"The device you are using to operate GOK is also controlling the system "
+"pointer (or 'mouse pointer').  Conflicts with applications' use of the "
+"pointer may interfere with your ability to use applications or GOK.\n"
+"\n"
+"We strongly recommend configuring your input device as an 'Extended' input "
+"device instead; see GOK Help for more information."
+msgstr ""
+" Устройство, которым вы контролируете GOK, одновременно используется "
+"системой как основной указатель (или 'указатель мыши').  Конфликты с "
+"приложениями, использующими этот указатель могут повлиять на возможность "
+"использования этих приложений или самого GOK.\n"
+"\n"
+"Рекомендуется сконфигурировать Ваши устройства ввода как 'Расширенные'; "
+"Ознакомьтесь со справкой по GOK для получения дополнительной информации."
+
+#: ../gok/main.c:3316
+msgid ""
+"The device you are using to control GOK is also controlling the system "
+"pointer.\n"
+"\n"
+"To avoid conflict with applications' use of the pointer, GOK will now "
+"disconnect the device you are using from the system pointer for the duration "
+"of your GOK session.\n"
+"\n"
+"Alternatively, you may configure GOK to use another input device instead; "
+"see Help for details."
+msgstr ""
+"Используемое сейчас устройство одновременно управляет главным указателем X-"
+"сервера.\n"
+"\n"
+"Для избежания конфликтов с приложениями, использующими указатель, GOK "
+"отсоединит это устройство ввода от главного указателя на время Вашей "
+"сессии.\n"
+"\n"
+"Также вы можете настроить GOK для использования другого устройства ввода; "
+"для получения дополнительной информации смотрите справку по GOK."
+
+#. no longer used!
+#: ../gok/main.c:3323 ../gok/main.c:3326
+msgid "You appear to be configuring GOK to use 'core pointer' mode."
+msgstr "Видимо вы используете GOK в режиме основного указателя. "
+
+#: ../gok/main.c:3420
+msgid ""
+"Assistive Technology Support Is Not Enabled.\n"
+"\n"
+"You can start GOK without enabling support for assistive technologies. "
+"However, some of the features of the application might not be available.\n"
+"\n"
+"To enable support for assistive technologies and log in to a new session "
+"with the change enabled, click Enable and Log Out.\n"
+"\n"
+"To continue using GOK, click Continue.\n"
+"\n"
+"To quit GOK, click Close.\n"
+"\n"
+msgstr ""
+"Поддержка вспомогательных технологий не включена.\n"
+"\n"
+"Вы можете запустить программу GOK и без них. Но, при этом некоторые "
+"возможности могут быть недоступны.\n"
+"\n"
+"Для включения поддержки вспомогательных технологий и выхода из сеанса с "
+"изменённым состоянием, нажмите \"Включить и завершить сеанс\". После этого "
+"зайдите в сеанс заново.\n"
+"\n"
+"Чтобы продолжить использование GOK, нажмите \"продолжить\".\n"
+"\n"
+"Для выхода из GOK, нажмите \"Закрыть\".\n"
+"\n"
+
+#: ../gok/main.c:3439
+msgid "Enable and Log Out"
+msgstr "Включить и завершить сеанс"
+
+#: ../gok/main.c:3451
+msgid "Continue"
+msgstr "Продолжить"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:2 ../singlekey-inverse-scanning.xml.in.h:2
+#: ../directed.xml.in.h:2
+msgid "(100s of a second)"
+msgstr "(сотые доли секунды)"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:18
+msgid "Inverse Scanning"
+msgstr "Обратное сканирование"
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:28 ../singlekey-inverse-scanning.xml.in.h:26
+msgid "Press and hold a switch to scan.  Press another switch to select."
+msgstr ""
+"Нажмите и держите переключатель для сканирования. Нажмите другой "
+"преключатель для выбора."
+
+#. User interface for the access method
+#: ../inverse-scanning.xml.in.h:36 ../singlekey-inverse-scanning.xml.in.h:34
+msgid "Scan:"
+msgstr "Сканирование:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:36
+msgid "Single Key Automatic Scanning"
+msgstr "Автоматическое сканирование одной клавишей"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:38
+msgid "Start Scanning:"
+msgstr "Начало сканирования:"
+
+#. User interface for the access method
+#: ../singlekey-automatic-scanning.xml.in.h:44
+msgid "Wrap Row/Columns"
+msgstr "Переносить строки/столбцы"
+
+#. User interface for the access method
+#: ../singlekey-inverse-scanning.xml.in.h:38
+msgid "Single Key Inverse Scanning"
+msgstr "Обратное сканирование одной клавишей"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:4
+msgid "5 Switch Directed"
+msgstr "5ый переключатель нажат"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:10
+msgid "Down:"
+msgstr "Вниз:"
+
+#. User interface for the access method
+#: ../directed.xml.in.h:18
+msgid "Move the highlighter in 4 directions.  Select key."
+msgstr "Перемещайте подсветку во всех четырёх направлениях. Выберите клавишу."
+
+#. User interface for the access method
+#: ../directed.xml.in.h:34
+msgid "Up:"
+msgstr "Вверх:"
+
+#: ../hide.kbd.in.h:1
+msgid "Show"
+msgstr "Показать"
+
+#: ../launcher.kbd.in.h:1
+msgid "Help Browser"
+msgstr "Справка"
+
+#: ../launcher.kbd.in.h:2
+msgid "Terminal"
+msgstr "Терминал"
+
+#: ../launcher.kbd.in.h:3
+msgid "Text Editor"
+msgstr "Редактор"
+
+#: ../launcher.kbd.in.h:4
+msgid "Web Browser"
+msgstr "Обозреватель"
+
+#. Translators: one word meaning: to enter text.
+#: ../main.kbd.in.h:3
+msgid "Compose"
+msgstr "Ввод"
+
+#. Translators: launcher, as in launching/running programs
+#: ../main.kbd.in.h:6
+msgid "Launcher"
+msgstr "Запуск программ"
+
+#: ../main.kbd.in.h:8
+msgid "Mouse"
+msgstr "Мышь"
+
+#: ../mouse.kbd.in.h:1
+msgid "Button 1"
+msgstr "Кнопка 1"
+
+#: ../mouse.kbd.in.h:2
+msgid "Button 2"
+msgstr "Кнопка 2"
+
+#: ../mouse.kbd.in.h:3
+msgid "Button 3"
+msgstr "Кнопка 3"
+
+#: ../mouse.kbd.in.h:4
+msgid "Dbl Click"
+msgstr "Двойной щелчок"
+
+#. Translators: verb.
+#: ../mouse.kbd.in.h:6
+msgid "Latch"
+msgstr "Запереть"
+
+#: ../mouse.kbd.in.h:7
+msgid "Pointer"
+msgstr "Указатель"
+
+#: ../mouse.kbd.in.h:8
+msgid "Repeat"
+msgstr "Повторить"
+
+#: ../move-resize.kbd.in.h:7
+msgid "Fill"
+msgstr "Заполнить"
+
+#: ../move-resize.kbd.in.h:8
+msgid "Float"
+msgstr "Плавающая"
+
+#: ../move-resize.kbd.in.h:12
+msgid "Narrower"
+msgstr "Теснее"
+
+#: ../move-resize.kbd.in.h:13
+msgid "Repeat Next Key"
+msgstr "Повторить следующую клавишу"
+
+#. Translators: shorter as in height.
+#: ../move-resize.kbd.in.h:17
+msgid "Shorter"
+msgstr "Меньше"
+
+#: ../move-resize.kbd.in.h:18
+msgid "Taller"
+msgstr "Выше"
+
+#: ../move-resize.kbd.in.h:21
+msgid "Wider"
+msgstr "Шире"
+
+#: ../numberpad.kbd.in.h:1
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: ../numberpad.kbd.in.h:2
+msgid "Del"
+msgstr "Del"
+
+#: ../numberpad.kbd.in.h:7
+msgid "Ins"
+msgstr "Ins"
+
+#: ../numberpad.kbd.in.h:9
+msgid "Num"
+msgstr "Num"
+
+#. Translators: abbreviation for Page Down.
+#: ../numberpad.kbd.in.h:11
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Translators: abbreviation for Page Up.
+#: ../numberpad.kbd.in.h:13
+msgid "PgUp"
+msgstr "PgUp"
+
+#: ../numberpad.kbd.in.h:15
+msgid "Shift"
+msgstr "Shift"
+
+#: ../numberpad.kbd.in.h:17
+msgid "Tab&lt;-"
+msgstr "Tab&lt;-"
+
+#. Translators: short phrase to confirm that user wants to quit.
+#: ../quit.kbd.in.h:2
+msgid "Really Quit!"
+msgstr "Действительно выйти?"
+
+#~ msgid "Additional directory to search for GOK keyboard files"
+#~ msgstr "Дополнительный каталог для поиска файлов описаний клавиатур GOK"
+
+#~ msgid "gok: Unsupported geometry specification\n"
+#~ msgstr "GOK: некорректное расположение\n"
+
+#~ msgid ""
+#~ "gok: Currently GOK requires that the x, y, width and height all be given\n"
+#~ msgstr ""
+#~ "gok: Требуется задать все значения: координаты уголовой точки, ширину и "
+#~ "высоту\n"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "AccessMethodName"
+#~ msgstr "ИмяВозможности"
+
+#~ msgid "Wrap"
+#~ msgstr "Перенос"

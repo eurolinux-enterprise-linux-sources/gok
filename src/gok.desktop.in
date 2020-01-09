@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=On-Screen Keyboard
+_Comment=Navigate applications and type using alternative input devices
+Exec=gok
+Terminal=false
+Type=Application
+Icon=gok
+Categories=GNOME;GTK;Utility;Accessibility;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gok
+X-GNOME-Bugzilla-Component=general

@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>command-edge</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.75.1">
+<link rel="home" href="index.html" title="GOK - Gnome Onscreen Keyboard">
+<link rel="up" href="ch04.html" title="Command Prediction">
+<link rel="prev" href="gok-command-edge-data.html" title="command-edge-data">
+<link rel="next" href="gok-command-graph.html" title="command-graph">
+<meta name="generator" content="GTK-Doc V1.11 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="GOK Internal API">
+<link rel="chapter" href="ch02.html" title="Hardware Interfacing">
+<link rel="chapter" href="ch03.html" title="Preferences GUI">
+<link rel="chapter" href="ch04.html" title="Command Prediction">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="gok-command-edge-data.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch04.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">GOK - Gnome Onscreen Keyboard</th>
+<td><a accesskey="n" href="gok-command-graph.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#gok-command-edge.synopsis" class="shortcut">Top</a>
+                 | 
+                <a href="#gok-command-edge.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry" title="command-edge">
+<a name="gok-command-edge"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gok-command-edge.top_of_page"></a>command-edge</span></h2>
+<p>command-edge</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv" title="Synopsis">
+<a name="gok-command-edge.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+const <a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>       <a class="link" href="gok-command-edge.html#command-edge-equals" title="command_edge_equals ()">command_edge_equals</a>                 (const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> edge_1,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> edge_2);
+void                <a class="link" href="gok-command-edge.html#command-edge-free" title="command_edge_free ()">command_edge_free</a>                   (const Command_Edge edge);
+Command_Edge        <a class="link" href="gok-command-edge.html#command-edge-create" title="command_edge_create ()">command_edge_create</a>                 (const Command_Vertex next_vertex,
+                                                         const Command_Edge_Data edge_data);
+void                <a class="link" href="gok-command-edge.html#command-edge-set-edge-data" title="command_edge_set_edge_data ()">command_edge_set_edge_data</a>          (const Command_Edge edge,
+                                                         const Command_Edge_Data edge_data);
+const Command_Edge_Data  <a class="link" href="gok-command-edge.html#command-edge-get-edge-data" title="command_edge_get_edge_data ()">command_edge_get_edge_data</a>     (const Command_Edge edge);
+const Command_Vertex  <a class="link" href="gok-command-edge.html#command-edge-get-next-vertex" title="command_edge_get_next_vertex ()">command_edge_get_next_vertex</a>      (const Command_Edge edge);
+void                <a class="link" href="gok-command-edge.html#command-edge-dump-text" title="command_edge_dump_text ()">command_edge_dump_text</a>              (const Command_Edge edge,
+                                                         FILE *stream);
+void                <a class="link" href="gok-command-edge.html#command-edge-dump-binary" title="command_edge_dump_binary ()">command_edge_dump_binary</a>            (const Command_Edge edge,
+                                                         FILE *stream);
+</pre>
+</div>
+<div class="refsect1" title="Description">
+<a name="gok-command-edge.description"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" title="Details">
+<a name="gok-command-edge.details"></a><h2>Details</h2>
+<div class="refsect2" title="command_edge_equals ()">
+<a name="command-edge-equals"></a><h3>command_edge_equals ()</h3>
+<pre class="programlisting">const <a class="link" href="gok-arraylist.html#Boolean" title="Boolean">Boolean</a>       command_edge_equals                 (const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> edge_1,
+                                                         const <a class="link" href="gok-arraylist.html#Object" title="Object">Object</a> edge_2);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge_1</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge_2</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_edge_free ()">
+<a name="command-edge-free"></a><h3>command_edge_free ()</h3>
+<pre class="programlisting">void                command_edge_free                   (const Command_Edge edge);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>edge</code></em> :</span></p></td>
+<td>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_edge_create ()">
+<a name="command-edge-create"></a><h3>command_edge_create ()</h3>
+<pre class="programlisting">Command_Edge        command_edge_create                 (const Command_Vertex next_vertex,
+                                                         const Command_Edge_Data edge_data);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>next_vertex</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge_data</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_edge_set_edge_data ()">
+<a name="command-edge-set-edge-data"></a><h3>command_edge_set_edge_data ()</h3>
+<pre class="programlisting">void                command_edge_set_edge_data          (const Command_Edge edge,
+                                                         const Command_Edge_Data edge_data);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge_data</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_edge_get_edge_data ()">
+<a name="command-edge-get-edge-data"></a><h3>command_edge_get_edge_data ()</h3>
+<pre class="programlisting">const Command_Edge_Data  command_edge_get_edge_data     (const Command_Edge edge);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_edge_get_next_vertex ()">
+<a name="command-edge-get-next-vertex"></a><h3>command_edge_get_next_vertex ()</h3>
+<pre class="programlisting">const Command_Vertex  command_edge_get_next_vertex      (const Command_Edge edge);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_edge_dump_text ()">
+<a name="command-edge-dump-text"></a><h3>command_edge_dump_text ()</h3>
+<pre class="programlisting">void                command_edge_dump_text              (const Command_Edge edge,
+                                                         FILE *stream);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>stream</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" title="command_edge_dump_binary ()">
+<a name="command-edge-dump-binary"></a><h3>command_edge_dump_binary ()</h3>
+<pre class="programlisting">void                command_edge_dump_binary            (const Command_Edge edge,
+                                                         FILE *stream);</pre>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>edge</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>stream</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.11</div>
+</body>
+</html>
